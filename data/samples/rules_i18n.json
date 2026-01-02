@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "unit_key": "present_simple",
+      "rule_text_en": "Use Present Simple for routines and facts. Add -s/-es for he/she/it.",
+      "rule_text_uk": "Present Simple використовуємо для звичок і фактів. Для he/she/it додаємо -s/-es.",
+      "rule_short_en": "Routines/facts; add -s/-es for he/she/it.",
+      "rule_short_uk": "Звички/факти; -s/-es для he/she/it.",
+      "examples": [
+        "I work every day.",
+        "She works every day."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "exercises": [
+    {
+      "unit_key": "present_simple",
+      "exercise_index": 1,
+      "exercise_type": "freetext",
+      "instruction": "Complete the sentence with the correct form.",
+      "items": [
+        {
+          "prompt": "He ____ (work) every day.",
+          "canonical": "works",
+          "accepted_variants": [
+            "workes"
+          ],
+          "options": null
+        },
+        {
+          "prompt": "They ____ (play) football on Sundays.",
+          "canonical": "play",
+          "accepted_variants": [],
+          "options": null
+        },
+        {
+          "prompt": "I ____ (like) coffee.",
+          "canonical": "like",
+          "accepted_variants": [],
+          "options": null
+        }
+      ]
+    },
+    {
+      "unit_key": "present_simple",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "She ____ TV in the evening.",
+          "canonical": "watches",
+          "accepted_variants": [],
+          "options": [
+            "watch",
+            "watches",
+            "watching",
+            "watched"
+          ]
+        },
+        {
+          "prompt": "We ____ to school by bus.",
+          "canonical": "go",
+          "accepted_variants": [],
+          "options": [
+            "go",
+            "goes",
+            "gone",
+            "going"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "present_simple",
+      "exercise_index": 3,
+      "exercise_type": "freetext",
+      "instruction": "Type the missing word.",
+      "items": [
+        {
+          "prompt": "My brother ____ (study) English.",
+          "canonical": "studies",
+          "accepted_variants": [],
+          "options": null
+        },
+        {
+          "prompt": "It ____ (rain) a lot here.",
+          "canonical": "rains",
+          "accepted_variants": [],
+          "options": null
+        }
+      ]
+    },
+    {
+      "unit_key": "present_simple",
+      "exercise_index": 4,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "I ____ up at 7.",
+          "canonical": "get",
+          "accepted_variants": [],
+          "options": [
+            "get",
+            "gets",
+            "got",
+            "getting"
+          ]
+        },
+        {
+          "prompt": "She ____ coffee.",
+          "canonical": "likes",
+          "accepted_variants": [],
+          "options": [
+            "like",
+            "likes",
+            "liked",
+            "liking"
+          ]
+        }
+      ]
+    }
+  ]
+}

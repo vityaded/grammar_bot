@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "order_index": 1,
+      "unit_key": "present_simple",
+      "prompt": "Choose the correct sentence.",
+      "instruction": "Select ONE option.",
+      "item_type": "mcq",
+      "options": [
+        "She go to school every day.",
+        "She goes to school every day.",
+        "She going to school every day.",
+        "She gone to school every day."
+      ],
+      "canonical": "She goes to school every day.",
+      "accepted_variants": [
+        "She goes to school every day"
+      ]
+    },
+    {
+      "order_index": 2,
+      "unit_key": "articles",
+      "prompt": "Choose TWO correct options (multi-select).",
+      "instruction": "Pick TWO options.",
+      "item_type": "multiselect",
+      "options": [
+        "a cat",
+        "an cat",
+        "the cat",
+        "cat"
+      ],
+      "canonical": "a cat, the cat",
+      "accepted_variants": []
+    },
+    {
+      "order_index": 3,
+      "unit_key": "past_simple",
+      "prompt": "Fill the gap: Yesterday I ____ to the shop.",
+      "instruction": "Type the missing word.",
+      "item_type": "freetext",
+      "canonical": "went",
+      "accepted_variants": [
+        "Went"
+      ]
+    }
+  ]
+}
