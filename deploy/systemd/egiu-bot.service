@@ -1,0 +1,17 @@
+[Unit]
+Description=EGIU Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/egiu-bot
+Environment="BOT_TOKEN=__SET__"
+Environment="ADMIN_IDS=__SET__"
+Environment="DATABASE_URL=sqlite+aiosqlite:///./data/app.db"
+Environment="GEMINI_API_KEY=__OPTIONAL__"
+ExecStart=/opt/egiu-bot/.venv/bin/python -m src.bot.run
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
