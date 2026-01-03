@@ -1,10 +1,11 @@
 from __future__ import annotations
 import json
 import datetime as dt
+import secrets
 
 from aiogram import Dispatcher, F
 from aiogram.types import Message, CallbackQuery
-from aiogram.filters import CommandStart
+from aiogram.filters import Command, CommandStart
 from sqlalchemy import select, and_
 from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
 
@@ -13,7 +14,7 @@ from .models import (
     User, UserState, AccessRequest, PlacementItem, Attempt, WhyCache, DueItem,
     RuleI18n, UnitExercise, utcnow
 )
-from .keyboards import kb_admin_approve, kb_lang, kb_start_placement, kb_why_next
+from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next
 from .normalize import norm_text, norm_multiselect_raw
 from .grader import grade_freetext, grade_mcq, grade_multiselect, maybe_llm_regrade
 from .llm import LLMClient
@@ -237,6 +238,13 @@ def _due_item_type_from_ex(ex: UnitExercise) -> str:
 def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async_sessionmaker[AsyncSession]):
     llm = LLMClient(settings.gemini_api_key) if settings.gemini_api_key else None
 
+    @dp.message(Command("admin"))
+    async def on_admin(m: Message):
+        if m.from_user.id not in settings.admin_ids:
+            await m.answer("Forbidden")
+            return
+        await m.answer("Admin actions:", reply_markup=kb_admin_actions())
+
     @dp.message(CommandStart())
     async def on_start(m: Message):
         async with sessionmaker() as s:
@@ -265,6 +273,26 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 return
 
             await m.answer("Choose UI language:", reply_markup=kb_lang())
+
+    @dp.callback_query(F.data == "admin_invite")
+    async def admin_invite(c: CallbackQuery):
+        if c.from_user.id not in settings.admin_ids:
+            await c.answer("Forbidden", show_alert=True)
+            return
+        token = secrets.token_urlsafe(12)
+        start_token = f"INV_{token}"
+        try:
+            me = await c.bot.get_me()
+            username = me.username
+        except Exception:
+            username = None
+        if username:
+            link = f"https://t.me/{username}?start={start_token}"
+            msg = f"Invite link:\n{link}\n\nToken: {start_token}"
+        else:
+            msg = f"Invite token:\n{start_token}\n\nUse /start {start_token}"
+        await c.message.answer(msg)
+        await c.answer("Invite created")
 
     @dp.callback_query(F.data.startswith("lang:"))
     async def on_lang(c: CallbackQuery):

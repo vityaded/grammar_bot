@@ -16,6 +16,12 @@ def kb_admin_approve(req_id: int) -> InlineKeyboardMarkup:
     b.adjust(1)
     return b.as_markup()
 
+def kb_admin_actions() -> InlineKeyboardMarkup:
+    b = InlineKeyboardBuilder()
+    b.button(text="➕ Create invite link", callback_data="admin_invite")
+    b.adjust(1)
+    return b.as_markup()
+
 def kb_lang() -> InlineKeyboardMarkup:
     b = InlineKeyboardBuilder()
     b.button(text="Українська", callback_data="lang:uk")
