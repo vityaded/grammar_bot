@@ -11,7 +11,7 @@ This repo is a working starter that implements:
 ## 1) Requirements
 - Python 3.11+
 - Telegram bot token (BotFather)
-- (Optional) Gemini key for LLM fallback: `GEMINI_API_KEY`
+- (Optional) Gemini key for LLM fallback: `GOOGLE_API_KEY` (or legacy `GEMINI_API_KEY`)
 
 ## 2) Quick start (local)
 ```bash
@@ -19,13 +19,16 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-export BOT_TOKEN="..."
-export ADMIN_IDS="123456789,987654321"   # Telegram user ids (comma-separated)
-export DATABASE_URL="sqlite+aiosqlite:///./data/app.db"
-export GEMINI_API_KEY="..."              # optional but recommended
-
 python -m src.bot.init_db
 python -m src.bot.run
+```
+
+Create a `.env` file (plain `KEY=VALUE` lines, no `export`):
+```
+BOT_TOKEN=...
+ADMIN_IDS=123456789,987654321
+DATABASE_URL=sqlite+aiosqlite:///./data/app.db
+GOOGLE_API_KEY=...
 ```
 
 ## 3) Load content
@@ -61,4 +64,3 @@ Sample datasets are included in `data/samples/`.
    - Share your invite link that contains a token, e.g. `https://t.me/<bot>?start=INV_<token>`
    - Admin approves requests inside the bot.
 5) Add Alembic migrations (recommended) once schema stabilizes.
-

@@ -17,6 +17,9 @@ from .models import (
 from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next
 from .normalize import norm_text, norm_multiselect_raw
 from .grader import grade_freetext, grade_mcq, grade_multiselect, maybe_llm_regrade
+from .i18n import t
+from .due_flow import ensure_detours_for_units, complete_due_without_exercise
+from .exercise_generator import ensure_unit_exercise
 from .llm import LLMClient
 
 # ---------------- MarkdownV2 escape ----------------
@@ -100,7 +103,7 @@ async def _render_rule_message(s: AsyncSession, unit_key: str, ui_lang: str) -> 
         rule_text = r.rule_text_en or ""
     msg = ""
     if rule_text:
-        msg += f"*Правило:* {esc_md2(rule_text)}\n"
+        msg += f"*{esc_md2(t('rule_header', ui_lang))}* {esc_md2(rule_text)}\n"
     if r.examples_json:
         try:
             ex = json.loads(r.examples_json)
@@ -120,7 +123,7 @@ async def _render_rule_short(s: AsyncSession, unit_key: str, ui_lang: str) -> st
         rs = r.rule_short_en or r.rule_text_en or ""
     if not rs:
         return ""
-    return f"*Правило:* {esc_md2(rs)}"
+    return f"*{esc_md2(t('rule_header', ui_lang))}* {esc_md2(rs)}"
 
 def _feedback_text(verdict: str, user_answer_norm: str, canonical: str, ui_lang: str) -> str:
     # labels bold; verdict emoji + one word
@@ -133,7 +136,7 @@ def _feedback_text(verdict: str, user_answer_norm: str, canonical: str, ui_lang:
     # show user answer normalized and correct answer as inline code
     ua = esc_md2(user_answer_norm) if user_answer_norm else "—"
     ca = esc_md2(canonical)
-    return f"{v}\n*Your answer:* `{ua}`\n*Correct:* `{ca}`\n\n{esc_md2('натисніть ▶️ Далі або ❓ Чому' if ui_lang=='uk' else 'press ▶️ Next or ❓ Why')}"
+    return f"{v}\n*{esc_md2(t('your_answer', ui_lang))}* `{ua}`\n*{esc_md2(t('correct_answer', ui_lang))}* `{ca}`\n\n{esc_md2(t('press_next', ui_lang))}"
 
 def _parse_options(options_json: str | None) -> list[str]:
     if not options_json:
@@ -155,6 +158,30 @@ def _parse_accepted(accepted_json: str) -> list[str]:
         pass
     return []
 
+def _parse_study_units(study_units_json: str | None, fallback_unit: str | None) -> list[str]:
+    if study_units_json:
+        try:
+            v = json.loads(study_units_json)
+            if isinstance(v, list) and v:
+                units: list[str] = []
+                for raw in v:
+                    if raw is None:
+                        continue
+                    if isinstance(raw, int):
+                        units.append(f"unit_{raw}")
+                    else:
+                        s = str(raw).strip()
+                        if not s:
+                            continue
+                        if s.isdigit():
+                            units.append(f"unit_{s}")
+                        else:
+                            units.append(s)
+                return units
+        except Exception:
+            pass
+    return [fallback_unit] if fallback_unit else []
+
 async def _ask_placement_item(m: Message, user: User, st: UserState, item: PlacementItem):
     instr = item.instruction or ""
     text = ""
@@ -174,10 +201,21 @@ async def _ask_placement_item(m: Message, user: User, st: UserState, item: Place
     st.last_placement_order = item.order_index
     st.updated_at = utcnow()
 
-async def _due_current_item(s: AsyncSession, due: DueItem) -> tuple[UnitExercise | None, dict | None]:
-    ex = (await s.execute(
-        select(UnitExercise).where(UnitExercise.unit_key==due.unit_key, UnitExercise.exercise_index==due.exercise_index)
-    )).scalar_one_or_none()
+async def _due_current_item(
+    s: AsyncSession,
+    due: DueItem,
+    *,
+    llm: LLMClient | None,
+) -> tuple[UnitExercise | None, dict | None]:
+    try:
+        ex = await ensure_unit_exercise(
+            s,
+            unit_key=due.unit_key,
+            exercise_index=due.exercise_index,
+            llm_client=llm,
+        )
+    except ValueError:
+        return (None, None)
     if not ex:
         return (None, None)
     try:
@@ -192,17 +230,53 @@ async def _due_current_item(s: AsyncSession, due: DueItem) -> tuple[UnitExercise
         idx = len(items)-1
     return (ex, items[idx])
 
-async def _ask_due_item(m: Message, s: AsyncSession, user: User, st: UserState, due: DueItem, *, show_rule_first: bool):
+async def _handle_missing_due_content(
+    m: Message,
+    s: AsyncSession,
+    user: User,
+    st: UserState,
+    due: DueItem,
+    *,
+    llm: LLMClient | None,
+):
+    await complete_due_without_exercise(s, due=due)
+    next_due = await _next_due_item(s, user.id)
+    if next_due:
+        show_rule = next_due.kind in ("detour", "revisit")
+        await _ask_due_item(m, s, user, st, next_due, show_rule_first=show_rule, llm=llm)
+        await s.commit()
+        return
+    item = await _placement_next_item(s, st.last_placement_order)
+    if item:
+        await _ask_placement_item(m, user, st, item)
+        await s.commit()
+        return
+    st.mode = "idle"
+    st.pending_due_item_id = None
+    st.pending_placement_item_id = None
+    st.updated_at = utcnow()
+    await s.commit()
+    await m.answer("OK")
+
+async def _ask_due_item(
+    m: Message,
+    s: AsyncSession,
+    user: User,
+    st: UserState,
+    due: DueItem,
+    *,
+    show_rule_first: bool,
+    llm: LLMClient | None,
+):
     # If show_rule_first: send one message with rule+examples, then immediately ask first item (separate message).
     if show_rule_first:
         rule_msg = await _render_rule_message(s, due.unit_key, user.ui_lang)
         if rule_msg:
             await m.answer(rule_msg)
 
-    ex, it = await _due_current_item(s, due)
+    ex, it = await _due_current_item(s, due, llm=llm)
     if not ex or not it:
-        # no content -> stop
-        await m.answer("OK")
+        await _handle_missing_due_content(m, s, user, st, due, llm=llm)
         return
 
     instr = ex.instruction or ""
@@ -226,7 +300,7 @@ def _grade_item(item_type: str, user_answer: str, canonical: str, accepted: list
     if item_type == "multiselect":
         gr = grade_multiselect(user_answer, canonical, options, accepted)
     elif item_type == "mcq":
-        gr = grade_mcq(user_answer, canonical, accepted)
+        gr = grade_mcq(user_answer, canonical, accepted, options)
     else:
         gr = grade_freetext(user_answer, canonical, accepted)
     return (gr.verdict, gr.user_answer_norm)
@@ -269,10 +343,10 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                             select(AccessRequest).where(and_(AccessRequest.tg_user_id==user.id, AccessRequest.invite_token==token))
                         )).scalar_one()
                     await _send_admin_requests(s, settings, m, req)
-                await m.answer("Access required\\. Choose UI language:", reply_markup=kb_lang())
+                await m.answer(esc_md2(t("access_required", settings.ui_default_lang)), reply_markup=kb_lang())
                 return
 
-            await m.answer("Choose UI language:", reply_markup=kb_lang())
+            await m.answer(t("choose_lang", user.ui_lang), reply_markup=kb_lang())
 
     @dp.callback_query(F.data == "admin_invite")
     async def admin_invite(c: CallbackQuery):
@@ -312,7 +386,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 return
             user.ui_lang = lang
             await s.commit()
-        await c.message.answer("OK", reply_markup=kb_start_placement())
+        await c.message.answer("OK", reply_markup=kb_start_placement(lang))
         await c.answer()
 
     @dp.callback_query(F.data.startswith("admin_approve:"))
@@ -332,7 +406,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 user.is_approved = True
             await s.commit()
             try:
-                await c.bot.send_message(req.tg_user_id, "Approved\\. Choose UI language:", reply_markup=kb_lang())
+                await c.bot.send_message(req.tg_user_id, esc_md2(t("approved_choose_lang", settings.ui_default_lang)), reply_markup=kb_lang())
             except Exception:
                 pass
         await c.answer("Approved")
@@ -359,7 +433,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
                 # do not send any message before the exercise; show the exercise now (rule may appear for detour/revisit start when created; here due already exists)
-                await _ask_due_item(c.message, s, user, st, due, show_rule_first=(due.kind in ("detour","revisit") and due.item_in_exercise==1 and due.correct_in_exercise==0 and due.batch_num==1 and due.exercise_index==1))
+                await _ask_due_item(c.message, s, user, st, due, show_rule_first=(due.kind in ("detour","revisit") and due.item_in_exercise==1 and due.correct_in_exercise==0 and due.batch_num==1 and due.exercise_index==1), llm=llm)
                 await s.commit()
                 await c.answer()
                 return
@@ -383,6 +457,10 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 return
             st = await _get_or_create_state(s, user.id)
 
+            if st.mode == "await_next":
+                await m.answer(t("use_buttons", user.ui_lang))
+                return
+
             if st.mode == "placement" and st.pending_placement_item_id:
                 item = await s.get(PlacementItem, st.pending_placement_item_id)
                 if not item:
@@ -405,19 +483,21 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 s.add(att)
                 await s.commit()
                 st.last_attempt_id = att.id
+                st.pending_placement_item_id = None
+                st.mode = "await_next"
                 st.updated_at = utcnow()
                 await s.commit()
 
                 # show feedback + buttons only
                 fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang)
-                await m.answer(fb, reply_markup=kb_why_next(att.id, "placement_next"))
+                await m.answer(fb, reply_markup=kb_why_next(att.id, "placement_next", user.ui_lang))
                 return
 
             if st.mode in ("detour","revisit","check") and st.pending_due_item_id:
                 due = await s.get(DueItem, st.pending_due_item_id)
                 if not due or not due.is_active:
                     return
-                ex, it = await _due_current_item(s, due)
+                ex, it = await _due_current_item(s, due, llm=llm)
                 if not ex or not it:
                     return
                 item_type = ex.exercise_type
@@ -442,11 +522,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 s.add(att)
                 await s.commit()
                 st.last_attempt_id = att.id
+                st.pending_due_item_id = None
+                st.mode = "await_next"
                 st.updated_at = utcnow()
                 await s.commit()
 
                 fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang)
-                await m.answer(fb, reply_markup=kb_why_next(att.id, f"{due.kind}_next"))
+                await m.answer(fb, reply_markup=kb_why_next(att.id, f"{due.kind}_next", user.ui_lang))
                 return
 
     # ---------- WHY button ----------
@@ -552,34 +634,19 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     return
 
                 # wrong/almost -> schedule detour, but start detour only AFTER Next (this click).
-                # Create detour due item if not already active for this unit.
-                existing = (await s.execute(
-                    select(DueItem).where(
-                        DueItem.tg_user_id==user.id,
-                        DueItem.is_active==True,
-                        DueItem.kind=="detour",
-                        DueItem.unit_key==att.unit_key,
-                    ).order_by(DueItem.id.desc()).limit(1)
-                )).scalar_one_or_none()
-
-                if not existing:
-                    di = DueItem(
-                        tg_user_id=user.id,
-                        kind="detour",
-                        unit_key=att.unit_key or "",
-                        due_at=utcnow(),
-                        exercise_index=1,
-                        item_in_exercise=1,
-                        correct_in_exercise=0,
-                        batch_num=1,
-                        is_active=True,
-                    )
-                    s.add(di)
-                    await s.commit()
-                    existing = di
-
+                placement_item = await s.get(PlacementItem, att.placement_item_id or 0) if att.placement_item_id else None
+                unit_keys = _parse_study_units(
+                    placement_item.study_units_json if placement_item else None,
+                    att.unit_key,
+                )
+                await ensure_detours_for_units(s, tg_user_id=user.id, unit_keys=unit_keys)
+                next_due = await _next_due_item(s, user.id)
+                if not next_due:
+                    await c.message.answer("OK")
+                    await c.answer()
+                    return
                 # start detour: show rule then first item immediately
-                await _ask_due_item(c.message, s, user, st, existing, show_rule_first=True)
+                await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
                 await s.commit()
                 await c.answer()
                 return
@@ -591,7 +658,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     # go to next due/placement
                     di = await _next_due_item(s, user.id)
                     if di:
-                        await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1))
+                        await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
                         await s.commit()
                         await c.answer()
                         return
@@ -604,31 +671,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
 
                 # check special: if wrong and why did NOT flip -> detour on next
                 if due.kind == "check" and (not effective_correct):
-                    # start detour for this unit; same as placement
-                    existing = (await s.execute(
-                        select(DueItem).where(
-                            DueItem.tg_user_id==user.id,
-                            DueItem.is_active==True,
-                            DueItem.kind=="detour",
-                            DueItem.unit_key==due.unit_key,
-                        ).order_by(DueItem.id.desc()).limit(1)
-                    )).scalar_one_or_none()
-                    if not existing:
-                        di = DueItem(
-                            tg_user_id=user.id,
-                            kind="detour",
-                            unit_key=due.unit_key,
-                            due_at=utcnow(),
-                            exercise_index=1,
-                            item_in_exercise=1,
-                            correct_in_exercise=0,
-                            batch_num=1,
-                            is_active=True,
-                        )
-                        s.add(di)
-                        await s.commit()
-                        existing = di
-                    await _ask_due_item(c.message, s, user, st, existing, show_rule_first=True)
+                    await ensure_detours_for_units(s, tg_user_id=user.id, unit_keys=[due.unit_key])
+                    next_due = await _next_due_item(s, user.id)
+                    if not next_due:
+                        await c.message.answer("OK")
+                        await c.answer()
+                        return
+                    await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
                     await s.commit()
                     await c.answer()
                     return
@@ -659,7 +708,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         due.correct_in_exercise = 0
                         await s.commit()
                         # show rule again + ask first item immediately
-                        await _ask_due_item(c.message, s, user, st, due, show_rule_first=True)
+                        await _ask_due_item(c.message, s, user, st, due, show_rule_first=True, llm=llm)
                         await s.commit()
                         await c.answer()
                         return
@@ -701,8 +750,8 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                                 s.add(follow)
                             await s.commit()
                             # stop message only for detour/revisit
-                            stop_msg = "OK\n\n" + esc_md2("натисніть ▶️ Далі" if user.ui_lang=="uk" else "press ▶️ Next")
-                            await c.message.answer(stop_msg, reply_markup=kb_why_next(att.id, f"{due.kind}_next"))
+                            stop_msg = "OK\n\n" + esc_md2(t("press_next_only", user.ui_lang))
+                            await c.message.answer(stop_msg, reply_markup=kb_why_next(att.id, f"{due.kind}_next", user.ui_lang))
                             await c.answer()
                             return
                         else:
@@ -719,7 +768,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     # no header/message; just move to next due/placement by showing exercise immediately
                     di = await _next_due_item(s, user.id)
                     if di:
-                        await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1))
+                        await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
                         await s.commit()
                         await c.answer()
                         return
@@ -732,7 +781,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
 
                 await s.commit()
                 # ask next due item immediately
-                await _ask_due_item(c.message, s, user, st, due, show_rule_first=False)
+                await _ask_due_item(c.message, s, user, st, due, show_rule_first=False, llm=llm)
                 await s.commit()
                 await c.answer()
                 return
