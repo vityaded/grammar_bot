@@ -336,7 +336,10 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             st.last_attempt_id = None
             st.updated_at = utcnow()
             await s.commit()
-        await m.answer(t("progress_reset", user.ui_lang), reply_markup=kb_start_placement(user.ui_lang))
+        await m.answer(
+            esc_md2(t("progress_reset", user.ui_lang)),
+            reply_markup=kb_start_placement(user.ui_lang),
+        )
 
     @dp.message(CommandStart())
     async def on_start(m: Message):
@@ -365,7 +368,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 await m.answer(esc_md2(t("access_required", settings.ui_default_lang)), reply_markup=kb_lang())
                 return
 
-            await m.answer(t("choose_lang", user.ui_lang), reply_markup=kb_lang())
+            await m.answer(esc_md2(t("choose_lang", user.ui_lang)), reply_markup=kb_lang())
 
     @dp.callback_query(F.data == "admin_invite")
     async def admin_invite(c: CallbackQuery):
@@ -477,7 +480,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             st = await _get_or_create_state(s, user.id)
 
             if st.mode == "await_next":
-                await m.answer(t("use_buttons", user.ui_lang))
+                await m.answer(esc_md2(t("use_buttons", user.ui_lang)))
                 return
 
             if st.mode == "placement" and st.pending_placement_item_id:
