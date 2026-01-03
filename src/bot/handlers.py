@@ -6,7 +6,7 @@ import secrets
 from aiogram import Dispatcher, F
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
-from sqlalchemy import select, and_
+from sqlalchemy import select, and_, delete
 from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
 
 from .config import Settings
@@ -318,6 +318,25 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             await m.answer("Forbidden")
             return
         await m.answer("Admin actions:", reply_markup=kb_admin_actions())
+
+    @dp.message(Command("reset_progress"))
+    async def on_reset_progress(m: Message):
+        async with sessionmaker() as s:
+            user = await s.get(User, m.from_user.id)
+            if not user or not user.is_approved:
+                return
+            st = await _get_or_create_state(s, user.id)
+            await s.execute(delete(WhyCache).where(WhyCache.tg_user_id == user.id))
+            await s.execute(delete(Attempt).where(Attempt.tg_user_id == user.id))
+            await s.execute(delete(DueItem).where(DueItem.tg_user_id == user.id))
+            st.mode = "idle"
+            st.pending_placement_item_id = None
+            st.pending_due_item_id = None
+            st.last_placement_order = 0
+            st.last_attempt_id = None
+            st.updated_at = utcnow()
+            await s.commit()
+        await m.answer(t("progress_reset", user.ui_lang), reply_markup=kb_start_placement(user.ui_lang))
 
     @dp.message(CommandStart())
     async def on_start(m: Message):

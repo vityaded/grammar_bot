@@ -11,6 +11,10 @@ STRINGS: dict[str, dict[str, str]] = {
     "press_next": {"en": "press ▶️ Next or ❓ Why", "uk": "натисніть ▶️ Далі або ❓ Чому"},
     "press_next_only": {"en": "press ▶️ Next", "uk": "натисніть ▶️ Далі"},
     "use_buttons": {"en": "Use Next / Why buttons.", "uk": "Використовуйте кнопки Далі / Чому."},
+    "progress_reset": {
+        "en": "Progress reset. Use Start placement to begin again.",
+        "uk": "Прогрес скинуто. Почніть знову через Почати вступний тест.",
+    },
 }
 
 def t(key: str, lang: str) -> str:
