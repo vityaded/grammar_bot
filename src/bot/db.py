@@ -1,4 +1,5 @@
 from __future__ import annotations
+from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncEngine, create_async_engine, async_sessionmaker, AsyncSession
 from sqlalchemy.orm import DeclarativeBase
 from .config import Settings
@@ -11,3 +12,13 @@ def make_engine(settings: Settings) -> AsyncEngine:
 
 def make_sessionmaker(engine: AsyncEngine) -> async_sessionmaker[AsyncSession]:
     return async_sessionmaker(engine, expire_on_commit=False, class_=AsyncSession)
+
+async def ensure_sqlite_schema(engine: AsyncEngine) -> None:
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+        result = await conn.execute(text("PRAGMA table_info(placement_items);"))
+        columns = {row[1] for row in result.fetchall()}
+        if "study_units_json" not in columns:
+            await conn.execute(
+                text("ALTER TABLE placement_items ADD COLUMN study_units_json TEXT;")
+            )
