@@ -23,6 +23,7 @@ async def main(path: str):
                 accepted_variants_json=json.dumps(it.get("accepted_variants", []), ensure_ascii=False),
                 options_json=json.dumps(it.get("options")) if it.get("options") is not None else None,
                 instruction=it.get("instruction"),
+                study_units_json=json.dumps(it.get("meta", {}).get("study_units")) if it.get("meta", {}).get("study_units") is not None else None,
             )
             s.add(p)
         await s.commit()

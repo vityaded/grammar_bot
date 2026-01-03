@@ -27,3 +27,33 @@ Canonical correct answer: {canonical}
         client = self._client()
         resp = client.models.generate_content(model=self.model, contents=contents)
         return (resp.text or "").strip()
+
+    def generate_unit_exercise(self, *, unit_key: str, exercise_index: int, rule_text: str, examples: list[str]) -> str:
+        example_block = "\n".join(f"- {ex}" for ex in examples) if examples else "(no examples)"
+        contents = f"""You generate English grammar exercises.
+Unit: {unit_key}
+Exercise index: {exercise_index}
+Rule text: {rule_text}
+Examples:
+{example_block}
+
+Return ONLY valid JSON with this schema:
+{{
+  "exercise_type": "freetext",
+  "instruction": "English instruction",
+  "items": [
+    {{
+      "prompt": "Question text",
+      "canonical": "Correct answer",
+      "accepted_variants": ["variant 1", "variant 2"]
+    }}
+  ]
+}}
+Constraints:
+- exercise_type should be "freetext" unless you must use mcq/multiselect; then include options.
+- Provide at least 2 items.
+- Keep everything in English.
+"""
+        client = self._client()
+        resp = client.models.generate_content(model=self.model, contents=contents)
+        return (resp.text or "").strip()

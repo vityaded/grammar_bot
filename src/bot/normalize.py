@@ -1,13 +1,31 @@
 from __future__ import annotations
 import re
+import unicodedata
+
+_QUOTE_MAP = {
+    "’": "'",
+    "‘": "'",
+    "“": "\"",
+    "”": "\"",
+}
+
+def _nfkc_normalize(s: str) -> str:
+    if not s:
+        return ""
+    s = unicodedata.normalize("NFKC", s)
+    for src, dst in _QUOTE_MAP.items():
+        s = s.replace(src, dst)
+    return s
 
 def norm_text(s: str) -> str:
-    s = (s or "").strip()
+    s = _nfkc_normalize(s or "")
+    s = s.strip()
     s = re.sub(r"\s+", " ", s)
     return s
 
 def norm_multiselect_raw(s: str) -> str:
-    s = (s or "").strip()
+    s = _nfkc_normalize(s or "")
+    s = s.strip()
     # normalize separators to comma
     s = s.replace(";", ",").replace("\n", ",")
     # collapse multiple commas/spaces

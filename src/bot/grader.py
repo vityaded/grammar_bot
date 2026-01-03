@@ -1,9 +1,15 @@
 from __future__ import annotations
 import json
 from dataclasses import dataclass
-from typing import List
+from typing import List, TYPE_CHECKING
 from .normalize import norm_text, norm_multiselect_raw, split_tokens
-from .llm import LLMClient
+from .choices import resolve_choice
+
+if TYPE_CHECKING:
+    from .llm import LLMClient
+else:
+    class LLMClient:  # pragma: no cover - typing only
+        pass
 
 @dataclass
 class GradeResult:
@@ -30,8 +36,9 @@ def _close(a: str, b: str) -> bool:
     mism = sum(1 for x,y in zip(a,b) if x!=y) + abs(len(a)-len(b))
     return mism == 1
 
-def grade_mcq(user: str, canonical: str, accepted_variants: List[str]) -> GradeResult:
-    u = norm_text(user)
+def grade_mcq(user: str, canonical: str, accepted_variants: List[str], options: List[str]) -> GradeResult:
+    resolved = resolve_choice(user, options)
+    u = norm_text(resolved if resolved is not None else user)
     c = (canonical or "").strip()
     acc = [norm_text(x) for x in (accepted_variants or []) if x]
     if u and (u == norm_text(c) or u in acc):
