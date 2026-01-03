@@ -165,7 +165,7 @@ async def _ask_placement_item(m: Message, user: User, st: UserState, item: Place
     if opts:
         for i, o in enumerate(opts):
             label = chr(ord("A")+i)
-            text += f"\n{label}) {esc_md2(str(o))}"
+            text += f"\n{esc_md2(f'{label})')} {esc_md2(str(o))}"
     await m.answer(text)
 
     st.mode = "placement"
@@ -214,7 +214,7 @@ async def _ask_due_item(m: Message, s: AsyncSession, user: User, st: UserState, 
     if isinstance(opts, list) and opts:
         for i, o in enumerate(opts):
             label = chr(ord("A")+i)
-            text += f"\n{label}) {esc_md2(str(o))}"
+            text += f"\n{esc_md2(f'{label})')} {esc_md2(str(o))}"
     await m.answer(text)
 
     st.mode = due.kind
