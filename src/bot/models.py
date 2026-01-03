@@ -67,6 +67,7 @@ class PlacementItem(Base):
     accepted_variants_json: Mapped[str] = mapped_column(Text, default="[]")  # JSON list
     options_json: Mapped[str | None] = mapped_column(Text, nullable=True)    # JSON list (mcq/multiselect)
     instruction: Mapped[str | None] = mapped_column(Text, nullable=True)     # English instruction shown before each item
+    study_units_json: Mapped[str | None] = mapped_column(Text, nullable=True)  # JSON list of unit keys
 
 class UnitExercise(Base):
     __tablename__ = "unit_exercises"

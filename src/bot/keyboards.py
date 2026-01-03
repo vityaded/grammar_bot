@@ -1,12 +1,13 @@
 from __future__ import annotations
 from aiogram.types import InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
+from .i18n import t
 
-def kb_why_next(attempt_id: int, next_kind: str) -> InlineKeyboardMarkup:
+def kb_why_next(attempt_id: int, next_kind: str, ui_lang: str) -> InlineKeyboardMarkup:
     # next_kind: placement_next | detour_next | revisit_next | check_next | finish
     b = InlineKeyboardBuilder()
-    b.button(text="❓ Чому", callback_data=f"why:{attempt_id}")
-    b.button(text="▶️ Далі", callback_data=f"next:{next_kind}:{attempt_id}")
+    b.button(text="❓ " + ("Чому" if ui_lang == "uk" else "Why"), callback_data=f"why:{attempt_id}")
+    b.button(text="▶️ " + ("Далі" if ui_lang == "uk" else "Next"), callback_data=f"next:{next_kind}:{attempt_id}")
     b.adjust(2)
     return b.as_markup()
 
@@ -29,14 +30,8 @@ def kb_lang() -> InlineKeyboardMarkup:
     b.adjust(2)
     return b.as_markup()
 
-def kb_start_placement() -> InlineKeyboardMarkup:
+def kb_start_placement(ui_lang: str) -> InlineKeyboardMarkup:
     b = InlineKeyboardBuilder()
-    b.button(text="Start placement", callback_data="start_placement")
-    b.adjust(1)
-    return b.as_markup()
-
-def kb_multiselect_submit(attempt_id: int) -> InlineKeyboardMarkup:
-    b = InlineKeyboardBuilder()
-    b.button(text="✅ Submit", callback_data=f"ms_submit:{attempt_id}")
+    b.button(text=t("start_placement", ui_lang), callback_data="start_placement")
     b.adjust(1)
     return b.as_markup()

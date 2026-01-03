@@ -2,6 +2,9 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 from typing import List
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def _split_csv_ints(s: str) -> List[int]:
     out = []
@@ -20,6 +23,7 @@ class Settings:
     ui_default_lang: str = "uk"  # uk/en
 
 def load_settings() -> Settings:
+    load_dotenv()
     bot_token = os.getenv("BOT_TOKEN")
     if not bot_token:
         raise RuntimeError("BOT_TOKEN is required")
@@ -29,7 +33,7 @@ def load_settings() -> Settings:
         raise RuntimeError("ADMIN_IDS is required (comma-separated Telegram user ids)")
 
     database_url = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./data/app.db")
-    gemini_api_key = os.getenv("GEMINI_API_KEY") or None
+    gemini_api_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY") or None
 
     return Settings(
         bot_token=bot_token,
