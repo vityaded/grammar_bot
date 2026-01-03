@@ -288,9 +288,17 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             username = None
         if username:
             link = f"https://t.me/{username}?start={start_token}"
-            msg = f"Invite link:\n{link}\n\nToken: {start_token}"
+            msg = (
+                "Invite link:\n"
+                f"{esc_md2(link)}\n\n"
+                f"Token: `{esc_md2(start_token)}`"
+            )
         else:
-            msg = f"Invite token:\n{start_token}\n\nUse /start {start_token}"
+            msg = (
+                "Invite token:\n"
+                f"`{esc_md2(start_token)}`\n\n"
+                f"Use /start `{esc_md2(start_token)}`"
+            )
         await c.message.answer(msg)
         await c.answer("Invite created")
 
