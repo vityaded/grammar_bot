@@ -11,6 +11,7 @@ async def ensure_detours_for_units(
     *,
     tg_user_id: int,
     unit_keys: list[str],
+    cause_rule_keys_json: str | None = None,
 ) -> list[DueItem]:
     if not unit_keys:
         return []
@@ -38,6 +39,7 @@ async def ensure_detours_for_units(
             correct_in_exercise=0,
             batch_num=1,
             is_active=True,
+            cause_rule_keys_json=cause_rule_keys_json,
         )
         s.add(di)
         created.append(di)
@@ -65,6 +67,7 @@ async def complete_due_without_exercise(
             correct_in_exercise=0,
             batch_num=1,
             is_active=True,
+            cause_rule_keys_json=due.cause_rule_keys_json,
         )
         s.add(follow)
     elif due.kind == "revisit":
@@ -78,6 +81,7 @@ async def complete_due_without_exercise(
             correct_in_exercise=0,
             batch_num=1,
             is_active=True,
+            cause_rule_keys_json=due.cause_rule_keys_json,
         )
         s.add(follow)
     await s.commit()

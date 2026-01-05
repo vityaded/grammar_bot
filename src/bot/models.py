@@ -56,6 +56,19 @@ class RuleI18n(Base):
     rule_short_uk: Mapped[str | None] = mapped_column(Text, nullable=True)
     examples_json: Mapped[str | None] = mapped_column(Text, nullable=True)  # JSON list; examples must be English
 
+class RuleI18nV2(Base):
+    __tablename__ = "rules_i18n_v2"
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    rule_key: Mapped[str] = mapped_column(String(64), unique=True)   # e.g. unit_12_B
+    unit_key: Mapped[str] = mapped_column(String(64), index=True)
+    section_path: Mapped[str | None] = mapped_column(String(32), nullable=True)
+    title_en: Mapped[str | None] = mapped_column(Text, nullable=True)
+    rule_text_en: Mapped[str | None] = mapped_column(Text, nullable=True)
+    rule_text_uk: Mapped[str | None] = mapped_column(Text, nullable=True)
+    rule_short_en: Mapped[str | None] = mapped_column(Text, nullable=True)
+    rule_short_uk: Mapped[str | None] = mapped_column(Text, nullable=True)
+    examples_json: Mapped[str | None] = mapped_column(Text, nullable=True)  # JSON list; examples must be English
+
 class PlacementItem(Base):
     __tablename__ = "placement_items"
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
@@ -98,6 +111,7 @@ class DueItem(Base):
 
     batch_num: Mapped[int] = mapped_column(Integer, default=1)  # 1..max_batches
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
+    cause_rule_keys_json: Mapped[str | None] = mapped_column(Text, nullable=True)
 
     created_at: Mapped[dt.datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 
@@ -116,6 +130,7 @@ class Attempt(Base):
     canonical: Mapped[str] = mapped_column(Text)
     user_answer_norm: Mapped[str] = mapped_column(Text)
     verdict: Mapped[str] = mapped_column(String(16))  # correct | almost | wrong
+    rule_keys_json: Mapped[str | None] = mapped_column(Text, nullable=True)
     created_at: Mapped[dt.datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 
 class WhyCache(Base):

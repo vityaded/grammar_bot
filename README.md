@@ -34,15 +34,21 @@ GOOGLE_API_KEY=...
 ## 3) Load content
 This starter expects 2 JSON files:
 - placement dataset: `data/placement.json`
-- unit exercises dataset: `data/unit_exercises.json`
-- rules i18n: `data/rules_i18n.json` (optional; you can fill later)
+- unit exercises dataset: `data/unit_exercises_v2.json`
+- rules i18n (v2 subpoints): `data/rules_i18n_v2.json` (optional; you can fill later)
 
 Import commands:
 ```bash
+python -m src.tools.migrate_v2
 python -m src.tools.import_placement data/placement.json
-python -m src.tools.import_unit_exercises data/unit_exercises.json
-python -m src.tools.import_rules_i18n data/rules_i18n.json
+python -m src.tools.import_unit_exercises data/unit_exercises_v2.json
+python -m src.tools.import_rules_i18n_v2 data/rules_i18n_v2.json
 ```
+
+Dev-only reset option (simplest):
+- delete `./data/app.db`
+- `python -m src.bot.init_db`
+- re-import datasets with the commands above
 
 Sample datasets are included in `data/samples/`.
 

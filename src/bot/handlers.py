@@ -12,7 +12,7 @@ from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
 from .config import Settings
 from .models import (
     User, UserState, AccessRequest, PlacementItem, Attempt, WhyCache, DueItem,
-    RuleI18n, UnitExercise, utcnow
+    RuleI18nV2, UnitExercise, utcnow
 )
 from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next
 from .normalize import norm_text, norm_multiselect_raw
@@ -94,36 +94,156 @@ async def _placement_next_item(s: AsyncSession, after_order: int) -> PlacementIt
     )
     return (await s.execute(q)).scalar_one_or_none()
 
-async def _render_rule_message(s: AsyncSession, unit_key: str, ui_lang: str) -> str:
-    r = (await s.execute(select(RuleI18n).where(RuleI18n.unit_key==unit_key))).scalar_one_or_none()
-    if not r:
-        return ""
-    rule_text = r.rule_text_uk if ui_lang=="uk" else r.rule_text_en
-    if not rule_text:
-        rule_text = r.rule_text_en or ""
-    msg = ""
-    if rule_text:
-        msg += f"*{esc_md2(t('rule_header', ui_lang))}* {esc_md2(rule_text)}\n"
-    if r.examples_json:
+def _parse_rule_keys(raw: object | None) -> list[str]:
+    if raw is None:
+        return []
+    if isinstance(raw, list):
+        return [str(x) for x in raw if x]
+    if isinstance(raw, str):
         try:
-            ex = json.loads(r.examples_json)
-            if isinstance(ex, list):
-                for line in ex:
-                    msg += esc_md2(str(line)) + "\n"
+            val = json.loads(raw)
+            if isinstance(val, list):
+                return [str(x) for x in val if x]
         except Exception:
-            pass
+            return []
+    return []
+
+def _rule_keys_json(rule_keys: list[str]) -> str | None:
+    if not rule_keys:
+        return None
+    return json.dumps(rule_keys, ensure_ascii=False)
+
+def _section_sort_key(section_path: str | None) -> tuple[int, str, int]:
+    if not section_path:
+        return (1, "", 0)
+    text = section_path.strip()
+    prefix = ""
+    num = 0
+    for i, ch in enumerate(text):
+        if ch.isdigit():
+            prefix = text[:i]
+            try:
+                num = int(text[i:] or 0)
+            except ValueError:
+                num = 0
+            break
+    else:
+        prefix = text
+    return (0, prefix.upper(), num)
+
+async def _fetch_rule_v2(s: AsyncSession, rule_key: str) -> RuleI18nV2 | None:
+    if not rule_key:
+        return None
+    return (await s.execute(select(RuleI18nV2).where(RuleI18nV2.rule_key==rule_key))).scalar_one_or_none()
+
+async def _fetch_unit_rules_v2(s: AsyncSession, unit_key: str) -> list[RuleI18nV2]:
+    if not unit_key:
+        return []
+    rows = (await s.execute(select(RuleI18nV2).where(RuleI18nV2.unit_key==unit_key))).scalars().all()
+    return sorted(rows, key=lambda r: _section_sort_key(r.section_path))
+
+def _pick_rule_text(rule: RuleI18nV2, ui_lang: str, prefer_short: bool) -> str:
+    if ui_lang == "uk":
+        candidates = [
+            rule.rule_short_uk if prefer_short else None,
+            rule.rule_short_en if prefer_short else None,
+            rule.rule_text_uk,
+            rule.rule_text_en,
+            rule.rule_short_uk,
+            rule.rule_short_en,
+        ]
+    else:
+        candidates = [
+            rule.rule_short_en if prefer_short else None,
+            rule.rule_short_uk if prefer_short else None,
+            rule.rule_text_en,
+            rule.rule_text_uk,
+            rule.rule_short_en,
+            rule.rule_short_uk,
+        ]
+    for c in candidates:
+        if c:
+            return c
+    return ""
+
+async def _render_rules_for_keys(
+    s: AsyncSession,
+    rule_keys: list[str],
+    ui_lang: str,
+    *,
+    max_examples_total: int = 2,
+    prefer_short: bool = True,
+) -> str:
+    if not rule_keys:
+        return ""
+    rules: list[RuleI18nV2] = []
+    for key in rule_keys:
+        r = await _fetch_rule_v2(s, key)
+        if r:
+            rules.append(r)
+    if not rules:
+        return ""
+
+    header = f"*{esc_md2(t('rule_header', ui_lang))}*"
+    lines: list[str] = []
+    for r in rules:
+        text = _pick_rule_text(r, ui_lang, prefer_short)
+        if not text:
+            continue
+        if r.section_path:
+            line = f"{esc_md2(r.section_path)}. {esc_md2(text)}"
+        else:
+            line = esc_md2(text)
+        lines.append(line)
+
+    msg = header
+    if lines:
+        msg += " " + lines[0]
+        if len(lines) > 1:
+            msg += "\n" + "\n".join(lines[1:])
+
+    if max_examples_total > 0:
+        examples: list[str] = []
+        for r in rules:
+            if not r.examples_json:
+                continue
+            try:
+                ex = json.loads(r.examples_json)
+                if isinstance(ex, list):
+                    for line in ex:
+                        examples.append(str(line))
+            except Exception:
+                continue
+            if len(examples) >= max_examples_total:
+                break
+        if examples:
+            examples = examples[:max_examples_total]
+            msg += "\n" + "\n".join(esc_md2(e) for e in examples)
     return msg.strip()
 
-async def _render_rule_short(s: AsyncSession, unit_key: str, ui_lang: str) -> str:
-    r = (await s.execute(select(RuleI18n).where(RuleI18n.unit_key==unit_key))).scalar_one_or_none()
-    if not r:
+async def _render_rule_fallback_for_unit(
+    s: AsyncSession,
+    unit_key: str,
+    ui_lang: str,
+    *,
+    max_sections: int = 3,
+) -> str:
+    rules = await _fetch_unit_rules_v2(s, unit_key)
+    if not rules:
         return ""
-    rs = r.rule_short_uk if ui_lang=="uk" else r.rule_short_en
-    if not rs:
-        rs = r.rule_short_en or r.rule_text_en or ""
-    if not rs:
+    header = f"*{esc_md2(t('rule_header', ui_lang))}*"
+    lines: list[str] = []
+    for r in rules[:max_sections]:
+        text = _pick_rule_text(r, ui_lang, prefer_short=True)
+        if not text:
+            continue
+        if r.section_path:
+            lines.append(f"{esc_md2(r.section_path)}. {esc_md2(text)}")
+        else:
+            lines.append(esc_md2(text))
+    if not lines:
         return ""
-    return f"*{esc_md2(t('rule_header', ui_lang))}* {esc_md2(rs)}"
+    return (header + " " + lines[0] + ("\n" + "\n".join(lines[1:]) if len(lines) > 1 else "")).strip()
 
 def _feedback_text(verdict: str, user_answer_norm: str, canonical: str, ui_lang: str) -> str:
     # labels bold; verdict emoji + one word
@@ -270,7 +390,11 @@ async def _ask_due_item(
 ):
     # If show_rule_first: send one message with rule+examples, then immediately ask first item (separate message).
     if show_rule_first:
-        rule_msg = await _render_rule_message(s, due.unit_key, user.ui_lang)
+        cause_keys = _parse_rule_keys(due.cause_rule_keys_json)
+        if cause_keys:
+            rule_msg = await _render_rules_for_keys(s, cause_keys, user.ui_lang, max_examples_total=2, prefer_short=True)
+        else:
+            rule_msg = await _render_rule_fallback_for_unit(s, due.unit_key, user.ui_lang, max_sections=3)
         if rule_msg:
             await m.answer(rule_msg)
 
@@ -490,6 +614,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 accepted = _parse_accepted(item.accepted_variants_json)
                 options = _parse_options(item.options_json)
                 verdict, user_norm = _grade_item(item.item_type, m.text, item.canonical, accepted, options)
+                rule_keys: list[str] = []
 
                 att = Attempt(
                     tg_user_id=user.id,
@@ -501,6 +626,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     canonical=item.canonical,
                     user_answer_norm=(norm_multiselect_raw(user_norm) if item.item_type=="multiselect" else norm_text(user_norm)),
                     verdict=verdict,
+                    rule_keys_json=_rule_keys_json(rule_keys),
                 )
                 s.add(att)
                 await s.commit()
@@ -510,8 +636,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
 
-                # show feedback + buttons only
                 fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang)
+                if verdict != "correct":
+                    rule_msg = await _render_rule_fallback_for_unit(s, item.unit_key, user.ui_lang, max_sections=3)
+                    if rule_msg:
+                        fb = f"{fb}\n\n{rule_msg}"
                 await m.answer(fb, reply_markup=kb_why_next(att.id, "placement_next", user.ui_lang))
                 return
 
@@ -529,6 +658,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 if not isinstance(options, list):
                     options = []
                 verdict, user_norm = _grade_item(item_type, m.text, canonical, accepted, options)
+                rule_keys = _parse_rule_keys(it.get("rule_keys"))
 
                 att = Attempt(
                     tg_user_id=user.id,
@@ -540,6 +670,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     canonical=canonical,
                     user_answer_norm=(norm_multiselect_raw(user_norm) if item_type=="multiselect" else norm_text(user_norm)),
                     verdict=verdict,
+                    rule_keys_json=_rule_keys_json(rule_keys),
                 )
                 s.add(att)
                 await s.commit()
@@ -550,6 +681,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 await s.commit()
 
                 fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang)
+                if verdict != "correct":
+                    if rule_keys:
+                        rule_msg = await _render_rules_for_keys(s, rule_keys, user.ui_lang, max_examples_total=2, prefer_short=True)
+                    else:
+                        rule_msg = await _render_rule_fallback_for_unit(s, due.unit_key, user.ui_lang, max_sections=3)
+                    if rule_msg:
+                        fb = f"{fb}\n\n{rule_msg}"
                 await m.answer(fb, reply_markup=kb_why_next(att.id, f"{due.kind}_next", user.ui_lang))
                 return
 
@@ -597,10 +735,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             if not explanation:
                 explanation = "Пояснення недоступне без LLM ключа\\." if user.ui_lang=="uk" else "Explanation unavailable without an LLM key\\."
 
-            rule_short = await _render_rule_short(s, att.unit_key or "", user.ui_lang) if att.unit_key else ""
+            rule_msg = ""
+            rule_keys = _parse_rule_keys(att.rule_keys_json)
+            if rule_keys:
+                rule_msg = await _render_rules_for_keys(s, rule_keys, user.ui_lang, max_examples_total=0, prefer_short=True)
+            elif att.unit_key:
+                rule_msg = await _render_rule_fallback_for_unit(s, att.unit_key, user.ui_lang, max_sections=3)
             msg = esc_md2(explanation).strip()
-            if rule_short:
-                msg = (msg + "\n\n" + rule_short).strip()
+            if rule_msg:
+                msg = (msg + "\n\n" + rule_msg).strip()
 
             # persist cache
             if wc:
@@ -661,7 +804,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     placement_item.study_units_json if placement_item else None,
                     att.unit_key,
                 )
-                await ensure_detours_for_units(s, tg_user_id=user.id, unit_keys=unit_keys)
+                await ensure_detours_for_units(
+                    s,
+                    tg_user_id=user.id,
+                    unit_keys=unit_keys,
+                    cause_rule_keys_json=att.rule_keys_json,
+                )
                 next_due = await _next_due_item(s, user.id)
                 if not next_due:
                     await c.message.answer("OK")
@@ -693,7 +841,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
 
                 # check special: if wrong and why did NOT flip -> detour on next
                 if due.kind == "check" and (not effective_correct):
-                    await ensure_detours_for_units(s, tg_user_id=user.id, unit_keys=[due.unit_key])
+                    await ensure_detours_for_units(
+                        s,
+                        tg_user_id=user.id,
+                        unit_keys=[due.unit_key],
+                        cause_rule_keys_json=att.rule_keys_json,
+                    )
                     next_due = await _next_due_item(s, user.id)
                     if not next_due:
                         await c.message.answer("OK")
@@ -755,6 +908,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                                     correct_in_exercise=0,
                                     batch_num=1,
                                     is_active=True,
+                                    cause_rule_keys_json=due.cause_rule_keys_json,
                                 )
                                 s.add(follow)
                             else:
@@ -768,6 +922,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                                     correct_in_exercise=0,
                                     batch_num=1,
                                     is_active=True,
+                                    cause_rule_keys_json=due.cause_rule_keys_json,
                                 )
                                 s.add(follow)
                             await s.commit()
