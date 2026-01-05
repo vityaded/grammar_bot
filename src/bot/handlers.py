@@ -1,7 +1,6 @@
 from __future__ import annotations
 import json
 import datetime as dt
-import random
 import secrets
 
 from aiogram import Dispatcher, F
@@ -327,8 +326,7 @@ async def _due_current_item(
     due: DueItem,
     *,
     llm: LLMClient | None,
-    rng: random.Random | None = None,
-) -> tuple[UnitExercise | None, dict | None]:
+) -> tuple[UnitExercise | None, dict | None, int | None]:
     try:
         ex = await ensure_unit_exercise(
             s,
@@ -343,11 +341,15 @@ async def _due_current_item(
     try:
         items = json.loads(ex.items_json)
         if not isinstance(items, list) or not items:
-            return (ex, None)
+            return (ex, None, None)
     except Exception:
-        return (ex, None)
-    picker = rng or random
-    return (ex, picker.choice(items))
+        return (ex, None, None)
+    item_index = due.item_in_exercise or 1
+    if item_index < 1:
+        item_index = 1
+    if item_index > len(items):
+        item_index = 1
+    return (ex, items[item_index - 1], item_index)
 
 async def _handle_missing_due_content(
     m: Message,
@@ -397,10 +399,12 @@ async def _ask_due_item(
         if rule_msg:
             await m.answer(rule_msg)
 
-    ex, it = await _due_current_item(s, due, llm=llm)
+    ex, it, item_index = await _due_current_item(s, due, llm=llm)
     if not ex or not it:
         await _handle_missing_due_content(m, s, user, st, due, llm=llm)
         return
+    if item_index and due.item_in_exercise != item_index:
+        due.item_in_exercise = item_index
 
     instr = ex.instruction or ""
     text = ""
@@ -418,6 +422,7 @@ async def _ask_due_item(
     st.pending_due_item_id = due.id
     st.pending_placement_item_id = None
     st.updated_at = utcnow()
+    await s.commit()
 
 def _grade_item(item_type: str, user_answer: str, canonical: str, accepted: list[str], options: list[str]) -> tuple[str, str]:
     if item_type == "multiselect":
@@ -647,7 +652,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 due = await s.get(DueItem, st.pending_due_item_id)
                 if not due or not due.is_active:
                     return
-                ex, it = await _due_current_item(s, due, llm=llm)
+                ex, it, _item_index = await _due_current_item(s, due, llm=llm)
                 if not ex or not it:
                     return
                 item_type = ex.exercise_type
