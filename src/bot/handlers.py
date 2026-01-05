@@ -490,7 +490,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             return
         await m.answer("Admin actions:", reply_markup=kb_admin_actions())
 
-    @dp.message(Command("reset_progress"))
+    @dp.message(Command(commands=["reset_progress", "reset_all"]))
     async def on_reset_progress(m: Message):
         async with sessionmaker() as s:
             user = await s.get(User, m.from_user.id)
