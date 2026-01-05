@@ -16,7 +16,8 @@
         "rule_keys": [
           "unit_1_A",
           "unit_1_B"
-        ]
+        ],
+        "canonical": "am reading"
       },
       {
         "prompt": "(cook) Sarah ____ dinner at the moment.",
@@ -29,7 +30,8 @@
         "rule_keys": [
           "unit_1_A",
           "unit_1_B"
-        ]
+        ],
+        "canonical": "is cooking"
       },
       {
         "prompt": "(rain) It ____ outside.",
@@ -42,7 +44,8 @@
         "rule_keys": [
           "unit_1_A",
           "unit_1_B"
-        ]
+        ],
+        "canonical": "is raining"
       },
       {
         "prompt": "(talk) We ____ on the phone.",
@@ -55,7 +58,8 @@
         "rule_keys": [
           "unit_1_A",
           "unit_1_B"
-        ]
+        ],
+        "canonical": "are talking"
       },
       {
         "prompt": "(work) Tom ____ today.",
@@ -68,7 +72,8 @@
         "rule_keys": [
           "unit_1_A",
           "unit_1_B"
-        ]
+        ],
+        "canonical": "is working"
       },
       {
         "prompt": "(wait) They ____ for the bus.",
@@ -81,7 +86,8 @@
         "rule_keys": [
           "unit_1_A",
           "unit_1_B"
-        ]
+        ],
+        "canonical": "are waiting"
       }
     ]
   },
@@ -107,7 +113,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "She is driving to work."
       },
       {
         "prompt": "Choose the best sentence for the situation: B: two people are laughing now.",
@@ -125,7 +132,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "They are laughing."
       },
       {
         "prompt": "Choose the best sentence for the situation: C: a child is sleeping at the moment.",
@@ -143,7 +151,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "He is sleeping."
       },
       {
         "prompt": "Choose the best sentence for the situation: D: I'm on the phone now.",
@@ -161,7 +170,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "I'm talking on the phone."
       },
       {
         "prompt": "Choose the best sentence for the situation: E: it's snowing now.",
@@ -179,7 +189,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "It's snowing."
       },
       {
         "prompt": "Choose the best sentence for the situation: F: we are having lunch now.",
@@ -197,7 +208,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "We're having lunch."
       },
       {
         "prompt": "Choose the best sentence for the situation: G: she is watching TV now.",
@@ -215,7 +227,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "She's watching TV."
       },
       {
         "prompt": "Choose the best sentence for the situation: H: they are playing now.",
@@ -233,7 +246,8 @@
         ],
         "rule_keys": [
           "unit_1_A"
-        ]
+        ],
+        "canonical": "They're playing football."
       }
     ]
   },
@@ -254,7 +268,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "Are you watching TV now?"
       },
       {
         "prompt": "Write the question: she / wear a coat today?",
@@ -267,7 +282,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "Is she wearing a coat today?"
       },
       {
         "prompt": "Write the question: they / wait for you?",
@@ -280,7 +296,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "Are they waiting for you?"
       },
       {
         "prompt": "Write the question: it / rain at the moment?",
@@ -293,7 +310,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "Is it raining at the moment?"
       },
       {
         "prompt": "Write the question: what / you / do?",
@@ -306,7 +324,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "What are you doing?"
       },
       {
         "prompt": "Write the question: where / he / go?",
@@ -319,7 +338,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "Where is he going?"
       },
       {
         "prompt": "Write the question: why / they / laugh?",
@@ -332,7 +352,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "Why are they laughing?"
       },
       {
         "prompt": "Write the question: who / you / speak to?",
@@ -345,7 +366,8 @@
         ],
         "rule_keys": [
           "unit_1_C"
-        ]
+        ],
+        "canonical": "Who are you speaking to?"
       }
     ]
   },
@@ -366,7 +388,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "is swimming"
       },
       {
         "prompt": "(make) She ____ a cake.",
@@ -379,7 +402,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "is making"
       },
       {
         "prompt": "(run) I ____ fast.",
@@ -392,7 +416,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "am running"
       },
       {
         "prompt": "(write) They ____ emails.",
@@ -405,7 +430,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "are writing"
       },
       {
         "prompt": "(sit) The baby ____ on the floor.",
@@ -418,7 +444,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "is sitting"
       },
       {
         "prompt": "(lie) He ____ on the sofa.",
@@ -431,7 +458,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "is lying"
       },
       {
         "prompt": "(dance) We ____.",
@@ -444,7 +472,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "are dancing"
       },
       {
         "prompt": "(stop) The bus ____.",
@@ -457,7 +486,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "is stopping"
       },
       {
         "prompt": "(plan) I ____ my trip.",
@@ -470,7 +500,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "am planning"
       },
       {
         "prompt": "(take) She ____ photos.",
@@ -483,7 +514,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "is taking"
       },
       {
         "prompt": "(come) They ____ home.",
@@ -496,7 +528,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "are coming"
       },
       {
         "prompt": "(have) I ____ lunch.",
@@ -509,7 +542,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "am having"
       },
       {
         "prompt": "(study) He ____ for an exam.",
@@ -522,7 +556,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "is studying"
       },
       {
         "prompt": "(get) We ____ ready.",
@@ -535,7 +570,8 @@
         "rule_keys": [
           "unit_1_B",
           "unit_1_D"
-        ]
+        ],
+        "canonical": "are getting"
       }
     ]
   },
@@ -556,7 +592,8 @@
         "rule_keys": [
           "unit_2_A",
           "unit_2_E"
-        ]
+        ],
+        "canonical": "drink"
       },
       {
         "prompt": "Complete in the present simple: (live) My parents ____ in Lviv.",
@@ -569,7 +606,8 @@
         "rule_keys": [
           "unit_2_A",
           "unit_2_E"
-        ]
+        ],
+        "canonical": "live"
       },
       {
         "prompt": "Complete in the present simple: (work) Sara ____ in a hospital.",
@@ -582,7 +620,8 @@
         "rule_keys": [
           "unit_2_A",
           "unit_2_E"
-        ]
+        ],
+        "canonical": "works"
       },
       {
         "prompt": "Complete in the present simple: (play) We ____ tennis on Fridays.",
@@ -595,7 +634,8 @@
         "rule_keys": [
           "unit_2_A",
           "unit_2_E"
-        ]
+        ],
+        "canonical": "play"
       },
       {
         "prompt": "Complete in the present simple: (teach) Mr Brown ____ maths.",
@@ -608,7 +648,8 @@
         "rule_keys": [
           "unit_2_A",
           "unit_2_E"
-        ]
+        ],
+        "canonical": "teaches"
       },
       {
         "prompt": "Complete in the present simple: (go) The train ____ at 6:30.",
@@ -621,7 +662,8 @@
         "rule_keys": [
           "unit_2_A",
           "unit_2_E"
-        ]
+        ],
+        "canonical": "goes"
       },
       {
         "prompt": "Complete in the present simple: (have) He ____ two brothers.",
@@ -634,7 +676,8 @@
         "rule_keys": [
           "unit_2_A",
           "unit_2_E"
-        ]
+        ],
+        "canonical": "has"
       }
     ]
   },
@@ -654,7 +697,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "watches"
       },
       {
         "prompt": "Complete (he/she/it): (study) He ____ English at night.",
@@ -666,7 +710,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "studies"
       },
       {
         "prompt": "Complete (he/she/it): (try) My sister ____ hard.",
@@ -678,7 +723,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "tries"
       },
       {
         "prompt": "Complete (he/she/it): (finish) The lesson ____ at 2.",
@@ -690,7 +736,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "finishes"
       },
       {
         "prompt": "Complete (he/she/it): (do) He ____ his homework.",
@@ -702,7 +749,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "does"
       },
       {
         "prompt": "Complete (he/she/it): (go) She ____ to bed early.",
@@ -714,7 +762,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "goes"
       },
       {
         "prompt": "Complete (he/she/it): (kiss) The baby ____ me.",
@@ -726,7 +775,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "kisses"
       },
       {
         "prompt": "Complete (he/she/it): (carry) Dad ____ the bags.",
@@ -738,7 +788,8 @@
         ],
         "rule_keys": [
           "unit_2_E"
-        ]
+        ],
+        "canonical": "carries"
       }
     ]
   },
@@ -759,7 +810,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "Do you like this music?"
       },
       {
         "prompt": "Write the question: your friends / live / nearby?",
@@ -772,7 +824,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "Do your friends live nearby?"
       },
       {
         "prompt": "Write the question: he / work / on Saturdays?",
@@ -785,7 +838,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "Does he work on Saturdays?"
       },
       {
         "prompt": "Write the question: she / speak / German?",
@@ -798,7 +852,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "Does she speak German?"
       },
       {
         "prompt": "Write the question: they / play / football?",
@@ -811,7 +866,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "Do they play football?"
       },
       {
         "prompt": "Write the question: what / you / do / after class?",
@@ -824,7 +880,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "What do you do after class?"
       },
       {
         "prompt": "Write the question: where / she / go / on holiday?",
@@ -837,7 +894,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "Where does she go on holiday?"
       },
       {
         "prompt": "Write the question: how often / he / watch TV?",
@@ -850,7 +908,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "How often does he watch TV?"
       },
       {
         "prompt": "Write the question: why / they / laugh?",
@@ -863,7 +922,8 @@
         ],
         "rule_keys": [
           "unit_2_B"
-        ]
+        ],
+        "canonical": "Why do they laugh?"
       }
     ]
   },
@@ -884,7 +944,8 @@
         ],
         "rule_keys": [
           "unit_2_C"
-        ]
+        ],
+        "canonical": "don't understand"
       },
       {
         "prompt": "Complete the negative: She ____ (not / like) coffee.",
@@ -897,7 +958,8 @@
         ],
         "rule_keys": [
           "unit_2_C"
-        ]
+        ],
+        "canonical": "doesn't like"
       },
       {
         "prompt": "Complete the negative: They ____ (not / live) here.",
@@ -910,7 +972,8 @@
         ],
         "rule_keys": [
           "unit_2_C"
-        ]
+        ],
+        "canonical": "don't live"
       },
       {
         "prompt": "Complete the negative: He ____ (not / drive).",
@@ -923,7 +986,8 @@
         ],
         "rule_keys": [
           "unit_2_C"
-        ]
+        ],
+        "canonical": "doesn't drive"
       },
       {
         "prompt": "Complete the negative: We ____ (not / have) much time.",
@@ -936,7 +1000,8 @@
         ],
         "rule_keys": [
           "unit_2_C"
-        ]
+        ],
+        "canonical": "don't have"
       },
       {
         "prompt": "Complete the negative: It ____ (not / work).",
@@ -949,7 +1014,8 @@
         ],
         "rule_keys": [
           "unit_2_C"
-        ]
+        ],
+        "canonical": "doesn't work"
       }
     ]
   },
@@ -970,7 +1036,8 @@
         ],
         "rule_keys": [
           "unit_2_D"
-        ]
+        ],
+        "canonical": "No, I don't."
       },
       {
         "prompt": "Write the short answer: Does he like jazz? (Yes)",
@@ -982,7 +1049,8 @@
         ],
         "rule_keys": [
           "unit_2_D"
-        ]
+        ],
+        "canonical": "Yes, he does."
       },
       {
         "prompt": "Write the short answer: Do they know your sister? (No)",
@@ -995,7 +1063,8 @@
         ],
         "rule_keys": [
           "unit_2_D"
-        ]
+        ],
+        "canonical": "No, they don't."
       },
       {
         "prompt": "Write the short answer: Does Maria drive? (No)",
@@ -1008,7 +1077,8 @@
         ],
         "rule_keys": [
           "unit_2_D"
-        ]
+        ],
+        "canonical": "No, she doesn't."
       },
       {
         "prompt": "Write the short answer: Do we need tickets? (Yes)",
@@ -1020,7 +1090,8 @@
         ],
         "rule_keys": [
           "unit_2_D"
-        ]
+        ],
+        "canonical": "Yes, we do."
       },
       {
         "prompt": "Write the short answer: Does it rain a lot here? (Yes)",
@@ -1032,7 +1103,8 @@
         ],
         "rule_keys": [
           "unit_2_D"
-        ]
+        ],
+        "canonical": "Yes, it does."
       }
     ]
   },
@@ -1052,7 +1124,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "is coming"
       },
       {
         "prompt": "Complete (present simple or continuous): (work) My brother ____ in a bank.",
@@ -1064,7 +1137,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "works"
       },
       {
         "prompt": "Complete (present simple or continuous): (wear) Jane ____ a red dress today.",
@@ -1076,7 +1150,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "is wearing"
       },
       {
         "prompt": "Complete (present simple or continuous): (drink) I usually ____ tea.",
@@ -1088,7 +1163,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "drink"
       },
       {
         "prompt": "Complete (present simple or continuous): (watch) Shh! We ____ a film.",
@@ -1100,7 +1176,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "are watching"
       },
       {
         "prompt": "Complete (present simple or continuous): (play) He ____ football every weekend.",
@@ -1112,7 +1189,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "plays"
       },
       {
         "prompt": "Complete (present simple or continuous): (rain) It ____ again. Take an umbrella.",
@@ -1124,7 +1202,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "is raining"
       },
       {
         "prompt": "Complete (present simple or continuous): (speak) She ____ three languages.",
@@ -1136,7 +1215,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "speaks"
       },
       {
         "prompt": "Complete (present simple or continuous): (wait) I ____ for the doctor at the moment.",
@@ -1148,7 +1228,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "am waiting"
       },
       {
         "prompt": "Complete (present simple or continuous): (have) We ____ lunch now.",
@@ -1160,7 +1241,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "are having"
       },
       {
         "prompt": "Complete (present simple or continuous): (read) He ____ the newspaper every day.",
@@ -1172,7 +1254,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "reads"
       },
       {
         "prompt": "Complete (present simple or continuous): (study) They ____ for exams this week.",
@@ -1184,7 +1267,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "are studying"
       }
     ]
   },
@@ -1204,7 +1288,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "is cooking"
       },
       {
         "prompt": "Usually: She ____ dinner every day.",
@@ -1216,7 +1301,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "cooks"
       },
       {
         "prompt": "Now: (listen) I ____ to music.",
@@ -1228,7 +1314,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "am listening"
       },
       {
         "prompt": "Usually: I ____ to music on the bus.",
@@ -1240,7 +1327,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "listen"
       },
       {
         "prompt": "Now: (wear) He ____ a suit.",
@@ -1252,7 +1340,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "is wearing"
       },
       {
         "prompt": "Usually: He ____ jeans at work.",
@@ -1264,7 +1353,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "wears"
       },
       {
         "prompt": "Now: (sit) They ____ in the garden.",
@@ -1276,7 +1366,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "are sitting"
       },
       {
         "prompt": "Usually: They ____ in the kitchen.",
@@ -1288,7 +1379,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "sit"
       },
       {
         "prompt": "Now: (work) We ____ hard this month.",
@@ -1300,7 +1392,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "are working"
       },
       {
         "prompt": "Usually: We ____ from 9 to 5.",
@@ -1312,7 +1405,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "work"
       }
     ]
   },
@@ -1333,7 +1427,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "don't understand"
       },
       {
         "prompt": "Complete: (not / listen) Please be quiet. I ____.",
@@ -1346,7 +1441,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "am not listening"
       },
       {
         "prompt": "Complete: (want) I ____ a new phone.",
@@ -1358,7 +1454,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "want"
       },
       {
         "prompt": "Complete: (have) She ____ a shower at the moment.",
@@ -1370,7 +1467,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "is having"
       },
       {
         "prompt": "Complete: (know) We ____ this place well.",
@@ -1382,7 +1480,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "know"
       },
       {
         "prompt": "Complete: (go) They ____ to the gym on Tuesdays.",
@@ -1394,7 +1493,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "go"
       },
       {
         "prompt": "Complete: (think) I ____ it's a good idea.",
@@ -1406,7 +1506,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "think"
       },
       {
         "prompt": "Complete: (think) Wait, I ____ about it now.",
@@ -1418,7 +1519,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "am thinking"
       },
       {
         "prompt": "Complete: (look) He ____ for his keys right now.",
@@ -1430,7 +1532,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "is looking"
       },
       {
         "prompt": "Complete: (look) He ____ tired these days.",
@@ -1442,7 +1545,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "looks"
       },
       {
         "prompt": "Complete: (not / work) I ____ today.",
@@ -1455,7 +1559,8 @@
         ],
         "rule_keys": [
           "unit_3_A"
-        ]
+        ],
+        "canonical": "am not working"
       },
       {
         "prompt": "Complete: (not / drink) He ____ coffee.",
@@ -1468,7 +1573,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "doesn't drink"
       }
     ]
   },
@@ -1488,7 +1594,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "I know the answer."
       },
       {
         "prompt": "Correct the sentence: 'She is liking this song.'",
@@ -1500,7 +1607,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "She likes this song."
       },
       {
         "prompt": "Correct the sentence: 'We are needing some help.'",
@@ -1512,7 +1620,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "We need some help."
       },
       {
         "prompt": "Correct the sentence: 'He is understanding everything.'",
@@ -1524,7 +1633,8 @@
         ],
         "rule_keys": [
           "unit_3_B"
-        ]
+        ],
+        "canonical": "He understands everything."
       }
     ]
   },
@@ -1544,7 +1654,8 @@
         ],
         "rule_keys": [
           "unit_4_B"
-        ]
+        ],
+        "canonical": "start"
       },
       {
         "prompt": "Complete: (start) This week I ____ work at 7.",
@@ -1556,7 +1667,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "am starting"
       },
       {
         "prompt": "Complete: (get) He usually ____ up early.",
@@ -1568,7 +1680,8 @@
         ],
         "rule_keys": [
           "unit_4_B"
-        ]
+        ],
+        "canonical": "gets"
       },
       {
         "prompt": "Complete: (get) He ____ up later these days.",
@@ -1580,7 +1693,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "is getting"
       },
       {
         "prompt": "Complete: (watch) She ____ TV every evening.",
@@ -1592,7 +1706,8 @@
         ],
         "rule_keys": [
           "unit_4_B"
-        ]
+        ],
+        "canonical": "watches"
       },
       {
         "prompt": "Complete: (watch) She ____ less TV these days.",
@@ -1604,7 +1719,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "is watching"
       },
       {
         "prompt": "Complete: (always / lose) He ____ his wallet!",
@@ -1616,7 +1732,8 @@
         ],
         "rule_keys": [
           "unit_4_C"
-        ]
+        ],
+        "canonical": "is always losing"
       },
       {
         "prompt": "Complete: (always / ask) You ____ the same question!",
@@ -1628,7 +1745,8 @@
         ],
         "rule_keys": [
           "unit_4_C"
-        ]
+        ],
+        "canonical": "are always asking"
       },
       {
         "prompt": "Complete: (not / believe) I ____ it.",
@@ -1641,7 +1759,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "don't believe"
       },
       {
         "prompt": "Complete: (not / understand) I ____ what you mean.",
@@ -1654,7 +1773,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "don't understand"
       },
       {
         "prompt": "Complete: (think) I ____ you're right.",
@@ -1666,7 +1786,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "think"
       },
       {
         "prompt": "Complete: (think) Wait, I ____ about it.",
@@ -1678,7 +1799,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "am thinking"
       }
     ]
   },
@@ -1699,7 +1821,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "She is talking on the phone."
       },
       {
         "prompt": "Two people are in a café now. Use (have) + lunch.",
@@ -1712,7 +1835,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "They are having lunch."
       },
       {
         "prompt": "A man is in the kitchen now. Use (cook).",
@@ -1725,7 +1849,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "He is cooking."
       },
       {
         "prompt": "A child is in bed now. Use (sleep).",
@@ -1738,7 +1863,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "He is sleeping."
       },
       {
         "prompt": "It is night and it is snowing. Use (snow).",
@@ -1751,7 +1877,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "It's snowing."
       },
       {
         "prompt": "A woman is in a pool now. Use (swim).",
@@ -1764,7 +1891,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "She is swimming."
       }
     ]
   },
@@ -1785,7 +1913,8 @@
         ],
         "rule_keys": [
           "unit_4_B"
-        ]
+        ],
+        "canonical": "don't drink"
       },
       {
         "prompt": "Complete: (not / drink) I'm on a diet, so I ____ coffee these days.",
@@ -1798,7 +1927,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "am not drinking"
       },
       {
         "prompt": "Complete: (work) He ____ as a driver.",
@@ -1810,7 +1940,8 @@
         ],
         "rule_keys": [
           "unit_4_B"
-        ]
+        ],
+        "canonical": "works"
       },
       {
         "prompt": "Complete: (work) He ____ a lot this week.",
@@ -1822,7 +1953,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "is working"
       },
       {
         "prompt": "Complete: (look) You ____ happy today!",
@@ -1834,7 +1966,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "look"
       },
       {
         "prompt": "Complete: (look) He ____ for his glasses.",
@@ -1846,7 +1979,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "is looking"
       },
       {
         "prompt": "Complete: (have) She ____ three sisters.",
@@ -1858,7 +1992,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "has"
       }
     ]
   },
@@ -1879,7 +2014,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "don't understand"
       },
       {
         "prompt": "Complete: (like) I ____ this music.",
@@ -1891,7 +2027,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "like"
       },
       {
         "prompt": "Complete: (think) I ____ it's a good plan.",
@@ -1903,7 +2040,8 @@
         ],
         "rule_keys": [
           "unit_4_D"
-        ]
+        ],
+        "canonical": "think"
       },
       {
         "prompt": "Complete: (think) I'm tired. I ____ about going to bed.",
@@ -1915,7 +2053,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "am thinking"
       },
       {
         "prompt": "Complete: (meet) We ____ the manager this afternoon.",
@@ -1927,7 +2066,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "are meeting"
       },
       {
         "prompt": "Complete: (look) He ____ at his phone right now.",
@@ -1939,7 +2079,8 @@
         ],
         "rule_keys": [
           "unit_4_A"
-        ]
+        ],
+        "canonical": "is looking"
       }
     ]
   },
@@ -1960,7 +2101,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "went"
       },
       {
         "prompt": "Complete in the past simple: (buy) She ____ a new jacket.",
@@ -1973,7 +2115,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "bought"
       },
       {
         "prompt": "Complete in the past simple: (see) We ____ Tom last week.",
@@ -1986,7 +2129,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "saw"
       },
       {
         "prompt": "Complete in the past simple: (play) They ____ football on Saturday.",
@@ -1999,7 +2143,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "played"
       },
       {
         "prompt": "Complete in the past simple: (have) I ____ breakfast at 7.",
@@ -2012,7 +2157,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "had"
       },
       {
         "prompt": "Complete in the past simple: (take) He ____ a taxi home.",
@@ -2025,7 +2171,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "took"
       },
       {
         "prompt": "Complete in the past simple: (meet) I ____ my teacher yesterday.",
@@ -2038,7 +2185,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "met"
       },
       {
         "prompt": "Complete in the past simple: (lose) She ____ her phone.",
@@ -2051,7 +2199,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "lost"
       },
       {
         "prompt": "Complete in the past simple: (finish) We ____ the test early.",
@@ -2064,7 +2213,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "finished"
       },
       {
         "prompt": "Complete in the past simple: (write) He ____ a long email.",
@@ -2077,7 +2227,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "wrote"
       },
       {
         "prompt": "Complete in the past simple: (get) They ____ to the airport late.",
@@ -2090,7 +2241,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "got"
       },
       {
         "prompt": "Complete in the past simple: (leave) I ____ the keys at home.",
@@ -2103,7 +2255,8 @@
         "rule_keys": [
           "unit_5_A",
           "unit_5_B"
-        ]
+        ],
+        "canonical": "left"
       }
     ]
   },
@@ -2125,7 +2278,8 @@
         "rule_keys": [
           "unit_5_B",
           "unit_5_C"
-        ]
+        ],
+        "canonical": "went; bought"
       },
       {
         "prompt": "Write the two verbs (past simple): I ____ (see) Anna and we ____ (have) coffee together.",
@@ -2139,7 +2293,8 @@
         "rule_keys": [
           "unit_5_B",
           "unit_5_C"
-        ]
+        ],
+        "canonical": "saw; had"
       },
       {
         "prompt": "Write the two verbs (past simple): On the way home I ____ (meet) Tom, so we ____ (talk) for a while.",
@@ -2153,7 +2308,8 @@
         "rule_keys": [
           "unit_5_B",
           "unit_5_C"
-        ]
+        ],
+        "canonical": "met; talked"
       },
       {
         "prompt": "Write the two verbs (past simple): I ____ (lose) my ticket and ____ (have) to buy another one.",
@@ -2167,7 +2323,8 @@
         "rule_keys": [
           "unit_5_B",
           "unit_5_C"
-        ]
+        ],
+        "canonical": "lost; had"
       },
       {
         "prompt": "Write the two verbs (past simple): I ____ (try) to call you, but I ____ (not / have) your number.",
@@ -2181,7 +2338,8 @@
         "rule_keys": [
           "unit_5_B",
           "unit_5_C"
-        ]
+        ],
+        "canonical": "tried; didn't have"
       },
       {
         "prompt": "Write the two verbs (past simple): In the evening we ____ (watch) a film and ____ (go) to bed early.",
@@ -2195,7 +2353,8 @@
         "rule_keys": [
           "unit_5_B",
           "unit_5_C"
-        ]
+        ],
+        "canonical": "watched; went"
       }
     ]
   },
@@ -2216,7 +2375,8 @@
         ],
         "rule_keys": [
           "unit_5_C"
-        ]
+        ],
+        "canonical": "Did you go out last night?"
       },
       {
         "prompt": "Write the question: what / you / do / yesterday?",
@@ -2229,7 +2389,8 @@
         ],
         "rule_keys": [
           "unit_5_C"
-        ]
+        ],
+        "canonical": "What did you do yesterday?"
       },
       {
         "prompt": "Write the question: where / she / buy / that bag?",
@@ -2242,7 +2403,8 @@
         ],
         "rule_keys": [
           "unit_5_C"
-        ]
+        ],
+        "canonical": "Where did she buy that bag?"
       },
       {
         "prompt": "Write the question: they / arrive / on time?",
@@ -2255,7 +2417,8 @@
         ],
         "rule_keys": [
           "unit_5_C"
-        ]
+        ],
+        "canonical": "Did they arrive on time?"
       },
       {
         "prompt": "Write the question: why / he / leave / early?",
@@ -2268,7 +2431,8 @@
         ],
         "rule_keys": [
           "unit_5_C"
-        ]
+        ],
+        "canonical": "Why did he leave early?"
       },
       {
         "prompt": "Write the question: when / you / see / him?",
@@ -2281,7 +2445,8 @@
         ],
         "rule_keys": [
           "unit_5_C"
-        ]
+        ],
+        "canonical": "When did you see him?"
       }
     ]
   },
@@ -2303,7 +2468,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "didn't see"
       },
       {
         "prompt": "Complete: She ____ (not / go) to work last Monday.",
@@ -2317,7 +2483,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "didn't go"
       },
       {
         "prompt": "Complete: ____ you ____ (call) me last night?",
@@ -2330,7 +2497,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "Did; call"
       },
       {
         "prompt": "Complete: What time ____ they ____ (arrive)?",
@@ -2343,7 +2511,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "did; arrive"
       },
       {
         "prompt": "Complete: We ____ (stay) at home two days ago.",
@@ -2356,7 +2525,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "stayed"
       },
       {
         "prompt": "Complete: He ____ (not / buy) anything.",
@@ -2370,7 +2540,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "didn't buy"
       },
       {
         "prompt": "Complete: Where ____ you ____ (leave) your phone?",
@@ -2383,7 +2554,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "did; leave"
       },
       {
         "prompt": "Complete: They ____ (finish) the job last week.",
@@ -2396,7 +2568,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "finished"
       },
       {
         "prompt": "Complete: I ____ (meet) him in 2021.",
@@ -2409,7 +2582,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "met"
       },
       {
         "prompt": "Complete: She ____ (not / have) time.",
@@ -2423,7 +2597,8 @@
         "rule_keys": [
           "unit_5_C",
           "unit_5_D"
-        ]
+        ],
+        "canonical": "didn't have"
       }
     ]
   },
@@ -2443,7 +2618,8 @@
         ],
         "rule_keys": [
           "unit_6_A"
-        ]
+        ],
+        "canonical": "was having"
       },
       {
         "prompt": "Complete with past continuous: At midnight they ____ (sleep).",
@@ -2455,7 +2631,8 @@
         ],
         "rule_keys": [
           "unit_6_A"
-        ]
+        ],
+        "canonical": "were sleeping"
       },
       {
         "prompt": "Complete with past continuous: At this time last week we ____ (travel) in Poland.",
@@ -2467,7 +2644,8 @@
         ],
         "rule_keys": [
           "unit_6_A"
-        ]
+        ],
+        "canonical": "were travelling"
       },
       {
         "prompt": "Complete with past continuous: At 9 am she ____ (work).",
@@ -2479,7 +2657,8 @@
         ],
         "rule_keys": [
           "unit_6_A"
-        ]
+        ],
+        "canonical": "was working"
       }
     ]
   },
@@ -2501,7 +2680,8 @@
         "rule_keys": [
           "unit_6_B",
           "unit_6_C"
-        ]
+        ],
+        "canonical": "was walking; saw"
       },
       {
         "prompt": "Write the two verbs: We ____ (watch) TV when the lights ____ (go) out.",
@@ -2515,7 +2695,8 @@
         "rule_keys": [
           "unit_6_B",
           "unit_6_C"
-        ]
+        ],
+        "canonical": "were watching; went"
       },
       {
         "prompt": "Write the two verbs: She ____ (drive) when her phone ____ (ring).",
@@ -2529,7 +2710,8 @@
         "rule_keys": [
           "unit_6_B",
           "unit_6_C"
-        ]
+        ],
+        "canonical": "was driving; rang"
       },
       {
         "prompt": "Write the two verbs: They ____ (have) dinner when I ____ (arrive).",
@@ -2543,7 +2725,8 @@
         "rule_keys": [
           "unit_6_B",
           "unit_6_C"
-        ]
+        ],
+        "canonical": "were having; arrived"
       },
       {
         "prompt": "Write the two verbs: While I ____ (cook), he ____ (set) the table.",
@@ -2557,7 +2740,8 @@
         "rule_keys": [
           "unit_6_B",
           "unit_6_C"
-        ]
+        ],
+        "canonical": "was cooking; was setting"
       },
       {
         "prompt": "Write the two verbs: While it ____ (rain), we ____ (wait) inside.",
@@ -2571,7 +2755,8 @@
         "rule_keys": [
           "unit_6_B",
           "unit_6_C"
-        ]
+        ],
+        "canonical": "was raining; were waiting"
       }
     ]
   },
@@ -2591,7 +2776,8 @@
         ],
         "rule_keys": [
           "unit_6_A"
-        ]
+        ],
+        "canonical": "was cooking"
       },
       {
         "prompt": "Complete: At 10 pm, Mark ____ (ride) his bike in the rain.",
@@ -2603,7 +2789,8 @@
         ],
         "rule_keys": [
           "unit_6_A"
-        ]
+        ],
+        "canonical": "was riding"
       }
     ]
   },
@@ -2623,7 +2810,8 @@
         ],
         "rule_keys": [
           "unit_6_E"
-        ]
+        ],
+        "canonical": "saw"
       },
       {
         "prompt": "Choose the correct form: While I ____ (drove / was driving), I listened to music.",
@@ -2635,7 +2823,8 @@
         ],
         "rule_keys": [
           "unit_6_B"
-        ]
+        ],
+        "canonical": "was driving"
       },
       {
         "prompt": "Choose the correct form: We ____ (had / were having) a great time when you called.",
@@ -2647,7 +2836,8 @@
         ],
         "rule_keys": [
           "unit_6_B"
-        ]
+        ],
+        "canonical": "were having"
       },
       {
         "prompt": "Choose the correct form: He ____ (fell / was falling) and hurt his arm.",
@@ -2659,7 +2849,8 @@
         ],
         "rule_keys": [
           "unit_6_E"
-        ]
+        ],
+        "canonical": "fell"
       }
     ]
   },
@@ -2680,7 +2871,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "has broken"
       },
       {
         "prompt": "Complete with the present perfect: (lose) I ____ my keys.",
@@ -2693,7 +2885,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "have lost"
       },
       {
         "prompt": "Complete with the present perfect: (finish) We ____ the work.",
@@ -2706,7 +2899,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "have finished"
       },
       {
         "prompt": "Complete with the present perfect: (buy) He ____ a new car.",
@@ -2719,7 +2913,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "has bought"
       },
       {
         "prompt": "Complete with the present perfect: (find) They ____ a hotel.",
@@ -2732,7 +2927,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "have found"
       },
       {
         "prompt": "Complete with the present perfect: (forget) She ____ your name.",
@@ -2745,7 +2941,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "has forgotten"
       },
       {
         "prompt": "Complete with the present perfect: (see) I ____ that film.",
@@ -2758,7 +2955,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "have seen"
       },
       {
         "prompt": "Complete with the present perfect: (hurt) He ____ his leg.",
@@ -2771,7 +2969,8 @@
         "rule_keys": [
           "unit_7_A",
           "unit_7_B"
-        ]
+        ],
+        "canonical": "has hurt"
       }
     ]
   },
@@ -2791,7 +2990,8 @@
         ],
         "rule_keys": [
           "unit_7_A"
-        ]
+        ],
+        "canonical": "gone"
       },
       {
         "prompt": "Write the past participle: do → ____",
@@ -2803,7 +3003,8 @@
         ],
         "rule_keys": [
           "unit_7_A"
-        ]
+        ],
+        "canonical": "done"
       },
       {
         "prompt": "Write the past participle: see → ____",
@@ -2815,7 +3016,8 @@
         ],
         "rule_keys": [
           "unit_7_A"
-        ]
+        ],
+        "canonical": "seen"
       },
       {
         "prompt": "Write the past participle: eat → ____",
@@ -2827,7 +3029,8 @@
         ],
         "rule_keys": [
           "unit_7_A"
-        ]
+        ],
+        "canonical": "eaten"
       },
       {
         "prompt": "Write the past participle: write → ____",
@@ -2839,7 +3042,8 @@
         ],
         "rule_keys": [
           "unit_7_A"
-        ]
+        ],
+        "canonical": "written"
       }
     ]
   },
@@ -2859,7 +3063,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "have just finished"
       },
       {
         "prompt": "Complete: She ____ (already / leave).",
@@ -2871,7 +3076,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "has already left"
       },
       {
         "prompt": "Complete: We ____ (not / eat / yet).",
@@ -2884,7 +3090,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "haven't eaten yet"
       },
       {
         "prompt": "Complete: ____ you ____ (yet / book) the tickets?",
@@ -2896,7 +3103,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "Have; booked yet"
       },
       {
         "prompt": "Complete: They ____ (just / arrive).",
@@ -2908,7 +3116,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "have just arrived"
       },
       {
         "prompt": "Complete: He ____ (already / call) me.",
@@ -2920,7 +3129,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "has already called"
       },
       {
         "prompt": "Complete: I ____ (not / see / yet) that film.",
@@ -2933,7 +3143,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "haven't seen it yet"
       },
       {
         "prompt": "Complete: ____ she ____ (yet / decide)?",
@@ -2945,7 +3156,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "Has; decided yet"
       },
       {
         "prompt": "Complete: We ____ (just / start).",
@@ -2957,7 +3169,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "have just started"
       },
       {
         "prompt": "Complete: They ____ (not / finish / yet).",
@@ -2970,7 +3183,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "haven't finished yet"
       },
       {
         "prompt": "Complete: I ____ (already / pay).",
@@ -2982,7 +3196,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "have already paid"
       },
       {
         "prompt": "Complete: He ____ (just / break) his glasses.",
@@ -2994,7 +3209,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "has just broken"
       }
     ]
   },
@@ -3015,7 +3231,8 @@
         ],
         "rule_keys": [
           "unit_7_D"
-        ]
+        ],
+        "canonical": "Have you ever been to Italy?"
       },
       {
         "prompt": "Write the question with ever: she / try / sushi?",
@@ -3028,7 +3245,8 @@
         ],
         "rule_keys": [
           "unit_7_D"
-        ]
+        ],
+        "canonical": "Has she ever tried sushi?"
       },
       {
         "prompt": "Write the question with ever: they / meet / a celebrity?",
@@ -3041,7 +3259,8 @@
         ],
         "rule_keys": [
           "unit_7_D"
-        ]
+        ],
+        "canonical": "Have they ever met a celebrity?"
       },
       {
         "prompt": "Make a sentence with never: I / (see) a whale.",
@@ -3053,7 +3272,8 @@
         ],
         "rule_keys": [
           "unit_7_D"
-        ]
+        ],
+        "canonical": "I've never seen a whale."
       },
       {
         "prompt": "Make a sentence with never: he / (ride) a horse.",
@@ -3066,7 +3286,8 @@
         ],
         "rule_keys": [
           "unit_7_D"
-        ]
+        ],
+        "canonical": "He's never ridden a horse."
       },
       {
         "prompt": "Make a sentence: I / (not / be) to London.",
@@ -3079,7 +3300,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "I haven't been to London."
       },
       {
         "prompt": "Make a sentence: she / (not / finish) yet.",
@@ -3092,7 +3314,8 @@
         ],
         "rule_keys": [
           "unit_7_C"
-        ]
+        ],
+        "canonical": "She hasn't finished yet."
       }
     ]
   },
@@ -3113,7 +3336,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "Have you ever been to Paris?"
       },
       {
         "prompt": "Write a question with ever: you / break / a bone?",
@@ -3126,7 +3350,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "Have you ever broken a bone?"
       },
       {
         "prompt": "Write a question with ever: you / win / a prize?",
@@ -3139,7 +3364,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "Have you ever won a prize?"
       },
       {
         "prompt": "Write a question with ever: you / meet / someone famous?",
@@ -3152,7 +3378,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "Have you ever met someone famous?"
       },
       {
         "prompt": "Write a question with ever: you / eat / octopus?",
@@ -3165,7 +3392,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "Have you ever eaten octopus?"
       }
     ]
   },
@@ -3186,7 +3414,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "Have; been; went"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: ____ you ____ (see) Anna today? B: Yes, I ____ (see) her this morning.",
@@ -3199,7 +3428,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "Have; seen; saw"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: I ____ (lose) my wallet. B: Where ____ you ____ (lose) it?",
@@ -3212,7 +3442,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "have lost; did; lose"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: ____ you ____ (finish) the report? B: Yes, I ____ (finish) it yesterday.",
@@ -3225,7 +3456,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "Have; finished; finished"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: She ____ (buy) a new car. B: When ____ she ____ (buy) it?",
@@ -3238,7 +3470,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "has bought; did; buy"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: I ____ (not / eat) today. B: What ____ you ____ (have) for breakfast?",
@@ -3251,7 +3484,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "haven't eaten; did; have"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: We ____ (meet) before. B: Really? Where ____ we ____ (meet)?",
@@ -3264,7 +3498,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "have met; did; meet"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: ____ you ____ (hear) the news? B: Yes, I ____ (hear) it last night.",
@@ -3277,7 +3512,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "Have; heard; heard"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: They ____ (go) out. B: What time ____ they ____ (leave)?",
@@ -3290,7 +3526,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "have gone; did; leave"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: I ____ (see) that film. B: When ____ you ____ (see) it?",
@@ -3303,7 +3540,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "have seen; did; see"
       },
       {
         "prompt": "Complete the dialogue (perfect or past simple): A: She ____ (not / call) me. B: Did you ____ (call) her?",
@@ -3316,7 +3554,8 @@
         "rule_keys": [
           "unit_8_A",
           "unit_8_C"
-        ]
+        ],
+        "canonical": "hasn't called; call"
       }
     ]
   },
@@ -3336,7 +3575,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "has broken"
       },
       {
         "prompt": "Use the present perfect: (finish) We ____ the test.",
@@ -3348,7 +3588,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "have finished"
       },
       {
         "prompt": "Use the present perfect: (lose) She ____ her passport.",
@@ -3360,7 +3601,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "has lost"
       },
       {
         "prompt": "Use the present perfect: (buy) They ____ a new sofa.",
@@ -3372,7 +3614,8 @@
         ],
         "rule_keys": [
           "unit_8_A"
-        ]
+        ],
+        "canonical": "have bought"
       }
     ]
   },
@@ -3392,7 +3635,8 @@
         ],
         "rule_keys": [
           "unit_8_C"
-        ]
+        ],
+        "canonical": "I've bought a bike. I bought it last week."
       },
       {
         "prompt": "News + detail: she / meet / the manager (on Monday).",
@@ -3405,7 +3649,8 @@
         ],
         "rule_keys": [
           "unit_8_C"
-        ]
+        ],
+        "canonical": "She's met the manager. She met him on Monday."
       },
       {
         "prompt": "News + detail: we / move / house (in 2023).",
@@ -3417,7 +3662,8 @@
         ],
         "rule_keys": [
           "unit_8_C"
-        ]
+        ],
+        "canonical": "We've moved house. We moved in 2023."
       },
       {
         "prompt": "News + detail: they / lose / their dog (yesterday).",
@@ -3429,7 +3675,8 @@
         ],
         "rule_keys": [
           "unit_8_C"
-        ]
+        ],
+        "canonical": "They've lost their dog. They lost it yesterday."
       },
       {
         "prompt": "News + detail: he / start / a new job (two months ago).",
@@ -3442,7 +3689,8 @@
         ],
         "rule_keys": [
           "unit_8_C"
-        ]
+        ],
+        "canonical": "He's started a new job. He started two months ago."
       },
       {
         "prompt": "News + detail: I / see / that film (last night).",
@@ -3454,7 +3702,8 @@
         ],
         "rule_keys": [
           "unit_8_C"
-        ]
+        ],
+        "canonical": "I've seen that film. I saw it last night."
       }
     ]
   },
@@ -3474,7 +3723,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "has been working"
       },
       {
         "prompt": "She is out of breath. (run) She ____.",
@@ -3486,7 +3736,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "has been running"
       },
       {
         "prompt": "The floor is wet. (clean) They ____ the floor.",
@@ -3498,7 +3749,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "have been cleaning"
       },
       {
         "prompt": "I'm tired. (study) I ____ for hours.",
@@ -3510,7 +3762,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "have been studying"
       }
     ]
   },
@@ -3531,7 +3784,8 @@
         "rule_keys": [
           "unit_9_A",
           "unit_9_B"
-        ]
+        ],
+        "canonical": "have been waiting"
       },
       {
         "prompt": "Complete: She ____ (work) here since May.",
@@ -3544,7 +3798,8 @@
         "rule_keys": [
           "unit_9_A",
           "unit_9_B"
-        ]
+        ],
+        "canonical": "has been working"
       },
       {
         "prompt": "Question: how long / you / learn English?",
@@ -3557,7 +3812,8 @@
         ],
         "rule_keys": [
           "unit_9_B"
-        ]
+        ],
+        "canonical": "How long have you been learning English?"
       },
       {
         "prompt": "Question: how long / they / live here?",
@@ -3570,7 +3826,8 @@
         ],
         "rule_keys": [
           "unit_9_B"
-        ]
+        ],
+        "canonical": "How long have they been living here?"
       },
       {
         "prompt": "Complete: We ____ (talk) all morning.",
@@ -3583,7 +3840,8 @@
         "rule_keys": [
           "unit_9_A",
           "unit_9_B"
-        ]
+        ],
+        "canonical": "have been talking"
       }
     ]
   },
@@ -3603,7 +3861,8 @@
         ],
         "rule_keys": [
           "unit_9_B"
-        ]
+        ],
+        "canonical": "for"
       },
       {
         "prompt": "Choose for/since: She's been ill ____ Monday.",
@@ -3615,7 +3874,8 @@
         ],
         "rule_keys": [
           "unit_9_B"
-        ]
+        ],
+        "canonical": "since"
       },
       {
         "prompt": "Choose for/since: They've been married ____ 2015.",
@@ -3627,7 +3887,8 @@
         ],
         "rule_keys": [
           "unit_9_B"
-        ]
+        ],
+        "canonical": "since"
       },
       {
         "prompt": "Choose for/since: We have been waiting ____ a long time.",
@@ -3639,7 +3900,8 @@
         ],
         "rule_keys": [
           "unit_9_B"
-        ]
+        ],
+        "canonical": "for"
       },
       {
         "prompt": "Choose for/since: He has been working here ____ three years.",
@@ -3651,7 +3913,8 @@
         ],
         "rule_keys": [
           "unit_9_B"
-        ]
+        ],
+        "canonical": "for"
       }
     ]
   },
@@ -3671,7 +3934,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "have been writing"
       },
       {
         "prompt": "Complete: (write) I ____ five emails so far. (result)",
@@ -3683,7 +3947,8 @@
         ],
         "rule_keys": [
           "unit_9_C"
-        ]
+        ],
+        "canonical": "have written"
       },
       {
         "prompt": "Complete: (read) She ____ all day. (activity)",
@@ -3695,7 +3960,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "has been reading"
       },
       {
         "prompt": "Complete: (read) She ____ three chapters. (result)",
@@ -3707,7 +3973,8 @@
         ],
         "rule_keys": [
           "unit_9_C"
-        ]
+        ],
+        "canonical": "has read"
       },
       {
         "prompt": "Complete: (paint) They ____ the kitchen. (activity)",
@@ -3719,7 +3986,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "have been painting"
       },
       {
         "prompt": "Complete: (paint) They ____ the kitchen walls. (result)",
@@ -3731,7 +3999,8 @@
         ],
         "rule_keys": [
           "unit_9_C"
-        ]
+        ],
+        "canonical": "have painted"
       },
       {
         "prompt": "Complete: (work) He ____ since 7 am. (duration)",
@@ -3743,7 +4012,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "has been working"
       },
       {
         "prompt": "Complete: (work) He ____ in this company for years. (state)",
@@ -3755,7 +4025,8 @@
         ],
         "rule_keys": [
           "unit_9_C"
-        ]
+        ],
+        "canonical": "has worked"
       },
       {
         "prompt": "Complete: (rain) It ____ for hours.",
@@ -3767,7 +4038,8 @@
         ],
         "rule_keys": [
           "unit_9_A"
-        ]
+        ],
+        "canonical": "has been raining"
       }
     ]
   },
@@ -3787,7 +4059,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have been cleaning"
       },
       {
         "prompt": "Now it looks nice. I ____ (clean) the kitchen.",
@@ -3799,7 +4072,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have cleaned"
       },
       {
         "prompt": "I'm tired. We ____ (walk) for hours.",
@@ -3811,7 +4085,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have been walking"
       },
       {
         "prompt": "We ____ (walk) 10 kilometres today.",
@@ -3823,7 +4098,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have walked"
       }
     ]
   },
@@ -3844,7 +4120,8 @@
         ],
         "rule_keys": [
           "unit_10_B"
-        ]
+        ],
+        "canonical": "How long have you been waiting for the bus?"
       },
       {
         "prompt": "Ask: she / know / him (2019).",
@@ -3857,7 +4134,8 @@
         ],
         "rule_keys": [
           "unit_10_C"
-        ]
+        ],
+        "canonical": "How long has she known him?"
       },
       {
         "prompt": "Ask: they / live here (two years).",
@@ -3870,7 +4148,8 @@
         ],
         "rule_keys": [
           "unit_10_B"
-        ]
+        ],
+        "canonical": "How long have they been living here?"
       },
       {
         "prompt": "Ask: you / have / this car (six months).",
@@ -3883,7 +4162,8 @@
         ],
         "rule_keys": [
           "unit_10_C"
-        ]
+        ],
+        "canonical": "How long have you had this car?"
       },
       {
         "prompt": "Ask: he / play / tennis (three years).",
@@ -3896,7 +4176,8 @@
         ],
         "rule_keys": [
           "unit_10_B"
-        ]
+        ],
+        "canonical": "How long has he been playing tennis?"
       },
       {
         "prompt": "Ask: how many emails / you / write today (5).",
@@ -3909,7 +4190,8 @@
         ],
         "rule_keys": [
           "unit_10_B"
-        ]
+        ],
+        "canonical": "How many emails have you written today?"
       },
       {
         "prompt": "Ask: how many cups of coffee / she / have today (3).",
@@ -3922,7 +4204,8 @@
         ],
         "rule_keys": [
           "unit_10_B"
-        ]
+        ],
+        "canonical": "How many cups of coffee has she had today?"
       }
     ]
   },
@@ -3942,7 +4225,8 @@
         ],
         "rule_keys": [
           "unit_10_C"
-        ]
+        ],
+        "canonical": "have had"
       },
       {
         "prompt": "Complete: (have) I ____ (have) problems with it recently.",
@@ -3954,7 +4238,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have been having"
       },
       {
         "prompt": "Complete: (work) She ____ (work) here since June.",
@@ -3966,7 +4251,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "has been working"
       },
       {
         "prompt": "Complete: (work) She ____ (work) in three different offices.",
@@ -3978,7 +4264,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "has worked"
       },
       {
         "prompt": "Complete: (read) He ____ (read) for an hour.",
@@ -3990,7 +4277,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "has been reading"
       },
       {
         "prompt": "Complete: (read) He ____ (read) four chapters.",
@@ -4002,7 +4290,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "has read"
       },
       {
         "prompt": "Complete: (live) We ____ (live) here for a long time.",
@@ -4014,7 +4303,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have been living"
       },
       {
         "prompt": "Complete: (live) We ____ (live) in Kyiv before.",
@@ -4026,7 +4316,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have lived"
       },
       {
         "prompt": "Complete: (know) I ____ (know) him since school.",
@@ -4038,7 +4329,8 @@
         ],
         "rule_keys": [
           "unit_10_C"
-        ]
+        ],
+        "canonical": "have known"
       },
       {
         "prompt": "Complete: (learn) I ____ (learn) Spanish recently.",
@@ -4050,7 +4342,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have been learning"
       },
       {
         "prompt": "Complete: (learn) I ____ (learn) a lot of new words.",
@@ -4062,7 +4355,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have learned"
       },
       {
         "prompt": "Complete: (wait) They ____ (wait) since 3 o'clock.",
@@ -4074,7 +4368,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have been waiting"
       },
       {
         "prompt": "Complete: (wait) They ____ (wait) for the result. It's ready now.",
@@ -4086,7 +4381,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "have waited"
       },
       {
         "prompt": "Complete: (rain) It ____ (rain) all day.",
@@ -4098,7 +4394,8 @@
         ],
         "rule_keys": [
           "unit_10_A"
-        ]
+        ],
+        "canonical": "has been raining"
       },
       {
         "prompt": "Complete: (rain) It ____ (rain) three times this week.",
@@ -4110,7 +4407,8 @@
         ],
         "rule_keys": [
           "unit_10_C"
-        ]
+        ],
+        "canonical": "has rained"
       }
     ]
   }
