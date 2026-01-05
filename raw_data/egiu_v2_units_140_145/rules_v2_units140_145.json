@@ -1,0 +1,354 @@
+[
+  {
+    "rule_key": "unit_140_A",
+    "unit_key": "unit_140",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use on/off with many devices: turn/switch something on or off. 'Put on' can mean 'switch on' (radio, kettle).",
+    "rule_text_uk": "On/off вживаємо з багатьма пристроями: turn/switch something on/off. 'Put on' також може означати 'увімкнути' (радіо, чайник).",
+    "rule_short_en": "on/off (switches, machines)",
+    "rule_short_uk": "on/off (switches, machines)",
+    "examples": [
+      "Can you switch the lights off, please?",
+      "I turned the heating on before we arrived.",
+      "Put the kettle on and I'll make tea."
+    ]
+  },
+  {
+    "rule_key": "unit_140_B",
+    "unit_key": "unit_140",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "go on = continue/happen; call off = cancel; put off = postpone until later.",
+    "rule_text_uk": "go on = продовжуватися/відбуватися; call off = скасувати; put off = відкласти на потім.",
+    "rule_short_en": "go on / call off / put off",
+    "rule_short_uk": "go on / call off / put off",
+    "examples": [
+      "The concert went on despite the rain.",
+      "They called off the meeting at the last minute.",
+      "Let's put off the decision until Monday."
+    ]
+  },
+  {
+    "rule_key": "unit_140_C",
+    "unit_key": "unit_140",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "For clothes: put on = start wearing; try on = test size/fit; take off = remove.",
+    "rule_text_uk": "Про одяг: put on = одягнути; try on = приміряти; take off = зняти.",
+    "rule_short_en": "put on / try on / take off (clothes)",
+    "rule_short_uk": "put on / try on / take off (clothes)",
+    "examples": [
+      "He put on his coat and went out.",
+      "I tried the jacket on, but it was too small.",
+      "Take your shoes off at the door."
+    ]
+  },
+  {
+    "rule_key": "unit_140_D",
+    "unit_key": "unit_140",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "More '… off': be off = leave (going somewhere); go/set off = start a journey/leave; take off = plane leaves ground; see somebody off = go to the station/airport with them.",
+    "rule_text_uk": "…off: be off = вирушати; go/set off = стартувати/вирушати; take off = (літак) злітає; see somebody off = проводжати.",
+    "rule_short_en": "be/go/set/take/see off",
+    "rule_short_uk": "be/go/set/take/see off",
+    "examples": [
+      "I'm off now—see you tomorrow.",
+      "We set off at dawn.",
+      "Their flight took off on time.",
+      "We went to the airport to see her off."
+    ]
+  },
+  {
+    "rule_key": "unit_141_A",
+    "unit_key": "unit_141",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "go on/carry on/keep on mean 'continue'. You can say go on doing, carry on doing, or carry on with something.",
+    "rule_text_uk": "go on/carry on/keep on = «продовжувати». Можна: go on doing, carry on doing або carry on with something.",
+    "rule_short_en": "go on / carry on / keep on",
+    "rule_short_uk": "go on / carry on / keep on",
+    "examples": [
+      "She kept on talking even after the bell.",
+      "Let's go on with the story.",
+      "He carried on working until midnight."
+    ]
+  },
+  {
+    "rule_key": "unit_141_B",
+    "unit_key": "unit_141",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "get on can mean 'make progress' (How are you getting on?), or 'have a good relationship' (get on with somebody). get on with something = continue doing it.",
+    "rule_text_uk": "get on: «просуватися» (How are you getting on?), або «ладнати» (get on with somebody). get on with something = продовжувати роботу.",
+    "rule_short_en": "get on (progress/relationship/work)",
+    "rule_short_uk": "get on (progress/relationship/work)",
+    "examples": [
+      "How are you getting on with your project?",
+      "I get on well with my neighbours.",
+      "Stop chatting and get on with it."
+    ]
+  },
+  {
+    "rule_key": "unit_141_C",
+    "unit_key": "unit_141",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Common '… off' verbs: doze/nod off = fall asleep; finish off = complete; go off = ring/explode (alarm); put somebody off = discourage; rip somebody off = overcharge; show off = try to impress; tell off = speak angrily.",
+    "rule_text_uk": "Поширені '… off': doze/nod off = задрімати; finish off = доробити; go off = спрацювати/задзвонити (сигналізація); put sb off = відбити бажання; rip sb off = обдурити/здерти гроші; show off; tell off.",
+    "rule_short_en": "more verbs + off",
+    "rule_short_uk": "more verbs + off",
+    "examples": [
+      "I nodded off during the film.",
+      "Let's finish off the report today.",
+      "The alarm went off at 6.",
+      "Don't show off—just be yourself."
+    ]
+  },
+  {
+    "rule_key": "unit_142_A",
+    "unit_key": "unit_142",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Many verbs use up (to a higher position) and down (to a lower position): stand up / sit down; pick something up / put something down; turn up / turn down (volume).",
+    "rule_text_uk": "Up/down часто показують рух: stand up / sit down; pick up / put down; turn up / turn down (гучність).",
+    "rule_short_en": "up/down (movement/position)",
+    "rule_short_uk": "up/down (movement/position)",
+    "examples": [
+      "Please stand up for a moment.",
+      "He picked the keys up and put them in his pocket.",
+      "Turn the music down."
+    ]
+  },
+  {
+    "rule_key": "unit_142_B",
+    "unit_key": "unit_142",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "knock/cut/burn something down often mean 'destroy so it falls' (a building, trees). be knocked down = hit by a vehicle/fall over.",
+    "rule_text_uk": "knock/cut/burn something down = «знести/зруйнувати». be knocked down = збити/звалитися.",
+    "rule_short_en": "knock/cut/burn down",
+    "rule_short_uk": "knock/cut/burn down",
+    "examples": [
+      "They knocked the old house down.",
+      "A storm cut several trees down.",
+      "The warehouse burned down last night."
+    ]
+  },
+  {
+    "rule_key": "unit_142_C",
+    "unit_key": "unit_142",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "down can mean 'less' or 'slower': slow down, calm down, cut down on (reduce).",
+    "rule_text_uk": "Down може означати «менше/повільніше»: slow down, calm down, cut down on (зменшити).",
+    "rule_short_en": "down = less/slower",
+    "rule_short_uk": "down = less/slower",
+    "examples": [
+      "Slow down—you're driving too fast.",
+      "Calm down and tell me what happened.",
+      "I'm trying to cut down on sugar."
+    ]
+  },
+  {
+    "rule_key": "unit_142_D",
+    "unit_key": "unit_142",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Other common '… down' verbs: break down (machine stops); shut down (close/stop operating); let somebody down (disappoint); write something down (note); turn down (reject/refuse or lower).",
+    "rule_text_uk": "Інші '… down': break down = зламатися; shut down = закрити/зупинити; let sb down = підвести; write down = записати; turn down = відмовити/зменшити.",
+    "rule_short_en": "other verbs + down",
+    "rule_short_uk": "other verbs + down",
+    "examples": [
+      "My car broke down on the way home.",
+      "They shut the computer system down for maintenance.",
+      "I don't want to let you down.",
+      "Write the address down."
+    ]
+  },
+  {
+    "rule_key": "unit_143_A",
+    "unit_key": "unit_143",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "catch up = reach the same level; keep up = not fall behind; hurry up = do something faster.",
+    "rule_text_uk": "catch up = наздогнати; keep up = не відставати; hurry up = поспішати/робити швидше.",
+    "rule_short_en": "catch up / keep up / hurry up",
+    "rule_short_uk": "catch up / keep up / hurry up",
+    "examples": [
+      "I missed two lessons, so I need to catch up.",
+      "Try to keep up with the group.",
+      "Hurry up—we're late."
+    ]
+  },
+  {
+    "rule_key": "unit_143_B",
+    "unit_key": "unit_143",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "set up = arrange/start (a system, business); take up = start a hobby or use space/time; fix up = repair or arrange (often informally).",
+    "rule_text_uk": "set up = організувати/заснувати; take up = почати хобі або займати місце/час; fix up = полагодити/влаштувати (розм.).",
+    "rule_short_en": "set up / take up / fix up",
+    "rule_short_uk": "set up / take up / fix up",
+    "examples": [
+      "She set up an online shop.",
+      "He took up running last year.",
+      "Can you fix up the shelf?"
+    ]
+  },
+  {
+    "rule_key": "unit_143_C",
+    "unit_key": "unit_143",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "grow up = become an adult; bring up = raise a child or mention a topic.",
+    "rule_text_uk": "grow up = дорослішати; bring up = виховувати або «підняти тему».",
+    "rule_short_en": "grow up / bring up",
+    "rule_short_uk": "grow up / bring up",
+    "examples": [
+      "I grew up in a small town.",
+      "They brought up three children.",
+      "Don't bring that up again."
+    ]
+  },
+  {
+    "rule_key": "unit_143_D",
+    "unit_key": "unit_143",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "clean up = make a place tidy/clean; wash up = wash dishes or clean your hands/face (informal).",
+    "rule_text_uk": "clean up = прибрати; wash up = помити посуд або вмитися (розм.).",
+    "rule_short_en": "clean up / wash up",
+    "rule_short_uk": "clean up / wash up",
+    "examples": [
+      "We need to clean up after the party.",
+      "I'll wash up while you dry."
+    ]
+  },
+  {
+    "rule_key": "unit_143_E",
+    "unit_key": "unit_143",
+    "section_path": "E",
+    "title_en": null,
+    "rule_text_en": "More '… up': end up = finally be in a situation; give up = stop trying; make up = invent; turn up/show up = arrive/appear; use up = consume all of something.",
+    "rule_text_uk": "…up: end up = врешті опинитися; give up = здатися/кинути; make up = вигадати; turn up/show up = з'явитися; use up = витратити все.",
+    "rule_short_en": "end up / give up / make up / turn up / use up",
+    "rule_short_uk": "end up / give up / make up / turn up / use up",
+    "examples": [
+      "We ended up staying at home.",
+      "Don't give up yet.",
+      "He made the story up.",
+      "She turned up late.",
+      "We've used up all the milk."
+    ]
+  },
+  {
+    "rule_key": "unit_144_A",
+    "unit_key": "unit_144",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "bring up a topic = introduce it; come up = be mentioned/happen unexpectedly; come up with = produce an idea; make something up = invent (a story/excuse).",
+    "rule_text_uk": "bring up = підняти тему; come up = з'явитися/виникнути; come up with = придумати; make up = вигадати (історію/виправдання).",
+    "rule_short_en": "bring up / come up / come up with / make up",
+    "rule_short_uk": "bring up / come up / come up with / make up",
+    "examples": [
+      "His name came up in the meeting.",
+      "Can you come up with a plan?",
+      "She made an excuse up."
+    ]
+  },
+  {
+    "rule_key": "unit_144_B",
+    "unit_key": "unit_144",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "cheer up = become happier (or make somebody happier); save up = keep money for later; clear up = weather becomes brighter/better.",
+    "rule_text_uk": "cheer up = підбадьоритися/підбадьорити; save up = назбирати грошей; clear up = (про погоду) прояснитися.",
+    "rule_short_en": "cheer up / save up / clear up",
+    "rule_short_uk": "cheer up / save up / clear up",
+    "examples": [
+      "Cheer up—it's not that bad.",
+      "I'm saving up for a new bike.",
+      "It should clear up by afternoon."
+    ]
+  },
+  {
+    "rule_key": "unit_144_C",
+    "unit_key": "unit_144",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "blow up = explode (or destroy by explosion); tear up = tear into pieces; beat somebody up = hit repeatedly and hurt them.",
+    "rule_text_uk": "blow up = вибухнути/підірвати; tear up = розірвати; beat sb up = побити.",
+    "rule_short_en": "blow up / tear up / beat up",
+    "rule_short_uk": "blow up / tear up / beat up",
+    "examples": [
+      "The tyre blew up on the motorway.",
+      "He tore the note up.",
+      "Someone was beaten up outside the club."
+    ]
+  },
+  {
+    "rule_key": "unit_144_D",
+    "unit_key": "unit_144",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "break up/split up = separate; do up = fasten or renovate; look up = search in a dictionary; put up with = tolerate; hold up = delay; mix up = confuse two things/people.",
+    "rule_text_uk": "break up/split up = розійтися; do up = застебнути або відремонтувати; look up = перевірити в словнику; put up with = терпіти; hold up = затримати; mix up = переплутати.",
+    "rule_short_en": "break up / do up / look up / put up with / hold up / mix up",
+    "rule_short_uk": "break up / do up / look up / put up with / hold up / mix up",
+    "examples": [
+      "They split up last year.",
+      "Do your coat up—it's cold.",
+      "Look the word up.",
+      "Traffic held us up."
+    ]
+  },
+  {
+    "rule_key": "unit_145_A",
+    "unit_key": "unit_145",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "away = away from home/a place; back = return. You can say go/drive/walk away and come/go/get back, give something back, put something back.",
+    "rule_text_uk": "away = «геть/з місця/з дому»; back = «назад/повернутися».: go/drive away; come/go/get back; give/put back.",
+    "rule_short_en": "away vs back",
+    "rule_short_uk": "away vs back",
+    "examples": [
+      "She walked away without a word.",
+      "When will you be back?",
+      "Please put the book back."
+    ]
+  },
+  {
+    "rule_key": "unit_145_B",
+    "unit_key": "unit_145",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Common '… away': get away (escape); get away with (do wrong without punishment); keep away (from) (don't go near); give away (donate/reveal); put away (tidy/store); throw away (discard).",
+    "rule_text_uk": "…away: get away = втекти; get away with = «зійти з рук»; keep away (from) = не підходити; give away = віддати/видати; put away = прибрати; throw away = викинути.",
+    "rule_short_en": "other verbs + away",
+    "rule_short_uk": "other verbs + away",
+    "examples": [
+      "The thief got away.",
+      "He got away with lying.",
+      "Keep away from the edge.",
+      "Don't throw it away."
+    ]
+  },
+  {
+    "rule_key": "unit_145_C",
+    "unit_key": "unit_145",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Common '… back': wave/smile/shout back; call back (return a call); get back to somebody (reply later); look back (on) = think about the past; pay back = return money.",
+    "rule_text_uk": "…back: wave/smile/shout back; call back = передзвонити; get back to sb = відповісти пізніше; look back (on) = озиратися в минуле; pay back = повернути гроші.",
+    "rule_short_en": "other verbs + back",
+    "rule_short_uk": "other verbs + back",
+    "examples": [
+      "I waved and she waved back.",
+      "I'll call you back in ten minutes.",
+      "He never got back to me.",
+      "I'll pay you back next week."
+    ]
+  }
+]

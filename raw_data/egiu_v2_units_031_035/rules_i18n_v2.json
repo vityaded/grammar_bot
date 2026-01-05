@@ -1,0 +1,311 @@
+[
+  {
+    "rule_key": "unit_31_A",
+    "unit_key": "unit_31",
+    "section_path": "A",
+    "title_en": "have to (necessity / obligation)",
+    "rule_text_en": "Use have to for necessity or obligation (a fact). Use do/does/did for questions and negatives: Do I have to...? I don't have to...; I had to... for the past.",
+    "rule_text_uk": "Використовуйте have to для необхідності/обовʼязку (факт). У питаннях і запереченнях: do/does/did + have to. Для минулого: had to.",
+    "rule_short_en": "have to = necessary/obliged; questions/negatives use do/does/did.",
+    "rule_short_uk": "have to = треба; питання/заперечення з do/does/did.",
+    "examples": [
+      "I have to wear glasses to read.",
+      "Do we have to leave now?",
+      "I didn't have to wait long."
+    ]
+  },
+  {
+    "rule_key": "unit_31_B",
+    "unit_key": "unit_31",
+    "section_path": "B",
+    "title_en": "must and have to (difference)",
+    "rule_text_en": "Must is close to have to, but it often shows the speaker's view or recommendation. For facts we usually use have to. In written rules, must is common. For the past, use had to.",
+    "rule_text_uk": "Must подібне до have to, але часто передає думку/рекомендацію мовця або правило. Для фактів зазвичай have to. У минулому: had to.",
+    "rule_short_en": "Must = speaker's view / rules; have to = fact; past = had to.",
+    "rule_short_uk": "must = думка/правило; have to = факт; минуле = had to.",
+    "examples": [
+      "You must try this cake - it's fantastic.",
+      "Employees must show an ID badge.",
+      "Yesterday I had to leave early."
+    ]
+  },
+  {
+    "rule_key": "unit_31_C",
+    "unit_key": "unit_31",
+    "section_path": "C",
+    "title_en": "have got to",
+    "rule_text_en": "Have got to can replace have to in the present (informal): I've got to go = I have to go.",
+    "rule_text_uk": "Have got to можна вживати замість have to в теперішньому (розмовно): I've got to go = I have to go.",
+    "rule_short_en": "have got to = informal have to (present).",
+    "rule_short_uk": "have got to = розмовне have to (теперішній).",
+    "examples": [
+      "I've got to call my sister.",
+      "What time have you got to be there?"
+    ]
+  },
+  {
+    "rule_key": "unit_31_D",
+    "unit_key": "unit_31",
+    "section_path": "D",
+    "title_en": "mustn't vs don't have to",
+    "rule_text_en": "Mustn't means 'don't do it' (prohibited). Don't have to means 'not necessary' (optional). They are different.",
+    "rule_text_uk": "Mustn't = заборонено (не роби). Don't have to = не обовʼязково (можеш не робити).",
+    "rule_short_en": "mustn't = forbidden; don't have to = not necessary.",
+    "rule_short_uk": "mustn't = заборонено; don't have to = не обовʼязково.",
+    "examples": [
+      "You mustn't park here.",
+      "You don't have to come if you're busy.",
+      "We mustn't be late."
+    ]
+  },
+  {
+    "rule_key": "unit_32_A",
+    "unit_key": "unit_32",
+    "section_path": "A",
+    "title_en": "must / mustn't",
+    "rule_text_en": "Must means 'it's necessary' (strong obligation). Mustn't means 'don't do it' (prohibition).",
+    "rule_text_uk": "Must = необхідно. Mustn't = не можна (заборона).",
+    "rule_short_en": "must = necessary; mustn't = prohibited.",
+    "rule_short_uk": "must = необхідно; mustn't = заборона.",
+    "examples": [
+      "You must keep this secret.",
+      "You mustn't touch the wires.",
+      "We must hurry."
+    ]
+  },
+  {
+    "rule_key": "unit_32_B",
+    "unit_key": "unit_32",
+    "section_path": "B",
+    "title_en": "needn't / don't need to",
+    "rule_text_en": "Needn't means 'not necessary' (you can if you want). You can also say don't/doesn't need to. We say needn't do (without 'to').",
+    "rule_text_uk": "Needn't = не потрібно (але можна). Також: don't/doesn't need to. Кажемо needn't do (без to).",
+    "rule_short_en": "needn't = not necessary; also don't need to.",
+    "rule_short_uk": "needn't = не потрібно; також don't need to.",
+    "examples": [
+      "You needn't wait for me.",
+      "We don't need to hurry.",
+      "He needn't come today."
+    ]
+  },
+  {
+    "rule_key": "unit_32_C",
+    "unit_key": "unit_32",
+    "section_path": "C",
+    "title_en": "needn't have (done)",
+    "rule_text_en": "Needn't have done = you did something, but later you see it was unnecessary: You needn't have bought tickets (but you did).",
+    "rule_text_uk": "Needn't have done: ви це зробили, але потім стало ясно, що це було не потрібно.",
+    "rule_short_en": "needn't have done: did it, but it wasn't necessary.",
+    "rule_short_uk": "needn't have done: зробив даремно.",
+    "examples": [
+      "You needn't have cooked so much.",
+      "She needn't have taken a taxi.",
+      "We needn't have booked ahead."
+    ]
+  },
+  {
+    "rule_key": "unit_32_D",
+    "unit_key": "unit_32",
+    "section_path": "D",
+    "title_en": "needn't have vs didn't need to",
+    "rule_text_en": "Needn't have done: you did it unnecessarily. Didn't need to do: it wasn't necessary; maybe you didn't do it (or you did).",
+    "rule_text_uk": "Needn't have done: зробив даремно. Didn't need to do: потреби не було; головне — «не потрібно було».",
+    "rule_short_en": "needn't have = did it unnecessarily; didn't need to = no need.",
+    "rule_short_uk": "needn't have = зробив даремно; didn't need to = не було потреби.",
+    "examples": [
+      "I didn't need to call, so I didn't.",
+      "I didn't need to call, but I did anyway.",
+      "You needn't have called - everything was fine."
+    ]
+  },
+  {
+    "rule_key": "unit_33_A",
+    "unit_key": "unit_33",
+    "section_path": "A",
+    "title_en": "should / shouldn't (advice)",
+    "rule_text_en": "Use should to give advice or say what is a good/right thing to do. Use shouldn't to say something is not a good idea.",
+    "rule_text_uk": "Should — порада/правильна дія. Shouldn't — не варто, погана ідея.",
+    "rule_short_en": "should = advice; shouldn't = bad idea.",
+    "rule_short_uk": "should = порада; shouldn't = погана ідея.",
+    "examples": [
+      "You should get some rest.",
+      "You shouldn't drive when you're tired.",
+      "Do you think I should call her?"
+    ]
+  },
+  {
+    "rule_key": "unit_33_B",
+    "unit_key": "unit_33",
+    "section_path": "B",
+    "title_en": "should for expectation / not normal",
+    "rule_text_en": "Use should when something is expected or when a situation isn't right: She should be here by now; It shouldn't take long.",
+    "rule_text_uk": "Should вживаємо для очікуваного або коли щось «не так»: She should be here by now; It shouldn't take long.",
+    "rule_short_en": "should = expected; shouldn't = not expected.",
+    "rule_short_uk": "should = очікувано/нормально; shouldn't = не очікується.",
+    "examples": [
+      "The train should arrive at 6.",
+      "He should be home by now.",
+      "It shouldn't be difficult to park."
+    ]
+  },
+  {
+    "rule_key": "unit_33_C",
+    "unit_key": "unit_33",
+    "section_path": "C",
+    "title_en": "should have (done) / shouldn't have (done)",
+    "rule_text_en": "Should have done = it would have been better to do it (but you didn't). Shouldn't have done = it was a bad idea (and you did it).",
+    "rule_text_uk": "Should have done: було б краще зробити (але не зробив). Shouldn't have done: не треба було робити (але зробив).",
+    "rule_short_en": "should have = regret about not doing; shouldn't have = regret about doing.",
+    "rule_short_uk": "should have = шкода, що не зробив; shouldn't have = шкода, що зробив.",
+    "examples": [
+      "You should have told me earlier.",
+      "I shouldn't have said that.",
+      "You should have come with us."
+    ]
+  },
+  {
+    "rule_key": "unit_33_D",
+    "unit_key": "unit_33",
+    "section_path": "D",
+    "title_en": "ought to",
+    "rule_text_en": "Ought to can replace should. We usually use 'ought to' (with 'to') and can say ought not to / ought to have done.",
+    "rule_text_uk": "Ought to можна замінити should; зазвичай з to: ought to / ought not to / ought to have done.",
+    "rule_short_en": "ought to ≈ should.",
+    "rule_short_uk": "ought to ≈ should.",
+    "examples": [
+      "You ought to see a doctor.",
+      "He ought not to speak like that.",
+      "You ought to have phoned me."
+    ]
+  },
+  {
+    "rule_key": "unit_34_A",
+    "unit_key": "unit_34",
+    "section_path": "A",
+    "title_en": "should after verbs (insist, recommend...)",
+    "rule_text_en": "Use should after verbs like insist, demand, recommend, suggest, propose: They suggested that we should leave early.",
+    "rule_text_uk": "Should ставимо після insist/demand/recommend/suggest/propose: They suggested that we should leave.",
+    "rule_short_en": "insist/demand/recommend/suggest/propose + (that) ... should ...",
+    "rule_short_uk": "insist/demand/recommend/suggest/propose + ... should ...",
+    "examples": [
+      "I insisted that he should apologise.",
+      "They recommended that we should book ahead."
+    ]
+  },
+  {
+    "rule_key": "unit_34_B",
+    "unit_key": "unit_34",
+    "section_path": "B",
+    "title_en": "subjunctive without should",
+    "rule_text_en": "In these structures, we can omit should: They suggested that we leave early. This is a subjunctive form (base verb).",
+    "rule_text_uk": "У структурах з A можна опустити should: suggested that we leave. Це умовний/субʼюнктив (базова форма дієслова).",
+    "rule_short_en": "You can drop should: suggested that we leave / be / do.",
+    "rule_short_uk": "Можна без should: suggested that we leave / be / do.",
+    "examples": [
+      "It's essential that everyone be on time.",
+      "She insisted that he apologise."
+    ]
+  },
+  {
+    "rule_key": "unit_34_C",
+    "unit_key": "unit_34",
+    "section_path": "C",
+    "title_en": "suggest + that-clause (no 'to')",
+    "rule_text_en": "With suggest, we use a that-clause (with should or subjunctive) and not 'to': What do you suggest we do?",
+    "rule_text_uk": "Після suggest вживаємо that‑clause, а не to: What do you suggest we do? (не suggest us to do).",
+    "rule_short_en": "suggest + that we (should) do / suggest we do (no 'to').",
+    "rule_short_uk": "suggest + that we (should) do; без ‘to'.",
+    "examples": [
+      "What do you suggest we do?",
+      "I suggested that she buy a used car."
+    ]
+  },
+  {
+    "rule_key": "unit_34_D",
+    "unit_key": "unit_34",
+    "section_path": "D",
+    "title_en": "adjectives + should",
+    "rule_text_en": "Use should after adjectives like strange, odd, natural, important, surprised: It's strange that he should be late.",
+    "rule_text_uk": "Should після прикметників типу strange/important/surprised: It's strange that he should be late.",
+    "rule_short_en": "It's strange/important/etc. that ... should ...",
+    "rule_short_uk": "It's strange/important/etc. that ... should ...",
+    "examples": [
+      "It's odd that she should say that.",
+      "I was surprised that he should agree."
+    ]
+  },
+  {
+    "rule_key": "unit_34_E",
+    "unit_key": "unit_34",
+    "section_path": "E",
+    "title_en": "if ... should / Should ... happen",
+    "rule_text_en": "If something should happen means 'if it happens' but feels less likely. You can also start with Should: Should anything happen, call me.",
+    "rule_text_uk": "If ... should ... = «якщо раптом...», менш імовірно. Можна почати з Should: Should anything happen, ...",
+    "rule_short_en": "If ... should ... = less likely; Should ... happen = same meaning.",
+    "rule_short_uk": "If ... should ... = менш імовірно; Should ... happen = те саме.",
+    "examples": [
+      "If you should see Dan, tell him.",
+      "Should the weather change, we'll stay home."
+    ]
+  },
+  {
+    "rule_key": "unit_34_F",
+    "unit_key": "unit_34",
+    "section_path": "F",
+    "title_en": "I should ... (advice / offer)",
+    "rule_text_en": "Use I should / I shouldn't to say what you will do or advise in a situation: 'Shall I wait?' 'No, I should go now.'",
+    "rule_text_uk": "I should / I shouldn't — що я зроблю/пораджу в ситуації: ‘Shall I wait?' ‘No, I should go.'",
+    "rule_short_en": "I should ... = what I'll do / advise in this case.",
+    "rule_short_uk": "I should ... = що зроблю/пораджу зараз.",
+    "examples": [
+      "I should phone her tonight.",
+      "I shouldn't stay up late.",
+      "I should take a coat."
+    ]
+  },
+  {
+    "rule_key": "unit_35_A",
+    "unit_key": "unit_35",
+    "section_path": "A",
+    "title_en": "had better (advice with risk)",
+    "rule_text_en": "Had better ('d better) gives strong advice for a specific situation, often with a possible problem if you don't do it. Negative: 'd better not.",
+    "rule_text_uk": "Had better ('d better) — сильна порада для конкретної ситуації, часто з ризиком. Заперечення: 'd better not.",
+    "rule_short_en": "'d better = strong advice for this situation; 'd better not = avoid.",
+    "rule_short_uk": "'d better = сильна порада; 'd better not = краще не.",
+    "examples": [
+      "You'd better leave now or you'll miss the train.",
+      "We'd better not tell him yet.",
+      "I'd better call her."
+    ]
+  },
+  {
+    "rule_key": "unit_35_B",
+    "unit_key": "unit_35",
+    "section_path": "B",
+    "title_en": "had better vs should",
+    "rule_text_en": "Had better is for one specific situation and sounds like there is a risk. Should is more general advice and doesn't imply a problem if you don't do it.",
+    "rule_text_uk": "Had better — конкретна ситуація і звучить як попередження про проблему. Should — загальна порада.",
+    "rule_short_en": "had better = specific + risk; should = general advice.",
+    "rule_short_uk": "had better = конкретно+ризик; should = загальна порада.",
+    "examples": [
+      "It's late - you'd better go.",
+      "You should exercise regularly.",
+      "You'd better not be late."
+    ]
+  },
+  {
+    "rule_key": "unit_35_C",
+    "unit_key": "unit_35",
+    "section_path": "C",
+    "title_en": "it's time ... (to / past / did)",
+    "rule_text_en": "It's time (for somebody) to do something. You can also use past: It's time we went. It's time somebody did something = they should have started already; often a complaint. Also: it's about time ...",
+    "rule_text_uk": "It's time (for sb) to do...; також past: It's time we went. It's time somebody did... — «вже пора», часто скарга. Також: it's about time...",
+    "rule_short_en": "It's time to... / It's time we went / It's time you did... (complaint).",
+    "rule_short_uk": "It's time to... / It's time we went / It's time you did...",
+    "examples": [
+      "It's time to go home.",
+      "It's time we left.",
+      "It's about time you apologised."
+    ]
+  }
+]

@@ -1,0 +1,2517 @@
+[
+  {
+    "unit_key": "unit_140",
+    "exercise_index": 1,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences. Use a verb + on/off (sometimes with it/the light etc.).",
+    "items": [
+      {
+        "prompt": "1) The room is dark. Please ______ the light ______.",
+        "options": null,
+        "canonical": "turn on",
+        "accepted_variants": [
+          "TURN ON",
+          "Turn on",
+          "switch on",
+          "turn on",
+          "turn the light on"
+        ],
+        "rule_keys": [
+          "unit_140_A"
+        ]
+      },
+      {
+        "prompt": "2) It's too hot. Could you ______ the heating ______?",
+        "options": null,
+        "canonical": "turn off",
+        "accepted_variants": [
+          "TURN OFF",
+          "Turn off",
+          "switch off",
+          "turn off",
+          "turn the heating off"
+        ],
+        "rule_keys": [
+          "unit_140_A"
+        ]
+      },
+      {
+        "prompt": "3) I can't hear you. ______ the TV ______ a bit.",
+        "options": null,
+        "canonical": "turn up",
+        "accepted_variants": [
+          "TURN UP",
+          "Turn up",
+          "turn the TV up",
+          "turn up"
+        ],
+        "rule_keys": [
+          "unit_140_A"
+        ]
+      },
+      {
+        "prompt": "4) The music is loud. Can you ______ it ______?",
+        "options": null,
+        "canonical": "turn down",
+        "accepted_variants": [
+          "TURN DOWN",
+          "Turn down",
+          "turn down",
+          "turn it down"
+        ],
+        "rule_keys": [
+          "unit_140_A"
+        ]
+      },
+      {
+        "prompt": "5) I'm freezing. I'll ______ the kettle ______ for tea.",
+        "options": null,
+        "canonical": "put on",
+        "accepted_variants": [
+          "PUT ON",
+          "Put on",
+          "put on",
+          "put the kettle on"
+        ],
+        "rule_keys": [
+          "unit_140_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_140",
+    "exercise_index": 2,
+    "exercise_type": "mcq",
+    "instruction": "Choose the correct phrasal verb: go on / call off / put off.",
+    "items": [
+      {
+        "prompt": "1) The match was cancelled because of heavy rain. They decided to ______ it ______.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "call off",
+        "accepted_variants": [
+          "CALL OFF",
+          "Call off",
+          "call off",
+          "calloff"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "2) The speaker is late, but the meeting will ______ without him.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "go on",
+        "accepted_variants": [
+          "GO ON",
+          "Go on",
+          "go on",
+          "goon"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "3) We can't decide today. Let's ______ the discussion until tomorrow.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "put off",
+        "accepted_variants": [
+          "PUT OFF",
+          "Put off",
+          "put off",
+          "putoff"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "4) The concert will ______ as planned.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "go on",
+        "accepted_variants": [
+          "GO ON",
+          "Go on",
+          "go on",
+          "goon"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "5) They had to ______ the trip because of a strike.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "call off",
+        "accepted_variants": [
+          "CALL OFF",
+          "Call off",
+          "call off",
+          "calloff"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "6) The problem is serious, but we have to ______ and deal with it.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "go on",
+        "accepted_variants": [
+          "GO ON",
+          "Go on",
+          "go on",
+          "goon"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "7) The game was ______ at the last minute.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "call off",
+        "accepted_variants": [
+          "CALL OFF",
+          "Call off",
+          "call off",
+          "calloff"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "8) If you’re tired, you can ______ working on this tomorrow.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "put off",
+        "accepted_variants": [
+          "PUT OFF",
+          "Put off",
+          "put off",
+          "putoff"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "9) The fireworks display will ______ at 9 p.m.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "go on",
+        "accepted_variants": [
+          "GO ON",
+          "Go on",
+          "go on",
+          "goon"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "10) They ______ the wedding until next summer.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "put off",
+        "accepted_variants": [
+          "PUT OFF",
+          "Put off",
+          "put off",
+          "putoff"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "11) We’ll ______ with the plan even if it’s difficult.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "go on",
+        "accepted_variants": [
+          "GO ON",
+          "Go on",
+          "go on",
+          "goon"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "12) The organisers ______ the event due to safety concerns.",
+        "options": [
+          "go on",
+          "call off",
+          "put off"
+        ],
+        "canonical": "call off",
+        "accepted_variants": [
+          "CALL OFF",
+          "Call off",
+          "call off",
+          "calloff"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_140",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences. Use a suitable verb + on/off.",
+    "items": [
+      {
+        "prompt": "1) It's cold outside. She picked up her gloves and ______ them ______.",
+        "options": null,
+        "canonical": "put on",
+        "accepted_variants": [
+          "PUT ON",
+          "Put on",
+          "put on",
+          "put them on"
+        ],
+        "rule_keys": [
+          "unit_140_C"
+        ]
+      },
+      {
+        "prompt": "2) The plane left the ground at 10:55. It ______ ______ on time.",
+        "options": null,
+        "canonical": "took off",
+        "accepted_variants": [
+          "TOOK OFF",
+          "Took off",
+          "take off",
+          "took off",
+          "took off on time"
+        ],
+        "rule_keys": [
+          "unit_140_D"
+        ]
+      },
+      {
+        "prompt": "3) The jacket was too small, so he ______ it ______ and chose a larger size.",
+        "options": null,
+        "canonical": "tried on",
+        "accepted_variants": [
+          "TRIED ON",
+          "Tried on",
+          "tried it on",
+          "tried on",
+          "try on"
+        ],
+        "rule_keys": [
+          "unit_140_C"
+        ]
+      },
+      {
+        "prompt": "4) There was a storm, so they ______ the picnic ______.",
+        "options": null,
+        "canonical": "called off",
+        "accepted_variants": [
+          "CALLED OFF",
+          "Called off",
+          "call off",
+          "called off"
+        ],
+        "rule_keys": [
+          "unit_140_B"
+        ]
+      },
+      {
+        "prompt": "5) We went to the station to ______ our friend ______.",
+        "options": null,
+        "canonical": "see off",
+        "accepted_variants": [
+          "SEE OFF",
+          "See off",
+          "saw off",
+          "see her off",
+          "see him off",
+          "see off"
+        ],
+        "rule_keys": [
+          "unit_140_D"
+        ]
+      },
+      {
+        "prompt": "6) The sun was bright, so she took her sunglasses out and ______ them ______.",
+        "options": null,
+        "canonical": "put on",
+        "accepted_variants": [
+          "PUT ON",
+          "Put on",
+          "put on",
+          "put them on"
+        ],
+        "rule_keys": [
+          "unit_140_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_141",
+    "exercise_index": 1,
+    "exercise_type": "mcq",
+    "instruction": "Choose the correct meaning.",
+    "items": [
+      {
+        "prompt": "1) The lecture went on for ages.",
+        "options": [
+          "continued for a long time",
+          "was cancelled",
+          "started suddenly"
+        ],
+        "canonical": "continued for a long time",
+        "accepted_variants": [
+          "CONTINUED FOR A LONG TIME",
+          "Continued for a long time",
+          "continued for a long time"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "2) He keeps on forgetting my name.",
+        "options": [
+          "continues to forget",
+          "remembers clearly",
+          "writes it down"
+        ],
+        "canonical": "continues to forget",
+        "accepted_variants": [
+          "CONTINUES TO FORGET",
+          "Continues to forget",
+          "continues to forget"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "3) How are you getting on with the course?",
+        "options": [
+          "making progress",
+          "ending it",
+          "avoiding it"
+        ],
+        "canonical": "making progress",
+        "accepted_variants": [
+          "MAKING PROGRESS",
+          "Making progress",
+          "making progress"
+        ],
+        "rule_keys": [
+          "unit_141_B"
+        ]
+      },
+      {
+        "prompt": "4) I don't get on with my boss.",
+        "options": [
+          "have a good relationship",
+          "work in the same building",
+          "phone him often"
+        ],
+        "canonical": "have a good relationship",
+        "accepted_variants": [
+          "HAVE A GOOD RELATIONSHIP",
+          "Have a good relationship",
+          "have a good relationship"
+        ],
+        "rule_keys": [
+          "unit_141_B"
+        ]
+      },
+      {
+        "prompt": "5) I nodded off during the film.",
+        "options": [
+          "fell asleep",
+          "laughed loudly",
+          "turned it off"
+        ],
+        "canonical": "fell asleep",
+        "accepted_variants": [
+          "FELL ASLEEP",
+          "Fell asleep",
+          "fell asleep"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "6) She told me off for shouting.",
+        "options": [
+          "spoke angrily to me",
+          "invited me out",
+          "helped me"
+        ],
+        "canonical": "spoke angrily to me",
+        "accepted_variants": [
+          "SPOKE ANGRILY TO ME",
+          "Spoke angrily to me",
+          "spoke angrily to me"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_141",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) If you want to finish, don't stop now. ______ ______!",
+        "options": null,
+        "canonical": "go on",
+        "accepted_variants": [
+          "GO ON",
+          "Go on",
+          "carry on",
+          "go on",
+          "keep on"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "2) We were tired, but we decided to ______ ______ walking.",
+        "options": null,
+        "canonical": "carry on",
+        "accepted_variants": [
+          "CARRY ON",
+          "Carry on",
+          "carry on",
+          "go on",
+          "keep on"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "3) Please don't ______ ______ about the same problem.",
+        "options": null,
+        "canonical": "go on",
+        "accepted_variants": [
+          "GO ON",
+          "Go on",
+          "go on",
+          "keep on"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "4) Stop chatting and ______ ______ with your homework.",
+        "options": null,
+        "canonical": "get on",
+        "accepted_variants": [
+          "GET ON",
+          "Get on",
+          "carry on",
+          "get on"
+        ],
+        "rule_keys": [
+          "unit_141_B"
+        ]
+      },
+      {
+        "prompt": "5) I'm ______ ______ well with my driving lessons.",
+        "options": null,
+        "canonical": "getting on",
+        "accepted_variants": [
+          "GETTING ON",
+          "Getting on",
+          "get on",
+          "getting on"
+        ],
+        "rule_keys": [
+          "unit_141_B"
+        ]
+      },
+      {
+        "prompt": "6) They don't ______ ______ with their neighbours.",
+        "options": null,
+        "canonical": "get on",
+        "accepted_variants": [
+          "GET ON",
+          "Get on",
+          "get on",
+          "get on well"
+        ],
+        "rule_keys": [
+          "unit_141_B"
+        ]
+      },
+      {
+        "prompt": "7) I was so sleepy that I ______ ______ on the train.",
+        "options": null,
+        "canonical": "dozed off",
+        "accepted_variants": [
+          "DOZED OFF",
+          "Dozed off",
+          "doze off",
+          "dozed off",
+          "nodded off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "8) Can you ______ ______ the pizza? There's only one slice left.",
+        "options": null,
+        "canonical": "finish off",
+        "accepted_variants": [
+          "FINISH OFF",
+          "Finish off",
+          "finish it off",
+          "finish off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "9) The alarm ______ ______ at 5 a.m.",
+        "options": null,
+        "canonical": "went off",
+        "accepted_variants": [
+          "WENT OFF",
+          "Went off",
+          "go off",
+          "went off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "10) His rude comment really ______ me ______.",
+        "options": null,
+        "canonical": "put off",
+        "accepted_variants": [
+          "PUT OFF",
+          "Put off",
+          "put me off",
+          "put off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "11) They charged me double. I think they tried to ______ me ______.",
+        "options": null,
+        "canonical": "rip off",
+        "accepted_variants": [
+          "RIP OFF",
+          "Rip off",
+          "rip me off",
+          "rip off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "12) He's always ______ ______ in front of other people.",
+        "options": null,
+        "canonical": "showing off",
+        "accepted_variants": [
+          "SHOWING OFF",
+          "Showing off",
+          "show off",
+          "showing off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "13) The teacher ______ him ______ for using his phone.",
+        "options": null,
+        "canonical": "told off",
+        "accepted_variants": [
+          "TOLD OFF",
+          "Told off",
+          "tell off",
+          "told off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "14) She ______ ______ working even when she felt ill.",
+        "options": null,
+        "canonical": "kept on",
+        "accepted_variants": [
+          "KEPT ON",
+          "Kept on",
+          "keep on",
+          "kept on"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "15) We should ______ ______ with the plan and stop delaying.",
+        "options": null,
+        "canonical": "carry on",
+        "accepted_variants": [
+          "CARRY ON",
+          "Carry on",
+          "carry on",
+          "go on"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_141",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Complete the dialogues with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) A: Are you still working?  B: Yes, I'll ______ ______ for another hour.",
+        "options": null,
+        "canonical": "carry on",
+        "accepted_variants": [
+          "CARRY ON",
+          "Carry on",
+          "carry on",
+          "carry on working"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "2) A: I'm bored.  B: Let's ______ ______ and finish this quickly.",
+        "options": null,
+        "canonical": "get on",
+        "accepted_variants": [
+          "GET ON",
+          "Get on",
+          "get on",
+          "get on with it"
+        ],
+        "rule_keys": [
+          "unit_141_B"
+        ]
+      },
+      {
+        "prompt": "3) A: Did you sleep well?  B: No, I ______ ______ in the meeting!",
+        "options": null,
+        "canonical": "nodded off",
+        "accepted_variants": [
+          "NODDED OFF",
+          "Nodded off",
+          "nod off",
+          "nodded off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "4) A: What happened to the cake?  B: I ______ it ______.",
+        "options": null,
+        "canonical": "finished off",
+        "accepted_variants": [
+          "FINISHED OFF",
+          "Finished off",
+          "finish off",
+          "finished it off",
+          "finished off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "5) A: Why are you angry?  B: The manager ______ me ______ in front of everyone.",
+        "options": null,
+        "canonical": "told off",
+        "accepted_variants": [
+          "TOLD OFF",
+          "Told off",
+          "tell off",
+          "told off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      },
+      {
+        "prompt": "6) A: Is the party cancelled?  B: No, it's still ______ ______.",
+        "options": null,
+        "canonical": "going on",
+        "accepted_variants": [
+          "GOING ON",
+          "Going on",
+          "go on",
+          "going on"
+        ],
+        "rule_keys": [
+          "unit_141_A"
+        ]
+      },
+      {
+        "prompt": "7) A: Do you like your new class?  B: Yes, I ______ ______ well with everyone.",
+        "options": null,
+        "canonical": "get on",
+        "accepted_variants": [
+          "GET ON",
+          "Get on",
+          "get on",
+          "get on well"
+        ],
+        "rule_keys": [
+          "unit_141_B"
+        ]
+      },
+      {
+        "prompt": "8) A: That shop is expensive.  B: Yes, they really ______ people ______.",
+        "options": null,
+        "canonical": "rip off",
+        "accepted_variants": [
+          "RIP OFF",
+          "Rip off",
+          "rip off",
+          "rip people off"
+        ],
+        "rule_keys": [
+          "unit_141_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_142",
+    "exercise_index": 1,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with up or down phrasal verbs.",
+    "items": [
+      {
+        "prompt": "1) Please ______ ______. I can't hear you at the back. (from sitting)",
+        "options": null,
+        "canonical": "stand up",
+        "accepted_variants": [
+          "STAND UP",
+          "Stand up",
+          "stand up"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      },
+      {
+        "prompt": "2) I'm tired. I'm going to ______ ______ for a minute. (on the sofa)",
+        "options": null,
+        "canonical": "lie down",
+        "accepted_variants": [
+          "LIE DOWN",
+          "Lie down",
+          "lie down"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      },
+      {
+        "prompt": "3) She ______ the child ______ so he could see over the crowd.",
+        "options": null,
+        "canonical": "picked up",
+        "accepted_variants": [
+          "PICKED UP",
+          "Picked up",
+          "pick up",
+          "picked up"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      },
+      {
+        "prompt": "4) Put the box ______ and take a rest.",
+        "options": null,
+        "canonical": "down",
+        "accepted_variants": [
+          "DOWN",
+          "Down",
+          "down",
+          "put down",
+          "put it down"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      },
+      {
+        "prompt": "5) Can you ______ the volume ______? It's too quiet.",
+        "options": null,
+        "canonical": "turn up",
+        "accepted_variants": [
+          "TURN UP",
+          "Turn up",
+          "turn up"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      },
+      {
+        "prompt": "6) It's late. Let's ______ the music ______.",
+        "options": null,
+        "canonical": "turn down",
+        "accepted_variants": [
+          "TURN DOWN",
+          "Turn down",
+          "turn down"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      },
+      {
+        "prompt": "7) When the teacher came in, everyone ______ ______.",
+        "options": null,
+        "canonical": "stood up",
+        "accepted_variants": [
+          "STOOD UP",
+          "Stood up",
+          "stand up",
+          "stood up"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      },
+      {
+        "prompt": "8) He opened the book and ______ it ______ on the desk.",
+        "options": null,
+        "canonical": "put down",
+        "accepted_variants": [
+          "PUT DOWN",
+          "Put down",
+          "put down",
+          "put it down"
+        ],
+        "rule_keys": [
+          "unit_142_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_142",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with knock down / cut down / burn down (or be knocked down).",
+    "items": [
+      {
+        "prompt": "1) They plan to ______ the old cinema ______ to build flats.",
+        "options": null,
+        "canonical": "knock down",
+        "accepted_variants": [
+          "KNOCK DOWN",
+          "Knock down",
+          "knock down",
+          "knock it down"
+        ],
+        "rule_keys": [
+          "unit_142_B"
+        ]
+      },
+      {
+        "prompt": "2) A cyclist was hit by a car and was ______ ______.",
+        "options": null,
+        "canonical": "knocked down",
+        "accepted_variants": [
+          "KNOCKED DOWN",
+          "Knocked down",
+          "knock down",
+          "knocked down"
+        ],
+        "rule_keys": [
+          "unit_142_B"
+        ]
+      },
+      {
+        "prompt": "3) The council ______ two diseased trees ______.",
+        "options": null,
+        "canonical": "cut down",
+        "accepted_variants": [
+          "CUT DOWN",
+          "Cut down",
+          "cut down",
+          "cut them down"
+        ],
+        "rule_keys": [
+          "unit_142_B"
+        ]
+      },
+      {
+        "prompt": "4) A strong wind ______ the fence ______.",
+        "options": null,
+        "canonical": "knocked down",
+        "accepted_variants": [
+          "KNOCKED DOWN",
+          "Knocked down",
+          "knock down",
+          "knocked down"
+        ],
+        "rule_keys": [
+          "unit_142_B"
+        ]
+      },
+      {
+        "prompt": "5) The warehouse ______ ______ during the night.",
+        "options": null,
+        "canonical": "burned down",
+        "accepted_variants": [
+          "BURNED DOWN",
+          "Burned down",
+          "burn down",
+          "burned down",
+          "burnt down"
+        ],
+        "rule_keys": [
+          "unit_142_B"
+        ]
+      },
+      {
+        "prompt": "6) The statue was ______ ______ by the explosion.",
+        "options": null,
+        "canonical": "knocked down",
+        "accepted_variants": [
+          "KNOCKED DOWN",
+          "Knocked down",
+          "knocked down"
+        ],
+        "rule_keys": [
+          "unit_142_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_142",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable '... down' phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) You're driving too fast. ______ ______!",
+        "options": null,
+        "canonical": "slow down",
+        "accepted_variants": [
+          "SLOW DOWN",
+          "Slow down",
+          "slow down"
+        ],
+        "rule_keys": [
+          "unit_142_C"
+        ]
+      },
+      {
+        "prompt": "2) She was upset, but after a while she ______ ______.",
+        "options": null,
+        "canonical": "calmed down",
+        "accepted_variants": [
+          "CALMED DOWN",
+          "Calmed down",
+          "calm down",
+          "calmed down"
+        ],
+        "rule_keys": [
+          "unit_142_C"
+        ]
+      },
+      {
+        "prompt": "3) I'm trying to ______ ______ ______ coffee.",
+        "options": null,
+        "canonical": "cut down on",
+        "accepted_variants": [
+          "CUT DOWN ON",
+          "Cut down on",
+          "cut down",
+          "cut down on"
+        ],
+        "rule_keys": [
+          "unit_142_C"
+        ]
+      },
+      {
+        "prompt": "4) The computer system ______ ______ for an hour.",
+        "options": null,
+        "canonical": "broke down",
+        "accepted_variants": [
+          "BROKE DOWN",
+          "Broke down",
+          "break down",
+          "broke down"
+        ],
+        "rule_keys": [
+          "unit_142_D"
+        ]
+      },
+      {
+        "prompt": "5) The factory will ______ ______ next year.",
+        "options": null,
+        "canonical": "shut down",
+        "accepted_variants": [
+          "SHUT DOWN",
+          "Shut down",
+          "close down",
+          "shut down"
+        ],
+        "rule_keys": [
+          "unit_142_D"
+        ]
+      },
+      {
+        "prompt": "6) Please ______ the number ______. You'll forget it.",
+        "options": null,
+        "canonical": "write down",
+        "accepted_variants": [
+          "WRITE DOWN",
+          "Write down",
+          "write down",
+          "write it down"
+        ],
+        "rule_keys": [
+          "unit_142_D"
+        ]
+      },
+      {
+        "prompt": "7) I asked her out, but she ______ me ______.",
+        "options": null,
+        "canonical": "turned down",
+        "accepted_variants": [
+          "TURNED DOWN",
+          "Turned down",
+          "turn down",
+          "turned down",
+          "turned me down"
+        ],
+        "rule_keys": [
+          "unit_142_D"
+        ]
+      },
+      {
+        "prompt": "8) Don't promise if you might ______ people ______.",
+        "options": null,
+        "canonical": "let down",
+        "accepted_variants": [
+          "LET DOWN",
+          "Let down",
+          "let down",
+          "let people down"
+        ],
+        "rule_keys": [
+          "unit_142_D"
+        ]
+      },
+      {
+        "prompt": "9) We need to ______ ______ the noise.",
+        "options": null,
+        "canonical": "turn down",
+        "accepted_variants": [
+          "TURN DOWN",
+          "Turn down",
+          "turn down"
+        ],
+        "rule_keys": [
+          "unit_142_D"
+        ]
+      },
+      {
+        "prompt": "10) After the race, he had to ______ ______.",
+        "options": null,
+        "canonical": "slow down",
+        "accepted_variants": [
+          "SLOW DOWN",
+          "Slow down",
+          "slow down"
+        ],
+        "rule_keys": [
+          "unit_142_C"
+        ]
+      },
+      {
+        "prompt": "11) Can you ______ ______? You're shouting.",
+        "options": null,
+        "canonical": "calm down",
+        "accepted_variants": [
+          "CALM DOWN",
+          "Calm down",
+          "calm down"
+        ],
+        "rule_keys": [
+          "unit_142_C"
+        ]
+      },
+      {
+        "prompt": "12) She wants to ______ ______ ______ sweets.",
+        "options": null,
+        "canonical": "cut down on",
+        "accepted_variants": [
+          "CUT DOWN ON",
+          "Cut down on",
+          "cut down on"
+        ],
+        "rule_keys": [
+          "unit_142_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_143",
+    "exercise_index": 1,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with catch up / keep up / hurry up.",
+    "items": [
+      {
+        "prompt": "1) I missed the first part of the film, so I need to ______ ______ with the story.",
+        "options": null,
+        "canonical": "catch up",
+        "accepted_variants": [
+          "CATCH UP",
+          "Catch up",
+          "catch up",
+          "catch up with",
+          "catch up with it"
+        ],
+        "rule_keys": [
+          "unit_143_A"
+        ]
+      },
+      {
+        "prompt": "2) Walk faster! I can't ______ ______ with you.",
+        "options": null,
+        "canonical": "keep up",
+        "accepted_variants": [
+          "KEEP UP",
+          "Keep up",
+          "keep up",
+          "keep up with",
+          "keep up with you"
+        ],
+        "rule_keys": [
+          "unit_143_A"
+        ]
+      },
+      {
+        "prompt": "3) ______ ______! The bus is leaving.",
+        "options": null,
+        "canonical": "hurry up",
+        "accepted_variants": [
+          "HURRY UP",
+          "Hurry up",
+          "hurry up",
+          "hurry up!"
+        ],
+        "rule_keys": [
+          "unit_143_A"
+        ]
+      },
+      {
+        "prompt": "4) After illness, she trained hard to ______ ______.",
+        "options": null,
+        "canonical": "catch up",
+        "accepted_variants": [
+          "CATCH UP",
+          "Catch up",
+          "catch up",
+          "catch up again"
+        ],
+        "rule_keys": [
+          "unit_143_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_143",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) They ______ ______ a meeting for Monday morning.",
+        "options": null,
+        "canonical": "set up",
+        "accepted_variants": [
+          "SET UP",
+          "Set up",
+          "set it up",
+          "set up"
+        ],
+        "rule_keys": [
+          "unit_143_B"
+        ]
+      },
+      {
+        "prompt": "2) He ______ ______ photography last year.",
+        "options": null,
+        "canonical": "took up",
+        "accepted_variants": [
+          "TOOK UP",
+          "Took up",
+          "take up",
+          "took up"
+        ],
+        "rule_keys": [
+          "unit_143_B"
+        ]
+      },
+      {
+        "prompt": "3) Can you ______ ______ the broken chair?",
+        "options": null,
+        "canonical": "fix up",
+        "accepted_variants": [
+          "FIX UP",
+          "Fix up",
+          "fix it up",
+          "fix up"
+        ],
+        "rule_keys": [
+          "unit_143_B"
+        ]
+      },
+      {
+        "prompt": "4) I ______ ______ in Kyiv, but now I live abroad.",
+        "options": null,
+        "canonical": "grew up",
+        "accepted_variants": [
+          "GREW UP",
+          "Grew up",
+          "grew up"
+        ],
+        "rule_keys": [
+          "unit_143_C"
+        ]
+      },
+      {
+        "prompt": "5) She was ______ ______ by her grandparents.",
+        "options": null,
+        "canonical": "brought up",
+        "accepted_variants": [
+          "BROUGHT UP",
+          "Brought up",
+          "bring up",
+          "brought up"
+        ],
+        "rule_keys": [
+          "unit_143_C"
+        ]
+      },
+      {
+        "prompt": "6) He ______ the mistake ______ again in the meeting.",
+        "options": null,
+        "canonical": "brought up",
+        "accepted_variants": [
+          "BROUGHT UP",
+          "Brought up",
+          "bring up",
+          "brought up"
+        ],
+        "rule_keys": [
+          "unit_143_C"
+        ]
+      },
+      {
+        "prompt": "7) We need to ______ ______ the kitchen after cooking.",
+        "options": null,
+        "canonical": "clean up",
+        "accepted_variants": [
+          "CLEAN UP",
+          "Clean up",
+          "clean up"
+        ],
+        "rule_keys": [
+          "unit_143_D"
+        ]
+      },
+      {
+        "prompt": "8) I'll ______ ______ and then we can go out.",
+        "options": null,
+        "canonical": "wash up",
+        "accepted_variants": [
+          "WASH UP",
+          "Wash up",
+          "wash up"
+        ],
+        "rule_keys": [
+          "unit_143_D"
+        ]
+      },
+      {
+        "prompt": "9) She ______ ______ an internet connection for the office.",
+        "options": null,
+        "canonical": "set up",
+        "accepted_variants": [
+          "SET UP",
+          "Set up",
+          "set up"
+        ],
+        "rule_keys": [
+          "unit_143_B"
+        ]
+      },
+      {
+        "prompt": "10) This hobby ______s ______ a lot of time.",
+        "options": null,
+        "canonical": "takes up",
+        "accepted_variants": [
+          "TAKES UP",
+          "Takes up",
+          "take up",
+          "takes up"
+        ],
+        "rule_keys": [
+          "unit_143_B"
+        ]
+      },
+      {
+        "prompt": "11) After dinner, who will ______ ______?",
+        "options": null,
+        "canonical": "wash up",
+        "accepted_variants": [
+          "WASH UP",
+          "Wash up",
+          "do the washing up",
+          "wash up"
+        ],
+        "rule_keys": [
+          "unit_143_D"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_143",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) We planned to go out, but we ______ ______ staying at home.",
+        "options": null,
+        "canonical": "ended up",
+        "accepted_variants": [
+          "ENDED UP",
+          "Ended up",
+          "end up",
+          "ended up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "2) Don't ______ ______. You can do it!",
+        "options": null,
+        "canonical": "give up",
+        "accepted_variants": [
+          "GIVE UP",
+          "Give up",
+          "gave up",
+          "give up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "3) He ______ the story ______. None of it was true.",
+        "options": null,
+        "canonical": "made up",
+        "accepted_variants": [
+          "MADE UP",
+          "Made up",
+          "made up",
+          "make up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "4) Sorry I'm late. Something ______ ______.",
+        "options": null,
+        "canonical": "came up",
+        "accepted_variants": [
+          "CAME UP",
+          "Came up",
+          "came up",
+          "come up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "5) She finally ______ ______ at 11 p.m.",
+        "options": null,
+        "canonical": "turned up",
+        "accepted_variants": [
+          "TURNED UP",
+          "Turned up",
+          "showed up",
+          "turn up",
+          "turned up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "6) Nobody ______ ______ for the appointment.",
+        "options": null,
+        "canonical": "showed up",
+        "accepted_variants": [
+          "SHOWED UP",
+          "Showed up",
+          "show up",
+          "showed up",
+          "turned up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "7) We've ______ ______ all the sugar.",
+        "options": null,
+        "canonical": "used up",
+        "accepted_variants": [
+          "USED UP",
+          "Used up",
+          "use up",
+          "used up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "8) He ______ ______ a lot of space in the fridge.",
+        "options": null,
+        "canonical": "takes up",
+        "accepted_variants": [
+          "TAKES UP",
+          "Takes up",
+          "take up",
+          "takes up"
+        ],
+        "rule_keys": [
+          "unit_143_B"
+        ]
+      },
+      {
+        "prompt": "9) I need to ______ ______ on sleep this weekend.",
+        "options": null,
+        "canonical": "catch up",
+        "accepted_variants": [
+          "CATCH UP",
+          "Catch up",
+          "catch up",
+          "catch up on"
+        ],
+        "rule_keys": [
+          "unit_143_A"
+        ]
+      },
+      {
+        "prompt": "10) If you ______ ______ now, you'll regret it.",
+        "options": null,
+        "canonical": "give up",
+        "accepted_variants": [
+          "GIVE UP",
+          "Give up",
+          "give up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      },
+      {
+        "prompt": "11) They ______ ______ in the wrong hotel.",
+        "options": null,
+        "canonical": "ended up",
+        "accepted_variants": [
+          "ENDED UP",
+          "Ended up",
+          "ended up"
+        ],
+        "rule_keys": [
+          "unit_143_E"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_144",
+    "exercise_index": 1,
+    "exercise_type": "mcq",
+    "instruction": "Choose the correct phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) I didn't have a reason, so I had to ______ an excuse.",
+        "options": [
+          "bring up",
+          "come up",
+          "come up with",
+          "make up",
+          "cheer up",
+          "save up",
+          "clear up"
+        ],
+        "canonical": "make up",
+        "accepted_variants": [
+          "MAKE UP",
+          "Make up",
+          "make up",
+          "makeup"
+        ],
+        "rule_keys": [
+          "unit_144_A"
+        ]
+      },
+      {
+        "prompt": "2) Her name ______ in our conversation yesterday.",
+        "options": [
+          "bring up",
+          "come up",
+          "come up with",
+          "make up",
+          "cheer up",
+          "save up",
+          "clear up"
+        ],
+        "canonical": "come up",
+        "accepted_variants": [
+          "COME UP",
+          "Come up",
+          "come up",
+          "comeup"
+        ],
+        "rule_keys": [
+          "unit_144_A"
+        ]
+      },
+      {
+        "prompt": "3) Can you ______ ______ a solution to this problem?",
+        "options": [
+          "bring up",
+          "come up",
+          "come up with",
+          "make up",
+          "cheer up",
+          "save up",
+          "clear up"
+        ],
+        "canonical": "come up with",
+        "accepted_variants": [
+          "COME UP WITH",
+          "Come up with",
+          "come up with",
+          "comeupwith"
+        ],
+        "rule_keys": [
+          "unit_144_A"
+        ]
+      },
+      {
+        "prompt": "4) Don't ______ that topic ______ again. It's sensitive.",
+        "options": [
+          "bring up",
+          "come up",
+          "come up with",
+          "make up",
+          "cheer up",
+          "save up",
+          "clear up"
+        ],
+        "canonical": "bring up",
+        "accepted_variants": [
+          "BRING UP",
+          "Bring up",
+          "bring up",
+          "bringup"
+        ],
+        "rule_keys": [
+          "unit_144_A"
+        ]
+      },
+      {
+        "prompt": "5) I'm putting money aside each month to ______ for a new laptop.",
+        "options": [
+          "bring up",
+          "come up",
+          "come up with",
+          "make up",
+          "cheer up",
+          "save up",
+          "clear up"
+        ],
+        "canonical": "save up",
+        "accepted_variants": [
+          "SAVE UP",
+          "Save up",
+          "save up",
+          "saveup"
+        ],
+        "rule_keys": [
+          "unit_144_B"
+        ]
+      },
+      {
+        "prompt": "6) It was raining, but it started to ______ later in the afternoon.",
+        "options": [
+          "bring up",
+          "come up",
+          "come up with",
+          "make up",
+          "cheer up",
+          "save up",
+          "clear up"
+        ],
+        "canonical": "clear up",
+        "accepted_variants": [
+          "CLEAR UP",
+          "Clear up",
+          "clear up",
+          "clearup"
+        ],
+        "rule_keys": [
+          "unit_144_B"
+        ]
+      },
+      {
+        "prompt": "7) You look miserable—try to ______ ______!",
+        "options": [
+          "bring up",
+          "come up",
+          "come up with",
+          "make up",
+          "cheer up",
+          "save up",
+          "clear up"
+        ],
+        "canonical": "cheer up",
+        "accepted_variants": [
+          "CHEER UP",
+          "Cheer up",
+          "cheer up",
+          "cheerup"
+        ],
+        "rule_keys": [
+          "unit_144_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_144",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) It was cloudy in the morning, but by noon it had ______ ______.",
+        "options": null,
+        "canonical": "cleared up",
+        "accepted_variants": [
+          "CLEARED UP",
+          "Cleared up",
+          "clear up",
+          "cleared up"
+        ],
+        "rule_keys": [
+          "unit_144_B"
+        ]
+      },
+      {
+        "prompt": "2) Sorry I'm late. I was ______ ______ in traffic.",
+        "options": null,
+        "canonical": "held up",
+        "accepted_variants": [
+          "HELD UP",
+          "Held up",
+          "held up",
+          "hold up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "3) They bought an old flat and ______ it ______.",
+        "options": null,
+        "canonical": "did up",
+        "accepted_variants": [
+          "DID UP",
+          "Did up",
+          "did it up",
+          "did up",
+          "do up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "4) He was sad, but his friends ______ him ______.",
+        "options": null,
+        "canonical": "cheered up",
+        "accepted_variants": [
+          "CHEERED UP",
+          "Cheered up",
+          "cheer up",
+          "cheered him up",
+          "cheered up"
+        ],
+        "rule_keys": [
+          "unit_144_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_144",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) A new problem ______ ______ just before the deadline.",
+        "options": null,
+        "canonical": "came up",
+        "accepted_variants": [
+          "CAME UP",
+          "Came up",
+          "came up",
+          "come up"
+        ],
+        "rule_keys": [
+          "unit_144_A"
+        ]
+      },
+      {
+        "prompt": "2) The bomb ______ ______ and damaged the car.",
+        "options": null,
+        "canonical": "blew up",
+        "accepted_variants": [
+          "BLEW UP",
+          "Blew up",
+          "blew up",
+          "blow up"
+        ],
+        "rule_keys": [
+          "unit_144_C"
+        ]
+      },
+      {
+        "prompt": "3) He was attacked and ______ ______.",
+        "options": null,
+        "canonical": "beaten up",
+        "accepted_variants": [
+          "BEATEN UP",
+          "Beaten up",
+          "beat up",
+          "beaten up"
+        ],
+        "rule_keys": [
+          "unit_144_C"
+        ]
+      },
+      {
+        "prompt": "4) After ten years together, they ______ ______.",
+        "options": null,
+        "canonical": "split up",
+        "accepted_variants": [
+          "SPLIT UP",
+          "Split up",
+          "broke up",
+          "split up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "5) Can you ______ ______ your jacket? It's cold.",
+        "options": null,
+        "canonical": "do up",
+        "accepted_variants": [
+          "DO UP",
+          "Do up",
+          "do it up",
+          "do up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "6) The sky ______ ______ and we saw the sun.",
+        "options": null,
+        "canonical": "cleared up",
+        "accepted_variants": [
+          "CLEARED UP",
+          "Cleared up",
+          "clear up",
+          "cleared up"
+        ],
+        "rule_keys": [
+          "unit_144_B"
+        ]
+      },
+      {
+        "prompt": "7) I ______ the dates ______ and booked the wrong day.",
+        "options": null,
+        "canonical": "mixed up",
+        "accepted_variants": [
+          "MIXED UP",
+          "Mixed up",
+          "mix up",
+          "mixed them up",
+          "mixed up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_144",
+    "exercise_index": 4,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) I didn't know the word, so I ______ it ______ in a dictionary.",
+        "options": null,
+        "canonical": "looked up",
+        "accepted_variants": [
+          "LOOKED UP",
+          "Looked up",
+          "look up",
+          "looked it up",
+          "looked up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "2) I can't ______ ______ ______ his behaviour any longer.",
+        "options": null,
+        "canonical": "put up with",
+        "accepted_variants": [
+          "PUT UP WITH",
+          "Put up with",
+          "put up",
+          "put up with"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "3) We were ______ ______ for two hours because of an accident.",
+        "options": null,
+        "canonical": "held up",
+        "accepted_variants": [
+          "HELD UP",
+          "Held up",
+          "held up",
+          "hold up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "4) They ______ ______ after a long argument.",
+        "options": null,
+        "canonical": "broke up",
+        "accepted_variants": [
+          "BROKE UP",
+          "Broke up",
+          "break up",
+          "broke up",
+          "split up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "5) She ______ her coat ______ and went outside.",
+        "options": null,
+        "canonical": "did up",
+        "accepted_variants": [
+          "DID UP",
+          "Did up",
+          "did it up",
+          "did up",
+          "do up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "6) They bought an old house and ______ it ______.",
+        "options": null,
+        "canonical": "did up",
+        "accepted_variants": [
+          "DID UP",
+          "Did up",
+          "did it up",
+          "did up",
+          "do up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "7) I always ______ the twins ______ because they look the same.",
+        "options": null,
+        "canonical": "mix up",
+        "accepted_variants": [
+          "MIX UP",
+          "Mix up",
+          "mix them up",
+          "mix up",
+          "mixed up"
+        ],
+        "rule_keys": [
+          "unit_144_D"
+        ]
+      },
+      {
+        "prompt": "8) He got angry and ______ the contract ______.",
+        "options": null,
+        "canonical": "tore up",
+        "accepted_variants": [
+          "TORE UP",
+          "Tore up",
+          "tear up",
+          "tore it up",
+          "tore up"
+        ],
+        "rule_keys": [
+          "unit_144_C"
+        ]
+      },
+      {
+        "prompt": "9) She ______ the problem ______ in the meeting again.",
+        "options": null,
+        "canonical": "brought up",
+        "accepted_variants": [
+          "BROUGHT UP",
+          "Brought up",
+          "bring up",
+          "brought up"
+        ],
+        "rule_keys": [
+          "unit_144_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_145",
+    "exercise_index": 1,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with away/back or a suitable verb + away/back.",
+    "items": [
+      {
+        "prompt": "1) He waved at me, and I ______ ______.",
+        "options": null,
+        "canonical": "waved back",
+        "accepted_variants": [
+          "I waved back",
+          "WAVED BACK",
+          "Waved back",
+          "wave back",
+          "waved back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      },
+      {
+        "prompt": "2) The wind was so strong it almost blew my hat ______.",
+        "options": null,
+        "canonical": "away",
+        "accepted_variants": [
+          "AWAY",
+          "Away",
+          "away",
+          "blew away"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "3) This old receipt is useless—I'll ______ it ______.",
+        "options": null,
+        "canonical": "throw away",
+        "accepted_variants": [
+          "THROW AWAY",
+          "Throw away",
+          "threw away",
+          "throw away",
+          "throw it away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "4) The child shouted, so the mother shouted ______.",
+        "options": null,
+        "canonical": "back",
+        "accepted_variants": [
+          "BACK",
+          "Back",
+          "back",
+          "shouted back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      },
+      {
+        "prompt": "5) He hit me, so I hit him ______.",
+        "options": null,
+        "canonical": "back",
+        "accepted_variants": [
+          "BACK",
+          "Back",
+          "back",
+          "hit back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      },
+      {
+        "prompt": "6) I smiled, and she smiled ______.",
+        "options": null,
+        "canonical": "back",
+        "accepted_variants": [
+          "BACK",
+          "Back",
+          "back",
+          "smiled back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_145",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with away or back.",
+    "items": [
+      {
+        "prompt": "1) She moved ______ last year and now lives in Canada.",
+        "options": null,
+        "canonical": "away",
+        "accepted_variants": [
+          "AWAY",
+          "Away",
+          "away",
+          "moved away"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "2) I'll be ______ in ten minutes.",
+        "options": null,
+        "canonical": "back",
+        "accepted_variants": [
+          "BACK",
+          "Back",
+          "back"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "3) When are you coming ______ from holiday?",
+        "options": null,
+        "canonical": "back",
+        "accepted_variants": [
+          "BACK",
+          "Back",
+          "back"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "4) The dog ran ______ when it saw the fireworks.",
+        "options": null,
+        "canonical": "away",
+        "accepted_variants": [
+          "AWAY",
+          "Away",
+          "away",
+          "ran away"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "5) Can you give me my book ______?",
+        "options": null,
+        "canonical": "back",
+        "accepted_variants": [
+          "BACK",
+          "Back",
+          "back",
+          "give it back"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "6) The thief managed to get ______.",
+        "options": null,
+        "canonical": "away",
+        "accepted_variants": [
+          "AWAY",
+          "Away",
+          "away",
+          "get away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "7) Please put the chairs ______ after the meeting.",
+        "options": null,
+        "canonical": "back",
+        "accepted_variants": [
+          "BACK",
+          "Back",
+          "back",
+          "put them back"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_145",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Complete the sentences with a suitable phrasal verb with away/back.",
+    "items": [
+      {
+        "prompt": "1) The barking was constant. In the end it ______ the neighbours ______.",
+        "options": null,
+        "canonical": "drove away",
+        "accepted_variants": [
+          "DROVE AWAY",
+          "Drove away",
+          "drive away",
+          "drove away",
+          "drove them away"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "2) Please don't ______ ______ the instructions. You might need them.",
+        "options": null,
+        "canonical": "throw away",
+        "accepted_variants": [
+          "THROW AWAY",
+          "Throw away",
+          "threw away",
+          "throw away",
+          "throw it away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "3) He copied in the exam, but he ______ ______ ______ it.",
+        "options": null,
+        "canonical": "got away with",
+        "accepted_variants": [
+          "GOT AWAY WITH",
+          "Got away with",
+          "get away with",
+          "got away with",
+          "got away with it"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "4) I'm ______ all weekend, so I won't answer messages.",
+        "options": null,
+        "canonical": "away",
+        "accepted_variants": [
+          "AWAY",
+          "Away",
+          "away",
+          "be away"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "5) It was a horrible scene, so I ______ ______.",
+        "options": null,
+        "canonical": "looked away",
+        "accepted_variants": [
+          "LOOKED AWAY",
+          "Looked away",
+          "look away",
+          "looked away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "6) She ______ ______ all her old books to charity.",
+        "options": null,
+        "canonical": "gave away",
+        "accepted_variants": [
+          "GAVE AWAY",
+          "Gave away",
+          "gave away",
+          "gave them away",
+          "give away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "7) I'm busy now. I'll ______ you ______ later.",
+        "options": null,
+        "canonical": "call back",
+        "accepted_variants": [
+          "CALL BACK",
+          "Call back",
+          "call back",
+          "call you back",
+          "called back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      },
+      {
+        "prompt": "8) After dinner, please ______ the food ______ in the fridge.",
+        "options": null,
+        "canonical": "put away",
+        "accepted_variants": [
+          "PUT AWAY",
+          "Put away",
+          "put away",
+          "put it away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_145",
+    "exercise_index": 4,
+    "exercise_type": "free_text",
+    "instruction": "Complete the dialogues with a suitable phrasal verb.",
+    "items": [
+      {
+        "prompt": "1) A: This isn't mine.  B: OK, I'll ______ it ______ to you. (give)",
+        "options": null,
+        "canonical": "give back",
+        "accepted_variants": [
+          "GIVE BACK",
+          "Give back",
+          "gave back",
+          "give back",
+          "give it back"
+        ],
+        "rule_keys": [
+          "unit_145_A"
+        ]
+      },
+      {
+        "prompt": "2) A: These papers are old.  B: Then ______ them ______. (throw)",
+        "options": null,
+        "canonical": "throw away",
+        "accepted_variants": [
+          "THROW AWAY",
+          "Throw away",
+          "threw away",
+          "throw away",
+          "throw them away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "3) A: I didn't mean it.  B: You can't just ______ it ______ now. (take)",
+        "options": null,
+        "canonical": "take back",
+        "accepted_variants": [
+          "TAKE BACK",
+          "Take back",
+          "take back",
+          "take it back",
+          "took back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      },
+      {
+        "prompt": "4) A: Can I borrow €20?  B: Sure, but please ______ me ______ next week. (pay)",
+        "options": null,
+        "canonical": "pay back",
+        "accepted_variants": [
+          "PAY BACK",
+          "Pay back",
+          "paid back",
+          "pay back",
+          "pay me back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      },
+      {
+        "prompt": "5) A: I don't need these clothes.  B: You could ______ them ______. (give)",
+        "options": null,
+        "canonical": "give away",
+        "accepted_variants": [
+          "GIVE AWAY",
+          "Give away",
+          "gave away",
+          "give away",
+          "give them away"
+        ],
+        "rule_keys": [
+          "unit_145_B"
+        ]
+      },
+      {
+        "prompt": "6) A: I missed your call.  B: No problem. I'll ______ you ______ in a minute. (call)",
+        "options": null,
+        "canonical": "call back",
+        "accepted_variants": [
+          "CALL BACK",
+          "Call back",
+          "call back",
+          "call you back",
+          "called back"
+        ],
+        "rule_keys": [
+          "unit_145_C"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6974 @@
+{
+  "version": "v2",
+  "units": "71-80",
+  "exercises": [
+    {
+      "unit_key": "unit_71",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete each sentence with a/an or some + noun.",
+      "items": [
+        {
+          "prompt": "Complete: I bought ___ yesterday. (camera)",
+          "options": null,
+          "canonical": "a camera",
+          "accepted_variants": [
+            "a camera",
+            "a camera.",
+            "A camera",
+            "A camera.",
+            "a camera!",
+            "a camera?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex1_i1"
+        },
+        {
+          "prompt": "Complete: Can you lend me ___? (umbrella)",
+          "options": null,
+          "canonical": "an umbrella",
+          "accepted_variants": [
+            "an umbrella",
+            "an umbrella.",
+            "An umbrella",
+            "An umbrella.",
+            "an umbrella!",
+            "an umbrella?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex1_i2"
+        },
+        {
+          "prompt": "Complete: She’s looking for ___ to rent. (flat)",
+          "options": null,
+          "canonical": "a flat",
+          "accepted_variants": [
+            "a flat",
+            "a flat.",
+            "A flat",
+            "A flat.",
+            "a flat!",
+            "a flat?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex1_i3"
+        },
+        {
+          "prompt": "Complete: We need ___ for the cake. (egg)",
+          "options": null,
+          "canonical": "some eggs",
+          "accepted_variants": [
+            "some eggs",
+            "some eggs.",
+            "Some eggs",
+            "Some eggs.",
+            "some eggs!",
+            "some eggs?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex1_i4"
+        },
+        {
+          "prompt": "Complete: He gave me ___ about the interview. (advice)",
+          "options": null,
+          "canonical": "some advice",
+          "accepted_variants": [
+            "some advice",
+            "some advice.",
+            "Some advice",
+            "Some advice.",
+            "some advice!",
+            "some advice?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex1_i5"
+        },
+        {
+          "prompt": "Complete: Let’s get ___ for the picnic. (sandwich)",
+          "options": null,
+          "canonical": "some sandwiches",
+          "accepted_variants": [
+            "some sandwiches",
+            "some sandwiches.",
+            "Some sandwiches",
+            "Some sandwiches.",
+            "some sandwiches!",
+            "some sandwiches?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex1_i6"
+        },
+        {
+          "prompt": "Complete: There’s ___ on the table. (apple)",
+          "options": null,
+          "canonical": "an apple",
+          "accepted_variants": [
+            "an apple",
+            "an apple.",
+            "An apple",
+            "An apple.",
+            "an apple!",
+            "an apple?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex1_i7"
+        },
+        {
+          "prompt": "Complete: I’m going to buy ___ today. (shoes)",
+          "options": null,
+          "canonical": "some shoes",
+          "accepted_variants": [
+            "some shoes",
+            "some shoes.",
+            "Some shoes",
+            "Some shoes.",
+            "some shoes!",
+            "some shoes?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex1_i8"
+        },
+        {
+          "prompt": "Complete (request): Could you bring ___, please? (water)",
+          "options": null,
+          "canonical": "some water",
+          "accepted_variants": [
+            "some water",
+            "some water.",
+            "Some water",
+            "Some water.",
+            "some water!",
+            "some water?"
+          ],
+          "rule_keys": [
+            "unit_71_C"
+          ],
+          "item_key": "unit_71_ex1_i9"
+        },
+        {
+          "prompt": "Complete: She wants ___ for her birthday. (watch)",
+          "options": null,
+          "canonical": "a watch",
+          "accepted_variants": [
+            "a watch",
+            "a watch.",
+            "A watch",
+            "A watch.",
+            "a watch!",
+            "a watch?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex1_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_71",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Write the job. Use a/an.",
+      "items": [
+        {
+          "prompt": "Emma works in a hospital and looks after patients. She/He is ____.",
+          "options": null,
+          "canonical": "a nurse",
+          "accepted_variants": [
+            "a nurse",
+            "a nurse.",
+            "A nurse",
+            "A nurse.",
+            "a nurse!",
+            "a nurse?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i1"
+        },
+        {
+          "prompt": "Gary cooks meals in a restaurant. She/He is ____.",
+          "options": null,
+          "canonical": "a chef",
+          "accepted_variants": [
+            "a chef",
+            "a chef.",
+            "A chef",
+            "A chef.",
+            "a chef!",
+            "a chef?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i2"
+        },
+        {
+          "prompt": "Olena designs buildings and draws plans. She/He is ____.",
+          "options": null,
+          "canonical": "an architect",
+          "accepted_variants": [
+            "an architect",
+            "an architect.",
+            "An architect",
+            "An architect.",
+            "an architect!",
+            "an architect?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i3"
+        },
+        {
+          "prompt": "Mark repairs cars in a garage. She/He is ____.",
+          "options": null,
+          "canonical": "a mechanic",
+          "accepted_variants": [
+            "a mechanic",
+            "a mechanic.",
+            "A mechanic",
+            "A mechanic.",
+            "a mechanic!",
+            "a mechanic?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i4"
+        },
+        {
+          "prompt": "Sofia teaches children at a primary school. She/He is ____.",
+          "options": null,
+          "canonical": "a teacher",
+          "accepted_variants": [
+            "a teacher",
+            "a teacher.",
+            "A teacher",
+            "A teacher.",
+            "a teacher!",
+            "a teacher?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i5"
+        },
+        {
+          "prompt": "Danilo delivers letters and parcels. She/He is ____.",
+          "options": null,
+          "canonical": "a postal worker",
+          "accepted_variants": [
+            "a postal worker",
+            "a postal worker.",
+            "A postal worker",
+            "A postal worker.",
+            "a postal worker!",
+            "a postal worker?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i6"
+        },
+        {
+          "prompt": "Nadia cuts hair in a salon. She/He is ____.",
+          "options": null,
+          "canonical": "a hairdresser",
+          "accepted_variants": [
+            "a hairdresser",
+            "a hairdresser.",
+            "A hairdresser",
+            "A hairdresser.",
+            "a hairdresser!",
+            "a hairdresser?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i7"
+        },
+        {
+          "prompt": "Ihor takes photos for a newspaper. She/He is ____.",
+          "options": null,
+          "canonical": "a photographer",
+          "accepted_variants": [
+            "a photographer",
+            "a photographer.",
+            "A photographer",
+            "A photographer.",
+            "a photographer!",
+            "a photographer?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_71",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "Most of my friends are ____.",
+          "options": [
+            "students",
+            "some students"
+          ],
+          "canonical": "students",
+          "accepted_variants": [
+            "students",
+            "students.",
+            "Students",
+            "Students.",
+            "students!",
+            "students?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i1"
+        },
+        {
+          "prompt": "I bought ____ at the market (not a lot).",
+          "options": [
+            "apples",
+            "some apples"
+          ],
+          "canonical": "some apples",
+          "accepted_variants": [
+            "some apples",
+            "some apples.",
+            "Some apples",
+            "Some apples.",
+            "some apples!",
+            "some apples?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i2"
+        },
+        {
+          "prompt": "____ were delayed today (only a few).",
+          "options": [
+            "Buses",
+            "Some buses"
+          ],
+          "canonical": "Some buses",
+          "accepted_variants": [
+            "Some buses",
+            "Some buses.",
+            "some buses",
+            "some buses.",
+            "Some buses!",
+            "Some buses?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i3"
+        },
+        {
+          "prompt": "____ is bad for your teeth (in general).",
+          "options": [
+            "Sugar",
+            "Some sugar"
+          ],
+          "canonical": "Sugar",
+          "accepted_variants": [
+            "Sugar",
+            "Sugar.",
+            "sugar",
+            "sugar.",
+            "Sugar!",
+            "Sugar?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i4"
+        },
+        {
+          "prompt": "We need ____ for dinner tonight.",
+          "options": [
+            "rice",
+            "some rice"
+          ],
+          "canonical": "some rice",
+          "accepted_variants": [
+            "some rice",
+            "some rice.",
+            "Some rice",
+            "Some rice.",
+            "some rice!",
+            "some rice?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i5"
+        },
+        {
+          "prompt": "____ make me sneeze (in general).",
+          "options": [
+            "Cats",
+            "Some cats"
+          ],
+          "canonical": "Cats",
+          "accepted_variants": [
+            "Cats",
+            "Cats.",
+            "cats",
+            "cats.",
+            "Cats!",
+            "Cats?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i6"
+        },
+        {
+          "prompt": "I talked to ____ after the meeting (a few).",
+          "options": [
+            "colleagues",
+            "some colleagues"
+          ],
+          "canonical": "some colleagues",
+          "accepted_variants": [
+            "some colleagues",
+            "some colleagues.",
+            "Some colleagues",
+            "Some colleagues.",
+            "some colleagues!",
+            "some colleagues?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i7"
+        },
+        {
+          "prompt": "There is ____ on the table (a little).",
+          "options": [
+            "bread",
+            "some bread"
+          ],
+          "canonical": "some bread",
+          "accepted_variants": [
+            "some bread",
+            "some bread.",
+            "Some bread",
+            "Some bread.",
+            "some bread!",
+            "some bread?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i8"
+        },
+        {
+          "prompt": "____ can be stressful (in general).",
+          "options": [
+            "Exams",
+            "Some exams"
+          ],
+          "canonical": "Exams",
+          "accepted_variants": [
+            "Exams",
+            "Exams.",
+            "exams",
+            "exams.",
+            "Exams!",
+            "Exams?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex3_i9"
+        },
+        {
+          "prompt": "Would you like ____? (offer)",
+          "options": [
+            "tea",
+            "some tea"
+          ],
+          "canonical": "some tea",
+          "accepted_variants": [
+            "some tea",
+            "some tea.",
+            "Some tea",
+            "Some tea.",
+            "some tea!",
+            "some tea?"
+          ],
+          "rule_keys": [
+            "unit_71_C"
+          ],
+          "item_key": "unit_71_ex3_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_71",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a/an or some.",
+      "items": [
+        {
+          "prompt": "I need ___ (information) before I decide.",
+          "options": null,
+          "canonical": "some information",
+          "accepted_variants": [
+            "some information",
+            "some information.",
+            "Some information",
+            "Some information.",
+            "some information!",
+            "some information?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex4_i1"
+        },
+        {
+          "prompt": "She has ___ (idea) for the project.",
+          "options": null,
+          "canonical": "an idea",
+          "accepted_variants": [
+            "an idea",
+            "an idea.",
+            "An idea",
+            "An idea.",
+            "an idea!",
+            "an idea?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i2"
+        },
+        {
+          "prompt": "We’re going to buy ___ (fruit) after work.",
+          "options": null,
+          "canonical": "some fruit",
+          "accepted_variants": [
+            "some fruit",
+            "some fruit.",
+            "Some fruit",
+            "Some fruit.",
+            "some fruit!",
+            "some fruit?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex4_i3"
+        },
+        {
+          "prompt": "He’s got ___ (problem) with his laptop.",
+          "options": null,
+          "canonical": "a problem",
+          "accepted_variants": [
+            "a problem",
+            "a problem.",
+            "A problem",
+            "A problem.",
+            "a problem!",
+            "a problem?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i4"
+        },
+        {
+          "prompt": "Can I have ___ (coffee), please?",
+          "options": null,
+          "canonical": "some coffee",
+          "accepted_variants": [
+            "some coffee",
+            "some coffee.",
+            "Some coffee",
+            "Some coffee.",
+            "some coffee!",
+            "some coffee?"
+          ],
+          "rule_keys": [
+            "unit_71_C"
+          ],
+          "item_key": "unit_71_ex4_i5"
+        },
+        {
+          "prompt": "They live in ___ (small town) near the sea.",
+          "options": null,
+          "canonical": "a small town",
+          "accepted_variants": [
+            "a small town",
+            "a small town.",
+            "A small town",
+            "A small town.",
+            "a small town!",
+            "a small town?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i6"
+        },
+        {
+          "prompt": "I’d like to ask ___ (question).",
+          "options": null,
+          "canonical": "a question",
+          "accepted_variants": [
+            "a question",
+            "a question.",
+            "A question",
+            "A question.",
+            "a question!",
+            "a question?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i7"
+        },
+        {
+          "prompt": "Let’s take ___ (photo) together.",
+          "options": null,
+          "canonical": "a photo",
+          "accepted_variants": [
+            "a photo",
+            "a photo.",
+            "A photo",
+            "A photo.",
+            "a photo!",
+            "a photo?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i8"
+        },
+        {
+          "prompt": "We need ___ (new chairs) for the kitchen.",
+          "options": null,
+          "canonical": "some new chairs",
+          "accepted_variants": [
+            "some new chairs",
+            "some new chairs.",
+            "Some new chairs",
+            "Some new chairs.",
+            "some new chairs!",
+            "some new chairs?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex4_i9"
+        },
+        {
+          "prompt": "She bought ___ (new dress) yesterday.",
+          "options": null,
+          "canonical": "a new dress",
+          "accepted_variants": [
+            "a new dress",
+            "a new dress.",
+            "A new dress",
+            "A new dress.",
+            "a new dress!",
+            "a new dress?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i10"
+        },
+        {
+          "prompt": "Could you give me ___ (help)?",
+          "options": null,
+          "canonical": "some help",
+          "accepted_variants": [
+            "some help",
+            "some help.",
+            "Some help",
+            "Some help.",
+            "some help!",
+            "some help?"
+          ],
+          "rule_keys": [
+            "unit_71_C"
+          ],
+          "item_key": "unit_71_ex4_i11"
+        },
+        {
+          "prompt": "He wants ___ (new equipment) for the gym.",
+          "options": null,
+          "canonical": "some new equipment",
+          "accepted_variants": [
+            "some new equipment",
+            "some new equipment.",
+            "Some new equipment",
+            "Some new equipment.",
+            "some new equipment!",
+            "some new equipment?"
+          ],
+          "rule_keys": [
+            "unit_71_B"
+          ],
+          "item_key": "unit_71_ex4_i12"
+        },
+        {
+          "prompt": "There’s ___ (orange) in the fridge.",
+          "options": null,
+          "canonical": "an orange",
+          "accepted_variants": [
+            "an orange",
+            "an orange.",
+            "An orange",
+            "An orange.",
+            "an orange!",
+            "an orange?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i13"
+        },
+        {
+          "prompt": "I’m going to make ___ (sandwich) now.",
+          "options": null,
+          "canonical": "a sandwich",
+          "accepted_variants": [
+            "a sandwich",
+            "a sandwich.",
+            "A sandwich",
+            "A sandwich.",
+            "a sandwich!",
+            "a sandwich?"
+          ],
+          "rule_keys": [
+            "unit_71_A"
+          ],
+          "item_key": "unit_71_ex4_i14"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_72",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a/an and the. Write two words (e.g., a, the).",
+      "items": [
+        {
+          "prompt": "I saw ___ dog in the park. ___ dog followed me home. (Write: a/the)",
+          "options": null,
+          "canonical": "a, the",
+          "accepted_variants": [
+            "a, the",
+            "a, the.",
+            "A, the",
+            "A, the.",
+            "a, the!",
+            "a, the?"
+          ],
+          "rule_keys": [
+            "unit_72_A"
+          ],
+          "item_key": "unit_72_ex1_i1"
+        },
+        {
+          "prompt": "She bought ___ umbrella. ___ umbrella was broken. (Write: an/the)",
+          "options": null,
+          "canonical": "an, the",
+          "accepted_variants": [
+            "an, the",
+            "an, the.",
+            "An, the",
+            "An, the.",
+            "an, the!",
+            "an, the?"
+          ],
+          "rule_keys": [
+            "unit_72_A"
+          ],
+          "item_key": "unit_72_ex1_i2"
+        },
+        {
+          "prompt": "There was ___ email for you. ___ email was from HR. (Write: an/the)",
+          "options": null,
+          "canonical": "an, the",
+          "accepted_variants": [
+            "an, the",
+            "an, the.",
+            "An, the",
+            "An, the.",
+            "an, the!",
+            "an, the?"
+          ],
+          "rule_keys": [
+            "unit_72_A"
+          ],
+          "item_key": "unit_72_ex1_i3"
+        },
+        {
+          "prompt": "We stayed in ___ hotel near the station. ___ hotel was noisy. (Write: a/the)",
+          "options": null,
+          "canonical": "a, the",
+          "accepted_variants": [
+            "a, the",
+            "a, the.",
+            "A, the",
+            "A, the.",
+            "a, the!",
+            "a, the?"
+          ],
+          "rule_keys": [
+            "unit_72_A"
+          ],
+          "item_key": "unit_72_ex1_i4"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_72",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Choose the correct word: a, an or the.",
+      "items": [
+        {
+          "prompt": "I’m going to ___ supermarket. I need bread. (a/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex2_i1"
+        },
+        {
+          "prompt": "Could you open ___ window, please? (a/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex2_i2"
+        },
+        {
+          "prompt": "I need ___ pen. Any pen is fine. (a/an)",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "a.",
+            "A",
+            "A.",
+            "a!",
+            "a?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex2_i3"
+        },
+        {
+          "prompt": "She wants to buy ___ car (not a particular one). (a/the)",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "a.",
+            "A",
+            "A.",
+            "a!",
+            "a?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex2_i4"
+        },
+        {
+          "prompt": "Where’s ___ charger? I can’t find it. (a/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex2_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_72",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a, an or the.",
+      "items": [
+        {
+          "prompt": "This is ___ first time I’ve been here. (a/an/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex3_i1"
+        },
+        {
+          "prompt": "I’m looking for ___ apartment to rent. (a/an/the)",
+          "options": null,
+          "canonical": "an",
+          "accepted_variants": [
+            "an",
+            "an.",
+            "An",
+            "An.",
+            "an!",
+            "an?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex3_i2"
+        },
+        {
+          "prompt": "Can you pass me ___ salt, please? (a/an/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex3_i3"
+        },
+        {
+          "prompt": "We had ___ great meal last night. (a/an/the)",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "a.",
+            "A",
+            "A.",
+            "a!",
+            "a?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex3_i4"
+        },
+        {
+          "prompt": "___ sky is very clear tonight. (a/an/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex3_i5"
+        },
+        {
+          "prompt": "I met ___ interesting person at the conference. (a/an/the)",
+          "options": null,
+          "canonical": "an",
+          "accepted_variants": [
+            "an",
+            "an.",
+            "An",
+            "An.",
+            "an!",
+            "an?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex3_i6"
+        },
+        {
+          "prompt": "Turn off ___ light in the kitchen, please. (a/an/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex3_i7"
+        },
+        {
+          "prompt": "They live in ___ small village near the mountains. (a/an/the)",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "a.",
+            "A",
+            "A.",
+            "a!",
+            "a?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex3_i8"
+        },
+        {
+          "prompt": "I watched ___ film you recommended. (a/an/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex3_i9"
+        },
+        {
+          "prompt": "She’s reading ___ book about psychology. (a/an/the)",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "a.",
+            "A",
+            "A.",
+            "a!",
+            "a?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex3_i10"
+        },
+        {
+          "prompt": "Did you lock ___ door? (a/an/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex3_i11"
+        },
+        {
+          "prompt": "He wants to buy ___ new laptop. (a/an/the)",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "a.",
+            "A",
+            "A.",
+            "a!",
+            "a?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex3_i12"
+        },
+        {
+          "prompt": "Where is ___ nearest pharmacy? (a/an/the)",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex3_i13"
+        },
+        {
+          "prompt": "We need ___ answer today. (a/an/the)",
+          "options": null,
+          "canonical": "an",
+          "accepted_variants": [
+            "an",
+            "an.",
+            "An",
+            "An.",
+            "an!",
+            "an?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex3_i14"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_72",
+      "exercise_index": 4,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct sentence.",
+      "items": [
+        {
+          "prompt": "You see a chair in a room full of chairs. You say:",
+          "options": [
+            "I sat on a chair.",
+            "I sat on the chair."
+          ],
+          "canonical": "I sat on a chair.",
+          "accepted_variants": [
+            "I sat on a chair.",
+            "I sat on a chair",
+            "i sat on a chair.",
+            "I sat on a chair!",
+            "I sat on a chair?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex4_i1"
+        },
+        {
+          "prompt": "You are in a room and there is only one door. You say:",
+          "options": [
+            "Close a door, please.",
+            "Close the door, please."
+          ],
+          "canonical": "Close the door, please.",
+          "accepted_variants": [
+            "Close the door, please.",
+            "Close the door, please",
+            "close the door, please.",
+            "Close the door, please!",
+            "Close the door, please?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex4_i2"
+        },
+        {
+          "prompt": "First time you mention a bike:",
+          "options": [
+            "I bought a bike.",
+            "I bought the bike."
+          ],
+          "canonical": "I bought a bike.",
+          "accepted_variants": [
+            "I bought a bike.",
+            "I bought a bike",
+            "i bought a bike.",
+            "I bought a bike!",
+            "I bought a bike?"
+          ],
+          "rule_keys": [
+            "unit_72_A"
+          ],
+          "item_key": "unit_72_ex4_i3"
+        },
+        {
+          "prompt": "Second time you mention the same bike:",
+          "options": [
+            "The bike was cheap.",
+            "A bike was cheap."
+          ],
+          "canonical": "The bike was cheap.",
+          "accepted_variants": [
+            "The bike was cheap.",
+            "The bike was cheap",
+            "the bike was cheap.",
+            "The bike was cheap!",
+            "The bike was cheap?"
+          ],
+          "rule_keys": [
+            "unit_72_A"
+          ],
+          "item_key": "unit_72_ex4_i4"
+        },
+        {
+          "prompt": "You need any taxi:",
+          "options": [
+            "Let’s take a taxi.",
+            "Let’s take the taxi."
+          ],
+          "canonical": "Let’s take a taxi.",
+          "accepted_variants": [
+            "Let’s take a taxi.",
+            "Let’s take a taxi",
+            "let’s take a taxi.",
+            "Let’s take a taxi!",
+            "Let’s take a taxi?"
+          ],
+          "rule_keys": [
+            "unit_72_C"
+          ],
+          "item_key": "unit_72_ex4_i5"
+        },
+        {
+          "prompt": "You mean a taxi you booked earlier:",
+          "options": [
+            "Let’s take a taxi.",
+            "Let’s take the taxi."
+          ],
+          "canonical": "Let’s take the taxi.",
+          "accepted_variants": [
+            "Let’s take the taxi.",
+            "Let’s take the taxi",
+            "let’s take the taxi.",
+            "Let’s take the taxi!",
+            "Let’s take the taxi?"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex4_i6"
+        },
+        {
+          "prompt": "You can identify it from context:",
+          "options": [
+            "Where’s a key?",
+            "Where’s the key?"
+          ],
+          "canonical": "Where’s the key?",
+          "accepted_variants": [
+            "Where’s the key?",
+            "Where’s the key?.",
+            "where’s the key?",
+            "where’s the key?.",
+            "Where’s the key?!",
+            "Where’s the key??"
+          ],
+          "rule_keys": [
+            "unit_72_B"
+          ],
+          "item_key": "unit_72_ex4_i7"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_73",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "There is only one moon for Earth:",
+          "options": [
+            "the moon",
+            "a moon"
+          ],
+          "canonical": "the moon",
+          "accepted_variants": [
+            "the moon",
+            "the moon.",
+            "The moon",
+            "The moon.",
+            "the moon!",
+            "the moon?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex1_i1"
+        },
+        {
+          "prompt": "One example of many stars:",
+          "options": [
+            "the star",
+            "a star"
+          ],
+          "canonical": "a star",
+          "accepted_variants": [
+            "a star",
+            "a star.",
+            "A star",
+            "A star.",
+            "a star!",
+            "a star?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex1_i2"
+        },
+        {
+          "prompt": "Superlative form:",
+          "options": [
+            "the best",
+            "a best"
+          ],
+          "canonical": "the best",
+          "accepted_variants": [
+            "the best",
+            "the best.",
+            "The best",
+            "The best.",
+            "the best!",
+            "the best?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex1_i3"
+        },
+        {
+          "prompt": "Unique in our solar system:",
+          "options": [
+            "the sun",
+            "a sun"
+          ],
+          "canonical": "the sun",
+          "accepted_variants": [
+            "the sun",
+            "the sun.",
+            "The sun",
+            "The sun.",
+            "the sun!",
+            "the sun?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex1_i4"
+        },
+        {
+          "prompt": "You mean any hotel, not a particular one:",
+          "options": [
+            "the hotel",
+            "a hotel"
+          ],
+          "canonical": "a hotel",
+          "accepted_variants": [
+            "a hotel",
+            "a hotel.",
+            "A hotel",
+            "A hotel.",
+            "a hotel!",
+            "a hotel?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex1_i5"
+        },
+        {
+          "prompt": "We say: at ___ end of the month:",
+          "options": [
+            "the",
+            "a"
+          ],
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex1_i6"
+        },
+        {
+          "prompt": "You and I both know which key:",
+          "options": [
+            "the key",
+            "a key"
+          ],
+          "canonical": "the key",
+          "accepted_variants": [
+            "the key",
+            "the key.",
+            "The key",
+            "The key.",
+            "the key!",
+            "the key?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex1_i7"
+        },
+        {
+          "prompt": "Superlative question:",
+          "options": [
+            "the longest",
+            "a longest"
+          ],
+          "canonical": "the longest",
+          "accepted_variants": [
+            "the longest",
+            "the longest.",
+            "The longest",
+            "The longest.",
+            "the longest!",
+            "the longest?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_73",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "General meaning (not a specific area):",
+          "options": [
+            "in space",
+            "in the space"
+          ],
+          "canonical": "in space",
+          "accepted_variants": [
+            "in space",
+            "in space.",
+            "In space",
+            "In space.",
+            "in space!",
+            "in space?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex2_i1"
+        },
+        {
+          "prompt": "Specific empty area (e.g., in a car park):",
+          "options": [
+            "a space",
+            "the space"
+          ],
+          "canonical": "the space",
+          "accepted_variants": [
+            "the space",
+            "the space.",
+            "The space",
+            "The space.",
+            "the space!",
+            "the space?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex2_i2"
+        },
+        {
+          "prompt": "Look up — it’s cloudy. You’re looking at:",
+          "options": [
+            "sky",
+            "the sky"
+          ],
+          "canonical": "the sky",
+          "accepted_variants": [
+            "the sky",
+            "the sky.",
+            "The sky",
+            "The sky.",
+            "the sky!",
+            "the sky?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i3"
+        },
+        {
+          "prompt": "We swam in:",
+          "options": [
+            "sea",
+            "the sea"
+          ],
+          "canonical": "the sea",
+          "accepted_variants": [
+            "the sea",
+            "the sea.",
+            "The sea",
+            "The sea.",
+            "the sea!",
+            "the sea?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i4"
+        },
+        {
+          "prompt": "The ball fell on:",
+          "options": [
+            "ground",
+            "the ground"
+          ],
+          "canonical": "the ground",
+          "accepted_variants": [
+            "the ground",
+            "the ground.",
+            "The ground",
+            "The ground.",
+            "the ground!",
+            "the ground?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i5"
+        },
+        {
+          "prompt": "We need to protect:",
+          "options": [
+            "environment",
+            "the environment"
+          ],
+          "canonical": "the environment",
+          "accepted_variants": [
+            "the environment",
+            "the environment.",
+            "The environment",
+            "The environment.",
+            "the environment!",
+            "the environment?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i6"
+        },
+        {
+          "prompt": "They moved to live in:",
+          "options": [
+            "country",
+            "the country"
+          ],
+          "canonical": "the country",
+          "accepted_variants": [
+            "the country",
+            "the country.",
+            "The country",
+            "The country.",
+            "the country!",
+            "the country?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i7"
+        },
+        {
+          "prompt": "My answer is:",
+          "options": [
+            "same",
+            "the same"
+          ],
+          "canonical": "the same",
+          "accepted_variants": [
+            "the same",
+            "the same.",
+            "The same",
+            "The same.",
+            "the same!",
+            "the same?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i8"
+        },
+        {
+          "prompt": "All around the planet:",
+          "options": [
+            "world",
+            "the world"
+          ],
+          "canonical": "the world",
+          "accepted_variants": [
+            "the world",
+            "the world.",
+            "The world",
+            "The world.",
+            "the world!",
+            "the world?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i9"
+        },
+        {
+          "prompt": "Planet in our solar system:",
+          "options": [
+            "Earth",
+            "the Earth"
+          ],
+          "canonical": "the Earth",
+          "accepted_variants": [
+            "the Earth",
+            "the Earth.",
+            "the earth",
+            "the earth.",
+            "The Earth",
+            "The Earth.",
+            "the Earth!",
+            "the Earth?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i10"
+        },
+        {
+          "prompt": "Outside the building (surface below your feet):",
+          "options": [
+            "ground",
+            "the ground"
+          ],
+          "canonical": "the ground",
+          "accepted_variants": [
+            "the ground",
+            "the ground.",
+            "The ground",
+            "The ground.",
+            "the ground!",
+            "the ground?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex2_i11"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_73",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct phrase.",
+      "items": [
+        {
+          "prompt": "We went to ____ last night.",
+          "options": [
+            "cinema",
+            "the cinema"
+          ],
+          "canonical": "the cinema",
+          "accepted_variants": [
+            "the cinema",
+            "the cinema.",
+            "The cinema",
+            "The cinema.",
+            "the cinema!",
+            "the cinema?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i1"
+        },
+        {
+          "prompt": "I heard it on ____ this morning.",
+          "options": [
+            "radio",
+            "the radio"
+          ],
+          "canonical": "the radio",
+          "accepted_variants": [
+            "the radio",
+            "the radio.",
+            "The radio",
+            "The radio.",
+            "the radio!",
+            "the radio?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i2"
+        },
+        {
+          "prompt": "I watch ____ in the evening.",
+          "options": [
+            "TV",
+            "the TV"
+          ],
+          "canonical": "TV",
+          "accepted_variants": [
+            "TV",
+            "TV.",
+            "tv",
+            "tv.",
+            "TV!",
+            "TV?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i3"
+        },
+        {
+          "prompt": "She saw the video on ____.",
+          "options": [
+            "internet",
+            "the internet"
+          ],
+          "canonical": "the internet",
+          "accepted_variants": [
+            "the internet",
+            "the internet.",
+            "The internet",
+            "The internet.",
+            "the internet!",
+            "the internet?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i4"
+        },
+        {
+          "prompt": "He prefers going to ____ to watch plays.",
+          "options": [
+            "theatre",
+            "the theatre"
+          ],
+          "canonical": "the theatre",
+          "accepted_variants": [
+            "the theatre",
+            "the theatre.",
+            "The theatre",
+            "The theatre.",
+            "the theatre!",
+            "the theatre?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i5"
+        },
+        {
+          "prompt": "Don’t believe everything you read on ____.",
+          "options": [
+            "the internet",
+            "internet"
+          ],
+          "canonical": "the internet",
+          "accepted_variants": [
+            "the internet",
+            "the internet.",
+            "The internet",
+            "The internet.",
+            "the internet!",
+            "the internet?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i6"
+        },
+        {
+          "prompt": "There’s nothing good on ____ tonight.",
+          "options": [
+            "TV",
+            "the TV"
+          ],
+          "canonical": "TV",
+          "accepted_variants": [
+            "TV",
+            "TV.",
+            "tv",
+            "tv.",
+            "TV!",
+            "TV?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i7"
+        },
+        {
+          "prompt": "They listen to ____ while driving.",
+          "options": [
+            "radio",
+            "the radio"
+          ],
+          "canonical": "the radio",
+          "accepted_variants": [
+            "the radio",
+            "the radio.",
+            "The radio",
+            "The radio.",
+            "the radio!",
+            "the radio?"
+          ],
+          "rule_keys": [
+            "unit_73_C"
+          ],
+          "item_key": "unit_73_ex3_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_73",
+      "exercise_index": 4,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "I opened ____ and got some fresh air.",
+          "options": [
+            "a window",
+            "the window"
+          ],
+          "canonical": "a window",
+          "accepted_variants": [
+            "a window",
+            "a window.",
+            "A window",
+            "A window.",
+            "a window!",
+            "a window?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex4_i1"
+        },
+        {
+          "prompt": "Could you close ____? (we both see it)",
+          "options": [
+            "a window",
+            "the window"
+          ],
+          "canonical": "the window",
+          "accepted_variants": [
+            "the window",
+            "the window.",
+            "The window",
+            "The window.",
+            "the window!",
+            "the window?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex4_i2"
+        },
+        {
+          "prompt": "We stayed in ____ near the beach.",
+          "options": [
+            "a hotel",
+            "the hotel"
+          ],
+          "canonical": "a hotel",
+          "accepted_variants": [
+            "a hotel",
+            "a hotel.",
+            "A hotel",
+            "A hotel.",
+            "a hotel!",
+            "a hotel?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex4_i3"
+        },
+        {
+          "prompt": "____ we stayed in had a great view. (specific)",
+          "options": [
+            "A hotel",
+            "The hotel"
+          ],
+          "canonical": "The hotel",
+          "accepted_variants": [
+            "The hotel",
+            "The hotel.",
+            "the hotel",
+            "the hotel.",
+            "The hotel!",
+            "The hotel?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex4_i4"
+        },
+        {
+          "prompt": "She is ____ person I told you about. (specific)",
+          "options": [
+            "a",
+            "the"
+          ],
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex4_i5"
+        },
+        {
+          "prompt": "He bought ____ bike last week. (first mention)",
+          "options": [
+            "a",
+            "the"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "a.",
+            "A",
+            "A.",
+            "a!",
+            "a?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex4_i6"
+        },
+        {
+          "prompt": "____ bike he bought was very cheap. (second mention)",
+          "options": [
+            "A",
+            "The"
+          ],
+          "canonical": "The",
+          "accepted_variants": [
+            "The",
+            "The.",
+            "the",
+            "the.",
+            "The!",
+            "The?"
+          ],
+          "rule_keys": [
+            "unit_73_B"
+          ],
+          "item_key": "unit_73_ex4_i7"
+        },
+        {
+          "prompt": "What’s ____ fastest way to get there?",
+          "options": [
+            "a",
+            "the"
+          ],
+          "canonical": "the",
+          "accepted_variants": [
+            "the",
+            "the.",
+            "The",
+            "The.",
+            "the!",
+            "the?"
+          ],
+          "rule_keys": [
+            "unit_73_A"
+          ],
+          "item_key": "unit_73_ex4_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_74",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct phrase.",
+      "items": [
+        {
+          "prompt": "Ellie is a student. Every day she goes to ____.",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "school",
+          "accepted_variants": [
+            "school",
+            "school.",
+            "School",
+            "School.",
+            "school!",
+            "school?"
+          ],
+          "rule_keys": [
+            "unit_74_A"
+          ],
+          "item_key": "unit_74_ex1_i1"
+        },
+        {
+          "prompt": "Ellie’s mother went to ____ to speak to a teacher.",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "the school",
+          "accepted_variants": [
+            "the school",
+            "the school.",
+            "The school",
+            "The school.",
+            "the school!",
+            "the school?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex1_i2"
+        },
+        {
+          "prompt": "As a student, she is at ____ now.",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "school",
+          "accepted_variants": [
+            "school",
+            "school.",
+            "School",
+            "School.",
+            "school!",
+            "school?"
+          ],
+          "rule_keys": [
+            "unit_74_A"
+          ],
+          "item_key": "unit_74_ex1_i3"
+        },
+        {
+          "prompt": "The meeting is at ____ (the building).",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "the school",
+          "accepted_variants": [
+            "the school",
+            "the school.",
+            "The school",
+            "The school.",
+            "the school!",
+            "the school?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex1_i4"
+        },
+        {
+          "prompt": "He’s studying and goes to ____ every weekday.",
+          "options": [
+            "university",
+            "the university"
+          ],
+          "canonical": "university",
+          "accepted_variants": [
+            "university",
+            "university.",
+            "University",
+            "University.",
+            "university!",
+            "university?"
+          ],
+          "rule_keys": [
+            "unit_74_A"
+          ],
+          "item_key": "unit_74_ex1_i5"
+        },
+        {
+          "prompt": "The protest was outside ____ in the city centre.",
+          "options": [
+            "university",
+            "the university"
+          ],
+          "canonical": "the university",
+          "accepted_variants": [
+            "the university",
+            "the university.",
+            "The university",
+            "The university.",
+            "the university!",
+            "the university?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex1_i6"
+        },
+        {
+          "prompt": "Children start ____ at the age of six.",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "school",
+          "accepted_variants": [
+            "school",
+            "school.",
+            "School",
+            "School.",
+            "school!",
+            "school?"
+          ],
+          "rule_keys": [
+            "unit_74_A"
+          ],
+          "item_key": "unit_74_ex1_i7"
+        },
+        {
+          "prompt": "We waited in front of ____ for an hour.",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "the school",
+          "accepted_variants": [
+            "the school",
+            "the school.",
+            "The school",
+            "The school.",
+            "the school!",
+            "the school?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_74",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose bed or the bed.",
+      "items": [
+        {
+          "prompt": "I was tired, so I went to ____ early.",
+          "options": [
+            "bed",
+            "the bed"
+          ],
+          "canonical": "bed",
+          "accepted_variants": [
+            "bed",
+            "bed.",
+            "Bed",
+            "Bed.",
+            "bed!",
+            "bed?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex2_i1"
+        },
+        {
+          "prompt": "I sat down on ____ to put on my shoes.",
+          "options": [
+            "bed",
+            "the bed"
+          ],
+          "canonical": "the bed",
+          "accepted_variants": [
+            "the bed",
+            "the bed.",
+            "The bed",
+            "The bed.",
+            "the bed!",
+            "the bed?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex2_i2"
+        },
+        {
+          "prompt": "She’s still in ____ because she’s ill.",
+          "options": [
+            "bed",
+            "the bed"
+          ],
+          "canonical": "bed",
+          "accepted_variants": [
+            "bed",
+            "bed.",
+            "Bed",
+            "Bed.",
+            "bed!",
+            "bed?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex2_i3"
+        },
+        {
+          "prompt": "The cat jumped on ____ and fell asleep.",
+          "options": [
+            "bed",
+            "the bed"
+          ],
+          "canonical": "the bed",
+          "accepted_variants": [
+            "the bed",
+            "the bed.",
+            "The bed",
+            "The bed.",
+            "the bed!",
+            "the bed?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex2_i4"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_74",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct phrase (home/work).",
+      "items": [
+        {
+          "prompt": "It’s late. Let’s go ____.",
+          "options": [
+            "home",
+            "to home"
+          ],
+          "canonical": "home",
+          "accepted_variants": [
+            "home",
+            "home.",
+            "Home",
+            "Home.",
+            "home!",
+            "home?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i1"
+        },
+        {
+          "prompt": "What time do you usually finish ____?",
+          "options": [
+            "work",
+            "the work"
+          ],
+          "canonical": "work",
+          "accepted_variants": [
+            "work",
+            "work.",
+            "Work",
+            "Work.",
+            "work!",
+            "work?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i2"
+        },
+        {
+          "prompt": "He didn’t go to ____ yesterday.",
+          "options": [
+            "work",
+            "the work"
+          ],
+          "canonical": "work",
+          "accepted_variants": [
+            "work",
+            "work.",
+            "Work",
+            "Work.",
+            "work!",
+            "work?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i3"
+        },
+        {
+          "prompt": "I work ____ on Fridays.",
+          "options": [
+            "at home",
+            "at the home"
+          ],
+          "canonical": "at home",
+          "accepted_variants": [
+            "at home",
+            "at home.",
+            "At home",
+            "At home.",
+            "at home!",
+            "at home?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i4"
+        },
+        {
+          "prompt": "She arrived ____ at midnight.",
+          "options": [
+            "home",
+            "to home"
+          ],
+          "canonical": "home",
+          "accepted_variants": [
+            "home",
+            "home.",
+            "Home",
+            "Home.",
+            "home!",
+            "home?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i5"
+        },
+        {
+          "prompt": "Is your brother ____ right now?",
+          "options": [
+            "at work",
+            "at the work"
+          ],
+          "canonical": "at work",
+          "accepted_variants": [
+            "at work",
+            "at work.",
+            "At work",
+            "At work.",
+            "at work!",
+            "at work?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i6"
+        },
+        {
+          "prompt": "After dinner, we went ____.",
+          "options": [
+            "home",
+            "to home"
+          ],
+          "canonical": "home",
+          "accepted_variants": [
+            "home",
+            "home.",
+            "Home",
+            "Home.",
+            "home!",
+            "home?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i7"
+        },
+        {
+          "prompt": "I don’t go out to work. I work ____.",
+          "options": [
+            "at home",
+            "at the home"
+          ],
+          "canonical": "at home",
+          "accepted_variants": [
+            "at home",
+            "at home.",
+            "At home",
+            "At home.",
+            "at home!",
+            "at home?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i8"
+        },
+        {
+          "prompt": "He’s ____ today, so he can’t answer.",
+          "options": [
+            "at work",
+            "at the work"
+          ],
+          "canonical": "at work",
+          "accepted_variants": [
+            "at work",
+            "at work.",
+            "At work",
+            "At work.",
+            "at work!",
+            "at work?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i9"
+        },
+        {
+          "prompt": "We started ____ at nine.",
+          "options": [
+            "work",
+            "the work"
+          ],
+          "canonical": "work",
+          "accepted_variants": [
+            "work",
+            "work.",
+            "Work",
+            "Work.",
+            "work!",
+            "work?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex3_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_74",
+      "exercise_index": 4,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct phrase.",
+      "items": [
+        {
+          "prompt": "After the exam, we went to ____ to celebrate (students).",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "school",
+          "accepted_variants": [
+            "school",
+            "school.",
+            "School",
+            "School.",
+            "school!",
+            "school?"
+          ],
+          "rule_keys": [
+            "unit_74_A"
+          ],
+          "item_key": "unit_74_ex4_i1"
+        },
+        {
+          "prompt": "The taxi stopped in front of ____.",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "the school",
+          "accepted_variants": [
+            "the school",
+            "the school.",
+            "The school",
+            "The school.",
+            "the school!",
+            "the school?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex4_i2"
+        },
+        {
+          "prompt": "He’s in ____ already. He’s asleep.",
+          "options": [
+            "bed",
+            "the bed"
+          ],
+          "canonical": "bed",
+          "accepted_variants": [
+            "bed",
+            "bed.",
+            "Bed",
+            "Bed.",
+            "bed!",
+            "bed?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex4_i3"
+        },
+        {
+          "prompt": "She made the bed and then sat on ____.",
+          "options": [
+            "bed",
+            "the bed"
+          ],
+          "canonical": "the bed",
+          "accepted_variants": [
+            "the bed",
+            "the bed.",
+            "The bed",
+            "The bed.",
+            "the bed!",
+            "the bed?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex4_i4"
+        },
+        {
+          "prompt": "I’ll be ____ all afternoon.",
+          "options": [
+            "at work",
+            "at the work"
+          ],
+          "canonical": "at work",
+          "accepted_variants": [
+            "at work",
+            "at work.",
+            "At work",
+            "At work.",
+            "at work!",
+            "at work?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex4_i5"
+        },
+        {
+          "prompt": "He went ____ and took a shower.",
+          "options": [
+            "home",
+            "to home"
+          ],
+          "canonical": "home",
+          "accepted_variants": [
+            "home",
+            "home.",
+            "Home",
+            "Home.",
+            "home!",
+            "home?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex4_i6"
+        },
+        {
+          "prompt": "We met at ____ entrance.",
+          "options": [
+            "school",
+            "the school"
+          ],
+          "canonical": "the school",
+          "accepted_variants": [
+            "the school",
+            "the school.",
+            "The school",
+            "The school.",
+            "the school!",
+            "the school?"
+          ],
+          "rule_keys": [
+            "unit_74_B"
+          ],
+          "item_key": "unit_74_ex4_i7"
+        },
+        {
+          "prompt": "I’m staying ____ tonight.",
+          "options": [
+            "at home",
+            "at the home"
+          ],
+          "canonical": "at home",
+          "accepted_variants": [
+            "at home",
+            "at home.",
+            "At home",
+            "At home.",
+            "at home!",
+            "at home?"
+          ],
+          "rule_keys": [
+            "unit_74_C"
+          ],
+          "item_key": "unit_74_ex4_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_75",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the sentence that means ‘in general’.",
+      "items": [
+        {
+          "prompt": "General meaning:",
+          "options": [
+            "I’m afraid of dogs.",
+            "I’m afraid of the dogs."
+          ],
+          "canonical": "I’m afraid of dogs.",
+          "accepted_variants": [
+            "I’m afraid of dogs.",
+            "I’m afraid of dogs",
+            "i’m afraid of dogs.",
+            "I’m afraid of dogs!",
+            "I’m afraid of dogs?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex1_i1"
+        },
+        {
+          "prompt": "General meaning:",
+          "options": [
+            "Doctors are usually well paid.",
+            "The doctors are usually well paid."
+          ],
+          "canonical": "Doctors are usually well paid.",
+          "accepted_variants": [
+            "Doctors are usually well paid.",
+            "Doctors are usually well paid",
+            "doctors are usually well paid.",
+            "Doctors are usually well paid!",
+            "Doctors are usually well paid?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex1_i2"
+        },
+        {
+          "prompt": "General meaning:",
+          "options": [
+            "Life is complicated.",
+            "The life is complicated."
+          ],
+          "canonical": "Life is complicated.",
+          "accepted_variants": [
+            "Life is complicated.",
+            "Life is complicated",
+            "life is complicated.",
+            "Life is complicated!",
+            "Life is complicated?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex1_i3"
+        },
+        {
+          "prompt": "General meaning:",
+          "options": [
+            "Do you like coffee?",
+            "Do you like the coffee?"
+          ],
+          "canonical": "Do you like coffee?",
+          "accepted_variants": [
+            "Do you like coffee?",
+            "Do you like coffee?.",
+            "do you like coffee?",
+            "do you like coffee?.",
+            "Do you like coffee?!",
+            "Do you like coffee??"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex1_i4"
+        },
+        {
+          "prompt": "General meaning:",
+          "options": [
+            "Most shops accept cards.",
+            "The most shops accept cards."
+          ],
+          "canonical": "Most shops accept cards.",
+          "accepted_variants": [
+            "Most shops accept cards.",
+            "Most shops accept cards",
+            "most shops accept cards.",
+            "Most shops accept cards!",
+            "Most shops accept cards?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex1_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_75",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the sentence that means a general category.",
+      "items": [
+        {
+          "prompt": "General category:",
+          "options": [
+            "I respect people who work hard.",
+            "I respect the people who work hard."
+          ],
+          "canonical": "I respect people who work hard.",
+          "accepted_variants": [
+            "I respect people who work hard.",
+            "I respect people who work hard",
+            "i respect people who work hard.",
+            "I respect people who work hard!",
+            "I respect people who work hard?"
+          ],
+          "rule_keys": [
+            "unit_75_B"
+          ],
+          "item_key": "unit_75_ex2_i1"
+        },
+        {
+          "prompt": "General category:",
+          "options": [
+            "Do you like food with spicy sauce?",
+            "Do you like the food with spicy sauce?"
+          ],
+          "canonical": "Do you like food with spicy sauce?",
+          "accepted_variants": [
+            "Do you like food with spicy sauce?",
+            "Do you like food with spicy sauce?.",
+            "do you like food with spicy sauce?",
+            "do you like food with spicy sauce?.",
+            "Do you like food with spicy sauce?!",
+            "Do you like food with spicy sauce??"
+          ],
+          "rule_keys": [
+            "unit_75_B"
+          ],
+          "item_key": "unit_75_ex2_i2"
+        },
+        {
+          "prompt": "General category:",
+          "options": [
+            "I don’t drink coffee with sugar.",
+            "I don’t drink the coffee with sugar."
+          ],
+          "canonical": "I don’t drink coffee with sugar.",
+          "accepted_variants": [
+            "I don’t drink coffee with sugar.",
+            "I don’t drink coffee with sugar",
+            "i don’t drink coffee with sugar.",
+            "I don’t drink coffee with sugar!",
+            "I don’t drink coffee with sugar?"
+          ],
+          "rule_keys": [
+            "unit_75_B"
+          ],
+          "item_key": "unit_75_ex2_i3"
+        },
+        {
+          "prompt": "General category:",
+          "options": [
+            "She avoids books about war.",
+            "She avoids the books about war."
+          ],
+          "canonical": "She avoids books about war.",
+          "accepted_variants": [
+            "She avoids books about war.",
+            "She avoids books about war",
+            "she avoids books about war.",
+            "She avoids books about war!",
+            "She avoids books about war?"
+          ],
+          "rule_keys": [
+            "unit_75_B"
+          ],
+          "item_key": "unit_75_ex2_i4"
+        },
+        {
+          "prompt": "General category:",
+          "options": [
+            "He enjoys films in black and white.",
+            "He enjoys the films in black and white."
+          ],
+          "canonical": "He enjoys films in black and white.",
+          "accepted_variants": [
+            "He enjoys films in black and white.",
+            "He enjoys films in black and white",
+            "he enjoys films in black and white.",
+            "He enjoys films in black and white!",
+            "He enjoys films in black and white?"
+          ],
+          "rule_keys": [
+            "unit_75_B"
+          ],
+          "item_key": "unit_75_ex2_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_75",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct sentence.",
+      "items": [
+        {
+          "prompt": "Specific (a particular group):",
+          "options": [
+            "I like people in my team.",
+            "I like the people in my team."
+          ],
+          "canonical": "I like the people in my team.",
+          "accepted_variants": [
+            "I like the people in my team.",
+            "I like the people in my team",
+            "i like the people in my team.",
+            "I like the people in my team!",
+            "I like the people in my team?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex3_i1"
+        },
+        {
+          "prompt": "General:",
+          "options": [
+            "I like music.",
+            "I like the music."
+          ],
+          "canonical": "I like music.",
+          "accepted_variants": [
+            "I like music.",
+            "I like music",
+            "i like music.",
+            "I like music!",
+            "I like music?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex3_i2"
+        },
+        {
+          "prompt": "Specific (music you’re playing now):",
+          "options": [
+            "Turn off music, please.",
+            "Turn off the music, please."
+          ],
+          "canonical": "Turn off the music, please.",
+          "accepted_variants": [
+            "Turn off the music, please.",
+            "Turn off the music, please",
+            "turn off the music, please.",
+            "Turn off the music, please!",
+            "Turn off the music, please?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex3_i3"
+        },
+        {
+          "prompt": "General:",
+          "options": [
+            "Cars are getting more expensive.",
+            "The cars are getting more expensive."
+          ],
+          "canonical": "Cars are getting more expensive.",
+          "accepted_variants": [
+            "Cars are getting more expensive.",
+            "Cars are getting more expensive",
+            "cars are getting more expensive.",
+            "Cars are getting more expensive!",
+            "Cars are getting more expensive?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex3_i4"
+        },
+        {
+          "prompt": "Specific (cars in this parking lot):",
+          "options": [
+            "The cars are blocking the exit.",
+            "Cars are blocking the exit."
+          ],
+          "canonical": "The cars are blocking the exit.",
+          "accepted_variants": [
+            "The cars are blocking the exit.",
+            "The cars are blocking the exit",
+            "the cars are blocking the exit.",
+            "The cars are blocking the exit!",
+            "The cars are blocking the exit?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex3_i5"
+        },
+        {
+          "prompt": "General:",
+          "options": [
+            "I don’t like loud noises.",
+            "I don’t like the loud noises."
+          ],
+          "canonical": "I don’t like loud noises.",
+          "accepted_variants": [
+            "I don’t like loud noises.",
+            "I don’t like loud noises",
+            "i don’t like loud noises.",
+            "I don’t like loud noises!",
+            "I don’t like loud noises?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex3_i6"
+        },
+        {
+          "prompt": "Specific (noises we can hear now):",
+          "options": [
+            "The noises are annoying.",
+            "Noises are annoying."
+          ],
+          "canonical": "The noises are annoying.",
+          "accepted_variants": [
+            "The noises are annoying.",
+            "The noises are annoying",
+            "the noises are annoying.",
+            "The noises are annoying!",
+            "The noises are annoying?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex3_i7"
+        },
+        {
+          "prompt": "General:",
+          "options": [
+            "Children need sleep.",
+            "The children need sleep."
+          ],
+          "canonical": "Children need sleep.",
+          "accepted_variants": [
+            "Children need sleep.",
+            "Children need sleep",
+            "children need sleep.",
+            "Children need sleep!",
+            "Children need sleep?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex3_i8"
+        },
+        {
+          "prompt": "Specific (the children in your class):",
+          "options": [
+            "The children are tired today.",
+            "Children are tired today."
+          ],
+          "canonical": "The children are tired today.",
+          "accepted_variants": [
+            "The children are tired today.",
+            "The children are tired today",
+            "the children are tired today.",
+            "The children are tired today!",
+            "The children are tired today?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex3_i9"
+        },
+        {
+          "prompt": "General:",
+          "options": [
+            "History is my favourite subject.",
+            "The history is my favourite subject."
+          ],
+          "canonical": "History is my favourite subject.",
+          "accepted_variants": [
+            "History is my favourite subject.",
+            "History is my favourite subject",
+            "history is my favourite subject.",
+            "History is my favourite subject!",
+            "History is my favourite subject?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex3_i10"
+        },
+        {
+          "prompt": "Specific (this lesson):",
+          "options": [
+            "The history we studied today was difficult.",
+            "History we studied today was difficult."
+          ],
+          "canonical": "The history we studied today was difficult.",
+          "accepted_variants": [
+            "The history we studied today was difficult.",
+            "The history we studied today was difficult",
+            "the history we studied today was difficult.",
+            "The history we studied today was difficult!",
+            "The history we studied today was difficult?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex3_i11"
+        },
+        {
+          "prompt": "General:",
+          "options": [
+            "Most people want to be healthy.",
+            "The most people want to be healthy."
+          ],
+          "canonical": "Most people want to be healthy.",
+          "accepted_variants": [
+            "Most people want to be healthy.",
+            "Most people want to be healthy",
+            "most people want to be healthy.",
+            "Most people want to be healthy!",
+            "Most people want to be healthy?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex3_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_75",
+      "exercise_index": 4,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "You mean a specific coffee (the one on the table):",
+          "options": [
+            "coffee",
+            "the coffee"
+          ],
+          "canonical": "the coffee",
+          "accepted_variants": [
+            "the coffee",
+            "the coffee.",
+            "The coffee",
+            "The coffee.",
+            "the coffee!",
+            "the coffee?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex4_i1"
+        },
+        {
+          "prompt": "You mean coffee in general:",
+          "options": [
+            "coffee",
+            "the coffee"
+          ],
+          "canonical": "coffee",
+          "accepted_variants": [
+            "coffee",
+            "coffee.",
+            "Coffee",
+            "Coffee.",
+            "coffee!",
+            "coffee?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex4_i2"
+        },
+        {
+          "prompt": "You mean a specific people (in your office):",
+          "options": [
+            "people",
+            "the people"
+          ],
+          "canonical": "the people",
+          "accepted_variants": [
+            "the people",
+            "the people.",
+            "The people",
+            "The people.",
+            "the people!",
+            "the people?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex4_i3"
+        },
+        {
+          "prompt": "You mean people in general:",
+          "options": [
+            "people",
+            "the people"
+          ],
+          "canonical": "people",
+          "accepted_variants": [
+            "people",
+            "people.",
+            "People",
+            "People.",
+            "people!",
+            "people?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex4_i4"
+        },
+        {
+          "prompt": "You mean a specific books (you bought):",
+          "options": [
+            "books",
+            "the books"
+          ],
+          "canonical": "the books",
+          "accepted_variants": [
+            "the books",
+            "the books.",
+            "The books",
+            "The books.",
+            "the books!",
+            "the books?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex4_i5"
+        },
+        {
+          "prompt": "You mean books in general:",
+          "options": [
+            "books",
+            "the books"
+          ],
+          "canonical": "books",
+          "accepted_variants": [
+            "books",
+            "books.",
+            "Books",
+            "Books.",
+            "books!",
+            "books?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex4_i6"
+        },
+        {
+          "prompt": "Specific music (you’re listening to now):",
+          "options": [
+            "music",
+            "the music"
+          ],
+          "canonical": "the music",
+          "accepted_variants": [
+            "the music",
+            "the music.",
+            "The music",
+            "The music.",
+            "the music!",
+            "the music?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex4_i7"
+        },
+        {
+          "prompt": "General life (in general):",
+          "options": [
+            "life",
+            "the life"
+          ],
+          "canonical": "life",
+          "accepted_variants": [
+            "life",
+            "life.",
+            "Life",
+            "Life.",
+            "life!",
+            "life?"
+          ],
+          "rule_keys": [
+            "unit_75_A"
+          ],
+          "item_key": "unit_75_ex4_i8"
+        },
+        {
+          "prompt": "Biography context: I’m reading about ___ of a famous singer.",
+          "options": [
+            "life",
+            "the life"
+          ],
+          "canonical": "the life",
+          "accepted_variants": [
+            "the life",
+            "the life.",
+            "The life",
+            "The life.",
+            "the life!",
+            "the life?"
+          ],
+          "rule_keys": [
+            "unit_75_C"
+          ],
+          "item_key": "unit_75_ex4_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_76",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct sentence.",
+      "items": [
+        {
+          "prompt": "Talking about the animal species:",
+          "options": [
+            "The tiger is dangerous.",
+            "A tiger is dangerous."
+          ],
+          "canonical": "The tiger is dangerous.",
+          "accepted_variants": [
+            "The tiger is dangerous.",
+            "The tiger is dangerous",
+            "the tiger is dangerous.",
+            "The tiger is dangerous!",
+            "The tiger is dangerous?"
+          ],
+          "rule_keys": [
+            "unit_76_A"
+          ],
+          "item_key": "unit_76_ex1_i1"
+        },
+        {
+          "prompt": "Talking about the invention:",
+          "options": [
+            "When was the camera invented?",
+            "When was a camera invented?"
+          ],
+          "canonical": "When was the camera invented?",
+          "accepted_variants": [
+            "When was the camera invented?",
+            "When was the camera invented?.",
+            "when was the camera invented?",
+            "when was the camera invented?.",
+            "When was the camera invented?!",
+            "When was the camera invented??"
+          ],
+          "rule_keys": [
+            "unit_76_A"
+          ],
+          "item_key": "unit_76_ex1_i2"
+        },
+        {
+          "prompt": "Talking about a type (general):",
+          "options": [
+            "The dolphin is a mammal.",
+            "A dolphin is a mammal."
+          ],
+          "canonical": "The dolphin is a mammal.",
+          "accepted_variants": [
+            "The dolphin is a mammal.",
+            "The dolphin is a mammal",
+            "the dolphin is a mammal.",
+            "The dolphin is a mammal!",
+            "The dolphin is a mammal?"
+          ],
+          "rule_keys": [
+            "unit_76_A"
+          ],
+          "item_key": "unit_76_ex1_i3"
+        },
+        {
+          "prompt": "Talking about one example:",
+          "options": [
+            "The dolphin I saw was playful.",
+            "A dolphin I saw was playful."
+          ],
+          "canonical": "The dolphin I saw was playful.",
+          "accepted_variants": [
+            "The dolphin I saw was playful.",
+            "The dolphin I saw was playful",
+            "the dolphin i saw was playful.",
+            "The dolphin I saw was playful!",
+            "The dolphin I saw was playful?"
+          ],
+          "rule_keys": [
+            "unit_76_A"
+          ],
+          "item_key": "unit_76_ex1_i4"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_76",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct form.",
+      "items": [
+        {
+          "prompt": "She can play:",
+          "options": [
+            "piano",
+            "the piano"
+          ],
+          "canonical": "the piano",
+          "accepted_variants": [
+            "the piano",
+            "the piano.",
+            "The piano",
+            "The piano.",
+            "the piano!",
+            "the piano?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i1"
+        },
+        {
+          "prompt": "He’s learning:",
+          "options": [
+            "guitar",
+            "the guitar"
+          ],
+          "canonical": "the guitar",
+          "accepted_variants": [
+            "the guitar",
+            "the guitar.",
+            "The guitar",
+            "The guitar.",
+            "the guitar!",
+            "the guitar?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i2"
+        },
+        {
+          "prompt": "Do you play:",
+          "options": [
+            "violin",
+            "the violin"
+          ],
+          "canonical": "the violin",
+          "accepted_variants": [
+            "the violin",
+            "the violin.",
+            "The violin",
+            "The violin.",
+            "the violin!",
+            "the violin?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i3"
+        },
+        {
+          "prompt": "They bought:",
+          "options": [
+            "drums",
+            "the drums"
+          ],
+          "canonical": "the drums",
+          "accepted_variants": [
+            "the drums",
+            "the drums.",
+            "The drums",
+            "The drums.",
+            "the drums!",
+            "the drums?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i4"
+        },
+        {
+          "prompt": "I don’t play:",
+          "options": [
+            "flute",
+            "the flute"
+          ],
+          "canonical": "the flute",
+          "accepted_variants": [
+            "the flute",
+            "the flute.",
+            "The flute",
+            "The flute.",
+            "the flute!",
+            "the flute?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i5"
+        },
+        {
+          "prompt": "My sister plays:",
+          "options": [
+            "saxophone",
+            "the saxophone"
+          ],
+          "canonical": "the saxophone",
+          "accepted_variants": [
+            "the saxophone",
+            "the saxophone.",
+            "The saxophone",
+            "The saxophone.",
+            "the saxophone!",
+            "the saxophone?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i6"
+        },
+        {
+          "prompt": "He practises:",
+          "options": [
+            "piano",
+            "the piano"
+          ],
+          "canonical": "the piano",
+          "accepted_variants": [
+            "the piano",
+            "the piano.",
+            "The piano",
+            "The piano.",
+            "the piano!",
+            "the piano?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i7"
+        },
+        {
+          "prompt": "She teaches:",
+          "options": [
+            "guitar",
+            "the guitar"
+          ],
+          "canonical": "the guitar",
+          "accepted_variants": [
+            "the guitar",
+            "the guitar.",
+            "The guitar",
+            "The guitar.",
+            "the guitar!",
+            "the guitar?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i8"
+        },
+        {
+          "prompt": "Can you hear:",
+          "options": [
+            "drums",
+            "the drums"
+          ],
+          "canonical": "the drums",
+          "accepted_variants": [
+            "the drums",
+            "the drums.",
+            "The drums",
+            "The drums.",
+            "the drums!",
+            "the drums?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i9"
+        },
+        {
+          "prompt": "He used to play:",
+          "options": [
+            "violin",
+            "the violin"
+          ],
+          "canonical": "the violin",
+          "accepted_variants": [
+            "the violin",
+            "the violin.",
+            "The violin",
+            "The violin.",
+            "the violin!",
+            "the violin?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex2_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_76",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the correct nationality word.",
+      "items": [
+        {
+          "prompt": "People from Switzerland are called ____.",
+          "options": null,
+          "canonical": "the Swiss",
+          "accepted_variants": [
+            "the Swiss",
+            "the Swiss.",
+            "the swiss",
+            "the swiss.",
+            "The Swiss",
+            "The Swiss.",
+            "the Swiss!",
+            "the Swiss?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex3_i1"
+        },
+        {
+          "prompt": "People from Portugal are called ____.",
+          "options": null,
+          "canonical": "the Portuguese",
+          "accepted_variants": [
+            "the Portuguese",
+            "the Portuguese.",
+            "the portuguese",
+            "the portuguese.",
+            "The Portuguese",
+            "The Portuguese.",
+            "the Portuguese!",
+            "the Portuguese?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex3_i2"
+        },
+        {
+          "prompt": "People from Brazil are called ____.",
+          "options": null,
+          "canonical": "Brazilians",
+          "accepted_variants": [
+            "Brazilians",
+            "Brazilians.",
+            "brazilians",
+            "brazilians.",
+            "Brazilians!",
+            "Brazilians?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex3_i3"
+        },
+        {
+          "prompt": "People from Italy are called ____.",
+          "options": null,
+          "canonical": "Italians",
+          "accepted_variants": [
+            "Italians",
+            "Italians.",
+            "italians",
+            "italians.",
+            "Italians!",
+            "Italians?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex3_i4"
+        },
+        {
+          "prompt": "People from Spain are called ____.",
+          "options": null,
+          "canonical": "Spaniards",
+          "accepted_variants": [
+            "Spaniards",
+            "Spaniards.",
+            "spaniards",
+            "spaniards.",
+            "Spaniards!",
+            "Spaniards?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex3_i5"
+        },
+        {
+          "prompt": "People from the Netherlands are called ____.",
+          "options": null,
+          "canonical": "the Dutch",
+          "accepted_variants": [
+            "the Dutch",
+            "the Dutch.",
+            "the dutch",
+            "the dutch.",
+            "The Dutch",
+            "The Dutch.",
+            "the Dutch!",
+            "the Dutch?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex3_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_76",
+      "exercise_index": 4,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "General species:",
+          "options": [
+            "The giraffe has a long neck.",
+            "A giraffe has a long neck."
+          ],
+          "canonical": "The giraffe has a long neck.",
+          "accepted_variants": [
+            "The giraffe has a long neck.",
+            "The giraffe has a long neck",
+            "the giraffe has a long neck.",
+            "The giraffe has a long neck!",
+            "The giraffe has a long neck?"
+          ],
+          "rule_keys": [
+            "unit_76_A"
+          ],
+          "item_key": "unit_76_ex4_i1"
+        },
+        {
+          "prompt": "One example:",
+          "options": [
+            "A giraffe in the zoo is sleeping.",
+            "The giraffe in the zoo is sleeping."
+          ],
+          "canonical": "The giraffe in the zoo is sleeping.",
+          "accepted_variants": [
+            "The giraffe in the zoo is sleeping.",
+            "The giraffe in the zoo is sleeping",
+            "the giraffe in the zoo is sleeping.",
+            "The giraffe in the zoo is sleeping!",
+            "The giraffe in the zoo is sleeping?"
+          ],
+          "rule_keys": [
+            "unit_76_A"
+          ],
+          "item_key": "unit_76_ex4_i2"
+        },
+        {
+          "prompt": "Instrument:",
+          "options": [
+            "She plays the piano.",
+            "She plays piano."
+          ],
+          "canonical": "She plays the piano.",
+          "accepted_variants": [
+            "She plays the piano.",
+            "She plays the piano",
+            "she plays the piano.",
+            "She plays the piano!",
+            "She plays the piano?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex4_i3"
+        },
+        {
+          "prompt": "Nationality group:",
+          "options": [
+            "The French are famous for cheese.",
+            "French are famous for cheese."
+          ],
+          "canonical": "The French are famous for cheese.",
+          "accepted_variants": [
+            "The French are famous for cheese.",
+            "The French are famous for cheese",
+            "the french are famous for cheese.",
+            "The French are famous for cheese!",
+            "The French are famous for cheese?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex4_i4"
+        },
+        {
+          "prompt": "Plural -s nationality:",
+          "options": [
+            "Italians eat pasta.",
+            "The Italians eat pasta."
+          ],
+          "canonical": "Italians eat pasta.",
+          "accepted_variants": [
+            "Italians eat pasta.",
+            "Italians eat pasta",
+            "italians eat pasta.",
+            "Italians eat pasta!",
+            "Italians eat pasta?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex4_i5"
+        },
+        {
+          "prompt": "Nationality without -s:",
+          "options": [
+            "the Swiss",
+            "Swiss"
+          ],
+          "canonical": "the Swiss",
+          "accepted_variants": [
+            "the Swiss",
+            "the Swiss.",
+            "the swiss",
+            "the swiss.",
+            "The Swiss",
+            "The Swiss.",
+            "the Swiss!",
+            "the Swiss?"
+          ],
+          "rule_keys": [
+            "unit_76_C"
+          ],
+          "item_key": "unit_76_ex4_i6"
+        },
+        {
+          "prompt": "Instrument:",
+          "options": [
+            "He plays the guitar.",
+            "He plays guitar."
+          ],
+          "canonical": "He plays the guitar.",
+          "accepted_variants": [
+            "He plays the guitar.",
+            "He plays the guitar",
+            "he plays the guitar.",
+            "He plays the guitar!",
+            "He plays the guitar?"
+          ],
+          "rule_keys": [
+            "unit_76_B"
+          ],
+          "item_key": "unit_76_ex4_i7"
+        },
+        {
+          "prompt": "Type/invention:",
+          "options": [
+            "The computer changed everything.",
+            "A computer changed everything."
+          ],
+          "canonical": "The computer changed everything.",
+          "accepted_variants": [
+            "The computer changed everything.",
+            "The computer changed everything",
+            "the computer changed everything.",
+            "The computer changed everything!",
+            "The computer changed everything?"
+          ],
+          "rule_keys": [
+            "unit_76_A"
+          ],
+          "item_key": "unit_76_ex4_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_77",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct place name.",
+      "items": [
+        {
+          "prompt": "Country:",
+          "options": [
+            "France",
+            "the France"
+          ],
+          "canonical": "France",
+          "accepted_variants": [
+            "France",
+            "France.",
+            "france",
+            "france.",
+            "France!",
+            "France?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i1"
+        },
+        {
+          "prompt": "City:",
+          "options": [
+            "Rome",
+            "the Rome"
+          ],
+          "canonical": "Rome",
+          "accepted_variants": [
+            "Rome",
+            "Rome.",
+            "rome",
+            "rome.",
+            "Rome!",
+            "Rome?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i2"
+        },
+        {
+          "prompt": "Continent:",
+          "options": [
+            "Asia",
+            "the Asia"
+          ],
+          "canonical": "Asia",
+          "accepted_variants": [
+            "Asia",
+            "Asia.",
+            "asia",
+            "asia.",
+            "Asia!",
+            "Asia?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i3"
+        },
+        {
+          "prompt": "Mountain:",
+          "options": [
+            "Everest",
+            "the Everest"
+          ],
+          "canonical": "Everest",
+          "accepted_variants": [
+            "Everest",
+            "Everest.",
+            "everest",
+            "everest.",
+            "Everest!",
+            "Everest?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i4"
+        },
+        {
+          "prompt": "Island:",
+          "options": [
+            "Sicily",
+            "the Sicily"
+          ],
+          "canonical": "Sicily",
+          "accepted_variants": [
+            "Sicily",
+            "Sicily.",
+            "sicily",
+            "sicily.",
+            "Sicily!",
+            "Sicily?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i5"
+        },
+        {
+          "prompt": "Country:",
+          "options": [
+            "Japan",
+            "the Japan"
+          ],
+          "canonical": "Japan",
+          "accepted_variants": [
+            "Japan",
+            "Japan.",
+            "japan",
+            "japan.",
+            "Japan!",
+            "Japan?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i6"
+        },
+        {
+          "prompt": "City:",
+          "options": [
+            "Paris",
+            "the Paris"
+          ],
+          "canonical": "Paris",
+          "accepted_variants": [
+            "Paris",
+            "Paris.",
+            "paris",
+            "paris.",
+            "Paris!",
+            "Paris?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i7"
+        },
+        {
+          "prompt": "Continent:",
+          "options": [
+            "Europe",
+            "the Europe"
+          ],
+          "canonical": "Europe",
+          "accepted_variants": [
+            "Europe",
+            "Europe.",
+            "europe",
+            "europe.",
+            "Europe!",
+            "Europe?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i8"
+        },
+        {
+          "prompt": "Country:",
+          "options": [
+            "Brazil",
+            "the Brazil"
+          ],
+          "canonical": "Brazil",
+          "accepted_variants": [
+            "Brazil",
+            "Brazil.",
+            "brazil",
+            "brazil.",
+            "Brazil!",
+            "Brazil?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i9"
+        },
+        {
+          "prompt": "City:",
+          "options": [
+            "London",
+            "the London"
+          ],
+          "canonical": "London",
+          "accepted_variants": [
+            "London",
+            "London.",
+            "london",
+            "london.",
+            "London!",
+            "London?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex1_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_77",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct form.",
+      "items": [
+        {
+          "prompt": "Country name with ‘Kingdom’:",
+          "options": [
+            "United Kingdom",
+            "the United Kingdom"
+          ],
+          "canonical": "the United Kingdom",
+          "accepted_variants": [
+            "the United Kingdom",
+            "the United Kingdom.",
+            "the united kingdom",
+            "the united kingdom.",
+            "The United Kingdom",
+            "The United Kingdom.",
+            "the United Kingdom!",
+            "the United Kingdom?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i1"
+        },
+        {
+          "prompt": "Country name with ‘States’:",
+          "options": [
+            "United States",
+            "the United States"
+          ],
+          "canonical": "the United States",
+          "accepted_variants": [
+            "the United States",
+            "the United States.",
+            "the united states",
+            "the united states.",
+            "The United States",
+            "The United States.",
+            "the United States!",
+            "the United States?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i2"
+        },
+        {
+          "prompt": "Plural name:",
+          "options": [
+            "Netherlands",
+            "the Netherlands"
+          ],
+          "canonical": "the Netherlands",
+          "accepted_variants": [
+            "the Netherlands",
+            "the Netherlands.",
+            "the netherlands",
+            "the netherlands.",
+            "The Netherlands",
+            "The Netherlands.",
+            "the Netherlands!",
+            "the Netherlands?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i3"
+        },
+        {
+          "prompt": "Official name:",
+          "options": [
+            "Czech Republic",
+            "the Czech Republic"
+          ],
+          "canonical": "the Czech Republic",
+          "accepted_variants": [
+            "the Czech Republic",
+            "the Czech Republic.",
+            "the czech republic",
+            "the czech republic.",
+            "The Czech Republic",
+            "The Czech Republic.",
+            "the Czech Republic!",
+            "the Czech Republic?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i4"
+        },
+        {
+          "prompt": "Emirates:",
+          "options": [
+            "United Arab Emirates",
+            "the United Arab Emirates"
+          ],
+          "canonical": "the United Arab Emirates",
+          "accepted_variants": [
+            "the United Arab Emirates",
+            "the United Arab Emirates.",
+            "the united arab emirates",
+            "the united arab emirates.",
+            "The United Arab Emirates",
+            "The United Arab Emirates.",
+            "the United Arab Emirates!",
+            "the United Arab Emirates?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i5"
+        },
+        {
+          "prompt": "Plural islands group:",
+          "options": [
+            "Philippines",
+            "the Philippines"
+          ],
+          "canonical": "the Philippines",
+          "accepted_variants": [
+            "the Philippines",
+            "the Philippines.",
+            "the philippines",
+            "the philippines.",
+            "The Philippines",
+            "The Philippines.",
+            "the Philippines!",
+            "the Philippines?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i6"
+        },
+        {
+          "prompt": "Republic:",
+          "options": [
+            "Republic of Korea",
+            "the Republic of Korea"
+          ],
+          "canonical": "the Republic of Korea",
+          "accepted_variants": [
+            "the Republic of Korea",
+            "the Republic of Korea.",
+            "the republic of korea",
+            "the republic of korea.",
+            "The Republic of Korea",
+            "The Republic of Korea.",
+            "the Republic of Korea!",
+            "the Republic of Korea?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i7"
+        },
+        {
+          "prompt": "Kingdom:",
+          "options": [
+            "Kingdom of Spain",
+            "the Kingdom of Spain"
+          ],
+          "canonical": "the Kingdom of Spain",
+          "accepted_variants": [
+            "the Kingdom of Spain",
+            "the Kingdom of Spain.",
+            "the kingdom of spain",
+            "the kingdom of spain.",
+            "The Kingdom of Spain",
+            "The Kingdom of Spain.",
+            "the Kingdom of Spain!",
+            "the Kingdom of Spain?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i8"
+        },
+        {
+          "prompt": "Plural name:",
+          "options": [
+            "Bahamas",
+            "the Bahamas"
+          ],
+          "canonical": "the Bahamas",
+          "accepted_variants": [
+            "the Bahamas",
+            "the Bahamas.",
+            "the bahamas",
+            "the bahamas.",
+            "The Bahamas",
+            "The Bahamas.",
+            "the Bahamas!",
+            "the Bahamas?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex2_i9"
+        },
+        {
+          "prompt": "Use compass region (in the north):",
+          "options": [
+            "in the north",
+            "in north"
+          ],
+          "canonical": "in the north",
+          "accepted_variants": [
+            "in the north",
+            "in the north.",
+            "In the north",
+            "In the north.",
+            "in the north!",
+            "in the north?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex2_i10"
+        },
+        {
+          "prompt": "Adjective region (northern):",
+          "options": [
+            "northern Spain",
+            "the northern Spain"
+          ],
+          "canonical": "northern Spain",
+          "accepted_variants": [
+            "northern Spain",
+            "northern Spain.",
+            "northern spain",
+            "northern spain.",
+            "Northern Spain",
+            "Northern Spain.",
+            "northern Spain!",
+            "northern Spain?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex2_i11"
+        },
+        {
+          "prompt": "Compass as noun:",
+          "options": [
+            "the south of Italy",
+            "south of Italy"
+          ],
+          "canonical": "the south of Italy",
+          "accepted_variants": [
+            "the south of Italy",
+            "the south of Italy.",
+            "the south of italy",
+            "the south of italy.",
+            "The south of Italy",
+            "The south of Italy.",
+            "the south of Italy!",
+            "the south of Italy?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex2_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_77",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "Region adjective:",
+          "options": [
+            "western Canada",
+            "the western Canada"
+          ],
+          "canonical": "western Canada",
+          "accepted_variants": [
+            "western Canada",
+            "western Canada.",
+            "western canada",
+            "western canada.",
+            "Western Canada",
+            "Western Canada.",
+            "western Canada!",
+            "western Canada?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex3_i1"
+        },
+        {
+          "prompt": "Compass noun phrase:",
+          "options": [
+            "the east of the country",
+            "east of the country"
+          ],
+          "canonical": "the east of the country",
+          "accepted_variants": [
+            "the east of the country",
+            "the east of the country.",
+            "The east of the country",
+            "The east of the country.",
+            "the east of the country!",
+            "the east of the country?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex3_i2"
+        },
+        {
+          "prompt": "Country with States:",
+          "options": [
+            "the United States",
+            "United States"
+          ],
+          "canonical": "the United States",
+          "accepted_variants": [
+            "the United States",
+            "the United States.",
+            "the united states",
+            "the united states.",
+            "The United States",
+            "The United States.",
+            "the United States!",
+            "the United States?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex3_i3"
+        },
+        {
+          "prompt": "Normal country:",
+          "options": [
+            "Germany",
+            "the Germany"
+          ],
+          "canonical": "Germany",
+          "accepted_variants": [
+            "Germany",
+            "Germany.",
+            "germany",
+            "germany.",
+            "Germany!",
+            "Germany?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex3_i4"
+        },
+        {
+          "prompt": "Plural name:",
+          "options": [
+            "the Netherlands",
+            "Netherlands"
+          ],
+          "canonical": "the Netherlands",
+          "accepted_variants": [
+            "the Netherlands",
+            "the Netherlands.",
+            "the netherlands",
+            "the netherlands.",
+            "The Netherlands",
+            "The Netherlands.",
+            "the Netherlands!",
+            "the Netherlands?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex3_i5"
+        },
+        {
+          "prompt": "City:",
+          "options": [
+            "Madrid",
+            "the Madrid"
+          ],
+          "canonical": "Madrid",
+          "accepted_variants": [
+            "Madrid",
+            "Madrid.",
+            "madrid",
+            "madrid.",
+            "Madrid!",
+            "Madrid?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex3_i6"
+        },
+        {
+          "prompt": "Continent:",
+          "options": [
+            "Africa",
+            "the Africa"
+          ],
+          "canonical": "Africa",
+          "accepted_variants": [
+            "Africa",
+            "Africa.",
+            "africa",
+            "africa.",
+            "Africa!",
+            "Africa?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex3_i7"
+        },
+        {
+          "prompt": "Republic:",
+          "options": [
+            "the Czech Republic",
+            "Czech Republic"
+          ],
+          "canonical": "the Czech Republic",
+          "accepted_variants": [
+            "the Czech Republic",
+            "the Czech Republic.",
+            "the czech republic",
+            "the czech republic.",
+            "The Czech Republic",
+            "The Czech Republic.",
+            "the Czech Republic!",
+            "the Czech Republic?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex3_i8"
+        },
+        {
+          "prompt": "Island:",
+          "options": [
+            "Crete",
+            "the Crete"
+          ],
+          "canonical": "Crete",
+          "accepted_variants": [
+            "Crete",
+            "Crete.",
+            "crete",
+            "crete.",
+            "Crete!",
+            "Crete?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex3_i9"
+        },
+        {
+          "prompt": "Compass noun:",
+          "options": [
+            "in the west",
+            "in west"
+          ],
+          "canonical": "in the west",
+          "accepted_variants": [
+            "in the west",
+            "in the west.",
+            "In the west",
+            "In the west.",
+            "in the west!",
+            "in the west?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex3_i10"
+        },
+        {
+          "prompt": "Adjective region:",
+          "options": [
+            "northern Italy",
+            "the northern Italy"
+          ],
+          "canonical": "northern Italy",
+          "accepted_variants": [
+            "northern Italy",
+            "northern Italy.",
+            "northern italy",
+            "northern italy.",
+            "Northern Italy",
+            "Northern Italy.",
+            "northern Italy!",
+            "northern Italy?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex3_i11"
+        },
+        {
+          "prompt": "Country with Emirates:",
+          "options": [
+            "the United Arab Emirates",
+            "United Arab Emirates"
+          ],
+          "canonical": "the United Arab Emirates",
+          "accepted_variants": [
+            "the United Arab Emirates",
+            "the United Arab Emirates.",
+            "the united arab emirates",
+            "the united arab emirates.",
+            "The United Arab Emirates",
+            "The United Arab Emirates.",
+            "the United Arab Emirates!",
+            "the United Arab Emirates?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex3_i12"
+        },
+        {
+          "prompt": "Plural islands:",
+          "options": [
+            "the Philippines",
+            "Philippines"
+          ],
+          "canonical": "the Philippines",
+          "accepted_variants": [
+            "the Philippines",
+            "the Philippines.",
+            "the philippines",
+            "the philippines.",
+            "The Philippines",
+            "The Philippines.",
+            "the Philippines!",
+            "the Philippines?"
+          ],
+          "rule_keys": [
+            "unit_77_B"
+          ],
+          "item_key": "unit_77_ex3_i13"
+        },
+        {
+          "prompt": "Country:",
+          "options": [
+            "Australia",
+            "the Australia"
+          ],
+          "canonical": "Australia",
+          "accepted_variants": [
+            "Australia",
+            "Australia.",
+            "australia",
+            "australia.",
+            "Australia!",
+            "Australia?"
+          ],
+          "rule_keys": [
+            "unit_77_A"
+          ],
+          "item_key": "unit_77_ex3_i14"
+        },
+        {
+          "prompt": "Compass phrase:",
+          "options": [
+            "the north of Spain",
+            "north of Spain"
+          ],
+          "canonical": "the north of Spain",
+          "accepted_variants": [
+            "the north of Spain",
+            "the north of Spain.",
+            "the north of spain",
+            "the north of spain.",
+            "The north of Spain",
+            "The north of Spain.",
+            "the north of Spain!",
+            "the north of Spain?"
+          ],
+          "rule_keys": [
+            "unit_77_C"
+          ],
+          "item_key": "unit_77_ex3_i15"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_78",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct name.",
+      "items": [
+        {
+          "prompt": "Street name:",
+          "options": [
+            "Baker Street",
+            "the Baker Street"
+          ],
+          "canonical": "Baker Street",
+          "accepted_variants": [
+            "Baker Street",
+            "Baker Street.",
+            "baker street",
+            "baker street.",
+            "Baker Street!",
+            "Baker Street?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i1"
+        },
+        {
+          "prompt": "Park name:",
+          "options": [
+            "Hyde Park",
+            "the Hyde Park"
+          ],
+          "canonical": "Hyde Park",
+          "accepted_variants": [
+            "Hyde Park",
+            "Hyde Park.",
+            "hyde park",
+            "hyde park.",
+            "Hyde Park!",
+            "Hyde Park?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i2"
+        },
+        {
+          "prompt": "Square name:",
+          "options": [
+            "Trafalgar Square",
+            "the Trafalgar Square"
+          ],
+          "canonical": "Trafalgar Square",
+          "accepted_variants": [
+            "Trafalgar Square",
+            "Trafalgar Square.",
+            "trafalgar square",
+            "trafalgar square.",
+            "Trafalgar Square!",
+            "Trafalgar Square?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i3"
+        },
+        {
+          "prompt": "Road name:",
+          "options": [
+            "Oxford Road",
+            "the Oxford Road"
+          ],
+          "canonical": "Oxford Road",
+          "accepted_variants": [
+            "Oxford Road",
+            "Oxford Road.",
+            "oxford road",
+            "oxford road.",
+            "Oxford Road!",
+            "Oxford Road?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i4"
+        },
+        {
+          "prompt": "Avenue name:",
+          "options": [
+            "Fifth Avenue",
+            "the Fifth Avenue"
+          ],
+          "canonical": "Fifth Avenue",
+          "accepted_variants": [
+            "Fifth Avenue",
+            "Fifth Avenue.",
+            "fifth avenue",
+            "fifth avenue.",
+            "Fifth Avenue!",
+            "Fifth Avenue?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i5"
+        },
+        {
+          "prompt": "Street name:",
+          "options": [
+            "King Street",
+            "the King Street"
+          ],
+          "canonical": "King Street",
+          "accepted_variants": [
+            "King Street",
+            "King Street.",
+            "king street",
+            "king street.",
+            "King Street!",
+            "King Street?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i6"
+        },
+        {
+          "prompt": "Park name:",
+          "options": [
+            "Central Park",
+            "the Central Park"
+          ],
+          "canonical": "Central Park",
+          "accepted_variants": [
+            "Central Park",
+            "Central Park.",
+            "central park",
+            "central park.",
+            "Central Park!",
+            "Central Park?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i7"
+        },
+        {
+          "prompt": "Bridge name (treated like building name; no the often):",
+          "options": [
+            "Tower Bridge",
+            "the Tower Bridge"
+          ],
+          "canonical": "Tower Bridge",
+          "accepted_variants": [
+            "Tower Bridge",
+            "Tower Bridge.",
+            "tower bridge",
+            "tower bridge.",
+            "Tower Bridge!",
+            "Tower Bridge?"
+          ],
+          "rule_keys": [
+            "unit_78_A"
+          ],
+          "item_key": "unit_78_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_78",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct form (with or without the).",
+      "items": [
+        {
+          "prompt": "Airport:",
+          "options": [
+            "Manchester Airport",
+            "the Manchester Airport"
+          ],
+          "canonical": "Manchester Airport",
+          "accepted_variants": [
+            "Manchester Airport",
+            "Manchester Airport.",
+            "manchester airport",
+            "manchester airport.",
+            "Manchester Airport!",
+            "Manchester Airport?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i1"
+        },
+        {
+          "prompt": "University:",
+          "options": [
+            "Harvard University",
+            "the Harvard University"
+          ],
+          "canonical": "Harvard University",
+          "accepted_variants": [
+            "Harvard University",
+            "Harvard University.",
+            "harvard university",
+            "harvard university.",
+            "Harvard University!",
+            "Harvard University?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i2"
+        },
+        {
+          "prompt": "Station:",
+          "options": [
+            "Victoria Station",
+            "the Victoria Station"
+          ],
+          "canonical": "Victoria Station",
+          "accepted_variants": [
+            "Victoria Station",
+            "Victoria Station.",
+            "victoria station",
+            "victoria station.",
+            "Victoria Station!",
+            "Victoria Station?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i3"
+        },
+        {
+          "prompt": "Hotel:",
+          "options": [
+            "Hilton Hotel",
+            "the Hilton Hotel"
+          ],
+          "canonical": "Hilton Hotel",
+          "accepted_variants": [
+            "Hilton Hotel",
+            "Hilton Hotel.",
+            "hilton hotel",
+            "hilton hotel.",
+            "Hilton Hotel!",
+            "Hilton Hotel?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i4"
+        },
+        {
+          "prompt": "Museum:",
+          "options": [
+            "Louvre Museum",
+            "the Louvre Museum"
+          ],
+          "canonical": "Louvre Museum",
+          "accepted_variants": [
+            "Louvre Museum",
+            "Louvre Museum.",
+            "louvre museum",
+            "louvre museum.",
+            "Louvre Museum!",
+            "Louvre Museum?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i5"
+        },
+        {
+          "prompt": "Bridge (name + Bridge):",
+          "options": [
+            "Brooklyn Bridge",
+            "the Brooklyn Bridge"
+          ],
+          "canonical": "Brooklyn Bridge",
+          "accepted_variants": [
+            "Brooklyn Bridge",
+            "Brooklyn Bridge.",
+            "brooklyn bridge",
+            "brooklyn bridge.",
+            "Brooklyn Bridge!",
+            "Brooklyn Bridge?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i6"
+        },
+        {
+          "prompt": "The place ‘Buckingham Palace’ normally uses the? actually no the. We'll keep no the.",
+          "options": [
+            "Buckingham Palace",
+            "the Buckingham Palace"
+          ],
+          "canonical": "Buckingham Palace",
+          "accepted_variants": [
+            "Buckingham Palace",
+            "Buckingham Palace.",
+            "buckingham palace",
+            "buckingham palace.",
+            "Buckingham Palace!",
+            "Buckingham Palace?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i7"
+        },
+        {
+          "prompt": "Airport:",
+          "options": [
+            "Heathrow Airport",
+            "the Heathrow Airport"
+          ],
+          "canonical": "Heathrow Airport",
+          "accepted_variants": [
+            "Heathrow Airport",
+            "Heathrow Airport.",
+            "heathrow airport",
+            "heathrow airport.",
+            "Heathrow Airport!",
+            "Heathrow Airport?"
+          ],
+          "rule_keys": [
+            "unit_78_B"
+          ],
+          "item_key": "unit_78_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_78",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "Organisation:",
+          "options": [
+            "BBC",
+            "the BBC"
+          ],
+          "canonical": "the BBC",
+          "accepted_variants": [
+            "the BBC",
+            "the BBC.",
+            "the bbc",
+            "the bbc.",
+            "The BBC",
+            "The BBC.",
+            "the BBC!",
+            "the BBC?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i1"
+        },
+        {
+          "prompt": "Organisation:",
+          "options": [
+            "European Union",
+            "the European Union"
+          ],
+          "canonical": "the European Union",
+          "accepted_variants": [
+            "the European Union",
+            "the European Union.",
+            "the european union",
+            "the european union.",
+            "The European Union",
+            "The European Union.",
+            "the European Union!",
+            "the European Union?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i2"
+        },
+        {
+          "prompt": "Charity:",
+          "options": [
+            "Red Cross",
+            "the Red Cross"
+          ],
+          "canonical": "the Red Cross",
+          "accepted_variants": [
+            "the Red Cross",
+            "the Red Cross.",
+            "the red cross",
+            "the red cross.",
+            "The Red Cross",
+            "The Red Cross.",
+            "the Red Cross!",
+            "the Red Cross?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i3"
+        },
+        {
+          "prompt": "Newspaper:",
+          "options": [
+            "Times",
+            "the Times"
+          ],
+          "canonical": "the Times",
+          "accepted_variants": [
+            "the Times",
+            "the Times.",
+            "the times",
+            "the times.",
+            "The Times",
+            "The Times.",
+            "the Times!",
+            "the Times?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i4"
+        },
+        {
+          "prompt": "Newspaper:",
+          "options": [
+            "Financial Times",
+            "the Financial Times"
+          ],
+          "canonical": "the Financial Times",
+          "accepted_variants": [
+            "the Financial Times",
+            "the Financial Times.",
+            "the financial times",
+            "the financial times.",
+            "The Financial Times",
+            "The Financial Times.",
+            "the Financial Times!",
+            "the Financial Times?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i5"
+        },
+        {
+          "prompt": "Company:",
+          "options": [
+            "Google",
+            "the Google"
+          ],
+          "canonical": "Google",
+          "accepted_variants": [
+            "Google",
+            "Google.",
+            "google",
+            "google.",
+            "Google!",
+            "Google?"
+          ],
+          "rule_keys": [
+            "unit_78_D"
+          ],
+          "item_key": "unit_78_ex3_i6"
+        },
+        {
+          "prompt": "Company:",
+          "options": [
+            "Apple",
+            "the Apple"
+          ],
+          "canonical": "Apple",
+          "accepted_variants": [
+            "Apple",
+            "Apple.",
+            "apple",
+            "apple.",
+            "Apple!",
+            "Apple?"
+          ],
+          "rule_keys": [
+            "unit_78_D"
+          ],
+          "item_key": "unit_78_ex3_i7"
+        },
+        {
+          "prompt": "Airline:",
+          "options": [
+            "Singapore Airlines",
+            "the Singapore Airlines"
+          ],
+          "canonical": "Singapore Airlines",
+          "accepted_variants": [
+            "Singapore Airlines",
+            "Singapore Airlines.",
+            "singapore airlines",
+            "singapore airlines.",
+            "Singapore Airlines!",
+            "Singapore Airlines?"
+          ],
+          "rule_keys": [
+            "unit_78_D"
+          ],
+          "item_key": "unit_78_ex3_i8"
+        },
+        {
+          "prompt": "Organisation:",
+          "options": [
+            "United Nations",
+            "the United Nations"
+          ],
+          "canonical": "the United Nations",
+          "accepted_variants": [
+            "the United Nations",
+            "the United Nations.",
+            "the united nations",
+            "the united nations.",
+            "The United Nations",
+            "The United Nations.",
+            "the United Nations!",
+            "the United Nations?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i9"
+        },
+        {
+          "prompt": "Company:",
+          "options": [
+            "IBM",
+            "the IBM"
+          ],
+          "canonical": "IBM",
+          "accepted_variants": [
+            "IBM",
+            "IBM.",
+            "ibm",
+            "ibm.",
+            "IBM!",
+            "IBM?"
+          ],
+          "rule_keys": [
+            "unit_78_D"
+          ],
+          "item_key": "unit_78_ex3_i10"
+        },
+        {
+          "prompt": "Organisation:",
+          "options": [
+            "World Health Organization",
+            "the World Health Organization"
+          ],
+          "canonical": "the World Health Organization",
+          "accepted_variants": [
+            "the World Health Organization",
+            "the World Health Organization.",
+            "the world health organization",
+            "the world health organization.",
+            "The World Health Organization",
+            "The World Health Organization.",
+            "the World Health Organization!",
+            "the World Health Organization?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i11"
+        },
+        {
+          "prompt": "Newspaper:",
+          "options": [
+            "Guardian",
+            "the Guardian"
+          ],
+          "canonical": "the Guardian",
+          "accepted_variants": [
+            "the Guardian",
+            "the Guardian.",
+            "the guardian",
+            "the guardian.",
+            "The Guardian",
+            "The Guardian.",
+            "the Guardian!",
+            "the Guardian?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i12"
+        },
+        {
+          "prompt": "Company:",
+          "options": [
+            "Sony",
+            "the Sony"
+          ],
+          "canonical": "Sony",
+          "accepted_variants": [
+            "Sony",
+            "Sony.",
+            "sony",
+            "sony.",
+            "Sony!",
+            "Sony?"
+          ],
+          "rule_keys": [
+            "unit_78_D"
+          ],
+          "item_key": "unit_78_ex3_i13"
+        },
+        {
+          "prompt": "Company:",
+          "options": [
+            "Netflix",
+            "the Netflix"
+          ],
+          "canonical": "Netflix",
+          "accepted_variants": [
+            "Netflix",
+            "Netflix.",
+            "netflix",
+            "netflix.",
+            "Netflix!",
+            "Netflix?"
+          ],
+          "rule_keys": [
+            "unit_78_D"
+          ],
+          "item_key": "unit_78_ex3_i14"
+        },
+        {
+          "prompt": "Organisation:",
+          "options": [
+            "International Olympic Committee",
+            "the International Olympic Committee"
+          ],
+          "canonical": "the International Olympic Committee",
+          "accepted_variants": [
+            "the International Olympic Committee",
+            "the International Olympic Committee.",
+            "the international olympic committee",
+            "the international olympic committee.",
+            "The International Olympic Committee",
+            "The International Olympic Committee.",
+            "the International Olympic Committee!",
+            "the International Olympic Committee?"
+          ],
+          "rule_keys": [
+            "unit_78_C"
+          ],
+          "item_key": "unit_78_ex3_i15"
+        },
+        {
+          "prompt": "Airline:",
+          "options": [
+            "Lufthansa",
+            "the Lufthansa"
+          ],
+          "canonical": "Lufthansa",
+          "accepted_variants": [
+            "Lufthansa",
+            "Lufthansa.",
+            "lufthansa",
+            "lufthansa.",
+            "Lufthansa!",
+            "Lufthansa?"
+          ],
+          "rule_keys": [
+            "unit_78_D"
+          ],
+          "item_key": "unit_78_ex3_i16"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_79",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the correct verb form (is/are/was/were).",
+      "items": [
+        {
+          "prompt": "My trousers ___ too long.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i1"
+        },
+        {
+          "prompt": "These scissors ___ very sharp.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i2"
+        },
+        {
+          "prompt": "Your glasses ___ on the table.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i3"
+        },
+        {
+          "prompt": "The jeans I bought ___ expensive.",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were",
+            "were.",
+            "Were",
+            "Were.",
+            "were!",
+            "were?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i4"
+        },
+        {
+          "prompt": "His shorts ___ wet.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i5"
+        },
+        {
+          "prompt": "Those tights ___ new.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i6"
+        },
+        {
+          "prompt": "The pyjamas ___ in the wardrobe.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i7"
+        },
+        {
+          "prompt": "The sunglasses ___ broken.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i8"
+        },
+        {
+          "prompt": "These trousers ___ mine.",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are",
+            "are.",
+            "Are",
+            "Are.",
+            "are!",
+            "are?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex1_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_79",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with pair / a pair / pairs.",
+      "items": [
+        {
+          "prompt": "I bought ____ of trousers.",
+          "options": null,
+          "canonical": "a pair",
+          "accepted_variants": [
+            "a pair",
+            "a pair.",
+            "A pair",
+            "A pair.",
+            "a pair!",
+            "a pair?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i1"
+        },
+        {
+          "prompt": "Can I borrow ____ of scissors?",
+          "options": null,
+          "canonical": "a pair",
+          "accepted_variants": [
+            "a pair",
+            "a pair.",
+            "A pair",
+            "A pair.",
+            "a pair!",
+            "a pair?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i2"
+        },
+        {
+          "prompt": "She needs ____ of glasses.",
+          "options": null,
+          "canonical": "a pair",
+          "accepted_variants": [
+            "a pair",
+            "a pair.",
+            "A pair",
+            "A pair.",
+            "a pair!",
+            "a pair?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i3"
+        },
+        {
+          "prompt": "He has two ____ of jeans.",
+          "options": null,
+          "canonical": "pairs",
+          "accepted_variants": [
+            "pairs",
+            "pairs.",
+            "Pairs",
+            "Pairs.",
+            "pairs!",
+            "pairs?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i4"
+        },
+        {
+          "prompt": "I found a ____ of sunglasses in the car.",
+          "options": null,
+          "canonical": "pair",
+          "accepted_variants": [
+            "pair",
+            "pair.",
+            "Pair",
+            "Pair.",
+            "pair!",
+            "pair?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i5"
+        },
+        {
+          "prompt": "These ____ of trousers are too small.",
+          "options": null,
+          "canonical": "pairs",
+          "accepted_variants": [
+            "pairs",
+            "pairs.",
+            "Pairs",
+            "Pairs.",
+            "pairs!",
+            "pairs?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i6"
+        },
+        {
+          "prompt": "I want to buy a new ____ of pyjamas.",
+          "options": null,
+          "canonical": "pair",
+          "accepted_variants": [
+            "pair",
+            "pair.",
+            "Pair",
+            "Pair.",
+            "pair!",
+            "pair?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i7"
+        },
+        {
+          "prompt": "How many ____ of shoes do you have?",
+          "options": null,
+          "canonical": "pairs",
+          "accepted_variants": [
+            "pairs",
+            "pairs.",
+            "Pairs",
+            "Pairs.",
+            "pairs!",
+            "pairs?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_79",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct sentence.",
+      "items": [
+        {
+          "prompt": "Plural word:",
+          "options": [
+            "The police is here.",
+            "The police are here."
+          ],
+          "canonical": "The police are here.",
+          "accepted_variants": [
+            "The police are here.",
+            "The police are here",
+            "the police are here.",
+            "The police are here!",
+            "The police are here?"
+          ],
+          "rule_keys": [
+            "unit_79_B"
+          ],
+          "item_key": "unit_79_ex3_i1"
+        },
+        {
+          "prompt": "One person:",
+          "options": [
+            "a police",
+            "a police officer"
+          ],
+          "canonical": "a police officer",
+          "accepted_variants": [
+            "a police officer",
+            "a police officer.",
+            "A police officer",
+            "A police officer.",
+            "a police officer!",
+            "a police officer?"
+          ],
+          "rule_keys": [
+            "unit_79_B"
+          ],
+          "item_key": "unit_79_ex3_i2"
+        },
+        {
+          "prompt": "Plural of person:",
+          "options": [
+            "two persons",
+            "two people"
+          ],
+          "canonical": "two people",
+          "accepted_variants": [
+            "two people",
+            "two people.",
+            "Two people",
+            "Two people.",
+            "two people!",
+            "two people?"
+          ],
+          "rule_keys": [
+            "unit_79_C"
+          ],
+          "item_key": "unit_79_ex3_i3"
+        },
+        {
+          "prompt": "General:",
+          "options": [
+            "People are friendly here.",
+            "Persons are friendly here."
+          ],
+          "canonical": "People are friendly here.",
+          "accepted_variants": [
+            "People are friendly here.",
+            "People are friendly here",
+            "people are friendly here.",
+            "People are friendly here!",
+            "People are friendly here?"
+          ],
+          "rule_keys": [
+            "unit_79_C"
+          ],
+          "item_key": "unit_79_ex3_i4"
+        },
+        {
+          "prompt": "Police + verb:",
+          "options": [
+            "The police have arrested him.",
+            "The police has arrested him."
+          ],
+          "canonical": "The police have arrested him.",
+          "accepted_variants": [
+            "The police have arrested him.",
+            "The police have arrested him",
+            "the police have arrested him.",
+            "The police have arrested him!",
+            "The police have arrested him?"
+          ],
+          "rule_keys": [
+            "unit_79_B"
+          ],
+          "item_key": "unit_79_ex3_i5"
+        },
+        {
+          "prompt": "Singular:",
+          "options": [
+            "He’s a nice person.",
+            "He’s a nice people."
+          ],
+          "canonical": "He’s a nice person.",
+          "accepted_variants": [
+            "He’s a nice person.",
+            "He’s a nice person",
+            "he’s a nice person.",
+            "He’s a nice person!",
+            "He’s a nice person?"
+          ],
+          "rule_keys": [
+            "unit_79_C"
+          ],
+          "item_key": "unit_79_ex3_i6"
+        },
+        {
+          "prompt": "Plural:",
+          "options": [
+            "Those people are waiting.",
+            "That people is waiting."
+          ],
+          "canonical": "Those people are waiting.",
+          "accepted_variants": [
+            "Those people are waiting.",
+            "Those people are waiting",
+            "those people are waiting.",
+            "Those people are waiting!",
+            "Those people are waiting?"
+          ],
+          "rule_keys": [
+            "unit_79_C"
+          ],
+          "item_key": "unit_79_ex3_i7"
+        },
+        {
+          "prompt": "One officer:",
+          "options": [
+            "A police officer helped me.",
+            "A police helped me."
+          ],
+          "canonical": "A police officer helped me.",
+          "accepted_variants": [
+            "A police officer helped me.",
+            "A police officer helped me",
+            "a police officer helped me.",
+            "A police officer helped me!",
+            "A police officer helped me?"
+          ],
+          "rule_keys": [
+            "unit_79_B"
+          ],
+          "item_key": "unit_79_ex3_i8"
+        },
+        {
+          "prompt": "Plural of person:",
+          "options": [
+            "many people",
+            "many persons"
+          ],
+          "canonical": "many people",
+          "accepted_variants": [
+            "many people",
+            "many people.",
+            "Many people",
+            "Many people.",
+            "many people!",
+            "many people?"
+          ],
+          "rule_keys": [
+            "unit_79_C"
+          ],
+          "item_key": "unit_79_ex3_i9"
+        },
+        {
+          "prompt": "Police + plural verb:",
+          "options": [
+            "The police are investigating.",
+            "The police is investigating."
+          ],
+          "canonical": "The police are investigating.",
+          "accepted_variants": [
+            "The police are investigating.",
+            "The police are investigating",
+            "the police are investigating.",
+            "The police are investigating!",
+            "The police are investigating?"
+          ],
+          "rule_keys": [
+            "unit_79_B"
+          ],
+          "item_key": "unit_79_ex3_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_79",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with is/are/was/were (treat the amount as one thing).",
+      "items": [
+        {
+          "prompt": "Ten minutes ___ enough for a break.",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is",
+            "is.",
+            "Is",
+            "Is.",
+            "is!",
+            "is?"
+          ],
+          "rule_keys": [
+            "unit_79_D"
+          ],
+          "item_key": "unit_79_ex4_i1"
+        },
+        {
+          "prompt": "Three kilometres ___ not far.",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is",
+            "is.",
+            "Is",
+            "Is.",
+            "is!",
+            "is?"
+          ],
+          "rule_keys": [
+            "unit_79_D"
+          ],
+          "item_key": "unit_79_ex4_i2"
+        },
+        {
+          "prompt": "Two hours ___ too long.",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is",
+            "is.",
+            "Is",
+            "Is.",
+            "is!",
+            "is?"
+          ],
+          "rule_keys": [
+            "unit_79_D"
+          ],
+          "item_key": "unit_79_ex4_i3"
+        },
+        {
+          "prompt": "Fifty dollars ___ missing.",
+          "options": null,
+          "canonical": "was",
+          "accepted_variants": [
+            "was",
+            "was.",
+            "Was",
+            "Was.",
+            "was!",
+            "was?"
+          ],
+          "rule_keys": [
+            "unit_79_D"
+          ],
+          "item_key": "unit_79_ex4_i4"
+        },
+        {
+          "prompt": "Six months ___ a long time.",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is",
+            "is.",
+            "Is",
+            "Is.",
+            "is!",
+            "is?"
+          ],
+          "rule_keys": [
+            "unit_79_D"
+          ],
+          "item_key": "unit_79_ex4_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_79",
+      "exercise_index": 5,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "Two-part noun:",
+          "options": [
+            "My trousers are new.",
+            "My trousers is new."
+          ],
+          "canonical": "My trousers are new.",
+          "accepted_variants": [
+            "My trousers are new.",
+            "My trousers are new",
+            "my trousers are new.",
+            "My trousers are new!",
+            "My trousers are new?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex5_i1"
+        },
+        {
+          "prompt": "Pair of:",
+          "options": [
+            "a pair of scissors",
+            "a scissors"
+          ],
+          "canonical": "a pair of scissors",
+          "accepted_variants": [
+            "a pair of scissors",
+            "a pair of scissors.",
+            "A pair of scissors",
+            "A pair of scissors.",
+            "a pair of scissors!",
+            "a pair of scissors?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex5_i2"
+        },
+        {
+          "prompt": "Police:",
+          "options": [
+            "The police are coming.",
+            "The police is coming."
+          ],
+          "canonical": "The police are coming.",
+          "accepted_variants": [
+            "The police are coming.",
+            "The police are coming",
+            "the police are coming.",
+            "The police are coming!",
+            "The police are coming?"
+          ],
+          "rule_keys": [
+            "unit_79_B"
+          ],
+          "item_key": "unit_79_ex5_i3"
+        },
+        {
+          "prompt": "People:",
+          "options": [
+            "Many people travel.",
+            "Many persons travel."
+          ],
+          "canonical": "Many people travel.",
+          "accepted_variants": [
+            "Many people travel.",
+            "Many people travel",
+            "many people travel.",
+            "Many people travel!",
+            "Many people travel?"
+          ],
+          "rule_keys": [
+            "unit_79_C"
+          ],
+          "item_key": "unit_79_ex5_i4"
+        },
+        {
+          "prompt": "Amount:",
+          "options": [
+            "Twenty minutes is enough.",
+            "Twenty minutes are enough."
+          ],
+          "canonical": "Twenty minutes is enough.",
+          "accepted_variants": [
+            "Twenty minutes is enough.",
+            "Twenty minutes is enough",
+            "twenty minutes is enough.",
+            "Twenty minutes is enough!",
+            "Twenty minutes is enough?"
+          ],
+          "rule_keys": [
+            "unit_79_D"
+          ],
+          "item_key": "unit_79_ex5_i5"
+        },
+        {
+          "prompt": "Two-part noun:",
+          "options": [
+            "These glasses are mine.",
+            "These glasses is mine."
+          ],
+          "canonical": "These glasses are mine.",
+          "accepted_variants": [
+            "These glasses are mine.",
+            "These glasses are mine",
+            "these glasses are mine.",
+            "These glasses are mine!",
+            "These glasses are mine?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex5_i6"
+        },
+        {
+          "prompt": "Police officer:",
+          "options": [
+            "a police officer",
+            "a police"
+          ],
+          "canonical": "a police officer",
+          "accepted_variants": [
+            "a police officer",
+            "a police officer.",
+            "A police officer",
+            "A police officer.",
+            "a police officer!",
+            "a police officer?"
+          ],
+          "rule_keys": [
+            "unit_79_B"
+          ],
+          "item_key": "unit_79_ex5_i7"
+        },
+        {
+          "prompt": "People:",
+          "options": [
+            "a nice person",
+            "a nice people"
+          ],
+          "canonical": "a nice person",
+          "accepted_variants": [
+            "a nice person",
+            "a nice person.",
+            "A nice person",
+            "A nice person.",
+            "a nice person!",
+            "a nice person?"
+          ],
+          "rule_keys": [
+            "unit_79_C"
+          ],
+          "item_key": "unit_79_ex5_i8"
+        },
+        {
+          "prompt": "Amount:",
+          "options": [
+            "Two miles isn’t far.",
+            "Two miles aren’t far."
+          ],
+          "canonical": "Two miles isn’t far.",
+          "accepted_variants": [
+            "Two miles isn’t far.",
+            "Two miles isn’t far",
+            "two miles isn’t far.",
+            "Two miles isn’t far!",
+            "Two miles isn’t far?"
+          ],
+          "rule_keys": [
+            "unit_79_D"
+          ],
+          "item_key": "unit_79_ex5_i9"
+        },
+        {
+          "prompt": "Pair:",
+          "options": [
+            "two pairs of jeans",
+            "two pair of jeans"
+          ],
+          "canonical": "two pairs of jeans",
+          "accepted_variants": [
+            "two pairs of jeans",
+            "two pairs of jeans.",
+            "Two pairs of jeans",
+            "Two pairs of jeans.",
+            "two pairs of jeans!",
+            "two pairs of jeans?"
+          ],
+          "rule_keys": [
+            "unit_79_A"
+          ],
+          "item_key": "unit_79_ex5_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_80",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Make noun+noun phrases (e.g., bus driver).",
+      "items": [
+        {
+          "prompt": "Write the noun+noun phrase: driver of a bus.",
+          "options": null,
+          "canonical": "bus driver",
+          "accepted_variants": [
+            "bus driver",
+            "bus driver.",
+            "Bus driver",
+            "Bus driver.",
+            "bus driver!",
+            "bus driver?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i1"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: ticket for a train.",
+          "options": null,
+          "canonical": "train ticket",
+          "accepted_variants": [
+            "train ticket",
+            "train ticket.",
+            "Train ticket",
+            "Train ticket.",
+            "train ticket!",
+            "train ticket?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i2"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: shop that sells books.",
+          "options": null,
+          "canonical": "book shop",
+          "accepted_variants": [
+            "book shop",
+            "book shop.",
+            "Book shop",
+            "Book shop.",
+            "book shop!",
+            "book shop?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i3"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: door of a car.",
+          "options": null,
+          "canonical": "car door",
+          "accepted_variants": [
+            "car door",
+            "car door.",
+            "Car door",
+            "Car door.",
+            "car door!",
+            "car door?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i4"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: station for buses.",
+          "options": null,
+          "canonical": "bus station",
+          "accepted_variants": [
+            "bus station",
+            "bus station.",
+            "Bus station",
+            "Bus station.",
+            "bus station!",
+            "bus station?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i5"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: centre of a city.",
+          "options": null,
+          "canonical": "city centre",
+          "accepted_variants": [
+            "city centre",
+            "city centre.",
+            "City centre",
+            "City centre.",
+            "city centre!",
+            "city centre?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i6"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: number of a phone.",
+          "options": null,
+          "canonical": "phone number",
+          "accepted_variants": [
+            "phone number",
+            "phone number.",
+            "Phone number",
+            "Phone number.",
+            "phone number!",
+            "phone number?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i7"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: room for meetings.",
+          "options": null,
+          "canonical": "meeting room",
+          "accepted_variants": [
+            "meeting room",
+            "meeting room.",
+            "Meeting room",
+            "Meeting room.",
+            "meeting room!",
+            "meeting room?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i8"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: key for a hotel room.",
+          "options": null,
+          "canonical": "hotel key",
+          "accepted_variants": [
+            "hotel key",
+            "hotel key.",
+            "Hotel key",
+            "Hotel key.",
+            "hotel key!",
+            "hotel key?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i9"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: engine of a car.",
+          "options": null,
+          "canonical": "car engine",
+          "accepted_variants": [
+            "car engine",
+            "car engine.",
+            "Car engine",
+            "Car engine.",
+            "car engine!",
+            "car engine?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i10"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: schedule for flights.",
+          "options": null,
+          "canonical": "flight schedule",
+          "accepted_variants": [
+            "flight schedule",
+            "flight schedule.",
+            "Flight schedule",
+            "Flight schedule.",
+            "flight schedule!",
+            "flight schedule?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i11"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: stop for a bus.",
+          "options": null,
+          "canonical": "bus stop",
+          "accepted_variants": [
+            "bus stop",
+            "bus stop.",
+            "Bus stop",
+            "Bus stop.",
+            "bus stop!",
+            "bus stop?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i12"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: card for a credit account.",
+          "options": null,
+          "canonical": "credit card",
+          "accepted_variants": [
+            "credit card",
+            "credit card.",
+            "Credit card",
+            "Credit card.",
+            "credit card!",
+            "credit card?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i13"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: seat in a plane.",
+          "options": null,
+          "canonical": "plane seat",
+          "accepted_variants": [
+            "plane seat",
+            "plane seat.",
+            "Plane seat",
+            "Plane seat.",
+            "plane seat!",
+            "plane seat?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i14"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: company that makes software.",
+          "options": null,
+          "canonical": "software company",
+          "accepted_variants": [
+            "software company",
+            "software company.",
+            "Software company",
+            "Software company.",
+            "software company!",
+            "software company?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i15"
+        },
+        {
+          "prompt": "Write the noun+noun phrase: map of a city.",
+          "options": null,
+          "canonical": "city map",
+          "accepted_variants": [
+            "city map",
+            "city map.",
+            "City map",
+            "City map.",
+            "city map!",
+            "city map?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex1_i16"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_80",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a measurement adjective (use singular + hyphen).",
+      "items": [
+        {
+          "prompt": "It was a ___ walk. (10 miles)",
+          "options": null,
+          "canonical": "ten-mile",
+          "accepted_variants": [
+            "ten-mile",
+            "ten-mile.",
+            "Ten-mile",
+            "Ten-mile.",
+            "ten-mile!",
+            "ten-mile?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i1"
+        },
+        {
+          "prompt": "We took a ___ break. (15 minutes)",
+          "options": null,
+          "canonical": "fifteen-minute",
+          "accepted_variants": [
+            "fifteen-minute",
+            "fifteen-minute.",
+            "Fifteen-minute",
+            "Fifteen-minute.",
+            "fifteen-minute!",
+            "fifteen-minute?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i2"
+        },
+        {
+          "prompt": "She has a ___ course. (4 weeks)",
+          "options": null,
+          "canonical": "four-week",
+          "accepted_variants": [
+            "four-week",
+            "four-week.",
+            "Four-week",
+            "Four-week.",
+            "four-week!",
+            "four-week?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i3"
+        },
+        {
+          "prompt": "They live in a ___ apartment. (2 rooms)",
+          "options": null,
+          "canonical": "two-room",
+          "accepted_variants": [
+            "two-room",
+            "two-room.",
+            "Two-room",
+            "Two-room.",
+            "two-room!",
+            "two-room?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i4"
+        },
+        {
+          "prompt": "It’s a ___ journey. (3 hours)",
+          "options": null,
+          "canonical": "three-hour",
+          "accepted_variants": [
+            "three-hour",
+            "three-hour.",
+            "Three-hour",
+            "Three-hour.",
+            "three-hour!",
+            "three-hour?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i5"
+        },
+        {
+          "prompt": "He bought a ___ ticket. (50 pounds)",
+          "options": null,
+          "canonical": "fifty-pound",
+          "accepted_variants": [
+            "fifty-pound",
+            "fifty-pound.",
+            "Fifty-pound",
+            "Fifty-pound.",
+            "fifty-pound!",
+            "fifty-pound?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i6"
+        },
+        {
+          "prompt": "We had a ___ meeting. (1 hour)",
+          "options": null,
+          "canonical": "one-hour",
+          "accepted_variants": [
+            "one-hour",
+            "one-hour.",
+            "One-hour",
+            "One-hour.",
+            "one-hour!",
+            "one-hour?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i7"
+        },
+        {
+          "prompt": "It’s a ___ drive. (20 minutes)",
+          "options": null,
+          "canonical": "twenty-minute",
+          "accepted_variants": [
+            "twenty-minute",
+            "twenty-minute.",
+            "Twenty-minute",
+            "Twenty-minute.",
+            "twenty-minute!",
+            "twenty-minute?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i8"
+        },
+        {
+          "prompt": "She wrote a ___ report. (5 pages)",
+          "options": null,
+          "canonical": "five-page",
+          "accepted_variants": [
+            "five-page",
+            "five-page.",
+            "Five-page",
+            "Five-page.",
+            "five-page!",
+            "five-page?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex2_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_80",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Write the correct age expression.",
+      "items": [
+        {
+          "prompt": "He’s a ___ boy. (14 years old)",
+          "options": null,
+          "canonical": "14-year-old",
+          "accepted_variants": [
+            "14-year-old",
+            "14-year-old.",
+            "14-year-old!",
+            "14-year-old?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex3_i1"
+        },
+        {
+          "prompt": "We met two ___. (12 years old girls)",
+          "options": null,
+          "canonical": "12-year-old girls",
+          "accepted_variants": [
+            "12-year-old girls",
+            "12-year-old girls.",
+            "12-year-old girls!",
+            "12-year-old girls?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex3_i2"
+        },
+        {
+          "prompt": "She has a ___. (3-year-old son)",
+          "options": null,
+          "canonical": "3-year-old son",
+          "accepted_variants": [
+            "3-year-old son",
+            "3-year-old son.",
+            "3-year-old son!",
+            "3-year-old son?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex3_i3"
+        },
+        {
+          "prompt": "They adopted a ___. (6-year-old dog)",
+          "options": null,
+          "canonical": "6-year-old dog",
+          "accepted_variants": [
+            "6-year-old dog",
+            "6-year-old dog.",
+            "6-year-old dog!",
+            "6-year-old dog?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex3_i4"
+        },
+        {
+          "prompt": "I teach a class of ___. (16-year-old students)",
+          "options": null,
+          "canonical": "16-year-old students",
+          "accepted_variants": [
+            "16-year-old students",
+            "16-year-old students.",
+            "16-year-old students!",
+            "16-year-old students?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex3_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_80",
+      "exercise_index": 4,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct phrase.",
+      "items": [
+        {
+          "prompt": "Place name as adjective:",
+          "options": [
+            "a Paris hotel",
+            "a Paris’s hotel"
+          ],
+          "canonical": "a Paris hotel",
+          "accepted_variants": [
+            "a Paris hotel",
+            "a Paris hotel.",
+            "a paris hotel",
+            "a paris hotel.",
+            "A Paris hotel",
+            "A Paris hotel.",
+            "a Paris hotel!",
+            "a Paris hotel?"
+          ],
+          "rule_keys": [
+            "unit_80_B"
+          ],
+          "item_key": "unit_80_ex4_i1"
+        },
+        {
+          "prompt": "Person name as adjective:",
+          "options": [
+            "a Shakespeare play",
+            "a Shakespeare’s play"
+          ],
+          "canonical": "a Shakespeare play",
+          "accepted_variants": [
+            "a Shakespeare play",
+            "a Shakespeare play.",
+            "a shakespeare play",
+            "a shakespeare play.",
+            "A Shakespeare play",
+            "A Shakespeare play.",
+            "a Shakespeare play!",
+            "a Shakespeare play?"
+          ],
+          "rule_keys": [
+            "unit_80_B"
+          ],
+          "item_key": "unit_80_ex4_i2"
+        },
+        {
+          "prompt": "Compound:",
+          "options": [
+            "bus driver",
+            "driver bus"
+          ],
+          "canonical": "bus driver",
+          "accepted_variants": [
+            "bus driver",
+            "bus driver.",
+            "Bus driver",
+            "Bus driver.",
+            "bus driver!",
+            "bus driver?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex4_i3"
+        },
+        {
+          "prompt": "Compound:",
+          "options": [
+            "city centre",
+            "centre city"
+          ],
+          "canonical": "city centre",
+          "accepted_variants": [
+            "city centre",
+            "city centre.",
+            "City centre",
+            "City centre.",
+            "city centre!",
+            "city centre?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex4_i4"
+        },
+        {
+          "prompt": "Measurement adjective:",
+          "options": [
+            "a three-hour flight",
+            "a three-hours flight"
+          ],
+          "canonical": "a three-hour flight",
+          "accepted_variants": [
+            "a three-hour flight",
+            "a three-hour flight.",
+            "A three-hour flight",
+            "A three-hour flight.",
+            "a three-hour flight!",
+            "a three-hour flight?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex4_i5"
+        },
+        {
+          "prompt": "Measurement adjective:",
+          "options": [
+            "a four-week course",
+            "a four-weeks course"
+          ],
+          "canonical": "a four-week course",
+          "accepted_variants": [
+            "a four-week course",
+            "a four-week course.",
+            "A four-week course",
+            "A four-week course.",
+            "a four-week course!",
+            "a four-week course?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex4_i6"
+        },
+        {
+          "prompt": "Compound:",
+          "options": [
+            "computer game",
+            "game computer"
+          ],
+          "canonical": "computer game",
+          "accepted_variants": [
+            "computer game",
+            "computer game.",
+            "Computer game",
+            "Computer game.",
+            "computer game!",
+            "computer game?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex4_i7"
+        },
+        {
+          "prompt": "Place adjective:",
+          "options": [
+            "a London restaurant",
+            "a London’s restaurant"
+          ],
+          "canonical": "a London restaurant",
+          "accepted_variants": [
+            "a London restaurant",
+            "a London restaurant.",
+            "a london restaurant",
+            "a london restaurant.",
+            "A London restaurant",
+            "A London restaurant.",
+            "a London restaurant!",
+            "a London restaurant?"
+          ],
+          "rule_keys": [
+            "unit_80_B"
+          ],
+          "item_key": "unit_80_ex4_i8"
+        },
+        {
+          "prompt": "Measurement adjective:",
+          "options": [
+            "a ten-minute wait",
+            "a ten-minutes wait"
+          ],
+          "canonical": "a ten-minute wait",
+          "accepted_variants": [
+            "a ten-minute wait",
+            "a ten-minute wait.",
+            "A ten-minute wait",
+            "A ten-minute wait.",
+            "a ten-minute wait!",
+            "a ten-minute wait?"
+          ],
+          "rule_keys": [
+            "unit_80_C"
+          ],
+          "item_key": "unit_80_ex4_i9"
+        },
+        {
+          "prompt": "Compound:",
+          "options": [
+            "taxi driver",
+            "driver taxi"
+          ],
+          "canonical": "taxi driver",
+          "accepted_variants": [
+            "taxi driver",
+            "taxi driver.",
+            "Taxi driver",
+            "Taxi driver.",
+            "taxi driver!",
+            "taxi driver?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex4_i10"
+        },
+        {
+          "prompt": "Person adjective:",
+          "options": [
+            "a Mozart concert",
+            "a Mozart’s concert"
+          ],
+          "canonical": "a Mozart concert",
+          "accepted_variants": [
+            "a Mozart concert",
+            "a Mozart concert.",
+            "a mozart concert",
+            "a mozart concert.",
+            "A Mozart concert",
+            "A Mozart concert.",
+            "a Mozart concert!",
+            "a Mozart concert?"
+          ],
+          "rule_keys": [
+            "unit_80_B"
+          ],
+          "item_key": "unit_80_ex4_i11"
+        },
+        {
+          "prompt": "Compound:",
+          "options": [
+            "coffee cup",
+            "cup coffee"
+          ],
+          "canonical": "coffee cup",
+          "accepted_variants": [
+            "coffee cup",
+            "coffee cup.",
+            "Coffee cup",
+            "Coffee cup.",
+            "coffee cup!",
+            "coffee cup?"
+          ],
+          "rule_keys": [
+            "unit_80_A"
+          ],
+          "item_key": "unit_80_ex4_i12"
+        }
+      ]
+    }
+  ]
+}

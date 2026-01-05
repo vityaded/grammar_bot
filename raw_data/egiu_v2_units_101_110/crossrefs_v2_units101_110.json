@@ -1,0 +1,5574 @@
+{
+  "version": "v2",
+  "units": "101-110",
+  "crossrefs": [
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_101_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_101_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_101_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_101_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_101_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_101_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_101_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "item_index": 8,
+      "item_key": "unit_101_ex1_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_101_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_101_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_101_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_101_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_101_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_101_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_101_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_101_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_101_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_D",
+          "example_refs": [
+            "unit_101_D#ex1",
+            "unit_101_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_101_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_101_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_101_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_101_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 8,
+      "item_key": "unit_101_ex3_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_D",
+          "example_refs": [
+            "unit_101_D#ex1",
+            "unit_101_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "item_index": 9,
+      "item_key": "unit_101_ex3_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "item_index": 1,
+      "item_key": "unit_101_ex4_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_C",
+          "example_refs": [
+            "unit_101_C#ex1",
+            "unit_101_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "item_index": 2,
+      "item_key": "unit_101_ex4_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "item_index": 3,
+      "item_key": "unit_101_ex4_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "item_index": 4,
+      "item_key": "unit_101_ex4_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_C",
+          "example_refs": [
+            "unit_101_C#ex1",
+            "unit_101_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "item_index": 5,
+      "item_key": "unit_101_ex4_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_C",
+          "example_refs": [
+            "unit_101_C#ex1",
+            "unit_101_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "item_index": 6,
+      "item_key": "unit_101_ex4_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "item_index": 7,
+      "item_key": "unit_101_ex4_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_C",
+          "example_refs": [
+            "unit_101_C#ex1",
+            "unit_101_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 1,
+      "item_key": "unit_101_ex5_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 2,
+      "item_key": "unit_101_ex5_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 3,
+      "item_key": "unit_101_ex5_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_D",
+          "example_refs": [
+            "unit_101_D#ex1",
+            "unit_101_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 4,
+      "item_key": "unit_101_ex5_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_D",
+          "example_refs": [
+            "unit_101_D#ex1",
+            "unit_101_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 5,
+      "item_key": "unit_101_ex5_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 6,
+      "item_key": "unit_101_ex5_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 7,
+      "item_key": "unit_101_ex5_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_C",
+          "example_refs": [
+            "unit_101_C#ex1",
+            "unit_101_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 8,
+      "item_key": "unit_101_ex5_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 9,
+      "item_key": "unit_101_ex5_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_B",
+          "example_refs": [
+            "unit_101_B#ex1",
+            "unit_101_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 10,
+      "item_key": "unit_101_ex5_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "item_index": 11,
+      "item_key": "unit_101_ex5_i11",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_101_A",
+          "example_refs": [
+            "unit_101_A#ex1",
+            "unit_101_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_102_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_A",
+          "example_refs": [
+            "unit_102_A#ex1",
+            "unit_102_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_102_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_B",
+          "example_refs": [
+            "unit_102_B#ex1",
+            "unit_102_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_102_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_A",
+          "example_refs": [
+            "unit_102_A#ex1",
+            "unit_102_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_102_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_B",
+          "example_refs": [
+            "unit_102_B#ex1",
+            "unit_102_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_102_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_A",
+          "example_refs": [
+            "unit_102_A#ex1",
+            "unit_102_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_102_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_B",
+          "example_refs": [
+            "unit_102_B#ex1",
+            "unit_102_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_102_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_A",
+          "example_refs": [
+            "unit_102_A#ex1",
+            "unit_102_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 8,
+      "item_key": "unit_102_ex1_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_B",
+          "example_refs": [
+            "unit_102_B#ex1",
+            "unit_102_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 9,
+      "item_key": "unit_102_ex1_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_A",
+          "example_refs": [
+            "unit_102_A#ex1",
+            "unit_102_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "item_index": 10,
+      "item_key": "unit_102_ex1_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_B",
+          "example_refs": [
+            "unit_102_B#ex1",
+            "unit_102_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_102_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_102_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_102_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_102_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_102_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_102_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_102_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 8,
+      "item_key": "unit_102_ex2_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "item_index": 9,
+      "item_key": "unit_102_ex2_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_C",
+          "example_refs": [
+            "unit_102_C#ex1",
+            "unit_102_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_102_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_102_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_102_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_102_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_102_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_102_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_102_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "item_index": 8,
+      "item_key": "unit_102_ex3_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "item_index": 1,
+      "item_key": "unit_102_ex4_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "item_index": 2,
+      "item_key": "unit_102_ex4_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "item_index": 3,
+      "item_key": "unit_102_ex4_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "item_index": 4,
+      "item_key": "unit_102_ex4_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "item_index": 5,
+      "item_key": "unit_102_ex4_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "item_index": 6,
+      "item_key": "unit_102_ex4_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "item_index": 7,
+      "item_key": "unit_102_ex4_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_102_D",
+          "example_refs": [
+            "unit_102_D#ex1",
+            "unit_102_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_103_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_103_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_103_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_103_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_103_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_103_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_103_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 8,
+      "item_key": "unit_103_ex1_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 9,
+      "item_key": "unit_103_ex1_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "item_index": 10,
+      "item_key": "unit_103_ex1_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_A",
+          "example_refs": [
+            "unit_103_A#ex1",
+            "unit_103_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_103_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_103_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_103_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_103_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_103_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_103_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_103_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "item_index": 8,
+      "item_key": "unit_103_ex2_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_C",
+          "example_refs": [
+            "unit_103_C#ex1",
+            "unit_103_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_103_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_103_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_103_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_103_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_103_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_103_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_103_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 8,
+      "item_key": "unit_103_ex3_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_B",
+          "example_refs": [
+            "unit_103_B#ex1",
+            "unit_103_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "item_index": 9,
+      "item_key": "unit_103_ex3_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_103_D",
+          "example_refs": [
+            "unit_103_D#ex1",
+            "unit_103_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_104_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_104_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_104_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_104_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_104_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_104_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_104_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_104_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_104_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_104_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_104_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_D",
+          "example_refs": [
+            "unit_104_D#ex1",
+            "unit_104_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_104_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_104_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_D",
+          "example_refs": [
+            "unit_104_D#ex1",
+            "unit_104_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_104_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_104_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_104_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_104_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_104_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_104_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_B",
+          "example_refs": [
+            "unit_104_B#ex1",
+            "unit_104_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "item_index": 1,
+      "item_key": "unit_104_ex4_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "item_index": 2,
+      "item_key": "unit_104_ex4_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "item_index": 3,
+      "item_key": "unit_104_ex4_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "item_index": 4,
+      "item_key": "unit_104_ex4_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "item_index": 5,
+      "item_key": "unit_104_ex4_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "item_index": 6,
+      "item_key": "unit_104_ex4_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "item_index": 7,
+      "item_key": "unit_104_ex4_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "item_index": 1,
+      "item_key": "unit_104_ex5_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_D",
+          "example_refs": [
+            "unit_104_D#ex1",
+            "unit_104_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "item_index": 2,
+      "item_key": "unit_104_ex5_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_D",
+          "example_refs": [
+            "unit_104_D#ex1",
+            "unit_104_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "item_index": 3,
+      "item_key": "unit_104_ex5_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_D",
+          "example_refs": [
+            "unit_104_D#ex1",
+            "unit_104_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "item_index": 4,
+      "item_key": "unit_104_ex5_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_D",
+          "example_refs": [
+            "unit_104_D#ex1",
+            "unit_104_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "item_index": 5,
+      "item_key": "unit_104_ex5_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "item_index": 6,
+      "item_key": "unit_104_ex5_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_A",
+          "example_refs": [
+            "unit_104_A#ex1",
+            "unit_104_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "item_index": 7,
+      "item_key": "unit_104_ex5_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_104_C",
+          "example_refs": [
+            "unit_104_C#ex1",
+            "unit_104_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_105_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_105_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_105_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_105_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_105_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_105_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_105_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 8,
+      "item_key": "unit_105_ex1_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 9,
+      "item_key": "unit_105_ex1_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 10,
+      "item_key": "unit_105_ex1_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 11,
+      "item_key": "unit_105_ex1_i11",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "item_index": 12,
+      "item_key": "unit_105_ex1_i12",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_105_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_C",
+          "example_refs": [
+            "unit_105_C#ex1",
+            "unit_105_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_105_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_105_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_105_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_105_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_105_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_105_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 8,
+      "item_key": "unit_105_ex2_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 9,
+      "item_key": "unit_105_ex2_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "item_index": 10,
+      "item_key": "unit_105_ex2_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_105_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_105_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_105_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_105_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_105_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_105_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_B",
+          "example_refs": [
+            "unit_105_B#ex1",
+            "unit_105_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_105_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "item_index": 8,
+      "item_key": "unit_105_ex3_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_A",
+          "example_refs": [
+            "unit_105_A#ex1",
+            "unit_105_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 4,
+      "item_index": 1,
+      "item_key": "unit_105_ex4_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_C",
+          "example_refs": [
+            "unit_105_C#ex1",
+            "unit_105_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 4,
+      "item_index": 2,
+      "item_key": "unit_105_ex4_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_C",
+          "example_refs": [
+            "unit_105_C#ex1",
+            "unit_105_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 4,
+      "item_index": 3,
+      "item_key": "unit_105_ex4_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_C",
+          "example_refs": [
+            "unit_105_C#ex1",
+            "unit_105_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 4,
+      "item_index": 4,
+      "item_key": "unit_105_ex4_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_C",
+          "example_refs": [
+            "unit_105_C#ex1",
+            "unit_105_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 4,
+      "item_index": 5,
+      "item_key": "unit_105_ex4_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_C",
+          "example_refs": [
+            "unit_105_C#ex1",
+            "unit_105_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 4,
+      "item_index": 6,
+      "item_key": "unit_105_ex4_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_105_C",
+          "example_refs": [
+            "unit_105_C#ex1",
+            "unit_105_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_106_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_A",
+          "example_refs": [
+            "unit_106_A#ex1",
+            "unit_106_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_106_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_A",
+          "example_refs": [
+            "unit_106_A#ex1",
+            "unit_106_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_106_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_A",
+          "example_refs": [
+            "unit_106_A#ex1",
+            "unit_106_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_106_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_A",
+          "example_refs": [
+            "unit_106_A#ex1",
+            "unit_106_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_106_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_A",
+          "example_refs": [
+            "unit_106_A#ex1",
+            "unit_106_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_106_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_A",
+          "example_refs": [
+            "unit_106_A#ex1",
+            "unit_106_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_106_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_A",
+          "example_refs": [
+            "unit_106_A#ex1",
+            "unit_106_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_106_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_B",
+          "example_refs": [
+            "unit_106_B#ex1",
+            "unit_106_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_106_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_B",
+          "example_refs": [
+            "unit_106_B#ex1",
+            "unit_106_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_106_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_B",
+          "example_refs": [
+            "unit_106_B#ex1",
+            "unit_106_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_106_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_B",
+          "example_refs": [
+            "unit_106_B#ex1",
+            "unit_106_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_106_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_B",
+          "example_refs": [
+            "unit_106_B#ex1",
+            "unit_106_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_106_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_C",
+          "example_refs": [
+            "unit_106_C#ex1",
+            "unit_106_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_106_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_C",
+          "example_refs": [
+            "unit_106_C#ex1",
+            "unit_106_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_106_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_C",
+          "example_refs": [
+            "unit_106_C#ex1",
+            "unit_106_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_106_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_C",
+          "example_refs": [
+            "unit_106_C#ex1",
+            "unit_106_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_106_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_C",
+          "example_refs": [
+            "unit_106_C#ex1",
+            "unit_106_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_106_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_C",
+          "example_refs": [
+            "unit_106_C#ex1",
+            "unit_106_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_106_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_C",
+          "example_refs": [
+            "unit_106_C#ex1",
+            "unit_106_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 4,
+      "item_index": 1,
+      "item_key": "unit_106_ex4_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_D",
+          "example_refs": [
+            "unit_106_D#ex1",
+            "unit_106_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 4,
+      "item_index": 2,
+      "item_key": "unit_106_ex4_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_D",
+          "example_refs": [
+            "unit_106_D#ex1",
+            "unit_106_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 4,
+      "item_index": 3,
+      "item_key": "unit_106_ex4_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_D",
+          "example_refs": [
+            "unit_106_D#ex1",
+            "unit_106_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 4,
+      "item_index": 4,
+      "item_key": "unit_106_ex4_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_D",
+          "example_refs": [
+            "unit_106_D#ex1",
+            "unit_106_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 4,
+      "item_index": 5,
+      "item_key": "unit_106_ex4_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_D",
+          "example_refs": [
+            "unit_106_D#ex1",
+            "unit_106_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 4,
+      "item_index": 6,
+      "item_key": "unit_106_ex4_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_D",
+          "example_refs": [
+            "unit_106_D#ex1",
+            "unit_106_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 1,
+      "item_key": "unit_106_ex5_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 2,
+      "item_key": "unit_106_ex5_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 3,
+      "item_key": "unit_106_ex5_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 4,
+      "item_key": "unit_106_ex5_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 5,
+      "item_key": "unit_106_ex5_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 6,
+      "item_key": "unit_106_ex5_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 7,
+      "item_key": "unit_106_ex5_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 8,
+      "item_key": "unit_106_ex5_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 9,
+      "item_key": "unit_106_ex5_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 10,
+      "item_key": "unit_106_ex5_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "item_index": 11,
+      "item_key": "unit_106_ex5_i11",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_106_E",
+          "example_refs": [
+            "unit_106_E#ex1",
+            "unit_106_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_107_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_107_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_107_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_107_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_107_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_107_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_107_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_107_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_107_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_107_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_107_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_107_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_107_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_107_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "item_index": 8,
+      "item_key": "unit_107_ex2_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_107_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_107_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_107_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_107_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_107_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_107_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_107_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 4,
+      "item_index": 1,
+      "item_key": "unit_107_ex4_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_D",
+          "example_refs": [
+            "unit_107_D#ex1",
+            "unit_107_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 4,
+      "item_index": 2,
+      "item_key": "unit_107_ex4_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_D",
+          "example_refs": [
+            "unit_107_D#ex1",
+            "unit_107_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 4,
+      "item_index": 3,
+      "item_key": "unit_107_ex4_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_D",
+          "example_refs": [
+            "unit_107_D#ex1",
+            "unit_107_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 4,
+      "item_index": 4,
+      "item_key": "unit_107_ex4_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_D",
+          "example_refs": [
+            "unit_107_D#ex1",
+            "unit_107_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 1,
+      "item_key": "unit_107_ex5_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 2,
+      "item_key": "unit_107_ex5_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 3,
+      "item_key": "unit_107_ex5_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 4,
+      "item_key": "unit_107_ex5_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_D",
+          "example_refs": [
+            "unit_107_D#ex1",
+            "unit_107_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 5,
+      "item_key": "unit_107_ex5_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 6,
+      "item_key": "unit_107_ex5_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_A",
+          "example_refs": [
+            "unit_107_A#ex1",
+            "unit_107_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 7,
+      "item_key": "unit_107_ex5_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_D",
+          "example_refs": [
+            "unit_107_D#ex1",
+            "unit_107_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 8,
+      "item_key": "unit_107_ex5_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_C",
+          "example_refs": [
+            "unit_107_C#ex1",
+            "unit_107_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 9,
+      "item_key": "unit_107_ex5_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_B",
+          "example_refs": [
+            "unit_107_B#ex1",
+            "unit_107_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "item_index": 10,
+      "item_key": "unit_107_ex5_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_107_D",
+          "example_refs": [
+            "unit_107_D#ex1",
+            "unit_107_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_108_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_108_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_B",
+          "example_refs": [
+            "unit_108_B#ex1",
+            "unit_108_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_108_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_B",
+          "example_refs": [
+            "unit_108_B#ex1",
+            "unit_108_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_108_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_108_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_B",
+          "example_refs": [
+            "unit_108_B#ex1",
+            "unit_108_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_108_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_B",
+          "example_refs": [
+            "unit_108_B#ex1",
+            "unit_108_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_108_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_108_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_108_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_108_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_B",
+          "example_refs": [
+            "unit_108_B#ex1",
+            "unit_108_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_108_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_108_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_B",
+          "example_refs": [
+            "unit_108_B#ex1",
+            "unit_108_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_108_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_108_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 8,
+      "item_key": "unit_108_ex2_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 9,
+      "item_key": "unit_108_ex2_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 10,
+      "item_key": "unit_108_ex2_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 11,
+      "item_key": "unit_108_ex2_i11",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "item_index": 12,
+      "item_key": "unit_108_ex2_i12",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_A",
+          "example_refs": [
+            "unit_108_A#ex1",
+            "unit_108_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_108_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_C",
+          "example_refs": [
+            "unit_108_C#ex1",
+            "unit_108_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_108_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_C",
+          "example_refs": [
+            "unit_108_C#ex1",
+            "unit_108_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_108_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_D",
+          "example_refs": [
+            "unit_108_D#ex1",
+            "unit_108_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_108_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_D",
+          "example_refs": [
+            "unit_108_D#ex1",
+            "unit_108_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_108_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_C",
+          "example_refs": [
+            "unit_108_C#ex1",
+            "unit_108_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_108_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_C",
+          "example_refs": [
+            "unit_108_C#ex1",
+            "unit_108_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_108_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_D",
+          "example_refs": [
+            "unit_108_D#ex1",
+            "unit_108_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 8,
+      "item_key": "unit_108_ex3_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_C",
+          "example_refs": [
+            "unit_108_C#ex1",
+            "unit_108_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 9,
+      "item_key": "unit_108_ex3_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_C",
+          "example_refs": [
+            "unit_108_C#ex1",
+            "unit_108_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "item_index": 10,
+      "item_key": "unit_108_ex3_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_D",
+          "example_refs": [
+            "unit_108_D#ex1",
+            "unit_108_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "item_index": 1,
+      "item_key": "unit_108_ex4_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_E",
+          "example_refs": [
+            "unit_108_E#ex1",
+            "unit_108_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "item_index": 2,
+      "item_key": "unit_108_ex4_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_E",
+          "example_refs": [
+            "unit_108_E#ex1",
+            "unit_108_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "item_index": 3,
+      "item_key": "unit_108_ex4_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_E",
+          "example_refs": [
+            "unit_108_E#ex1",
+            "unit_108_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "item_index": 4,
+      "item_key": "unit_108_ex4_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_E",
+          "example_refs": [
+            "unit_108_E#ex1",
+            "unit_108_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "item_index": 5,
+      "item_key": "unit_108_ex4_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_E",
+          "example_refs": [
+            "unit_108_E#ex1",
+            "unit_108_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "item_index": 6,
+      "item_key": "unit_108_ex4_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_E",
+          "example_refs": [
+            "unit_108_E#ex1",
+            "unit_108_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "item_index": 7,
+      "item_key": "unit_108_ex4_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_108_E",
+          "example_refs": [
+            "unit_108_E#ex1",
+            "unit_108_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_109_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_109_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_109_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_109_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_109_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_109_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_109_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 8,
+      "item_key": "unit_109_ex1_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 9,
+      "item_key": "unit_109_ex1_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 10,
+      "item_key": "unit_109_ex1_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 11,
+      "item_key": "unit_109_ex1_i11",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "item_index": 12,
+      "item_key": "unit_109_ex1_i12",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_109_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_109_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_109_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_109_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_109_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_109_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_109_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "item_index": 8,
+      "item_key": "unit_109_ex2_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_109_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_109_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_109_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_109_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_C",
+          "example_refs": [
+            "unit_109_C#ex1",
+            "unit_109_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_109_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_109_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_109_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 8,
+      "item_key": "unit_109_ex3_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_C",
+          "example_refs": [
+            "unit_109_C#ex1",
+            "unit_109_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 9,
+      "item_key": "unit_109_ex3_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 10,
+      "item_key": "unit_109_ex3_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_C",
+          "example_refs": [
+            "unit_109_C#ex1",
+            "unit_109_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 11,
+      "item_key": "unit_109_ex3_i11",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_B",
+          "example_refs": [
+            "unit_109_B#ex1",
+            "unit_109_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 12,
+      "item_key": "unit_109_ex3_i12",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_A",
+          "example_refs": [
+            "unit_109_A#ex1",
+            "unit_109_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "item_index": 13,
+      "item_key": "unit_109_ex3_i13",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_109_C",
+          "example_refs": [
+            "unit_109_C#ex1",
+            "unit_109_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 1,
+      "item_key": "unit_110_ex1_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 2,
+      "item_key": "unit_110_ex1_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 3,
+      "item_key": "unit_110_ex1_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 4,
+      "item_key": "unit_110_ex1_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 5,
+      "item_key": "unit_110_ex1_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 6,
+      "item_key": "unit_110_ex1_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 7,
+      "item_key": "unit_110_ex1_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 8,
+      "item_key": "unit_110_ex1_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 9,
+      "item_key": "unit_110_ex1_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "item_index": 10,
+      "item_key": "unit_110_ex1_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 1,
+      "item_key": "unit_110_ex2_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_B",
+          "example_refs": [
+            "unit_110_B#ex1",
+            "unit_110_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 2,
+      "item_key": "unit_110_ex2_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_B",
+          "example_refs": [
+            "unit_110_B#ex1",
+            "unit_110_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 3,
+      "item_key": "unit_110_ex2_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_B",
+          "example_refs": [
+            "unit_110_B#ex1",
+            "unit_110_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 4,
+      "item_key": "unit_110_ex2_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_C",
+          "example_refs": [
+            "unit_110_C#ex1",
+            "unit_110_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 5,
+      "item_key": "unit_110_ex2_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_C",
+          "example_refs": [
+            "unit_110_C#ex1",
+            "unit_110_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 6,
+      "item_key": "unit_110_ex2_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_B",
+          "example_refs": [
+            "unit_110_B#ex1",
+            "unit_110_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 7,
+      "item_key": "unit_110_ex2_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_E",
+          "example_refs": [
+            "unit_110_E#ex1",
+            "unit_110_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "item_index": 8,
+      "item_key": "unit_110_ex2_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_C",
+          "example_refs": [
+            "unit_110_C#ex1",
+            "unit_110_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 1,
+      "item_key": "unit_110_ex3_i1",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 2,
+      "item_key": "unit_110_ex3_i2",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_B",
+          "example_refs": [
+            "unit_110_B#ex1",
+            "unit_110_B#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 3,
+      "item_key": "unit_110_ex3_i3",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_C",
+          "example_refs": [
+            "unit_110_C#ex1",
+            "unit_110_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 4,
+      "item_key": "unit_110_ex3_i4",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 5,
+      "item_key": "unit_110_ex3_i5",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_E",
+          "example_refs": [
+            "unit_110_E#ex1",
+            "unit_110_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 6,
+      "item_key": "unit_110_ex3_i6",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_C",
+          "example_refs": [
+            "unit_110_C#ex1",
+            "unit_110_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 7,
+      "item_key": "unit_110_ex3_i7",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_D",
+          "example_refs": [
+            "unit_110_D#ex1",
+            "unit_110_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 8,
+      "item_key": "unit_110_ex3_i8",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_D",
+          "example_refs": [
+            "unit_110_D#ex1",
+            "unit_110_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 9,
+      "item_key": "unit_110_ex3_i9",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_D",
+          "example_refs": [
+            "unit_110_D#ex1",
+            "unit_110_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 10,
+      "item_key": "unit_110_ex3_i10",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_E",
+          "example_refs": [
+            "unit_110_E#ex1",
+            "unit_110_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 11,
+      "item_key": "unit_110_ex3_i11",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_E",
+          "example_refs": [
+            "unit_110_E#ex1",
+            "unit_110_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 12,
+      "item_key": "unit_110_ex3_i12",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_E",
+          "example_refs": [
+            "unit_110_E#ex1",
+            "unit_110_E#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 13,
+      "item_key": "unit_110_ex3_i13",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 14,
+      "item_key": "unit_110_ex3_i14",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_C",
+          "example_refs": [
+            "unit_110_C#ex1",
+            "unit_110_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 15,
+      "item_key": "unit_110_ex3_i15",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_D",
+          "example_refs": [
+            "unit_110_D#ex1",
+            "unit_110_D#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 16,
+      "item_key": "unit_110_ex3_i16",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_A",
+          "example_refs": [
+            "unit_110_A#ex1",
+            "unit_110_A#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 17,
+      "item_key": "unit_110_ex3_i17",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_C",
+          "example_refs": [
+            "unit_110_C#ex1",
+            "unit_110_C#ex2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "item_index": 18,
+      "item_key": "unit_110_ex3_i18",
+      "needs_review": false,
+      "rule_refs": [
+        {
+          "rule_key": "unit_110_E",
+          "example_refs": [
+            "unit_110_E#ex1",
+            "unit_110_E#ex2"
+          ]
+        }
+      ]
+    }
+  ]
+}

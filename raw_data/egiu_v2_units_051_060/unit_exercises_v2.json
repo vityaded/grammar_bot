@@ -1,0 +1,5633 @@
+{
+  "exercises": [
+    {
+      "unit_key": "unit_51",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with an auxiliary verb only (do/does/did, have, be, can, will etc.).",
+      "items": [
+        {
+          "prompt": "‘Do you drive?’ ‘Yes, I ____.’",
+          "options": null,
+          "canonical": "do",
+          "accepted_variants": [
+            "do",
+            "do.",
+            "Do",
+            "do?",
+            "do!",
+            "DO"
+          ],
+          "rule_keys": [
+            "unit_51_A2"
+          ]
+        },
+        {
+          "prompt": "Anna doesn’t eat meat, but her brother ____.",
+          "options": null,
+          "canonical": "does",
+          "accepted_variants": [
+            "does",
+            "does.",
+            "Does",
+            "does?",
+            "does!",
+            "DOES"
+          ],
+          "rule_keys": [
+            "unit_51_A2"
+          ]
+        },
+        {
+          "prompt": "I didn’t complain, but my colleagues ____.",
+          "options": null,
+          "canonical": "did",
+          "accepted_variants": [
+            "did",
+            "did.",
+            "Did",
+            "did?",
+            "did!",
+            "DID"
+          ],
+          "rule_keys": [
+            "unit_51_A2"
+          ]
+        },
+        {
+          "prompt": "She hasn’t replied yet, but I ____.",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have",
+            "have.",
+            "Have",
+            "have?",
+            "have!",
+            "HAVE"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "They were very tired, and we ____ too.",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were",
+            "were.",
+            "were?",
+            "were!",
+            "Were",
+            "WERE"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "He isn’t ready, but I ____.",
+          "options": null,
+          "canonical": "am",
+          "accepted_variants": [
+            "am",
+            "am.",
+            "am?",
+            "am!",
+            "Am",
+            "AM"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "I can’t come tonight, but my sister ____.",
+          "options": null,
+          "canonical": "can",
+          "accepted_variants": [
+            "can",
+            "can.",
+            "can?",
+            "can!",
+            "Can",
+            "CAN"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "We might be late, but they ____.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "might?",
+            "might!",
+            "Might",
+            "MIGHT"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "‘Will you text me later?’ ‘Yes, I ____.’",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "will?",
+            "will!",
+            "Will",
+            "WILL"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "He would never do that, but she ____.",
+          "options": null,
+          "canonical": "would",
+          "accepted_variants": [
+            "would",
+            "would.",
+            "would?",
+            "would!",
+            "Would",
+            "WOULD"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "‘Should I apologise?’ ‘Yes, you ____.’",
+          "options": null,
+          "canonical": "should",
+          "accepted_variants": [
+            "should",
+            "should.",
+            "should?",
+            "should!",
+            "Should",
+            "SHOULD"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        },
+        {
+          "prompt": "I’ve seen that film, and my parents ____ too.",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have",
+            "have.",
+            "have?",
+            "have!",
+            "Have",
+            "HAVE"
+          ],
+          "rule_keys": [
+            "unit_51_A1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_51",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Reply to show interest or surprise. Use a short question with an auxiliary.",
+      "items": [
+        {
+          "prompt": "A: ‘I’ve just passed my driving test.’ B: ‘____?’",
+          "options": null,
+          "canonical": "Have you?",
+          "accepted_variants": [
+            "Have you?",
+            "Have you",
+            "Have you?!",
+            "Have you.",
+            "Have you!",
+            "have you?",
+            "HAVE YOU?"
+          ],
+          "rule_keys": [
+            "unit_51_B"
+          ]
+        },
+        {
+          "prompt": "A: ‘We’re moving next week.’ B: ‘____?’",
+          "options": null,
+          "canonical": "Are you?",
+          "accepted_variants": [
+            "Are you?",
+            "Are you",
+            "Are you?!",
+            "Are you.",
+            "Are you!",
+            "are you?",
+            "ARE YOU?"
+          ],
+          "rule_keys": [
+            "unit_51_B"
+          ]
+        },
+        {
+          "prompt": "A: ‘Sam can speak Japanese.’ B: ‘____?’",
+          "options": null,
+          "canonical": "Can he?",
+          "accepted_variants": [
+            "Can he?",
+            "Can he",
+            "Can he?!",
+            "Can he.",
+            "Can he!",
+            "can he?",
+            "CAN HE?"
+          ],
+          "rule_keys": [
+            "unit_51_B"
+          ]
+        },
+        {
+          "prompt": "A: ‘I wasn’t late.’ B: ‘____?’",
+          "options": null,
+          "canonical": "Weren’t you?",
+          "accepted_variants": [
+            "Weren’t you?",
+            "Weren’t you",
+            "Weren't you?",
+            "Weren't you",
+            "Weren’t you.",
+            "Weren’t you!",
+            "weren’t you?",
+            "WEREN’T YOU?"
+          ],
+          "rule_keys": [
+            "unit_51_B"
+          ]
+        },
+        {
+          "prompt": "A: ‘They didn’t invite you.’ B: ‘____?’",
+          "options": null,
+          "canonical": "Didn’t they?",
+          "accepted_variants": [
+            "Didn’t they?",
+            "Didn't they?",
+            "Didn't they",
+            "Didn’t they",
+            "Didn’t they.",
+            "Didn’t they!",
+            "didn’t they?",
+            "DIDN’T THEY?"
+          ],
+          "rule_keys": [
+            "unit_51_B"
+          ]
+        },
+        {
+          "prompt": "A: ‘She’ll be here soon.’ B: ‘____?’",
+          "options": null,
+          "canonical": "Will she?",
+          "accepted_variants": [
+            "Will she?",
+            "Will she",
+            "Will she?!",
+            "Will she.",
+            "Will she!",
+            "will she?",
+            "WILL SHE?"
+          ],
+          "rule_keys": [
+            "unit_51_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_51",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the replies using so / neither / nor / (not) either.",
+      "items": [
+        {
+          "prompt": "A: ‘I’m exhausted.’ B: ‘____.’",
+          "options": null,
+          "canonical": "So am I.",
+          "accepted_variants": [
+            "So am I.",
+            "So am I",
+            "So am I!",
+            "So am I?",
+            "so am I.",
+            "SO AM I.",
+            "so am i."
+          ],
+          "rule_keys": [
+            "unit_51_C1"
+          ]
+        },
+        {
+          "prompt": "A: ‘I don’t like crowded places.’ B: ‘____.’",
+          "options": null,
+          "canonical": "Neither do I.",
+          "accepted_variants": [
+            "Neither do I.",
+            "Neither do I",
+            "Nor do I.",
+            "Nor do I",
+            "Neither do I?",
+            "Neither do I!",
+            "neither do I.",
+            "NEITHER DO I.",
+            "neither do i."
+          ],
+          "rule_keys": [
+            "unit_51_C1",
+            "unit_51_C2"
+          ]
+        },
+        {
+          "prompt": "A: ‘I can’t remember his name.’ B: ‘____.’",
+          "options": null,
+          "canonical": "Neither can I.",
+          "accepted_variants": [
+            "Neither can I.",
+            "Neither can I",
+            "Nor can I.",
+            "Nor can I",
+            "Neither can I?",
+            "Neither can I!",
+            "neither can I.",
+            "NEITHER CAN I.",
+            "neither can i."
+          ],
+          "rule_keys": [
+            "unit_51_C1",
+            "unit_51_C2"
+          ]
+        },
+        {
+          "prompt": "A: ‘I’ve never been to Iceland.’ B: ‘____.’",
+          "options": null,
+          "canonical": "Neither have I.",
+          "accepted_variants": [
+            "Neither have I.",
+            "Neither have I",
+            "Nor have I.",
+            "Nor have I",
+            "Neither have I?",
+            "Neither have I!",
+            "neither have I.",
+            "NEITHER HAVE I.",
+            "neither have i."
+          ],
+          "rule_keys": [
+            "unit_51_C1",
+            "unit_51_C2"
+          ]
+        },
+        {
+          "prompt": "A: ‘I finished the report yesterday.’ B: ‘____.’",
+          "options": null,
+          "canonical": "So did I.",
+          "accepted_variants": [
+            "So did I.",
+            "So did I",
+            "So did I?",
+            "So did I!",
+            "so did I.",
+            "SO DID I.",
+            "so did i."
+          ],
+          "rule_keys": [
+            "unit_51_C1"
+          ]
+        },
+        {
+          "prompt": "A: ‘I won’t be late.’ B: ‘____.’",
+          "options": null,
+          "canonical": "Neither will I.",
+          "accepted_variants": [
+            "Neither will I.",
+            "Neither will I",
+            "Nor will I",
+            "Neither will I?",
+            "Neither will I!",
+            "neither will I.",
+            "NEITHER WILL I.",
+            "neither will i."
+          ],
+          "rule_keys": [
+            "unit_51_C1",
+            "unit_51_C2"
+          ]
+        },
+        {
+          "prompt": "A: ‘I shouldn’t eat so much sugar.’ B: ‘____.’",
+          "options": null,
+          "canonical": "Neither should I.",
+          "accepted_variants": [
+            "Neither should I.",
+            "Neither should I",
+            "Nor should I",
+            "Neither should I?",
+            "Neither should I!",
+            "neither should I.",
+            "NEITHER SHOULD I.",
+            "neither should i."
+          ],
+          "rule_keys": [
+            "unit_51_C1",
+            "unit_51_C2"
+          ]
+        },
+        {
+          "prompt": "A: ‘I didn’t enjoy the concert.’ B: ‘____.’",
+          "options": null,
+          "canonical": "I didn’t either.",
+          "accepted_variants": [
+            "I didn’t either.",
+            "I didn't either.",
+            "I didn't either",
+            "I didn’t either",
+            "I didn’t either?",
+            "I didn’t either!",
+            "i didn’t either.",
+            "I DIDN’T EITHER."
+          ],
+          "rule_keys": [
+            "unit_51_C2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_51",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Answer using short phrases like I think so / I hope not / I’m afraid so etc.",
+      "items": [
+        {
+          "prompt": "‘Is the shop open on Sundays?’ — ____.",
+          "options": null,
+          "canonical": "I think so.",
+          "accepted_variants": [
+            "I think so.",
+            "I think so",
+            "I think so?",
+            "I think so!",
+            "i think so.",
+            "I THINK SO."
+          ],
+          "rule_keys": [
+            "unit_51_D1"
+          ]
+        },
+        {
+          "prompt": "‘Will it rain this afternoon?’ — ____.",
+          "options": null,
+          "canonical": "I hope not.",
+          "accepted_variants": [
+            "I hope not.",
+            "I hope not",
+            "I hope not?",
+            "I hope not!",
+            "i hope not.",
+            "I HOPE NOT."
+          ],
+          "rule_keys": [
+            "unit_51_D2"
+          ]
+        },
+        {
+          "prompt": "‘Do you think Dan knows?’ — ____.",
+          "options": null,
+          "canonical": "I don’t think so.",
+          "accepted_variants": [
+            "I don’t think so.",
+            "I don't think so.",
+            "I don't think so",
+            "I don’t think so",
+            "I don’t think so?",
+            "I don’t think so!",
+            "i don’t think so.",
+            "I DON’T THINK SO."
+          ],
+          "rule_keys": [
+            "unit_51_D2"
+          ]
+        },
+        {
+          "prompt": "‘Will we see you tomorrow?’ — ____.",
+          "options": null,
+          "canonical": "I expect so.",
+          "accepted_variants": [
+            "I expect so.",
+            "I expect so",
+            "I expect so?",
+            "I expect so!",
+            "i expect so.",
+            "I EXPECT SO."
+          ],
+          "rule_keys": [
+            "unit_51_D1"
+          ]
+        },
+        {
+          "prompt": "‘Is this the right bus?’ — ____.",
+          "options": null,
+          "canonical": "I’m afraid so.",
+          "accepted_variants": [
+            "I’m afraid so.",
+            "I'm afraid so.",
+            "I'm afraid so",
+            "I’m afraid so",
+            "I’m afraid so?",
+            "I’m afraid so!",
+            "i’m afraid so.",
+            "I’M AFRAID SO."
+          ],
+          "rule_keys": [
+            "unit_51_D1"
+          ]
+        },
+        {
+          "prompt": "‘Is he going to be angry?’ — ____.",
+          "options": null,
+          "canonical": "I’m afraid not.",
+          "accepted_variants": [
+            "I’m afraid not.",
+            "I'm afraid not.",
+            "I'm afraid not",
+            "I’m afraid not",
+            "I’m afraid not?",
+            "I’m afraid not!",
+            "i’m afraid not.",
+            "I’M AFRAID NOT."
+          ],
+          "rule_keys": [
+            "unit_51_D2"
+          ]
+        },
+        {
+          "prompt": "‘Will you be able to finish today?’ — ____.",
+          "options": null,
+          "canonical": "I suppose so.",
+          "accepted_variants": [
+            "I suppose so.",
+            "I suppose so",
+            "I suppose so?",
+            "I suppose so!",
+            "i suppose so.",
+            "I SUPPOSE SO."
+          ],
+          "rule_keys": [
+            "unit_51_D1"
+          ]
+        },
+        {
+          "prompt": "‘Will she call us back?’ — ____.",
+          "options": null,
+          "canonical": "I hope so.",
+          "accepted_variants": [
+            "I hope so.",
+            "I hope so",
+            "I hope so?",
+            "I hope so!",
+            "i hope so.",
+            "I HOPE SO."
+          ],
+          "rule_keys": [
+            "unit_51_D1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_52",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Add the correct question tag.",
+      "items": [
+        {
+          "prompt": "You’re coming with us, ____.",
+          "options": null,
+          "canonical": "aren’t you?",
+          "accepted_variants": [
+            "aren’t you?",
+            "aren’t you",
+            "AREN’T YOU?",
+            "aren't you?",
+            "aren’t you.",
+            "aren’t you!",
+            "Aren’t you?"
+          ],
+          "rule_keys": [
+            "unit_52_B"
+          ]
+        },
+        {
+          "prompt": "It was a good film, ____.",
+          "options": null,
+          "canonical": "wasn’t it?",
+          "accepted_variants": [
+            "wasn’t it?",
+            "wasn’t it",
+            "WASN’T IT?",
+            "wasn't it?",
+            "wasn’t it.",
+            "wasn’t it!",
+            "Wasn’t it?"
+          ],
+          "rule_keys": [
+            "unit_52_B"
+          ]
+        },
+        {
+          "prompt": "They’ve already paid, ____.",
+          "options": null,
+          "canonical": "haven’t they?",
+          "accepted_variants": [
+            "haven’t they?",
+            "haven’t they",
+            "HAVEN’T THEY?",
+            "haven't they?",
+            "haven’t they.",
+            "haven’t they!",
+            "Haven’t they?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "She can drive, ____.",
+          "options": null,
+          "canonical": "can’t she?",
+          "accepted_variants": [
+            "can’t she?",
+            "can’t she",
+            "CAN’T SHE?",
+            "can't she?",
+            "can’t she.",
+            "can’t she!",
+            "Can’t she?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "You don’t know my brother, ____.",
+          "options": null,
+          "canonical": "do you?",
+          "accepted_variants": [
+            "do you?",
+            "do you",
+            "DO YOU?",
+            "do you.",
+            "do you!",
+            "Do you?"
+          ],
+          "rule_keys": [
+            "unit_52_B"
+          ]
+        },
+        {
+          "prompt": "He didn’t call you, ____.",
+          "options": null,
+          "canonical": "did he?",
+          "accepted_variants": [
+            "did he?",
+            "did he",
+            "DID HE?",
+            "did he.",
+            "did he!",
+            "Did he?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "We’ll be on time, ____.",
+          "options": null,
+          "canonical": "won’t we?",
+          "accepted_variants": [
+            "won’t we?",
+            "won’t we",
+            "WON’T WE?",
+            "won't we?",
+            "won’t we.",
+            "won’t we!",
+            "Won’t we?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "There’s a café near here, ____.",
+          "options": null,
+          "canonical": "isn’t there?",
+          "accepted_variants": [
+            "isn’t there?",
+            "isn’t there",
+            "ISN’T THERE?",
+            "isn't there?",
+            "isn’t there.",
+            "isn’t there!",
+            "Isn’t there?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "You were listening, ____.",
+          "options": null,
+          "canonical": "weren’t you?",
+          "accepted_variants": [
+            "weren’t you?",
+            "weren’t you",
+            "WEREN’T YOU?",
+            "weren't you?",
+            "weren’t you.",
+            "weren’t you!",
+            "Weren’t you?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "Tom plays the piano, ____.",
+          "options": null,
+          "canonical": "doesn’t he?",
+          "accepted_variants": [
+            "doesn’t he?",
+            "doesn’t he",
+            "DOESN’T HE?",
+            "doesn't he?",
+            "doesn’t he.",
+            "doesn’t he!",
+            "Doesn’t he?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "It isn’t too late, ____.",
+          "options": null,
+          "canonical": "is it?",
+          "accepted_variants": [
+            "is it?",
+            "is it",
+            "IS IT?",
+            "is it.",
+            "is it!",
+            "Is it?"
+          ],
+          "rule_keys": [
+            "unit_52_B"
+          ]
+        },
+        {
+          "prompt": "You’ve met my parents, ____.",
+          "options": null,
+          "canonical": "haven’t you?",
+          "accepted_variants": [
+            "haven’t you?",
+            "haven’t you",
+            "HAVEN’T YOU?",
+            "haven't you?",
+            "haven’t you.",
+            "haven’t you!",
+            "Haven’t you?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "She wasn’t angry, ____.",
+          "options": null,
+          "canonical": "was she?",
+          "accepted_variants": [
+            "was she?",
+            "was she",
+            "WAS SHE?",
+            "was she.",
+            "was she!",
+            "Was she?"
+          ],
+          "rule_keys": [
+            "unit_52_B"
+          ]
+        },
+        {
+          "prompt": "They can’t hear us, ____.",
+          "options": null,
+          "canonical": "can they?",
+          "accepted_variants": [
+            "can they?",
+            "can they",
+            "CAN THEY?",
+            "can they.",
+            "can they!",
+            "Can they?"
+          ],
+          "rule_keys": [
+            "unit_52_B"
+          ]
+        },
+        {
+          "prompt": "Your sister lives in Madrid, ____.",
+          "options": null,
+          "canonical": "doesn’t she?",
+          "accepted_variants": [
+            "doesn’t she?",
+            "doesn’t she",
+            "DOESN’T SHE?",
+            "doesn't she?",
+            "doesn’t she.",
+            "doesn’t she!",
+            "Doesn’t she?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "We didn’t lock the door, ____.",
+          "options": null,
+          "canonical": "did we?",
+          "accepted_variants": [
+            "did we?",
+            "did we",
+            "DID WE?",
+            "did we.",
+            "did we!",
+            "Did we?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "You’d like some help, ____.",
+          "options": null,
+          "canonical": "wouldn’t you?",
+          "accepted_variants": [
+            "wouldn’t you?",
+            "wouldn’t you",
+            "WOULDN’T YOU?",
+            "wouldn't you?",
+            "wouldn’t you.",
+            "wouldn’t you!",
+            "Wouldn’t you?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        },
+        {
+          "prompt": "I shouldn’t worry, ____.",
+          "options": null,
+          "canonical": "should I?",
+          "accepted_variants": [
+            "should I?",
+            "should I",
+            "SHOULD I?",
+            "should I.",
+            "should I!",
+            "Should I?",
+            "should i?"
+          ],
+          "rule_keys": [
+            "unit_52_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_52",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with a question tag (often used to ask for information or a favour).",
+      "items": [
+        {
+          "prompt": "You haven’t seen my keys, ____.",
+          "options": null,
+          "canonical": "have you?",
+          "accepted_variants": [
+            "have you?",
+            "have you",
+            "have you.",
+            "have you!",
+            "Have you?",
+            "HAVE YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_C2"
+          ]
+        },
+        {
+          "prompt": "You could give me a hand, ____.",
+          "options": null,
+          "canonical": "could you?",
+          "accepted_variants": [
+            "could you?",
+            "could you",
+            "could you.",
+            "could you!",
+            "Could you?",
+            "COULD YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_C2"
+          ]
+        },
+        {
+          "prompt": "You don’t know where Paul lives, ____.",
+          "options": null,
+          "canonical": "do you?",
+          "accepted_variants": [
+            "do you?",
+            "do you",
+            "do you.",
+            "do you!",
+            "Do you?",
+            "DO YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_C2"
+          ]
+        },
+        {
+          "prompt": "You won’t tell anyone, ____.",
+          "options": null,
+          "canonical": "will you?",
+          "accepted_variants": [
+            "will you?",
+            "will you",
+            "will you.",
+            "will you!",
+            "Will you?",
+            "WILL YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_C2"
+          ]
+        },
+        {
+          "prompt": "You can speak French, ____.",
+          "options": null,
+          "canonical": "can’t you?",
+          "accepted_variants": [
+            "can’t you?",
+            "can’t you",
+            "can't you?",
+            "can’t you.",
+            "can’t you!",
+            "Can’t you?",
+            "CAN’T YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_C2"
+          ]
+        },
+        {
+          "prompt": "You didn’t take my phone, ____.",
+          "options": null,
+          "canonical": "did you?",
+          "accepted_variants": [
+            "did you?",
+            "did you",
+            "did you.",
+            "did you!",
+            "Did you?",
+            "DID YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_C2"
+          ]
+        },
+        {
+          "prompt": "You’ll call me when you arrive, ____.",
+          "options": null,
+          "canonical": "won’t you?",
+          "accepted_variants": [
+            "won’t you?",
+            "won’t you",
+            "won't you?",
+            "won’t you.",
+            "won’t you!",
+            "Won’t you?",
+            "WON’T YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_C2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_52",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the special question tags: Let’s …, Don’t …, I’m …",
+      "items": [
+        {
+          "prompt": "Let’s take a taxi, ____.",
+          "options": null,
+          "canonical": "shall we?",
+          "accepted_variants": [
+            "shall we?",
+            "shall we",
+            "shall we.",
+            "shall we!",
+            "Shall we?",
+            "SHALL WE?"
+          ],
+          "rule_keys": [
+            "unit_52_D"
+          ]
+        },
+        {
+          "prompt": "Let’s not tell anyone, ____.",
+          "options": null,
+          "canonical": "shall we?",
+          "accepted_variants": [
+            "shall we?",
+            "shall we",
+            "shall we.",
+            "shall we!",
+            "Shall we?",
+            "SHALL WE?"
+          ],
+          "rule_keys": [
+            "unit_52_D"
+          ]
+        },
+        {
+          "prompt": "Don’t forget to lock the door, ____.",
+          "options": null,
+          "canonical": "will you?",
+          "accepted_variants": [
+            "will you?",
+            "will you",
+            "will you.",
+            "will you!",
+            "Will you?",
+            "WILL YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_D"
+          ]
+        },
+        {
+          "prompt": "Don’t make so much noise, ____.",
+          "options": null,
+          "canonical": "will you?",
+          "accepted_variants": [
+            "will you?",
+            "will you",
+            "will you.",
+            "will you!",
+            "Will you?",
+            "WILL YOU?"
+          ],
+          "rule_keys": [
+            "unit_52_D"
+          ]
+        },
+        {
+          "prompt": "I’m late, ____.",
+          "options": null,
+          "canonical": "aren’t I?",
+          "accepted_variants": [
+            "aren’t I?",
+            "aren’t I",
+            "aren't I?",
+            "aren’t I.",
+            "aren’t I!",
+            "Aren’t I?",
+            "AREN’T I?",
+            "aren’t i?"
+          ],
+          "rule_keys": [
+            "unit_52_D"
+          ]
+        },
+        {
+          "prompt": "I’m next on the list, ____.",
+          "options": null,
+          "canonical": "aren’t I?",
+          "accepted_variants": [
+            "aren’t I?",
+            "aren’t I",
+            "aren't I?",
+            "aren’t I.",
+            "aren’t I!",
+            "Aren’t I?",
+            "AREN’T I?",
+            "aren’t i?"
+          ],
+          "rule_keys": [
+            "unit_52_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_53",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with the -ing form of the verb in brackets.",
+      "items": [
+        {
+          "prompt": "I enjoy ____ (cook) for friends.",
+          "options": null,
+          "canonical": "cooking",
+          "accepted_variants": [
+            "cooking",
+            "cooking.",
+            "Cooking",
+            "cooking?",
+            "cooking!",
+            "COOKING"
+          ],
+          "rule_keys": [
+            "unit_53_A"
+          ]
+        },
+        {
+          "prompt": "Would you mind ____ (wait) a moment?",
+          "options": null,
+          "canonical": "waiting",
+          "accepted_variants": [
+            "waiting",
+            "waiting.",
+            "Waiting",
+            "waiting?",
+            "waiting!",
+            "WAITING"
+          ],
+          "rule_keys": [
+            "unit_53_A"
+          ]
+        },
+        {
+          "prompt": "She suggested ____ (meet) earlier.",
+          "options": null,
+          "canonical": "meeting",
+          "accepted_variants": [
+            "meeting",
+            "meeting.",
+            "Meeting",
+            "meeting?",
+            "meeting!",
+            "MEETING"
+          ],
+          "rule_keys": [
+            "unit_53_A"
+          ]
+        },
+        {
+          "prompt": "He admitted ____ (break) the vase.",
+          "options": null,
+          "canonical": "breaking",
+          "accepted_variants": [
+            "breaking",
+            "breaking.",
+            "Breaking",
+            "breaking?",
+            "breaking!",
+            "BREAKING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "They avoided ____ (talk) about money.",
+          "options": null,
+          "canonical": "talking",
+          "accepted_variants": [
+            "talking",
+            "talking.",
+            "Talking",
+            "talking?",
+            "talking!",
+            "TALKING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "I can’t imagine ____ (live) without internet.",
+          "options": null,
+          "canonical": "living",
+          "accepted_variants": [
+            "living",
+            "living.",
+            "Living",
+            "living?",
+            "living!",
+            "LIVING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_53",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a suitable verb in the -ing form. (Any correct verb + -ing that fits is acceptable.)",
+      "items": [
+        {
+          "prompt": "I don’t fancy ____ in heavy traffic.",
+          "options": null,
+          "canonical": "driving",
+          "accepted_variants": [
+            "driving",
+            "driving.",
+            "Driving",
+            "driving?",
+            "driving!",
+            "DRIVING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "He denied ____ my laptop.",
+          "options": null,
+          "canonical": "taking",
+          "accepted_variants": [
+            "taking",
+            "taking.",
+            "Taking",
+            "taking?",
+            "taking!",
+            "TAKING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "We considered ____ for the job, but the salary was low.",
+          "options": null,
+          "canonical": "applying",
+          "accepted_variants": [
+            "applying",
+            "applying.",
+            "Applying",
+            "applying?",
+            "applying!",
+            "APPLYING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "She kept ____ about the neighbours.",
+          "options": null,
+          "canonical": "complaining",
+          "accepted_variants": [
+            "complaining",
+            "complaining.",
+            "Complaining",
+            "complaining?",
+            "complaining!",
+            "COMPLAINING"
+          ],
+          "rule_keys": [
+            "unit_53_C"
+          ]
+        },
+        {
+          "prompt": "I can’t risk ____ my passport.",
+          "options": null,
+          "canonical": "losing",
+          "accepted_variants": [
+            "losing",
+            "losing.",
+            "Losing",
+            "losing?",
+            "losing!",
+            "LOSING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "They finished ____ the invitations.",
+          "options": null,
+          "canonical": "writing",
+          "accepted_variants": [
+            "writing",
+            "writing.",
+            "Writing",
+            "writing?",
+            "writing!",
+            "WRITING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "I don’t mind ____ you later.",
+          "options": null,
+          "canonical": "phoning",
+          "accepted_variants": [
+            "phoning",
+            "phoning.",
+            "Phoning",
+            "phoning?",
+            "phoning!",
+            "PHONING"
+          ],
+          "rule_keys": [
+            "unit_53_A"
+          ]
+        },
+        {
+          "prompt": "He put off ____ until Monday.",
+          "options": null,
+          "canonical": "apologising",
+          "accepted_variants": [
+            "apologising",
+            "apologising.",
+            "Apologising",
+            "apologising?",
+            "apologising!",
+            "APOLOGISING"
+          ],
+          "rule_keys": [
+            "unit_53_C"
+          ]
+        },
+        {
+          "prompt": "She admitted ____ to interrupt.",
+          "options": null,
+          "canonical": "forgetting",
+          "accepted_variants": [
+            "forgetting",
+            "forgetting.",
+            "Forgetting",
+            "forgetting?",
+            "forgetting!",
+            "FORGETTING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        },
+        {
+          "prompt": "They recommended ____ a table in advance.",
+          "options": null,
+          "canonical": "booking",
+          "accepted_variants": [
+            "booking",
+            "booking.",
+            "Booking",
+            "booking?",
+            "booking!",
+            "BOOKING"
+          ],
+          "rule_keys": [
+            "unit_53_E"
+          ]
+        },
+        {
+          "prompt": "I can’t stand ____ in the cold rain.",
+          "options": null,
+          "canonical": "waiting",
+          "accepted_variants": [
+            "waiting",
+            "waiting.",
+            "Waiting",
+            "waiting?",
+            "waiting!",
+            "WAITING"
+          ],
+          "rule_keys": [
+            "unit_53_A"
+          ]
+        },
+        {
+          "prompt": "We avoided ____ about politics at dinner.",
+          "options": null,
+          "canonical": "talking",
+          "accepted_variants": [
+            "talking",
+            "talking.",
+            "Talking",
+            "talking?",
+            "talking!",
+            "TALKING"
+          ],
+          "rule_keys": [
+            "unit_53_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_53",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with the -ing form.",
+      "items": [
+        {
+          "prompt": "I gave up ____ (smoke) last year.",
+          "options": null,
+          "canonical": "smoking",
+          "accepted_variants": [
+            "smoking",
+            "smoking.",
+            "Smoking",
+            "smoking?",
+            "smoking!",
+            "SMOKING"
+          ],
+          "rule_keys": [
+            "unit_53_C"
+          ]
+        },
+        {
+          "prompt": "Don’t put off ____ (do) it. Just start now.",
+          "options": null,
+          "canonical": "doing",
+          "accepted_variants": [
+            "doing",
+            "doing.",
+            "Doing",
+            "doing?",
+            "doing!",
+            "DOING"
+          ],
+          "rule_keys": [
+            "unit_53_C"
+          ]
+        },
+        {
+          "prompt": "She went on ____ (talk) even after the bell.",
+          "options": null,
+          "canonical": "talking",
+          "accepted_variants": [
+            "talking",
+            "talking.",
+            "Talking",
+            "talking?",
+            "talking!",
+            "TALKING"
+          ],
+          "rule_keys": [
+            "unit_53_C"
+          ]
+        },
+        {
+          "prompt": "They carried on ____ (work) until midnight.",
+          "options": null,
+          "canonical": "working",
+          "accepted_variants": [
+            "working",
+            "working.",
+            "Working",
+            "working?",
+            "working!",
+            "WORKING"
+          ],
+          "rule_keys": [
+            "unit_53_C"
+          ]
+        },
+        {
+          "prompt": "He kept on ____ (ask) the same question.",
+          "options": null,
+          "canonical": "asking",
+          "accepted_variants": [
+            "asking",
+            "asking.",
+            "Asking",
+            "asking?",
+            "asking!",
+            "ASKING"
+          ],
+          "rule_keys": [
+            "unit_53_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_53",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences using verb + object + -ing.",
+      "items": [
+        {
+          "prompt": "Please stop ____ (the kids / shout)!",
+          "options": null,
+          "canonical": "the kids shouting",
+          "accepted_variants": [
+            "the kids shouting",
+            "the kids shouting.",
+            "the kids shouting?",
+            "the kids shouting!",
+            "The kids shouting",
+            "THE KIDS SHOUTING"
+          ],
+          "rule_keys": [
+            "unit_53_D"
+          ]
+        },
+        {
+          "prompt": "I remember ____ (you / say) that you hated sushi.",
+          "options": null,
+          "canonical": "you saying",
+          "accepted_variants": [
+            "you saying",
+            "you saying.",
+            "you saying?",
+            "you saying!",
+            "You saying",
+            "YOU SAYING"
+          ],
+          "rule_keys": [
+            "unit_53_D"
+          ]
+        },
+        {
+          "prompt": "Don’t keep ____ (me / wait)!",
+          "options": null,
+          "canonical": "me waiting",
+          "accepted_variants": [
+            "me waiting",
+            "me waiting.",
+            "me waiting?",
+            "me waiting!",
+            "Me waiting",
+            "ME WAITING"
+          ],
+          "rule_keys": [
+            "unit_53_D"
+          ]
+        },
+        {
+          "prompt": "The noise prevented ____ (us / sleep).",
+          "options": null,
+          "canonical": "us sleeping",
+          "accepted_variants": [
+            "us sleeping",
+            "us sleeping.",
+            "us sleeping?",
+            "us sleeping!",
+            "Us sleeping",
+            "US SLEEPING"
+          ],
+          "rule_keys": [
+            "unit_53_D"
+          ]
+        },
+        {
+          "prompt": "I caught ____ (him / look) at my notes.",
+          "options": null,
+          "canonical": "him looking",
+          "accepted_variants": [
+            "him looking",
+            "him looking.",
+            "him looking?",
+            "him looking!",
+            "Him looking",
+            "HIM LOOKING"
+          ],
+          "rule_keys": [
+            "unit_53_D"
+          ]
+        },
+        {
+          "prompt": "This song always makes ____ (me / think) of summer.",
+          "options": null,
+          "canonical": "me thinking",
+          "accepted_variants": [
+            "me thinking",
+            "me thinking.",
+            "me thinking?",
+            "me thinking!",
+            "Me thinking",
+            "ME THINKING"
+          ],
+          "rule_keys": [
+            "unit_53_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_54",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with to + infinitive.",
+      "items": [
+        {
+          "prompt": "I decided ____ (leave) early.",
+          "options": null,
+          "canonical": "to leave",
+          "accepted_variants": [
+            "to leave",
+            "to leave.",
+            "leave",
+            "to leave?",
+            "to leave!",
+            "To leave",
+            "TO LEAVE"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "She promised ____ (call) me tonight.",
+          "options": null,
+          "canonical": "to call",
+          "accepted_variants": [
+            "to call",
+            "to call.",
+            "call",
+            "to call?",
+            "to call!",
+            "To call",
+            "TO CALL"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "We managed ____ (find) a cheaper hotel.",
+          "options": null,
+          "canonical": "to find",
+          "accepted_variants": [
+            "to find",
+            "to find.",
+            "find",
+            "to find?",
+            "to find!",
+            "To find",
+            "TO FIND"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "He offered ____ (help) with the boxes.",
+          "options": null,
+          "canonical": "to help",
+          "accepted_variants": [
+            "to help",
+            "to help.",
+            "help",
+            "to help?",
+            "to help!",
+            "To help",
+            "TO HELP"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "I refused ____ (answer) the question.",
+          "options": null,
+          "canonical": "to answer",
+          "accepted_variants": [
+            "to answer",
+            "to answer.",
+            "answer",
+            "to answer?",
+            "to answer!",
+            "To answer",
+            "TO ANSWER"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "They agreed ____ (meet) at 7.30.",
+          "options": null,
+          "canonical": "to meet",
+          "accepted_variants": [
+            "to meet",
+            "to meet.",
+            "meet",
+            "to meet?",
+            "to meet!",
+            "To meet",
+            "TO MEET"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_54",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with not to + infinitive.",
+      "items": [
+        {
+          "prompt": "I decided ____ (not / go) out.",
+          "options": null,
+          "canonical": "not to go",
+          "accepted_variants": [
+            "not to go",
+            "not to go.",
+            "to go",
+            "not to go?",
+            "not to go!",
+            "Not to go",
+            "NOT TO GO"
+          ],
+          "rule_keys": [
+            "unit_54_A2"
+          ]
+        },
+        {
+          "prompt": "She promised ____ (not / tell) anyone.",
+          "options": null,
+          "canonical": "not to tell",
+          "accepted_variants": [
+            "not to tell",
+            "not to tell.",
+            "to tell",
+            "not to tell?",
+            "not to tell!",
+            "Not to tell",
+            "NOT TO TELL"
+          ],
+          "rule_keys": [
+            "unit_54_A2"
+          ]
+        },
+        {
+          "prompt": "We agreed ____ (not / mention) it again.",
+          "options": null,
+          "canonical": "not to mention",
+          "accepted_variants": [
+            "not to mention",
+            "not to mention.",
+            "to mention",
+            "not to mention?",
+            "not to mention!",
+            "Not to mention",
+            "NOT TO MENTION"
+          ],
+          "rule_keys": [
+            "unit_54_A2"
+          ]
+        },
+        {
+          "prompt": "He chose ____ (not / buy) it.",
+          "options": null,
+          "canonical": "not to buy",
+          "accepted_variants": [
+            "not to buy",
+            "not to buy.",
+            "to buy",
+            "not to buy?",
+            "not to buy!",
+            "Not to buy",
+            "NOT TO BUY"
+          ],
+          "rule_keys": [
+            "unit_54_A2"
+          ]
+        },
+        {
+          "prompt": "I offered ____ (not / disturb) you.",
+          "options": null,
+          "canonical": "not to disturb",
+          "accepted_variants": [
+            "not to disturb",
+            "not to disturb.",
+            "to disturb",
+            "not to disturb?",
+            "not to disturb!",
+            "Not to disturb",
+            "NOT TO DISTURB"
+          ],
+          "rule_keys": [
+            "unit_54_A2"
+          ]
+        },
+        {
+          "prompt": "They arranged ____ (not / arrive) too early.",
+          "options": null,
+          "canonical": "not to arrive",
+          "accepted_variants": [
+            "not to arrive",
+            "not to arrive.",
+            "to arrive",
+            "not to arrive?",
+            "not to arrive!",
+            "Not to arrive",
+            "NOT TO ARRIVE"
+          ],
+          "rule_keys": [
+            "unit_54_A2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_54",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (dare / seem / appear / pretend / claim + infinitive).",
+      "items": [
+        {
+          "prompt": "He didn’t dare ____ (ask) her.",
+          "options": null,
+          "canonical": "to ask",
+          "accepted_variants": [
+            "to ask",
+            "to ask.",
+            "ask",
+            "to ask?",
+            "to ask!",
+            "To ask",
+            "TO ASK"
+          ],
+          "rule_keys": [
+            "unit_54_B"
+          ]
+        },
+        {
+          "prompt": "I daren’t ____ (say) anything.",
+          "options": null,
+          "canonical": "say",
+          "accepted_variants": [
+            "say",
+            "say.",
+            "say?",
+            "say!",
+            "Say",
+            "SAY"
+          ],
+          "rule_keys": [
+            "unit_54_B"
+          ]
+        },
+        {
+          "prompt": "She seemed ____ (know) the answer.",
+          "options": null,
+          "canonical": "to know",
+          "accepted_variants": [
+            "to know",
+            "to know.",
+            "know",
+            "to know?",
+            "to know!",
+            "To know",
+            "TO KNOW"
+          ],
+          "rule_keys": [
+            "unit_54_C1"
+          ]
+        },
+        {
+          "prompt": "They appeared ____ (be) very friendly.",
+          "options": null,
+          "canonical": "to be",
+          "accepted_variants": [
+            "to be",
+            "to be.",
+            "be",
+            "to be?",
+            "to be!",
+            "To be",
+            "TO BE"
+          ],
+          "rule_keys": [
+            "unit_54_C1"
+          ]
+        },
+        {
+          "prompt": "He pretended ____ (not / hear) me.",
+          "options": null,
+          "canonical": "not to hear",
+          "accepted_variants": [
+            "not to hear",
+            "not to hear.",
+            "not to hear?",
+            "not to hear!",
+            "Not to hear",
+            "NOT TO HEAR"
+          ],
+          "rule_keys": [
+            "unit_54_C1"
+          ]
+        },
+        {
+          "prompt": "The baby seems ____ (be / sleep) now.",
+          "options": null,
+          "canonical": "to be sleeping",
+          "accepted_variants": [
+            "to be sleeping",
+            "to be sleeping.",
+            "be sleeping",
+            "to be sleeping?",
+            "to be sleeping!",
+            "To be sleeping",
+            "TO BE SLEEPING"
+          ],
+          "rule_keys": [
+            "unit_54_C2"
+          ]
+        },
+        {
+          "prompt": "She claimed ____ (see) a UFO.",
+          "options": null,
+          "canonical": "to have seen",
+          "accepted_variants": [
+            "to have seen",
+            "to have seen.",
+            "have seen",
+            "to have seen?",
+            "to have seen!",
+            "To have seen",
+            "TO HAVE SEEN"
+          ],
+          "rule_keys": [
+            "unit_54_C2"
+          ]
+        },
+        {
+          "prompt": "They seem ____ (have / forget) our meeting.",
+          "options": null,
+          "canonical": "to have forgotten",
+          "accepted_variants": [
+            "to have forgotten",
+            "to have forgotten.",
+            "have forgotten",
+            "to have forgotten?",
+            "to have forgotten!",
+            "To have forgotten",
+            "TO HAVE FORGOTTEN"
+          ],
+          "rule_keys": [
+            "unit_54_C2"
+          ]
+        },
+        {
+          "prompt": "He pretended ____ (be / work) when I arrived.",
+          "options": null,
+          "canonical": "to be working",
+          "accepted_variants": [
+            "to be working",
+            "to be working.",
+            "be working",
+            "to be working?",
+            "to be working!",
+            "To be working",
+            "TO BE WORKING"
+          ],
+          "rule_keys": [
+            "unit_54_C2"
+          ]
+        },
+        {
+          "prompt": "I didn’t dare ____ (tell) him the truth.",
+          "options": null,
+          "canonical": "to tell",
+          "accepted_variants": [
+            "to tell",
+            "to tell.",
+            "tell",
+            "to tell?",
+            "to tell!",
+            "To tell",
+            "TO TELL"
+          ],
+          "rule_keys": [
+            "unit_54_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_54",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a question word + to + infinitive.",
+      "items": [
+        {
+          "prompt": "I don’t know what ____ (say).",
+          "options": null,
+          "canonical": "to say",
+          "accepted_variants": [
+            "to say",
+            "to say.",
+            "say",
+            "to say?",
+            "to say!",
+            "To say",
+            "TO SAY"
+          ],
+          "rule_keys": [
+            "unit_54_D"
+          ]
+        },
+        {
+          "prompt": "Can you show me how ____ (use) this app?",
+          "options": null,
+          "canonical": "to use",
+          "accepted_variants": [
+            "to use",
+            "to use.",
+            "use",
+            "to use?",
+            "to use!",
+            "To use",
+            "TO USE"
+          ],
+          "rule_keys": [
+            "unit_54_D"
+          ]
+        },
+        {
+          "prompt": "We haven’t decided where ____ (go) on holiday.",
+          "options": null,
+          "canonical": "to go",
+          "accepted_variants": [
+            "to go",
+            "to go.",
+            "go",
+            "to go?",
+            "to go!",
+            "To go",
+            "TO GO"
+          ],
+          "rule_keys": [
+            "unit_54_D"
+          ]
+        },
+        {
+          "prompt": "Tell me who ____ (call) if there’s a problem.",
+          "options": null,
+          "canonical": "to call",
+          "accepted_variants": [
+            "to call",
+            "to call.",
+            "call",
+            "to call?",
+            "to call!",
+            "To call",
+            "TO CALL"
+          ],
+          "rule_keys": [
+            "unit_54_D"
+          ]
+        },
+        {
+          "prompt": "I’m not sure how ____ (get) there.",
+          "options": null,
+          "canonical": "to get",
+          "accepted_variants": [
+            "to get",
+            "to get.",
+            "get",
+            "to get?",
+            "to get!",
+            "To get",
+            "TO GET"
+          ],
+          "rule_keys": [
+            "unit_54_D"
+          ]
+        },
+        {
+          "prompt": "She wondered whether ____ (accept) the offer.",
+          "options": null,
+          "canonical": "to accept",
+          "accepted_variants": [
+            "to accept",
+            "to accept.",
+            "accept",
+            "to accept?",
+            "to accept!",
+            "To accept",
+            "TO ACCEPT"
+          ],
+          "rule_keys": [
+            "unit_54_D"
+          ]
+        },
+        {
+          "prompt": "Do you know which bus ____ (take)?",
+          "options": null,
+          "canonical": "to take",
+          "accepted_variants": [
+            "to take",
+            "to take.",
+            "take",
+            "to take?",
+            "to take!",
+            "To take",
+            "TO TAKE"
+          ],
+          "rule_keys": [
+            "unit_54_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_54",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete with to + infinitive.",
+      "items": [
+        {
+          "prompt": "I learnt ____ (cook) this dish in Italy.",
+          "options": null,
+          "canonical": "to cook",
+          "accepted_variants": [
+            "to cook",
+            "to cook.",
+            "cook",
+            "to cook?",
+            "to cook!",
+            "To cook",
+            "TO COOK"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "They failed ____ (win) the match.",
+          "options": null,
+          "canonical": "to win",
+          "accepted_variants": [
+            "to win",
+            "to win.",
+            "win",
+            "to win?",
+            "to win!",
+            "To win",
+            "TO WIN"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "She tends ____ (worry) too much.",
+          "options": null,
+          "canonical": "to worry",
+          "accepted_variants": [
+            "to worry",
+            "to worry.",
+            "worry",
+            "to worry?",
+            "to worry!",
+            "To worry",
+            "TO WORRY"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "I’m waiting ____ (hear) from them.",
+          "options": null,
+          "canonical": "to hear",
+          "accepted_variants": [
+            "to hear",
+            "to hear.",
+            "hear",
+            "to hear?",
+            "to hear!",
+            "To hear",
+            "TO HEAR"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "He demanded ____ (see) the manager.",
+          "options": null,
+          "canonical": "to see",
+          "accepted_variants": [
+            "to see",
+            "to see.",
+            "see",
+            "to see?",
+            "to see!",
+            "To see",
+            "TO SEE"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        },
+        {
+          "prompt": "We hoped ____ (finish) before noon.",
+          "options": null,
+          "canonical": "to finish",
+          "accepted_variants": [
+            "to finish",
+            "to finish.",
+            "finish",
+            "to finish?",
+            "to finish!",
+            "To finish",
+            "TO FINISH"
+          ],
+          "rule_keys": [
+            "unit_54_A1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_55",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (to + infinitive, sometimes with an object).",
+      "items": [
+        {
+          "prompt": "I want ____ (you / come) with us.",
+          "options": null,
+          "canonical": "you to come",
+          "accepted_variants": [
+            "you to come",
+            "you to come.",
+            "you to come?",
+            "you to come!",
+            "You to come",
+            "YOU TO COME"
+          ],
+          "rule_keys": [
+            "unit_55_A1"
+          ]
+        },
+        {
+          "prompt": "She expects ____ (the train / arrive) on time.",
+          "options": null,
+          "canonical": "the train to arrive",
+          "accepted_variants": [
+            "the train to arrive",
+            "the train to arrive.",
+            "the train to arrive?",
+            "the train to arrive!",
+            "The train to arrive",
+            "THE TRAIN TO ARRIVE"
+          ],
+          "rule_keys": [
+            "unit_55_A1"
+          ]
+        },
+        {
+          "prompt": "I asked ____ (him / help) me.",
+          "options": null,
+          "canonical": "him to help",
+          "accepted_variants": [
+            "him to help",
+            "him to help.",
+            "him to help?",
+            "him to help!",
+            "Him to help",
+            "HIM TO HELP"
+          ],
+          "rule_keys": [
+            "unit_55_A1"
+          ]
+        },
+        {
+          "prompt": "They would like ____ (we / stay) for dinner.",
+          "options": null,
+          "canonical": "us to stay",
+          "accepted_variants": [
+            "us to stay",
+            "us to stay.",
+            "us to stay?",
+            "us to stay!",
+            "Us to stay",
+            "US TO STAY"
+          ],
+          "rule_keys": [
+            "unit_55_A1"
+          ]
+        },
+        {
+          "prompt": "Do you want ____ (go) now?",
+          "options": null,
+          "canonical": "to go",
+          "accepted_variants": [
+            "to go",
+            "to go.",
+            "to go?",
+            "to go!",
+            "To go",
+            "TO GO"
+          ],
+          "rule_keys": [
+            "unit_55_A1"
+          ]
+        },
+        {
+          "prompt": "Can you help me ____ (carry) this?",
+          "options": null,
+          "canonical": "carry",
+          "accepted_variants": [
+            "carry",
+            "carry.",
+            "carry?",
+            "carry!",
+            "Carry",
+            "CARRY"
+          ],
+          "rule_keys": [
+            "unit_55_A2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_55",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (verb + object + to…).",
+      "items": [
+        {
+          "prompt": "She reminded ____ (me / lock) the door.",
+          "options": null,
+          "canonical": "me to lock",
+          "accepted_variants": [
+            "me to lock",
+            "me to lock.",
+            "me to lock?",
+            "me to lock!",
+            "Me to lock",
+            "ME TO LOCK"
+          ],
+          "rule_keys": [
+            "unit_55_B1"
+          ]
+        },
+        {
+          "prompt": "The doctor advised ____ (him / rest) for a few days.",
+          "options": null,
+          "canonical": "him to rest",
+          "accepted_variants": [
+            "him to rest",
+            "him to rest.",
+            "him to rest?",
+            "him to rest!",
+            "Him to rest",
+            "HIM TO REST"
+          ],
+          "rule_keys": [
+            "unit_55_B1"
+          ]
+        },
+        {
+          "prompt": "They warned ____ (us / not touch) the wires.",
+          "options": null,
+          "canonical": "us not to touch",
+          "accepted_variants": [
+            "us not to touch",
+            "us not to touch.",
+            "us to touch",
+            "us not to touch?",
+            "us not to touch!",
+            "Us not to touch",
+            "US NOT TO TOUCH"
+          ],
+          "rule_keys": [
+            "unit_55_B1"
+          ]
+        },
+        {
+          "prompt": "I invited ____ (her / join) us for lunch.",
+          "options": null,
+          "canonical": "her to join",
+          "accepted_variants": [
+            "her to join",
+            "her to join.",
+            "her to join?",
+            "her to join!",
+            "Her to join",
+            "HER TO JOIN"
+          ],
+          "rule_keys": [
+            "unit_55_B1"
+          ]
+        },
+        {
+          "prompt": "His friends persuaded ____ (him / apply) for the job.",
+          "options": null,
+          "canonical": "him to apply",
+          "accepted_variants": [
+            "him to apply",
+            "him to apply.",
+            "him to apply?",
+            "him to apply!",
+            "Him to apply",
+            "HIM TO APPLY"
+          ],
+          "rule_keys": [
+            "unit_55_B1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_55",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the infinitive without to (make/let).",
+      "items": [
+        {
+          "prompt": "The joke made me ____ (laugh).",
+          "options": null,
+          "canonical": "laugh",
+          "accepted_variants": [
+            "laugh",
+            "laugh.",
+            "laugh?",
+            "laugh!",
+            "Laugh",
+            "LAUGH"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "My boss made us ____ (work) late.",
+          "options": null,
+          "canonical": "work",
+          "accepted_variants": [
+            "work",
+            "work.",
+            "work?",
+            "work!",
+            "Work",
+            "WORK"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "Don’t let the children ____ (play) near the road.",
+          "options": null,
+          "canonical": "play",
+          "accepted_variants": [
+            "play",
+            "play.",
+            "play?",
+            "play!",
+            "Play",
+            "PLAY"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "She let me ____ (use) her laptop.",
+          "options": null,
+          "canonical": "use",
+          "accepted_variants": [
+            "use",
+            "use.",
+            "use?",
+            "use!",
+            "Use",
+            "USE"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "The noise made him ____ (wake) up.",
+          "options": null,
+          "canonical": "wake",
+          "accepted_variants": [
+            "wake",
+            "wake.",
+            "wake?",
+            "wake!",
+            "Wake",
+            "WAKE"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "My parents didn’t let me ____ (stay) out late.",
+          "options": null,
+          "canonical": "stay",
+          "accepted_variants": [
+            "stay",
+            "stay.",
+            "stay?",
+            "stay!",
+            "Stay",
+            "STAY"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "The film made her ____ (cry).",
+          "options": null,
+          "canonical": "cry",
+          "accepted_variants": [
+            "cry",
+            "cry.",
+            "cry?",
+            "cry!",
+            "Cry",
+            "CRY"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "He let the dog ____ (sleep) on the sofa.",
+          "options": null,
+          "canonical": "sleep",
+          "accepted_variants": [
+            "sleep",
+            "sleep.",
+            "sleep?",
+            "sleep!",
+            "Sleep",
+            "SLEEP"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        },
+        {
+          "prompt": "The teacher made us ____ (repeat) the sentence.",
+          "options": null,
+          "canonical": "repeat",
+          "accepted_variants": [
+            "repeat",
+            "repeat.",
+            "repeat?",
+            "repeat!",
+            "Repeat",
+            "REPEAT"
+          ],
+          "rule_keys": [
+            "unit_55_C1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_55",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (passive forms and ‘be made to’).",
+      "items": [
+        {
+          "prompt": "We were allowed ____ (leave) early.",
+          "options": null,
+          "canonical": "to leave",
+          "accepted_variants": [
+            "to leave",
+            "to leave.",
+            "leave",
+            "to leave?",
+            "to leave!",
+            "To leave",
+            "TO LEAVE"
+          ],
+          "rule_keys": [
+            "unit_55_B2"
+          ]
+        },
+        {
+          "prompt": "He was warned ____ (not / drive) so fast.",
+          "options": null,
+          "canonical": "not to drive",
+          "accepted_variants": [
+            "not to drive",
+            "not to drive.",
+            "not drive",
+            "not to drive?",
+            "not to drive!",
+            "Not to drive",
+            "NOT TO DRIVE"
+          ],
+          "rule_keys": [
+            "unit_55_B2"
+          ]
+        },
+        {
+          "prompt": "I was invited ____ (give) a short talk.",
+          "options": null,
+          "canonical": "to give",
+          "accepted_variants": [
+            "to give",
+            "to give.",
+            "give",
+            "to give?",
+            "to give!",
+            "To give",
+            "TO GIVE"
+          ],
+          "rule_keys": [
+            "unit_55_B2"
+          ]
+        },
+        {
+          "prompt": "They were encouraged ____ (apply) again.",
+          "options": null,
+          "canonical": "to apply",
+          "accepted_variants": [
+            "to apply",
+            "to apply.",
+            "apply",
+            "to apply?",
+            "to apply!",
+            "To apply",
+            "TO APPLY"
+          ],
+          "rule_keys": [
+            "unit_55_B2"
+          ]
+        },
+        {
+          "prompt": "She was told ____ (wait) outside.",
+          "options": null,
+          "canonical": "to wait",
+          "accepted_variants": [
+            "to wait",
+            "to wait.",
+            "wait",
+            "to wait?",
+            "to wait!",
+            "To wait",
+            "TO WAIT"
+          ],
+          "rule_keys": [
+            "unit_55_B2"
+          ]
+        },
+        {
+          "prompt": "I was made ____ (apologise).",
+          "options": null,
+          "canonical": "to apologise",
+          "accepted_variants": [
+            "to apologise",
+            "to apologise.",
+            "apologise",
+            "to apologise?",
+            "to apologise!",
+            "To apologise",
+            "TO APOLOGISE"
+          ],
+          "rule_keys": [
+            "unit_55_C2"
+          ]
+        },
+        {
+          "prompt": "The kids were made ____ (clean) their room.",
+          "options": null,
+          "canonical": "to clean",
+          "accepted_variants": [
+            "to clean",
+            "to clean.",
+            "clean",
+            "to clean?",
+            "to clean!",
+            "To clean",
+            "TO CLEAN"
+          ],
+          "rule_keys": [
+            "unit_55_C2"
+          ]
+        },
+        {
+          "prompt": "He was persuaded ____ (take) the exam.",
+          "options": null,
+          "canonical": "to take",
+          "accepted_variants": [
+            "to take",
+            "to take.",
+            "take",
+            "to take?",
+            "to take!",
+            "To take",
+            "TO TAKE"
+          ],
+          "rule_keys": [
+            "unit_55_B2"
+          ]
+        },
+        {
+          "prompt": "We were advised ____ (book) online.",
+          "options": null,
+          "canonical": "to book",
+          "accepted_variants": [
+            "to book",
+            "to book.",
+            "book",
+            "to book?",
+            "to book!",
+            "To book",
+            "TO BOOK"
+          ],
+          "rule_keys": [
+            "unit_55_B2"
+          ]
+        },
+        {
+          "prompt": "I was made ____ (stand) in the corner.",
+          "options": null,
+          "canonical": "to stand",
+          "accepted_variants": [
+            "to stand",
+            "to stand.",
+            "stand",
+            "to stand?",
+            "to stand!",
+            "To stand",
+            "TO STAND"
+          ],
+          "rule_keys": [
+            "unit_55_C2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_56",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with the correct form (-ing or to + infinitive).",
+      "items": [
+        {
+          "prompt": "I enjoy ____ (swim) in the sea.",
+          "options": null,
+          "canonical": "swimming",
+          "accepted_variants": [
+            "swimming",
+            "swimming.",
+            "swimming?",
+            "swimming!",
+            "Swimming",
+            "SWIMMING"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "We decided ____ (take) the train.",
+          "options": null,
+          "canonical": "to take",
+          "accepted_variants": [
+            "to take",
+            "to take.",
+            "to take?",
+            "to take!",
+            "To take",
+            "TO TAKE"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "She avoided ____ (talk) to him.",
+          "options": null,
+          "canonical": "talking",
+          "accepted_variants": [
+            "talking",
+            "talking.",
+            "talking?",
+            "talking!",
+            "Talking",
+            "TALKING"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "He promised ____ (call) later.",
+          "options": null,
+          "canonical": "to call",
+          "accepted_variants": [
+            "to call",
+            "to call.",
+            "to call?",
+            "to call!",
+            "To call",
+            "TO CALL"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "They suggested ____ (meet) at 6.",
+          "options": null,
+          "canonical": "meeting",
+          "accepted_variants": [
+            "meeting",
+            "meeting.",
+            "meeting?",
+            "meeting!",
+            "Meeting",
+            "MEETING"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "I managed ____ (solve) the problem.",
+          "options": null,
+          "canonical": "to solve",
+          "accepted_variants": [
+            "to solve",
+            "to solve.",
+            "to solve?",
+            "to solve!",
+            "To solve",
+            "TO SOLVE"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "I finished ____ (read) the book.",
+          "options": null,
+          "canonical": "reading",
+          "accepted_variants": [
+            "reading",
+            "reading.",
+            "reading?",
+            "reading!",
+            "Reading",
+            "READING"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "I hope ____ (see) you soon.",
+          "options": null,
+          "canonical": "to see",
+          "accepted_variants": [
+            "to see",
+            "to see.",
+            "to see?",
+            "to see!",
+            "To see",
+            "TO SEE"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "I miss ____ (travel) with friends.",
+          "options": null,
+          "canonical": "travelling",
+          "accepted_variants": [
+            "travelling",
+            "travelling.",
+            "traveling",
+            "travelling?",
+            "travelling!",
+            "Travelling",
+            "TRAVELLING"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "We can’t afford ____ (buy) a new car.",
+          "options": null,
+          "canonical": "to buy",
+          "accepted_variants": [
+            "to buy",
+            "to buy.",
+            "to buy?",
+            "to buy!",
+            "To buy",
+            "TO BUY"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "They recommended ____ (try) the soup.",
+          "options": null,
+          "canonical": "trying",
+          "accepted_variants": [
+            "trying",
+            "trying.",
+            "trying?",
+            "trying!",
+            "Trying",
+            "TRYING"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "He refused ____ (answer) my email.",
+          "options": null,
+          "canonical": "to answer",
+          "accepted_variants": [
+            "to answer",
+            "to answer.",
+            "to answer?",
+            "to answer!",
+            "To answer",
+            "TO ANSWER"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "Have you considered ____ (move) abroad?",
+          "options": null,
+          "canonical": "moving",
+          "accepted_variants": [
+            "moving",
+            "moving.",
+            "moving?",
+            "moving!",
+            "Moving",
+            "MOVING"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        },
+        {
+          "prompt": "She learnt ____ (drive) last year.",
+          "options": null,
+          "canonical": "to drive",
+          "accepted_variants": [
+            "to drive",
+            "to drive.",
+            "to drive?",
+            "to drive!",
+            "To drive",
+            "TO DRIVE"
+          ],
+          "rule_keys": [
+            "unit_56_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_56",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with -ing or to + infinitive (remember / regret / go on).",
+      "items": [
+        {
+          "prompt": "I remember ____ (lock) the door. I did it before I left.",
+          "options": null,
+          "canonical": "locking",
+          "accepted_variants": [
+            "locking",
+            "locking.",
+            "locking?",
+            "locking!",
+            "Locking",
+            "LOCKING"
+          ],
+          "rule_keys": [
+            "unit_56_B1"
+          ]
+        },
+        {
+          "prompt": "Remember ____ (lock) the door when you go out.",
+          "options": null,
+          "canonical": "to lock",
+          "accepted_variants": [
+            "to lock",
+            "to lock.",
+            "lock",
+            "to lock?",
+            "to lock!",
+            "To lock",
+            "TO LOCK"
+          ],
+          "rule_keys": [
+            "unit_56_B1"
+          ]
+        },
+        {
+          "prompt": "We regret ____ (inform) you that your order is delayed.",
+          "options": null,
+          "canonical": "to inform",
+          "accepted_variants": [
+            "to inform",
+            "to inform.",
+            "inform",
+            "to inform?",
+            "to inform!",
+            "To inform",
+            "TO INFORM"
+          ],
+          "rule_keys": [
+            "unit_56_B2"
+          ]
+        },
+        {
+          "prompt": "He regrets ____ (sell) his old guitar.",
+          "options": null,
+          "canonical": "selling",
+          "accepted_variants": [
+            "selling",
+            "selling.",
+            "selling?",
+            "selling!",
+            "Selling",
+            "SELLING"
+          ],
+          "rule_keys": [
+            "unit_56_B2"
+          ]
+        },
+        {
+          "prompt": "She went on ____ (talk) even after the meeting ended.",
+          "options": null,
+          "canonical": "talking",
+          "accepted_variants": [
+            "talking",
+            "talking.",
+            "talking?",
+            "talking!",
+            "Talking",
+            "TALKING"
+          ],
+          "rule_keys": [
+            "unit_56_B3"
+          ]
+        },
+        {
+          "prompt": "After introducing himself, he went on ____ (explain) the plan.",
+          "options": null,
+          "canonical": "to explain",
+          "accepted_variants": [
+            "to explain",
+            "to explain.",
+            "explain",
+            "to explain?",
+            "to explain!",
+            "To explain",
+            "TO EXPLAIN"
+          ],
+          "rule_keys": [
+            "unit_56_B3"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_56",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. In many cases, -ing and to + infinitive are both possible.",
+      "items": [
+        {
+          "prompt": "1a) It started ____ (rain) while we were walking.",
+          "options": null,
+          "canonical": "raining",
+          "accepted_variants": [
+            "raining",
+            "to rain",
+            "to rain.",
+            "raining.",
+            "raining?",
+            "raining!",
+            "Raining",
+            "RAINING"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "1b) It’s starting ____ (get) cold. Take a jacket.",
+          "options": null,
+          "canonical": "to get",
+          "accepted_variants": [
+            "to get",
+            "getting",
+            "to get.",
+            "to get?",
+            "to get!",
+            "To get",
+            "TO GET"
+          ],
+          "rule_keys": [
+            "unit_56_C2"
+          ]
+        },
+        {
+          "prompt": "1c) She began ____ (cry) when she heard the news.",
+          "options": null,
+          "canonical": "to cry",
+          "accepted_variants": [
+            "to cry",
+            "crying",
+            "to cry.",
+            "to cry?",
+            "to cry!",
+            "To cry",
+            "TO CRY"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "1d) We started ____ (look) for a new flat.",
+          "options": null,
+          "canonical": "looking",
+          "accepted_variants": [
+            "looking",
+            "to look",
+            "looking.",
+            "looking?",
+            "looking!",
+            "Looking",
+            "LOOKING"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "1e) He started ____ (complain) immediately.",
+          "options": null,
+          "canonical": "complaining",
+          "accepted_variants": [
+            "complaining",
+            "to complain",
+            "complaining.",
+            "complaining?",
+            "complaining!",
+            "Complaining",
+            "COMPLAINING"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "1f) The engine began ____ (make) a strange noise.",
+          "options": null,
+          "canonical": "to make",
+          "accepted_variants": [
+            "to make",
+            "making",
+            "to make.",
+            "to make?",
+            "to make!",
+            "To make",
+            "TO MAKE"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "2a) She continued ____ (work) after midnight.",
+          "options": null,
+          "canonical": "working",
+          "accepted_variants": [
+            "working",
+            "to work",
+            "working.",
+            "working?",
+            "working!",
+            "Working",
+            "WORKING"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "2b) They continued ____ (argue) about it.",
+          "options": null,
+          "canonical": "to argue",
+          "accepted_variants": [
+            "to argue",
+            "arguing",
+            "to argue.",
+            "to argue?",
+            "to argue!",
+            "To argue",
+            "TO ARGUE"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "2c) The pain continued ____ (get) worse.",
+          "options": null,
+          "canonical": "to get",
+          "accepted_variants": [
+            "to get",
+            "getting",
+            "to get.",
+            "to get?",
+            "to get!",
+            "To get",
+            "TO GET"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "2d) I can’t continue ____ (do) this alone.",
+          "options": null,
+          "canonical": "doing",
+          "accepted_variants": [
+            "doing",
+            "to do",
+            "doing.",
+            "doing?",
+            "doing!",
+            "Doing",
+            "DOING"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "3a) I intend ____ (finish) today.",
+          "options": null,
+          "canonical": "to finish",
+          "accepted_variants": [
+            "to finish",
+            "finishing",
+            "to finish.",
+            "to finish?",
+            "to finish!",
+            "To finish",
+            "TO FINISH"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "3b) She didn’t intend ____ (stay) long.",
+          "options": null,
+          "canonical": "to stay",
+          "accepted_variants": [
+            "to stay",
+            "staying",
+            "to stay.",
+            "to stay?",
+            "to stay!",
+            "To stay",
+            "TO STAY"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "3c) He couldn’t be bothered ____ (cook) tonight.",
+          "options": null,
+          "canonical": "to cook",
+          "accepted_variants": [
+            "to cook",
+            "cooking",
+            "to cook.",
+            "to cook?",
+            "to cook!",
+            "To cook",
+            "TO COOK"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        },
+        {
+          "prompt": "3d) Don’t bother ____ (reply).",
+          "options": null,
+          "canonical": "to reply",
+          "accepted_variants": [
+            "to reply",
+            "replying",
+            "to reply.",
+            "to reply?",
+            "to reply!",
+            "To reply",
+            "TO REPLY"
+          ],
+          "rule_keys": [
+            "unit_56_C1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_57",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with try + to… or try + -ing.",
+      "items": [
+        {
+          "prompt": "I tried ____ (lift) the box, but it was too heavy.",
+          "options": null,
+          "canonical": "to lift",
+          "accepted_variants": [
+            "to lift",
+            "lift",
+            "to lift.",
+            "to lift?",
+            "to lift!",
+            "To lift",
+            "TO LIFT"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "She tried ____ (call) you, but your phone was off.",
+          "options": null,
+          "canonical": "to call",
+          "accepted_variants": [
+            "to call",
+            "call",
+            "to call.",
+            "to call?",
+            "to call!",
+            "To call",
+            "TO CALL"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "He’s trying ____ (save) money for a new bike.",
+          "options": null,
+          "canonical": "to save",
+          "accepted_variants": [
+            "to save",
+            "save",
+            "to save.",
+            "to save?",
+            "to save!",
+            "To save",
+            "TO SAVE"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "Try ____ (press) this button. It might work.",
+          "options": null,
+          "canonical": "pressing",
+          "accepted_variants": [
+            "pressing",
+            "pressing.",
+            "pressing?",
+            "pressing!",
+            "Pressing",
+            "PRESSING"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "If you have trouble sleeping, try ____ (drink) less coffee.",
+          "options": null,
+          "canonical": "drinking",
+          "accepted_variants": [
+            "drinking",
+            "drinking.",
+            "drinking?",
+            "drinking!",
+            "Drinking",
+            "DRINKING"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "We tried ____ (take) the early train, but we missed it.",
+          "options": null,
+          "canonical": "to take",
+          "accepted_variants": [
+            "to take",
+            "take",
+            "to take.",
+            "to take?",
+            "to take!",
+            "To take",
+            "TO TAKE"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "Try ____ (restart) the router.",
+          "options": null,
+          "canonical": "restarting",
+          "accepted_variants": [
+            "restarting",
+            "restarting.",
+            "restarting?",
+            "restarting!",
+            "Restarting",
+            "RESTARTING"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "I tried ____ (explain), but they didn’t listen.",
+          "options": null,
+          "canonical": "to explain",
+          "accepted_variants": [
+            "to explain",
+            "explain",
+            "to explain.",
+            "to explain?",
+            "to explain!",
+            "To explain",
+            "TO EXPLAIN"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        },
+        {
+          "prompt": "For a headache, try ____ (lie) down for a while.",
+          "options": null,
+          "canonical": "lying",
+          "accepted_variants": [
+            "lying",
+            "lying.",
+            "laying",
+            "lying?",
+            "lying!",
+            "Lying",
+            "LYING"
+          ],
+          "rule_keys": [
+            "unit_57_A1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_57",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with need to… or need -ing.",
+      "items": [
+        {
+          "prompt": "I need ____ (buy) some milk.",
+          "options": null,
+          "canonical": "to buy",
+          "accepted_variants": [
+            "to buy",
+            "buy",
+            "to buy.",
+            "to buy?",
+            "to buy!",
+            "To buy",
+            "TO BUY"
+          ],
+          "rule_keys": [
+            "unit_57_B"
+          ]
+        },
+        {
+          "prompt": "This shirt needs ____ (wash).",
+          "options": null,
+          "canonical": "washing",
+          "accepted_variants": [
+            "washing",
+            "washing.",
+            "washing?",
+            "washing!",
+            "Washing",
+            "WASHING"
+          ],
+          "rule_keys": [
+            "unit_57_B"
+          ]
+        },
+        {
+          "prompt": "Do you need ____ (see) a doctor?",
+          "options": null,
+          "canonical": "to see",
+          "accepted_variants": [
+            "to see",
+            "see",
+            "to see.",
+            "to see?",
+            "to see!",
+            "To see",
+            "TO SEE"
+          ],
+          "rule_keys": [
+            "unit_57_B"
+          ]
+        },
+        {
+          "prompt": "The batteries need ____ (replace).",
+          "options": null,
+          "canonical": "replacing",
+          "accepted_variants": [
+            "replacing",
+            "replacing.",
+            "replacing?",
+            "replacing!",
+            "Replacing",
+            "REPLACING"
+          ],
+          "rule_keys": [
+            "unit_57_B"
+          ]
+        },
+        {
+          "prompt": "We need ____ (leave) now.",
+          "options": null,
+          "canonical": "to leave",
+          "accepted_variants": [
+            "to leave",
+            "leave",
+            "to leave.",
+            "to leave?",
+            "to leave!",
+            "To leave",
+            "TO LEAVE"
+          ],
+          "rule_keys": [
+            "unit_57_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_57",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with help (to) + infinitive. Both forms are acceptable in many cases.",
+      "items": [
+        {
+          "prompt": "Can you help me ____ (carry) this?",
+          "options": null,
+          "canonical": "to carry",
+          "accepted_variants": [
+            "to carry",
+            "to carry.",
+            "to carry?",
+            "to carry!",
+            "To carry",
+            "TO CARRY"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        },
+        {
+          "prompt": "She helped ____ (organise) the event.",
+          "options": null,
+          "canonical": "to organise",
+          "accepted_variants": [
+            "to organise",
+            "to organize",
+            "organize",
+            "to organise.",
+            "to organise?",
+            "to organise!",
+            "To organise",
+            "TO ORGANISE"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        },
+        {
+          "prompt": "This app will help you ____ (learn) new words.",
+          "options": null,
+          "canonical": "to learn",
+          "accepted_variants": [
+            "to learn",
+            "to learn.",
+            "to learn?",
+            "to learn!",
+            "To learn",
+            "TO LEARN"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        },
+        {
+          "prompt": "Thanks for helping ____ (clean) up.",
+          "options": null,
+          "canonical": "clean",
+          "accepted_variants": [
+            "clean",
+            "to clean",
+            "clean.",
+            "clean?",
+            "clean!",
+            "Clean",
+            "CLEAN"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        },
+        {
+          "prompt": "He helped his sister ____ (move) house.",
+          "options": null,
+          "canonical": "move",
+          "accepted_variants": [
+            "move",
+            "to move",
+            "move.",
+            "move?",
+            "move!",
+            "Move",
+            "MOVE"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        },
+        {
+          "prompt": "Could you help ____ (set) the table?",
+          "options": null,
+          "canonical": "to set",
+          "accepted_variants": [
+            "to set",
+            "to set.",
+            "to set?",
+            "to set!",
+            "To set",
+            "TO SET"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        },
+        {
+          "prompt": "They helped us ____ (find) the station.",
+          "options": null,
+          "canonical": "to find",
+          "accepted_variants": [
+            "to find",
+            "to find.",
+            "to find?",
+            "to find!",
+            "To find",
+            "TO FIND"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        },
+        {
+          "prompt": "The guide helped us ____ (choose) a route.",
+          "options": null,
+          "canonical": "choose",
+          "accepted_variants": [
+            "choose",
+            "to choose",
+            "choose.",
+            "choose?",
+            "choose!",
+            "Choose",
+            "CHOOSE"
+          ],
+          "rule_keys": [
+            "unit_57_C1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_57",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with can’t help + -ing (or can’t help it).",
+      "items": [
+        {
+          "prompt": "I couldn’t help ____ (laugh) at his joke.",
+          "options": null,
+          "canonical": "laughing",
+          "accepted_variants": [
+            "laughing",
+            "laughing.",
+            "Laughing",
+            "laughing?",
+            "laughing!",
+            "LAUGHING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        },
+        {
+          "prompt": "She can’t help ____ (worry) about her kids.",
+          "options": null,
+          "canonical": "worrying",
+          "accepted_variants": [
+            "worrying",
+            "worrying.",
+            "Worrying",
+            "worrying?",
+            "worrying!",
+            "WORRYING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        },
+        {
+          "prompt": "Sorry—I can’t help ____ (be) impatient.",
+          "options": null,
+          "canonical": "being",
+          "accepted_variants": [
+            "being",
+            "being.",
+            "Being",
+            "being?",
+            "being!",
+            "BEING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        },
+        {
+          "prompt": "He couldn’t help ____ (look) at his phone.",
+          "options": null,
+          "canonical": "looking",
+          "accepted_variants": [
+            "looking",
+            "looking.",
+            "Looking",
+            "looking?",
+            "looking!",
+            "LOOKING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        },
+        {
+          "prompt": "I can’t help it. I’m ____ (feel) nervous.",
+          "options": null,
+          "canonical": "feeling",
+          "accepted_variants": [
+            "feeling",
+            "feeling.",
+            "Feeling",
+            "feeling?",
+            "feeling!",
+            "FEELING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        },
+        {
+          "prompt": "They couldn’t help ____ (smile) when they saw the photo.",
+          "options": null,
+          "canonical": "smiling",
+          "accepted_variants": [
+            "smiling",
+            "smiling.",
+            "Smiling",
+            "smiling?",
+            "smiling!",
+            "SMILING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        },
+        {
+          "prompt": "I can’t help ____ (think) about it.",
+          "options": null,
+          "canonical": "thinking",
+          "accepted_variants": [
+            "thinking",
+            "thinking.",
+            "Thinking",
+            "thinking?",
+            "thinking!",
+            "THINKING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        },
+        {
+          "prompt": "She couldn’t help ____ (cry).",
+          "options": null,
+          "canonical": "crying",
+          "accepted_variants": [
+            "crying",
+            "crying.",
+            "Crying",
+            "crying?",
+            "crying!",
+            "CRYING"
+          ],
+          "rule_keys": [
+            "unit_57_C2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_58",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with -ing or to + infinitive (both can be correct in general meanings).",
+      "items": [
+        {
+          "prompt": "I like ____ (read) in the evening.",
+          "options": null,
+          "canonical": "reading",
+          "accepted_variants": [
+            "reading",
+            "to read",
+            "reading.",
+            "reading?",
+            "reading!",
+            "Reading",
+            "READING"
+          ],
+          "rule_keys": [
+            "unit_58_A1"
+          ]
+        },
+        {
+          "prompt": "She loves ____ (dance).",
+          "options": null,
+          "canonical": "to dance",
+          "accepted_variants": [
+            "to dance",
+            "dancing",
+            "to dance.",
+            "to dance?",
+            "to dance!",
+            "To dance",
+            "TO DANCE"
+          ],
+          "rule_keys": [
+            "unit_58_A1"
+          ]
+        },
+        {
+          "prompt": "Do you like ____ (cook)?",
+          "options": null,
+          "canonical": "cooking",
+          "accepted_variants": [
+            "cooking",
+            "to cook",
+            "cooking.",
+            "cooking?",
+            "cooking!",
+            "Cooking",
+            "COOKING"
+          ],
+          "rule_keys": [
+            "unit_58_A1"
+          ]
+        },
+        {
+          "prompt": "He hates ____ (get) up early.",
+          "options": null,
+          "canonical": "getting",
+          "accepted_variants": [
+            "getting",
+            "to get",
+            "getting.",
+            "getting?",
+            "getting!",
+            "Getting",
+            "GETTING"
+          ],
+          "rule_keys": [
+            "unit_58_A1"
+          ]
+        },
+        {
+          "prompt": "I don’t like ____ (drive) at night.",
+          "options": null,
+          "canonical": "driving",
+          "accepted_variants": [
+            "driving",
+            "to drive",
+            "driving.",
+            "driving?",
+            "driving!",
+            "Driving",
+            "DRIVING"
+          ],
+          "rule_keys": [
+            "unit_58_A1"
+          ]
+        },
+        {
+          "prompt": "They love ____ (travel).",
+          "options": null,
+          "canonical": "travelling",
+          "accepted_variants": [
+            "travelling",
+            "to travel",
+            "traveling",
+            "travelling.",
+            "travelling?",
+            "travelling!",
+            "Travelling",
+            "TRAVELLING"
+          ],
+          "rule_keys": [
+            "unit_58_A1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_58",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use -ing for existing situations, and choose between like doing / like to do when needed.",
+      "items": [
+        {
+          "prompt": "He likes ____ (live) near the sea.",
+          "options": null,
+          "canonical": "living",
+          "accepted_variants": [
+            "living",
+            "living.",
+            "living?",
+            "living!",
+            "Living",
+            "LIVING"
+          ],
+          "rule_keys": [
+            "unit_58_A2"
+          ]
+        },
+        {
+          "prompt": "I hated ____ (work) in that open-plan office.",
+          "options": null,
+          "canonical": "working",
+          "accepted_variants": [
+            "working",
+            "working.",
+            "working?",
+            "working!",
+            "Working",
+            "WORKING"
+          ],
+          "rule_keys": [
+            "unit_58_A2"
+          ]
+        },
+        {
+          "prompt": "I like ____ (swim) in the sea. It’s fun.",
+          "options": null,
+          "canonical": "swimming",
+          "accepted_variants": [
+            "swimming",
+            "to swim",
+            "swimming.",
+            "swimming?",
+            "swimming!",
+            "Swimming",
+            "SWIMMING"
+          ],
+          "rule_keys": [
+            "unit_58_A3"
+          ]
+        },
+        {
+          "prompt": "I like ____ (swim) early, before it gets crowded.",
+          "options": null,
+          "canonical": "to swim",
+          "accepted_variants": [
+            "to swim",
+            "swimming",
+            "to swim.",
+            "to swim?",
+            "to swim!",
+            "To swim",
+            "TO SWIM"
+          ],
+          "rule_keys": [
+            "unit_58_A3"
+          ]
+        },
+        {
+          "prompt": "She likes ____ (be) alone when she studies.",
+          "options": null,
+          "canonical": "being",
+          "accepted_variants": [
+            "being",
+            "being.",
+            "being?",
+            "being!",
+            "Being",
+            "BEING"
+          ],
+          "rule_keys": [
+            "unit_58_A2"
+          ]
+        },
+        {
+          "prompt": "He doesn’t like ____ (talk) about money.",
+          "options": null,
+          "canonical": "talking",
+          "accepted_variants": [
+            "talking",
+            "to talk",
+            "talking.",
+            "talking?",
+            "talking!",
+            "Talking",
+            "TALKING"
+          ],
+          "rule_keys": [
+            "unit_58_A2"
+          ]
+        },
+        {
+          "prompt": "I like ____ (cook). It relaxes me.",
+          "options": null,
+          "canonical": "cooking",
+          "accepted_variants": [
+            "cooking",
+            "to cook",
+            "cooking.",
+            "cooking?",
+            "cooking!",
+            "Cooking",
+            "COOKING"
+          ],
+          "rule_keys": [
+            "unit_58_A3"
+          ]
+        },
+        {
+          "prompt": "I like ____ (cook) early, so dinner is ready by six.",
+          "options": null,
+          "canonical": "to cook",
+          "accepted_variants": [
+            "to cook",
+            "cooking",
+            "to cook.",
+            "to cook?",
+            "to cook!",
+            "To cook",
+            "TO COOK"
+          ],
+          "rule_keys": [
+            "unit_58_A3"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_58",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (would like/love/prefer + to… ; would mind + -ing).",
+      "items": [
+        {
+          "prompt": "I’d like ____ (see) that exhibition.",
+          "options": null,
+          "canonical": "to see",
+          "accepted_variants": [
+            "to see",
+            "see",
+            "to see.",
+            "to see?",
+            "to see!",
+            "To see",
+            "TO SEE"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "Would you like ____ (come) with us?",
+          "options": null,
+          "canonical": "to come",
+          "accepted_variants": [
+            "to come",
+            "come",
+            "to come.",
+            "to come?",
+            "to come!",
+            "To come",
+            "TO COME"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "She’d love ____ (visit) Japan one day.",
+          "options": null,
+          "canonical": "to visit",
+          "accepted_variants": [
+            "to visit",
+            "visit",
+            "to visit.",
+            "to visit?",
+            "to visit!",
+            "To visit",
+            "TO VISIT"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "I’d prefer ____ (stay) at home tonight.",
+          "options": null,
+          "canonical": "to stay",
+          "accepted_variants": [
+            "to stay",
+            "stay",
+            "to stay.",
+            "to stay?",
+            "to stay!",
+            "To stay",
+            "TO STAY"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "Would you mind ____ (close) the window?",
+          "options": null,
+          "canonical": "closing",
+          "accepted_variants": [
+            "closing",
+            "closing.",
+            "closing?",
+            "closing!",
+            "Closing",
+            "CLOSING"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "I wouldn’t like ____ (miss) the last train.",
+          "options": null,
+          "canonical": "to miss",
+          "accepted_variants": [
+            "to miss",
+            "miss",
+            "to miss.",
+            "to miss?",
+            "to miss!",
+            "To miss",
+            "TO MISS"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "He’d hate ____ (be) late again.",
+          "options": null,
+          "canonical": "to be",
+          "accepted_variants": [
+            "to be",
+            "be",
+            "to be.",
+            "to be?",
+            "to be!",
+            "To be",
+            "TO BE"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "Would you like ____ (have) some tea?",
+          "options": null,
+          "canonical": "to have",
+          "accepted_variants": [
+            "to have",
+            "have",
+            "to have.",
+            "to have?",
+            "to have!",
+            "To have",
+            "TO HAVE"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "Would you mind ____ (wait) a moment?",
+          "options": null,
+          "canonical": "waiting",
+          "accepted_variants": [
+            "waiting",
+            "waiting.",
+            "waiting?",
+            "waiting!",
+            "Waiting",
+            "WAITING"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "I’d prefer ____ (not / talk) about it.",
+          "options": null,
+          "canonical": "not to talk",
+          "accepted_variants": [
+            "not to talk",
+            "not to talk.",
+            "to talk",
+            "not to talk?",
+            "not to talk!",
+            "Not to talk",
+            "NOT TO TALK"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "She’d love ____ (help) you.",
+          "options": null,
+          "canonical": "to help",
+          "accepted_variants": [
+            "to help",
+            "help",
+            "to help.",
+            "to help?",
+            "to help!",
+            "To help",
+            "TO HELP"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        },
+        {
+          "prompt": "I’d like ____ (know) your opinion.",
+          "options": null,
+          "canonical": "to know",
+          "accepted_variants": [
+            "to know",
+            "know",
+            "to know.",
+            "to know?",
+            "to know!",
+            "To know",
+            "TO KNOW"
+          ],
+          "rule_keys": [
+            "unit_58_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_58",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with would like/love/hate + to have done (regret about the past).",
+      "items": [
+        {
+          "prompt": "I’d like ____ (see) the old town, but we had no time.",
+          "options": null,
+          "canonical": "to have seen",
+          "accepted_variants": [
+            "to have seen",
+            "to have seen.",
+            "seen",
+            "to have seen?",
+            "to have seen!",
+            "To have seen",
+            "TO HAVE SEEN"
+          ],
+          "rule_keys": [
+            "unit_58_C"
+          ]
+        },
+        {
+          "prompt": "She’d love ____ (meet) your grandfather.",
+          "options": null,
+          "canonical": "to have met",
+          "accepted_variants": [
+            "to have met",
+            "to have met.",
+            "met",
+            "to have met?",
+            "to have met!",
+            "To have met",
+            "TO HAVE MET"
+          ],
+          "rule_keys": [
+            "unit_58_C"
+          ]
+        },
+        {
+          "prompt": "We’d hate ____ (miss) the show.",
+          "options": null,
+          "canonical": "to have missed",
+          "accepted_variants": [
+            "to have missed",
+            "to have missed.",
+            "missed",
+            "to have missed?",
+            "to have missed!",
+            "To have missed",
+            "TO HAVE MISSED"
+          ],
+          "rule_keys": [
+            "unit_58_C"
+          ]
+        },
+        {
+          "prompt": "I’d like ____ (go) with you, but I was ill.",
+          "options": null,
+          "canonical": "to have gone",
+          "accepted_variants": [
+            "to have gone",
+            "to have gone.",
+            "gone",
+            "to have gone?",
+            "to have gone!",
+            "To have gone",
+            "TO HAVE GONE"
+          ],
+          "rule_keys": [
+            "unit_58_C"
+          ]
+        },
+        {
+          "prompt": "He’d hate ____ (forget) your birthday.",
+          "options": null,
+          "canonical": "to have forgotten",
+          "accepted_variants": [
+            "to have forgotten",
+            "to have forgotten.",
+            "forgotten",
+            "to have forgotten?",
+            "to have forgotten!",
+            "To have forgotten",
+            "TO HAVE FORGOTTEN"
+          ],
+          "rule_keys": [
+            "unit_58_C"
+          ]
+        },
+        {
+          "prompt": "I’d like ____ (thank) her properly, but I never got the chance.",
+          "options": null,
+          "canonical": "to have thanked",
+          "accepted_variants": [
+            "to have thanked",
+            "to have thanked.",
+            "thanked",
+            "to have thanked?",
+            "to have thanked!",
+            "To have thanked",
+            "TO HAVE THANKED"
+          ],
+          "rule_keys": [
+            "unit_58_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_59",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with prefer (to / -ing / …to… / …rather than…).",
+      "items": [
+        {
+          "prompt": "I prefer tea ____ coffee.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "to.",
+            "to?",
+            "to!",
+            "To",
+            "TO"
+          ],
+          "rule_keys": [
+            "unit_59_A2"
+          ]
+        },
+        {
+          "prompt": "I prefer ____ (walk) to driving.",
+          "options": null,
+          "canonical": "walking",
+          "accepted_variants": [
+            "walking",
+            "walking.",
+            "walking?",
+            "walking!",
+            "Walking",
+            "WALKING"
+          ],
+          "rule_keys": [
+            "unit_59_A2"
+          ]
+        },
+        {
+          "prompt": "He prefers cycling ____ taking the bus.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "to.",
+            "to?",
+            "to!",
+            "To",
+            "TO"
+          ],
+          "rule_keys": [
+            "unit_59_A2"
+          ]
+        },
+        {
+          "prompt": "I prefer to stay at home ____ go out.",
+          "options": null,
+          "canonical": "rather than",
+          "accepted_variants": [
+            "rather than",
+            "rather than.",
+            "rather than?",
+            "rather than!",
+            "Rather than",
+            "RATHER THAN"
+          ],
+          "rule_keys": [
+            "unit_59_A2"
+          ]
+        },
+        {
+          "prompt": "She prefers ____ (read) books to watching TV.",
+          "options": null,
+          "canonical": "reading",
+          "accepted_variants": [
+            "reading",
+            "reading.",
+            "reading?",
+            "reading!",
+            "Reading",
+            "READING"
+          ],
+          "rule_keys": [
+            "unit_59_A2"
+          ]
+        },
+        {
+          "prompt": "I prefer to eat early ____ late.",
+          "options": null,
+          "canonical": "rather than",
+          "accepted_variants": [
+            "rather than",
+            "rather than.",
+            "rather than?",
+            "rather than!",
+            "Rather than",
+            "RATHER THAN"
+          ],
+          "rule_keys": [
+            "unit_59_A2"
+          ]
+        },
+        {
+          "prompt": "They prefer ____ (live) in a small town.",
+          "options": null,
+          "canonical": "living",
+          "accepted_variants": [
+            "living",
+            "living.",
+            "to live",
+            "living?",
+            "living!",
+            "Living",
+            "LIVING"
+          ],
+          "rule_keys": [
+            "unit_59_A1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_59",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with would prefer (to…) or would rather (base verb).",
+      "items": [
+        {
+          "prompt": "I’d prefer ____ (have) a quiet evening.",
+          "options": null,
+          "canonical": "to have",
+          "accepted_variants": [
+            "to have",
+            "to have.",
+            "have",
+            "to have?",
+            "to have!",
+            "To have",
+            "TO HAVE"
+          ],
+          "rule_keys": [
+            "unit_59_B"
+          ]
+        },
+        {
+          "prompt": "I’d prefer ____ (not / drive) in this snow.",
+          "options": null,
+          "canonical": "not to drive",
+          "accepted_variants": [
+            "not to drive",
+            "not to drive.",
+            "not to drive?",
+            "not to drive!",
+            "Not to drive",
+            "NOT TO DRIVE"
+          ],
+          "rule_keys": [
+            "unit_59_B"
+          ]
+        },
+        {
+          "prompt": "I’d rather ____ (walk) than take a taxi.",
+          "options": null,
+          "canonical": "walk",
+          "accepted_variants": [
+            "walk",
+            "walk.",
+            "walk?",
+            "walk!",
+            "Walk",
+            "WALK"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "I’d rather ____ (not / talk) about it.",
+          "options": null,
+          "canonical": "not talk",
+          "accepted_variants": [
+            "not talk",
+            "not talk.",
+            "not talk?",
+            "not talk!",
+            "Not talk",
+            "NOT TALK"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "Would you prefer ____ (eat) now or later?",
+          "options": null,
+          "canonical": "to eat",
+          "accepted_variants": [
+            "to eat",
+            "to eat.",
+            "eat",
+            "to eat?",
+            "to eat!",
+            "To eat",
+            "TO EAT"
+          ],
+          "rule_keys": [
+            "unit_59_B"
+          ]
+        },
+        {
+          "prompt": "I’d rather ____ (stay) here.",
+          "options": null,
+          "canonical": "stay",
+          "accepted_variants": [
+            "stay",
+            "stay.",
+            "stay?",
+            "stay!",
+            "Stay",
+            "STAY"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "I’d prefer ____ (go) by train.",
+          "options": null,
+          "canonical": "to go",
+          "accepted_variants": [
+            "to go",
+            "to go.",
+            "go",
+            "to go?",
+            "to go!",
+            "To go",
+            "TO GO"
+          ],
+          "rule_keys": [
+            "unit_59_B"
+          ]
+        },
+        {
+          "prompt": "I’d rather ____ (not / go) out tonight.",
+          "options": null,
+          "canonical": "not go",
+          "accepted_variants": [
+            "not go",
+            "not go.",
+            "not go?",
+            "not go!",
+            "Not go",
+            "NOT GO"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "I’d prefer ____ (meet) at six.",
+          "options": null,
+          "canonical": "to meet",
+          "accepted_variants": [
+            "to meet",
+            "to meet.",
+            "meet",
+            "to meet?",
+            "to meet!",
+            "To meet",
+            "TO MEET"
+          ],
+          "rule_keys": [
+            "unit_59_B"
+          ]
+        },
+        {
+          "prompt": "I’d rather ____ (have) coffee, please.",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have",
+            "have.",
+            "have?",
+            "have!",
+            "Have",
+            "HAVE"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "Would you rather ____ (sit) inside?",
+          "options": null,
+          "canonical": "sit",
+          "accepted_variants": [
+            "sit",
+            "sit.",
+            "sit?",
+            "sit!",
+            "Sit",
+            "SIT"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "I’d prefer ____ (not / wait) any longer.",
+          "options": null,
+          "canonical": "not to wait",
+          "accepted_variants": [
+            "not to wait",
+            "not to wait.",
+            "not to wait?",
+            "not to wait!",
+            "Not to wait",
+            "NOT TO WAIT"
+          ],
+          "rule_keys": [
+            "unit_59_B"
+          ]
+        },
+        {
+          "prompt": "I’d rather ____ (finish) this first.",
+          "options": null,
+          "canonical": "finish",
+          "accepted_variants": [
+            "finish",
+            "finish.",
+            "finish?",
+            "finish!",
+            "Finish",
+            "FINISH"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "I’d prefer ____ (see) the menu, please.",
+          "options": null,
+          "canonical": "to see",
+          "accepted_variants": [
+            "to see",
+            "to see.",
+            "see",
+            "to see?",
+            "to see!",
+            "To see",
+            "TO SEE"
+          ],
+          "rule_keys": [
+            "unit_59_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_59",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with than (would rather … than …).",
+      "items": [
+        {
+          "prompt": "I’d rather stay at home ____ go out.",
+          "options": null,
+          "canonical": "than",
+          "accepted_variants": [
+            "than",
+            "than.",
+            "than?",
+            "than!",
+            "Than",
+            "THAN"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "She’d rather read ____ watch TV.",
+          "options": null,
+          "canonical": "than",
+          "accepted_variants": [
+            "than",
+            "than.",
+            "than?",
+            "than!",
+            "Than",
+            "THAN"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "We’d rather wait here ____ leave now.",
+          "options": null,
+          "canonical": "than",
+          "accepted_variants": [
+            "than",
+            "than.",
+            "than?",
+            "than!",
+            "Than",
+            "THAN"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        },
+        {
+          "prompt": "He’d rather take a taxi ____ walk in the rain.",
+          "options": null,
+          "canonical": "than",
+          "accepted_variants": [
+            "than",
+            "than.",
+            "than?",
+            "than!",
+            "Than",
+            "THAN"
+          ],
+          "rule_keys": [
+            "unit_59_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_59",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (I’d rather you did/didn’t …).",
+      "items": [
+        {
+          "prompt": "I’d rather you ____ (not / smoke) in here.",
+          "options": null,
+          "canonical": "didn’t smoke",
+          "accepted_variants": [
+            "didn’t smoke",
+            "didn't smoke",
+            "didn’t smoke.",
+            "didn't smoke.",
+            "didn’t smoke?",
+            "didn’t smoke!",
+            "Didn’t smoke",
+            "DIDN’T SMOKE"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "I’d rather you ____ (be) on time tomorrow.",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were",
+            "were.",
+            "were?",
+            "were!",
+            "Were",
+            "WERE"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "Would you rather I ____ (wait) outside?",
+          "options": null,
+          "canonical": "waited",
+          "accepted_variants": [
+            "waited",
+            "waited.",
+            "waited?",
+            "waited!",
+            "Waited",
+            "WAITED"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "I’d rather she ____ (not / drive) tonight.",
+          "options": null,
+          "canonical": "didn’t drive",
+          "accepted_variants": [
+            "didn’t drive",
+            "didn't drive",
+            "didn’t drive.",
+            "didn't drive.",
+            "didn’t drive?",
+            "didn’t drive!",
+            "Didn’t drive",
+            "DIDN’T DRIVE"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "I’d rather you ____ (not / tell) anyone.",
+          "options": null,
+          "canonical": "didn’t tell",
+          "accepted_variants": [
+            "didn’t tell",
+            "didn't tell",
+            "didn’t tell.",
+            "didn't tell.",
+            "didn’t tell?",
+            "didn’t tell!",
+            "Didn’t tell",
+            "DIDN’T TELL"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "He’d rather his kids ____ (study) more.",
+          "options": null,
+          "canonical": "studied",
+          "accepted_variants": [
+            "studied",
+            "studied.",
+            "studied?",
+            "studied!",
+            "Studied",
+            "STUDIED"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "Would you rather we ____ (leave) now?",
+          "options": null,
+          "canonical": "left",
+          "accepted_variants": [
+            "left",
+            "left.",
+            "left?",
+            "left!",
+            "Left",
+            "LEFT"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "I’d rather you ____ (not / phone) me after 10.",
+          "options": null,
+          "canonical": "didn’t phone",
+          "accepted_variants": [
+            "didn’t phone",
+            "didn't phone",
+            "didn’t phone.",
+            "didn't phone.",
+            "didn’t phone?",
+            "didn’t phone!",
+            "Didn’t phone",
+            "DIDN’T PHONE"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "She’d rather I ____ (help) her.",
+          "options": null,
+          "canonical": "helped",
+          "accepted_variants": [
+            "helped",
+            "helped.",
+            "helped?",
+            "helped!",
+            "Helped",
+            "HELPED"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        },
+        {
+          "prompt": "I’d rather they ____ (not / come) too early.",
+          "options": null,
+          "canonical": "didn’t come",
+          "accepted_variants": [
+            "didn’t come",
+            "didn't come",
+            "didn’t come.",
+            "didn't come.",
+            "didn’t come?",
+            "didn’t come!",
+            "Didn’t come",
+            "DIDN’T COME"
+          ],
+          "rule_keys": [
+            "unit_59_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_60",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use a preposition + -ing.",
+      "items": [
+        {
+          "prompt": "I’m not very good ____ (remember) names.",
+          "options": null,
+          "canonical": "at remembering",
+          "accepted_variants": [
+            "at remembering",
+            "at remembering.",
+            "at remembering?",
+            "at remembering!",
+            "At remembering",
+            "AT REMEMBERING"
+          ],
+          "rule_keys": [
+            "unit_60_A"
+          ]
+        },
+        {
+          "prompt": "Thanks ____ (help) me.",
+          "options": null,
+          "canonical": "for helping",
+          "accepted_variants": [
+            "for helping",
+            "for helping.",
+            "for helping?",
+            "for helping!",
+            "For helping",
+            "FOR HELPING"
+          ],
+          "rule_keys": [
+            "unit_60_A"
+          ]
+        },
+        {
+          "prompt": "They’re interested ____ (buy) a house.",
+          "options": null,
+          "canonical": "in buying",
+          "accepted_variants": [
+            "in buying",
+            "in buying.",
+            "in buying?",
+            "in buying!",
+            "In buying",
+            "IN BUYING"
+          ],
+          "rule_keys": [
+            "unit_60_A"
+          ]
+        },
+        {
+          "prompt": "I’m tired ____ (wait).",
+          "options": null,
+          "canonical": "of waiting",
+          "accepted_variants": [
+            "of waiting",
+            "of waiting.",
+            "of waiting?",
+            "of waiting!",
+            "Of waiting",
+            "OF WAITING"
+          ],
+          "rule_keys": [
+            "unit_60_A"
+          ]
+        },
+        {
+          "prompt": "She left without ____ (say) goodbye.",
+          "options": null,
+          "canonical": "saying",
+          "accepted_variants": [
+            "saying",
+            "saying.",
+            "saying?",
+            "saying!",
+            "Saying",
+            "SAYING"
+          ],
+          "rule_keys": [
+            "unit_60_B3"
+          ]
+        },
+        {
+          "prompt": "We talked about ____ (move) abroad.",
+          "options": null,
+          "canonical": "moving",
+          "accepted_variants": [
+            "moving",
+            "moving.",
+            "moving?",
+            "moving!",
+            "Moving",
+            "MOVING"
+          ],
+          "rule_keys": [
+            "unit_60_A"
+          ]
+        },
+        {
+          "prompt": "There’s no point ____ (argue) about it.",
+          "options": null,
+          "canonical": "in arguing",
+          "accepted_variants": [
+            "in arguing",
+            "in arguing.",
+            "in arguing?",
+            "in arguing!",
+            "In arguing",
+            "IN ARGUING"
+          ],
+          "rule_keys": [
+            "unit_60_A"
+          ]
+        },
+        {
+          "prompt": "I apologized ____ (be) late.",
+          "options": null,
+          "canonical": "for being",
+          "accepted_variants": [
+            "for being",
+            "for being.",
+            "for being?",
+            "for being!",
+            "For being",
+            "FOR BEING"
+          ],
+          "rule_keys": [
+            "unit_60_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_60",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with by + -ing.",
+      "items": [
+        {
+          "prompt": "You can open it ____ (turn) the key.",
+          "options": null,
+          "canonical": "by turning",
+          "accepted_variants": [
+            "by turning",
+            "by turning.",
+            "by turning?",
+            "by turning!",
+            "By turning",
+            "BY TURNING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "He improved his English ____ (practise) every day.",
+          "options": null,
+          "canonical": "by practising",
+          "accepted_variants": [
+            "by practising",
+            "by practicing",
+            "by practising.",
+            "by practising?",
+            "by practising!",
+            "By practising",
+            "BY PRACTISING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "She saved money ____ (cook) at home.",
+          "options": null,
+          "canonical": "by cooking",
+          "accepted_variants": [
+            "by cooking",
+            "by cooking.",
+            "by cooking?",
+            "by cooking!",
+            "By cooking",
+            "BY COOKING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "I solved the problem ____ (restart) the computer.",
+          "options": null,
+          "canonical": "by restarting",
+          "accepted_variants": [
+            "by restarting",
+            "by restarting.",
+            "by restarting?",
+            "by restarting!",
+            "By restarting",
+            "BY RESTARTING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "You can lose weight ____ (eat) less sugar.",
+          "options": null,
+          "canonical": "by eating",
+          "accepted_variants": [
+            "by eating",
+            "by eating.",
+            "by eating?",
+            "by eating!",
+            "By eating",
+            "BY EATING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "They found the address ____ (ask) a neighbour.",
+          "options": null,
+          "canonical": "by asking",
+          "accepted_variants": [
+            "by asking",
+            "by asking.",
+            "by asking?",
+            "by asking!",
+            "By asking",
+            "BY ASKING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_60",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with the -ing form after before/after/by/without.",
+      "items": [
+        {
+          "prompt": "____ (Before/After) leaving, I checked my passport.",
+          "options": null,
+          "canonical": "Before",
+          "accepted_variants": [
+            "Before",
+            "Before.",
+            "Before?",
+            "Before!",
+            "before",
+            "BEFORE"
+          ],
+          "rule_keys": [
+            "unit_60_B1"
+          ]
+        },
+        {
+          "prompt": "After ____ (finish) dinner, we went for a walk.",
+          "options": null,
+          "canonical": "finishing",
+          "accepted_variants": [
+            "finishing",
+            "finishing.",
+            "finishing?",
+            "finishing!",
+            "Finishing",
+            "FINISHING"
+          ],
+          "rule_keys": [
+            "unit_60_B1"
+          ]
+        },
+        {
+          "prompt": "He left without ____ (pay).",
+          "options": null,
+          "canonical": "paying",
+          "accepted_variants": [
+            "paying",
+            "paying.",
+            "paying?",
+            "paying!",
+            "Paying",
+            "PAYING"
+          ],
+          "rule_keys": [
+            "unit_60_B3"
+          ]
+        },
+        {
+          "prompt": "I managed to do it by ____ (work) late.",
+          "options": null,
+          "canonical": "working",
+          "accepted_variants": [
+            "working",
+            "working.",
+            "working?",
+            "working!",
+            "Working",
+            "WORKING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "Before ____ (go) to bed, I set an alarm.",
+          "options": null,
+          "canonical": "going",
+          "accepted_variants": [
+            "going",
+            "going.",
+            "going?",
+            "going!",
+            "Going",
+            "GOING"
+          ],
+          "rule_keys": [
+            "unit_60_B1"
+          ]
+        },
+        {
+          "prompt": "She got the job by ____ (impress) the interviewers.",
+          "options": null,
+          "canonical": "impressing",
+          "accepted_variants": [
+            "impressing",
+            "impressing.",
+            "impressing?",
+            "impressing!",
+            "Impressing",
+            "IMPRESSING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "They drove home without ____ (stop).",
+          "options": null,
+          "canonical": "stopping",
+          "accepted_variants": [
+            "stopping",
+            "stopping.",
+            "stopping?",
+            "stopping!",
+            "Stopping",
+            "STOPPING"
+          ],
+          "rule_keys": [
+            "unit_60_B3"
+          ]
+        },
+        {
+          "prompt": "After ____ (arrive), call me.",
+          "options": null,
+          "canonical": "arriving",
+          "accepted_variants": [
+            "arriving",
+            "arriving.",
+            "arriving?",
+            "arriving!",
+            "Arriving",
+            "ARRIVING"
+          ],
+          "rule_keys": [
+            "unit_60_B1"
+          ]
+        },
+        {
+          "prompt": "You can’t succeed without ____ (try).",
+          "options": null,
+          "canonical": "trying",
+          "accepted_variants": [
+            "trying",
+            "trying.",
+            "trying?",
+            "trying!",
+            "Trying",
+            "TRYING"
+          ],
+          "rule_keys": [
+            "unit_60_B3"
+          ]
+        },
+        {
+          "prompt": "He warmed up before ____ (run).",
+          "options": null,
+          "canonical": "running",
+          "accepted_variants": [
+            "running",
+            "running.",
+            "running?",
+            "running!",
+            "Running",
+            "RUNNING"
+          ],
+          "rule_keys": [
+            "unit_60_B1"
+          ]
+        },
+        {
+          "prompt": "I learned a lot by ____ (make) mistakes.",
+          "options": null,
+          "canonical": "making",
+          "accepted_variants": [
+            "making",
+            "making.",
+            "making?",
+            "making!",
+            "Making",
+            "MAKING"
+          ],
+          "rule_keys": [
+            "unit_60_B2"
+          ]
+        },
+        {
+          "prompt": "She left without ____ (tell) me.",
+          "options": null,
+          "canonical": "telling",
+          "accepted_variants": [
+            "telling",
+            "telling.",
+            "telling?",
+            "telling!",
+            "Telling",
+            "TELLING"
+          ],
+          "rule_keys": [
+            "unit_60_B3"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_60",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Here to is a preposition, so use to + -ing.",
+      "items": [
+        {
+          "prompt": "I’m looking forward ____ (see) you.",
+          "options": null,
+          "canonical": "to seeing",
+          "accepted_variants": [
+            "to seeing",
+            "to seeing.",
+            "seeing",
+            "to seeing?",
+            "to seeing!",
+            "To seeing",
+            "TO SEEING"
+          ],
+          "rule_keys": [
+            "unit_60_C1"
+          ]
+        },
+        {
+          "prompt": "I’m not used ____ (get) up so early.",
+          "options": null,
+          "canonical": "to getting",
+          "accepted_variants": [
+            "to getting",
+            "to getting.",
+            "getting",
+            "to getting?",
+            "to getting!",
+            "To getting",
+            "TO GETTING"
+          ],
+          "rule_keys": [
+            "unit_60_C1"
+          ]
+        },
+        {
+          "prompt": "She objected ____ (pay) for it.",
+          "options": null,
+          "canonical": "to paying",
+          "accepted_variants": [
+            "to paying",
+            "to paying.",
+            "paying",
+            "to paying?",
+            "to paying!",
+            "To paying",
+            "TO PAYING"
+          ],
+          "rule_keys": [
+            "unit_60_C1"
+          ]
+        },
+        {
+          "prompt": "I prefer walking ____ (drive).",
+          "options": null,
+          "canonical": "to driving",
+          "accepted_variants": [
+            "to driving",
+            "to driving.",
+            "driving",
+            "to driving?",
+            "to driving!",
+            "To driving",
+            "TO DRIVING"
+          ],
+          "rule_keys": [
+            "unit_60_C1"
+          ]
+        },
+        {
+          "prompt": "We’re committed ____ (reduce) waste.",
+          "options": null,
+          "canonical": "to reducing",
+          "accepted_variants": [
+            "to reducing",
+            "to reducing.",
+            "reducing",
+            "to reducing?",
+            "to reducing!",
+            "To reducing",
+            "TO REDUCING"
+          ],
+          "rule_keys": [
+            "unit_60_C1"
+          ]
+        }
+      ]
+    }
+  ]
+}

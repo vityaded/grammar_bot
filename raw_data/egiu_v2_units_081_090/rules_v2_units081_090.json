@@ -1,0 +1,647 @@
+{
+  "version": 2,
+  "units": [
+    "unit_81",
+    "unit_82",
+    "unit_83",
+    "unit_84",
+    "unit_85",
+    "unit_86",
+    "unit_87",
+    "unit_88",
+    "unit_89",
+    "unit_90"
+  ],
+  "rules": [
+    {
+      "rule_key": "unit_81_A",
+      "unit_key": "unit_81",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use ’s to show that a person/animal/organisation owns or is linked to something (Sarah’s bike, the dog’s tail).",
+      "rule_text_uk": "Використовуй ’s, щоб показати належність або зв’язок із людиною/твариною/організацією (Sarah’s bike тощо).",
+      "rule_short_en": "’s shows possession/link with people/animals/organisations.",
+      "rule_short_uk": "’s показує належність/зв’язок із людьми, тваринами, організаціями.",
+      "examples": [
+        "Tom's jacket is on the chair.",
+        "The cat's paw is hurt.",
+        "The company's website is down."
+      ]
+    },
+    {
+      "rule_key": "unit_81_B",
+      "unit_key": "unit_81",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "With plural nouns ending in -s, put the apostrophe after s (my parents’ car). With irregular plurals, use ’s (children’s toys).",
+      "rule_text_uk": "З множиною на -s апостроф ставиться після s (parents’). З неправильними множинами — ’s (children’s).",
+      "rule_short_en": "Plural -s: parents’; irregular plural: children’s.",
+      "rule_short_uk": "Множина на -s: parents’; неправильна: children’s.",
+      "examples": [
+        "The students' room is upstairs.",
+        "My friends' flat is small.",
+        "The children's games were noisy."
+      ]
+    },
+    {
+      "rule_key": "unit_81_C",
+      "unit_key": "unit_81",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "We often use ’s with time/amount expressions: a week’s holiday, two hours’ work, ten minutes’ walk.",
+      "rule_text_uk": "Часто вживаємо ’s із виразами часу/кількості: a week’s holiday, two hours’ work тощо.",
+      "rule_short_en": "Use ’s for time/amount: a week’s, two hours’.",
+      "rule_short_uk": "’s для часу/кількості: a week’s, two hours’.",
+      "examples": [
+        "We had a week's break.",
+        "It was two hours' work.",
+        "It's a ten minutes' walk from here."
+      ]
+    },
+    {
+      "rule_key": "unit_81_D",
+      "unit_key": "unit_81",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Use of with things/ideas, or when the ‘owner’ phrase is long: the roof of the house, the colour of the old sofa.",
+      "rule_text_uk": "Вживай of із речами/ідеями або коли «власник» — довга фраза: the roof of the house тощо.",
+      "rule_short_en": "Use of for things or long ‘owner’ phrases.",
+      "rule_short_uk": "of — для речей або довгих фраз «власника».",
+      "examples": [
+        "The handle of the suitcase broke.",
+        "The end of the film was surprising.",
+        "The name of the new café is hard to spell."
+      ]
+    },
+    {
+      "rule_key": "unit_81_E",
+      "unit_key": "unit_81",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Sometimes both patterns are possible; choose what sounds natural. With places/shops, ’s is common (the bakery’s window).",
+      "rule_text_uk": "Іноді можливі обидва варіанти; обирай природніший. Із місцями/крамницями часто вживають ’s (the bakery’s window).",
+      "rule_short_en": "Sometimes ’s or of; with places/shops, ’s is common.",
+      "rule_short_uk": "Іноді ’s або of; із місцями/крамницями часто ’s.",
+      "examples": [
+        "The hotel's lobby is bright.",
+        "The door of the garage is stuck.",
+        "The museum's entrance is on the left."
+      ]
+    },
+    {
+      "rule_key": "unit_82_A",
+      "unit_key": "unit_82",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use reflexive pronouns (myself/yourself/himself etc.) when the subject and object are the same person.",
+      "rule_text_uk": "Використовуй зворотні займенники (myself/yourself/himself тощо), коли підмет і додаток — одна й та сама особа.",
+      "rule_short_en": "Reflexive pronoun: subject = object.",
+      "rule_short_uk": "Зворотний займенник: підмет = додаток.",
+      "examples": [
+        "I cut myself while cooking.",
+        "She blamed herself for the mistake.",
+        "We introduced ourselves at the meeting."
+      ]
+    },
+    {
+      "rule_key": "unit_82_B",
+      "unit_key": "unit_82",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Some verbs are often used reflexively (get dressed, shave, wash). We usually say: get dressed / shave (not dress yourself).",
+      "rule_text_uk": "Деякі дії часто описують без зворотного займенника: get dressed, shave, wash (частіше, ніж dress yourself).",
+      "rule_short_en": "Often: get dressed / shave (no reflexive).",
+      "rule_short_uk": "Часто: get dressed / shave (без зворотного).",
+      "examples": [
+        "He got dressed quickly.",
+        "I usually shave before breakfast.",
+        "She washed and left the house."
+      ]
+    },
+    {
+      "rule_key": "unit_82_C",
+      "unit_key": "unit_82",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use each other / one another when A does something to B and B does it to A: They help each other.",
+      "rule_text_uk": "Вживай each other / one another, коли дія взаємна: A → B і B → A.",
+      "rule_short_en": "each other = mutually.",
+      "rule_short_uk": "each other = взаємно.",
+      "examples": [
+        "They text each other every day.",
+        "We don't see each other often.",
+        "The twins always copy one another."
+      ]
+    },
+    {
+      "rule_key": "unit_82_D",
+      "unit_key": "unit_82",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "We can use myself/yourself etc. to emphasise the subject: I made it myself (= not someone else). Also: the manager himself.",
+      "rule_text_uk": "Можна вживати myself/yourself тощо для підсилення: I made it myself (= не хтось інший). Також: the manager himself.",
+      "rule_short_en": "myself can emphasise: I did it myself.",
+      "rule_short_uk": "myself підсилює: I did it myself.",
+      "examples": [
+        "I repaired the chair myself.",
+        "The author herself replied.",
+        "The president himself opened the event."
+      ]
+    },
+    {
+      "rule_key": "unit_83_A",
+      "unit_key": "unit_83",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use a friend of mine/yours/his etc. to mean ‘one of my/your/his friends’. Also: a picture of ours, a student of theirs.",
+      "rule_text_uk": "Вживай a friend of mine/yours/his тощо = «один із моїх/твоїх/його друзів». Також: a picture of ours, a student of theirs.",
+      "rule_short_en": "a friend of mine = one of my friends.",
+      "rule_short_uk": "a friend of mine = один із моїх друзів.",
+      "examples": [
+        "A neighbour of ours lent us a ladder.",
+        "A colleague of mine called this morning.",
+        "That idea of yours is interesting."
+      ]
+    },
+    {
+      "rule_key": "unit_83_B",
+      "unit_key": "unit_83",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use my own/your own etc. to mean ‘belonging only to me/you’ or ‘not shared’: my own room, her own business.",
+      "rule_text_uk": "Вживай my own/your own тощо = «власний/свій», не спільний: my own room, her own business.",
+      "rule_short_en": "my own = my personal, not shared.",
+      "rule_short_uk": "my own = мій власний, не спільний.",
+      "examples": [
+        "He wants his own office.",
+        "I brought my own coffee.",
+        "She started her own company."
+      ]
+    },
+    {
+      "rule_key": "unit_83_C",
+      "unit_key": "unit_83",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "On my own can mean ‘alone’ or ‘without help’, depending on context. By myself usually means ‘alone’.",
+      "rule_text_uk": "On my own може означати «сам/один» або «без допомоги» (залежить від контексту). By myself зазвичай = «сам/один».",
+      "rule_short_en": "by myself = alone; on my own = alone/without help.",
+      "rule_short_uk": "by myself = один; on my own = один/без допомоги.",
+      "examples": [
+        "I went to the cinema by myself.",
+        "She lives on her own.",
+        "I fixed it on my own."
+      ]
+    },
+    {
+      "rule_key": "unit_83_D",
+      "unit_key": "unit_83",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Use on your own especially for ‘without help’: I did it on my own. Use by myself to stress ‘alone’.",
+      "rule_text_uk": "On your own особливо для «без допомоги»: I did it on my own. By myself підкреслює «один/сам».",
+      "rule_short_en": "on my own = without help (often); by myself = alone.",
+      "rule_short_uk": "on my own = без допомоги; by myself = один/сам.",
+      "examples": [
+        "He learnt Spanish on his own.",
+        "Don’t go by yourself at night.",
+        "We built the shelf on our own."
+      ]
+    },
+    {
+      "rule_key": "unit_84_A",
+      "unit_key": "unit_84",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use there is/are to say that something exists or is present (There is a café near here).",
+      "rule_text_uk": "Використовуй there is/are, щоб сказати, що щось існує/є десь (There is a café near here).",
+      "rule_short_en": "there is/are = something exists/is present.",
+      "rule_short_uk": "there is/are = щось існує/присутнє.",
+      "examples": [
+        "There is a problem with the printer.",
+        "There are two buses to the centre.",
+        "Is there any milk left?"
+      ]
+    },
+    {
+      "rule_key": "unit_84_B",
+      "unit_key": "unit_84",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "There can be in other tenses too: there was/were, there has been, there will be, there must be, etc.",
+      "rule_text_uk": "There вживається і в інших часах: there was/were, there has been, there will be, there must be тощо.",
+      "rule_short_en": "There + other tenses: was/were, will be, has been.",
+      "rule_short_uk": "There + інші часи: was/were, will be, has been.",
+      "examples": [
+        "There was a lot of noise last night.",
+        "There will be a meeting tomorrow.",
+        "There must have been a mistake."
+      ]
+    },
+    {
+      "rule_key": "unit_84_C",
+      "unit_key": "unit_84",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use it (not there) for time, weather, distance, and to talk about a situation already known: It’s late. It was windy.",
+      "rule_text_uk": "Вживай it (не there) для часу, погоди, відстані та відомої ситуації: It’s late. It was windy.",
+      "rule_short_en": "It for time/weather/distance/situation.",
+      "rule_short_uk": "It для часу/погоди/відстані/ситуації.",
+      "examples": [
+        "It’s ten o’clock already.",
+        "It was cold on the mountain.",
+        "It’s a long way to the station."
+      ]
+    },
+    {
+      "rule_key": "unit_85_A",
+      "unit_key": "unit_85",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use some in affirmative sentences, and in offers/requests when we expect ‘yes’: I’d like some water. Can I have some help?",
+      "rule_text_uk": "Вживай some у ствердженнях, а також в пропозиціях/проханнях, коли очікуємо «так»: I’d like some water. Can I have some help?",
+      "rule_short_en": "some = affirmative; offers/requests expecting yes.",
+      "rule_short_uk": "some = ствердження; прохання/пропозиції з очікуванням «так».",
+      "examples": [
+        "I bought some fruit.",
+        "Can you lend me some money?",
+        "Would you like some tea?"
+      ]
+    },
+    {
+      "rule_key": "unit_85_B",
+      "unit_key": "unit_85",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use any in negative sentences: I don’t have any time. Also after hardly/without: hardly any money.",
+      "rule_text_uk": "Вживай any у запереченнях: I don’t have any time. Також після hardly/without: hardly any money.",
+      "rule_short_en": "any in negatives; also after hardly/without.",
+      "rule_short_uk": "any у запереченнях; також після hardly/without.",
+      "examples": [
+        "We don't have any milk.",
+        "She hardly had any sleep.",
+        "I left without any explanation."
+      ]
+    },
+    {
+      "rule_key": "unit_85_C",
+      "unit_key": "unit_85",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "In questions we often use any: Do you have any questions? But we can use some if we expect ‘yes’.",
+      "rule_text_uk": "У питаннях часто any: Do you have any questions? Але some можливе, якщо очікуємо «так».",
+      "rule_short_en": "Questions: usually any; some if expecting yes.",
+      "rule_short_uk": "Питання: зазвичай any; some якщо очікуємо «так».",
+      "examples": [
+        "Do you need any help?",
+        "Did you buy any bread?",
+        "Could I have some more water?"
+      ]
+    },
+    {
+      "rule_key": "unit_85_D",
+      "unit_key": "unit_85",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "With someone/something/somewhere and anyone/anything/anywhere, the choice is the same: somebody in affirmatives, anybody in negatives/questions.",
+      "rule_text_uk": "Із someone/something/somewhere та anyone/anything/anywhere принцип той самий: somebody у ствердженнях, anybody у запереченнях/питаннях.",
+      "rule_short_en": "somebody/something vs anybody/anything: same rules.",
+      "rule_short_uk": "somebody/something vs anybody/anything: ті самі правила.",
+      "examples": [
+        "Somebody is at the door.",
+        "I didn't see anybody.",
+        "Is there anything I can do?"
+      ]
+    },
+    {
+      "rule_key": "unit_85_E",
+      "unit_key": "unit_85",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Any can mean ‘it doesn’t matter which/what/who’: You can choose any seat. Call me any time.",
+      "rule_text_uk": "Any може означати «будь‑який/неважливо який»: You can choose any seat. Call me any time.",
+      "rule_short_en": "any = no matter which/when/who.",
+      "rule_short_uk": "any = неважливо який/коли/хто (будь‑який).",
+      "examples": [
+        "You can take any book you like.",
+        "Any day is fine for me.",
+        "Ask anybody in the office."
+      ]
+    },
+    {
+      "rule_key": "unit_86_A",
+      "unit_key": "unit_86",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "No + noun means ‘not any’: no money = not any money. We often prefer no in short answers: No, thanks.",
+      "rule_text_uk": "No + іменник означає «не жодного»: no money = not any money. У коротких відповідях часто no: No, thanks.",
+      "rule_short_en": "no + noun = not any.",
+      "rule_short_uk": "no + іменник = not any.",
+      "examples": [
+        "There is no sugar left.",
+        "I have no idea.",
+        "No problem!"
+      ]
+    },
+    {
+      "rule_key": "unit_86_B",
+      "unit_key": "unit_86",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use none to replace a noun: How many? None. Use none of + the/this/my etc.: none of the students.",
+      "rule_text_uk": "None замінює іменник: How many? None. None of + the/this/my тощо: none of the students.",
+      "rule_short_en": "none = not one; none of + determiner.",
+      "rule_short_uk": "none = жодного; none of + означення.",
+      "examples": [
+        "How many tickets? None.",
+        "None of the rooms were free.",
+        "None of my friends called."
+      ]
+    },
+    {
+      "rule_key": "unit_86_C",
+      "unit_key": "unit_86",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use nothing/nobody/no one/nowhere with a positive verb (don’t use double negatives): I saw nobody. There’s nowhere to sit.",
+      "rule_text_uk": "Вживай nothing/nobody/no one/nowhere з стверджувальним дієсловом (без подвійного заперечення): I saw nobody.",
+      "rule_short_en": "Use nobody/nothing/nowhere (no double negative).",
+      "rule_short_uk": "nobody/nothing/nowhere (без подвійного заперечення).",
+      "examples": [
+        "Nobody answered.",
+        "I found nothing useful.",
+        "There was nowhere to park."
+      ]
+    },
+    {
+      "rule_key": "unit_86_D",
+      "unit_key": "unit_86",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "With none of, the verb can be singular or plural depending on the noun: None of the food was… / None of the students were…",
+      "rule_text_uk": "З none of дієслово може бути в одн. або мн. залежно від іменника: None of the food was… / None of the students were…",
+      "rule_short_en": "none of + noun: singular/plural verb depends.",
+      "rule_short_uk": "none of + іменник: одн./мн. залежить від іменника.",
+      "examples": [
+        "None of the information was new.",
+        "None of the chairs were comfortable.",
+        "None of us were ready."
+      ]
+    },
+    {
+      "rule_key": "unit_87_A",
+      "unit_key": "unit_87",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use many/few with countable plurals (many books), and much/little with uncountable nouns (much water).",
+      "rule_text_uk": "Many/few — з лічильними у множині (many books), much/little — з нелічильними (much water).",
+      "rule_short_en": "many/few + countable; much/little + uncountable.",
+      "rule_short_uk": "many/few + лічильні; much/little + нелічильні.",
+      "examples": [
+        "How many books do you have?",
+        "There isn't much time.",
+        "I drank little water."
+      ]
+    },
+    {
+      "rule_key": "unit_87_B",
+      "unit_key": "unit_87",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "In positive sentences we often use a lot of / lots of instead of much/many: I have a lot of work.",
+      "rule_text_uk": "У ствердженнях часто a lot of/lots of замість much/many: I have a lot of work.",
+      "rule_short_en": "Positive: often a lot of, not much/many.",
+      "rule_short_uk": "Ствердження: часто a lot of, не much/many.",
+      "examples": [
+        "We have a lot of visitors.",
+        "She spends lots of money.",
+        "There’s a lot of traffic."
+      ]
+    },
+    {
+      "rule_key": "unit_87_C",
+      "unit_key": "unit_87",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "A little / a few mean ‘some’ (enough). Little / few (without a) mean ‘not much/not many’ (negative idea).",
+      "rule_text_uk": "A little/a few = «трохи/кілька» (досить). Little/few (без a) = «майже немає» (негативний відтінок).",
+      "rule_short_en": "a little/a few = some; little/few = almost none.",
+      "rule_short_uk": "a little/a few = трохи; little/few = майже немає.",
+      "examples": [
+        "I have a few minutes.",
+        "There's little hope.",
+        "We made few mistakes."
+      ]
+    },
+    {
+      "rule_key": "unit_87_D",
+      "unit_key": "unit_87",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Too much/many means ‘more than needed’. Too little/few means ‘not enough’.",
+      "rule_text_uk": "Too much/many = «занадто багато». Too little/few = «замало/недостатньо».",
+      "rule_short_en": "too much/many = more than needed; too little/few = not enough.",
+      "rule_short_uk": "too much/many = більше ніж треба; too little/few = недостатньо.",
+      "examples": [
+        "You talk too much.",
+        "There are too many emails.",
+        "We have too little time."
+      ]
+    },
+    {
+      "rule_key": "unit_87_E",
+      "unit_key": "unit_87",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Plenty of means ‘more than enough’. Not much/many is common in short answers: Not much. Not many.",
+      "rule_text_uk": "Plenty of = «більш ніж достатньо». Not much/many часто у коротких відповідях: Not much. Not many.",
+      "rule_short_en": "plenty of = more than enough; not much/many for short replies.",
+      "rule_short_uk": "plenty of = більш ніж достатньо; not much/many у коротких відповідях.",
+      "examples": [
+        "There’s plenty of space.",
+        "Not many people came.",
+        "Not much has changed."
+      ]
+    },
+    {
+      "rule_key": "unit_88_A",
+      "unit_key": "unit_88",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "All/most/some/no + noun: all cars, most people, some milk, no money. (General meaning, no 'of'.)",
+      "rule_text_uk": "All/most/some/no + іменник: all cars, most people, some milk, no money (загальне значення, без 'of').",
+      "rule_short_en": "General: all/most/some/no + noun (no of).",
+      "rule_short_uk": "Загально: all/most/some/no + іменник (без of).",
+      "examples": [
+        "Most people like music.",
+        "All children need sleep.",
+        "No cars were parked outside."
+      ]
+    },
+    {
+      "rule_key": "unit_88_B",
+      "unit_key": "unit_88",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use all of / most of / some of / none of before the/this/that/my etc.: most of the people, some of my friends.",
+      "rule_text_uk": "All of/most of/some of/none of ставимо перед the/this/that/my тощо: most of the people, some of my friends.",
+      "rule_short_en": "With the/this/my etc.: use ... of.",
+      "rule_short_uk": "З the/this/my тощо: вживай ... of.",
+      "examples": [
+        "Most of the shops are open.",
+        "Some of my friends are abroad.",
+        "All of this food is spicy."
+      ]
+    },
+    {
+      "rule_key": "unit_88_C",
+      "unit_key": "unit_88",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "With object pronouns we usually use of: all of us, some of them, most of you. (Not: all us.)",
+      "rule_text_uk": "З займенниками-об’єктами зазвичай of: all of us, some of them, most of you (не all us).",
+      "rule_short_en": "Pronouns: all of us / some of them.",
+      "rule_short_uk": "Займенники: all of us / some of them.",
+      "examples": [
+        "All of us were tired.",
+        "Some of them left early.",
+        "Most of you know this already."
+      ]
+    },
+    {
+      "rule_key": "unit_88_D",
+      "unit_key": "unit_88",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "None of means ‘not any of’: none of the students, none of them. We can also say not all (= some are not).",
+      "rule_text_uk": "None of = «жоден/жодне з»: none of the students, none of them. Також not all (= не всі).",
+      "rule_short_en": "none of = not any of; not all = some not.",
+      "rule_short_uk": "none of = not any of; not all = деякі ні.",
+      "examples": [
+        "None of the answers were correct.",
+        "None of them replied.",
+        "Not all students passed."
+      ]
+    },
+    {
+      "rule_key": "unit_89_A",
+      "unit_key": "unit_89",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Both refers to two things/people together: both cars, both of us. Verb is usually plural: Both are…",
+      "rule_text_uk": "Both стосується двох разом: both cars, both of us. Дієслово зазвичай у множині: Both are…",
+      "rule_short_en": "both = the two together; plural verb.",
+      "rule_short_uk": "both = обидва разом; дієслово мн.",
+      "examples": [
+        "Both answers are correct.",
+        "Both of us were tired.",
+        "I like both films."
+      ]
+    },
+    {
+      "rule_key": "unit_89_B",
+      "unit_key": "unit_89",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Either means ‘one of two’ (it doesn’t matter which): Either day is fine. Either of the options works.",
+      "rule_text_uk": "Either = «один із двох» (неважливо який): Either day is fine. Either of the options works.",
+      "rule_short_en": "either = one of two (any one).",
+      "rule_short_uk": "either = один із двох (будь‑який).",
+      "examples": [
+        "You can sit on either side.",
+        "Either answer is acceptable.",
+        "Either of them can drive."
+      ]
+    },
+    {
+      "rule_key": "unit_89_C",
+      "unit_key": "unit_89",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Neither means ‘not one and not the other’: Neither answer is correct. Neither of them called.",
+      "rule_text_uk": "Neither = «ні той, ні інший»: Neither answer is correct. Neither of them called.",
+      "rule_short_en": "neither = not one nor the other.",
+      "rule_short_uk": "neither = ні той, ні інший.",
+      "examples": [
+        "Neither plan will work.",
+        "Neither of the buses was on time.",
+        "I like neither colour."
+      ]
+    },
+    {
+      "rule_key": "unit_89_D",
+      "unit_key": "unit_89",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Either...or and neither...nor link two alternatives: Either we go now or we stay. Neither tea nor coffee for me.",
+      "rule_text_uk": "Either...or і neither...nor поєднують альтернативи: Either we go now or we stay. Neither tea nor coffee for me.",
+      "rule_short_en": "either...or / neither...nor = alternatives.",
+      "rule_short_uk": "either...or / neither...nor = альтернативи.",
+      "examples": [
+        "Either Anna or Ben will call.",
+        "Neither rain nor wind stopped them.",
+        "We can either walk or take a taxi."
+      ]
+    },
+    {
+      "rule_key": "unit_90_A",
+      "unit_key": "unit_90",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "All + plural noun means ‘the complete number’: all students. Every + singular means ‘each one’: every student.",
+      "rule_text_uk": "All + множина = «усі (разом)»: all students. Every + однина = «кожен»: every student.",
+      "rule_short_en": "all + plural; every + singular (each one).",
+      "rule_short_uk": "all + множина; every + однина (кожен).",
+      "examples": [
+        "All students were present.",
+        "Every student has an ID card.",
+        "I work every day."
+      ]
+    },
+    {
+      "rule_key": "unit_90_B",
+      "unit_key": "unit_90",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Everybody/everyone/everything = every person/thing. All (of) us/them = the whole group.",
+      "rule_text_uk": "Everybody/everyone/everything = кожна людина/річ. All (of) us/them = уся група.",
+      "rule_short_en": "everybody = every person; all of us = the whole group.",
+      "rule_short_uk": "everybody = кожен; all of us = вся група.",
+      "examples": [
+        "Everybody knows that song.",
+        "Everything is ready.",
+        "All of us agreed."
+      ]
+    },
+    {
+      "rule_key": "unit_90_C",
+      "unit_key": "unit_90",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Whole means ‘complete’: the whole day, a whole week. Compare: all day (duration) vs the whole day (complete day).",
+      "rule_text_uk": "Whole = «цілий/весь»: the whole day, a whole week. Порівняй: all day (тривалість) vs the whole day (цілий день).",
+      "rule_short_en": "whole = complete; all day vs the whole day.",
+      "rule_short_uk": "whole = цілий; all day vs the whole day.",
+      "examples": [
+        "I worked all day.",
+        "I stayed at home the whole day.",
+        "We waited a whole hour."
+      ]
+    },
+    {
+      "rule_key": "unit_90_D",
+      "unit_key": "unit_90",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "We usually say all day/night/week, but the whole morning/afternoon/evening. With of: all of the…, the whole of the…",
+      "rule_text_uk": "Зазвичай all day/night/week, але the whole morning/afternoon/evening. З of: all of the…, the whole of the…",
+      "rule_short_en": "Common patterns: all day; the whole morning; all of the…",
+      "rule_short_uk": "Типові: all day; the whole morning; all of the…",
+      "examples": [
+        "She slept all night.",
+        "He studied the whole afternoon.",
+        "All of the cake is gone."
+      ]
+    }
+  ]
+}

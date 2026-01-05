@@ -1,0 +1,4414 @@
+{
+  "version": "v2",
+  "units": "10-20",
+  "exercises": [
+    {
+      "unit_key": "unit_10",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete each situation. Give two answers if asked.",
+      "items": [
+        {
+          "prompt": "Mia started writing her report three hours ago. She's still writing it. She has completed 4 pages. Write two answers: (1) activity, (2) completed amount.",
+          "options": null,
+          "canonical": "have been writing | have written",
+          "accepted_variants": [
+            "have been writing / have written",
+            "have been writing | have written",
+            "have been writing, have written",
+            "have been writing; have written"
+          ],
+          "rule_keys": [
+            "unit_10_A"
+          ],
+          "item_key": "unit_10_ex1_i1"
+        },
+        {
+          "prompt": "We began painting the fence this morning. We're still painting. We've covered half of it. Write two answers: (1) activity, (2) completed amount.",
+          "options": null,
+          "canonical": "have been painting | have painted",
+          "accepted_variants": [
+            "have been painting / have painted",
+            "have been painting | have painted",
+            "have been painting, have painted",
+            "have been painting; have painted"
+          ],
+          "rule_keys": [
+            "unit_10_A"
+          ],
+          "item_key": "unit_10_ex1_i2"
+        },
+        {
+          "prompt": "Leo started learning Japanese in September. He's still learning. He's learned 300 words. Write two answers: (1) activity, (2) completed amount.",
+          "options": null,
+          "canonical": "has been learning | has learned",
+          "accepted_variants": [
+            "has been learning / has learned",
+            "has been learning | has learned",
+            "has been learning, has learned",
+            "has been learning; has learned"
+          ],
+          "rule_keys": [
+            "unit_10_A"
+          ],
+          "item_key": "unit_10_ex1_i3"
+        },
+        {
+          "prompt": "I started cleaning the kitchen at 6. It's still not finished. I've cleaned the sink and the table. Write two answers: (1) activity, (2) completed amount.",
+          "options": null,
+          "canonical": "have been cleaning | have cleaned",
+          "accepted_variants": [
+            "have been cleaning / have cleaned",
+            "have been cleaning | have cleaned",
+            "have been cleaning, have cleaned",
+            "have been cleaning; have cleaned"
+          ],
+          "rule_keys": [
+            "unit_10_A"
+          ],
+          "item_key": "unit_10_ex1_i4"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_10",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Make questions. Use present perfect simple or continuous.",
+      "items": [
+        {
+          "prompt": "Make a question: (you / wait / long?)",
+          "options": null,
+          "canonical": "Have you been waiting long?",
+          "accepted_variants": [
+            "Have you been waiting long",
+            "Have you been waiting long?",
+            "have you been waiting long?"
+          ],
+          "rule_keys": [
+            "unit_10_D",
+            "unit_10_A"
+          ],
+          "item_key": "unit_10_ex2_i1"
+        },
+        {
+          "prompt": "Make a question: (she / finish / the email?)",
+          "options": null,
+          "canonical": "Has she finished the email?",
+          "accepted_variants": [
+            "Has she finished the email",
+            "Has she finished the email?",
+            "has she finished the email?"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex2_i2"
+        },
+        {
+          "prompt": "Make a question: (they / do / what?)",
+          "options": null,
+          "canonical": "What have they been doing?",
+          "accepted_variants": [
+            "What have they been doing",
+            "What have they been doing?",
+            "what have they been doing?"
+          ],
+          "rule_keys": [
+            "unit_10_B"
+          ],
+          "item_key": "unit_10_ex2_i3"
+        },
+        {
+          "prompt": "Make a question: (how many photos / you / take?)",
+          "options": null,
+          "canonical": "How many photos have you taken?",
+          "accepted_variants": [
+            "How many photos have you taken",
+            "How many photos have you taken?",
+            "how many photos have you taken?"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex2_i4"
+        },
+        {
+          "prompt": "Make a question: (why / he / look / so tired?)",
+          "options": null,
+          "canonical": "Why does he look so tired? Has he been working late?",
+          "accepted_variants": [
+            "Why does he look so tired? Has he been working late",
+            "Why does he look so tired? Has he been working late?",
+            "why does he look so tired? has he been working late?"
+          ],
+          "rule_keys": [
+            "unit_10_B"
+          ],
+          "item_key": "unit_10_ex2_i5"
+        },
+        {
+          "prompt": "Make a question: (you / ever / try / scuba diving?)",
+          "options": null,
+          "canonical": "Have you ever tried scuba diving?",
+          "accepted_variants": [
+            "Have you ever tried scuba diving",
+            "Have you ever tried scuba diving?",
+            "have you ever tried scuba diving?"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex2_i6"
+        },
+        {
+          "prompt": "Make a question: (how long / you / know / your neighbour?)",
+          "options": null,
+          "canonical": "How long have you known your neighbour?",
+          "accepted_variants": [
+            "How long have you known your neighbour",
+            "How long have you known your neighbour?",
+            "how long have you known your neighbour?"
+          ],
+          "rule_keys": [
+            "unit_10_D"
+          ],
+          "item_key": "unit_10_ex2_i7"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_10",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with present perfect simple or continuous.",
+      "items": [
+        {
+          "prompt": "Look at your clothes! You ____ (paint) again.",
+          "options": null,
+          "canonical": "have been painting",
+          "accepted_variants": [
+            "have been painting"
+          ],
+          "rule_keys": [
+            "unit_10_B"
+          ],
+          "item_key": "unit_10_ex3_i1"
+        },
+        {
+          "prompt": "I ____ (finish) my homework, so I'm free now.",
+          "options": null,
+          "canonical": "have finished",
+          "accepted_variants": [
+            "have finished"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex3_i2"
+        },
+        {
+          "prompt": "How long ____ you ____ (live) in this town?",
+          "options": null,
+          "canonical": "have you lived",
+          "accepted_variants": [
+            "have you lived"
+          ],
+          "rule_keys": [
+            "unit_10_D"
+          ],
+          "item_key": "unit_10_ex3_i3"
+        },
+        {
+          "prompt": "She ____ (write) three messages this morning.",
+          "options": null,
+          "canonical": "has written",
+          "accepted_variants": [
+            "has written"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex3_i4"
+        },
+        {
+          "prompt": "He is sweaty. He ____ (run).",
+          "options": null,
+          "canonical": "has been running",
+          "accepted_variants": [
+            "has been running"
+          ],
+          "rule_keys": [
+            "unit_10_B"
+          ],
+          "item_key": "unit_10_ex3_i5"
+        },
+        {
+          "prompt": "We ____ (work) on this project since Monday.",
+          "options": null,
+          "canonical": "have been working",
+          "accepted_variants": [
+            "have been working"
+          ],
+          "rule_keys": [
+            "unit_10_D",
+            "unit_10_A"
+          ],
+          "item_key": "unit_10_ex3_i6"
+        },
+        {
+          "prompt": "I ____ (not read) that article yet.",
+          "options": null,
+          "canonical": "haven't read",
+          "accepted_variants": [
+            "have not read",
+            "haven't read"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex3_i7"
+        },
+        {
+          "prompt": "They ____ (argue) for an hour. Please stop them.",
+          "options": null,
+          "canonical": "have been arguing",
+          "accepted_variants": [
+            "have been arguing"
+          ],
+          "rule_keys": [
+            "unit_10_B"
+          ],
+          "item_key": "unit_10_ex3_i8"
+        },
+        {
+          "prompt": "Someone ____ (break) the handle. It's loose now.",
+          "options": null,
+          "canonical": "has broken",
+          "accepted_variants": [
+            "has broken"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex3_i9"
+        },
+        {
+          "prompt": "How many cups of coffee ____ you ____ (drink) today?",
+          "options": null,
+          "canonical": "have you drunk",
+          "accepted_variants": [
+            "have you drunk"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex3_i10"
+        },
+        {
+          "prompt": "My phone is missing. I think I ____ (lose) it.",
+          "options": null,
+          "canonical": "have lost",
+          "accepted_variants": [
+            "have lost"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex3_i11"
+        },
+        {
+          "prompt": "Sorry I'm late. I ____ (try) to find a parking space.",
+          "options": null,
+          "canonical": "have been trying",
+          "accepted_variants": [
+            "have been trying"
+          ],
+          "rule_keys": [
+            "unit_10_B"
+          ],
+          "item_key": "unit_10_ex3_i12"
+        },
+        {
+          "prompt": "I ____ (know) her since we were kids.",
+          "options": null,
+          "canonical": "have known",
+          "accepted_variants": [
+            "have known"
+          ],
+          "rule_keys": [
+            "unit_10_D"
+          ],
+          "item_key": "unit_10_ex3_i13"
+        },
+        {
+          "prompt": "The dog ____ (sleep) all afternoon.",
+          "options": null,
+          "canonical": "has been sleeping",
+          "accepted_variants": [
+            "has been sleeping"
+          ],
+          "rule_keys": [
+            "unit_10_B"
+          ],
+          "item_key": "unit_10_ex3_i14"
+        },
+        {
+          "prompt": "I ____ (clean) the room and it looks much better.",
+          "options": null,
+          "canonical": "have cleaned",
+          "accepted_variants": [
+            "have cleaned"
+          ],
+          "rule_keys": [
+            "unit_10_C"
+          ],
+          "item_key": "unit_10_ex3_i15"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_11",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "I (know / have known) Sam since 2015.",
+          "options": [
+            "know",
+            "have known"
+          ],
+          "canonical": "have known",
+          "accepted_variants": [
+            "have known"
+          ],
+          "rule_keys": [
+            "unit_11_D",
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex1_i1"
+        },
+        {
+          "prompt": "How long (are you / have you been) here?",
+          "options": [
+            "are you",
+            "have you been"
+          ],
+          "canonical": "have you been",
+          "accepted_variants": [
+            "have you been"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex1_i2"
+        },
+        {
+          "prompt": "We (live / have lived) in this flat for six months.",
+          "options": [
+            "live",
+            "have lived"
+          ],
+          "canonical": "have lived",
+          "accepted_variants": [
+            "have lived"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex1_i3"
+        },
+        {
+          "prompt": "She (is / has been) ill since yesterday.",
+          "options": [
+            "is",
+            "has been"
+          ],
+          "canonical": "has been",
+          "accepted_variants": [
+            "has been"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex1_i4"
+        },
+        {
+          "prompt": "How long (do you wait / have you been waiting)?",
+          "options": [
+            "do you wait",
+            "have you been waiting"
+          ],
+          "canonical": "have you been waiting",
+          "accepted_variants": [
+            "have you been waiting"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex1_i5"
+        },
+        {
+          "prompt": "I (have / have had) this jacket for years.",
+          "options": [
+            "have",
+            "have had"
+          ],
+          "canonical": "have had",
+          "accepted_variants": [
+            "have had"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex1_i6"
+        },
+        {
+          "prompt": "They (work / have been working) all morning.",
+          "options": [
+            "work",
+            "have been working"
+          ],
+          "canonical": "have been working",
+          "accepted_variants": [
+            "have been working"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex1_i7"
+        },
+        {
+          "prompt": "We (like / have liked) this neighbourhood for a long time.",
+          "options": [
+            "like",
+            "have liked"
+          ],
+          "canonical": "have liked",
+          "accepted_variants": [
+            "have liked"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex1_i8"
+        },
+        {
+          "prompt": "It's been noisy. The neighbours (have / have been) drilling.",
+          "options": [
+            "have",
+            "have been"
+          ],
+          "canonical": "have been",
+          "accepted_variants": [
+            "have been"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex1_i9"
+        },
+        {
+          "prompt": "I (am / have been) at this school since September.",
+          "options": [
+            "am",
+            "have been"
+          ],
+          "canonical": "have been",
+          "accepted_variants": [
+            "have been"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex1_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_11",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Make questions using the present perfect.",
+      "items": [
+        {
+          "prompt": "Make a question: (you / be / in this job / long?)",
+          "options": null,
+          "canonical": "Have you been in this job long?",
+          "accepted_variants": [
+            "Have you been in this job long",
+            "Have you been in this job long?",
+            "have you been in this job long?"
+          ],
+          "rule_keys": [
+            "unit_11_C",
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex2_i1"
+        },
+        {
+          "prompt": "Make a question: (how long / she / live / in Odesa?)",
+          "options": null,
+          "canonical": "How long has she lived in Odesa?",
+          "accepted_variants": [
+            "How long has she lived in Odesa",
+            "How long has she lived in Odesa?",
+            "how long has she lived in odesa?"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex2_i2"
+        },
+        {
+          "prompt": "Make a question: (how long / they / wait?)",
+          "options": null,
+          "canonical": "How long have they been waiting?",
+          "accepted_variants": [
+            "How long have they been waiting",
+            "How long have they been waiting?",
+            "how long have they been waiting?"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex2_i3"
+        },
+        {
+          "prompt": "Make a question: (you / know / your boss / long?)",
+          "options": null,
+          "canonical": "Have you known your boss long?",
+          "accepted_variants": [
+            "Have you known your boss long",
+            "Have you known your boss long?",
+            "have you known your boss long?"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex2_i4"
+        },
+        {
+          "prompt": "Make a question: (how long / it / rain?)",
+          "options": null,
+          "canonical": "How long has it been raining?",
+          "accepted_variants": [
+            "How long has it been raining",
+            "How long has it been raining?",
+            "how long has it been raining?"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex2_i5"
+        },
+        {
+          "prompt": "Make a question: (how long / you / have / this bike?)",
+          "options": null,
+          "canonical": "How long have you had this bike?",
+          "accepted_variants": [
+            "How long have you had this bike",
+            "How long have you had this bike?",
+            "how long have you had this bike?"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex2_i6"
+        },
+        {
+          "prompt": "Make a question: (how long / he / work / here?)",
+          "options": null,
+          "canonical": "How long has he been working here?",
+          "accepted_variants": [
+            "How long has he been working here",
+            "How long has he been working here?",
+            "how long has he been working here?"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex2_i7"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_11",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the answers.",
+      "items": [
+        {
+          "prompt": "A: Is Maya still in Berlin? B: Yes, she ____ there since March. (be)",
+          "options": null,
+          "canonical": "has been",
+          "accepted_variants": [
+            "has been"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex3_i1"
+        },
+        {
+          "prompt": "A: Do you still play basketball? B: No, I ____ for years. (not/play)",
+          "options": null,
+          "canonical": "haven't played",
+          "accepted_variants": [
+            "have not played",
+            "haven't played"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex3_i2"
+        },
+        {
+          "prompt": "A: Do you know Alex well? B: Yes, we ____ each other a long time. (know)",
+          "options": null,
+          "canonical": "have known",
+          "accepted_variants": [
+            "have known"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex3_i3"
+        },
+        {
+          "prompt": "A: Are you tired? B: Yes, I ____ all day. (work)",
+          "options": null,
+          "canonical": "have been working",
+          "accepted_variants": [
+            "have been working"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex3_i4"
+        },
+        {
+          "prompt": "A: Is your brother married? B: Yes, he ____ married since 2012. (be)",
+          "options": null,
+          "canonical": "has been",
+          "accepted_variants": [
+            "has been"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex3_i5"
+        },
+        {
+          "prompt": "A: Is the internet down again? B: Yes, it ____ properly for two hours. (not/work)",
+          "options": null,
+          "canonical": "hasn't been working",
+          "accepted_variants": [
+            "has not been working",
+            "hasn't been working"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex3_i6"
+        },
+        {
+          "prompt": "A: Do you still live with your parents? B: No, I ____ on my own for a while. (live)",
+          "options": null,
+          "canonical": "have been living",
+          "accepted_variants": [
+            "have been living"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex3_i7"
+        },
+        {
+          "prompt": "A: Are you hungry? B: Yes, I ____ anything since breakfast. (not/eat)",
+          "options": null,
+          "canonical": "haven't eaten",
+          "accepted_variants": [
+            "have not eaten",
+            "haven't eaten"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex3_i8"
+        },
+        {
+          "prompt": "A: Is Tom still learning to drive? B: Yes, he ____ lessons for six weeks. (have)",
+          "options": null,
+          "canonical": "has been having",
+          "accepted_variants": [
+            "has been having"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex3_i9"
+        },
+        {
+          "prompt": "A: Do you still have that old laptop? B: Yes, I ____ it for ages. (have)",
+          "options": null,
+          "canonical": "have had",
+          "accepted_variants": [
+            "have had"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex3_i10"
+        },
+        {
+          "prompt": "A: Are you waiting for someone? B: Yes, I ____ here since 5 o'clock. (wait)",
+          "options": null,
+          "canonical": "have been waiting",
+          "accepted_variants": [
+            "have been waiting"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex3_i11"
+        },
+        {
+          "prompt": "A: Do you like your new flat? B: Yes, we ____ it since we moved in. (like)",
+          "options": null,
+          "canonical": "have liked",
+          "accepted_variants": [
+            "have liked"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex3_i12"
+        },
+        {
+          "prompt": "A: Is your sister a teacher? B: Yes, she ____ a teacher for ten years. (be)",
+          "options": null,
+          "canonical": "has been",
+          "accepted_variants": [
+            "has been"
+          ],
+          "rule_keys": [
+            "unit_11_A"
+          ],
+          "item_key": "unit_11_ex3_i13"
+        },
+        {
+          "prompt": "A: Are you still watching that series? B: Yes, we ____ it all week. (watch)",
+          "options": null,
+          "canonical": "have been watching",
+          "accepted_variants": [
+            "have been watching"
+          ],
+          "rule_keys": [
+            "unit_11_C"
+          ],
+          "item_key": "unit_11_ex3_i14"
+        },
+        {
+          "prompt": "A: Do you speak French? B: Yes, I ____ it since school. (learn)",
+          "options": null,
+          "canonical": "have learned",
+          "accepted_variants": [
+            "have learned"
+          ],
+          "rule_keys": [
+            "unit_11_D"
+          ],
+          "item_key": "unit_11_ex3_i15"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_12",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with for or since.",
+      "items": [
+        {
+          "prompt": "I've been studying English ____ two years. (for/since)",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i1"
+        },
+        {
+          "prompt": "We've lived here ____ 2019. (for/since)",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i2"
+        },
+        {
+          "prompt": "She's been on the phone ____ an hour. (for/since)",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i3"
+        },
+        {
+          "prompt": "I haven't seen them ____ last summer. (for/since)",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i4"
+        },
+        {
+          "prompt": "They've been friends ____ childhood. (for/since)",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i5"
+        },
+        {
+          "prompt": "It has been very cold ____ three days. (for/since)",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i6"
+        },
+        {
+          "prompt": "He's worked at this company ____ April. (for/since)",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i7"
+        },
+        {
+          "prompt": "I've had this watch ____ a long time. (for/since)",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_12",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with ago / for / since where appropriate.",
+      "items": [
+        {
+          "prompt": "I bought this phone two days ____. (ago)",
+          "options": null,
+          "canonical": "ago",
+          "accepted_variants": [
+            "ago"
+          ],
+          "rule_keys": [
+            "unit_12_B"
+          ],
+          "item_key": "unit_12_ex2_i1"
+        },
+        {
+          "prompt": "We moved to this flat a year ____. (ago)",
+          "options": null,
+          "canonical": "ago",
+          "accepted_variants": [
+            "ago"
+          ],
+          "rule_keys": [
+            "unit_12_B"
+          ],
+          "item_key": "unit_12_ex2_i2"
+        },
+        {
+          "prompt": "Did you see him ten minutes ____? (ago)",
+          "options": null,
+          "canonical": "ago",
+          "accepted_variants": [
+            "ago"
+          ],
+          "rule_keys": [
+            "unit_12_B"
+          ],
+          "item_key": "unit_12_ex2_i3"
+        },
+        {
+          "prompt": "I started this job in May, so I've been here ____ May. (for/since)",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex2_i4"
+        },
+        {
+          "prompt": "She's been waiting ____ 30 minutes. (for/since)",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for"
+          ],
+          "rule_keys": [
+            "unit_12_A"
+          ],
+          "item_key": "unit_12_ex2_i5"
+        },
+        {
+          "prompt": "It’s been a long time ____ I last ate sushi. (since)",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex2_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_12",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Write questions or short answers about time (how long / for / since).",
+      "items": [
+        {
+          "prompt": "Write the question: You started driving in 2020. (how long)",
+          "options": null,
+          "canonical": "How long have you been driving?",
+          "accepted_variants": [
+            "How long have you been driving",
+            "How long have you been driving?",
+            "how long have you been driving?"
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i1"
+        },
+        {
+          "prompt": "Answer: How long have you lived in this city? (since 2018)",
+          "options": null,
+          "canonical": "Since 2018.",
+          "accepted_variants": [
+            "Since 2018",
+            "Since 2018.",
+            "since 2018."
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i2"
+        },
+        {
+          "prompt": "Answer: How long have they been together? (for five years)",
+          "options": null,
+          "canonical": "For five years.",
+          "accepted_variants": [
+            "For five years",
+            "For five years.",
+            "for five years."
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i3"
+        },
+        {
+          "prompt": "Write the question: The rain started at 3 o'clock. (how long)",
+          "options": null,
+          "canonical": "How long has it been raining?",
+          "accepted_variants": [
+            "How long has it been raining",
+            "How long has it been raining?",
+            "how long has it been raining?"
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i4"
+        },
+        {
+          "prompt": "Answer: How long have you had this bag? (for ages)",
+          "options": null,
+          "canonical": "For ages.",
+          "accepted_variants": [
+            "For ages",
+            "For ages.",
+            "for ages."
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i5"
+        },
+        {
+          "prompt": "Write the question: She started working here last Monday. (how long)",
+          "options": null,
+          "canonical": "How long has she been working here?",
+          "accepted_variants": [
+            "How long has she been working here",
+            "How long has she been working here?",
+            "how long has she been working here?"
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i6"
+        },
+        {
+          "prompt": "Answer: How long have you known him? (since school)",
+          "options": null,
+          "canonical": "Since school.",
+          "accepted_variants": [
+            "Since school",
+            "Since school.",
+            "since school."
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i7"
+        },
+        {
+          "prompt": "Answer: How long have you been waiting? (for twenty minutes)",
+          "options": null,
+          "canonical": "For twenty minutes.",
+          "accepted_variants": [
+            "For twenty minutes",
+            "For twenty minutes.",
+            "for twenty minutes."
+          ],
+          "rule_keys": [
+            "unit_12_C"
+          ],
+          "item_key": "unit_12_ex3_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_12",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Use 'It's been ... since ...' or complete with since.",
+      "items": [
+        {
+          "prompt": "It's been three weeks ____ I last went running.",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i1"
+        },
+        {
+          "prompt": "It's been ages ____ we met in person.",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i2"
+        },
+        {
+          "prompt": "Rewrite using 'It's been ... since': I last saw her in June.",
+          "options": null,
+          "canonical": "It's been since June that I last saw her.",
+          "accepted_variants": [
+            "It is been since June that I last saw her.",
+            "It's been since June that I last saw her",
+            "It's been since June that I last saw her.",
+            "it's been since june that i last saw her."
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i3"
+        },
+        {
+          "prompt": "It's been ten minutes ____ the bus left.",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i4"
+        },
+        {
+          "prompt": "Rewrite: We haven't spoken for two months. (It's been ... since)",
+          "options": null,
+          "canonical": "It's been two months since we spoke.",
+          "accepted_variants": [
+            "It is been two months since we spoke.",
+            "It's been two months since we spoke",
+            "It's been two months since we spoke.",
+            "it's been two months since we spoke."
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i5"
+        },
+        {
+          "prompt": "It's been a year ____ I changed my job.",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i6"
+        },
+        {
+          "prompt": "Rewrite: The last time I ate meat was in 2019. (It's been ... since)",
+          "options": null,
+          "canonical": "It's been since 2019 that I last ate meat.",
+          "accepted_variants": [
+            "It is been since 2019 that I last ate meat.",
+            "It's been since 2019 that I last ate meat",
+            "It's been since 2019 that I last ate meat.",
+            "it's been since 2019 that i last ate meat."
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i7"
+        },
+        {
+          "prompt": "It's been a long time ____ I watched a film at the cinema.",
+          "options": null,
+          "canonical": "since",
+          "accepted_variants": [
+            "since"
+          ],
+          "rule_keys": [
+            "unit_12_D"
+          ],
+          "item_key": "unit_12_ex4_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_13",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Use present perfect where it fits; otherwise use past simple.",
+      "items": [
+        {
+          "prompt": "I can't get in. I ____ (lose) my key.",
+          "options": null,
+          "canonical": "have lost",
+          "accepted_variants": [
+            "have lost"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex1_i1"
+        },
+        {
+          "prompt": "The office is empty now. Everybody ____ (go) home.",
+          "options": null,
+          "canonical": "has gone",
+          "accepted_variants": [
+            "has gone"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex1_i2"
+        },
+        {
+          "prompt": "I meant to call you last night, but I ____ (forget).",
+          "options": null,
+          "canonical": "forgot",
+          "accepted_variants": [
+            "forgot"
+          ],
+          "rule_keys": [
+            "unit_13_B"
+          ],
+          "item_key": "unit_13_ex1_i3"
+        },
+        {
+          "prompt": "Helen ____ (go) to New York for a holiday, but she's back now.",
+          "options": null,
+          "canonical": "went",
+          "accepted_variants": [
+            "went"
+          ],
+          "rule_keys": [
+            "unit_13_B"
+          ],
+          "item_key": "unit_13_ex1_i4"
+        },
+        {
+          "prompt": "A: Are you OK? B: Yes, I ____ (have) a headache before, but it's fine now.",
+          "options": null,
+          "canonical": "had",
+          "accepted_variants": [
+            "had"
+          ],
+          "rule_keys": [
+            "unit_13_B"
+          ],
+          "item_key": "unit_13_ex1_i5"
+        },
+        {
+          "prompt": "Can you help us? Our car ____ (break) down.",
+          "options": null,
+          "canonical": "has broken",
+          "accepted_variants": [
+            "has broken"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex1_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_13",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Write OK or correct the sentence.",
+      "items": [
+        {
+          "prompt": "Did you hear about Nina? She's changed her job.",
+          "options": null,
+          "canonical": "OK",
+          "accepted_variants": [
+            "OK",
+            "Ok",
+            "ok"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex2_i1"
+        },
+        {
+          "prompt": "My father has grown up in Poland.",
+          "options": null,
+          "canonical": "My father grew up in Poland.",
+          "accepted_variants": [
+            "My father grew up in Poland",
+            "My father grew up in Poland.",
+            "my father grew up in poland."
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex2_i2"
+        },
+        {
+          "prompt": "How many books has George Orwell written?",
+          "options": null,
+          "canonical": "How many books did George Orwell write?",
+          "accepted_variants": [
+            "How many books did George Orwell write",
+            "How many books did George Orwell write?",
+            "how many books did george orwell write?"
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex2_i3"
+        },
+        {
+          "prompt": "I've lost his number. Is it 071 or 017?",
+          "options": null,
+          "canonical": "OK",
+          "accepted_variants": [
+            "OK",
+            "Ok",
+            "ok"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex2_i4"
+        },
+        {
+          "prompt": "Who has invented the telephone?",
+          "options": null,
+          "canonical": "Who invented the telephone?",
+          "accepted_variants": [
+            "Who invented the telephone",
+            "Who invented the telephone?",
+            "who invented the telephone?"
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex2_i5"
+        },
+        {
+          "prompt": "Prices have increased a lot last year.",
+          "options": null,
+          "canonical": "Prices increased a lot last year.",
+          "accepted_variants": [
+            "Prices increased a lot last year",
+            "Prices increased a lot last year.",
+            "prices increased a lot last year."
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex2_i6"
+        },
+        {
+          "prompt": "We have cleaned the flat yesterday.",
+          "options": null,
+          "canonical": "We cleaned the flat yesterday.",
+          "accepted_variants": [
+            "We cleaned the flat yesterday",
+            "We cleaned the flat yesterday.",
+            "we cleaned the flat yesterday."
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex2_i7"
+        },
+        {
+          "prompt": "Where have you been born?",
+          "options": null,
+          "canonical": "Where were you born?",
+          "accepted_variants": [
+            "Where were you born",
+            "Where were you born?",
+            "where were you born?"
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex2_i8"
+        },
+        {
+          "prompt": "Tanya has gone to the shop. She'll be back soon.",
+          "options": null,
+          "canonical": "OK",
+          "accepted_variants": [
+            "OK",
+            "Ok",
+            "ok"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex2_i9"
+        },
+        {
+          "prompt": "I have met him two days ago.",
+          "options": null,
+          "canonical": "I met him two days ago.",
+          "accepted_variants": [
+            "I met him two days ago",
+            "I met him two days ago.",
+            "i met him two days ago."
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex2_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_13",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with present perfect or past simple.",
+      "items": [
+        {
+          "prompt": "I ____ (not/see) Liam today. Is he at work?",
+          "options": null,
+          "canonical": "haven't seen",
+          "accepted_variants": [
+            "have not seen",
+            "haven't seen"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex3_i1"
+        },
+        {
+          "prompt": "I ____ (see) him yesterday afternoon.",
+          "options": null,
+          "canonical": "saw",
+          "accepted_variants": [
+            "saw"
+          ],
+          "rule_keys": [
+            "unit_13_B"
+          ],
+          "item_key": "unit_13_ex3_i2"
+        },
+        {
+          "prompt": "She ____ (live) in Madrid from 2016 to 2020.",
+          "options": null,
+          "canonical": "lived",
+          "accepted_variants": [
+            "lived"
+          ],
+          "rule_keys": [
+            "unit_13_B"
+          ],
+          "item_key": "unit_13_ex3_i3"
+        },
+        {
+          "prompt": "We ____ (finish) the project, so we can relax now.",
+          "options": null,
+          "canonical": "have finished",
+          "accepted_variants": [
+            "have finished"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex3_i4"
+        },
+        {
+          "prompt": "They ____ (finish) it last week.",
+          "options": null,
+          "canonical": "finished",
+          "accepted_variants": [
+            "finished"
+          ],
+          "rule_keys": [
+            "unit_13_B"
+          ],
+          "item_key": "unit_13_ex3_i5"
+        },
+        {
+          "prompt": "Where ____ you ____ (put) my notebook? I can't find it.",
+          "options": null,
+          "canonical": "have you put",
+          "accepted_variants": [
+            "have you put"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex3_i6"
+        },
+        {
+          "prompt": "I ____ (read) that article already.",
+          "options": null,
+          "canonical": "have read",
+          "accepted_variants": [
+            "have read"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex3_i7"
+        },
+        {
+          "prompt": "I ____ (read) it two days ago.",
+          "options": null,
+          "canonical": "read",
+          "accepted_variants": [
+            "read"
+          ],
+          "rule_keys": [
+            "unit_13_B"
+          ],
+          "item_key": "unit_13_ex3_i8"
+        },
+        {
+          "prompt": "The bus ____ (just/leave). We need to wait for the next one.",
+          "options": null,
+          "canonical": "has just left",
+          "accepted_variants": [
+            "has just left"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex3_i9"
+        },
+        {
+          "prompt": "When ____ you ____ (arrive) last night?",
+          "options": null,
+          "canonical": "did you arrive",
+          "accepted_variants": [
+            "did you arrive"
+          ],
+          "rule_keys": [
+            "unit_13_C"
+          ],
+          "item_key": "unit_13_ex3_i10"
+        },
+        {
+          "prompt": "I ____ (never/try) Korean food, but I'd like to.",
+          "options": null,
+          "canonical": "have never tried",
+          "accepted_variants": [
+            "have never tried"
+          ],
+          "rule_keys": [
+            "unit_13_A"
+          ],
+          "item_key": "unit_13_ex3_i11"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_14",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put the verb into past simple (finished time).",
+      "items": [
+        {
+          "prompt": "Yesterday I ____ (see) an old friend.",
+          "options": null,
+          "canonical": "saw",
+          "accepted_variants": [
+            "saw"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i1"
+        },
+        {
+          "prompt": "She ____ (arrive) ten minutes ago.",
+          "options": null,
+          "canonical": "arrived",
+          "accepted_variants": [
+            "arrived"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i2"
+        },
+        {
+          "prompt": "Did you ____ (finish) the test last week?",
+          "options": null,
+          "canonical": "finish",
+          "accepted_variants": [
+            "finish"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i3"
+        },
+        {
+          "prompt": "I ____ (not/go) out last night.",
+          "options": null,
+          "canonical": "didn't go",
+          "accepted_variants": [
+            "did not go",
+            "didn't go"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i4"
+        },
+        {
+          "prompt": "What time ____ you ____ (get) home?",
+          "options": null,
+          "canonical": "did you get",
+          "accepted_variants": [
+            "did you get"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i5"
+        },
+        {
+          "prompt": "We ____ (buy) this sofa in 2020.",
+          "options": null,
+          "canonical": "bought",
+          "accepted_variants": [
+            "bought"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i6"
+        },
+        {
+          "prompt": "I ____ (meet) her on Monday.",
+          "options": null,
+          "canonical": "met",
+          "accepted_variants": [
+            "met"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i7"
+        },
+        {
+          "prompt": "The movie ____ (start) at 8 and ended at 10.",
+          "options": null,
+          "canonical": "started",
+          "accepted_variants": [
+            "started"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i8"
+        },
+        {
+          "prompt": "He ____ (call) me a moment ago.",
+          "options": null,
+          "canonical": "called",
+          "accepted_variants": [
+            "called"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i9"
+        },
+        {
+          "prompt": "Where ____ you ____ (park) the car?",
+          "options": null,
+          "canonical": "did you park",
+          "accepted_variants": [
+            "did you park"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex1_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_14",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put the verb into present perfect (time up to now).",
+      "items": [
+        {
+          "prompt": "I ____ (drink) two coffees today (so far).",
+          "options": null,
+          "canonical": "have drunk",
+          "accepted_variants": [
+            "have drunk"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i1"
+        },
+        {
+          "prompt": "____ you ____ (see) Mia this week?",
+          "options": null,
+          "canonical": "have you seen",
+          "accepted_variants": [
+            "have you seen"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i2"
+        },
+        {
+          "prompt": "We ____ (not/have) any meetings this morning (yet).",
+          "options": null,
+          "canonical": "haven't had",
+          "accepted_variants": [
+            "have not had",
+            "haven't had"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i3"
+        },
+        {
+          "prompt": "The temperature ____ (drop) a lot this evening.",
+          "options": null,
+          "canonical": "has dropped",
+          "accepted_variants": [
+            "has dropped"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i4"
+        },
+        {
+          "prompt": "I ____ (work) a lot this week.",
+          "options": null,
+          "canonical": "have worked",
+          "accepted_variants": [
+            "have worked"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i5"
+        },
+        {
+          "prompt": "____ you ____ (finish) the report this afternoon?",
+          "options": null,
+          "canonical": "have you finished",
+          "accepted_variants": [
+            "have you finished"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i6"
+        },
+        {
+          "prompt": "My phone ____ (ring) three times today.",
+          "options": null,
+          "canonical": "has rung",
+          "accepted_variants": [
+            "has rung"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i7"
+        },
+        {
+          "prompt": "They ____ (send) me two emails this morning.",
+          "options": null,
+          "canonical": "have sent",
+          "accepted_variants": [
+            "have sent"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_14",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Choose past simple or present perfect.",
+      "items": [
+        {
+          "prompt": "Did you see Anna this morning? (It's 8 p.m.) -> past: I ____ her.",
+          "options": null,
+          "canonical": "didn't see",
+          "accepted_variants": [
+            "did not see",
+            "didn't see"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex3_i1"
+        },
+        {
+          "prompt": "Have you seen Anna this morning? (It's 11 a.m.) -> present perfect: I ____ her.",
+          "options": null,
+          "canonical": "haven't seen",
+          "accepted_variants": [
+            "have not seen",
+            "haven't seen"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex3_i2"
+        },
+        {
+          "prompt": "I ____ (lose) my wallet. I can't find it.",
+          "options": null,
+          "canonical": "have lost",
+          "accepted_variants": [
+            "have lost"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex3_i3"
+        },
+        {
+          "prompt": "I ____ (lose) my wallet yesterday, but I found it later.",
+          "options": null,
+          "canonical": "lost",
+          "accepted_variants": [
+            "lost"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex3_i4"
+        },
+        {
+          "prompt": "This month we ____ (sell) 120 tickets.",
+          "options": null,
+          "canonical": "have sold",
+          "accepted_variants": [
+            "have sold"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex3_i5"
+        },
+        {
+          "prompt": "Last month we ____ (sell) 120 tickets.",
+          "options": null,
+          "canonical": "sold",
+          "accepted_variants": [
+            "sold"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex3_i6"
+        },
+        {
+          "prompt": "____ you ____ (ever/be) to Spain?",
+          "options": null,
+          "canonical": "have you ever been",
+          "accepted_variants": [
+            "have you ever been"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex3_i7"
+        },
+        {
+          "prompt": "When ____ you ____ (go) to Spain?",
+          "options": null,
+          "canonical": "did you go",
+          "accepted_variants": [
+            "did you go"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex3_i8"
+        },
+        {
+          "prompt": "I ____ (not/finish) the book yet.",
+          "options": null,
+          "canonical": "haven't finished",
+          "accepted_variants": [
+            "have not finished",
+            "haven't finished"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex3_i9"
+        },
+        {
+          "prompt": "I ____ (not/finish) the book last weekend.",
+          "options": null,
+          "canonical": "didn't finish",
+          "accepted_variants": [
+            "did not finish",
+            "didn't finish"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex3_i10"
+        },
+        {
+          "prompt": "It's the first time I ____ (try) this app.",
+          "options": null,
+          "canonical": "have tried",
+          "accepted_variants": [
+            "have tried"
+          ],
+          "rule_keys": [
+            "unit_14_B"
+          ],
+          "item_key": "unit_14_ex3_i11"
+        },
+        {
+          "prompt": "It was the first time I ____ (try) this app.",
+          "options": null,
+          "canonical": "tried",
+          "accepted_variants": [
+            "tried"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex3_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_14",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Write questions with When…? / What time…?",
+      "items": [
+        {
+          "prompt": "Write the question: (when / you / last / eat) sushi",
+          "options": null,
+          "canonical": "When did you last eat sushi?",
+          "accepted_variants": [
+            "When did you last eat sushi",
+            "When did you last eat sushi?",
+            "when did you last eat sushi?"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex4_i1"
+        },
+        {
+          "prompt": "Write the question: (what time / the meeting / start) yesterday",
+          "options": null,
+          "canonical": "What time did the meeting start yesterday?",
+          "accepted_variants": [
+            "What time did the meeting start yesterday",
+            "What time did the meeting start yesterday?",
+            "what time did the meeting start yesterday?"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex4_i2"
+        },
+        {
+          "prompt": "Write the question: (when / she / arrive) last night",
+          "options": null,
+          "canonical": "When did she arrive last night?",
+          "accepted_variants": [
+            "When did she arrive last night",
+            "When did she arrive last night?",
+            "when did she arrive last night?"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex4_i3"
+        },
+        {
+          "prompt": "Write the question: (what time / you / get up) this morning",
+          "options": null,
+          "canonical": "What time did you get up this morning?",
+          "accepted_variants": [
+            "What time did you get up this morning",
+            "What time did you get up this morning?",
+            "what time did you get up this morning?"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex4_i4"
+        },
+        {
+          "prompt": "Write the question: (when / they / leave) ten minutes ago",
+          "options": null,
+          "canonical": "When did they leave ten minutes ago?",
+          "accepted_variants": [
+            "When did they leave ten minutes ago",
+            "When did they leave ten minutes ago?",
+            "when did they leave ten minutes ago?"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex4_i5"
+        },
+        {
+          "prompt": "Write the question: (what time / you / finish) the exam",
+          "options": null,
+          "canonical": "What time did you finish the exam?",
+          "accepted_variants": [
+            "What time did you finish the exam",
+            "What time did you finish the exam?",
+            "what time did you finish the exam?"
+          ],
+          "rule_keys": [
+            "unit_14_A"
+          ],
+          "item_key": "unit_14_ex4_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_15",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put the verb into past perfect (had done).",
+      "items": [
+        {
+          "prompt": "When I got to the station, the train ____ (already/leave).",
+          "options": null,
+          "canonical": "had already left",
+          "accepted_variants": [
+            "had already left"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i1"
+        },
+        {
+          "prompt": "She was upset because she ____ (lose) her passport.",
+          "options": null,
+          "canonical": "had lost",
+          "accepted_variants": [
+            "had lost"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i2"
+        },
+        {
+          "prompt": "I didn't recognise him at first because I ____ (not/see) him for years.",
+          "options": null,
+          "canonical": "hadn't seen",
+          "accepted_variants": [
+            "had not seen",
+            "hadn't seen"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i3"
+        },
+        {
+          "prompt": "They couldn't enter because they ____ (forget) the code.",
+          "options": null,
+          "canonical": "had forgotten",
+          "accepted_variants": [
+            "had forgotten"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i4"
+        },
+        {
+          "prompt": "By the time we arrived, the film ____ (start).",
+          "options": null,
+          "canonical": "had started",
+          "accepted_variants": [
+            "had started"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i5"
+        },
+        {
+          "prompt": "He realised he ____ (make) a mistake.",
+          "options": null,
+          "canonical": "had made",
+          "accepted_variants": [
+            "had made"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i6"
+        },
+        {
+          "prompt": "I told her I ____ (meet) her brother before.",
+          "options": null,
+          "canonical": "had met",
+          "accepted_variants": [
+            "had met"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i7"
+        },
+        {
+          "prompt": "We went to the café, but it ____ (close).",
+          "options": null,
+          "canonical": "had closed",
+          "accepted_variants": [
+            "had closed"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i8"
+        },
+        {
+          "prompt": "She couldn't sleep because she ____ (drink) too much coffee.",
+          "options": null,
+          "canonical": "had drunk",
+          "accepted_variants": [
+            "had drunk"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex1_i9"
+        },
+        {
+          "prompt": "After I ____ (finish) the call, I wrote a note.",
+          "options": null,
+          "canonical": "had finished",
+          "accepted_variants": [
+            "had finished"
+          ],
+          "rule_keys": [
+            "unit_15_B"
+          ],
+          "item_key": "unit_15_ex1_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_15",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Rewrite using before/after + past perfect.",
+      "items": [
+        {
+          "prompt": "Rewrite with 'after': First he packed. Then he left.",
+          "options": null,
+          "canonical": "After he had packed, he left.",
+          "accepted_variants": [
+            "After he had packed, he left",
+            "After he had packed, he left.",
+            "after he had packed, he left."
+          ],
+          "rule_keys": [
+            "unit_15_B"
+          ],
+          "item_key": "unit_15_ex2_i1"
+        },
+        {
+          "prompt": "Rewrite with 'before': I checked the address. Then I sent the parcel.",
+          "options": null,
+          "canonical": "I had checked the address before I sent the parcel.",
+          "accepted_variants": [
+            "I had checked the address before I sent the parcel",
+            "I had checked the address before I sent the parcel.",
+            "i had checked the address before i sent the parcel."
+          ],
+          "rule_keys": [
+            "unit_15_B"
+          ],
+          "item_key": "unit_15_ex2_i2"
+        },
+        {
+          "prompt": "Rewrite with 'after': She finished the exam. Then she went for a coffee.",
+          "options": null,
+          "canonical": "After she had finished the exam, she went for a coffee.",
+          "accepted_variants": [
+            "After she had finished the exam, she went for a coffee",
+            "After she had finished the exam, she went for a coffee.",
+            "after she had finished the exam, she went for a coffee."
+          ],
+          "rule_keys": [
+            "unit_15_B"
+          ],
+          "item_key": "unit_15_ex2_i3"
+        },
+        {
+          "prompt": "Rewrite with 'before': We locked the door. Then we went out.",
+          "options": null,
+          "canonical": "We had locked the door before we went out.",
+          "accepted_variants": [
+            "We had locked the door before we went out",
+            "We had locked the door before we went out.",
+            "we had locked the door before we went out."
+          ],
+          "rule_keys": [
+            "unit_15_B"
+          ],
+          "item_key": "unit_15_ex2_i4"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_15",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with past perfect where it shows 'earlier past'.",
+      "items": [
+        {
+          "prompt": "I went to apologise, but I realised I ____ (already/say) sorry by text.",
+          "options": null,
+          "canonical": "had already said",
+          "accepted_variants": [
+            "had already said"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex3_i1"
+        },
+        {
+          "prompt": "She asked me why I ____ (not/call) earlier.",
+          "options": null,
+          "canonical": "hadn't called",
+          "accepted_variants": [
+            "had not called",
+            "hadn't called"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex3_i2"
+        },
+        {
+          "prompt": "We didn't buy tickets because we ____ (not/plan) to stay.",
+          "options": null,
+          "canonical": "hadn't planned",
+          "accepted_variants": [
+            "had not planned",
+            "hadn't planned"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex3_i3"
+        },
+        {
+          "prompt": "When he arrived, I ____ (just/finish) cleaning.",
+          "options": null,
+          "canonical": "had just finished",
+          "accepted_variants": [
+            "had just finished"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex3_i4"
+        },
+        {
+          "prompt": "After they ____ (eat), they went for a walk.",
+          "options": null,
+          "canonical": "had eaten",
+          "accepted_variants": [
+            "had eaten"
+          ],
+          "rule_keys": [
+            "unit_15_B"
+          ],
+          "item_key": "unit_15_ex3_i5"
+        },
+        {
+          "prompt": "I remembered I ____ (leave) my wallet at home.",
+          "options": null,
+          "canonical": "had left",
+          "accepted_variants": [
+            "had left"
+          ],
+          "rule_keys": [
+            "unit_15_A"
+          ],
+          "item_key": "unit_15_ex3_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_16",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put the verb into past perfect continuous (had been doing).",
+      "items": [
+        {
+          "prompt": "I was tired because I ____ (work) all day.",
+          "options": null,
+          "canonical": "had been working",
+          "accepted_variants": [
+            "had been working"
+          ],
+          "rule_keys": [
+            "unit_16_B"
+          ],
+          "item_key": "unit_16_ex1_i1"
+        },
+        {
+          "prompt": "Her clothes were wet; she ____ (walk) in the rain.",
+          "options": null,
+          "canonical": "had been walking",
+          "accepted_variants": [
+            "had been walking"
+          ],
+          "rule_keys": [
+            "unit_16_B"
+          ],
+          "item_key": "unit_16_ex1_i2"
+        },
+        {
+          "prompt": "We were hungry because we ____ (not/eat) since morning.",
+          "options": null,
+          "canonical": "hadn't been eating",
+          "accepted_variants": [
+            "had not been eating",
+            "hadn't been eating"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex1_i3"
+        },
+        {
+          "prompt": "He was angry because he ____ (argue) with his brother.",
+          "options": null,
+          "canonical": "had been arguing",
+          "accepted_variants": [
+            "had been arguing"
+          ],
+          "rule_keys": [
+            "unit_16_B"
+          ],
+          "item_key": "unit_16_ex1_i4"
+        },
+        {
+          "prompt": "They were late because they ____ (look) for the address.",
+          "options": null,
+          "canonical": "had been looking",
+          "accepted_variants": [
+            "had been looking"
+          ],
+          "rule_keys": [
+            "unit_16_A"
+          ],
+          "item_key": "unit_16_ex1_i5"
+        },
+        {
+          "prompt": "My eyes hurt because I ____ (read) without a break.",
+          "options": null,
+          "canonical": "had been reading",
+          "accepted_variants": [
+            "had been reading"
+          ],
+          "rule_keys": [
+            "unit_16_B"
+          ],
+          "item_key": "unit_16_ex1_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_16",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Choose past perfect simple or continuous.",
+      "items": [
+        {
+          "prompt": "I ____ (write) for an hour when the laptop crashed.",
+          "options": null,
+          "canonical": "had been writing",
+          "accepted_variants": [
+            "had been writing"
+          ],
+          "rule_keys": [
+            "unit_16_A"
+          ],
+          "item_key": "unit_16_ex2_i1"
+        },
+        {
+          "prompt": "I ____ (write) the email before lunch.",
+          "options": null,
+          "canonical": "had written",
+          "accepted_variants": [
+            "had written"
+          ],
+          "rule_keys": [
+            "unit_16_C"
+          ],
+          "item_key": "unit_16_ex2_i2"
+        },
+        {
+          "prompt": "They ____ (walk) for miles, so they were exhausted.",
+          "options": null,
+          "canonical": "had been walking",
+          "accepted_variants": [
+            "had been walking"
+          ],
+          "rule_keys": [
+            "unit_16_C"
+          ],
+          "item_key": "unit_16_ex2_i3"
+        },
+        {
+          "prompt": "She ____ (finish) the report, so she went home.",
+          "options": null,
+          "canonical": "had finished",
+          "accepted_variants": [
+            "had finished"
+          ],
+          "rule_keys": [
+            "unit_16_C"
+          ],
+          "item_key": "unit_16_ex2_i4"
+        },
+        {
+          "prompt": "He ____ (try) to call you, but the line was busy.",
+          "options": null,
+          "canonical": "had been trying",
+          "accepted_variants": [
+            "had been trying"
+          ],
+          "rule_keys": [
+            "unit_16_C"
+          ],
+          "item_key": "unit_16_ex2_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_16",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with had been doing (often with for/since).",
+      "items": [
+        {
+          "prompt": "By 8 p.m., we ____ (wait) for two hours.",
+          "options": null,
+          "canonical": "had been waiting",
+          "accepted_variants": [
+            "had been waiting"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex3_i1"
+        },
+        {
+          "prompt": "She ____ (live) there for years before she moved.",
+          "options": null,
+          "canonical": "had been living",
+          "accepted_variants": [
+            "had been living"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex3_i2"
+        },
+        {
+          "prompt": "They ____ (train) since April when the race was cancelled.",
+          "options": null,
+          "canonical": "had been training",
+          "accepted_variants": [
+            "had been training"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex3_i3"
+        },
+        {
+          "prompt": "I ____ (not/sleep) well for weeks, so I felt awful.",
+          "options": null,
+          "canonical": "hadn't been sleeping",
+          "accepted_variants": [
+            "had not been sleeping",
+            "hadn't been sleeping"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex3_i4"
+        },
+        {
+          "prompt": "He ____ (study) all morning, so he needed a break.",
+          "options": null,
+          "canonical": "had been studying",
+          "accepted_variants": [
+            "had been studying"
+          ],
+          "rule_keys": [
+            "unit_16_A"
+          ],
+          "item_key": "unit_16_ex3_i5"
+        },
+        {
+          "prompt": "We ____ (talk) for 30 minutes when the lights went out.",
+          "options": null,
+          "canonical": "had been talking",
+          "accepted_variants": [
+            "had been talking"
+          ],
+          "rule_keys": [
+            "unit_16_A"
+          ],
+          "item_key": "unit_16_ex3_i6"
+        },
+        {
+          "prompt": "She ____ (work) in that café since she was 18.",
+          "options": null,
+          "canonical": "had been working",
+          "accepted_variants": [
+            "had been working"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex3_i7"
+        },
+        {
+          "prompt": "The kids ____ (play) outside for hours before it got dark.",
+          "options": null,
+          "canonical": "had been playing",
+          "accepted_variants": [
+            "had been playing"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex3_i8"
+        },
+        {
+          "prompt": "I ____ (drive) for a long time, so I stopped for coffee.",
+          "options": null,
+          "canonical": "had been driving",
+          "accepted_variants": [
+            "had been driving"
+          ],
+          "rule_keys": [
+            "unit_16_D"
+          ],
+          "item_key": "unit_16_ex3_i9"
+        },
+        {
+          "prompt": "It ____ (rain) for days, so the river was high.",
+          "options": null,
+          "canonical": "had been raining",
+          "accepted_variants": [
+            "had been raining"
+          ],
+          "rule_keys": [
+            "unit_16_B"
+          ],
+          "item_key": "unit_16_ex3_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_17",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with have/has (have got is also possible in meaning A).",
+      "items": [
+        {
+          "prompt": "I ____ two sisters. (have / have got)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i1"
+        },
+        {
+          "prompt": "She ____ a headache. (have / have got)",
+          "options": null,
+          "canonical": "has",
+          "accepted_variants": [
+            "has"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i2"
+        },
+        {
+          "prompt": "We ____ a small balcony. (have / have got)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i3"
+        },
+        {
+          "prompt": "He ____ a new car. (have / have got)",
+          "options": null,
+          "canonical": "has",
+          "accepted_variants": [
+            "has"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i4"
+        },
+        {
+          "prompt": "They ____ three kids. (have / have got)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i5"
+        },
+        {
+          "prompt": "My phone ____ a better camera now. (have / have got)",
+          "options": null,
+          "canonical": "has",
+          "accepted_variants": [
+            "has"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i6"
+        },
+        {
+          "prompt": "I ____ an appointment tomorrow. (have / have got)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i7"
+        },
+        {
+          "prompt": "Our flat ____ two bathrooms. (have / have got)",
+          "options": null,
+          "canonical": "has",
+          "accepted_variants": [
+            "has"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_17",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Rewrite or make questions/negatives. Use have / have got where appropriate.",
+      "items": [
+        {
+          "prompt": "Rewrite with have got: I have a new laptop.",
+          "options": null,
+          "canonical": "I've got a new laptop.",
+          "accepted_variants": [
+            "I have got a new laptop.",
+            "I've got a new laptop",
+            "I've got a new laptop.",
+            "i've got a new laptop."
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i1"
+        },
+        {
+          "prompt": "Rewrite with have got: She has a cold.",
+          "options": null,
+          "canonical": "She's got a cold.",
+          "accepted_variants": [
+            "She is got a cold.",
+            "She's got a cold",
+            "She's got a cold.",
+            "she's got a cold."
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i2"
+        },
+        {
+          "prompt": "Make the question: you / have / a driving lesson tomorrow?",
+          "options": null,
+          "canonical": "Have you got a driving lesson tomorrow?",
+          "accepted_variants": [
+            "Have you got a driving lesson tomorrow",
+            "Have you got a driving lesson tomorrow?",
+            "have you got a driving lesson tomorrow?"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i3"
+        },
+        {
+          "prompt": "Make the negative: He has a lot of free time. (use have got)",
+          "options": null,
+          "canonical": "He hasn't got a lot of free time.",
+          "accepted_variants": [
+            "He has not got a lot of free time.",
+            "He hasn't got a lot of free time",
+            "He hasn't got a lot of free time.",
+            "he hasn't got a lot of free time."
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i4"
+        },
+        {
+          "prompt": "Rewrite with have: They've got a small garden.",
+          "options": null,
+          "canonical": "They have a small garden.",
+          "accepted_variants": [
+            "They have a small garden",
+            "They have a small garden.",
+            "They've a small garden.",
+            "they have a small garden."
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i5"
+        },
+        {
+          "prompt": "Make the past: I have a headache. (past)",
+          "options": null,
+          "canonical": "I had a headache.",
+          "accepted_variants": [
+            "I had a headache",
+            "I had a headache.",
+            "i had a headache."
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i6"
+        },
+        {
+          "prompt": "Make the question: your house / have / a garage?",
+          "options": null,
+          "canonical": "Has your house got a garage?",
+          "accepted_variants": [
+            "Has your house got a garage",
+            "Has your house got a garage?",
+            "has your house got a garage?"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i7"
+        },
+        {
+          "prompt": "Make the negative: We have any milk. (negative)",
+          "options": null,
+          "canonical": "We haven't got any milk.",
+          "accepted_variants": [
+            "We have not got any milk.",
+            "We haven't got any milk",
+            "We haven't got any milk.",
+            "we haven't got any milk."
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i8"
+        },
+        {
+          "prompt": "Rewrite with have got: Our team has a new coach.",
+          "options": null,
+          "canonical": "Our team has got a new coach.",
+          "accepted_variants": [
+            "Our team has got a new coach",
+            "Our team has got a new coach.",
+            "our team has got a new coach."
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex2_i9"
+        },
+        {
+          "prompt": "Make the past question: you / have / problems finding it?",
+          "options": null,
+          "canonical": "Did you have problems finding it?",
+          "accepted_variants": [
+            "Did you have problems finding it",
+            "Did you have problems finding it?",
+            "did you have problems finding it?"
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex2_i10"
+        },
+        {
+          "prompt": "Make the past negative: I have trouble sleeping. (past negative)",
+          "options": null,
+          "canonical": "I didn't have trouble sleeping.",
+          "accepted_variants": [
+            "I did not have trouble sleeping.",
+            "I didn't have trouble sleeping",
+            "I didn't have trouble sleeping.",
+            "i didn't have trouble sleeping."
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex2_i11"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_17",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the correct form of have.",
+      "items": [
+        {
+          "prompt": "I usually ____ breakfast at 7. (have)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex3_i1"
+        },
+        {
+          "prompt": "She ____ a shower right now. (have)",
+          "options": null,
+          "canonical": "is having",
+          "accepted_variants": [
+            "is having"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex3_i2"
+        },
+        {
+          "prompt": "They ____ a great time on holiday. (have)",
+          "options": null,
+          "canonical": "are having",
+          "accepted_variants": [
+            "are having"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex3_i3"
+        },
+        {
+          "prompt": "We don't usually ____ lunch at our desks. (have)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex3_i4"
+        },
+        {
+          "prompt": "____ you ____ lunch today? (question)",
+          "options": null,
+          "canonical": "Are you having",
+          "accepted_variants": [
+            "Are you having",
+            "are you having"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex3_i5"
+        },
+        {
+          "prompt": "____ you usually ____ lunch at work? (question)",
+          "options": null,
+          "canonical": "Do you usually have",
+          "accepted_variants": [
+            "Do you usually have",
+            "do you usually have"
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex3_i6"
+        },
+        {
+          "prompt": "I ____ coffee every morning. (negative)",
+          "options": null,
+          "canonical": "don't have",
+          "accepted_variants": [
+            "do not have",
+            "don't have"
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex3_i7"
+        },
+        {
+          "prompt": "He ____ trouble finding the hotel. (past question)",
+          "options": null,
+          "canonical": "Did he have",
+          "accepted_variants": [
+            "Did he have",
+            "did he have"
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex3_i8"
+        },
+        {
+          "prompt": "We're ____ dinner later. (have)",
+          "options": null,
+          "canonical": "having",
+          "accepted_variants": [
+            "having"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex3_i9"
+        },
+        {
+          "prompt": "She ____ a headache, so she went home. (past)",
+          "options": null,
+          "canonical": "had",
+          "accepted_variants": [
+            "had"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex3_i10"
+        },
+        {
+          "prompt": "I ____ a sandwich for lunch sometimes. (have)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex3_i11"
+        },
+        {
+          "prompt": "Would you like one? I've got some sandwiches. (no gap—choose meaning)",
+          "options": null,
+          "canonical": "OK",
+          "accepted_variants": [
+            "OK",
+            "Ok",
+            "ok"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex3_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_17",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Choose the correct form (have / have got / have as an action).",
+      "items": [
+        {
+          "prompt": "We ____ a lovely room in the hotel. (possession; not continuous)",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex4_i1"
+        },
+        {
+          "prompt": "Right now we ____ a lovely time in the hotel. (activity)",
+          "options": null,
+          "canonical": "are having",
+          "accepted_variants": [
+            "are having"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex4_i2"
+        },
+        {
+          "prompt": "He ____ a shower, so he can't answer.",
+          "options": null,
+          "canonical": "is having",
+          "accepted_variants": [
+            "is having"
+          ],
+          "rule_keys": [
+            "unit_17_B"
+          ],
+          "item_key": "unit_17_ex4_i3"
+        },
+        {
+          "prompt": "I ____ a car, but I don't drive much.",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex4_i4"
+        },
+        {
+          "prompt": "____ you ____ any brothers or sisters? (question)",
+          "options": null,
+          "canonical": "Have you got",
+          "accepted_variants": [
+            "Have you got",
+            "have you got"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex4_i5"
+        },
+        {
+          "prompt": "I ____ much time today. (negative)",
+          "options": null,
+          "canonical": "don't have",
+          "accepted_variants": [
+            "do not have",
+            "don't have"
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex4_i6"
+        },
+        {
+          "prompt": "She ____ an appointment next week. (possession/arrangement)",
+          "options": null,
+          "canonical": "has",
+          "accepted_variants": [
+            "has"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex4_i7"
+        },
+        {
+          "prompt": "____ you ____ breakfast at home? (habit question)",
+          "options": null,
+          "canonical": "Do you have",
+          "accepted_variants": [
+            "Do you have",
+            "do you have"
+          ],
+          "rule_keys": [
+            "unit_17_C"
+          ],
+          "item_key": "unit_17_ex4_i8"
+        },
+        {
+          "prompt": "He ____ a headache yesterday. (past)",
+          "options": null,
+          "canonical": "had",
+          "accepted_variants": [
+            "had"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex4_i9"
+        },
+        {
+          "prompt": "They ____ problems with the car last winter. (past)",
+          "options": null,
+          "canonical": "had",
+          "accepted_variants": [
+            "had"
+          ],
+          "rule_keys": [
+            "unit_17_A"
+          ],
+          "item_key": "unit_17_ex4_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_18",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with used to / didn't use to.",
+      "items": [
+        {
+          "prompt": "I ____ (use to) play video games every day when I was a teenager.",
+          "options": null,
+          "canonical": "used to",
+          "accepted_variants": [
+            "used to"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex1_i1"
+        },
+        {
+          "prompt": "She ____ (use to) be very shy, but she isn't now.",
+          "options": null,
+          "canonical": "used to",
+          "accepted_variants": [
+            "used to"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex1_i2"
+        },
+        {
+          "prompt": "We ____ (use to) live near the sea.",
+          "options": null,
+          "canonical": "used to",
+          "accepted_variants": [
+            "used to"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex1_i3"
+        },
+        {
+          "prompt": "My grandfather ____ (use to) smoke, but he stopped.",
+          "options": null,
+          "canonical": "used to",
+          "accepted_variants": [
+            "used to"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex1_i4"
+        },
+        {
+          "prompt": "There ____ (use to) be a cinema here.",
+          "options": null,
+          "canonical": "used to",
+          "accepted_variants": [
+            "used to"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex1_i5"
+        },
+        {
+          "prompt": "They ____ (use to) travel a lot, but now they stay home.",
+          "options": null,
+          "canonical": "used to",
+          "accepted_variants": [
+            "used to"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex1_i6"
+        },
+        {
+          "prompt": "I ____ (not/use to) like olives, but now I do.",
+          "options": null,
+          "canonical": "didn't use to",
+          "accepted_variants": [
+            "did not use to",
+            "didn't use to"
+          ],
+          "rule_keys": [
+            "unit_18_B"
+          ],
+          "item_key": "unit_18_ex1_i7"
+        },
+        {
+          "prompt": "He ____ (not/use to) have a smartphone.",
+          "options": null,
+          "canonical": "didn't use to",
+          "accepted_variants": [
+            "did not use to",
+            "didn't use to"
+          ],
+          "rule_keys": [
+            "unit_18_B"
+          ],
+          "item_key": "unit_18_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_18",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Write questions with Did ... use to ... ?",
+      "items": [
+        {
+          "prompt": "Make the question: you / use to / live here?",
+          "options": null,
+          "canonical": "Did you use to live here?",
+          "accepted_variants": [
+            "Did you use to live here",
+            "Did you use to live here?",
+            "did you use to live here?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i1"
+        },
+        {
+          "prompt": "Make the question: what / she / use to / do on weekends?",
+          "options": null,
+          "canonical": "What did she use to do on weekends?",
+          "accepted_variants": [
+            "What did she use to do on weekends",
+            "What did she use to do on weekends?",
+            "what did she use to do on weekends?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i2"
+        },
+        {
+          "prompt": "Make the question: where / they / use to / work?",
+          "options": null,
+          "canonical": "Where did they use to work?",
+          "accepted_variants": [
+            "Where did they use to work",
+            "Where did they use to work?",
+            "where did they use to work?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i3"
+        },
+        {
+          "prompt": "Make the question: he / use to / be quiet?",
+          "options": null,
+          "canonical": "Did he use to be quiet?",
+          "accepted_variants": [
+            "Did he use to be quiet",
+            "Did he use to be quiet?",
+            "did he use to be quiet?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i4"
+        },
+        {
+          "prompt": "Make the question: you / use to / cycle to school?",
+          "options": null,
+          "canonical": "Did you use to cycle to school?",
+          "accepted_variants": [
+            "Did you use to cycle to school",
+            "Did you use to cycle to school?",
+            "did you use to cycle to school?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i5"
+        },
+        {
+          "prompt": "Make the question: how / you / use to / get to work?",
+          "options": null,
+          "canonical": "How did you use to get to work?",
+          "accepted_variants": [
+            "How did you use to get to work",
+            "How did you use to get to work?",
+            "how did you use to get to work?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i6"
+        },
+        {
+          "prompt": "Make the question: she / use to / wear glasses?",
+          "options": null,
+          "canonical": "Did she use to wear glasses?",
+          "accepted_variants": [
+            "Did she use to wear glasses",
+            "Did she use to wear glasses?",
+            "did she use to wear glasses?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i7"
+        },
+        {
+          "prompt": "Make the question: they / use to / go out a lot?",
+          "options": null,
+          "canonical": "Did they use to go out a lot?",
+          "accepted_variants": [
+            "Did they use to go out a lot",
+            "Did they use to go out a lot?",
+            "did they use to go out a lot?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i8"
+        },
+        {
+          "prompt": "Make the question: what games / you / use to / play?",
+          "options": null,
+          "canonical": "What games did you use to play?",
+          "accepted_variants": [
+            "What games did you use to play",
+            "What games did you use to play?",
+            "what games did you use to play?"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex2_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_18",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (used to vs now).",
+      "items": [
+        {
+          "prompt": "I used to cycle to work, but now I ____ (drive).",
+          "options": null,
+          "canonical": "drive",
+          "accepted_variants": [
+            "drive"
+          ],
+          "rule_keys": [
+            "unit_18_D"
+          ],
+          "item_key": "unit_18_ex3_i1"
+        },
+        {
+          "prompt": "She used to be shy, but now she ____ (be) confident.",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is"
+          ],
+          "rule_keys": [
+            "unit_18_D"
+          ],
+          "item_key": "unit_18_ex3_i2"
+        },
+        {
+          "prompt": "We used to meet every Friday, but now we ____ (not/meet) often.",
+          "options": null,
+          "canonical": "don't meet",
+          "accepted_variants": [
+            "do not meet",
+            "don't meet"
+          ],
+          "rule_keys": [
+            "unit_18_D"
+          ],
+          "item_key": "unit_18_ex3_i3"
+        },
+        {
+          "prompt": "I ____ to play piano when I was a child, but I stopped. (used to)",
+          "options": null,
+          "canonical": "used to",
+          "accepted_variants": [
+            "used to"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex3_i4"
+        },
+        {
+          "prompt": "Did you use to read a lot? Yes, I ____. (short answer)",
+          "options": null,
+          "canonical": "did",
+          "accepted_variants": [
+            "did"
+          ],
+          "rule_keys": [
+            "unit_18_C"
+          ],
+          "item_key": "unit_18_ex3_i5"
+        },
+        {
+          "prompt": "I didn't use to like tea, but now I ____. (do)",
+          "options": null,
+          "canonical": "do",
+          "accepted_variants": [
+            "do"
+          ],
+          "rule_keys": [
+            "unit_18_B"
+          ],
+          "item_key": "unit_18_ex3_i6"
+        },
+        {
+          "prompt": "There used to be a shop here, but now there ____ (be) a bank.",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is"
+          ],
+          "rule_keys": [
+            "unit_18_A"
+          ],
+          "item_key": "unit_18_ex3_i7"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_18",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with be used to / get used to or used to.",
+      "items": [
+        {
+          "prompt": "I ___ used to getting up early. (be)",
+          "options": null,
+          "canonical": "am",
+          "accepted_variants": [
+            "am"
+          ],
+          "rule_keys": [
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i1"
+        },
+        {
+          "prompt": "She is getting used to ____ in a new city. (live)",
+          "options": null,
+          "canonical": "living",
+          "accepted_variants": [
+            "living"
+          ],
+          "rule_keys": [
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i2"
+        },
+        {
+          "prompt": "We weren't used to ____ so much noise. (have)",
+          "options": null,
+          "canonical": "having",
+          "accepted_variants": [
+            "having"
+          ],
+          "rule_keys": [
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i3"
+        },
+        {
+          "prompt": "He used to ____ late, but now he's used to ____ early. (work / start)",
+          "options": null,
+          "canonical": "work | starting",
+          "accepted_variants": [
+            "work / starting",
+            "work | starting",
+            "work, starting",
+            "work; starting"
+          ],
+          "rule_keys": [
+            "unit_18_F",
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i4"
+        },
+        {
+          "prompt": "I'm used to ____ coffee without sugar. (drink)",
+          "options": null,
+          "canonical": "drinking",
+          "accepted_variants": [
+            "drinking"
+          ],
+          "rule_keys": [
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i5"
+        },
+        {
+          "prompt": "Did you use to ____ here? I'm used to ____ here now. (work / work)",
+          "options": null,
+          "canonical": "work | working",
+          "accepted_variants": [
+            "work / working",
+            "work | working",
+            "work, working",
+            "work; working"
+          ],
+          "rule_keys": [
+            "unit_18_F",
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i6"
+        },
+        {
+          "prompt": "They are getting used to ____ on the left. (drive)",
+          "options": null,
+          "canonical": "driving",
+          "accepted_variants": [
+            "driving"
+          ],
+          "rule_keys": [
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i7"
+        },
+        {
+          "prompt": "I used to ____ a lot, but now I'm used to ____ at home. (travel / stay)",
+          "options": null,
+          "canonical": "travel | staying",
+          "accepted_variants": [
+            "travel / staying",
+            "travel | staying",
+            "travel, staying",
+            "travel; staying"
+          ],
+          "rule_keys": [
+            "unit_18_F",
+            "unit_18_E"
+          ],
+          "item_key": "unit_18_ex4_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_19",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Use present continuous for future arrangements.",
+      "items": [
+        {
+          "prompt": "I'm ____ (meet) my cousin tomorrow evening. (arrangement)",
+          "options": null,
+          "canonical": "meeting",
+          "accepted_variants": [
+            "meeting"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex1_i1"
+        },
+        {
+          "prompt": "We ____ (fly) to Warsaw on Friday. (arrangement)",
+          "options": null,
+          "canonical": "are flying",
+          "accepted_variants": [
+            "are flying"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex1_i2"
+        },
+        {
+          "prompt": "She ____ (see) the dentist this afternoon. (arrangement)",
+          "options": null,
+          "canonical": "is seeing",
+          "accepted_variants": [
+            "is seeing"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex1_i3"
+        },
+        {
+          "prompt": "They ____ (come) for dinner tonight. (arrangement)",
+          "options": null,
+          "canonical": "are coming",
+          "accepted_variants": [
+            "are coming"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex1_i4"
+        },
+        {
+          "prompt": "I ____ (not/work) next Monday. (arrangement)",
+          "options": null,
+          "canonical": "am not working",
+          "accepted_variants": [
+            "am not working"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex1_i5"
+        },
+        {
+          "prompt": "What ____ you ____ (do) this weekend? (arrangement)",
+          "options": null,
+          "canonical": "are you doing",
+          "accepted_variants": [
+            "are you doing"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex1_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_19",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Use present simple for timetables and schedules.",
+      "items": [
+        {
+          "prompt": "The train ____ (leave) at 6:15.",
+          "options": null,
+          "canonical": "leaves",
+          "accepted_variants": [
+            "leaves"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i1"
+        },
+        {
+          "prompt": "Our lesson ____ (start) at 9:00.",
+          "options": null,
+          "canonical": "starts",
+          "accepted_variants": [
+            "starts"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i2"
+        },
+        {
+          "prompt": "The film ____ (finish) at 10:30.",
+          "options": null,
+          "canonical": "finishes",
+          "accepted_variants": [
+            "finishes"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i3"
+        },
+        {
+          "prompt": "The shop ____ (open) at 10 and ____ (close) at 7.",
+          "options": null,
+          "canonical": "opens | closes",
+          "accepted_variants": [
+            "opens / closes",
+            "opens | closes",
+            "opens, closes",
+            "opens; closes"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i4"
+        },
+        {
+          "prompt": "The flight ____ (arrive) at 18:40.",
+          "options": null,
+          "canonical": "arrives",
+          "accepted_variants": [
+            "arrives"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i5"
+        },
+        {
+          "prompt": "The bus ____ (not/stop) at this station.",
+          "options": null,
+          "canonical": "doesn't stop",
+          "accepted_variants": [
+            "does not stop",
+            "doesn't stop"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i6"
+        },
+        {
+          "prompt": "What time ____ the meeting ____ (begin)?",
+          "options": null,
+          "canonical": "does the meeting begin",
+          "accepted_variants": [
+            "does the meeting begin"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i7"
+        },
+        {
+          "prompt": "The museum ____ (be) closed on Mondays.",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_19",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Present simple vs present continuous (future meaning).",
+      "items": [
+        {
+          "prompt": "A: What do you do on Saturdays? B: I usually ____ (work) until noon.",
+          "options": null,
+          "canonical": "work",
+          "accepted_variants": [
+            "work"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex3_i1"
+        },
+        {
+          "prompt": "A: What are you doing on Saturday? B: I ____ (work) until noon. (arrangement)",
+          "options": null,
+          "canonical": "am working",
+          "accepted_variants": [
+            "am working"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex3_i2"
+        },
+        {
+          "prompt": "A: What time does the train leave? B: It ____ (leave) at 7:05.",
+          "options": null,
+          "canonical": "leaves",
+          "accepted_variants": [
+            "leaves"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex3_i3"
+        },
+        {
+          "prompt": "A: Are you free tonight? B: No, I ____ (meet) friends.",
+          "options": null,
+          "canonical": "am meeting",
+          "accepted_variants": [
+            "am meeting"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex3_i4"
+        },
+        {
+          "prompt": "A: What time do you finish work? B: I ____ (finish) at 5:30 every day.",
+          "options": null,
+          "canonical": "finish",
+          "accepted_variants": [
+            "finish"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex3_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_19",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Choose present continuous (arrangement) or present simple (timetable).",
+      "items": [
+        {
+          "prompt": "The concert ____ (start) at 8 p.m. (timetable)",
+          "options": null,
+          "canonical": "starts",
+          "accepted_variants": [
+            "starts"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex4_i1"
+        },
+        {
+          "prompt": "I ____ (see) a film with Lena tomorrow. (arrangement)",
+          "options": null,
+          "canonical": "am seeing",
+          "accepted_variants": [
+            "am seeing"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex4_i2"
+        },
+        {
+          "prompt": "What time ____ the plane ____ (land)? (timetable)",
+          "options": null,
+          "canonical": "does the plane land",
+          "accepted_variants": [
+            "does the plane land"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex4_i3"
+        },
+        {
+          "prompt": "We ____ (not/go) out tonight. (arrangement)",
+          "options": null,
+          "canonical": "are not going",
+          "accepted_variants": [
+            "are not going"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex4_i4"
+        },
+        {
+          "prompt": "The library ____ (close) early on Saturdays. (timetable)",
+          "options": null,
+          "canonical": "closes",
+          "accepted_variants": [
+            "closes"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex4_i5"
+        },
+        {
+          "prompt": "I ____ (work) late this evening. (arrangement)",
+          "options": null,
+          "canonical": "am working",
+          "accepted_variants": [
+            "am working"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex4_i6"
+        },
+        {
+          "prompt": "The next bus ____ (leave) in five minutes. (timetable)",
+          "options": null,
+          "canonical": "leaves",
+          "accepted_variants": [
+            "leaves"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex4_i7"
+        },
+        {
+          "prompt": "____ you ____ (come) to the party on Friday? (arrangement)",
+          "options": null,
+          "canonical": "Are you coming",
+          "accepted_variants": [
+            "Are you coming",
+            "are you coming"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex4_i8"
+        },
+        {
+          "prompt": "The course ____ (begin) on 1 September. (timetable)",
+          "options": null,
+          "canonical": "begins",
+          "accepted_variants": [
+            "begins"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex4_i9"
+        },
+        {
+          "prompt": "We ____ (have) dinner with my parents on Sunday. (arrangement)",
+          "options": null,
+          "canonical": "are having",
+          "accepted_variants": [
+            "are having"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex4_i10"
+        },
+        {
+          "prompt": "The match ____ (finish) at about 6. (timetable)",
+          "options": null,
+          "canonical": "finishes",
+          "accepted_variants": [
+            "finishes"
+          ],
+          "rule_keys": [
+            "unit_19_B"
+          ],
+          "item_key": "unit_19_ex4_i11"
+        },
+        {
+          "prompt": "I ____ (not/meet) anyone tomorrow morning. (arrangement)",
+          "options": null,
+          "canonical": "am not meeting",
+          "accepted_variants": [
+            "am not meeting"
+          ],
+          "rule_keys": [
+            "unit_19_A"
+          ],
+          "item_key": "unit_19_ex4_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_20",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with going to + verb (plans).",
+      "items": [
+        {
+          "prompt": "I'm going to ____ a new phone next month. (buy)",
+          "options": null,
+          "canonical": "buy",
+          "accepted_variants": [
+            "buy"
+          ],
+          "rule_keys": [
+            "unit_20_A"
+          ],
+          "item_key": "unit_20_ex1_i1"
+        },
+        {
+          "prompt": "She's going to ____ medicine at university. (study)",
+          "options": null,
+          "canonical": "study",
+          "accepted_variants": [
+            "study"
+          ],
+          "rule_keys": [
+            "unit_20_A"
+          ],
+          "item_key": "unit_20_ex1_i2"
+        },
+        {
+          "prompt": "We're going to ____ my aunt this weekend. (visit)",
+          "options": null,
+          "canonical": "visit",
+          "accepted_variants": [
+            "visit"
+          ],
+          "rule_keys": [
+            "unit_20_A"
+          ],
+          "item_key": "unit_20_ex1_i3"
+        },
+        {
+          "prompt": "He isn't going to ____ tonight. He's too tired. (go out)",
+          "options": null,
+          "canonical": "go out",
+          "accepted_variants": [
+            "go out"
+          ],
+          "rule_keys": [
+            "unit_20_C"
+          ],
+          "item_key": "unit_20_ex1_i4"
+        },
+        {
+          "prompt": "Are you going to ____ for the job? (apply)",
+          "options": null,
+          "canonical": "apply",
+          "accepted_variants": [
+            "apply"
+          ],
+          "rule_keys": [
+            "unit_20_C"
+          ],
+          "item_key": "unit_20_ex1_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_20",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Make predictions with going to (evidence now).",
+      "items": [
+        {
+          "prompt": "Look at those dark clouds. It ____ soon.",
+          "options": null,
+          "canonical": "is going to rain",
+          "accepted_variants": [
+            "is going to rain"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i1"
+        },
+        {
+          "prompt": "Careful! You ____ that cup.",
+          "options": null,
+          "canonical": "are going to drop",
+          "accepted_variants": [
+            "are going to drop"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i2"
+        },
+        {
+          "prompt": "The door is open. Someone ____ in.",
+          "options": null,
+          "canonical": "is going to come",
+          "accepted_variants": [
+            "is going to come"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i3"
+        },
+        {
+          "prompt": "He's driving too fast. He ____ an accident.",
+          "options": null,
+          "canonical": "is going to have",
+          "accepted_variants": [
+            "is going to have"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i4"
+        },
+        {
+          "prompt": "The glass is on the edge. It ____.",
+          "options": null,
+          "canonical": "is going to fall",
+          "accepted_variants": [
+            "is going to fall"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i5"
+        },
+        {
+          "prompt": "This bag is very heavy. It ____.",
+          "options": null,
+          "canonical": "is going to tear",
+          "accepted_variants": [
+            "is going to tear"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i6"
+        },
+        {
+          "prompt": "She's not looking where she's going. She ____ into the pole.",
+          "options": null,
+          "canonical": "is going to walk",
+          "accepted_variants": [
+            "is going to walk"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i7"
+        },
+        {
+          "prompt": "The battery is almost empty. My phone ____.",
+          "options": null,
+          "canonical": "is going to die",
+          "accepted_variants": [
+            "is going to die"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i8"
+        },
+        {
+          "prompt": "They haven't studied at all. They ____ the test.",
+          "options": null,
+          "canonical": "are going to fail",
+          "accepted_variants": [
+            "are going to fail"
+          ],
+          "rule_keys": [
+            "unit_20_B"
+          ],
+          "item_key": "unit_20_ex2_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_20",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Questions and negatives with (be) going to.",
+      "items": [
+        {
+          "prompt": "____ you ____ to call him later? (question)",
+          "options": null,
+          "canonical": "Are you going to",
+          "accepted_variants": [
+            "Are you going to",
+            "are you going to"
+          ],
+          "rule_keys": [
+            "unit_20_C"
+          ],
+          "item_key": "unit_20_ex3_i1"
+        },
+        {
+          "prompt": "She ____ going to tell anyone. (negative)",
+          "options": null,
+          "canonical": "isn't",
+          "accepted_variants": [
+            "isn't"
+          ],
+          "rule_keys": [
+            "unit_20_C"
+          ],
+          "item_key": "unit_20_ex3_i2"
+        },
+        {
+          "prompt": "I ____ going to argue about it. (negative)",
+          "options": null,
+          "canonical": "am not",
+          "accepted_variants": [
+            "am not"
+          ],
+          "rule_keys": [
+            "unit_20_C"
+          ],
+          "item_key": "unit_20_ex3_i3"
+        },
+        {
+          "prompt": "What ____ they going to do this evening? (question word)",
+          "options": null,
+          "canonical": "are",
+          "accepted_variants": [
+            "are"
+          ],
+          "rule_keys": [
+            "unit_20_C"
+          ],
+          "item_key": "unit_20_ex3_i4"
+        },
+        {
+          "prompt": "____ he going to sell the car? (question)",
+          "options": null,
+          "canonical": "Is",
+          "accepted_variants": [
+            "Is",
+            "is"
+          ],
+          "rule_keys": [
+            "unit_20_C"
+          ],
+          "item_key": "unit_20_ex3_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_20",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with was/were going to (a past plan).",
+      "items": [
+        {
+          "prompt": "I ____ going to phone you, but I fell asleep. (was/were)",
+          "options": null,
+          "canonical": "was",
+          "accepted_variants": [
+            "was"
+          ],
+          "rule_keys": [
+            "unit_20_D"
+          ],
+          "item_key": "unit_20_ex4_i1"
+        },
+        {
+          "prompt": "They ____ going to travel, but they cancelled. (was/were)",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were"
+          ],
+          "rule_keys": [
+            "unit_20_D"
+          ],
+          "item_key": "unit_20_ex4_i2"
+        },
+        {
+          "prompt": "She ____ going to buy it, but it was too expensive. (was/were)",
+          "options": null,
+          "canonical": "was",
+          "accepted_variants": [
+            "was"
+          ],
+          "rule_keys": [
+            "unit_20_D"
+          ],
+          "item_key": "unit_20_ex4_i3"
+        },
+        {
+          "prompt": "We ____ going to eat out, but we cooked at home. (was/were)",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were"
+          ],
+          "rule_keys": [
+            "unit_20_D"
+          ],
+          "item_key": "unit_20_ex4_i4"
+        },
+        {
+          "prompt": "He ____ going to start the course, but he changed his mind. (was/were)",
+          "options": null,
+          "canonical": "was",
+          "accepted_variants": [
+            "was"
+          ],
+          "rule_keys": [
+            "unit_20_D"
+          ],
+          "item_key": "unit_20_ex4_i5"
+        },
+        {
+          "prompt": "I ____ going to leave early, but the meeting ran late. (was/were)",
+          "options": null,
+          "canonical": "was",
+          "accepted_variants": [
+            "was"
+          ],
+          "rule_keys": [
+            "unit_20_D"
+          ],
+          "item_key": "unit_20_ex4_i6"
+        },
+        {
+          "prompt": "They ____ going to watch a film, but the power went out. (was/were)",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were"
+          ],
+          "rule_keys": [
+            "unit_20_D"
+          ],
+          "item_key": "unit_20_ex4_i7"
+        }
+      ]
+    }
+  ]
+}

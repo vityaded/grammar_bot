@@ -1,0 +1,538 @@
+[
+  {
+    "rule_key": "unit_41_A",
+    "unit_key": "unit_41",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use wish + noun/phrase to say good things to someone (wish you luck, a pleasant trip). Use hope (not wish) for 'I hope you feel better'.",
+    "rule_text_uk": "Використовуй wish + іменник/фразу, щоб побажати комусь чогось (wish you luck, a pleasant trip). Для 'I hope you feel better' вживай hope (не wish).",
+    "rule_short_en": "Wish someone luck; hope for a situation.",
+    "rule_short_uk": "Побажання: wish; сподівання про ситуацію: hope.",
+    "examples": [
+      "I wish you good luck in your interview.",
+      "We hope you get well soon.",
+      "I wished them a safe journey."
+    ]
+  },
+  {
+    "rule_key": "unit_41_B",
+    "unit_key": "unit_41",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "For present regret: wish + past simple (knew, had, were). The meaning is now: I wish I knew (= I don't know).",
+    "rule_text_uk": "Для жалю про теперішнє: wish + Past Simple (knew, had, were). Значення стосується тепер: I wish I knew (= я не знаю).",
+    "rule_short_en": "Present regret: wish + past simple.",
+    "rule_short_uk": "Жаль про теперішнє: wish + Past Simple.",
+    "examples": [
+      "I wish I lived nearer the sea.",
+      "She wishes she had more time.",
+      "I wish it wasn't so cold."
+    ]
+  },
+  {
+    "rule_key": "unit_41_C",
+    "unit_key": "unit_41",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "For past regret: wish + past perfect (had done). Also: wish + could / could have to regret lack of ability now or in the past.",
+    "rule_text_uk": "Для жалю про минуле: wish + Past Perfect (had done). Також: wish + could / could have — жаль, що не можу/не зміг(ла) щось зробити.",
+    "rule_short_en": "Past regret: wish + had done; wish + could.",
+    "rule_short_uk": "Жаль про минуле: wish + Past Perfect; wish + could.",
+    "examples": [
+      "I wish I had told you earlier.",
+      "I wish I could speak Japanese.",
+      "They wish they could have come."
+    ]
+  },
+  {
+    "rule_key": "unit_41_D",
+    "unit_key": "unit_41",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Use wish + would/wouldn't to say you want something to change or to complain: I wish it would stop. I wish you wouldn't interrupt.",
+    "rule_text_uk": "Використовуй wish + would/wouldn't, щоб сказати, що хочеш змін або поскаржитися: I wish it would stop. I wish you wouldn't interrupt.",
+    "rule_short_en": "Complaints/changes: wish + would/wouldn't.",
+    "rule_short_uk": "Скарги/зміни: wish + would/wouldn't.",
+    "examples": [
+      "I wish the baby would go to sleep.",
+      "I wish you wouldn't shout.",
+      "I wish somebody would answer the phone."
+    ]
+  },
+  {
+    "rule_key": "unit_42_A",
+    "unit_key": "unit_42",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Active focuses on the doer (Somebody built the house). Passive focuses on the thing affected (The house was built).",
+    "rule_text_uk": "Актив підкреслює виконавця (Somebody built the house). Пасив підкреслює об’єкт дії (The house was built).",
+    "rule_short_en": "Passive = focus on the result/thing.",
+    "rule_short_uk": "Пасив = фокус на об’єкті/результаті.",
+    "examples": [
+      "Somebody stole my bike. / My bike was stolen.",
+      "They make these cars in Japan. / These cars are made in Japan."
+    ]
+  },
+  {
+    "rule_key": "unit_42_B",
+    "unit_key": "unit_42",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Form: be (am/is/are/was/were) + past participle (done, cleaned, built). Tense is on be.",
+    "rule_text_uk": "Форма: be (am/is/are/was/were) + дієприкметник минулого часу (done, cleaned, built). Час показує be.",
+    "rule_short_en": "be + past participle.",
+    "rule_short_uk": "be + дієприкметник минулого часу.",
+    "examples": [
+      "The room is cleaned every day.",
+      "The bridge was built in 1981.",
+      "The documents were signed."
+    ]
+  },
+  {
+    "rule_key": "unit_42_C",
+    "unit_key": "unit_42",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Use by + agent when it matters: The book was written by Orwell. Often we omit the agent if unknown or not important.",
+    "rule_text_uk": "Використовуй by + виконавець, якщо це важливо: The book was written by Orwell. Часто виконавця опускають, якщо він невідомий або неважливий.",
+    "rule_short_en": "Add by + agent only when needed.",
+    "rule_short_uk": "by + виконавець — лише коли потрібно.",
+    "examples": [
+      "The window was broken (by a stone).",
+      "The painting was sold by the artist."
+    ]
+  },
+  {
+    "rule_key": "unit_43_A",
+    "unit_key": "unit_43",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Perfect passive: has/have been + past participle; had been + past participle. It shows the action is completed before now/before a past time.",
+    "rule_text_uk": "Пасив у Perfect: has/have been + дієприкметник; had been + дієприкметник. Дія завершена до тепер/до минулого моменту.",
+    "rule_short_en": "Perfect passive: has been / had been done.",
+    "rule_short_uk": "Perfect passive: has been / had been done.",
+    "examples": [
+      "The flight has been cancelled.",
+      "The room had been cleaned before we arrived.",
+      "I haven't been invited."
+    ]
+  },
+  {
+    "rule_key": "unit_43_B",
+    "unit_key": "unit_43",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Continuous passive: am/is/are being + past participle; was/were being + past participle. It describes an action in progress.",
+    "rule_text_uk": "Тривалий пасив: am/is/are being + дієприкметник; was/were being + дієприкметник. Дія в процесі.",
+    "rule_short_en": "Continuous passive: is being / was being done.",
+    "rule_short_uk": "Тривалий пасив: is being / was being done.",
+    "examples": [
+      "A new road is being built.",
+      "We were being watched.",
+      "The room is being painted."
+    ]
+  },
+  {
+    "rule_key": "unit_43_C",
+    "unit_key": "unit_43",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Passive infinitive: (to) be + past participle (must be done, wants to be left).",
+    "rule_text_uk": "Пасивний інфінітив: (to) be + дієприкметник (must be done, wants to be left).",
+    "rule_short_en": "Infinitive passive: to be done.",
+    "rule_short_uk": "Пасивний інфінітив: to be done.",
+    "examples": [
+      "Something must be done now.",
+      "I want to be left alone.",
+      "The forms need to be signed."
+    ]
+  },
+  {
+    "rule_key": "unit_43_D",
+    "unit_key": "unit_43",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Perfect infinitive passive: (to) have been + past participle (should have been sent).",
+    "rule_text_uk": "Пасивний Perfect-інфінітив: (to) have been + дієприкметник (should have been sent).",
+    "rule_short_en": "Perfect infinitive passive: to have been done.",
+    "rule_short_uk": "Perfect-інфінітив пасиву: to have been done.",
+    "examples": [
+      "The letter should have been posted yesterday.",
+      "It might have been sent to the wrong address.",
+      "The door should have been locked."
+    ]
+  },
+  {
+    "rule_key": "unit_44_A",
+    "unit_key": "unit_44",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "With verbs like give/offer/show, we often start the passive with the person: I was offered a job. She was shown a copy.",
+    "rule_text_uk": "З дієсловами give/offer/show тощо часто починаємо пасив з людини: I was offered a job. She was shown a copy.",
+    "rule_short_en": "Two-object verbs: person-first passive.",
+    "rule_short_uk": "Дієслова з двома об’єктами: пасив з людини.",
+    "examples": [
+      "I was given a refund.",
+      "We were offered a discount.",
+      "He was taught English."
+    ]
+  },
+  {
+    "rule_key": "unit_44_B",
+    "unit_key": "unit_44",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Alternative passive: the thing becomes the subject and we use to/for: The job was offered to me. The money was paid to her.",
+    "rule_text_uk": "Альтернатива: річ стає підметом і вживаємо to/for: The job was offered to me. The money was paid to her.",
+    "rule_short_en": "Thing-first passive: ... was given to me.",
+    "rule_short_uk": "Пасив з річчю: ... was given to me.",
+    "examples": [
+      "The keys were handed to the guard.",
+      "A message was sent to me."
+    ]
+  },
+  {
+    "rule_key": "unit_44_C",
+    "unit_key": "unit_44",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Passive -ing form: being + past participle (I don't like being told what to do).",
+    "rule_text_uk": "Пасивна форма -ing: being + дієприкметник (I don't like being told what to do).",
+    "rule_short_en": "Gerund passive: being done.",
+    "rule_short_uk": "Пасивний герундій: being done.",
+    "examples": [
+      "I hate being interrupted.",
+      "She remembers being asked that question.",
+      "He enjoys being praised."
+    ]
+  },
+  {
+    "rule_key": "unit_45_A",
+    "unit_key": "unit_45",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Structure 1: It is said/believed/known that + clause. It reports what people say or think.",
+    "rule_text_uk": "Структура 1: It is said/believed/known that + підрядне. Передає, що кажуть або вважають люди.",
+    "rule_short_en": "It is said that ... (people say).",
+    "rule_short_uk": "It is said that ... (кажуть, що ...).",
+    "examples": [
+      "It is believed that the planet has water.",
+      "It is reported that the road is closed."
+    ]
+  },
+  {
+    "rule_key": "unit_45_B",
+    "unit_key": "unit_45",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Structure 2: He/She is said/believed/expected to + infinitive. Often more natural than 'It is said that...'.",
+    "rule_text_uk": "Структура 2: He/She is said/believed/expected to + інфінітив. Часто звучить природніше за 'It is said that...'.",
+    "rule_short_en": "He is said to ... / is expected to ...",
+    "rule_short_uk": "He is said to ... / is expected to ...",
+    "examples": [
+      "George is said to be 108.",
+      "The strike is expected to end soon.",
+      "The suspect is believed to live nearby."
+    ]
+  },
+  {
+    "rule_key": "unit_45_C",
+    "unit_key": "unit_45",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "For the past: is said to have + past participle (He is alleged to have stolen a car).",
+    "rule_text_uk": "Для минулого: is said to have + дієприкметник (He is alleged to have stolen a car).",
+    "rule_short_en": "Past report: is said to have done.",
+    "rule_short_uk": "Про минуле: is said to have done.",
+    "examples": [
+      "She is thought to have left early.",
+      "He is believed to have lied."
+    ]
+  },
+  {
+    "rule_key": "unit_45_D",
+    "unit_key": "unit_45",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "be supposed to = expected/should: You are supposed to lock the door. It can also mean 'it is said/assumed': The train is supposed to be on time.",
+    "rule_text_uk": "be supposed to = очікується/слід: You are supposed to lock the door. Також може означати 'кажуть/вважають': The train is supposed to be on time.",
+    "rule_short_en": "Supposed to = expected/should.",
+    "rule_short_uk": "Supposed to = очікується/слід.",
+    "examples": [
+      "You're supposed to show your ID.",
+      "The museum is supposed to open at 10."
+    ]
+  },
+  {
+    "rule_key": "unit_46_A",
+    "unit_key": "unit_46",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "have something done = arrange for someone else to do it: I had my car serviced.",
+    "rule_text_uk": "have something done = домовитися, щоб хтось інший це зробив: I had my car serviced.",
+    "rule_short_en": "Arrange a service: have something done.",
+    "rule_short_uk": "Домовитися про послугу: have something done.",
+    "examples": [
+      "I had my hair cut yesterday.",
+      "We are having the kitchen painted.",
+      "She had her phone repaired."
+    ]
+  },
+  {
+    "rule_key": "unit_46_B",
+    "unit_key": "unit_46",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "get something done is similar to have something done, often more informal: get the roof repaired.",
+    "rule_text_uk": "get something done схоже на have something done, часто більш розмовне: get the roof repaired.",
+    "rule_short_en": "get something done = have something done.",
+    "rule_short_uk": "get something done = have something done.",
+    "examples": [
+      "I need to get my passport renewed.",
+      "He's getting the window fixed."
+    ]
+  },
+  {
+    "rule_key": "unit_46_C",
+    "unit_key": "unit_46",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "have something done can also mean something bad happened to you/your things (not arranged): They had their bags stolen.",
+    "rule_text_uk": "have something done також може означати, що з вами/вашими речами сталося щось погане (не ви організували): They had their bags stolen.",
+    "rule_short_en": "Bad experience: had something stolen/broken.",
+    "rule_short_uk": "Неприємність: had something stolen/broken.",
+    "examples": [
+      "He had his phone stolen on the bus.",
+      "She had her nose broken in a fight."
+    ]
+  },
+  {
+    "rule_key": "unit_46_D",
+    "unit_key": "unit_46",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Word order: have + object + past participle. In questions: How often do you have your car serviced? (not have serviced your car).",
+    "rule_text_uk": "Порядок слів: have + об’єкт + дієприкметник. У питаннях: How often do you have your car serviced? (не have serviced your car).",
+    "rule_short_en": "Form: have + object + past participle.",
+    "rule_short_uk": "Форма: have + об’єкт + дієприкметник.",
+    "examples": [
+      "How often do you have your eyes tested?",
+      "Did you have it repaired?"
+    ]
+  },
+  {
+    "rule_key": "unit_47_A",
+    "unit_key": "unit_47",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Reported speech: say/tell + (that) + clause. We often use a past reporting verb: Paul said (that) he was ill.",
+    "rule_text_uk": "Непряма мова: say/tell + (that) + підрядне. Часто дієслово повідомлення в Past: Paul said (that) he was ill.",
+    "rule_short_en": "Reported speech: said (that) ...",
+    "rule_short_uk": "Непряма мова: said (that) ...",
+    "examples": [
+      "Paul said he was tired.",
+      "I told her I was busy.",
+      "She said that she liked the film."
+    ]
+  },
+  {
+    "rule_key": "unit_47_B",
+    "unit_key": "unit_47",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Backshift: present → past (am→was, will→would, can→could).",
+    "rule_text_uk": "Зсув часу: теперішній → минулий (am→was, will→would, can→could).",
+    "rule_short_en": "Backshift: present → past.",
+    "rule_short_uk": "Зсув часу: Present → Past.",
+    "examples": [
+      "He said, 'I am hungry.' → He said he was hungry.",
+      "She said, 'I will call.' → She said she would call."
+    ]
+  },
+  {
+    "rule_key": "unit_47_C",
+    "unit_key": "unit_47",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Past simple in direct speech can stay past simple, or change to past perfect when you want to show 'earlier': said he did / said he had done.",
+    "rule_text_uk": "Past Simple у прямій мові може лишатися Past Simple або змінюватися на Past Perfect, щоб показати 'раніше': said he did / said he had done.",
+    "rule_short_en": "Past simple may stay or become past perfect.",
+    "rule_short_uk": "Past Simple може лишатися або стати Past Perfect.",
+    "examples": [
+      "He said, 'I lost my keys.' → He said he lost / had lost his keys.",
+      "She said she met / had met him before."
+    ]
+  },
+  {
+    "rule_key": "unit_48_A",
+    "unit_key": "unit_48",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "If the situation is still true/unchanged, you can keep the present in reported speech: Paul said his job is boring. You can also backshift.",
+    "rule_text_uk": "Якщо ситуація досі актуальна, можна залишити Present: Paul said his job is boring. Також можна зробити зсув у Past.",
+    "rule_short_en": "If still true, present can stay.",
+    "rule_short_uk": "Якщо досі правда, Present може лишатися.",
+    "examples": [
+      "Helen told me she wants to travel next year.",
+      "Paul said the weather is awful."
+    ]
+  },
+  {
+    "rule_key": "unit_48_B",
+    "unit_key": "unit_48",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "say vs tell: say (that) ..., say something to somebody; tell somebody (that) ... (not 'said me').",
+    "rule_text_uk": "say vs tell: say (that) ..., say something to somebody; tell somebody (that) ... (не 'said me').",
+    "rule_short_en": "Say vs tell: tell somebody (that) ...",
+    "rule_short_uk": "Say vs tell: tell somebody (that) ...",
+    "examples": [
+      "She told me she was late.",
+      "He said goodbye to me.",
+      "What did you say to the police?"
+    ]
+  },
+  {
+    "rule_key": "unit_48_C",
+    "unit_key": "unit_48",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "tell/ask somebody to do something for instructions and requests: The doctor told me to drink water. I asked him to slow down.",
+    "rule_text_uk": "tell/ask somebody to do something для інструкцій і прохань: The doctor told me to drink water. I asked him to slow down.",
+    "rule_short_en": "Commands/requests: told/asked me to ...",
+    "rule_short_uk": "Накази/прохання: told/asked me to ...",
+    "examples": [
+      "She told me to sit down.",
+      "I asked them to be quiet."
+    ]
+  },
+  {
+    "rule_key": "unit_48_D",
+    "unit_key": "unit_48",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Use the past in reported speech when what was said is no longer true or is clearly false: Rachel said you were in hospital (but you aren't).",
+    "rule_text_uk": "Вживай Past у непрямій мові, якщо сказане вже не є правдою або очевидно хибне: Rachel said you were in hospital (але ти не там).",
+    "rule_short_en": "Use past when the report is not true now.",
+    "rule_short_uk": "Past — коли зараз це не правда.",
+    "examples": [
+      "He said he had to go (and he left).",
+      "She said it was raining, but it wasn't."
+    ]
+  },
+  {
+    "rule_key": "unit_49_A",
+    "unit_key": "unit_49",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "In most questions, the subject comes after the first verb: Are you ready? What time is it?",
+    "rule_text_uk": "У більшості питань підмет стоїть після першого дієслова: Are you ready? What time is it?",
+    "rule_short_en": "Question word order: verb before subject.",
+    "rule_short_uk": "Порядок слів у питанні: дієслово перед підметом.",
+    "examples": [
+      "Where are you going?",
+      "Can Tom drive?",
+      "What are they doing?"
+    ]
+  },
+  {
+    "rule_key": "unit_49_B",
+    "unit_key": "unit_49",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "With present simple and past simple, use do/does/did: Do you work here? Did she call?",
+    "rule_text_uk": "У Present Simple та Past Simple використовуй do/does/did: Do you work here? Did she call?",
+    "rule_short_en": "Use do/does/did for simple tenses.",
+    "rule_short_uk": "do/does/did для простих часів.",
+    "examples": [
+      "Does he live near here?",
+      "Did they sell the car?",
+      "Do you like coffee?"
+    ]
+  },
+  {
+    "rule_key": "unit_49_C",
+    "unit_key": "unit_49",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "No do/does/did when who/what is the subject: Who called you? (not Who did call).",
+    "rule_text_uk": "Не використовуй do/does/did, коли who/what є підметом: Who called you? (не Who did call).",
+    "rule_short_en": "Who/what as subject: no do.",
+    "rule_short_uk": "Who/what = підмет: без do.",
+    "examples": [
+      "Who broke the glass?",
+      "What happened?",
+      "Who wants tea?"
+    ]
+  },
+  {
+    "rule_key": "unit_49_D",
+    "unit_key": "unit_49",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Question with preposition: often the preposition goes at the end: Who are you talking to? What are you looking for?",
+    "rule_text_uk": "Питання з прийменником: часто прийменник наприкінці: Who are you talking to? What are you looking for?",
+    "rule_short_en": "Prepositions often go at the end.",
+    "rule_short_uk": "Прийменники часто наприкінці.",
+    "examples": [
+      "Who did you speak to?",
+      "What are you waiting for?"
+    ]
+  },
+  {
+    "rule_key": "unit_50_A",
+    "unit_key": "unit_50",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Indirect questions use statement word order: Do you know where Tom has gone? (not where has Tom gone).",
+    "rule_text_uk": "Непрямі питання мають порядок слів як у твердженні: Do you know where Tom has gone? (не where has Tom gone).",
+    "rule_short_en": "Indirect question: statement word order.",
+    "rule_short_uk": "Непряме питання: порядок як у твердженні.",
+    "examples": [
+      "Could you tell me where the station is?",
+      "I don't know what time it is."
+    ]
+  },
+  {
+    "rule_key": "unit_50_B",
+    "unit_key": "unit_50",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "In indirect questions with do/does/did, we drop do/does/did: Do you know what time the film starts? (not does it start).",
+    "rule_text_uk": "У непрямих питаннях з do/does/did ми їх прибираємо: Do you know what time the film starts? (не does it start).",
+    "rule_short_en": "Indirect + do/does/did: remove do/does/did.",
+    "rule_short_uk": "Непряме + do/does/did: прибираємо do/does/did.",
+    "examples": [
+      "Can you tell me where she lives?",
+      "I wonder why he left."
+    ]
+  },
+  {
+    "rule_key": "unit_50_C",
+    "unit_key": "unit_50",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Reported questions: He asked me where I lived / what I wanted. Use statement order and often backshift.",
+    "rule_text_uk": "Передані питання: He asked me where I lived / what I wanted. Порядок слів як у твердженні, часто зі зсувом у Past.",
+    "rule_short_en": "Reported questions: asked (me) where/what ...",
+    "rule_short_uk": "Передані питання: asked (me) where/what ...",
+    "examples": [
+      "She asked me what I was doing.",
+      "They asked where we had been."
+    ]
+  },
+  {
+    "rule_key": "unit_50_D",
+    "unit_key": "unit_50",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Yes/no indirect questions use if or whether: Do you know if he is coming? She asked whether I could help.",
+    "rule_text_uk": "Непрямі yes/no питання: if або whether: Do you know if he is coming? She asked whether I could help.",
+    "rule_short_en": "Yes/no indirect: if / whether.",
+    "rule_short_uk": "Yes/no непрямі: if / whether.",
+    "examples": [
+      "I don't know if it's open.",
+      "He asked whether I had paid."
+    ]
+  }
+]

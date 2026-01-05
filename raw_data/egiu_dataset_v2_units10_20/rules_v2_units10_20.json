@@ -1,0 +1,592 @@
+{
+  "version": "v2",
+  "units": "10-20",
+  "rules": [
+    {
+      "rule_key": "unit_10_A",
+      "unit_key": "unit_10",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use present perfect continuous for an activity in progress or just finished; use present perfect simple for a finished action or a completed amount.",
+      "rule_text_uk": "Present perfect continuous — дія тривала/щойно закінчилась; present perfect simple — завершена дія або кількість/результат.",
+      "rule_short_en": "Been doing = activity; have done = result/amount.",
+      "rule_short_uk": "Been doing = процес; have done = результат/кількість.",
+      "examples": [
+        "I've been fixing the bike all morning.",
+        "I've fixed the bike, so we can ride now.",
+        "She's been studying since breakfast.",
+        "She's finished three chapters today."
+      ]
+    },
+    {
+      "rule_key": "unit_10_B",
+      "unit_key": "unit_10",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "We often use 'I’ve been doing' when we can see evidence now and we focus on the activity.",
+      "rule_text_uk": "Часто вживаємо 'I’ve been doing', коли є ознаки зараз і важливий процес.",
+      "rule_short_en": "Evidence + process → I’ve been doing.",
+      "rule_short_uk": "Ознаки + процес → I’ve been doing.",
+      "examples": [
+        "Your hands are dirty—have you been gardening?",
+        "He’s out of breath; he’s been running.",
+        "The room smells of paint—we've been decorating."
+      ]
+    },
+    {
+      "rule_key": "unit_10_C",
+      "unit_key": "unit_10",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use 'I’ve done' for a completed action, especially for results or how much/how many.",
+      "rule_text_uk": "Вживаємо 'I’ve done' для завершеної дії, результату або кількості.",
+      "rule_short_en": "Completed action/amount → I’ve done.",
+      "rule_short_uk": "Завершена дія/кількість → I’ve done.",
+      "examples": [
+        "I've answered all the emails.",
+        "She's written five messages.",
+        "Someone has opened the window."
+      ]
+    },
+    {
+      "rule_key": "unit_10_D",
+      "unit_key": "unit_10",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "With 'how long' we usually prefer the continuous, but state verbs (know, like, have) are normally simple.",
+      "rule_text_uk": "З 'how long' зазвичай continuous, але дієслова стану (know, like, have) — у simple.",
+      "rule_short_en": "How long → usually been doing; state verbs → simple.",
+      "rule_short_uk": "How long → зазвичай been doing; дієслова стану → simple.",
+      "examples": [
+        "How long have you been waiting?",
+        "How long have you known her?",
+        "I've had this laptop for years."
+      ]
+    },
+    {
+      "rule_key": "unit_11_A",
+      "unit_key": "unit_11",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use present perfect for a situation that started in the past and continues now.",
+      "rule_text_uk": "Present perfect — ситуація почалась у минулому і триває зараз.",
+      "rule_short_en": "Started in the past and still true now → present perfect.",
+      "rule_short_uk": "Почалось у минулому і триває → present perfect.",
+      "examples": [
+        "I've lived here for five years.",
+        "She has worked here since 2021.",
+        "We have known each other a long time."
+      ]
+    },
+    {
+      "rule_key": "unit_11_B",
+      "unit_key": "unit_11",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use for + a period (for two weeks) and since + the start point (since Monday).",
+      "rule_text_uk": "for + період; since + точка старту.",
+      "rule_short_en": "for = duration; since = starting point.",
+      "rule_short_uk": "for = тривалість; since = початок.",
+      "examples": [
+        "I've been busy for three days.",
+        "I've been busy since Tuesday.",
+        "They've been friends since school."
+      ]
+    },
+    {
+      "rule_key": "unit_11_C",
+      "unit_key": "unit_11",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "With 'how long' we usually use present perfect continuous (have/has been doing).",
+      "rule_text_uk": "З 'how long' зазвичай present perfect continuous.",
+      "rule_short_en": "How long + activity → have been doing.",
+      "rule_short_uk": "How long + дія → have been doing.",
+      "examples": [
+        "How long have you been learning Spanish?",
+        "It's been raining all afternoon.",
+        "He's been driving for hours."
+      ]
+    },
+    {
+      "rule_key": "unit_11_D",
+      "unit_key": "unit_11",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "State verbs are normally not continuous: 'How long have you known…?' not 'been knowing'.",
+      "rule_text_uk": "Дієслова стану не в continuous: 'have you known' (не 'been knowing').",
+      "rule_short_en": "State verbs: use simple, not continuous.",
+      "rule_short_uk": "Дієслова стану: simple, не continuous.",
+      "examples": [
+        "How long have you known Mark?",
+        "I've had this cold since Friday.",
+        "We've liked this café for years."
+      ]
+    },
+    {
+      "rule_key": "unit_12_A",
+      "unit_key": "unit_12",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "For is used with a length of time; since is used with the point when something started.",
+      "rule_text_uk": "for — тривалість; since — момент початку.",
+      "rule_short_en": "for = length; since = start time.",
+      "rule_short_uk": "for = тривалість; since = початок.",
+      "examples": [
+        "I've been here for an hour.",
+        "I've been here since 9 o’clock.",
+        "She's lived abroad since 2019."
+      ]
+    },
+    {
+      "rule_key": "unit_12_B",
+      "unit_key": "unit_12",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Ago is used with past simple to say how long before now something happened.",
+      "rule_text_uk": "ago вживаємо з past simple, щоб сказати, скільки часу тому щось сталося.",
+      "rule_short_en": "ago goes with past simple, not present perfect.",
+      "rule_short_uk": "ago + past simple, не present perfect.",
+      "examples": [
+        "I met her two weeks ago.",
+        "We moved here a year ago.",
+        "Did you call him five minutes ago?"
+      ]
+    },
+    {
+      "rule_key": "unit_12_C",
+      "unit_key": "unit_12",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "With 'how long', use present perfect (often continuous) and answer with for/since.",
+      "rule_text_uk": "З 'how long' — present perfect (часто continuous) і відповіді for/since.",
+      "rule_short_en": "How long? → present perfect + for/since.",
+      "rule_short_uk": "How long? → present perfect + for/since.",
+      "examples": [
+        "How long have you been waiting?",
+        "I've been waiting for 20 minutes.",
+        "I've been waiting since 3 o’clock."
+      ]
+    },
+    {
+      "rule_key": "unit_12_D",
+      "unit_key": "unit_12",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "It’s (been) … since … describes time from a past event until now.",
+      "rule_text_uk": "'It’s (been) … since …' — час від події в минулому до тепер.",
+      "rule_short_en": "It’s been X since Y = time from Y until now.",
+      "rule_short_uk": "It’s been X since Y = час від Y до тепер.",
+      "examples": [
+        "It's been ages since we spoke.",
+        "It's been two months since I last saw her.",
+        "It's been ten minutes since the bus left."
+      ]
+    },
+    {
+      "rule_key": "unit_13_A",
+      "unit_key": "unit_13",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use present perfect for past actions with a result now (I've lost my keys = I don't have them).",
+      "rule_text_uk": "Present perfect — минула дія з результатом зараз.",
+      "rule_short_en": "Present result now → present perfect.",
+      "rule_short_uk": "Результат зараз → present perfect.",
+      "examples": [
+        "I've broken my glasses.",
+        "She's missed the train.",
+        "We've run out of milk."
+      ]
+    },
+    {
+      "rule_key": "unit_13_B",
+      "unit_key": "unit_13",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use past simple for finished actions in a finished time (yesterday, last week, in 2018).",
+      "rule_text_uk": "Past simple — завершена дія у завершеному часі.",
+      "rule_short_en": "Finished time → past simple.",
+      "rule_short_uk": "Завершений час → past simple.",
+      "examples": [
+        "I called him yesterday.",
+        "They arrived last night.",
+        "We lived there in 2010."
+      ]
+    },
+    {
+      "rule_key": "unit_13_C",
+      "unit_key": "unit_13",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Don’t use present perfect with a past time expression (not 'I've seen him yesterday').",
+      "rule_text_uk": "Не вживай present perfect з минулим часом (yesterday, last..., ago).",
+      "rule_short_en": "No present perfect + yesterday/last…/ago.",
+      "rule_short_uk": "Не present perfect + yesterday/last…/ago.",
+      "examples": [
+        "I saw him yesterday.",
+        "We met two days ago.",
+        "Did you finish it last week?"
+      ]
+    },
+    {
+      "rule_key": "unit_14_A",
+      "unit_key": "unit_14",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use past simple, not present perfect, with a finished time: yesterday, last year, ten minutes ago.",
+      "rule_text_uk": "З завершеним часом — past simple, не present perfect.",
+      "rule_short_en": "Finished time → past simple.",
+      "rule_short_uk": "Завершений час → past simple.",
+      "examples": [
+        "I went home late last night.",
+        "She left ten minutes ago.",
+        "Did you see him yesterday?"
+      ]
+    },
+    {
+      "rule_key": "unit_14_B",
+      "unit_key": "unit_14",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use present perfect for time up to now (today, this week) if the period is not finished yet.",
+      "rule_text_uk": "Present perfect — для періоду до тепер, який ще не закінчився.",
+      "rule_short_en": "Unfinished time period → present perfect.",
+      "rule_short_uk": "Незавершений період → present perfect.",
+      "examples": [
+        "I've had three meetings today.",
+        "Have you seen Anna this week?",
+        "It's been quiet this morning."
+      ]
+    },
+    {
+      "rule_key": "unit_15_A",
+      "unit_key": "unit_15",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Past perfect (had done) shows one past action happened before another past time or event.",
+      "rule_text_uk": "Past perfect (had done) — одна дія сталася раніше іншої в минулому.",
+      "rule_short_en": "had done = earlier past action.",
+      "rule_short_uk": "had done = раніша минула дія.",
+      "examples": [
+        "When I arrived, they had already left.",
+        "She couldn't pay because she'd forgotten her wallet.",
+        "I realized I'd seen him before."
+      ]
+    },
+    {
+      "rule_key": "unit_15_B",
+      "unit_key": "unit_15",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Often use past perfect with before/after to make the order clear.",
+      "rule_text_uk": "Часто past perfect з before/after, щоб уточнити порядок.",
+      "rule_short_en": "Use past perfect to make the order clear.",
+      "rule_short_uk": "Past perfect уточнює порядок.",
+      "examples": [
+        "After he'd finished, he went out.",
+        "I had locked the door before I left.",
+        "She left after she had spoken to him."
+      ]
+    },
+    {
+      "rule_key": "unit_15_C",
+      "unit_key": "unit_15",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "If the order is obvious, past simple can be enough; past perfect is sometimes optional.",
+      "rule_text_uk": "Якщо порядок ясний, інколи достатньо past simple; past perfect може бути необов’язковим.",
+      "rule_short_en": "Past perfect optional if the order is obvious.",
+      "rule_short_uk": "Може бути необов’язковим, якщо порядок ясний.",
+      "examples": [
+        "I went to bed after I finished work.",
+        "He told me what happened earlier.",
+        "We arrived and the show started."
+      ]
+    },
+    {
+      "rule_key": "unit_16_A",
+      "unit_key": "unit_16",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Past perfect continuous (had been doing) describes an activity that continued up to a past moment.",
+      "rule_text_uk": "Past perfect continuous — дія тривала до моменту в минулому.",
+      "rule_short_en": "had been doing = duration up to a past point.",
+      "rule_short_uk": "had been doing = тривалість до моменту в минулому.",
+      "examples": [
+        "They had been waiting for an hour when the bus came.",
+        "I'd been studying for weeks before the exam.",
+        "She'd been working all day."
+      ]
+    },
+    {
+      "rule_key": "unit_16_B",
+      "unit_key": "unit_16",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use it to explain a past result (tired, wet, angry) by a longer earlier activity.",
+      "rule_text_uk": "Вживаємо, щоб пояснити минулий результат довшою попередньою дією.",
+      "rule_short_en": "Past result + earlier activity → had been doing.",
+      "rule_short_uk": "Минулий результат + дія → had been doing.",
+      "examples": [
+        "His eyes were red—he'd been crying.",
+        "The ground was wet; it had been raining.",
+        "She was nervous; she'd been rehearsing."
+      ]
+    },
+    {
+      "rule_key": "unit_16_C",
+      "unit_key": "unit_16",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Compare: had been doing (process) vs had done (completed action) before a past time.",
+      "rule_text_uk": "Порівняй: had been doing (процес) vs had done (завершено) до моменту в минулому.",
+      "rule_short_en": "had been doing = process; had done = completed.",
+      "rule_short_uk": "had been doing = процес; had done = завершено.",
+      "examples": [
+        "I'd been writing for hours, but I hadn't finished.",
+        "I had written the email before lunch.",
+        "They had been walking, so they were exhausted."
+      ]
+    },
+    {
+      "rule_key": "unit_16_D",
+      "unit_key": "unit_16",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Often use for/since with had been doing to show duration up to that past moment.",
+      "rule_text_uk": "Часто for/since з had been doing для тривалості до того моменту в минулому.",
+      "rule_short_en": "for/since + had been doing (up to a past time).",
+      "rule_short_uk": "for/since + had been doing (до моменту в минулому).",
+      "examples": [
+        "He had been living there for years.",
+        "She'd been training since April.",
+        "We had been talking for 30 minutes."
+      ]
+    },
+    {
+      "rule_key": "unit_17_A",
+      "unit_key": "unit_17",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Have and have got mean the same for possession/relationships/illnesses. Present: I have / I've got.",
+      "rule_text_uk": "Have і have got однакові для володіння/стосунків/недуг.",
+      "rule_short_en": "Possession etc.: have = have got.",
+      "rule_short_uk": "Володіння тощо: have = have got.",
+      "examples": [
+        "I have a new phone.",
+        "I've got a sister.",
+        "She has a headache."
+      ]
+    },
+    {
+      "rule_key": "unit_17_B",
+      "unit_key": "unit_17",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "For actions, use have (not have got): have breakfast, have a shower. Continuous is possible: I'm having a shower.",
+      "rule_text_uk": "Для дій: have (не have got). Можна continuous: I'm having a shower.",
+      "rule_short_en": "Actions: have (not have got).",
+      "rule_short_uk": "Дії: have (не have got).",
+      "examples": [
+        "We had lunch at 1.",
+        "He's having a shower.",
+        "I don't usually have coffee."
+      ]
+    },
+    {
+      "rule_key": "unit_17_C",
+      "unit_key": "unit_17",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "In questions/negatives with have (actions), use do/does/did: Do you have…? I don't have…",
+      "rule_text_uk": "У питаннях/запереченнях з have (дії) — do/does/did.",
+      "rule_short_en": "Questions/negatives: do/does with have (actions).",
+      "rule_short_uk": "Питання/заперечення: do/does з have (дії).",
+      "examples": [
+        "Do you have breakfast?",
+        "I don't have time.",
+        "Did you have trouble finding a hotel?"
+      ]
+    },
+    {
+      "rule_key": "unit_18_A",
+      "unit_key": "unit_18",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Used to + infinitive describes past habits or states that are not true now.",
+      "rule_text_uk": "Used to + інфінітив — минулі звички/стани, яких тепер немає.",
+      "rule_short_en": "used to = past habit/state (not now).",
+      "rule_short_uk": "used to = звичка/стан у минулому (тепер ні).",
+      "examples": [
+        "I used to play chess every day.",
+        "She used to live in Kyiv.",
+        "They used to be very close."
+      ]
+    },
+    {
+      "rule_key": "unit_18_B",
+      "unit_key": "unit_18",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Negative: didn't use to… (or never used to…).",
+      "rule_text_uk": "Заперечення: didn't use to… / never used to…",
+      "rule_short_en": "Negative: didn't use to.",
+      "rule_short_uk": "Заперечення: didn't use to.",
+      "examples": [
+        "I didn't use to like coffee.",
+        "He never used to wear glasses.",
+        "We didn't use to travel much."
+      ]
+    },
+    {
+      "rule_key": "unit_18_C",
+      "unit_key": "unit_18",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Questions: Did you use to…? (not 'used you to').",
+      "rule_text_uk": "Питання: Did you use to…?",
+      "rule_short_en": "Questions: Did you use to…?",
+      "rule_short_uk": "Питання: Did you use to…?",
+      "examples": [
+        "Did you use to live here?",
+        "What games did you use to play?",
+        "Where did she use to work?"
+      ]
+    },
+    {
+      "rule_key": "unit_18_D",
+      "unit_key": "unit_18",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Used to emphasises 'not now'. Past simple can describe single past events.",
+      "rule_text_uk": "Used to підкреслює 'тепер ні'. Past simple може бути разовою подією.",
+      "rule_short_en": "used to emphasises change; past simple can be one event.",
+      "rule_short_uk": "used to підкреслює зміну; past simple може бути разово.",
+      "examples": [
+        "I used to cycle to work, but now I drive.",
+        "I cycled to work yesterday.",
+        "She used to be shy, but now she's confident."
+      ]
+    },
+    {
+      "rule_key": "unit_18_E",
+      "unit_key": "unit_18",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Be/get used to + noun/gerund means 'be accustomed to': I'm used to getting up early.",
+      "rule_text_uk": "Be/get used to + герундій/іменник = бути звиклим.",
+      "rule_short_en": "be used to = accustomed to.",
+      "rule_short_uk": "be used to = звиклий.",
+      "examples": [
+        "I'm used to working late.",
+        "She's getting used to the cold.",
+        "We weren't used to the noise."
+      ]
+    },
+    {
+      "rule_key": "unit_18_F",
+      "unit_key": "unit_18",
+      "section_path": "F",
+      "title_en": null,
+      "rule_text_en": "Used to do (past habit) is different from be used to doing (accustomed).",
+      "rule_text_uk": "Used to do (звичка) ≠ be used to doing (звиклий).",
+      "rule_short_en": "used to do ≠ be used to doing.",
+      "rule_short_uk": "used to do ≠ be used to doing.",
+      "examples": [
+        "I used to read a lot, but now I don't.",
+        "I'm used to reading on my phone.",
+        "He used to travel; now he's used to staying home."
+      ]
+    },
+    {
+      "rule_key": "unit_19_A",
+      "unit_key": "unit_19",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use present continuous for fixed arrangements: I'm meeting Anna tomorrow.",
+      "rule_text_uk": "Present continuous — для домовленостей/планів у майбутньому.",
+      "rule_short_en": "Arrangements → present continuous.",
+      "rule_short_uk": "Домовленості → present continuous.",
+      "examples": [
+        "We're flying on Friday.",
+        "I'm seeing the dentist tomorrow.",
+        "They're coming for dinner tonight."
+      ]
+    },
+    {
+      "rule_key": "unit_19_B",
+      "unit_key": "unit_19",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use present simple for timetables/schedules: The train leaves at 6.15.",
+      "rule_text_uk": "Present simple — для розкладів/графіків.",
+      "rule_short_en": "Timetables → present simple.",
+      "rule_short_uk": "Розклади → present simple.",
+      "examples": [
+        "The lesson starts at 9.",
+        "The flight arrives at 18:40.",
+        "The shop opens at 10."
+      ]
+    },
+    {
+      "rule_key": "unit_20_A",
+      "unit_key": "unit_20",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Going to is used for intentions and plans: I'm going to buy a new laptop.",
+      "rule_text_uk": "Going to — для намірів і планів.",
+      "rule_short_en": "Plan/intention → going to.",
+      "rule_short_uk": "План/намір → going to.",
+      "examples": [
+        "I'm going to call him later.",
+        "She's going to study medicine.",
+        "We're going to move soon."
+      ]
+    },
+    {
+      "rule_key": "unit_20_B",
+      "unit_key": "unit_20",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Going to is used for predictions based on present evidence: Look at those clouds—it's going to rain.",
+      "rule_text_uk": "Going to — прогноз за теперішніми ознаками.",
+      "rule_short_en": "Evidence now → going to prediction.",
+      "rule_short_uk": "Ознаки зараз → прогноз (going to).",
+      "examples": [
+        "It's going to be a long day.",
+        "He's going to fall!",
+        "That glass is going to break."
+      ]
+    },
+    {
+      "rule_key": "unit_20_C",
+      "unit_key": "unit_20",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Questions/negatives: Are you going to…? / I'm not going to…",
+      "rule_text_uk": "Питання/заперечення: Are you going to…? / I'm not going to…",
+      "rule_short_en": "Ask and negate with (be) going to.",
+      "rule_short_uk": "Питання/заперечення з going to.",
+      "examples": [
+        "Are you going to stay?",
+        "I'm not going to argue.",
+        "Is she going to apply?"
+      ]
+    },
+    {
+      "rule_key": "unit_20_D",
+      "unit_key": "unit_20",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Was/were going to expresses a past plan that did not happen or was changed.",
+      "rule_text_uk": "Was/were going to — минулий план, який не відбувся або змінився.",
+      "rule_short_en": "was/were going to = past plan (often not done).",
+      "rule_short_uk": "was/were going to = минулий план (часто не зроблено).",
+      "examples": [
+        "I was going to phone you, but I forgot.",
+        "They were going to travel, but they cancelled.",
+        "She was going to buy it, then changed her mind."
+      ]
+    }
+  ]
+}

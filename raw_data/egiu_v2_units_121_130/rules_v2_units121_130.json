@@ -1,0 +1,611 @@
+{
+  "version": "v2",
+  "units": "121-130",
+  "rules": [
+    {
+      "rule_key": "unit_121_A",
+      "unit_key": "unit_121",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use at for clock times, on for days/dates, and in for months, years, seasons and longer periods.",
+      "rule_text_uk": "Використовуйте at для часу на годиннику, on для днів/дат, а in — для місяців, років, сезонів і довших періодів.",
+      "rule_short_en": "at 7.30 • on Friday/3 May • in June/2024",
+      "rule_short_uk": "at 7:30 • on Friday/3 May • in June/2024",
+      "examples": [
+        "The lesson starts at 8.15.",
+        "My birthday is on 14 July.",
+        "She moved here in 2020."
+      ]
+    },
+    {
+      "rule_key": "unit_121_B",
+      "unit_key": "unit_121",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use at in some time expressions: at the moment, at the same time, at weekends, at Christmas; but usually in the morning/afternoon/evening and at night.",
+      "rule_text_uk": "У деяких сталих виразах з часом вживаємо at: at the moment, at the same time, at weekends, at Christmas; але зазвичай in the morning/afternoon/evening і at night.",
+      "rule_short_en": "at the moment • at weekends • in the morning • at night",
+      "rule_short_uk": "at the moment • at weekends • in the morning • at night",
+      "examples": [
+        "I'm busy at the moment.",
+        "We often meet at weekends.",
+        "I sleep badly at night."
+      ]
+    },
+    {
+      "rule_key": "unit_121_C",
+      "unit_key": "unit_121",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "With parts of the day and days together, use on: on Monday morning, on Friday evening, on the afternoon of 5 June.",
+      "rule_text_uk": "Коли поєднуємо день і частину дня, вживаємо on: on Monday morning, on Friday evening, on the afternoon of 5 June.",
+      "rule_short_en": "on Monday morning / on Friday evening",
+      "rule_short_uk": "on Monday morning / on Friday evening",
+      "examples": [
+        "The call is on Tuesday afternoon.",
+        "We had dinner on Friday evening."
+      ]
+    },
+    {
+      "rule_key": "unit_121_D",
+      "unit_key": "unit_121",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "We usually don’t use at/on/in before next, last, this, every: next week, last Friday, this morning, every day.",
+      "rule_text_uk": "Зазвичай не вживаємо at/on/in перед next, last, this, every: next week, last Friday, this morning, every day.",
+      "rule_short_en": "next week • last Friday • this morning • every day",
+      "rule_short_uk": "next week • last Friday • this morning • every day",
+      "examples": [
+        "I'll see you next Monday.",
+        "She phoned me this morning.",
+        "We train every day."
+      ]
+    },
+    {
+      "rule_key": "unit_121_E",
+      "unit_key": "unit_121",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Use in to say how long until something happens: in ten minutes (= ten minutes from now).",
+      "rule_text_uk": "Використовуйте in, щоб сказати, через скільки щось станеться: in ten minutes (= через 10 хвилин).",
+      "rule_short_en": "in ten minutes = ten minutes from now",
+      "rule_short_uk": "in ten minutes = через 10 хвилин",
+      "examples": [
+        "The train leaves in five minutes.",
+        "I'll be ready in half an hour."
+      ]
+    },
+    {
+      "rule_key": "unit_122_A",
+      "unit_key": "unit_122",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "On time means ‘at the planned time’. In time means ‘early enough’. Just in time means ‘at the last possible moment’.",
+      "rule_text_uk": "On time означає «в запланований час». In time — «достатньо рано». Just in time — «в останній момент».",
+      "rule_short_en": "on time (scheduled) • in time (early enough) • just in time",
+      "rule_short_uk": "on time (за розкладом) • in time (встигнути) • just in time (в останню мить)",
+      "examples": [
+        "The bus arrived on time.",
+        "We left early to get there in time.",
+        "I caught the lift just in time."
+      ]
+    },
+    {
+      "rule_key": "unit_122_B",
+      "unit_key": "unit_122",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "At the end (of something) is about time/position: at the end of the film. In the end means ‘finally / after a long time’.",
+      "rule_text_uk": "At the end (of something) — про кінець події/періоду: at the end of the film. In the end означає «зрештою / врешті-решт».",
+      "rule_short_en": "at the end of the film • in the end = finally",
+      "rule_short_uk": "at the end of the film • in the end = зрештою",
+      "examples": [
+        "At the end of the meeting we agreed on a plan.",
+        "We argued a lot, but in the end we decided to go."
+      ]
+    },
+    {
+      "rule_key": "unit_123_A",
+      "unit_key": "unit_123",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use in for an enclosed space or area: in a room, in a building, in a town, in a garden, in the water.",
+      "rule_text_uk": "Вживайте in для замкненого простору або території: in a room, in a building, in a town, in a garden, in the water.",
+      "rule_short_en": "in a room/building/town/garden/water",
+      "rule_short_uk": "in a room/building/town/garden/water",
+      "examples": [
+        "She’s waiting in the kitchen.",
+        "I grew up in a small town.",
+        "The kids are playing in the water."
+      ]
+    },
+    {
+      "rule_key": "unit_123_B",
+      "unit_key": "unit_123",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use at for a point or place seen as a spot: at the station, at the bus stop, at the door, at the corner.",
+      "rule_text_uk": "Вживайте at для точки/місця як «пункту»: at the station, at the bus stop, at the door, at the corner.",
+      "rule_short_en": "at the station/door/corner",
+      "rule_short_uk": "at the station/door/corner",
+      "examples": [
+        "Meet me at the entrance.",
+        "There’s a café at the corner."
+      ]
+    },
+    {
+      "rule_key": "unit_123_C",
+      "unit_key": "unit_123",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use on for a surface or line: on the table, on the wall, on the floor, on the page, on the left/right.",
+      "rule_text_uk": "Вживайте on для поверхні або лінії: on the table, on the wall, on the floor, on the page, on the left/right.",
+      "rule_short_en": "on the table/wall/page • on the left/right",
+      "rule_short_uk": "on the table/wall/page • on the left/right",
+      "examples": [
+        "Your keys are on the desk.",
+        "There’s a photo on the wall.",
+        "Write your name on the form."
+      ]
+    },
+    {
+      "rule_key": "unit_124_A",
+      "unit_key": "unit_124",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use in with lines/rows/groups and with things that have an ‘inside’ space: in a queue, in a row, in a department, in a picture, in the sky.",
+      "rule_text_uk": "Вживайте in з рядами/чергами/групами та з тим, що має «всередині»: in a queue, in a row, in a department, in a picture, in the sky.",
+      "rule_short_en": "in a queue/row • in a picture • in the sky",
+      "rule_short_uk": "in a queue/row • in a picture • in the sky",
+      "examples": [
+        "We stood in a long queue.",
+        "I noticed a detail in the picture.",
+        "There were dark clouds in the sky."
+      ]
+    },
+    {
+      "rule_key": "unit_124_B",
+      "unit_key": "unit_124",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use on for lists/screens and for things on a line or edge: on the left/right, on a map, on a website, on a river/road/coast, on the way.",
+      "rule_text_uk": "Вживайте on для списків/екранів і для того, що лежить «на лінії/краї»: on the left/right, on a map, on a website, on a river/road/coast, on the way.",
+      "rule_short_en": "on a map/website • on the coast • on the way",
+      "rule_short_uk": "on a map/website • on the coast • on the way",
+      "examples": [
+        "Your name is on the list.",
+        "The village is on the coast.",
+        "We stopped on the way home."
+      ]
+    },
+    {
+      "rule_key": "unit_124_C",
+      "unit_key": "unit_124",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use at for the top/bottom/end of something: at the top, at the bottom, at the end of the street.",
+      "rule_text_uk": "Вживайте at для верху/низу/кінця чогось: at the top, at the bottom, at the end of the street.",
+      "rule_short_en": "at the top/bottom • at the end of the street",
+      "rule_short_uk": "at the top/bottom • at the end of the street",
+      "examples": [
+        "There’s a pharmacy at the end of this street.",
+        "The title is at the top of the page."
+      ]
+    },
+    {
+      "rule_key": "unit_124_D",
+      "unit_key": "unit_124",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "For front/back: at the front/back of a building (part of it), in the front/back of a car (inside), and on the front/back of paper or a photo.",
+      "rule_text_uk": "Для front/back: at the front/back of a building (частина), in the front/back of a car (всередині), і on the front/back of паперу або фото.",
+      "rule_short_en": "at the front of a building • in the back of a car • on the back of a photo",
+      "rule_short_uk": "at the front of a building • in the back of a car • on the back of a photo",
+      "examples": [
+        "There’s a garden at the back of the house.",
+        "Sit in the back of the taxi.",
+        "My address is on the back of the card."
+      ]
+    },
+    {
+      "rule_key": "unit_124_E",
+      "unit_key": "unit_124",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Use in the corner for inside corners (a room). Use at/on the corner for street corners (a corner point).",
+      "rule_text_uk": "Вживайте in the corner для внутрішнього кута (кімнати). At/on the corner — для рогу вулиць (точка).",
+      "rule_short_en": "in the corner (room) • at/on the corner (street)",
+      "rule_short_uk": "in the corner (кімната) • at/on the corner (вулиця)",
+      "examples": [
+        "There’s a plant in the corner of the room.",
+        "The bank is at the corner of King Street and Park Road."
+      ]
+    },
+    {
+      "rule_key": "unit_125_A",
+      "unit_key": "unit_125",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Some places use in: in bed, in hospital, in prison. But we usually say at home, at work, at school/university.",
+      "rule_text_uk": "Деякі місця вживаються з in: in bed, in hospital, in prison. Але зазвичай кажемо at home, at work, at school/university.",
+      "rule_short_en": "in bed/hospital/prison • at home/work/school",
+      "rule_short_uk": "in bed/hospital/prison • at home/work/school",
+      "examples": [
+        "She’s still in bed.",
+        "My brother is in hospital.",
+        "I’ll be at work till six."
+      ]
+    },
+    {
+      "rule_key": "unit_125_B",
+      "unit_key": "unit_125",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use at for events and meeting places: at a party, at a concert, at a station/airport, at the doctor’s / hairdresser’s.",
+      "rule_text_uk": "Вживайте at для подій і місць зустрічі: at a party, at a concert, at a station/airport, at the doctor’s / hairdresser’s.",
+      "rule_short_en": "at a party/concert • at the station • at the doctor’s",
+      "rule_short_uk": "at a party/concert • at the station • at the doctor’s",
+      "examples": [
+        "We met at a conference.",
+        "I’ll see you at the station.",
+        "She’s at the dentist’s."
+      ]
+    },
+    {
+      "rule_key": "unit_125_C",
+      "unit_key": "unit_125",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "With buildings, use at when you mean ‘the place’ and in when you mean ‘inside’: at the cinema (= place), in the cinema (= inside).",
+      "rule_text_uk": "З будівлями: at — коли маємо на увазі «місце», in — коли «всередині»: at the cinema / in the cinema.",
+      "rule_short_en": "at the cinema (place) • in the cinema (inside)",
+      "rule_short_uk": "at the cinema (місце) • in the cinema (всередині)",
+      "examples": [
+        "Let’s meet at the theatre.",
+        "It was hot in the theatre."
+      ]
+    },
+    {
+      "rule_key": "unit_125_D",
+      "unit_key": "unit_125",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Transport: on a bus/train/plane/bike, but in a car/taxi. Get into/out of a car; get on/off a bus.",
+      "rule_text_uk": "Транспорт: on a bus/train/plane/bike, але in a car/taxi. Get into/out of a car; get on/off a bus.",
+      "rule_short_en": "on a bus/train/plane • in a car/taxi",
+      "rule_short_uk": "on a bus/train/plane • in a car/taxi",
+      "examples": [
+        "We met on the train.",
+        "She was in a taxi.",
+        "He got on the bus quickly."
+      ]
+    },
+    {
+      "rule_key": "unit_125_E",
+      "unit_key": "unit_125",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "In/at with towns: in a town/city (within it), but at a town when it’s a stop on a journey.",
+      "rule_text_uk": "In/at з містами: in a town/city (в межах міста), але at a town як зупинка в дорозі.",
+      "rule_short_en": "in Paris (in the city) • stop at Paris (as a stop)",
+      "rule_short_uk": "in Paris (у місті) • stop at Paris (як зупинка)",
+      "examples": [
+        "We spent a week in Lisbon.",
+        "The train stopped at a small town on the way."
+      ]
+    },
+    {
+      "rule_key": "unit_126_A",
+      "unit_key": "unit_126",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Go/come/travel to a place. Arrive in a country/city and arrive at a building or point. Get to = reach.",
+      "rule_text_uk": "Go/come/travel to a place. Arrive in — країна/місто; arrive at — будівля або точка. Get to = дістатися.",
+      "rule_short_en": "go to • arrive in (city) • arrive at (airport) • get to",
+      "rule_short_uk": "go to • arrive in (місто) • arrive at (аеропорт) • get to",
+      "examples": [
+        "We went to Spain last summer.",
+        "They arrived in Rome at noon.",
+        "I arrived at the hotel late."
+      ]
+    },
+    {
+      "rule_key": "unit_126_B",
+      "unit_key": "unit_126",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Home: go home / come home (no preposition). But: be at home, stay at home.",
+      "rule_text_uk": "Home: go home / come home (без прийменника). Але: be at home, stay at home.",
+      "rule_short_en": "go home (no ‘to’) • be/stay at home",
+      "rule_short_uk": "go home (без ‘to’) • be/stay at home",
+      "examples": [
+        "I’m going home now.",
+        "We stayed at home all evening."
+      ]
+    },
+    {
+      "rule_key": "unit_126_C",
+      "unit_key": "unit_126",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Into shows movement to the inside: go into a room, put something into a bag. Compare: in = position, into = movement.",
+      "rule_text_uk": "Into показує рух усередину: go into a room, put something into a bag. Порівняйте: in = місце, into = рух.",
+      "rule_short_en": "into = movement inside • in = position",
+      "rule_short_uk": "into = рух усередину • in = місце",
+      "examples": [
+        "She walked into the kitchen.",
+        "Put the keys into your pocket."
+      ]
+    },
+    {
+      "rule_key": "unit_126_D",
+      "unit_key": "unit_126",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Other movement prepositions: out of, off, on, etc. (get out of a car, take something off a shelf, put it on).",
+      "rule_text_uk": "Інші прийменники руху: out of, off, on тощо (get out of a car, take something off a shelf, put it on).",
+      "rule_short_en": "out of / off / on + movement",
+      "rule_short_uk": "out of / off / on + рух",
+      "examples": [
+        "He got out of the taxi.",
+        "She took the book off the shelf."
+      ]
+    },
+    {
+      "rule_key": "unit_127_A",
+      "unit_key": "unit_127",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use in for some conditions and states: in the rain/sun/dark, in a language, in cash, in love, in my opinion.",
+      "rule_text_uk": "Вживайте in для умов і станів: in the rain/sun/dark, in a language, in cash, in love, in my opinion.",
+      "rule_short_en": "in the rain • in English • in love • in my opinion",
+      "rule_short_uk": "in the rain • in English • in love • in my opinion",
+      "examples": [
+        "We got soaked in the rain.",
+        "The instructions are in English.",
+        "In my opinion, it’s too expensive."
+      ]
+    },
+    {
+      "rule_key": "unit_127_B",
+      "unit_key": "unit_127",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use on for media and activities: on TV, on the radio, on the phone, on the internet; and on holiday / on business / on a trip.",
+      "rule_text_uk": "Вживайте on для медіа й активностей: on TV, on the radio, on the phone, on the internet; а також on holiday / on business / on a trip.",
+      "rule_short_en": "on TV/radio/phone • on holiday/on business",
+      "rule_short_uk": "on TV/radio/phone • on holiday/on business",
+      "examples": [
+        "I saw it on TV.",
+        "She spoke to me on the phone.",
+        "They’re on holiday this week."
+      ]
+    },
+    {
+      "rule_key": "unit_127_C",
+      "unit_key": "unit_127",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use at for age, speed and some fixed phrases: at 16, at 80 km/h, at the same time, at the moment.",
+      "rule_text_uk": "Вживайте at для віку, швидкості та деяких сталих виразів: at 16, at 80 km/h, at the same time, at the moment.",
+      "rule_short_en": "at 16 • at 80 km/h • at the same time",
+      "rule_short_uk": "at 16 • at 80 km/h • at the same time",
+      "examples": [
+        "He left home at 18.",
+        "The car was travelling at 90 km/h."
+      ]
+    },
+    {
+      "rule_key": "unit_127_D",
+      "unit_key": "unit_127",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "On time (Unit 122) is different from at the time: at the time = then / at that period.",
+      "rule_text_uk": "On time (Unit 122) відрізняється від at the time: at the time = тоді / у той період.",
+      "rule_short_en": "at the time = then (not ‘on time’)",
+      "rule_short_uk": "at the time = тоді (не ‘on time’)",
+      "examples": [
+        "I didn’t like the job at the time, but I do now.",
+        "At the time, we didn’t have a car."
+      ]
+    },
+    {
+      "rule_key": "unit_128_A",
+      "unit_key": "unit_128",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use by to say how you do something (method): by car, by bus, by train, by plane; by phone/email; by hand.",
+      "rule_text_uk": "Вживайте by, щоб сказати, як щось робиться (спосіб): by car/bus/train/plane; by phone/email; by hand.",
+      "rule_short_en": "by car/bus • by email/phone • by hand",
+      "rule_short_uk": "by car/bus • by email/phone • by hand",
+      "examples": [
+        "I usually go to work by bus.",
+        "Send the file by email.",
+        "The dress was made by hand."
+      ]
+    },
+    {
+      "rule_key": "unit_128_B",
+      "unit_key": "unit_128",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "By can also mean ‘not later than’ with time: by 5 o’clock, by Monday. (= at or before).",
+      "rule_text_uk": "By також означає «не пізніше ніж» з часом: by 5 o’clock, by Monday (= до або раніше).",
+      "rule_short_en": "by 5 p.m. = at or before 5 p.m.",
+      "rule_short_uk": "by 17:00 = до або раніше 17:00",
+      "examples": [
+        "Please reply by Friday.",
+        "I’ll finish it by tomorrow morning."
+      ]
+    },
+    {
+      "rule_key": "unit_128_C",
+      "unit_key": "unit_128",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use by to say who/what does an action in the passive, and to say who created something: a book by…, a painting by…",
+      "rule_text_uk": "By також вживається для виконавця дії в пасиві та автора/творця: a book by…, a painting by…",
+      "rule_short_en": "opened by… • a novel by…",
+      "rule_short_uk": "opened by… • роман автора…",
+      "examples": [
+        "The window was broken by the wind.",
+        "It’s a novel by Kazuo Ishiguro."
+      ]
+    },
+    {
+      "rule_key": "unit_128_D",
+      "unit_key": "unit_128",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "With by + -ing, it can show the means: You can improve by practising; He solved it by calling a friend.",
+      "rule_text_uk": "Конструкція by + -ing показує спосіб: You can improve by practising; He solved it by calling a friend.",
+      "rule_short_en": "by + -ing = by doing something",
+      "rule_short_uk": "by + -ing = роблячи щось",
+      "examples": [
+        "I saved money by cooking at home.",
+        "She learned quickly by asking questions."
+      ]
+    },
+    {
+      "rule_key": "unit_128_E",
+      "unit_key": "unit_128",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "By can express difference/amount: by ten minutes, by two euros, by 3%.",
+      "rule_text_uk": "By може виражати різницю/наскільки: by ten minutes, by two euros, by 3%.",
+      "rule_short_en": "win by 2 points • late by 10 minutes",
+      "rule_short_uk": "виграти на 2 очки • запізнитися на 10 хв",
+      "examples": [
+        "We won by two goals.",
+        "The train was late by fifteen minutes."
+      ]
+    },
+    {
+      "rule_key": "unit_129_A",
+      "unit_key": "unit_129",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Many nouns take for: a reason for, a need for, a demand for, an excuse for.",
+      "rule_text_uk": "Багато іменників вживаються з for: a reason for, a need for, a demand for, an excuse for.",
+      "rule_short_en": "reason for • need for • demand for • excuse for",
+      "rule_short_uk": "reason for • need for • demand for • excuse for",
+      "examples": [
+        "There’s no reason for panic.",
+        "Is there any need for a meeting?"
+      ]
+    },
+    {
+      "rule_key": "unit_129_B",
+      "unit_key": "unit_129",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Some nouns take of: the cause of, an advantage of, a photo/map of something.",
+      "rule_text_uk": "Деякі іменники вживаються з of: the cause of, an advantage of, a photo/map of something.",
+      "rule_short_en": "cause of • advantage of • a photo of",
+      "rule_short_uk": "cause of • advantage of • фото чогось",
+      "examples": [
+        "The cause of the problem is unclear.",
+        "She showed me photos of her trip."
+      ]
+    },
+    {
+      "rule_key": "unit_129_C",
+      "unit_key": "unit_129",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Some nouns take in: an increase in, a rise in, a fall in, a decrease in (prices, numbers, etc.).",
+      "rule_text_uk": "Деякі іменники вживаються з in: an increase in, a rise in, a fall in, a decrease in (ціни, кількість тощо).",
+      "rule_short_en": "increase in • rise in • fall in • decrease in",
+      "rule_short_uk": "increase in • rise in • fall in • decrease in",
+      "examples": [
+        "There was a rise in prices.",
+        "We saw a fall in sales."
+      ]
+    },
+    {
+      "rule_key": "unit_129_D",
+      "unit_key": "unit_129",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Some nouns take to: damage to, an invitation to, a solution to, a key to, an answer/reply to, a reaction to, an attitude to/towards.",
+      "rule_text_uk": "Деякі іменники вживаються з to: damage to, an invitation to, a solution to, a key to, an answer/reply to, a reaction to, an attitude to/towards.",
+      "rule_short_en": "solution to • key to • reaction to • attitude to",
+      "rule_short_uk": "solution to • key to • reaction to • attitude to",
+      "examples": [
+        "We need a solution to this problem.",
+        "His reaction to the news surprised me."
+      ]
+    },
+    {
+      "rule_key": "unit_129_E",
+      "unit_key": "unit_129",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "With and between: a relationship with somebody; a connection between two things; a difference between A and B.",
+      "rule_text_uk": "З with і between: a relationship with somebody; a connection between two things; a difference between A and B.",
+      "rule_short_en": "relationship with • connection between • difference between",
+      "rule_short_uk": "relationship with • connection between • difference between",
+      "examples": [
+        "I have regular contact with my colleagues.",
+        "There’s a big difference between the two plans."
+      ]
+    },
+    {
+      "rule_key": "unit_130_A",
+      "unit_key": "unit_130",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "We say it’s nice/kind/etc. of somebody to do something, but nice/kind/etc. to somebody when we describe behaviour towards them.",
+      "rule_text_uk": "Кажемо it’s nice/kind/etc. of somebody to do something, але nice/kind/etc. to somebody — коли описуємо ставлення до людини.",
+      "rule_short_en": "nice of you to help • nice to me",
+      "rule_short_uk": "nice of you to help • nice to me",
+      "examples": [
+        "It was generous of her to pay.",
+        "They’re always friendly to visitors."
+      ]
+    },
+    {
+      "rule_key": "unit_130_B",
+      "unit_key": "unit_130",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Some adjectives take about and with: angry/annoyed about something; angry/annoyed with somebody (often for doing something).",
+      "rule_text_uk": "Деякі прикметники вживаються з about і with: angry/annoyed about something; angry/annoyed with somebody (часто for doing something).",
+      "rule_short_en": "angry about the delay • angry with him",
+      "rule_short_uk": "angry about the delay • angry with him",
+      "examples": [
+        "I’m upset about the mistake.",
+        "She was angry with me for being late."
+      ]
+    },
+    {
+      "rule_key": "unit_130_C",
+      "unit_key": "unit_130",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Other common patterns: surprised at/by, impressed with/by, fed up/bored with, tired of.",
+      "rule_text_uk": "Інші поширені моделі: surprised at/by, impressed with/by, fed up/bored with, tired of.",
+      "rule_short_en": "surprised at/by • impressed with/by • bored with • tired of",
+      "rule_short_uk": "surprised at/by • impressed with/by • bored with • tired of",
+      "examples": [
+        "We were amazed at the view.",
+        "I’m tired of arguing."
+      ]
+    },
+    {
+      "rule_key": "unit_130_D",
+      "unit_key": "unit_130",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Sorry about a situation/event; sorry for doing something; feel sorry for somebody (pity).",
+      "rule_text_uk": "Sorry about — про ситуацію/подію; sorry for — за те, що зробив; feel sorry for — співчувати комусь.",
+      "rule_short_en": "sorry about the mess • sorry for shouting • sorry for him",
+      "rule_short_uk": "sorry about the mess • sorry for shouting • sorry for him",
+      "examples": [
+        "Sorry about yesterday.",
+        "I’m sorry for interrupting.",
+        "I feel sorry for her."
+      ]
+    }
+  ]
+}
