@@ -344,10 +344,8 @@ async def _due_current_item(
             return (ex, None)
     except Exception:
         return (ex, None)
-    # take first two items in order
-    idx = 0 if due.item_in_exercise <= 1 else 1
-    if idx >= len(items):
-        idx = len(items)-1
+    # cycle through all items in the exercise as item_in_exercise advances
+    idx = (due.item_in_exercise - 1) % len(items)
     return (ex, items[idx])
 
 async def _handle_missing_due_content(
