@@ -351,6 +351,31 @@ async def _due_current_item(
         item_index = 1
     return (ex, items[item_index - 1], item_index)
 
+async def _due_items_length(
+    s: AsyncSession,
+    due: DueItem,
+    *,
+    llm: LLMClient | None,
+) -> int | None:
+    try:
+        ex = await ensure_unit_exercise(
+            s,
+            unit_key=due.unit_key,
+            exercise_index=due.exercise_index,
+            llm_client=llm,
+        )
+    except ValueError:
+        return None
+    if not ex:
+        return None
+    try:
+        items = json.loads(ex.items_json)
+    except Exception:
+        return None
+    if not isinstance(items, list) or not items:
+        return None
+    return len(items)
+
 async def _handle_missing_due_content(
     m: Message,
     s: AsyncSession,
@@ -872,7 +897,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         due.correct_in_exercise = 0
                     else:
                         # ask next item in this exercise
-                        due.item_in_exercise = 2
+                        due.item_in_exercise = (due.item_in_exercise or 1) + 1
+                        items_length = await _due_items_length(s, due, llm=llm)
+                        if items_length and due.item_in_exercise > items_length:
+                            due.exercise_index += 1
+                            due.item_in_exercise = 1
+                            due.correct_in_exercise = 0
                 else:
                     # wrong or almost => reset counters
                     due.item_in_exercise = 1
