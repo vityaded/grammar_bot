@@ -32,7 +32,7 @@ GOOGLE_API_KEY=...
 ```
 
 ## 3) Load content
-This starter expects 2 JSON files:
+This starter expects 2 JSON files generated from your raw exports:
 - placement dataset: `data/placement.json`
 - unit exercises dataset: `data/unit_exercises_v2.json`
 - rules i18n (v2 subpoints): `data/rules_i18n_v2.json` (optional; you can fill later)
