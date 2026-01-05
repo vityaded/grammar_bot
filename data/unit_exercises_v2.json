@@ -1,1 +1,3496 @@
-]
+{
+  "exercises": [
+    {
+      "unit_key": "unit_1",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is in her car.",
+          "options": null,
+          "canonical": "Sarah",
+          "accepted_variants": [
+            "Sarah"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ is on her way to work.",
+          "options": null,
+          "canonical": "She",
+          "accepted_variants": [
+            "She"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_2",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use the present simple to talk about things in general.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ use it to say that something happens all the time or repeatedly, or that something is true in general: Nurses look aft er patients in hospitals.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_3",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ present continuous ( I am doing) present simple ( I do) We use the continuous for things happening at or around the time of speaking.",
+          "options": null,
+          "canonical": "Compare:",
+          "accepted_variants": [
+            "Compare:"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ action is not complete.We use the simple for things in general or things that happen repeatedly.",
+          "options": null,
+          "canonical": "The",
+          "accepted_variants": [
+            "The"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_4",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use continuous forms (I’m waiting, it’s raining etc.) for actions and happenings that have started but not finished.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ verbs (for example, know and like) are not normally used in this way.",
+          "options": null,
+          "canonical": "Some",
+          "accepted_variants": [
+            "Some"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_5",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Amadeus Mozart was an Austrian musician and composer.",
+          "options": null,
+          "canonical": "Wolfgang",
+          "accepted_variants": [
+            "Wolfgang"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ lived from 1756 to 1791.",
+          "options": null,
+          "canonical": "He",
+          "accepted_variants": [
+            "He"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_6",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Past simple (I did) ➜ Unit 5I was doing (= in the middle of an action) I did (= complete action) We were walking home when I met Dan.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the middle of walking home)We walked home aft er the party last night.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_7",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ can’t find his key.",
+          "options": null,
+          "canonical": "Tom",
+          "accepted_variants": [
+            "Tom"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ lost his key.",
+          "options": null,
+          "canonical": "He’s",
+          "accepted_variants": [
+            "He's",
+            "He’s"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_8",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Have you travelled a lot, Jane?",
+          "options": null,
+          "canonical": "DaVE:",
+          "accepted_variants": [
+            "DaVE:"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ Yes, I’ve been to lots of places.",
+          "options": null,
+          "canonical": "JaNE:",
+          "accepted_variants": [
+            "JaNE:"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_9",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ been raining.",
+          "options": null,
+          "canonical": "It’s",
+          "accepted_variants": [
+            "It's",
+            "It’s"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ this example situation: Is it raining?",
+          "options": null,
+          "canonical": "Study",
+          "accepted_variants": [
+            "Study"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_10",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ these two situations: There is paint on Kate’s clothes.",
+          "options": null,
+          "canonical": "Compare",
+          "accepted_variants": [
+            "Compare"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ has been painting her bedroom.",
+          "options": null,
+          "canonical": "She",
+          "accepted_variants": [
+            "She"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_11",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ this example situation: We use the present perfect to talk about something that began in the past and still continues now.",
+          "options": null,
+          "canonical": "Study",
+          "accepted_variants": [
+            "Study"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the present and present perfect: Paul is in hospital.",
+          "options": null,
+          "canonical": "Compare",
+          "accepted_variants": [
+            "Compare"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_12",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ long have you ( been) … ?",
+          "options": null,
+          "canonical": "How",
+          "accepted_variants": [
+            "How"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ Unit 11for and since when … ?",
+          "options": null,
+          "canonical": "➜",
+          "accepted_variants": [
+            "➜"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_13",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ perfect and past 1 (I have done and I did) A Study this example situation: Ten minutes later: The present perfect (something has happened) is a present tense.",
+          "options": null,
+          "canonical": "Present",
+          "accepted_variants": [
+            "Present"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ tells us about the situation now.",
+          "options": null,
+          "canonical": "It",
+          "accepted_variants": [
+            "It"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_14",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ perfect and past 2 (I have done and I did) A We do not use the present perfect (I have done) when we talk about a finished time (for example, yesterday / last year / ten minutes ago etc.).",
+          "options": null,
+          "canonical": "Present",
+          "accepted_variants": [
+            "Present"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ use a past tense: It was very cold yesterday.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_15",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ perfect (I had done) A Study this example situation: The past perfect (simple) is had + past participle ( gone/ seen/ finished etc.).",
+          "options": null,
+          "canonical": "Past",
+          "accepted_variants": [
+            "Past"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ we talk about something that happened in the past: Sarah arrived at the party.",
+          "options": null,
+          "canonical": "Sometimes",
+          "accepted_variants": [
+            "Sometimes"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_16",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ morning I got up and looked out of the window.",
+          "options": null,
+          "canonical": "Yesterday",
+          "accepted_variants": [
+            "Yesterday"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ sun was shining, but the ground was very wet.",
+          "options": null,
+          "canonical": "The",
+          "accepted_variants": [
+            "The"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_17",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ and have g ot A have and have got (= for possession, relationships, illnesses, appointments etc.) You can use have or have got.",
+          "options": null,
+          "canonical": "have",
+          "accepted_variants": [
+            "have"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ is no difference in meaning.",
+          "options": null,
+          "canonical": "There",
+          "accepted_variants": [
+            "There"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_18",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ few years ago these daysNicola doesn’t travel much these days.",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ prefers to stay at home.",
+          "options": null,
+          "canonical": "She",
+          "accepted_variants": [
+            "She"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_19",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ tenses (I am doing / I do) for the futur e A Present continuous ( I am doing) with a future meaning I’m doing something (tomorrow etc.) = I have already decided and arranged to do it: a: What are you doing on Saturday evening?",
+          "options": null,
+          "canonical": "Present",
+          "accepted_variants": [
+            "Present"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ What do you do) b: I’m going to the cinema.",
+          "options": null,
+          "canonical": "not",
+          "accepted_variants": [
+            "not"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_20",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ I am going to do something = I have already decided to do it, I intend to do it: ‘Are you going to eat anything?’ ‘No, I’m not hungry.’ a: I hear Sarah won the lottery.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ is she going to do with the money?",
+          "options": null,
+          "canonical": "What",
+          "accepted_variants": [
+            "What"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_21",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ am doing (future) ➜ Unit 19 will and shall 2 ➜ Unit 22 I will and I’m going to ➜ Unit 23 American English ➜ Appendix 7We oft en use I’ll in these situations: B Oﬀ ering to do something That bag looks heavy.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ help you with it.",
+          "options": null,
+          "canonical": "I’ll",
+          "accepted_variants": [
+            "I'll",
+            "I’ll"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_22",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ believes that Kate will pass the driving test.",
+          "options": null,
+          "canonical": "Joe",
+          "accepted_variants": [
+            "Joe"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ is predicting the future.",
+          "options": null,
+          "canonical": "He",
+          "accepted_variants": [
+            "He"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_23",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ ‘Gary has been trying to contact you.’ ‘Has he?",
+          "options": null,
+          "canonical": "Compare:",
+          "accepted_variants": [
+            "Compare:"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ I’ll call him.’ ‘Gary has been trying to contact you.’ ‘Yes, I know.",
+          "options": null,
+          "canonical": "OK",
+          "accepted_variants": [
+            "OK"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_24",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ will be doing something (future continuous) = I will be in the middle of doing it: This time next week I’ll be on holiday.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ be lying on the beach or swimming in the sea.",
+          "options": null,
+          "canonical": "I’ll",
+          "accepted_variants": [
+            "I'll",
+            "I’ll"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_25",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ call you again later when I arrive’ is a sentence with two parts: the main part: I’ll call you again later and when … : when I arrive The time is future (‘later’), but Amy says: … when I arrive (not when I will arrive) We say when I do something (not will do) when something happens ( not will happen)Amy is on a train.",
+          "options": null,
+          "canonical": "I’ll",
+          "accepted_variants": [
+            "I'll",
+            "I’ll"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ calling a friend.",
+          "options": null,
+          "canonical": "She’s",
+          "accepted_variants": [
+            "She's",
+            "She’s"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_26",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ can say that somebody is able to do something, but can is more usual: We are able to see the lake from our hotel.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ can has only two forms: can (present) and could (past).",
+          "options": null,
+          "canonical": "But",
+          "accepted_variants": [
+            "But"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_27",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ (do) and could hav e (done) A Sometimes could is the past of can (see Unit 26): Listen.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ can hear something.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_28",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Study this example: We use must to say that we believe something is certain: You’ve been travelling all day.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ must be tired.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_29",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ and might 1 A Study this example situation: We use may or might to say that something is possible.",
+          "options": null,
+          "canonical": "may",
+          "accepted_variants": [
+            "may"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ can use may or might: It may be true.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_30",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ We use may and might to talk about possible actions or happenings in the future: I haven’t decided where to go on holiday.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ may go to Ireland.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_31",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is similar to have to.",
+          "options": null,
+          "canonical": "Must",
+          "accepted_variants": [
+            "Must"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ can say: It’s later than I thought.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_32",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ (‘You must be tired’) ➜ Unit 28 have to and must ➜ Unit 31 Modal verbs (can /could/ will/ would etc.) ➜ Appendix 4 American English ➜ Appendix 7A must and mustn’t Y ou must do something = it is necessary that you do it: Don’t tell anybody what I said.",
+          "options": null,
+          "canonical": "must",
+          "accepted_variants": [
+            "must"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ must keep it a secret.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_33",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ You should do something = it is a good thing to do or the right thing to do.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ can use should to give advice or to give an opinion: You look tired.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_34",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ 2 A You can use should after: insist demand recommend suggest propose I insisted that he should apologise.",
+          "options": null,
+          "canonical": "should",
+          "accepted_variants": [
+            "should"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ recommend that everyone should eat plenty of fruit.",
+          "options": null,
+          "canonical": "Doctors",
+          "accepted_variants": [
+            "Doctors"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_35",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ had better ( I’d better / you’d better etc.) I’d better do something = it is advisable to do it.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ I don’t do it, there will be a problem or a danger: I have to meet Amy in ten minutes.",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_36",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ A We use would ( ’d) / wouldn’t when we imagine a situation or action (= we think of something that is not real): It would be nice to buy a new car, but we can ’t aff ord it.",
+          "options": null,
+          "canonical": "would",
+          "accepted_variants": [
+            "would"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ love to live by the sea.",
+          "options": null,
+          "canonical": "I’d",
+          "accepted_variants": [
+            "I'd",
+            "I’d"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_37",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Asking people to do things (requests) We use can or could to ask people to do things: Can you wait a moment, please?",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ Could you wait a moment, please?",
+          "options": null,
+          "canonical": "or",
+          "accepted_variants": [
+            "or"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_38",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Compare these examples: (1) LISa : Shall we take the bus or the train?",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ If we take the bus, it will be cheaper.",
+          "options": null,
+          "canonical": "JESS:",
+          "accepted_variants": [
+            "JESS:"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_39",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Study this example situation: Sarah wants to phone Paul, but she can’t do this because she doesn’t know his number.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ says: I’d phone him if I knew his number.",
+          "options": null,
+          "canonical": "She",
+          "accepted_variants": [
+            "She"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_40",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Study this example situation: Last month Gary was in hospital for a few days.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ didn’t know this.",
+          "options": null,
+          "canonical": "Rachel",
+          "accepted_variants": [
+            "Rachel"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_41",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ We also use wish to say that we regret something, that something is not as we would like it.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ we use wish in this way, we use the past (knew/ lived etc.), but the meaning is present: I wish I knew what to do about the problem.",
+          "options": null,
+          "canonical": "When",
+          "accepted_variants": [
+            "When"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_42",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Study this example: When we use an active verb, we say what the subject does: My grandfather was a builder.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ built this house in 1981.",
+          "options": null,
+          "canonical": "He",
+          "accepted_variants": [
+            "He"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_43",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Present perfect active: have/ has + done etc.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ room looks nice.",
+          "options": null,
+          "canonical": "The",
+          "accepted_variants": [
+            "The"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_44",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ was o ff ered … / we were given … etc.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ verbs can have two objects.",
+          "options": null,
+          "canonical": "Some",
+          "accepted_variants": [
+            "Some"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_45",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is very old.",
+          "options": null,
+          "canonical": "George",
+          "accepted_variants": [
+            "George"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ knows exactly how old he is, but: It is said that he is 108 years old.",
+          "options": null,
+          "canonical": "Nobody",
+          "accepted_variants": [
+            "Nobody"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_46",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ you have something done, you arrange for somebody to do it for you.",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ Lisa repaired the roof.",
+          "options": null,
+          "canonical": "Compare:",
+          "accepted_variants": [
+            "Compare:"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_47",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ this example situation: You saw Paul yesterday and you want to tell somebody what he said.",
+          "options": null,
+          "canonical": "Study",
+          "accepted_variants": [
+            "Study"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ are two ways of doing this: You can repeat Paul’s words (direct speech): Paul said, ‘I’m feeling ill.’ Or you can use reported speech: Paul said that he was feeling ill.",
+          "options": null,
+          "canonical": "There",
+          "accepted_variants": [
+            "There"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_48",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ do not always change the verb in reported speech.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the situation is still the same, it is not necessary to change the verb to the past.",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_49",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ questions the subjec t is usually after the first verb: subject + verb verb + subject Tom will → will Tom?",
+          "options": null,
+          "canonical": "In",
+          "accepted_variants": [
+            "In"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ have → have you?",
+          "options": null,
+          "canonical": "you",
+          "accepted_variants": [
+            "you"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_50",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ you know where … ?",
+          "options": null,
+          "canonical": "Do",
+          "accepted_variants": [
+            "Do"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ I don’t know why … / Could you tell me what … ?",
+          "options": null,
+          "canonical": "/",
+          "accepted_variants": [
+            "/"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_51",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use have you?",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ isn’t she?",
+          "options": null,
+          "canonical": "/",
+          "accepted_variants": [
+            "/"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_52",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Study these examples: Have you?",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ wasn’t it?",
+          "options": null,
+          "canonical": "and",
+          "accepted_variants": [
+            "and"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_53",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ We say: I enjoy reading.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ I enjoy to read) Would you mind closing the door?",
+          "options": null,
+          "canonical": "not",
+          "accepted_variants": [
+            "not"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_54",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Aft er these verbs you can use to … (infinitive): o ff e r agree refuse decideplan arrange hope forgetmanage fail promise threatendeserve aff ord learn tend It was a long way to walk, so we decided to take a taxi home.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ was in a diff icult situation, so I agreed to help him.",
+          "options": null,
+          "canonical": "Simon",
+          "accepted_variants": [
+            "Simon"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_55",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ We say: verb + to … verb + object + to … want expect ask help would like would preferto go to be to work etc.andwant expect ask help would like would prefersomebody somethingto go to be to work etc.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ expected to be late.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_56",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ + -ing or to … 1 (remember , regret etc.) A Some verbs are followed by -ing and some are followed by to … .",
+          "options": null,
+          "canonical": "Verb",
+          "accepted_variants": [
+            "Verb"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ that you can use with -ing ( not to …): admit avoid consider deny enjoyfancy finish imagine keep ( on) mindpostpone risk stop suggest For examples, see Unit 53.Verbs that you can use with to … : afford agree arrange decide deservefail forget hope learn manageoffer plan promise refuse tend For examples, see Unit 54.",
+          "options": null,
+          "canonical": "Verbs",
+          "accepted_variants": [
+            "Verbs"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_57",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ try to … and try - ing need to … and need - ing Btry to do = attempt to do, mak e an eff ort to do: I was very tired.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ tried to keep my eyes open, but I couldn’t.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_58",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ like / love / hate When you talk about repeated actions, you can use -ing or to … after these verbs.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ you can say: Do you like getting up early?",
+          "options": null,
+          "canonical": "So",
+          "accepted_variants": [
+            "So"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_59",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ prefer to … and prefer - ing When you say what you prefer in general, you can use prefer to … or prefer - ing: I don’t like cities.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ prefer to live in the country.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_60",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ If a preposition (in/ for/about etc.) is followed by a verb, the verb ends in -ing: Are you interested I’m not good Kate must be fed up What are the advantages Thanks very much How Why don’t you go out Amy went to workpreposition in at with of for about instead of in spite ofverb (-ing) working learning studying.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ inviting meeting sitting feelingfor us?",
+          "options": null,
+          "canonical": "having",
+          "accepted_variants": [
+            "having"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_61",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is American, but she lives in Britain.",
+          "options": null,
+          "canonical": "Lisa",
+          "accepted_variants": [
+            "Lisa"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ she first drove a car in Brit ain, driving on the left was a problem for her because: She wasn’t used to it.",
+          "options": null,
+          "canonical": "When",
+          "accepted_variants": [
+            "When"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_62",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ verbs can have the structure verb + object + preposition + -ing.",
+          "options": null,
+          "canonical": "Some",
+          "accepted_variants": [
+            "Some"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ example: verb + object + pr eposition + - ing accuse … of congratulate … on prevent … from stop … from suspect … of thank … forHe accused We congratulated What prevented The rain didn’t stop Nobody suspected I thankedme Lisa you us the general everyoneof on from from of fortelling lies.",
+          "options": null,
+          "canonical": "For",
+          "accepted_variants": [
+            "For"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_63",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ say: it’s worth it’s not worthdoing something It’s a nice town.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ worth spending a few days there.",
+          "options": null,
+          "canonical": "It’s",
+          "accepted_variants": [
+            "It's",
+            "It’s"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_64",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ say ‘a place to park’ , ‘something to eat’ , ‘work to do’ etc.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ It’s hard to find a place to park in the city centre.",
+          "options": null,
+          "canonical": ":",
+          "accepted_variants": [
+            ":"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_65",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ sentences (a) and (b): (a) It is hard to understand him .",
+          "options": null,
+          "canonical": "Compare",
+          "accepted_variants": [
+            "Compare"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ doesn’t speak clearly.",
+          "options": null,
+          "canonical": "James",
+          "accepted_variants": [
+            "James"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_66",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ am afraid to do something = I don’t want to do it because it is dangerous or the result could be bad.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ part of town is dangerous.",
+          "options": null,
+          "canonical": "This",
+          "accepted_variants": [
+            "This"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_67",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ got into his car and dr ove off .",
+          "options": null,
+          "canonical": "Tom",
+          "accepted_variants": [
+            "Tom"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ saw this.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_68",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is in the kitchen.",
+          "options": null,
+          "canonical": "Kate",
+          "accepted_variants": [
+            "Kate"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ making c off ee.",
+          "options": null,
+          "canonical": "She’s",
+          "accepted_variants": [
+            "She's",
+            "She’s"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_69",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ I eat a banana every day.",
+          "options": null,
+          "canonical": "Countable",
+          "accepted_variants": [
+            "Countable"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ like bananas.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_70",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Did you hear a noise just now?",
+          "options": null,
+          "canonical": "Countable",
+          "accepted_variants": [
+            "Countable"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ a specific noise) I bought a paper to read.",
+          "options": null,
+          "canonical": "=",
+          "accepted_variants": [
+            "="
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_71",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use a/ an … to say what kind of thing something is, or what kind of person somebody is: That’s a nice table.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the plural we use the noun alone (not some …): Those are nice chairs.",
+          "options": null,
+          "canonical": "In",
+          "accepted_variants": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_72",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use the when we are thinking of a specific thing.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ a/ an and the: Tim sat down on a chair.",
+          "options": null,
+          "canonical": "Compare",
+          "accepted_variants": [
+            "Compare"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_73",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ EQUA TOR We say ‘the same’: Your sweater is the same colour as mine.",
+          "options": null,
+          "canonical": "THE",
+          "accepted_variants": [
+            "THE"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ is same colour) ‘Are these keys the same?’ ‘No, they’r e diff erent.’B We usually say breakfast/ lunch/ dinner (without the): What did you have for breakfast?",
+          "options": null,
+          "canonical": "not",
+          "accepted_variants": [
+            "not"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_74",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is ten years old.",
+          "options": null,
+          "canonical": "Ellie",
+          "accepted_variants": [
+            "Ellie"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ day she goes to school.",
+          "options": null,
+          "canonical": "Every",
+          "accepted_variants": [
+            "Every"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_75",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use the when we mean specific things or people.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ The diff erence between ‘something in general’ and ‘something specific’ is not always very clear.",
+          "options": null,
+          "canonical": "Compare:B",
+          "accepted_variants": [
+            "Compare:B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_76",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ old, the rich etc.",
+          "options": null,
+          "canonical": "the",
+          "accepted_variants": [
+            "the"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ use the + adjective (without a noun) to talk about groups of people.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_77",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ we use Mr/ Ms/ Captain/ Doctor etc.",
+          "options": null,
+          "canonical": "When",
+          "accepted_variants": [
+            "When"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ a name, we do not use the.",
+          "options": null,
+          "canonical": "+",
+          "accepted_variants": [
+            "+"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_78",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ other buildings have names with the.",
+          "options": null,
+          "canonical": "Most",
+          "accepted_variants": [
+            "Most"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ example: hotels theatres/cinemas museums other buildingsthe Sheraton Hotel, the Holiday Inn the Palace Theatre, the Odeon (cinema) the Guggenheim Museum, the National Gallery the Empire State (Building), the White House, the Eiffel Tower We often leave out the noun: the Sheraton (Hotel) the Palace (Theatre) the Guggenheim (Museum) Some names are only the + noun, for example: the Acropolis the Kremlin the PentagonB Names with of usually have the.",
+          "options": null,
+          "canonical": "For",
+          "accepted_variants": [
+            "For"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_79",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ nouns end in -ics, but are not usually plural.",
+          "options": null,
+          "canonical": "Some",
+          "accepted_variants": [
+            "Some"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ example: athletics gymnastics economics politics physics electronics maths (= mathematics) Gymnastics is my favourite sport.",
+          "options": null,
+          "canonical": "For",
+          "accepted_variants": [
+            "For"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_80",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ there are more than two nouns together: I waited at the hotel reception desk.",
+          "options": null,
+          "canonical": "Sometimes",
+          "accepted_variants": [
+            "Sometimes"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ watched the World Swimming Championships on TV.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_81",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ a singular noun we use -’s : my sister’s room (= her room – one sister) Mr Carter’s house (= his house) With a plural noun (sisters, friends etc.) we put an apostrophe (’) after s: my sisters’ room (= their room – two or more sisters) the Carters’ house (= their house – Mr and Mrs Carter) If a plural noun does not end in -s (for example men/ women/ children/ people) we use -’s : the men’s changing room a children’s book (= a book for children) You can use -’s after more than one noun: Jack and Karen’s children Mr and Mrs Carter’s houseB For things, ideas etc., we normally use of : the temperature of the water ( not the water’s temperature) the name of the book the owner of the restaurant We say the beginning/ end/ middle of … / the top/ bottom of … / the front/ back/ side of … : the beginning of the month (not the month’s beginning) the top of the hill the back of the carC You can usually use -’s or of … for an organisation (= a group of people).",
+          "options": null,
+          "canonical": "With",
+          "accepted_variants": [
+            "With"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ you can say: the government’s decision or the decision of the government the company’s success or the success of the company We also use -’s for places.",
+          "options": null,
+          "canonical": "So",
+          "accepted_variants": [
+            "So"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_82",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ introduced himself to the other guests.",
+          "options": null,
+          "canonical": "Steve",
+          "accepted_variants": [
+            "Steve"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ use myself/ yourself/ himself etc.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_83",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ own … / your own … etc.",
+          "options": null,
+          "canonical": "my",
+          "accepted_variants": [
+            "my"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ say my own / your own / her own … etc.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_84",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ can say: there will be there must be there might be etc.there must have been there should have been there would have been etc.there is sure to be there is bound to be there is going to bethere is likely to be there is supposed to be there used to be ‘Is there a flight to Rome tonight?’ ‘There might be.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ check online.’ If people drove more carefully, there wouldn’t be so many accidents.",
+          "options": null,
+          "canonical": "I’ll",
+          "accepted_variants": [
+            "I'll",
+            "I’ll"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_85",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ We bought some flowers.",
+          "options": null,
+          "canonical": "some",
+          "accepted_variants": [
+            "some"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ has some work to do.",
+          "options": null,
+          "canonical": "He",
+          "accepted_variants": [
+            "He"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_86",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ nobody/ no-one nowhere You can use these words at the beginning of a sentence or alone (as answers to questions): ‘What’s going to happen?’ ‘Nobody knows.",
+          "options": null,
+          "canonical": "nothing",
+          "accepted_variants": [
+            "nothing"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ No-one knows.’ ‘What happened?’ ‘Nothing.’ ‘Where are you going?’ ‘Nowhere.",
+          "options": null,
+          "canonical": "/",
+          "accepted_variants": [
+            "/"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_87",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is unusual in positive sentences (especially in spoken English).",
+          "options": null,
+          "canonical": "Much",
+          "accepted_variants": [
+            "Much"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ We didn’t spend much money.",
+          "options": null,
+          "canonical": "Compare:",
+          "accepted_variants": [
+            "Compare:"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_88",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ half some any most much many (a) little (a ) few none You can use these words with of ( some of / most of etc.): some of most of none of etc.+the … my … this … these … that … those … etc.",
+          "options": null,
+          "canonical": "all",
+          "accepted_variants": [
+            "all"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ you can say: some of the people, some of those people ( but not some of people) most of my time, most of the time ( but not most of time) Some of the people I work with are very strange.",
+          "options": null,
+          "canonical": "So",
+          "accepted_variants": [
+            "So"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_89",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ of … / neither of … / either of … We use both of / neither of / either of + the/ these/ my/ Tom’s … etc.",
+          "options": null,
+          "canonical": "both",
+          "accepted_variants": [
+            "both"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ we say ‘both of the restaurants’ , ‘both of those restaurants’ etc.",
+          "options": null,
+          "canonical": "So",
+          "accepted_variants": [
+            "So"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_90",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ + noun (all cars, all my money etc.) all of + us/ you /them we/you /they … all … (see also Unit 110D) all about … all … = the only thing(s)All my friends were happy.",
+          "options": null,
+          "canonical": "all",
+          "accepted_variants": [
+            "all"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ of us were happy.",
+          "options": null,
+          "canonical": "All",
+          "accepted_variants": [
+            "All"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_91",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ other ➜ Unit 82C all and every ➜ Unit 90Each and every are similar.",
+          "options": null,
+          "canonical": "each",
+          "accepted_variants": [
+            "each"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ en it is possible to use each or every: Each time I see you, you look diff erent.",
+          "options": null,
+          "canonical": "Oft",
+          "accepted_variants": [
+            "Oft"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_92",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Study this example situation: Last week we had a party and a lot of people came.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ enjoyed it.",
+          "options": null,
+          "canonical": "Everybody",
+          "accepted_variants": [
+            "Everybody"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_93",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ clauses 2: clauses with and without who/that /which A Look at these example sentences from Unit 92: The woman who lives next door to me is a doctor.",
+          "options": null,
+          "canonical": "Relative",
+          "accepted_variants": [
+            "Relative"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ The woman that lives …) The woman lives nex t door to me who (= the woman) is the subject Where are the keys that were on the table?",
+          "options": null,
+          "canonical": "or",
+          "accepted_variants": [
+            "or"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_94",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ whose Study this example situation: When we were driving home, we saw some people standing by the road.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ car had broken down, so we stopped to help them.",
+          "options": null,
+          "canonical": "Their",
+          "accepted_variants": [
+            "Their"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_95",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ There are two types of relative clause.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ these examples, the relative clauses are underlined.",
+          "options": null,
+          "canonical": "In",
+          "accepted_variants": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_96",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ preposition + whom/ which You can use a preposition + whom (for people) and which (for things).",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ you can say: to whom with whom about whom etc.",
+          "options": null,
+          "canonical": "So",
+          "accepted_variants": [
+            "So"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_97",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ A clause is a part of a sentence.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ clauses begin with -ing.",
+          "options": null,
+          "canonical": "Some",
+          "accepted_variants": [
+            "Some"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_98",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Many adjectives end in -ing and -ed, for example: boring and bored .",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ tudy this example situation: Jane has been doing the same job for a very long time.",
+          "options": null,
+          "canonical": "S",
+          "accepted_variants": [
+            "S"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_99",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ Sometimes we use two or more adjectives together: My brother lives in a nice new house.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the kitchen there was a beautiful large round wooden table.",
+          "options": null,
+          "canonical": "In",
+          "accepted_variants": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_100",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ You can say: Our holiday was too short – the time passed very quickly.",
+          "options": null,
+          "canonical": "A",
+          "accepted_variants": [
+            "A"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ people were seriously injured in the accident.",
+          "options": null,
+          "canonical": "Two",
+          "accepted_variants": [
+            "Two"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ aft er verbs (‘You look tired’ etc.) ➜ Unit 99C Adjectives and adverbs 1 ➜ Unit 100fast, hard and late These words are both adjectives and adverbs: adjective adverb Darren is a fast runner.",
+          "options": null,
+          "canonical": "Adjectives",
+          "accepted_variants": [
+            "Adjectives"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ can run fast.",
+          "options": null,
+          "canonical": "Darren",
+          "accepted_variants": [
+            "Darren"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use so + adjective/ adverb: so stupid so quick so nice so quickly I didn’t like the book.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ story was so stupid.",
+          "options": null,
+          "canonical": "The",
+          "accepted_variants": [
+            "The"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ and enough Compare too … and not … enough: You never stop working.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ work too hard.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is similar to quite and pretty.",
+          "options": null,
+          "canonical": "Rather",
+          "accepted_variants": [
+            "Rather"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ often use rather for negative ideas (things we think are not good): The weather isn’t so good.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ shall we travel?",
+          "options": null,
+          "canonical": "How",
+          "accepted_variants": [
+            "How"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ we drive or go by train?",
+          "options": null,
+          "canonical": "Shall",
+          "accepted_variants": [
+            "Shall"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ / no + comparative You can use any and no + comparative (any longer / no bigger etc.): I’ve waited long enough.",
+          "options": null,
+          "canonical": "any",
+          "accepted_variants": [
+            "any"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ not waiting any longer.",
+          "options": null,
+          "canonical": "I’m",
+          "accepted_variants": [
+            "I'm",
+            "I’m"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ JOE DA VIDSarah, Joe and David are all very rich.",
+          "options": null,
+          "canonical": "SARAH",
+          "accepted_variants": [
+            "SARAH"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ has $20 million, Joe has $15 million and David has $10 million.",
+          "options": null,
+          "canonical": "Sarah",
+          "accepted_variants": [
+            "Sarah"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ is the longest river in the world?",
+          "options": null,
+          "canonical": "What",
+          "accepted_variants": [
+            "What"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ was the most enjoyable holiday you’ve ever had?",
+          "options": null,
+          "canonical": "What",
+          "accepted_variants": [
+            "What"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ The verb and place (where?) normally go together: go home live in a city walk to work etc.",
+          "options": null,
+          "canonical": "Place",
+          "accepted_variants": [
+            "Place"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the verb has an object, the order is: We Don ’t Did you verb took put learnobject the children anything Englishplace to the zoo.",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ the verb is one word (drives/ cooked etc.), the adverb goes before the verb: Emily Iadverb alw ays almostverb drives fellto work.",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ I was going down the stairs.",
+          "options": null,
+          "canonical": "as",
+          "accepted_variants": [
+            "as"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_111",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use not … any more or not … any longer to say that a situation has changed.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ more and any longer go at the end of a sentence: Lucy doesn’t work here any more.",
+          "options": null,
+          "canonical": "Any",
+          "accepted_variants": [
+            "Any"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_112",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ loves watching TV.",
+          "options": null,
+          "canonical": "Tina",
+          "accepted_variants": [
+            "Tina"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ has a television in every room of the house, even the bathroom.",
+          "options": null,
+          "canonical": "She",
+          "accepted_variants": [
+            "She"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_113",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ year Paul and Sarah had a holiday by the sea.",
+          "options": null,
+          "canonical": "Last",
+          "accepted_variants": [
+            "Last"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ rained a lot, but they had a good time.",
+          "options": null,
+          "canonical": "It",
+          "accepted_variants": [
+            "It"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_114",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ car should have a spare wheel in case you have a puncture.",
+          "options": null,
+          "canonical": "Your",
+          "accepted_variants": [
+            "Your"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ because it is possible you will have a puncture) in case something happens = because it is possible it will happen In case and if are not the same.",
+          "options": null,
+          "canonical": "=",
+          "accepted_variants": [
+            "="
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_115",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ club is for members only.",
+          "options": null,
+          "canonical": "The",
+          "accepted_variants": [
+            "The"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ can’t go in unless you are a member.",
+          "options": null,
+          "canonical": "You",
+          "accepted_variants": [
+            "You"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_116",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use as only if two things happen at the same time.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ I drove home, I listened to music.",
+          "options": null,
+          "canonical": "As",
+          "accepted_variants": [
+            "As"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_117",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ = in the same way as, in the same condition as.",
+          "options": null,
+          "canonical": "As",
+          "accepted_variants": [
+            "As"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ use as with subject (S) + verb (V): I didn’t move anything.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_118",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ say: it looks like … or it looks as if … it sounds like … or it sounds as if … Sarah is very late.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ looks like she isn’t coming.",
+          "options": null,
+          "canonical": "It",
+          "accepted_variants": [
+            "It"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_119",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ fell asleep during the movie.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ and during We use for (+ a period of time) to say how long something goes on: We watched TV for two hours last night.",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_120",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ sent the documents today, so they should arrive by Monday.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ on or before Monday, not later than Monday) We’d better hurry.",
+          "options": null,
+          "canonical": "=",
+          "accepted_variants": [
+            "="
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_121",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ for the time of day at five o’clock at 11.45 at midnight at lunchtime at sunset etc.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ for days and dates on Friday / on Fridays on 16 May 2012 on New Year’s Day on my birthday in for longer periods (months/years/seasons etc.) in June in 2012 in the 1990s in the 20th century in the past in winter on/in time, at/in the end ➜ Unit 122 in/ at/on (position) ➜ Units 123–125 in/ at/on (other uses) ➜ Unit 127 American English ➜ Appendix 7We say: B We say: Cat the moment / at the minute / at present / at this time (= now): Can we talk later?",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_122",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ time = punctual, not late If something happens on time, it happens at the time that was planned: The 11.45 train left on time.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ it left at 11.45) Please be on time.",
+          "options": null,
+          "canonical": "=",
+          "accepted_variants": [
+            "="
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_123",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ no-one in the room / in the building / in the garden.",
+          "options": null,
+          "canonical": "There’s",
+          "accepted_variants": [
+            "There's",
+            "There’s"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ do you have in your hand / in your mouth?",
+          "options": null,
+          "canonical": "What",
+          "accepted_variants": [
+            "What"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_124",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ say that somebody/something is: on the le ft , on the right ( or on the left -hand side, on the right-hand side) Do you drive on the left or on the right in your country?",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the ground floor, on the first floor, on the second floor etc.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_125",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ a party / at a concert etc.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ say that somebody is at an event (at a party, at a conference etc.): Were there many people at the party / at the meeting / at the wedding?",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_126",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ and arrive We say get to a place: They got to the hotel at midnight.",
+          "options": null,
+          "canonical": "get",
+          "accepted_variants": [
+            "get"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ time did you get to the party?",
+          "options": null,
+          "canonical": "What",
+          "accepted_variants": [
+            "What"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_127",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ the shade on on TV / on television on the radio on the phone on fire on purpose (= intentionally) on the whole (= in general)B I didn’t see the news on TV.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ heard the weather forecast on the radio.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_128",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ use by … to say how somebody travels.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ example, you can travel: by car by train by plane by boat by ship by bus by bike etc.",
+          "options": null,
+          "canonical": "For",
+          "accepted_variants": [
+            "For"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_129",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ demand / a need FOR … The company went out of business.",
+          "options": null,
+          "canonical": "a",
+          "accepted_variants": [
+            "a"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ was no demand for its product any more.",
+          "options": null,
+          "canonical": "There",
+          "accepted_variants": [
+            "There"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_130",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ / kind / good / generous / polite / honest / stupid / silly etc.",
+          "options": null,
+          "canonical": "nice",
+          "accepted_variants": [
+            "nice"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ somebody (to do something) Thank you.",
+          "options": null,
+          "canonical": "OF",
+          "accepted_variants": [
+            "OF"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_131",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ / scared / frightened / terrified OF … ‘Are you afraid of spiders?’ ‘Yes, I’m terrified of them.’ good / bad / brilliant / better / hopeless etc.",
+          "options": null,
+          "canonical": "afraid",
+          "accepted_variants": [
+            "afraid"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ … I’m not very good at repairing things.",
+          "options": null,
+          "canonical": "AT",
+          "accepted_variants": [
+            "AT"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_132",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ / speak TO somebody (talk/ speak with is also possible) Who were you talking to?",
+          "options": null,
+          "canonical": "talk",
+          "accepted_variants": [
+            "talk"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ TO … When I’m driving, I like to listen to the radio.",
+          "options": null,
+          "canonical": "listen",
+          "accepted_variants": [
+            "listen"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_133",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ / read / know ABOUT … We talked about a lot of things at the meeting.",
+          "options": null,
+          "canonical": "talk",
+          "accepted_variants": [
+            "talk"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ something/nothing ABOUT something = do something/nothing to improve a situation If you’re worried about the problem, you should do something about it.",
+          "options": null,
+          "canonical": "do",
+          "accepted_variants": [
+            "do"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_134",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ ABOUT … = be told about something Did you hear about the fire at the hotel?",
+          "options": null,
+          "canonical": "hear",
+          "accepted_variants": [
+            "hear"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ times the difference is very small and you can use of or about: When I’m alone, I often think of you.",
+          "options": null,
+          "canonical": "Some",
+          "accepted_variants": [
+            "Some"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_135",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ / suspect somebody OF … Tina accused me of being selfish.",
+          "options": null,
+          "canonical": "accuse",
+          "accepted_variants": [
+            "accuse"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ students were suspected of cheating in the exam.",
+          "options": null,
+          "canonical": "Some",
+          "accepted_variants": [
+            "Some"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_136",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ IN … = believe that something exists, believe that it’s good to do something Do you believe in God?",
+          "options": null,
+          "canonical": "believe",
+          "accepted_variants": [
+            "believe"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ do you believe that God exists?) I believe in saying what I think.",
+          "options": null,
+          "canonical": "=",
+          "accepted_variants": [
+            "="
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_137",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ the second word (on/ off/out etc.) gives a special meaning to the verb.",
+          "options": null,
+          "canonical": "Often",
+          "accepted_variants": [
+            "Often"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ example: break down find out take off give up get on get bySorry I’m late.",
+          "options": null,
+          "canonical": "For",
+          "accepted_variants": [
+            "For"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_138",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ = into a room, a building, a car etc.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ did the thieves get in ?",
+          "options": null,
+          "canonical": "How",
+          "accepted_variants": [
+            "How"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_139",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ = not burning, not shining go out put out a fire / a cigarette / a light turn out a light blow out a candleSuddenly all the lights in the building went out.",
+          "options": null,
+          "canonical": "out",
+          "accepted_variants": [
+            "out"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ put the fire out with a fire extinguisher.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_140",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ say: the light is on / put the light on / leave the light on etc.",
+          "options": null,
+          "canonical": "We",
+          "accepted_variants": [
+            "We"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ the light on/ off or switch the light on/ off Shall I leave the lights on or turn them off?",
+          "options": null,
+          "canonical": "turn",
+          "accepted_variants": [
+            "turn"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_141",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ on = continue The party went on until 4 o’clock in the morning.",
+          "options": null,
+          "canonical": "go",
+          "accepted_variants": [
+            "go"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ on doing (or keep doing) something = do it continuously or repeatedly He keeps on criticising me.",
+          "options": null,
+          "canonical": "keep",
+          "accepted_variants": [
+            "keep"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_142",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ something up (on a wall etc.) I put a picture up on the wall.",
+          "options": null,
+          "canonical": "put",
+          "accepted_variants": [
+            "put"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ something up There was a letter on the floor.",
+          "options": null,
+          "canonical": "pick",
+          "accepted_variants": [
+            "pick"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_143",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ up, come up, walk up ( to …) = approach A man came up to me in the street and asked me for money.",
+          "options": null,
+          "canonical": "go",
+          "accepted_variants": [
+            "go"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ up an organisation, a company, a business, a system, a website etc.",
+          "options": null,
+          "canonical": "set",
+          "accepted_variants": [
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_144",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ up a topic etc.",
+          "options": null,
+          "canonical": "bring",
+          "accepted_variants": [
+            "bring"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ introduce it in a conversation I don’t want to hear any more about this.",
+          "options": null,
+          "canonical": "=",
+          "accepted_variants": [
+            "="
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_145",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentence with the missing first word.",
+      "items": [
+        {
+          "prompt": "Complete the sentence: ____ away and back: away = away from home We’re going away on holiday today.",
+          "options": null,
+          "canonical": "Compare",
+          "accepted_variants": [
+            "Compare"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: ____ = away from a place, a person etc.",
+          "options": null,
+          "canonical": "away",
+          "accepted_variants": [
+            "away"
+          ]
+        }
+      ]
+    }
+  ]
+}
