@@ -192,7 +192,7 @@ async def _render_rules_for_keys(
         if not text:
             continue
         if r.section_path:
-            line = f"{esc_md2(r.section_path)}. {esc_md2(text)}"
+            line = f"{esc_md2(r.section_path)}\\. {esc_md2(text)}"
         else:
             line = esc_md2(text)
         lines.append(line)
@@ -239,7 +239,7 @@ async def _render_rule_fallback_for_unit(
         if not text:
             continue
         if r.section_path:
-            lines.append(f"{esc_md2(r.section_path)}. {esc_md2(text)}")
+            lines.append(f"{esc_md2(r.section_path)}\\. {esc_md2(text)}")
         else:
             lines.append(esc_md2(text))
     if not lines:
