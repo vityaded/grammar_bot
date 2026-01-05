@@ -302,6 +302,20 @@ def _parse_study_units(study_units_json: str | None, fallback_unit: str | None) 
             pass
     return [fallback_unit] if fallback_unit else []
 
+def _due_cause_keys(due: DueItem) -> list[str]:
+    return _parse_rule_keys(due.cause_rule_keys_json)
+
+def _filter_items_by_cause(items: list[dict], cause_keys: list[str]) -> list[dict]:
+    if not cause_keys:
+        return items
+    cause_set = set(cause_keys)
+    filtered: list[dict] = []
+    for it in items:
+        item_keys = _parse_rule_keys(it.get("rule_keys"))
+        if item_keys and cause_set.intersection(item_keys):
+            filtered.append(it)
+    return filtered or items
+
 async def _ask_placement_item(m: Message, user: User, st: UserState, item: PlacementItem):
     instr = item.instruction or ""
     text = ""
@@ -344,12 +358,14 @@ async def _due_current_item(
             return (ex, None, None)
     except Exception:
         return (ex, None, None)
+    cause_keys = _due_cause_keys(due)
+    filtered_items = _filter_items_by_cause(items, cause_keys)
     item_index = due.item_in_exercise or 1
     if item_index < 1:
         item_index = 1
-    if item_index > len(items):
+    if item_index > len(filtered_items):
         item_index = 1
-    return (ex, items[item_index - 1], item_index)
+    return (ex, filtered_items[item_index - 1], item_index)
 
 async def _due_items_length(
     s: AsyncSession,
@@ -374,7 +390,9 @@ async def _due_items_length(
         return None
     if not isinstance(items, list) or not items:
         return None
-    return len(items)
+    cause_keys = _due_cause_keys(due)
+    filtered_items = _filter_items_by_cause(items, cause_keys)
+    return len(filtered_items)
 
 async def _handle_missing_due_content(
     m: Message,
@@ -644,6 +662,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 options = _parse_options(item.options_json)
                 verdict, user_norm = _grade_item(item.item_type, m.text, item.canonical, accepted, options)
                 rule_keys: list[str] = []
+                if verdict != "correct":
+                    unit_keys = _parse_study_units(item.study_units_json, item.unit_key)
+                    seen = set()
+                    for unit_key in unit_keys:
+                        rules = await _fetch_unit_rules_v2(s, unit_key)
+                        for rule in rules[:2]:
+                            if rule.rule_key and rule.rule_key not in seen:
+                                seen.add(rule.rule_key)
+                                rule_keys.append(rule.rule_key)
 
                 att = Attempt(
                     tg_user_id=user.id,
@@ -889,7 +916,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 # update progress based on effective_correct, but "almost" counts wrong
                 if effective_correct:
                     due.correct_in_exercise += 1
-                    required_correct = 3 if due.kind == "detour" else 2
+                    base_required = 3 if due.kind == "detour" else 2
+                    items_length = await _due_items_length(s, due, llm=llm)
+                    if items_length is not None and items_length > 0:
+                        required_correct = min(base_required, items_length)
+                    else:
+                        required_correct = base_required
                     if due.correct_in_exercise >= required_correct:
                         # exercise completed -> advance to next exercise (detour requires 3 correct items)
                         due.exercise_index += 1
@@ -907,21 +939,6 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     # wrong or almost => reset counters
                     due.item_in_exercise = 1
                     due.correct_in_exercise = 0
-
-                    # regen batch for detour/revisit if under limit; check doesn't regen here
-                    max_batches = 5
-                    if due.kind in ("detour","revisit") and due.batch_num < max_batches:
-                        # move to next batch start immediately
-                        due.batch_num += 1
-                        due.exercise_index = (due.batch_num - 1) * 4 + 1
-                        due.item_in_exercise = 1
-                        due.correct_in_exercise = 0
-                        await s.commit()
-                        # show rule again + ask first item immediately
-                        await _ask_due_item(c.message, s, user, st, due, show_rule_first=True, llm=llm)
-                        await s.commit()
-                        await c.answer()
-                        return
 
                 # check completion conditions
                 if due.kind in ("detour","revisit"):
