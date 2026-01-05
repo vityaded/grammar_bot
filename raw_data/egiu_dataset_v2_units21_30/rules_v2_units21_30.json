@@ -1,0 +1,531 @@
+{
+  "version": "v2",
+  "units": "21-30",
+  "rules": [
+    {
+      "rule_key": "unit_21_A",
+      "unit_key": "unit_21",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use I'll / I will for a decision made now (at the moment of speaking). Use won’t for a quick refusal or decision not to do something.",
+      "rule_text_uk": "Використовуй I'll / I will для рішення, яке приймаєш зараз, у момент мовлення. Won’t — для швидкої відмови або рішення щось не робити.",
+      "rule_short_en": "I'll = decision now; won't = refusal/decision not to.",
+      "rule_short_uk": "I'll = рішення зараз; won't = відмова/рішення не робити.",
+      "examples": [
+        "The phone is ringing. I’ll answer it.",
+        "I forgot my wallet. I’ll pay you back tomorrow.",
+        "I won’t tell anyone. It’s a secret."
+      ]
+    },
+    {
+      "rule_key": "unit_21_B",
+      "unit_key": "unit_21",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "We often use I'll to offer help, agree, or promise. Use won’t to show refusal. Use Will you …? to ask someone to do something.",
+      "rule_text_uk": "Ми часто вживаємо I'll, щоб запропонувати допомогу, погодитися або пообіцяти. Won’t показує відмову. Will you …? — прохання до співрозмовника.",
+      "rule_short_en": "I'll = offer/agree/promise; Will you…? = request.",
+      "rule_short_uk": "I'll = пропозиція/згода/обіцянка; Will you…? = прохання.",
+      "examples": [
+        "That box looks heavy. I’ll carry it.",
+        "Okay, I’ll email you tonight.",
+        "Will you close the window, please?"
+      ]
+    },
+    {
+      "rule_key": "unit_21_C",
+      "unit_key": "unit_21",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Don’t use will for future plans that are already arranged or decided. Use present continuous, present simple, or going to for arrangements.",
+      "rule_text_uk": "Не вживай will для планів, які вже домовлені або вирішені. Для домовленостей використовуй present continuous, present simple або going to.",
+      "rule_short_en": "No will for fixed plans; use present/going to.",
+      "rule_short_uk": "Для домовлених планів не will; використовуй present/going to.",
+      "examples": [
+        "I’m meeting Sam at 6. (not I’ll meet)",
+        "We’re going to visit my parents this weekend.",
+        "The train leaves at 7.15."
+      ]
+    },
+    {
+      "rule_key": "unit_21_D",
+      "unit_key": "unit_21",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Use shall mostly in questions with I/we: Shall I …? / Shall we …? to offer, ask for advice, or suggest an idea.",
+      "rule_text_uk": "Shall зазвичай уживають у питаннях з I/we: Shall I …? / Shall we …? — щоб запропонувати, попросити поради або запропонувати ідею.",
+      "rule_short_en": "Shall I/we…? = offer/suggestion/advice.",
+      "rule_short_uk": "Shall I/we…? = пропозиція/порада/ідея.",
+      "examples": [
+        "Shall I open the window?",
+        "Shall we go by taxi?",
+        "What shall we do next?"
+      ]
+    },
+    {
+      "rule_key": "unit_22_A",
+      "unit_key": "unit_22",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use will to predict the future or say what you believe will happen. Don’t use will for plans already arranged or decided.",
+      "rule_text_uk": "Will вживають для прогнозів і того, що, на твою думку, станеться. Не використовуй will для планів, які вже домовлені або вирішені.",
+      "rule_short_en": "Will = prediction, not a fixed plan.",
+      "rule_short_uk": "Will = прогноз, не домовлений план.",
+      "examples": [
+        "I think it’ll snow tonight.",
+        "You’ll love that film.",
+        "She’s meeting the client tomorrow. (planned)"
+      ]
+    },
+    {
+      "rule_key": "unit_22_B",
+      "unit_key": "unit_22",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "We often use will with words like probably, I think, I’m sure, I don’t think. After hope, we usually use the present (I hope it rains / doesn’t rain).",
+      "rule_text_uk": "Will часто вживають із probably, I think, I’m sure, I don’t think. Після hope зазвичай уживаємо теперішній час (I hope it rains / doesn’t rain).",
+      "rule_short_en": "Will + probably/I think… ; after hope → present.",
+      "rule_short_uk": "Will + probably/I think… ; після hope → present.",
+      "examples": [
+        "I’ll probably be home late.",
+        "I don’t think they’ll agree.",
+        "I hope you feel better soon."
+      ]
+    },
+    {
+      "rule_key": "unit_22_C",
+      "unit_key": "unit_22",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "We normally use will for the future, but we can also use will to talk about now when we make a guess about the present (She’ll be busy).",
+      "rule_text_uk": "Зазвичай will — про майбутнє, але інколи will уживають і про теперішнє, коли робимо припущення (She’ll be busy).",
+      "rule_short_en": "Will can mean a guess about now.",
+      "rule_short_uk": "Will може означати припущення про тепер.",
+      "examples": [
+        "Don’t call him; he’ll be asleep now.",
+        "They’ll be in a meeting at the moment.",
+        "She’ll know the answer."
+      ]
+    },
+    {
+      "rule_key": "unit_22_D",
+      "unit_key": "unit_22",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Shall is used mainly with I/we (often formal): I shall / we shall. The negative is shan’t or shall not. In everyday speech, we usually say I’ll / we’ll.",
+      "rule_text_uk": "Shall вживають головно з I/we (часто офіційно): I shall / we shall. Заперечення — shan’t або shall not. У повсякденній мові частіше кажуть I’ll / we’ll.",
+      "rule_short_en": "Shall is mainly I/we; shan’t = negative.",
+      "rule_short_uk": "Shall переважно з I/we; shan’t = заперечення.",
+      "examples": [
+        "We shall contact you soon.",
+        "I shan’t be long.",
+        "We’ll see you tomorrow."
+      ]
+    },
+    {
+      "rule_key": "unit_23_A",
+      "unit_key": "unit_23",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "For future actions: use will when you decide at the moment; use (be) going to when the decision was made earlier.",
+      "rule_text_uk": "Для майбутніх дій: will — коли рішення приймаєш у момент мовлення; (be) going to — коли рішення було прийняте раніше.",
+      "rule_short_en": "Will = decision now; going to = plan already decided.",
+      "rule_short_uk": "Will = рішення зараз; going to = план уже вирішений.",
+      "examples": [
+        "I’m tired. I’ll go to bed early.",
+        "I’m going to buy a new laptop next week.",
+        "Thanks. I’ll call you back in a minute."
+      ]
+    },
+    {
+      "rule_key": "unit_23_B",
+      "unit_key": "unit_23",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "For predictions, both will and going to are possible. Use going to when there is evidence now; use will for general expectations or opinions.",
+      "rule_text_uk": "Для прогнозів можливі і will, і going to. Going to — коли є ознаки зараз; will — для загальних очікувань або думок.",
+      "rule_short_en": "Going to = evidence; will = opinion/expectation.",
+      "rule_short_uk": "Going to = ознаки; will = думка/очікування.",
+      "examples": [
+        "Look at those clouds. It’s going to rain.",
+        "I think the team will win.",
+        "The car is making a strange noise. It’s going to stop."
+      ]
+    },
+    {
+      "rule_key": "unit_24_A",
+      "unit_key": "unit_24",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use will be doing for an action in progress at a future time. Use will have done for an action completed before a future time.",
+      "rule_text_uk": "Will be doing — дія буде тривати в певний момент у майбутньому. Will have done — дія завершиться до певного моменту в майбутньому.",
+      "rule_short_en": "Will be doing = in progress; will have done = finished by then.",
+      "rule_short_uk": "Will be doing = у процесі; will have done = завершено до того часу.",
+      "examples": [
+        "At 9 tomorrow I’ll be flying to Rome.",
+        "By 9 tomorrow I’ll have arrived in Rome.",
+        "This time next week we’ll be travelling."
+      ]
+    },
+    {
+      "rule_key": "unit_24_B",
+      "unit_key": "unit_24",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Will be doing (future continuous) = you will be in the middle of doing something. Compare: I’ll be eating (in progress) vs I’ll eat (simple).",
+      "rule_text_uk": "Will be doing (future continuous) = ти будеш у процесі дії. Порівняй: I’ll be eating (у процесі) vs I’ll eat (простий факт/рішення).",
+      "rule_short_en": "Future continuous = in the middle of an action.",
+      "rule_short_uk": "Future continuous = у середині дії.",
+      "examples": [
+        "Don’t call at 8; I’ll be driving.",
+        "At noon we’ll be having lunch.",
+        "She’ll be working late tonight."
+      ]
+    },
+    {
+      "rule_key": "unit_24_C",
+      "unit_key": "unit_24",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "We also use will be -ing to describe a future activity (often as a natural/expected situation), sometimes sounding more polite than will do.",
+      "rule_text_uk": "Will be -ing також уживають, щоб описати майбутню діяльність як «нормальну»/очікувану; інколи це звучить ввічливіше, ніж will do.",
+      "rule_short_en": "Will be -ing can describe expected future activity.",
+      "rule_short_uk": "Will be -ing описує очікувану майбутню діяльність.",
+      "examples": [
+        "I’ll be seeing Alex later, so I can ask him.",
+        "Will you be using your car this evening?",
+        "The manager will be meeting the team tomorrow."
+      ]
+    },
+    {
+      "rule_key": "unit_24_D",
+      "unit_key": "unit_24",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Will have done (future perfect) means something will be complete before a time in the future. Often used with by + time.",
+      "rule_text_uk": "Will have done (future perfect) означає, що щось буде завершено до певного моменту в майбутньому. Часто з by + time.",
+      "rule_short_en": "Future perfect = completed by a future time.",
+      "rule_short_uk": "Future perfect = завершено до майбутнього моменту.",
+      "examples": [
+        "By Friday, we’ll have finished the report.",
+        "She’ll have left by the time you arrive.",
+        "In two years they’ll have been married for ten years."
+      ]
+    },
+    {
+      "rule_key": "unit_25_A",
+      "unit_key": "unit_25",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "After when, before, after, as soon as, until, while etc. we use the present (not will) to talk about the future: when I arrive, before you go.",
+      "rule_text_uk": "Після when, before, after, as soon as, until, while тощо для майбутнього вживаємо теперішній час (не will): when I arrive, before you go.",
+      "rule_short_en": "After time words, use present for the future.",
+      "rule_short_uk": "Після слів часу — present для майбутнього.",
+      "examples": [
+        "I’ll text you when I get home.",
+        "Please lock the door before you leave.",
+        "Wait here until I come back."
+      ]
+    },
+    {
+      "rule_key": "unit_25_B",
+      "unit_key": "unit_25",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "We can use the present perfect after when/after/as soon as/until to show one action finishes before another: when I’ve finished, I’ll call. Don’t use it if actions happen together.",
+      "rule_text_uk": "Можна вживати present perfect після when/after/as soon as/until, щоб показати, що одна дія завершиться раніше: when I’ve finished, I’ll call. Не вживай, якщо дії відбуваються одночасно.",
+      "rule_short_en": "Present perfect shows 'finished before' after time words.",
+      "rule_short_uk": "Present perfect показує «завершиться раніше» після слів часу.",
+      "examples": [
+        "When I’ve saved enough, I’ll buy a car.",
+        "As soon as you’ve sent it, let me know.",
+        "When I arrive, I’ll call you. (together → present simple)"
+      ]
+    },
+    {
+      "rule_key": "unit_25_C",
+      "unit_key": "unit_25",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "After if, we use the present for the future (If it rains, we’ll stay in). Use if for something possible; use when for something expected/sure.",
+      "rule_text_uk": "Після if для майбутнього вживаємо present (If it rains, we’ll stay in). If — для можливого; when — для очікуваного/певного.",
+      "rule_short_en": "If = possible; when = expected. Both use present.",
+      "rule_short_uk": "If = можливе; when = очікуване. Обидва з present.",
+      "examples": [
+        "If I see Maya, I’ll tell her.",
+        "When I see Maya, I’ll tell her.",
+        "If you don’t hurry, you’ll miss the bus."
+      ]
+    },
+    {
+      "rule_key": "unit_26_A",
+      "unit_key": "unit_26",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use can to talk about ability, permission, or possibility in the present. The negative is can’t / cannot.",
+      "rule_text_uk": "Can вживають для здібності, дозволу або можливості в теперішньому. Заперечення — can’t / cannot.",
+      "rule_short_en": "Can = ability/permission/possibility now.",
+      "rule_short_uk": "Can = здатність/дозвіл/можливість зараз.",
+      "examples": [
+        "I can swim, but I can’t dive.",
+        "You can park here after 6.",
+        "We can see the mountains from the window."
+      ]
+    },
+    {
+      "rule_key": "unit_26_B",
+      "unit_key": "unit_26",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "(Be) able to is similar to can, but it is needed when we use other forms (infinitive, future, perfect): I’ve been able to…, I’ll be able to…",
+      "rule_text_uk": "(Be) able to схоже на can, але потрібне в інших формах (інфінітив, майбутній, перфект): I’ve been able to…, I’ll be able to…",
+      "rule_short_en": "Able to replaces can in other tenses/forms.",
+      "rule_short_uk": "Able to замінює can в інших часах/формах.",
+      "examples": [
+        "I’ll be able to help you tomorrow.",
+        "Have you ever been able to cook well?",
+        "I haven’t been able to sleep lately."
+      ]
+    },
+    {
+      "rule_key": "unit_26_C",
+      "unit_key": "unit_26",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Could is often the past of can. We use could especially with verbs like see, hear, feel, remember, understand.",
+      "rule_text_uk": "Could часто є минулим часом від can. Особливо could вживають з дієсловами see, hear, feel, remember, understand.",
+      "rule_short_en": "Could = past of can (often with senses).",
+      "rule_short_uk": "Could = минулий від can (часто з відчуттями).",
+      "examples": [
+        "It was dark, but I could see the sign.",
+        "I could hear music from next door.",
+        "When I was a child, I could run fast."
+      ]
+    },
+    {
+      "rule_key": "unit_26_D",
+      "unit_key": "unit_26",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Use could for general ability in the past. For a specific successful action in one situation, we usually say was/were able to or managed to (not could).",
+      "rule_text_uk": "Could — для загальної здібності в минулому. Для конкретної успішної дії в певній ситуації зазвичай кажемо was/were able to або managed to (не could).",
+      "rule_short_en": "Past success in one situation: was able to / managed to.",
+      "rule_short_uk": "Успіх у конкретній ситуації: was able to / managed to.",
+      "examples": [
+        "We were able to find a hotel in the end.",
+        "I managed to open the door.",
+        "When I was young, I could skate. (general)"
+      ]
+    },
+    {
+      "rule_key": "unit_27_A",
+      "unit_key": "unit_27",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Could can be the past of can, but it is also used for possible actions now or in the future (suggestions). It is less certain than can.",
+      "rule_text_uk": "Could може бути минулим від can, але також вживається для можливих дій зараз або в майбутньому (пропозиції). Це менш упевнено, ніж can.",
+      "rule_short_en": "Could = suggestion/possibility (less sure than can).",
+      "rule_short_uk": "Could = пропозиція/можливість (менш упевнено, ніж can).",
+      "examples": [
+        "We could go for a walk later.",
+        "You could ask Nina about it.",
+        "It could rain this evening."
+      ]
+    },
+    {
+      "rule_key": "unit_27_B",
+      "unit_key": "unit_27",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "We use could (not can) for unreal or imagined situations: I could sleep all day (but I won’t).",
+      "rule_text_uk": "Could (не can) вживають для нереальних або уявних ситуацій: I could sleep all day (але не буду).",
+      "rule_short_en": "Could for unreal/imagined situations.",
+      "rule_short_uk": "Could для нереальних/уявних ситуацій.",
+      "examples": [
+        "I’m so tired I could fall asleep anywhere.",
+        "I could live here forever.",
+        "That dress is lovely; it could be expensive."
+      ]
+    },
+    {
+      "rule_key": "unit_27_C",
+      "unit_key": "unit_27",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use could to say something is possible now or later. Compare: can change (general) vs could change (possible in this situation).",
+      "rule_text_uk": "Could вживають, щоб сказати, що щось можливе зараз або пізніше. Порівняй: can change (загалом) vs could change (у цій ситуації).",
+      "rule_short_en": "Could = possible in this situation.",
+      "rule_short_uk": "Could = можливо в цій ситуації.",
+      "examples": [
+        "The plan could change if the weather gets worse.",
+        "Be careful; the floor could be slippery.",
+        "Traffic could be heavy at this time."
+      ]
+    },
+    {
+      "rule_key": "unit_27_D",
+      "unit_key": "unit_27",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Could have (done) means it was possible in the past, but it did not happen.",
+      "rule_text_uk": "Could have (done) означає: у минулому це було можливим, але не сталося.",
+      "rule_short_en": "Could have done = possible but didn’t happen.",
+      "rule_short_uk": "Could have done = могло статися, але не сталося.",
+      "examples": [
+        "I could have called you, but I forgot.",
+        "They could have won the match.",
+        "You could have hurt yourself."
+      ]
+    },
+    {
+      "rule_key": "unit_27_E",
+      "unit_key": "unit_27",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Couldn’t do = it isn’t/wasn’t possible. Couldn’t have (done) = it was impossible in the past (it could not have happened).",
+      "rule_text_uk": "Couldn’t do = неможливо (зараз/тоді). Couldn’t have (done) = у минулому це було неможливо (не могло статися).",
+      "rule_short_en": "Couldn’t = impossible; couldn’t have = impossible in the past.",
+      "rule_short_uk": "Couldn’t = неможливо; couldn’t have = неможливо в минулому.",
+      "examples": [
+        "I couldn’t lift the box.",
+        "It couldn’t have been him; he was abroad.",
+        "The holiday couldn’t have been better."
+      ]
+    },
+    {
+      "rule_key": "unit_28_A",
+      "unit_key": "unit_28",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use must to say you are sure something is true (a strong deduction). Use can’t to say you are sure something is impossible.",
+      "rule_text_uk": "Must вживають, коли ти впевнений, що це правда (сильний висновок). Can’t — коли впевнений, що це неможливо.",
+      "rule_short_en": "Must = certain; can’t = impossible.",
+      "rule_short_uk": "Must = точно; can’t = неможливо.",
+      "examples": [
+        "You’ve worked all day. You must be exhausted.",
+        "They can’t be at home; the lights are off.",
+        "He must know the answer."
+      ]
+    },
+    {
+      "rule_key": "unit_28_B",
+      "unit_key": "unit_28",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "For the past, use must have / can’t have: She must have forgotten. He can’t have seen us. (Couldn’t have is also possible.)",
+      "rule_text_uk": "Для минулого вживають must have / can’t have: She must have forgotten. He can’t have seen us. (Також можливе couldn’t have.)",
+      "rule_short_en": "Past deduction: must have / can’t have.",
+      "rule_short_uk": "Висновок про минуле: must have / can’t have.",
+      "examples": [
+        "The door was locked. They must have left.",
+        "He can’t have said that. It’s not like him.",
+        "I must have dropped my keys somewhere."
+      ]
+    },
+    {
+      "rule_key": "unit_29_A",
+      "unit_key": "unit_29",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use may or might to say something is possible (now). Negatives: may not / might not. Note: may be (two words) vs maybe (one word).",
+      "rule_text_uk": "May або might вживають, щоб сказати, що щось можливе (зараз). Заперечення: may not / might not. Різниця: may be (два слова) і maybe (одне слово).",
+      "rule_short_en": "May/might = possible; may be ≠ maybe.",
+      "rule_short_uk": "May/might = можливо; may be ≠ maybe.",
+      "examples": [
+        "She may be in her office.",
+        "It might not be true.",
+        "Maybe we should leave now."
+      ]
+    },
+    {
+      "rule_key": "unit_29_B",
+      "unit_key": "unit_29",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "For the past, use may have / might have (and may not / might not have) to say something was possible.",
+      "rule_text_uk": "Для минулого вживай may have / might have (і may not / might not have), щоб сказати, що щось було можливим.",
+      "rule_short_en": "Past possibility: may/might have.",
+      "rule_short_uk": "Можливість у минулому: may/might have.",
+      "examples": [
+        "She might have missed the bus.",
+        "He may not have heard you.",
+        "I may have left my phone at work."
+      ]
+    },
+    {
+      "rule_key": "unit_29_C",
+      "unit_key": "unit_29",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Could is similar to may/might in positive sentences (It could be true). But couldn’t means ‘impossible’, not ‘perhaps not’.",
+      "rule_text_uk": "Could схоже на may/might у ствердженнях (It could be true). Але couldn’t означає «неможливо», а не «можливо ні».",
+      "rule_short_en": "Could = possible; couldn’t = impossible.",
+      "rule_short_uk": "Could = можливо; couldn’t = неможливо.",
+      "examples": [
+        "It could be my mistake.",
+        "He couldn’t be 15 — he’s at least 20.",
+        "They might not know."
+      ]
+    },
+    {
+      "rule_key": "unit_30_A",
+      "unit_key": "unit_30",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use may/might to talk about possible future actions or situations. Negatives: may not / might not (mightn’t).",
+      "rule_text_uk": "May/might вживають для можливих дій або ситуацій у майбутньому. Заперечення: may not / might not (mightn’t).",
+      "rule_short_en": "May/might = possible future.",
+      "rule_short_uk": "May/might = можливе майбутнє.",
+      "examples": [
+        "I may go out later.",
+        "It might rain this afternoon.",
+        "We might have to wait a bit."
+      ]
+    },
+    {
+      "rule_key": "unit_30_B",
+      "unit_key": "unit_30",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "We use might (not may) when the situation is unreal or imaginary, often with if: If I had more time, I might learn Italian.",
+      "rule_text_uk": "Might (не may) вживають, коли ситуація нереальна/уявна, часто з if: If I had more time, I might learn Italian.",
+      "rule_short_en": "Unreal if → might (not may).",
+      "rule_short_uk": "Нереальний if → might (не may).",
+      "examples": [
+        "If I were taller, I might play basketball.",
+        "If they paid more, I might stay.",
+        "If I knew his number, I might call him."
+      ]
+    },
+    {
+      "rule_key": "unit_30_C",
+      "unit_key": "unit_30",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use may/might be -ing to talk about possible future plans or what someone could be doing at a future time. Compare with will be -ing (more certain).",
+      "rule_text_uk": "May/might be -ing вживають для можливих планів або того, що хтось може робити в певний момент у майбутньому. Порівняй з will be -ing (більш певно).",
+      "rule_short_en": "May/might be -ing = possible activity at a future time.",
+      "rule_short_uk": "May/might be -ing = можлива дія в майбутній момент.",
+      "examples": [
+        "Don’t call at 9; I might be studying.",
+        "She may be meeting a client tomorrow morning.",
+        "We’ll be travelling next week."
+      ]
+    },
+    {
+      "rule_key": "unit_30_D",
+      "unit_key": "unit_30",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Might as well means ‘do it because there is no better alternative’. It can also be may as well.",
+      "rule_text_uk": "Might as well означає «краще вже зробити, бо немає кращого варіанту». Також можливе may as well.",
+      "rule_short_en": "Might as well = no better alternative.",
+      "rule_short_uk": "Might as well = немає кращого варіанту.",
+      "examples": [
+        "It’s already late, so we might as well stay here.",
+        "The shop is open, so I may as well go in.",
+        "We’ve missed the bus — we might as well walk."
+      ]
+    }
+  ]
+}

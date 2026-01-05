@@ -1,0 +1,486 @@
+{
+  "version": "v2",
+  "units": "71-80",
+  "rules": [
+    {
+      "rule_key": "unit_71_A",
+      "unit_key": "unit_71",
+      "section_path": "A",
+      "title_en": "Singular countable: a/an",
+      "rule_text_en": "Use a/an with singular countable nouns when we mean one thing (often for the first time).",
+      "rule_text_uk": "Вживай a/an із злічуваними іменниками в однині, коли йдеться про одну річ (часто при першій згадці).",
+      "rule_short_en": "Singular countable → a/an.",
+      "rule_short_uk": "Злічуване в однині → a/an.",
+      "examples": [
+        "I bought a new phone yesterday.",
+        "She’s reading an interesting book.",
+        "There’s a cat in the garden."
+      ]
+    },
+    {
+      "rule_key": "unit_71_B",
+      "unit_key": "unit_71",
+      "section_path": "B",
+      "title_en": "Plural/uncountable: some",
+      "rule_text_en": "Use some with plural countable nouns and with uncountable nouns when we mean ‘a quantity’ (not exact).",
+      "rule_text_uk": "Вживай some зі злічуваними в множині та з незлічуваними, коли мається на увазі певна кількість (не точно).",
+      "rule_short_en": "Plural/uncountable → some.",
+      "rule_short_uk": "Множина/незлічуване → some.",
+      "examples": [
+        "I need some eggs and some milk.",
+        "We bought some furniture for the flat.",
+        "He gave me some advice."
+      ]
+    },
+    {
+      "rule_key": "unit_71_C",
+      "unit_key": "unit_71",
+      "section_path": "C",
+      "title_en": "Some in offers/requests",
+      "rule_text_en": "Some is common in offers and requests: Would you like some…? Can I have some…?",
+      "rule_text_uk": "Some часто вживається в пропозиціях і проханнях: Would you like some…? Can I have some…?",
+      "rule_short_en": "Offers/requests: some.",
+      "rule_short_uk": "Пропозиції/прохання: some.",
+      "examples": [
+        "Would you like some tea?",
+        "Can I have some water, please?",
+        "Let’s buy some bread."
+      ]
+    },
+    {
+      "rule_key": "unit_72_A",
+      "unit_key": "unit_72",
+      "section_path": "A",
+      "title_en": "First mention vs second mention",
+      "rule_text_en": "Use a/an when we mention something for the first time; use the when we mention the same thing again.",
+      "rule_text_uk": "Вживай a/an, коли згадуєш щось уперше; вживай the, коли згадуєш це знову.",
+      "rule_short_en": "First time a/an, later the.",
+      "rule_short_uk": "Уперше a/an, потім the.",
+      "examples": [
+        "I saw a dog. The dog was very friendly.",
+        "She bought a bag. The bag was expensive.",
+        "There was an email. The email was from my boss."
+      ]
+    },
+    {
+      "rule_key": "unit_72_B",
+      "unit_key": "unit_72",
+      "section_path": "B",
+      "title_en": "The = specific/known",
+      "rule_text_en": "Use the when the listener can identify which thing you mean (because it’s known from the situation or context).",
+      "rule_text_uk": "Вживай the, коли співрозмовник може зрозуміти, про яку саме річ ідеться (відомо з ситуації/контексту).",
+      "rule_short_en": "The = specific/known.",
+      "rule_short_uk": "The = конкретне/відоме.",
+      "examples": [
+        "Could you close the window? (the one here)",
+        "I’ll meet you at the station.",
+        "Where’s the key?"
+      ]
+    },
+    {
+      "rule_key": "unit_72_C",
+      "unit_key": "unit_72",
+      "section_path": "C",
+      "title_en": "A/an = one of many",
+      "rule_text_en": "Use a/an when we mean ‘one of many’ and it doesn’t matter which one.",
+      "rule_text_uk": "Вживай a/an, коли мається на увазі «один із багатьох» і не важливо який саме.",
+      "rule_short_en": "A/an = one of many.",
+      "rule_short_uk": "A/an = один із багатьох.",
+      "examples": [
+        "I need a pen. (any pen)",
+        "She wants to buy a car. (not a particular one)",
+        "Let’s choose a restaurant."
+      ]
+    },
+    {
+      "rule_key": "unit_73_A",
+      "unit_key": "unit_73",
+      "section_path": "A",
+      "title_en": "Only one / superlatives",
+      "rule_text_en": "Use the for something unique (the sun, the equator) and with superlatives (the best, the longest).",
+      "rule_text_uk": "Вживай the з унікальними речами (the sun, the equator) і з найвищим ступенем (the best, the longest).",
+      "rule_short_en": "Unique/superlative → the.",
+      "rule_short_uk": "Унікальне/найвищий ступінь → the.",
+      "examples": [
+        "The moon looked bright tonight.",
+        "What’s the most expensive hotel here?",
+        "She lives on the top floor."
+      ]
+    },
+    {
+      "rule_key": "unit_73_B",
+      "unit_key": "unit_73",
+      "section_path": "B",
+      "title_en": "The vs a/an; special meanings",
+      "rule_text_en": "The can mean a specific thing; a/an means one example. Sometimes the changes the meaning (space vs the space).",
+      "rule_text_uk": "The може означати конкретну річ; a/an — один приклад. Іноді the змінює значення (space vs the space).",
+      "rule_short_en": "The = specific; a/an = one example.",
+      "rule_short_uk": "The = конкретне; a/an = один приклад.",
+      "examples": [
+        "A laptop is a tool; the laptop on the table is mine.",
+        "Space is huge. The space in my bag is small.",
+        "A river is long; the river here is polluted."
+      ]
+    },
+    {
+      "rule_key": "unit_73_C",
+      "unit_key": "unit_73",
+      "section_path": "C",
+      "title_en": "Fixed uses: cinema / radio / internet",
+      "rule_text_en": "We say the cinema/the theatre, the radio, the internet, but we usually say TV (without the).",
+      "rule_text_uk": "Кажемо the cinema/the theatre, the radio, the internet, але зазвичай TV без the.",
+      "rule_short_en": "the cinema; TV (no the).",
+      "rule_short_uk": "the cinema; TV (без the).",
+      "examples": [
+        "We went to the cinema after work.",
+        "I listen to the radio in the car.",
+        "I watch TV most evenings."
+      ]
+    },
+    {
+      "rule_key": "unit_74_A",
+      "unit_key": "unit_74",
+      "section_path": "A",
+      "title_en": "School/university etc. as an activity",
+      "rule_text_en": "Without the: go to school/university etc. when we mean the activity (as a student).",
+      "rule_text_uk": "Без the: go to school/university тощо, коли маємо на увазі процес/роль (як студент).",
+      "rule_short_en": "Activity: go to school (no the).",
+      "rule_short_uk": "Діяльність: go to school (без the).",
+      "examples": [
+        "My son goes to school nearby.",
+        "She is at university now.",
+        "He went to college in Canada."
+      ]
+    },
+    {
+      "rule_key": "unit_74_B",
+      "unit_key": "unit_74",
+      "section_path": "B",
+      "title_en": "The building / a specific place",
+      "rule_text_en": "With the: the school/the university etc. when we mean the building or a particular place.",
+      "rule_text_uk": "З the: the school/the university тощо, коли маємо на увазі будівлю або конкретне місце.",
+      "rule_short_en": "Building: the school.",
+      "rule_short_uk": "Будівля: the school.",
+      "examples": [
+        "I’ll meet you at the school gate.",
+        "The university is closed today.",
+        "She walked past the hospital."
+      ]
+    },
+    {
+      "rule_key": "unit_74_C",
+      "unit_key": "unit_74",
+      "section_path": "C",
+      "title_en": "Home/work/bed (no the in common phrases)",
+      "rule_text_en": "In common expressions we often say go home, be at work, go to bed (no the).",
+      "rule_text_uk": "У сталих виразах часто кажемо go home, be at work, go to bed (без the).",
+      "rule_short_en": "Fixed phrases: go home / to bed.",
+      "rule_short_uk": "Сталi вирази: go home / to bed.",
+      "examples": [
+        "I was tired, so I went to bed early.",
+        "He arrived home late.",
+        "She was at work all day."
+      ]
+    },
+    {
+      "rule_key": "unit_75_A",
+      "unit_key": "unit_75",
+      "section_path": "A",
+      "title_en": "General plural/uncountable: no the",
+      "rule_text_en": "For things/people in general, use plural or uncountable nouns without the.",
+      "rule_text_uk": "Коли говоримо загалом, вживаємо множину або незлічувані іменники без the.",
+      "rule_short_en": "General meaning: no the.",
+      "rule_short_uk": "Загальне значення: без the.",
+      "examples": [
+        "Dogs need exercise.",
+        "Music helps me concentrate.",
+        "Cars are expensive now."
+      ]
+    },
+    {
+      "rule_key": "unit_75_B",
+      "unit_key": "unit_75",
+      "section_path": "B",
+      "title_en": "General category with a description",
+      "rule_text_en": "Even with a description, we can mean a general category: people who…, coffee with milk…, etc. (still no the).",
+      "rule_text_uk": "Навіть з уточненням можна мати на увазі категорію загалом: people who…, coffee with milk… (все ще без the).",
+      "rule_short_en": "Category meaning: usually no the.",
+      "rule_short_uk": "Категорія: зазвичай без the.",
+      "examples": [
+        "I admire people who stay calm.",
+        "I don’t like food with too much salt.",
+        "She avoids drinks with sugar."
+      ]
+    },
+    {
+      "rule_key": "unit_75_C",
+      "unit_key": "unit_75",
+      "section_path": "C",
+      "title_en": "Specific group/thing: the",
+      "rule_text_en": "Use the for a specific group/thing, often with extra information (the people I work with, the coffee we had).",
+      "rule_text_uk": "Вживай the для конкретної групи/речі, часто з уточненням (the people I work with, the coffee we had).",
+      "rule_short_en": "Specific = the.",
+      "rule_short_uk": "Конкретне = the.",
+      "examples": [
+        "I like the people in my class.",
+        "The music you played was great.",
+        "The car we rented was tiny."
+      ]
+    },
+    {
+      "rule_key": "unit_76_A",
+      "unit_key": "unit_76",
+      "section_path": "A",
+      "title_en": "The + singular for a type",
+      "rule_text_en": "We can use the + singular countable noun to talk about a type/species/invention (not one specific example).",
+      "rule_text_uk": "Можна вживати the + злічуваний в однині, щоб говорити про тип/вид/винахід (не про конкретний екземпляр).",
+      "rule_short_en": "The + singular = a type.",
+      "rule_short_uk": "The + однина = тип/вид.",
+      "examples": [
+        "The elephant is a very intelligent animal.",
+        "When was the bicycle invented?",
+        "The smartphone has changed communication."
+      ]
+    },
+    {
+      "rule_key": "unit_76_B",
+      "unit_key": "unit_76",
+      "section_path": "B",
+      "title_en": "Musical instruments",
+      "rule_text_en": "We normally use the with musical instruments: play the guitar/piano/violin etc.",
+      "rule_text_uk": "З музичними інструментами зазвичай вживаємо the: play the guitar/piano/violin тощо.",
+      "rule_short_en": "Instruments: play the …",
+      "rule_short_uk": "Інструменти: play the …",
+      "examples": [
+        "Can you play the piano?",
+        "She’s learning the violin.",
+        "He plays the drums in a band."
+      ]
+    },
+    {
+      "rule_key": "unit_76_C",
+      "unit_key": "unit_76",
+      "section_path": "C",
+      "title_en": "Nationalities: the Swiss, the French",
+      "rule_text_en": "We use the with some nationality words (the Swiss, the Portuguese). With others we use a plural -s (Italians).",
+      "rule_text_uk": "З деякими назвами національностей вживаємо the (the Swiss, the Portuguese). З іншими — множину на -s (Italians).",
+      "rule_short_en": "the Swiss; Italians (no the).",
+      "rule_short_uk": "the Swiss; Italians (без the).",
+      "examples": [
+        "The Swiss are famous for watches.",
+        "Italians love good food.",
+        "The Portuguese speak Portuguese."
+      ]
+    },
+    {
+      "rule_key": "unit_77_A",
+      "unit_key": "unit_77",
+      "section_path": "A",
+      "title_en": "Most place names: no the",
+      "rule_text_en": "We do not use the with most names of continents, countries, cities, islands and mountains.",
+      "rule_text_uk": "З більшістю назв континентів, країн, міст, островів і гір the не вживається.",
+      "rule_short_en": "Most place names: no the.",
+      "rule_short_uk": "Більшість назв: без the.",
+      "examples": [
+        "France is in Europe.",
+        "Tokyo is very busy.",
+        "Everest is the highest mountain."
+      ]
+    },
+    {
+      "rule_key": "unit_77_B",
+      "unit_key": "unit_77",
+      "section_path": "B",
+      "title_en": "The with Republic/Kingdom/States and plural names",
+      "rule_text_en": "We often use the in names with Republic/Kingdom/States etc. and with plural names (the United States, the Netherlands).",
+      "rule_text_uk": "The часто вживається в назвах із Republic/Kingdom/States тощо та з назвами у множині (the United States, the Netherlands).",
+      "rule_short_en": "the United Kingdom / States.",
+      "rule_short_uk": "the United Kingdom / States.",
+      "examples": [
+        "They live in the United States.",
+        "I’d like to visit the Czech Republic.",
+        "The Netherlands is famous for canals."
+      ]
+    },
+    {
+      "rule_key": "unit_77_C",
+      "unit_key": "unit_77",
+      "section_path": "C",
+      "title_en": "North/south: in the south vs northern Spain",
+      "rule_text_en": "We say in the north/south/east/west, but we usually say northern Spain / western Canada (no the).",
+      "rule_text_uk": "Кажемо in the north/south/east/west, але зазвичай northern Spain / western Canada (без the).",
+      "rule_short_en": "in the south; northern Spain.",
+      "rule_short_uk": "in the south; northern Spain.",
+      "examples": [
+        "Spain is in the south of Europe.",
+        "They drove through northern Italy.",
+        "She lives in the west of the country."
+      ]
+    },
+    {
+      "rule_key": "unit_78_A",
+      "unit_key": "unit_78",
+      "section_path": "A",
+      "title_en": "Streets/parks: no the",
+      "rule_text_en": "We usually don’t use the with names of streets, roads, squares and parks (Union Street, Hyde Park).",
+      "rule_text_uk": "З назвами вулиць/доріг/площ/парків зазвичай не вживаємо the (Union Street, Hyde Park).",
+      "rule_short_en": "Union Street, Hyde Park (no the).",
+      "rule_short_uk": "Union Street, Hyde Park (без the).",
+      "examples": [
+        "We met on Baker Street.",
+        "They walked through Hyde Park.",
+        "The hotel is on Fifth Avenue."
+      ]
+    },
+    {
+      "rule_key": "unit_78_B",
+      "unit_key": "unit_78",
+      "section_path": "B",
+      "title_en": "Institutions named with place/person: usually no the",
+      "rule_text_en": "Names like Manchester Airport or Harvard University are usually without the when the first word is a name.",
+      "rule_text_uk": "Назви типу Manchester Airport або Harvard University зазвичай без the, якщо перше слово — назва місця/людини.",
+      "rule_short_en": "Manchester Airport (no the).",
+      "rule_short_uk": "Manchester Airport (без the).",
+      "examples": [
+        "She studies at Oxford University.",
+        "I arrived at Manchester Airport.",
+        "We changed trains at Victoria Station."
+      ]
+    },
+    {
+      "rule_key": "unit_78_C",
+      "unit_key": "unit_78",
+      "section_path": "C",
+      "title_en": "Newspapers/organisations: often the",
+      "rule_text_en": "Many newspapers and organisations use the: the BBC, the European Union, the Red Cross, the Times.",
+      "rule_text_uk": "Багато газет і організацій вживають the: the BBC, the European Union, the Red Cross, the Times.",
+      "rule_short_en": "the BBC / the EU.",
+      "rule_short_uk": "the BBC / the EU.",
+      "examples": [
+        "I read the Financial Times online.",
+        "The BBC reported the story.",
+        "He works for the Red Cross."
+      ]
+    },
+    {
+      "rule_key": "unit_78_D",
+      "unit_key": "unit_78",
+      "section_path": "D",
+      "title_en": "Companies/airlines: usually no the",
+      "rule_text_en": "Company and airline names are usually without the (Sony, IBM, Singapore Airlines).",
+      "rule_text_uk": "Назви компаній і авіаліній зазвичай без the (Sony, IBM, Singapore Airlines).",
+      "rule_short_en": "Sony, IBM (no the).",
+      "rule_short_uk": "Sony, IBM (без the).",
+      "examples": [
+        "IBM released a new product.",
+        "She flew with Singapore Airlines.",
+        "Sony makes cameras too."
+      ]
+    },
+    {
+      "rule_key": "unit_79_A",
+      "unit_key": "unit_79",
+      "section_path": "A",
+      "title_en": "Two-part nouns: plural + pair of",
+      "rule_text_en": "Words like trousers, glasses, scissors are plural and take a plural verb. You can say a pair of trousers/glasses etc.",
+      "rule_text_uk": "Слова trousers, glasses, scissors — множинні й вимагають дієслово в множині. Можна сказати a pair of trousers/glasses тощо.",
+      "rule_short_en": "Trousers are; a pair of trousers.",
+      "rule_short_uk": "Trousers are; a pair of trousers.",
+      "examples": [
+        "My jeans are too tight.",
+        "These scissors are sharp.",
+        "I bought a pair of sunglasses."
+      ]
+    },
+    {
+      "rule_key": "unit_79_B",
+      "unit_key": "unit_79",
+      "section_path": "B",
+      "title_en": "Police = plural",
+      "rule_text_en": "Police is a plural word: The police are … . For one person we say a police officer.",
+      "rule_text_uk": "Police — множинне слово: The police are … . Для однієї людини кажемо a police officer.",
+      "rule_short_en": "Police are (plural).",
+      "rule_short_uk": "Police are (множина).",
+      "examples": [
+        "The police are looking for a witness.",
+        "A police officer helped us.",
+        "The police have arrested someone."
+      ]
+    },
+    {
+      "rule_key": "unit_79_C",
+      "unit_key": "unit_79",
+      "section_path": "C",
+      "title_en": "People vs person",
+      "rule_text_en": "We usually use people as the plural of person (not persons in normal speech).",
+      "rule_text_uk": "Зазвичай множина від person — people (не persons у звичайній мові).",
+      "rule_short_en": "person → people.",
+      "rule_short_uk": "person → people.",
+      "examples": [
+        "He’s a nice person.",
+        "They are nice people.",
+        "Many people travel for work."
+      ]
+    },
+    {
+      "rule_key": "unit_79_D",
+      "unit_key": "unit_79",
+      "section_path": "D",
+      "title_en": "Amounts/time/distance: singular verb",
+      "rule_text_en": "We treat sums of money, time and distance as one thing, so we often use a singular verb: Ten minutes is …",
+      "rule_text_uk": "Суми грошей, час і відстань часто сприймаємо як одне ціле, тому часто вживаємо однину: Ten minutes is …",
+      "rule_short_en": "Ten minutes is …",
+      "rule_short_uk": "Ten minutes is …",
+      "examples": [
+        "Three hours is enough.",
+        "Two miles isn’t far.",
+        "Fifty dollars was stolen."
+      ]
+    },
+    {
+      "rule_key": "unit_80_A",
+      "unit_key": "unit_80",
+      "section_path": "A",
+      "title_en": "Noun + noun compounds",
+      "rule_text_en": "Two nouns can go together to mean one thing (bus driver, city centre). The first noun describes the type.",
+      "rule_text_uk": "Два іменники можуть утворювати одну назву (bus driver, city centre). Перший іменник описує тип.",
+      "rule_short_en": "bus driver = driver of a bus.",
+      "rule_short_uk": "bus driver = водій автобуса.",
+      "examples": [
+        "My brother is a taxi driver.",
+        "The city centre is crowded.",
+        "We pay income tax."
+      ]
+    },
+    {
+      "rule_key": "unit_80_B",
+      "unit_key": "unit_80",
+      "section_path": "B",
+      "title_en": "Place/person as first noun",
+      "rule_text_en": "The first noun can be a place/person: a Paris hotel, a Shakespeare play. It works like an adjective.",
+      "rule_text_uk": "Першим іменником може бути назва місця/людини: a Paris hotel, a Shakespeare play. Він працює як прикметник.",
+      "rule_short_en": "a Paris hotel; a Shakespeare play.",
+      "rule_short_uk": "a Paris hotel; a Shakespeare play.",
+      "examples": [
+        "We stayed in a London hotel.",
+        "I read a detective story.",
+        "She loves a Mozart concert."
+      ]
+    },
+    {
+      "rule_key": "unit_80_C",
+      "unit_key": "unit_80",
+      "section_path": "C",
+      "title_en": "Measurements as adjectives: singular + hyphen",
+      "rule_text_en": "Measurements used as adjectives are singular and often hyphenated: a three-hour journey, a four-week course.",
+      "rule_text_uk": "Міри як прикметники вживаються в однині й часто через дефіс: a three-hour journey, a four-week course.",
+      "rule_short_en": "a four-week course (not weeks).",
+      "rule_short_uk": "a four-week course (не weeks).",
+      "examples": [
+        "It was a ten-mile walk.",
+        "They took a two-week holiday.",
+        "We have a three-hour meeting."
+      ]
+    }
+  ]
+}

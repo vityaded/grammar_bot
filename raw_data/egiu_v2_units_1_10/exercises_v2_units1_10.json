@@ -1,0 +1,4117 @@
+[
+  {
+    "unit_key": "unit_1",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Complete with the present continuous (am/is/are + -ing).",
+    "items": [
+      {
+        "prompt": "(read) I ____ a book right now.",
+        "canonical_answer": "am reading",
+        "accepted_variants": [
+          "Am reading",
+          "am reading",
+          "am reading."
+        ],
+        "rule_keys": [
+          "unit_1_A",
+          "unit_1_B"
+        ]
+      },
+      {
+        "prompt": "(cook) Sarah ____ dinner at the moment.",
+        "canonical_answer": "is cooking",
+        "accepted_variants": [
+          "Is cooking",
+          "is cooking",
+          "is cooking."
+        ],
+        "rule_keys": [
+          "unit_1_A",
+          "unit_1_B"
+        ]
+      },
+      {
+        "prompt": "(rain) It ____ outside.",
+        "canonical_answer": "is raining",
+        "accepted_variants": [
+          "Is raining",
+          "is raining",
+          "is raining."
+        ],
+        "rule_keys": [
+          "unit_1_A",
+          "unit_1_B"
+        ]
+      },
+      {
+        "prompt": "(talk) We ____ on the phone.",
+        "canonical_answer": "are talking",
+        "accepted_variants": [
+          "Are talking",
+          "are talking",
+          "are talking."
+        ],
+        "rule_keys": [
+          "unit_1_A",
+          "unit_1_B"
+        ]
+      },
+      {
+        "prompt": "(work) Tom ____ today.",
+        "canonical_answer": "is working",
+        "accepted_variants": [
+          "Is working",
+          "is working",
+          "is working."
+        ],
+        "rule_keys": [
+          "unit_1_A",
+          "unit_1_B"
+        ]
+      },
+      {
+        "prompt": "(wait) They ____ for the bus.",
+        "canonical_answer": "are waiting",
+        "accepted_variants": [
+          "Are waiting",
+          "are waiting",
+          "are waiting."
+        ],
+        "rule_keys": [
+          "unit_1_A",
+          "unit_1_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_1",
+    "exercise_index": 2,
+    "exercise_type": "mcq",
+    "instruction": "Choose the correct sentence (present continuous for 'now').",
+    "items": [
+      {
+        "prompt": "Choose the best sentence for the situation: A: a woman is driving now.",
+        "canonical_answer": "She is driving to work.",
+        "accepted_variants": [
+          "She is driving to work.",
+          "She is driving to work",
+          "She is driving to work.."
+        ],
+        "options": [
+          "She drives to work.",
+          "She is driving to work.",
+          "She drove to work.",
+          "She has driven to work."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      },
+      {
+        "prompt": "Choose the best sentence for the situation: B: two people are laughing now.",
+        "canonical_answer": "They are laughing.",
+        "accepted_variants": [
+          "They are laughing.",
+          "They are laughing",
+          "They are laughing.."
+        ],
+        "options": [
+          "They laugh a lot.",
+          "They are laughing.",
+          "They laughed.",
+          "They have laughed."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      },
+      {
+        "prompt": "Choose the best sentence for the situation: C: a child is sleeping at the moment.",
+        "canonical_answer": "He is sleeping.",
+        "accepted_variants": [
+          "He is sleeping.",
+          "He is sleeping",
+          "He is sleeping.."
+        ],
+        "options": [
+          "He sleeps.",
+          "He is sleeping.",
+          "He slept.",
+          "He has slept."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      },
+      {
+        "prompt": "Choose the best sentence for the situation: D: I'm on the phone now.",
+        "canonical_answer": "I'm talking on the phone.",
+        "accepted_variants": [
+          "I'm talking on the phone.",
+          "I'm talking on the phone",
+          "I'm talking on the phone.."
+        ],
+        "options": [
+          "I talk on the phone.",
+          "I'm talking on the phone.",
+          "I talked on the phone.",
+          "I've talked on the phone."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      },
+      {
+        "prompt": "Choose the best sentence for the situation: E: it's snowing now.",
+        "canonical_answer": "It's snowing.",
+        "accepted_variants": [
+          "It's snowing.",
+          "It's snowing",
+          "It's snowing.."
+        ],
+        "options": [
+          "It snows.",
+          "It's snowing.",
+          "It snowed.",
+          "It has snowed."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      },
+      {
+        "prompt": "Choose the best sentence for the situation: F: we are having lunch now.",
+        "canonical_answer": "We're having lunch.",
+        "accepted_variants": [
+          "We're having lunch.",
+          "We're having lunch",
+          "We're having lunch.."
+        ],
+        "options": [
+          "We have lunch.",
+          "We're having lunch.",
+          "We had lunch.",
+          "We've had lunch."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      },
+      {
+        "prompt": "Choose the best sentence for the situation: G: she is watching TV now.",
+        "canonical_answer": "She's watching TV.",
+        "accepted_variants": [
+          "She's watching TV.",
+          "She's watching TV",
+          "She's watching TV.."
+        ],
+        "options": [
+          "She watches TV.",
+          "She's watching TV.",
+          "She watched TV.",
+          "She has watched TV."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      },
+      {
+        "prompt": "Choose the best sentence for the situation: H: they are playing now.",
+        "canonical_answer": "They're playing football.",
+        "accepted_variants": [
+          "They're playing football.",
+          "They're playing football",
+          "They're playing football.."
+        ],
+        "options": [
+          "They play football.",
+          "They're playing football.",
+          "They played football.",
+          "They've played football."
+        ],
+        "rule_keys": [
+          "unit_1_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_1",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Write questions in the present continuous.",
+    "items": [
+      {
+        "prompt": "Write the question: You / watch TV now?",
+        "canonical_answer": "Are you watching TV now?",
+        "accepted_variants": [
+          "Are you watching TV now",
+          "Are you watching TV now?",
+          "are you watching TV now?",
+          "Are you watching TV now?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: she / wear a coat today?",
+        "canonical_answer": "Is she wearing a coat today?",
+        "accepted_variants": [
+          "Is she wearing a coat today",
+          "Is she wearing a coat today?",
+          "is she wearing a coat today?",
+          "Is she wearing a coat today?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: they / wait for you?",
+        "canonical_answer": "Are they waiting for you?",
+        "accepted_variants": [
+          "Are they waiting for you",
+          "Are they waiting for you?",
+          "are they waiting for you?",
+          "Are they waiting for you?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: it / rain at the moment?",
+        "canonical_answer": "Is it raining at the moment?",
+        "accepted_variants": [
+          "Is it raining at the moment",
+          "Is it raining at the moment?",
+          "is it raining at the moment?",
+          "Is it raining at the moment?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: what / you / do?",
+        "canonical_answer": "What are you doing?",
+        "accepted_variants": [
+          "What are you doing",
+          "What are you doing?",
+          "what are you doing?",
+          "What are you doing?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: where / he / go?",
+        "canonical_answer": "Where is he going?",
+        "accepted_variants": [
+          "Where is he going",
+          "Where is he going?",
+          "where is he going?",
+          "Where is he going?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: why / they / laugh?",
+        "canonical_answer": "Why are they laughing?",
+        "accepted_variants": [
+          "Why are they laughing",
+          "Why are they laughing?",
+          "why are they laughing?",
+          "Why are they laughing?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: who / you / speak to?",
+        "canonical_answer": "Who are you speaking to?",
+        "accepted_variants": [
+          "Who are you speaking to",
+          "Who are you speaking to?",
+          "who are you speaking to?",
+          "Who are you speaking to?."
+        ],
+        "rule_keys": [
+          "unit_1_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_1",
+    "exercise_index": 4,
+    "exercise_type": "gapfill",
+    "instruction": "Complete with the correct -ing form (watch spelling).",
+    "items": [
+      {
+        "prompt": "(swim) He ____ in the sea.",
+        "canonical_answer": "is swimming",
+        "accepted_variants": [
+          "Is swimming",
+          "is swimming",
+          "is swimming."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(make) She ____ a cake.",
+        "canonical_answer": "is making",
+        "accepted_variants": [
+          "Is making",
+          "is making",
+          "is making."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(run) I ____ fast.",
+        "canonical_answer": "am running",
+        "accepted_variants": [
+          "Am running",
+          "am running",
+          "am running."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(write) They ____ emails.",
+        "canonical_answer": "are writing",
+        "accepted_variants": [
+          "Are writing",
+          "are writing",
+          "are writing."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(sit) The baby ____ on the floor.",
+        "canonical_answer": "is sitting",
+        "accepted_variants": [
+          "Is sitting",
+          "is sitting",
+          "is sitting."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(lie) He ____ on the sofa.",
+        "canonical_answer": "is lying",
+        "accepted_variants": [
+          "Is lying",
+          "is lying",
+          "is lying."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(dance) We ____.",
+        "canonical_answer": "are dancing",
+        "accepted_variants": [
+          "Are dancing",
+          "are dancing",
+          "are dancing."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(stop) The bus ____.",
+        "canonical_answer": "is stopping",
+        "accepted_variants": [
+          "Is stopping",
+          "is stopping",
+          "is stopping."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(plan) I ____ my trip.",
+        "canonical_answer": "am planning",
+        "accepted_variants": [
+          "Am planning",
+          "am planning",
+          "am planning."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(take) She ____ photos.",
+        "canonical_answer": "is taking",
+        "accepted_variants": [
+          "Is taking",
+          "is taking",
+          "is taking."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(come) They ____ home.",
+        "canonical_answer": "are coming",
+        "accepted_variants": [
+          "Are coming",
+          "are coming",
+          "are coming."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(have) I ____ lunch.",
+        "canonical_answer": "am having",
+        "accepted_variants": [
+          "Am having",
+          "am having",
+          "am having."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(study) He ____ for an exam.",
+        "canonical_answer": "is studying",
+        "accepted_variants": [
+          "Is studying",
+          "is studying",
+          "is studying."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      },
+      {
+        "prompt": "(get) We ____ ready.",
+        "canonical_answer": "are getting",
+        "accepted_variants": [
+          "Are getting",
+          "are getting",
+          "are getting."
+        ],
+        "rule_keys": [
+          "unit_1_B",
+          "unit_1_D"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_2",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Complete with the present simple.",
+    "items": [
+      {
+        "prompt": "Complete in the present simple: (drink) I ____ coffee every morning.",
+        "canonical_answer": "drink",
+        "accepted_variants": [
+          "Drink",
+          "drink",
+          "drink."
+        ],
+        "rule_keys": [
+          "unit_2_A",
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete in the present simple: (live) My parents ____ in Lviv.",
+        "canonical_answer": "live",
+        "accepted_variants": [
+          "Live",
+          "live",
+          "live."
+        ],
+        "rule_keys": [
+          "unit_2_A",
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete in the present simple: (work) Sara ____ in a hospital.",
+        "canonical_answer": "works",
+        "accepted_variants": [
+          "Works",
+          "works",
+          "works."
+        ],
+        "rule_keys": [
+          "unit_2_A",
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete in the present simple: (play) We ____ tennis on Fridays.",
+        "canonical_answer": "play",
+        "accepted_variants": [
+          "Play",
+          "play",
+          "play."
+        ],
+        "rule_keys": [
+          "unit_2_A",
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete in the present simple: (teach) Mr Brown ____ maths.",
+        "canonical_answer": "teaches",
+        "accepted_variants": [
+          "Teaches",
+          "teaches",
+          "teaches."
+        ],
+        "rule_keys": [
+          "unit_2_A",
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete in the present simple: (go) The train ____ at 6:30.",
+        "canonical_answer": "goes",
+        "accepted_variants": [
+          "Goes",
+          "goes",
+          "goes."
+        ],
+        "rule_keys": [
+          "unit_2_A",
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete in the present simple: (have) He ____ two brothers.",
+        "canonical_answer": "has",
+        "accepted_variants": [
+          "Has",
+          "has",
+          "has."
+        ],
+        "rule_keys": [
+          "unit_2_A",
+          "unit_2_E"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_2",
+    "exercise_index": 2,
+    "exercise_type": "gapfill",
+    "instruction": "Put the verb in the correct form (he/she/it).",
+    "items": [
+      {
+        "prompt": "Complete (he/she/it): (watch) She ____ TV in the evening.",
+        "canonical_answer": "watches",
+        "accepted_variants": [
+          "Watches",
+          "watches",
+          "watches."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete (he/she/it): (study) He ____ English at night.",
+        "canonical_answer": "studies",
+        "accepted_variants": [
+          "Studies",
+          "studies",
+          "studies."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete (he/she/it): (try) My sister ____ hard.",
+        "canonical_answer": "tries",
+        "accepted_variants": [
+          "Tries",
+          "tries",
+          "tries."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete (he/she/it): (finish) The lesson ____ at 2.",
+        "canonical_answer": "finishes",
+        "accepted_variants": [
+          "Finishes",
+          "finishes",
+          "finishes."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete (he/she/it): (do) He ____ his homework.",
+        "canonical_answer": "does",
+        "accepted_variants": [
+          "Does",
+          "does",
+          "does."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete (he/she/it): (go) She ____ to bed early.",
+        "canonical_answer": "goes",
+        "accepted_variants": [
+          "Goes",
+          "goes",
+          "goes."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete (he/she/it): (kiss) The baby ____ me.",
+        "canonical_answer": "kisses",
+        "accepted_variants": [
+          "Kisses",
+          "kisses",
+          "kisses."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      },
+      {
+        "prompt": "Complete (he/she/it): (carry) Dad ____ the bags.",
+        "canonical_answer": "carries",
+        "accepted_variants": [
+          "Carries",
+          "carries",
+          "carries."
+        ],
+        "rule_keys": [
+          "unit_2_E"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_2",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Write questions with do/does.",
+    "items": [
+      {
+        "prompt": "Write the question: you / like / this music?",
+        "canonical_answer": "Do you like this music?",
+        "accepted_variants": [
+          "Do you like this music",
+          "Do you like this music?",
+          "do you like this music?",
+          "Do you like this music?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: your friends / live / nearby?",
+        "canonical_answer": "Do your friends live nearby?",
+        "accepted_variants": [
+          "Do your friends live nearby",
+          "Do your friends live nearby?",
+          "do your friends live nearby?",
+          "Do your friends live nearby?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: he / work / on Saturdays?",
+        "canonical_answer": "Does he work on Saturdays?",
+        "accepted_variants": [
+          "Does he work on Saturdays",
+          "Does he work on Saturdays?",
+          "does he work on Saturdays?",
+          "Does he work on Saturdays?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: she / speak / German?",
+        "canonical_answer": "Does she speak German?",
+        "accepted_variants": [
+          "Does she speak German",
+          "Does she speak German?",
+          "does she speak German?",
+          "Does she speak German?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: they / play / football?",
+        "canonical_answer": "Do they play football?",
+        "accepted_variants": [
+          "Do they play football",
+          "Do they play football?",
+          "do they play football?",
+          "Do they play football?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: what / you / do / after class?",
+        "canonical_answer": "What do you do after class?",
+        "accepted_variants": [
+          "What do you do after class",
+          "What do you do after class?",
+          "what do you do after class?",
+          "What do you do after class?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: where / she / go / on holiday?",
+        "canonical_answer": "Where does she go on holiday?",
+        "accepted_variants": [
+          "Where does she go on holiday",
+          "Where does she go on holiday?",
+          "where does she go on holiday?",
+          "Where does she go on holiday?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: how often / he / watch TV?",
+        "canonical_answer": "How often does he watch TV?",
+        "accepted_variants": [
+          "How often does he watch TV",
+          "How often does he watch TV?",
+          "how often does he watch TV?",
+          "How often does he watch TV?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      },
+      {
+        "prompt": "Write the question: why / they / laugh?",
+        "canonical_answer": "Why do they laugh?",
+        "accepted_variants": [
+          "Why do they laugh",
+          "Why do they laugh?",
+          "why do they laugh?",
+          "Why do they laugh?."
+        ],
+        "rule_keys": [
+          "unit_2_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_2",
+    "exercise_index": 4,
+    "exercise_type": "gapfill",
+    "instruction": "Complete the sentences (don't/doesn't).",
+    "items": [
+      {
+        "prompt": "Complete the negative: I ____ (not / understand) this word.",
+        "canonical_answer": "don't understand",
+        "accepted_variants": [
+          "Don't understand",
+          "don't understand",
+          "do not understand",
+          "don't understand."
+        ],
+        "rule_keys": [
+          "unit_2_C"
+        ]
+      },
+      {
+        "prompt": "Complete the negative: She ____ (not / like) coffee.",
+        "canonical_answer": "doesn't like",
+        "accepted_variants": [
+          "Doesn't like",
+          "doesn't like",
+          "does not like",
+          "doesn't like."
+        ],
+        "rule_keys": [
+          "unit_2_C"
+        ]
+      },
+      {
+        "prompt": "Complete the negative: They ____ (not / live) here.",
+        "canonical_answer": "don't live",
+        "accepted_variants": [
+          "Don't live",
+          "don't live",
+          "do not live",
+          "don't live."
+        ],
+        "rule_keys": [
+          "unit_2_C"
+        ]
+      },
+      {
+        "prompt": "Complete the negative: He ____ (not / drive).",
+        "canonical_answer": "doesn't drive",
+        "accepted_variants": [
+          "Doesn't drive",
+          "doesn't drive",
+          "does not drive",
+          "doesn't drive."
+        ],
+        "rule_keys": [
+          "unit_2_C"
+        ]
+      },
+      {
+        "prompt": "Complete the negative: We ____ (not / have) much time.",
+        "canonical_answer": "don't have",
+        "accepted_variants": [
+          "Don't have",
+          "don't have",
+          "do not have",
+          "don't have."
+        ],
+        "rule_keys": [
+          "unit_2_C"
+        ]
+      },
+      {
+        "prompt": "Complete the negative: It ____ (not / work).",
+        "canonical_answer": "doesn't work",
+        "accepted_variants": [
+          "Doesn't work",
+          "doesn't work",
+          "does not work",
+          "doesn't work."
+        ],
+        "rule_keys": [
+          "unit_2_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_2",
+    "exercise_index": 5,
+    "exercise_type": "free_text",
+    "instruction": "Write short answers.",
+    "items": [
+      {
+        "prompt": "Write the short answer: Do you work on Sundays? (No)",
+        "canonical_answer": "No, I don't.",
+        "accepted_variants": [
+          "No, I don't",
+          "No, I don't.",
+          "no, I don't.",
+          "No, I do not."
+        ],
+        "rule_keys": [
+          "unit_2_D"
+        ]
+      },
+      {
+        "prompt": "Write the short answer: Does he like jazz? (Yes)",
+        "canonical_answer": "Yes, he does.",
+        "accepted_variants": [
+          "Yes, he does",
+          "Yes, he does.",
+          "yes, he does."
+        ],
+        "rule_keys": [
+          "unit_2_D"
+        ]
+      },
+      {
+        "prompt": "Write the short answer: Do they know your sister? (No)",
+        "canonical_answer": "No, they don't.",
+        "accepted_variants": [
+          "No, they don't",
+          "No, they don't.",
+          "no, they don't.",
+          "No, they do not."
+        ],
+        "rule_keys": [
+          "unit_2_D"
+        ]
+      },
+      {
+        "prompt": "Write the short answer: Does Maria drive? (No)",
+        "canonical_answer": "No, she doesn't.",
+        "accepted_variants": [
+          "No, she doesn't",
+          "No, she doesn't.",
+          "no, she doesn't.",
+          "No, she does not."
+        ],
+        "rule_keys": [
+          "unit_2_D"
+        ]
+      },
+      {
+        "prompt": "Write the short answer: Do we need tickets? (Yes)",
+        "canonical_answer": "Yes, we do.",
+        "accepted_variants": [
+          "Yes, we do",
+          "Yes, we do.",
+          "yes, we do."
+        ],
+        "rule_keys": [
+          "unit_2_D"
+        ]
+      },
+      {
+        "prompt": "Write the short answer: Does it rain a lot here? (Yes)",
+        "canonical_answer": "Yes, it does.",
+        "accepted_variants": [
+          "Yes, it does",
+          "Yes, it does.",
+          "yes, it does."
+        ],
+        "rule_keys": [
+          "unit_2_D"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_3",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Put the verb in the present simple or present continuous.",
+    "items": [
+      {
+        "prompt": "Complete (present simple or continuous): (go) Look! The bus ____ (come).",
+        "canonical_answer": "is coming",
+        "accepted_variants": [
+          "Is coming",
+          "is coming",
+          "is coming."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (work) My brother ____ in a bank.",
+        "canonical_answer": "works",
+        "accepted_variants": [
+          "Works",
+          "works",
+          "works."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (wear) Jane ____ a red dress today.",
+        "canonical_answer": "is wearing",
+        "accepted_variants": [
+          "Is wearing",
+          "is wearing",
+          "is wearing."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (drink) I usually ____ tea.",
+        "canonical_answer": "drink",
+        "accepted_variants": [
+          "Drink",
+          "drink",
+          "drink."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (watch) Shh! We ____ a film.",
+        "canonical_answer": "are watching",
+        "accepted_variants": [
+          "Are watching",
+          "are watching",
+          "are watching."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (play) He ____ football every weekend.",
+        "canonical_answer": "plays",
+        "accepted_variants": [
+          "Plays",
+          "plays",
+          "plays."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (rain) It ____ again. Take an umbrella.",
+        "canonical_answer": "is raining",
+        "accepted_variants": [
+          "Is raining",
+          "is raining",
+          "is raining."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (speak) She ____ three languages.",
+        "canonical_answer": "speaks",
+        "accepted_variants": [
+          "Speaks",
+          "speaks",
+          "speaks."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (wait) I ____ for the doctor at the moment.",
+        "canonical_answer": "am waiting",
+        "accepted_variants": [
+          "Am waiting",
+          "am waiting",
+          "am waiting."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (have) We ____ lunch now.",
+        "canonical_answer": "are having",
+        "accepted_variants": [
+          "Are having",
+          "are having",
+          "are having."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (read) He ____ the newspaper every day.",
+        "canonical_answer": "reads",
+        "accepted_variants": [
+          "Reads",
+          "reads",
+          "reads."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete (present simple or continuous): (study) They ____ for exams this week.",
+        "canonical_answer": "are studying",
+        "accepted_variants": [
+          "Are studying",
+          "are studying",
+          "are studying."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_3",
+    "exercise_index": 2,
+    "exercise_type": "gapfill",
+    "instruction": "Complete with the correct form (now vs usually).",
+    "items": [
+      {
+        "prompt": "Now: (cook) She ____ dinner.",
+        "canonical_answer": "is cooking",
+        "accepted_variants": [
+          "Is cooking",
+          "is cooking",
+          "is cooking."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Usually: She ____ dinner every day.",
+        "canonical_answer": "cooks",
+        "accepted_variants": [
+          "Cooks",
+          "cooks",
+          "cooks."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Now: (listen) I ____ to music.",
+        "canonical_answer": "am listening",
+        "accepted_variants": [
+          "Am listening",
+          "am listening",
+          "am listening."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Usually: I ____ to music on the bus.",
+        "canonical_answer": "listen",
+        "accepted_variants": [
+          "Listen",
+          "listen",
+          "listen."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Now: (wear) He ____ a suit.",
+        "canonical_answer": "is wearing",
+        "accepted_variants": [
+          "Is wearing",
+          "is wearing",
+          "is wearing."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Usually: He ____ jeans at work.",
+        "canonical_answer": "wears",
+        "accepted_variants": [
+          "Wears",
+          "wears",
+          "wears."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Now: (sit) They ____ in the garden.",
+        "canonical_answer": "are sitting",
+        "accepted_variants": [
+          "Are sitting",
+          "are sitting",
+          "are sitting."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Usually: They ____ in the kitchen.",
+        "canonical_answer": "sit",
+        "accepted_variants": [
+          "Sit",
+          "sit",
+          "sit."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Now: (work) We ____ hard this month.",
+        "canonical_answer": "are working",
+        "accepted_variants": [
+          "Are working",
+          "are working",
+          "are working."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Usually: We ____ from 9 to 5.",
+        "canonical_answer": "work",
+        "accepted_variants": [
+          "Work",
+          "work",
+          "work."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_3",
+    "exercise_index": 3,
+    "exercise_type": "gapfill",
+    "instruction": "Put the verb in the correct form.",
+    "items": [
+      {
+        "prompt": "Complete: (not / understand) Sorry, I ____ you.",
+        "canonical_answer": "don't understand",
+        "accepted_variants": [
+          "Don't understand",
+          "don't understand",
+          "do not understand",
+          "don't understand."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (not / listen) Please be quiet. I ____.",
+        "canonical_answer": "am not listening",
+        "accepted_variants": [
+          "Am not listening",
+          "am not listening",
+          "I'm not listening",
+          "am not listening."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (want) I ____ a new phone.",
+        "canonical_answer": "want",
+        "accepted_variants": [
+          "Want",
+          "want",
+          "want."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (have) She ____ a shower at the moment.",
+        "canonical_answer": "is having",
+        "accepted_variants": [
+          "Is having",
+          "is having",
+          "is having."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (know) We ____ this place well.",
+        "canonical_answer": "know",
+        "accepted_variants": [
+          "Know",
+          "know",
+          "know."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (go) They ____ to the gym on Tuesdays.",
+        "canonical_answer": "go",
+        "accepted_variants": [
+          "Go",
+          "go",
+          "go."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (think) I ____ it's a good idea.",
+        "canonical_answer": "think",
+        "accepted_variants": [
+          "Think",
+          "think",
+          "think."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (think) Wait, I ____ about it now.",
+        "canonical_answer": "am thinking",
+        "accepted_variants": [
+          "Am thinking",
+          "am thinking",
+          "am thinking."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (look) He ____ for his keys right now.",
+        "canonical_answer": "is looking",
+        "accepted_variants": [
+          "Is looking",
+          "is looking",
+          "is looking."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (look) He ____ tired these days.",
+        "canonical_answer": "looks",
+        "accepted_variants": [
+          "Looks",
+          "looks",
+          "looks."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (not / work) I ____ today.",
+        "canonical_answer": "am not working",
+        "accepted_variants": [
+          "Am not working",
+          "am not working",
+          "I'm not working",
+          "am not working."
+        ],
+        "rule_keys": [
+          "unit_3_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (not / drink) He ____ coffee.",
+        "canonical_answer": "doesn't drink",
+        "accepted_variants": [
+          "Doesn't drink",
+          "doesn't drink",
+          "does not drink",
+          "doesn't drink."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_3",
+    "exercise_index": 4,
+    "exercise_type": "free_text",
+    "instruction": "Correct the sentences (use the right tense).",
+    "items": [
+      {
+        "prompt": "Correct the sentence: 'I'm knowing the answer.'",
+        "canonical_answer": "I know the answer.",
+        "accepted_variants": [
+          "I know the answer",
+          "I know the answer.",
+          "i know the answer."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Correct the sentence: 'She is liking this song.'",
+        "canonical_answer": "She likes this song.",
+        "accepted_variants": [
+          "She likes this song",
+          "She likes this song.",
+          "she likes this song."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Correct the sentence: 'We are needing some help.'",
+        "canonical_answer": "We need some help.",
+        "accepted_variants": [
+          "We need some help",
+          "We need some help.",
+          "we need some help."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      },
+      {
+        "prompt": "Correct the sentence: 'He is understanding everything.'",
+        "canonical_answer": "He understands everything.",
+        "accepted_variants": [
+          "He understands everything",
+          "He understands everything.",
+          "he understands everything."
+        ],
+        "rule_keys": [
+          "unit_3_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_4",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Put the verb in the present simple or present continuous.",
+    "items": [
+      {
+        "prompt": "Complete: (start) I ____ work at 8 every day.",
+        "canonical_answer": "start",
+        "accepted_variants": [
+          "Start",
+          "start",
+          "start."
+        ],
+        "rule_keys": [
+          "unit_4_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (start) This week I ____ work at 7.",
+        "canonical_answer": "am starting",
+        "accepted_variants": [
+          "Am starting",
+          "am starting",
+          "am starting."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (get) He usually ____ up early.",
+        "canonical_answer": "gets",
+        "accepted_variants": [
+          "Gets",
+          "gets",
+          "gets."
+        ],
+        "rule_keys": [
+          "unit_4_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (get) He ____ up later these days.",
+        "canonical_answer": "is getting",
+        "accepted_variants": [
+          "Is getting",
+          "is getting",
+          "is getting."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (watch) She ____ TV every evening.",
+        "canonical_answer": "watches",
+        "accepted_variants": [
+          "Watches",
+          "watches",
+          "watches."
+        ],
+        "rule_keys": [
+          "unit_4_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (watch) She ____ less TV these days.",
+        "canonical_answer": "is watching",
+        "accepted_variants": [
+          "Is watching",
+          "is watching",
+          "is watching."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (always / lose) He ____ his wallet!",
+        "canonical_answer": "is always losing",
+        "accepted_variants": [
+          "Is always losing",
+          "is always losing",
+          "is always losing."
+        ],
+        "rule_keys": [
+          "unit_4_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (always / ask) You ____ the same question!",
+        "canonical_answer": "are always asking",
+        "accepted_variants": [
+          "Are always asking",
+          "are always asking",
+          "are always asking."
+        ],
+        "rule_keys": [
+          "unit_4_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (not / believe) I ____ it.",
+        "canonical_answer": "don't believe",
+        "accepted_variants": [
+          "Don't believe",
+          "don't believe",
+          "do not believe",
+          "don't believe."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      },
+      {
+        "prompt": "Complete: (not / understand) I ____ what you mean.",
+        "canonical_answer": "don't understand",
+        "accepted_variants": [
+          "Don't understand",
+          "don't understand",
+          "do not understand",
+          "don't understand."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      },
+      {
+        "prompt": "Complete: (think) I ____ you're right.",
+        "canonical_answer": "think",
+        "accepted_variants": [
+          "Think",
+          "think",
+          "think."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      },
+      {
+        "prompt": "Complete: (think) Wait, I ____ about it.",
+        "canonical_answer": "am thinking",
+        "accepted_variants": [
+          "Am thinking",
+          "am thinking",
+          "am thinking."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_4",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Write sentences in the present continuous.",
+    "items": [
+      {
+        "prompt": "A girl is on a phone right now. Use (talk).",
+        "canonical_answer": "She is talking on the phone.",
+        "accepted_variants": [
+          "She is talking on the phone",
+          "She's talking on the phone.",
+          "She is talking on the phone.",
+          "she is talking on the phone."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Two people are in a café now. Use (have) + lunch.",
+        "canonical_answer": "They are having lunch.",
+        "accepted_variants": [
+          "They are having lunch",
+          "They're having lunch.",
+          "They are having lunch.",
+          "they are having lunch."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "A man is in the kitchen now. Use (cook).",
+        "canonical_answer": "He is cooking.",
+        "accepted_variants": [
+          "He is cooking",
+          "He's cooking.",
+          "He is cooking.",
+          "he is cooking."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "A child is in bed now. Use (sleep).",
+        "canonical_answer": "He is sleeping.",
+        "accepted_variants": [
+          "He is sleeping",
+          "He's sleeping.",
+          "He is sleeping.",
+          "he is sleeping."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "It is night and it is snowing. Use (snow).",
+        "canonical_answer": "It's snowing.",
+        "accepted_variants": [
+          "It's snowing",
+          "It's snowing.",
+          "it's snowing.",
+          "It is snowing."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "A woman is in a pool now. Use (swim).",
+        "canonical_answer": "She is swimming.",
+        "accepted_variants": [
+          "She is swimming",
+          "She's swimming.",
+          "She is swimming.",
+          "she is swimming."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_4",
+    "exercise_index": 3,
+    "exercise_type": "gapfill",
+    "instruction": "Complete each sentence with the correct form.",
+    "items": [
+      {
+        "prompt": "Complete: (not / drink) I ____ coffee. I prefer tea.",
+        "canonical_answer": "don't drink",
+        "accepted_variants": [
+          "Don't drink",
+          "don't drink",
+          "do not drink",
+          "don't drink."
+        ],
+        "rule_keys": [
+          "unit_4_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (not / drink) I'm on a diet, so I ____ coffee these days.",
+        "canonical_answer": "am not drinking",
+        "accepted_variants": [
+          "Am not drinking",
+          "am not drinking",
+          "I'm not drinking",
+          "am not drinking."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (work) He ____ as a driver.",
+        "canonical_answer": "works",
+        "accepted_variants": [
+          "Works",
+          "works",
+          "works."
+        ],
+        "rule_keys": [
+          "unit_4_B"
+        ]
+      },
+      {
+        "prompt": "Complete: (work) He ____ a lot this week.",
+        "canonical_answer": "is working",
+        "accepted_variants": [
+          "Is working",
+          "is working",
+          "is working."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (look) You ____ happy today!",
+        "canonical_answer": "look",
+        "accepted_variants": [
+          "Look",
+          "look",
+          "look."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      },
+      {
+        "prompt": "Complete: (look) He ____ for his glasses.",
+        "canonical_answer": "is looking",
+        "accepted_variants": [
+          "Is looking",
+          "is looking",
+          "is looking."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (have) She ____ three sisters.",
+        "canonical_answer": "has",
+        "accepted_variants": [
+          "Has",
+          "has",
+          "has."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_4",
+    "exercise_index": 4,
+    "exercise_type": "gapfill",
+    "instruction": "Put the verb in the correct form.",
+    "items": [
+      {
+        "prompt": "Complete: (not / understand) I ____ what you mean.",
+        "canonical_answer": "don't understand",
+        "accepted_variants": [
+          "Don't understand",
+          "don't understand",
+          "do not understand",
+          "don't understand."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      },
+      {
+        "prompt": "Complete: (like) I ____ this music.",
+        "canonical_answer": "like",
+        "accepted_variants": [
+          "Like",
+          "like",
+          "like."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      },
+      {
+        "prompt": "Complete: (think) I ____ it's a good plan.",
+        "canonical_answer": "think",
+        "accepted_variants": [
+          "Think",
+          "think",
+          "think."
+        ],
+        "rule_keys": [
+          "unit_4_D"
+        ]
+      },
+      {
+        "prompt": "Complete: (think) I'm tired. I ____ about going to bed.",
+        "canonical_answer": "am thinking",
+        "accepted_variants": [
+          "Am thinking",
+          "am thinking",
+          "am thinking."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (meet) We ____ the manager this afternoon.",
+        "canonical_answer": "are meeting",
+        "accepted_variants": [
+          "Are meeting",
+          "are meeting",
+          "are meeting."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (look) He ____ at his phone right now.",
+        "canonical_answer": "is looking",
+        "accepted_variants": [
+          "Is looking",
+          "is looking",
+          "is looking."
+        ],
+        "rule_keys": [
+          "unit_4_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_5",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Complete the sentences in the past simple.",
+    "items": [
+      {
+        "prompt": "Complete in the past simple: (go) Yesterday I ____ to the cinema.",
+        "canonical_answer": "went",
+        "accepted_variants": [
+          "Went",
+          "went",
+          "went."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (buy) She ____ a new jacket.",
+        "canonical_answer": "bought",
+        "accepted_variants": [
+          "Bought",
+          "bought",
+          "bought."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (see) We ____ Tom last week.",
+        "canonical_answer": "saw",
+        "accepted_variants": [
+          "Saw",
+          "saw",
+          "saw."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (play) They ____ football on Saturday.",
+        "canonical_answer": "played",
+        "accepted_variants": [
+          "Played",
+          "played",
+          "played."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (have) I ____ breakfast at 7.",
+        "canonical_answer": "had",
+        "accepted_variants": [
+          "Had",
+          "had",
+          "had."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (take) He ____ a taxi home.",
+        "canonical_answer": "took",
+        "accepted_variants": [
+          "Took",
+          "took",
+          "took."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (meet) I ____ my teacher yesterday.",
+        "canonical_answer": "met",
+        "accepted_variants": [
+          "Met",
+          "met",
+          "met."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (lose) She ____ her phone.",
+        "canonical_answer": "lost",
+        "accepted_variants": [
+          "Lost",
+          "lost",
+          "lost."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (finish) We ____ the test early.",
+        "canonical_answer": "finished",
+        "accepted_variants": [
+          "Finished",
+          "finished",
+          "finished."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (write) He ____ a long email.",
+        "canonical_answer": "wrote",
+        "accepted_variants": [
+          "Wrote",
+          "wrote",
+          "wrote."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (get) They ____ to the airport late.",
+        "canonical_answer": "got",
+        "accepted_variants": [
+          "Got",
+          "got",
+          "got."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      },
+      {
+        "prompt": "Complete in the past simple: (leave) I ____ the keys at home.",
+        "canonical_answer": "left",
+        "accepted_variants": [
+          "Left",
+          "left",
+          "left."
+        ],
+        "rule_keys": [
+          "unit_5_A",
+          "unit_5_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_5",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Complete with the past simple forms.",
+    "items": [
+      {
+        "prompt": "Write the two verbs (past simple): Yesterday I ____ (go) shopping and ____ (buy) some fruit.",
+        "canonical_answer": "went; bought",
+        "accepted_variants": [
+          "went; bought",
+          "went and bought",
+          "went, bought",
+          "went / bought"
+        ],
+        "rule_keys": [
+          "unit_5_B",
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs (past simple): I ____ (see) Anna and we ____ (have) coffee together.",
+        "canonical_answer": "saw; had",
+        "accepted_variants": [
+          "saw; had",
+          "saw and had",
+          "saw, had",
+          "saw / had"
+        ],
+        "rule_keys": [
+          "unit_5_B",
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs (past simple): On the way home I ____ (meet) Tom, so we ____ (talk) for a while.",
+        "canonical_answer": "met; talked",
+        "accepted_variants": [
+          "met; talked",
+          "met and talked",
+          "met, talked",
+          "met / talked"
+        ],
+        "rule_keys": [
+          "unit_5_B",
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs (past simple): I ____ (lose) my ticket and ____ (have) to buy another one.",
+        "canonical_answer": "lost; had",
+        "accepted_variants": [
+          "lost; had",
+          "lost and had",
+          "lost, had",
+          "lost / had"
+        ],
+        "rule_keys": [
+          "unit_5_B",
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs (past simple): I ____ (try) to call you, but I ____ (not / have) your number.",
+        "canonical_answer": "tried; didn't have",
+        "accepted_variants": [
+          "tried; didn't have",
+          "tried and didn't have",
+          "tried, didn't have",
+          "tried / didn't have"
+        ],
+        "rule_keys": [
+          "unit_5_B",
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs (past simple): In the evening we ____ (watch) a film and ____ (go) to bed early.",
+        "canonical_answer": "watched; went",
+        "accepted_variants": [
+          "watched; went",
+          "watched and went",
+          "watched, went",
+          "watched / went"
+        ],
+        "rule_keys": [
+          "unit_5_B",
+          "unit_5_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_5",
+    "exercise_index": 3,
+    "exercise_type": "free_text",
+    "instruction": "Write questions with did.",
+    "items": [
+      {
+        "prompt": "Write the question: you / go out / last night?",
+        "canonical_answer": "Did you go out last night?",
+        "accepted_variants": [
+          "Did you go out last night",
+          "Did you go out last night?",
+          "did you go out last night?",
+          "Did you go out last night?."
+        ],
+        "rule_keys": [
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: what / you / do / yesterday?",
+        "canonical_answer": "What did you do yesterday?",
+        "accepted_variants": [
+          "What did you do yesterday",
+          "What did you do yesterday?",
+          "what did you do yesterday?",
+          "What did you do yesterday?."
+        ],
+        "rule_keys": [
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: where / she / buy / that bag?",
+        "canonical_answer": "Where did she buy that bag?",
+        "accepted_variants": [
+          "Where did she buy that bag",
+          "Where did she buy that bag?",
+          "where did she buy that bag?",
+          "Where did she buy that bag?."
+        ],
+        "rule_keys": [
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: they / arrive / on time?",
+        "canonical_answer": "Did they arrive on time?",
+        "accepted_variants": [
+          "Did they arrive on time",
+          "Did they arrive on time?",
+          "did they arrive on time?",
+          "Did they arrive on time?."
+        ],
+        "rule_keys": [
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: why / he / leave / early?",
+        "canonical_answer": "Why did he leave early?",
+        "accepted_variants": [
+          "Why did he leave early",
+          "Why did he leave early?",
+          "why did he leave early?",
+          "Why did he leave early?."
+        ],
+        "rule_keys": [
+          "unit_5_C"
+        ]
+      },
+      {
+        "prompt": "Write the question: when / you / see / him?",
+        "canonical_answer": "When did you see him?",
+        "accepted_variants": [
+          "When did you see him",
+          "When did you see him?",
+          "when did you see him?",
+          "When did you see him?."
+        ],
+        "rule_keys": [
+          "unit_5_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_5",
+    "exercise_index": 4,
+    "exercise_type": "gapfill",
+    "instruction": "Complete using the past simple.",
+    "items": [
+      {
+        "prompt": "Complete: I ____ (not / see) you yesterday.",
+        "canonical_answer": "didn't see",
+        "accepted_variants": [
+          "Didn't see",
+          "didn't see",
+          "did not see",
+          "didn't see."
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: She ____ (not / go) to work last Monday.",
+        "canonical_answer": "didn't go",
+        "accepted_variants": [
+          "Didn't go",
+          "didn't go",
+          "did not go",
+          "didn't go."
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: ____ you ____ (call) me last night?",
+        "canonical_answer": "Did; call",
+        "accepted_variants": [
+          "Did; call",
+          "Did call",
+          "Did  call"
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: What time ____ they ____ (arrive)?",
+        "canonical_answer": "did; arrive",
+        "accepted_variants": [
+          "did; arrive",
+          "did arrive",
+          "did  arrive"
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: We ____ (stay) at home two days ago.",
+        "canonical_answer": "stayed",
+        "accepted_variants": [
+          "Stayed",
+          "stayed",
+          "stayed."
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: He ____ (not / buy) anything.",
+        "canonical_answer": "didn't buy",
+        "accepted_variants": [
+          "Didn't buy",
+          "didn't buy",
+          "did not buy",
+          "didn't buy."
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: Where ____ you ____ (leave) your phone?",
+        "canonical_answer": "did; leave",
+        "accepted_variants": [
+          "did; leave",
+          "did leave",
+          "did  leave"
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: They ____ (finish) the job last week.",
+        "canonical_answer": "finished",
+        "accepted_variants": [
+          "Finished",
+          "finished",
+          "finished."
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: I ____ (meet) him in 2021.",
+        "canonical_answer": "met",
+        "accepted_variants": [
+          "Met",
+          "met",
+          "met."
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      },
+      {
+        "prompt": "Complete: She ____ (not / have) time.",
+        "canonical_answer": "didn't have",
+        "accepted_variants": [
+          "Didn't have",
+          "didn't have",
+          "did not have",
+          "didn't have."
+        ],
+        "rule_keys": [
+          "unit_5_C",
+          "unit_5_D"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_6",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Put the verb in the past continuous (was/were + -ing).",
+    "items": [
+      {
+        "prompt": "Complete with past continuous: At 7 o'clock yesterday I ____ (have) dinner.",
+        "canonical_answer": "was having",
+        "accepted_variants": [
+          "Was having",
+          "was having",
+          "was having."
+        ],
+        "rule_keys": [
+          "unit_6_A"
+        ]
+      },
+      {
+        "prompt": "Complete with past continuous: At midnight they ____ (sleep).",
+        "canonical_answer": "were sleeping",
+        "accepted_variants": [
+          "Were sleeping",
+          "were sleeping",
+          "were sleeping."
+        ],
+        "rule_keys": [
+          "unit_6_A"
+        ]
+      },
+      {
+        "prompt": "Complete with past continuous: At this time last week we ____ (travel) in Poland.",
+        "canonical_answer": "were travelling",
+        "accepted_variants": [
+          "Were travelling",
+          "were travelling",
+          "were travelling."
+        ],
+        "rule_keys": [
+          "unit_6_A"
+        ]
+      },
+      {
+        "prompt": "Complete with past continuous: At 9 am she ____ (work).",
+        "canonical_answer": "was working",
+        "accepted_variants": [
+          "Was working",
+          "was working",
+          "was working."
+        ],
+        "rule_keys": [
+          "unit_6_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_6",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Complete with past continuous and past simple.",
+    "items": [
+      {
+        "prompt": "Write the two verbs: I ____ (walk) home when I ____ (see) Tom.",
+        "canonical_answer": "was walking; saw",
+        "accepted_variants": [
+          "was walking; saw",
+          "was walking and saw",
+          "was walking, saw",
+          "was walking / saw"
+        ],
+        "rule_keys": [
+          "unit_6_B",
+          "unit_6_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs: We ____ (watch) TV when the lights ____ (go) out.",
+        "canonical_answer": "were watching; went",
+        "accepted_variants": [
+          "were watching; went",
+          "were watching and went",
+          "were watching, went",
+          "were watching / went"
+        ],
+        "rule_keys": [
+          "unit_6_B",
+          "unit_6_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs: She ____ (drive) when her phone ____ (ring).",
+        "canonical_answer": "was driving; rang",
+        "accepted_variants": [
+          "was driving; rang",
+          "was driving and rang",
+          "was driving, rang",
+          "was driving / rang"
+        ],
+        "rule_keys": [
+          "unit_6_B",
+          "unit_6_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs: They ____ (have) dinner when I ____ (arrive).",
+        "canonical_answer": "were having; arrived",
+        "accepted_variants": [
+          "were having; arrived",
+          "were having and arrived",
+          "were having, arrived",
+          "were having / arrived"
+        ],
+        "rule_keys": [
+          "unit_6_B",
+          "unit_6_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs: While I ____ (cook), he ____ (set) the table.",
+        "canonical_answer": "was cooking; was setting",
+        "accepted_variants": [
+          "was cooking; was setting",
+          "was cooking and was setting",
+          "was cooking, was setting",
+          "was cooking / was setting"
+        ],
+        "rule_keys": [
+          "unit_6_B",
+          "unit_6_C"
+        ]
+      },
+      {
+        "prompt": "Write the two verbs: While it ____ (rain), we ____ (wait) inside.",
+        "canonical_answer": "was raining; were waiting",
+        "accepted_variants": [
+          "was raining; were waiting",
+          "was raining and were waiting",
+          "was raining, were waiting",
+          "was raining / were waiting"
+        ],
+        "rule_keys": [
+          "unit_6_B",
+          "unit_6_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_6",
+    "exercise_index": 3,
+    "exercise_type": "gapfill",
+    "instruction": "Complete with the past continuous.",
+    "items": [
+      {
+        "prompt": "Complete: Sue arrived home at 6. She ____ (cook) when I saw her.",
+        "canonical_answer": "was cooking",
+        "accepted_variants": [
+          "Was cooking",
+          "was cooking",
+          "was cooking."
+        ],
+        "rule_keys": [
+          "unit_6_A"
+        ]
+      },
+      {
+        "prompt": "Complete: At 10 pm, Mark ____ (ride) his bike in the rain.",
+        "canonical_answer": "was riding",
+        "accepted_variants": [
+          "Was riding",
+          "was riding",
+          "was riding."
+        ],
+        "rule_keys": [
+          "unit_6_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_6",
+    "exercise_index": 4,
+    "exercise_type": "gapfill",
+    "instruction": "Choose the correct verb form.",
+    "items": [
+      {
+        "prompt": "Choose the correct form: I ____ (saw / was seeing) Jim yesterday.",
+        "canonical_answer": "saw",
+        "accepted_variants": [
+          "Saw",
+          "saw",
+          "saw."
+        ],
+        "rule_keys": [
+          "unit_6_E"
+        ]
+      },
+      {
+        "prompt": "Choose the correct form: While I ____ (drove / was driving), I listened to music.",
+        "canonical_answer": "was driving",
+        "accepted_variants": [
+          "Was driving",
+          "was driving",
+          "was driving."
+        ],
+        "rule_keys": [
+          "unit_6_B"
+        ]
+      },
+      {
+        "prompt": "Choose the correct form: We ____ (had / were having) a great time when you called.",
+        "canonical_answer": "were having",
+        "accepted_variants": [
+          "Were having",
+          "were having",
+          "were having."
+        ],
+        "rule_keys": [
+          "unit_6_B"
+        ]
+      },
+      {
+        "prompt": "Choose the correct form: He ____ (fell / was falling) and hurt his arm.",
+        "canonical_answer": "fell",
+        "accepted_variants": [
+          "Fell",
+          "fell",
+          "fell."
+        ],
+        "rule_keys": [
+          "unit_6_E"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_7",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Complete with have/has + past participle.",
+    "items": [
+      {
+        "prompt": "Complete with the present perfect: (break) She ____ her phone.",
+        "canonical_answer": "has broken",
+        "accepted_variants": [
+          "Has broken",
+          "has broken",
+          "has broken."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      },
+      {
+        "prompt": "Complete with the present perfect: (lose) I ____ my keys.",
+        "canonical_answer": "have lost",
+        "accepted_variants": [
+          "Have lost",
+          "have lost",
+          "have lost."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      },
+      {
+        "prompt": "Complete with the present perfect: (finish) We ____ the work.",
+        "canonical_answer": "have finished",
+        "accepted_variants": [
+          "Have finished",
+          "have finished",
+          "have finished."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      },
+      {
+        "prompt": "Complete with the present perfect: (buy) He ____ a new car.",
+        "canonical_answer": "has bought",
+        "accepted_variants": [
+          "Has bought",
+          "has bought",
+          "has bought."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      },
+      {
+        "prompt": "Complete with the present perfect: (find) They ____ a hotel.",
+        "canonical_answer": "have found",
+        "accepted_variants": [
+          "Have found",
+          "have found",
+          "have found."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      },
+      {
+        "prompt": "Complete with the present perfect: (forget) She ____ your name.",
+        "canonical_answer": "has forgotten",
+        "accepted_variants": [
+          "Has forgotten",
+          "has forgotten",
+          "has forgotten."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      },
+      {
+        "prompt": "Complete with the present perfect: (see) I ____ that film.",
+        "canonical_answer": "have seen",
+        "accepted_variants": [
+          "Have seen",
+          "have seen",
+          "have seen."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      },
+      {
+        "prompt": "Complete with the present perfect: (hurt) He ____ his leg.",
+        "canonical_answer": "has hurt",
+        "accepted_variants": [
+          "Has hurt",
+          "has hurt",
+          "has hurt."
+        ],
+        "rule_keys": [
+          "unit_7_A",
+          "unit_7_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_7",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Write the past participle.",
+    "items": [
+      {
+        "prompt": "Write the past participle: go → ____",
+        "canonical_answer": "gone",
+        "accepted_variants": [
+          "Gone",
+          "gone",
+          "gone."
+        ],
+        "rule_keys": [
+          "unit_7_A"
+        ]
+      },
+      {
+        "prompt": "Write the past participle: do → ____",
+        "canonical_answer": "done",
+        "accepted_variants": [
+          "Done",
+          "done",
+          "done."
+        ],
+        "rule_keys": [
+          "unit_7_A"
+        ]
+      },
+      {
+        "prompt": "Write the past participle: see → ____",
+        "canonical_answer": "seen",
+        "accepted_variants": [
+          "Seen",
+          "seen",
+          "seen."
+        ],
+        "rule_keys": [
+          "unit_7_A"
+        ]
+      },
+      {
+        "prompt": "Write the past participle: eat → ____",
+        "canonical_answer": "eaten",
+        "accepted_variants": [
+          "Eaten",
+          "eaten",
+          "eaten."
+        ],
+        "rule_keys": [
+          "unit_7_A"
+        ]
+      },
+      {
+        "prompt": "Write the past participle: write → ____",
+        "canonical_answer": "written",
+        "accepted_variants": [
+          "Written",
+          "written",
+          "written."
+        ],
+        "rule_keys": [
+          "unit_7_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_7",
+    "exercise_index": 3,
+    "exercise_type": "gapfill",
+    "instruction": "Complete using just/already/yet.",
+    "items": [
+      {
+        "prompt": "Complete: I ____ (just / finish) my homework.",
+        "canonical_answer": "have just finished",
+        "accepted_variants": [
+          "Have just finished",
+          "have just finished",
+          "have just finished."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: She ____ (already / leave).",
+        "canonical_answer": "has already left",
+        "accepted_variants": [
+          "Has already left",
+          "has already left",
+          "has already left."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: We ____ (not / eat / yet).",
+        "canonical_answer": "haven't eaten yet",
+        "accepted_variants": [
+          "Haven't eaten yet",
+          "haven't eaten yet",
+          "have not eaten yet",
+          "haven't eaten yet."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: ____ you ____ (yet / book) the tickets?",
+        "canonical_answer": "Have; booked yet",
+        "accepted_variants": [
+          "Have; booked yet",
+          "Have booked yet",
+          "Have  booked yet"
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: They ____ (just / arrive).",
+        "canonical_answer": "have just arrived",
+        "accepted_variants": [
+          "Have just arrived",
+          "have just arrived",
+          "have just arrived."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: He ____ (already / call) me.",
+        "canonical_answer": "has already called",
+        "accepted_variants": [
+          "Has already called",
+          "has already called",
+          "has already called."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: I ____ (not / see / yet) that film.",
+        "canonical_answer": "haven't seen it yet",
+        "accepted_variants": [
+          "Haven't seen it yet",
+          "haven't seen it yet",
+          "have not seen it yet",
+          "haven't seen it yet."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: ____ she ____ (yet / decide)?",
+        "canonical_answer": "Has; decided yet",
+        "accepted_variants": [
+          "Has; decided yet",
+          "Has decided yet",
+          "Has  decided yet"
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: We ____ (just / start).",
+        "canonical_answer": "have just started",
+        "accepted_variants": [
+          "Have just started",
+          "have just started",
+          "have just started."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: They ____ (not / finish / yet).",
+        "canonical_answer": "haven't finished yet",
+        "accepted_variants": [
+          "Haven't finished yet",
+          "haven't finished yet",
+          "have not finished yet",
+          "haven't finished yet."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: I ____ (already / pay).",
+        "canonical_answer": "have already paid",
+        "accepted_variants": [
+          "Have already paid",
+          "have already paid",
+          "have already paid."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Complete: He ____ (just / break) his glasses.",
+        "canonical_answer": "has just broken",
+        "accepted_variants": [
+          "Has just broken",
+          "has just broken",
+          "has just broken."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_7",
+    "exercise_index": 4,
+    "exercise_type": "free_text",
+    "instruction": "Write sentences/questions with ever/never and yet.",
+    "items": [
+      {
+        "prompt": "Write the question with ever: you / be / to Italy?",
+        "canonical_answer": "Have you ever been to Italy?",
+        "accepted_variants": [
+          "Have you ever been to Italy",
+          "Have you ever been to Italy?",
+          "have you ever been to Italy?",
+          "Have you ever been to Italy?."
+        ],
+        "rule_keys": [
+          "unit_7_D"
+        ]
+      },
+      {
+        "prompt": "Write the question with ever: she / try / sushi?",
+        "canonical_answer": "Has she ever tried sushi?",
+        "accepted_variants": [
+          "Has she ever tried sushi",
+          "Has she ever tried sushi?",
+          "has she ever tried sushi?",
+          "Has she ever tried sushi?."
+        ],
+        "rule_keys": [
+          "unit_7_D"
+        ]
+      },
+      {
+        "prompt": "Write the question with ever: they / meet / a celebrity?",
+        "canonical_answer": "Have they ever met a celebrity?",
+        "accepted_variants": [
+          "Have they ever met a celebrity",
+          "Have they ever met a celebrity?",
+          "have they ever met a celebrity?",
+          "Have they ever met a celebrity?."
+        ],
+        "rule_keys": [
+          "unit_7_D"
+        ]
+      },
+      {
+        "prompt": "Make a sentence with never: I / (see) a whale.",
+        "canonical_answer": "I've never seen a whale.",
+        "accepted_variants": [
+          "I've never seen a whale",
+          "I've never seen a whale.",
+          "i've never seen a whale."
+        ],
+        "rule_keys": [
+          "unit_7_D"
+        ]
+      },
+      {
+        "prompt": "Make a sentence with never: he / (ride) a horse.",
+        "canonical_answer": "He's never ridden a horse.",
+        "accepted_variants": [
+          "He's never ridden a horse",
+          "He's never ridden a horse.",
+          "he's never ridden a horse.",
+          "He is never ridden a horse."
+        ],
+        "rule_keys": [
+          "unit_7_D"
+        ]
+      },
+      {
+        "prompt": "Make a sentence: I / (not / be) to London.",
+        "canonical_answer": "I haven't been to London.",
+        "accepted_variants": [
+          "I haven't been to London",
+          "I haven't been to London.",
+          "i haven't been to London.",
+          "I have not been to London."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      },
+      {
+        "prompt": "Make a sentence: she / (not / finish) yet.",
+        "canonical_answer": "She hasn't finished yet.",
+        "accepted_variants": [
+          "She hasn't finished yet",
+          "She hasn't finished yet.",
+          "she hasn't finished yet.",
+          "She has not finished yet."
+        ],
+        "rule_keys": [
+          "unit_7_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_8",
+    "exercise_index": 1,
+    "exercise_type": "free_text",
+    "instruction": "Write questions with Have you ever…?",
+    "items": [
+      {
+        "prompt": "Write a question with ever: you / be / to Paris?",
+        "canonical_answer": "Have you ever been to Paris?",
+        "accepted_variants": [
+          "Have you ever been to Paris",
+          "Have you ever been to Paris?",
+          "have you ever been to Paris?",
+          "Have you ever been to Paris?."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      },
+      {
+        "prompt": "Write a question with ever: you / break / a bone?",
+        "canonical_answer": "Have you ever broken a bone?",
+        "accepted_variants": [
+          "Have you ever broken a bone",
+          "Have you ever broken a bone?",
+          "have you ever broken a bone?",
+          "Have you ever broken a bone?."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      },
+      {
+        "prompt": "Write a question with ever: you / win / a prize?",
+        "canonical_answer": "Have you ever won a prize?",
+        "accepted_variants": [
+          "Have you ever won a prize",
+          "Have you ever won a prize?",
+          "have you ever won a prize?",
+          "Have you ever won a prize?."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      },
+      {
+        "prompt": "Write a question with ever: you / meet / someone famous?",
+        "canonical_answer": "Have you ever met someone famous?",
+        "accepted_variants": [
+          "Have you ever met someone famous",
+          "Have you ever met someone famous?",
+          "have you ever met someone famous?",
+          "Have you ever met someone famous?."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      },
+      {
+        "prompt": "Write a question with ever: you / eat / octopus?",
+        "canonical_answer": "Have you ever eaten octopus?",
+        "accepted_variants": [
+          "Have you ever eaten octopus",
+          "Have you ever eaten octopus?",
+          "have you ever eaten octopus?",
+          "Have you ever eaten octopus?."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_8",
+    "exercise_index": 2,
+    "exercise_type": "gapfill",
+    "instruction": "Complete (present perfect or past simple).",
+    "items": [
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: ____ you ever ____ (be) to Spain? B: Yes, I ____ (go) there in 2018.",
+        "canonical_answer": "Have; been; went",
+        "accepted_variants": [
+          "Have; been; went",
+          "Have been went",
+          "Have  been  went"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: ____ you ____ (see) Anna today? B: Yes, I ____ (see) her this morning.",
+        "canonical_answer": "Have; seen; saw",
+        "accepted_variants": [
+          "Have; seen; saw",
+          "Have seen saw",
+          "Have  seen  saw"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: I ____ (lose) my wallet. B: Where ____ you ____ (lose) it?",
+        "canonical_answer": "have lost; did; lose",
+        "accepted_variants": [
+          "have lost; did; lose",
+          "have lost did lose",
+          "have lost  did  lose"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: ____ you ____ (finish) the report? B: Yes, I ____ (finish) it yesterday.",
+        "canonical_answer": "Have; finished; finished",
+        "accepted_variants": [
+          "Have; finished; finished",
+          "Have finished finished",
+          "Have  finished  finished"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: She ____ (buy) a new car. B: When ____ she ____ (buy) it?",
+        "canonical_answer": "has bought; did; buy",
+        "accepted_variants": [
+          "has bought; did; buy",
+          "has bought did buy",
+          "has bought  did  buy"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: I ____ (not / eat) today. B: What ____ you ____ (have) for breakfast?",
+        "canonical_answer": "haven't eaten; did; have",
+        "accepted_variants": [
+          "haven't eaten; did; have",
+          "haven't eaten did have",
+          "haven't eaten  did  have"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: We ____ (meet) before. B: Really? Where ____ we ____ (meet)?",
+        "canonical_answer": "have met; did; meet",
+        "accepted_variants": [
+          "have met; did; meet",
+          "have met did meet",
+          "have met  did  meet"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: ____ you ____ (hear) the news? B: Yes, I ____ (hear) it last night.",
+        "canonical_answer": "Have; heard; heard",
+        "accepted_variants": [
+          "Have; heard; heard",
+          "Have heard heard",
+          "Have  heard  heard"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: They ____ (go) out. B: What time ____ they ____ (leave)?",
+        "canonical_answer": "have gone; did; leave",
+        "accepted_variants": [
+          "have gone; did; leave",
+          "have gone did leave",
+          "have gone  did  leave"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: I ____ (see) that film. B: When ____ you ____ (see) it?",
+        "canonical_answer": "have seen; did; see",
+        "accepted_variants": [
+          "have seen; did; see",
+          "have seen did see",
+          "have seen  did  see"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "Complete the dialogue (perfect or past simple): A: She ____ (not / call) me. B: Did you ____ (call) her?",
+        "canonical_answer": "hasn't called; call",
+        "accepted_variants": [
+          "hasn't called; call",
+          "hasn't called call",
+          "hasn't called  call"
+        ],
+        "rule_keys": [
+          "unit_8_A",
+          "unit_8_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_8",
+    "exercise_index": 3,
+    "exercise_type": "gapfill",
+    "instruction": "Write sentences in the present perfect.",
+    "items": [
+      {
+        "prompt": "Use the present perfect: (break) My phone ____.",
+        "canonical_answer": "has broken",
+        "accepted_variants": [
+          "Has broken",
+          "has broken",
+          "has broken."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      },
+      {
+        "prompt": "Use the present perfect: (finish) We ____ the test.",
+        "canonical_answer": "have finished",
+        "accepted_variants": [
+          "Have finished",
+          "have finished",
+          "have finished."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      },
+      {
+        "prompt": "Use the present perfect: (lose) She ____ her passport.",
+        "canonical_answer": "has lost",
+        "accepted_variants": [
+          "Has lost",
+          "has lost",
+          "has lost."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      },
+      {
+        "prompt": "Use the present perfect: (buy) They ____ a new sofa.",
+        "canonical_answer": "have bought",
+        "accepted_variants": [
+          "Have bought",
+          "have bought",
+          "have bought."
+        ],
+        "rule_keys": [
+          "unit_8_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_8",
+    "exercise_index": 4,
+    "exercise_type": "free_text",
+    "instruction": "Write two sentences: present perfect (news) + past simple (detail).",
+    "items": [
+      {
+        "prompt": "News + detail: I / buy / a bike (last week).",
+        "canonical_answer": "I've bought a bike. I bought it last week.",
+        "accepted_variants": [
+          "I've bought a bike. I bought it last week",
+          "I've bought a bike. I bought it last week.",
+          "i've bought a bike. I bought it last week."
+        ],
+        "rule_keys": [
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "News + detail: she / meet / the manager (on Monday).",
+        "canonical_answer": "She's met the manager. She met him on Monday.",
+        "accepted_variants": [
+          "She's met the manager. She met him on Monday",
+          "She's met the manager. She met him on Monday.",
+          "she's met the manager. She met him on Monday.",
+          "She is met the manager. She met him on Monday."
+        ],
+        "rule_keys": [
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "News + detail: we / move / house (in 2023).",
+        "canonical_answer": "We've moved house. We moved in 2023.",
+        "accepted_variants": [
+          "We've moved house. We moved in 2023",
+          "We've moved house. We moved in 2023.",
+          "we've moved house. We moved in 2023."
+        ],
+        "rule_keys": [
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "News + detail: they / lose / their dog (yesterday).",
+        "canonical_answer": "They've lost their dog. They lost it yesterday.",
+        "accepted_variants": [
+          "They've lost their dog. They lost it yesterday",
+          "They've lost their dog. They lost it yesterday.",
+          "they've lost their dog. They lost it yesterday."
+        ],
+        "rule_keys": [
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "News + detail: he / start / a new job (two months ago).",
+        "canonical_answer": "He's started a new job. He started two months ago.",
+        "accepted_variants": [
+          "He's started a new job. He started two months ago",
+          "He's started a new job. He started two months ago.",
+          "he's started a new job. He started two months ago.",
+          "He is started a new job. He started two months ago."
+        ],
+        "rule_keys": [
+          "unit_8_C"
+        ]
+      },
+      {
+        "prompt": "News + detail: I / see / that film (last night).",
+        "canonical_answer": "I've seen that film. I saw it last night.",
+        "accepted_variants": [
+          "I've seen that film. I saw it last night",
+          "I've seen that film. I saw it last night.",
+          "i've seen that film. I saw it last night."
+        ],
+        "rule_keys": [
+          "unit_8_C"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_9",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Complete with the present perfect continuous.",
+    "items": [
+      {
+        "prompt": "His hands are dirty. (work) He ____ in the garden.",
+        "canonical_answer": "has been working",
+        "accepted_variants": [
+          "Has been working",
+          "has been working",
+          "has been working."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      },
+      {
+        "prompt": "She is out of breath. (run) She ____.",
+        "canonical_answer": "has been running",
+        "accepted_variants": [
+          "Has been running",
+          "has been running",
+          "has been running."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      },
+      {
+        "prompt": "The floor is wet. (clean) They ____ the floor.",
+        "canonical_answer": "have been cleaning",
+        "accepted_variants": [
+          "Have been cleaning",
+          "have been cleaning",
+          "have been cleaning."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      },
+      {
+        "prompt": "I'm tired. (study) I ____ for hours.",
+        "canonical_answer": "have been studying",
+        "accepted_variants": [
+          "Have been studying",
+          "have been studying",
+          "have been studying."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_9",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Use the present perfect continuous (often with for/since).",
+    "items": [
+      {
+        "prompt": "Complete: I ____ (wait) for 20 minutes.",
+        "canonical_answer": "have been waiting",
+        "accepted_variants": [
+          "Have been waiting",
+          "have been waiting",
+          "have been waiting."
+        ],
+        "rule_keys": [
+          "unit_9_A",
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Complete: She ____ (work) here since May.",
+        "canonical_answer": "has been working",
+        "accepted_variants": [
+          "Has been working",
+          "has been working",
+          "has been working."
+        ],
+        "rule_keys": [
+          "unit_9_A",
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Question: how long / you / learn English?",
+        "canonical_answer": "How long have you been learning English?",
+        "accepted_variants": [
+          "How long have you been learning English",
+          "How long have you been learning English?",
+          "how long have you been learning English?",
+          "How long have you been learning English?."
+        ],
+        "rule_keys": [
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Question: how long / they / live here?",
+        "canonical_answer": "How long have they been living here?",
+        "accepted_variants": [
+          "How long have they been living here",
+          "How long have they been living here?",
+          "how long have they been living here?",
+          "How long have they been living here?."
+        ],
+        "rule_keys": [
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Complete: We ____ (talk) all morning.",
+        "canonical_answer": "have been talking",
+        "accepted_variants": [
+          "Have been talking",
+          "have been talking",
+          "have been talking."
+        ],
+        "rule_keys": [
+          "unit_9_A",
+          "unit_9_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_9",
+    "exercise_index": 3,
+    "exercise_type": "gapfill",
+    "instruction": "Choose for or since.",
+    "items": [
+      {
+        "prompt": "Choose for/since: I've been here ____ 10 minutes.",
+        "canonical_answer": "for",
+        "accepted_variants": [
+          "for",
+          "FOR",
+          "For"
+        ],
+        "rule_keys": [
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Choose for/since: She's been ill ____ Monday.",
+        "canonical_answer": "since",
+        "accepted_variants": [
+          "since",
+          "SINCE",
+          "Since"
+        ],
+        "rule_keys": [
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Choose for/since: They've been married ____ 2015.",
+        "canonical_answer": "since",
+        "accepted_variants": [
+          "since",
+          "SINCE",
+          "Since"
+        ],
+        "rule_keys": [
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Choose for/since: We have been waiting ____ a long time.",
+        "canonical_answer": "for",
+        "accepted_variants": [
+          "for",
+          "FOR",
+          "For"
+        ],
+        "rule_keys": [
+          "unit_9_B"
+        ]
+      },
+      {
+        "prompt": "Choose for/since: He has been working here ____ three years.",
+        "canonical_answer": "for",
+        "accepted_variants": [
+          "for",
+          "FOR",
+          "For"
+        ],
+        "rule_keys": [
+          "unit_9_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_9",
+    "exercise_index": 4,
+    "exercise_type": "gapfill",
+    "instruction": "Choose the correct form (perfect simple or perfect continuous).",
+    "items": [
+      {
+        "prompt": "Complete: (write) I ____ emails all morning. (activity)",
+        "canonical_answer": "have been writing",
+        "accepted_variants": [
+          "Have been writing",
+          "have been writing",
+          "have been writing."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (write) I ____ five emails so far. (result)",
+        "canonical_answer": "have written",
+        "accepted_variants": [
+          "Have written",
+          "have written",
+          "have written."
+        ],
+        "rule_keys": [
+          "unit_9_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (read) She ____ all day. (activity)",
+        "canonical_answer": "has been reading",
+        "accepted_variants": [
+          "Has been reading",
+          "has been reading",
+          "has been reading."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (read) She ____ three chapters. (result)",
+        "canonical_answer": "has read",
+        "accepted_variants": [
+          "Has read",
+          "has read",
+          "has read."
+        ],
+        "rule_keys": [
+          "unit_9_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (paint) They ____ the kitchen. (activity)",
+        "canonical_answer": "have been painting",
+        "accepted_variants": [
+          "Have been painting",
+          "have been painting",
+          "have been painting."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (paint) They ____ the kitchen walls. (result)",
+        "canonical_answer": "have painted",
+        "accepted_variants": [
+          "Have painted",
+          "have painted",
+          "have painted."
+        ],
+        "rule_keys": [
+          "unit_9_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (work) He ____ since 7 am. (duration)",
+        "canonical_answer": "has been working",
+        "accepted_variants": [
+          "Has been working",
+          "has been working",
+          "has been working."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (work) He ____ in this company for years. (state)",
+        "canonical_answer": "has worked",
+        "accepted_variants": [
+          "Has worked",
+          "has worked",
+          "has worked."
+        ],
+        "rule_keys": [
+          "unit_9_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (rain) It ____ for hours.",
+        "canonical_answer": "has been raining",
+        "accepted_variants": [
+          "Has been raining",
+          "has been raining",
+          "has been raining."
+        ],
+        "rule_keys": [
+          "unit_9_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_10",
+    "exercise_index": 1,
+    "exercise_type": "gapfill",
+    "instruction": "Choose the correct form (present perfect simple or continuous).",
+    "items": [
+      {
+        "prompt": "The kitchen is a mess. I ____ (clean).",
+        "canonical_answer": "have been cleaning",
+        "accepted_variants": [
+          "Have been cleaning",
+          "have been cleaning",
+          "have been cleaning."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Now it looks nice. I ____ (clean) the kitchen.",
+        "canonical_answer": "have cleaned",
+        "accepted_variants": [
+          "Have cleaned",
+          "have cleaned",
+          "have cleaned."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "I'm tired. We ____ (walk) for hours.",
+        "canonical_answer": "have been walking",
+        "accepted_variants": [
+          "Have been walking",
+          "have been walking",
+          "have been walking."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "We ____ (walk) 10 kilometres today.",
+        "canonical_answer": "have walked",
+        "accepted_variants": [
+          "Have walked",
+          "have walked",
+          "have walked."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_10",
+    "exercise_index": 2,
+    "exercise_type": "free_text",
+    "instruction": "Write questions (How long…? How many…?).",
+    "items": [
+      {
+        "prompt": "Ask: you / wait / for the bus (20 minutes).",
+        "canonical_answer": "How long have you been waiting for the bus?",
+        "accepted_variants": [
+          "How long have you been waiting for the bus",
+          "How long have you been waiting for the bus?",
+          "how long have you been waiting for the bus?",
+          "How long have you been waiting for the bus?."
+        ],
+        "rule_keys": [
+          "unit_10_B"
+        ]
+      },
+      {
+        "prompt": "Ask: she / know / him (2019).",
+        "canonical_answer": "How long has she known him?",
+        "accepted_variants": [
+          "How long has she known him",
+          "How long has she known him?",
+          "how long has she known him?",
+          "How long has she known him?."
+        ],
+        "rule_keys": [
+          "unit_10_C"
+        ]
+      },
+      {
+        "prompt": "Ask: they / live here (two years).",
+        "canonical_answer": "How long have they been living here?",
+        "accepted_variants": [
+          "How long have they been living here",
+          "How long have they been living here?",
+          "how long have they been living here?",
+          "How long have they been living here?."
+        ],
+        "rule_keys": [
+          "unit_10_B"
+        ]
+      },
+      {
+        "prompt": "Ask: you / have / this car (six months).",
+        "canonical_answer": "How long have you had this car?",
+        "accepted_variants": [
+          "How long have you had this car",
+          "How long have you had this car?",
+          "how long have you had this car?",
+          "How long have you had this car?."
+        ],
+        "rule_keys": [
+          "unit_10_C"
+        ]
+      },
+      {
+        "prompt": "Ask: he / play / tennis (three years).",
+        "canonical_answer": "How long has he been playing tennis?",
+        "accepted_variants": [
+          "How long has he been playing tennis",
+          "How long has he been playing tennis?",
+          "how long has he been playing tennis?",
+          "How long has he been playing tennis?."
+        ],
+        "rule_keys": [
+          "unit_10_B"
+        ]
+      },
+      {
+        "prompt": "Ask: how many emails / you / write today (5).",
+        "canonical_answer": "How many emails have you written today?",
+        "accepted_variants": [
+          "How many emails have you written today",
+          "How many emails have you written today?",
+          "how many emails have you written today?",
+          "How many emails have you written today?."
+        ],
+        "rule_keys": [
+          "unit_10_B"
+        ]
+      },
+      {
+        "prompt": "Ask: how many cups of coffee / she / have today (3).",
+        "canonical_answer": "How many cups of coffee has she had today?",
+        "accepted_variants": [
+          "How many cups of coffee has she had today",
+          "How many cups of coffee has she had today?",
+          "how many cups of coffee has she had today?",
+          "How many cups of coffee has she had today?."
+        ],
+        "rule_keys": [
+          "unit_10_B"
+        ]
+      }
+    ]
+  },
+  {
+    "unit_key": "unit_10",
+    "exercise_index": 3,
+    "exercise_type": "gapfill",
+    "instruction": "Put the verb in the correct form.",
+    "items": [
+      {
+        "prompt": "Complete: (have) I ____ (have) this phone for two years.",
+        "canonical_answer": "have had",
+        "accepted_variants": [
+          "Have had",
+          "have had",
+          "have had."
+        ],
+        "rule_keys": [
+          "unit_10_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (have) I ____ (have) problems with it recently.",
+        "canonical_answer": "have been having",
+        "accepted_variants": [
+          "Have been having",
+          "have been having",
+          "have been having."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (work) She ____ (work) here since June.",
+        "canonical_answer": "has been working",
+        "accepted_variants": [
+          "Has been working",
+          "has been working",
+          "has been working."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (work) She ____ (work) in three different offices.",
+        "canonical_answer": "has worked",
+        "accepted_variants": [
+          "Has worked",
+          "has worked",
+          "has worked."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (read) He ____ (read) for an hour.",
+        "canonical_answer": "has been reading",
+        "accepted_variants": [
+          "Has been reading",
+          "has been reading",
+          "has been reading."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (read) He ____ (read) four chapters.",
+        "canonical_answer": "has read",
+        "accepted_variants": [
+          "Has read",
+          "has read",
+          "has read."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (live) We ____ (live) here for a long time.",
+        "canonical_answer": "have been living",
+        "accepted_variants": [
+          "Have been living",
+          "have been living",
+          "have been living."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (live) We ____ (live) in Kyiv before.",
+        "canonical_answer": "have lived",
+        "accepted_variants": [
+          "Have lived",
+          "have lived",
+          "have lived."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (know) I ____ (know) him since school.",
+        "canonical_answer": "have known",
+        "accepted_variants": [
+          "Have known",
+          "have known",
+          "have known."
+        ],
+        "rule_keys": [
+          "unit_10_C"
+        ]
+      },
+      {
+        "prompt": "Complete: (learn) I ____ (learn) Spanish recently.",
+        "canonical_answer": "have been learning",
+        "accepted_variants": [
+          "Have been learning",
+          "have been learning",
+          "have been learning."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (learn) I ____ (learn) a lot of new words.",
+        "canonical_answer": "have learned",
+        "accepted_variants": [
+          "Have learned",
+          "have learned",
+          "have learned."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (wait) They ____ (wait) since 3 o'clock.",
+        "canonical_answer": "have been waiting",
+        "accepted_variants": [
+          "Have been waiting",
+          "have been waiting",
+          "have been waiting."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (wait) They ____ (wait) for the result. It's ready now.",
+        "canonical_answer": "have waited",
+        "accepted_variants": [
+          "Have waited",
+          "have waited",
+          "have waited."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (rain) It ____ (rain) all day.",
+        "canonical_answer": "has been raining",
+        "accepted_variants": [
+          "Has been raining",
+          "has been raining",
+          "has been raining."
+        ],
+        "rule_keys": [
+          "unit_10_A"
+        ]
+      },
+      {
+        "prompt": "Complete: (rain) It ____ (rain) three times this week.",
+        "canonical_answer": "has rained",
+        "accepted_variants": [
+          "Has rained",
+          "has rained",
+          "has rained."
+        ],
+        "rule_keys": [
+          "unit_10_C"
+        ]
+      }
+    ]
+  }
+]

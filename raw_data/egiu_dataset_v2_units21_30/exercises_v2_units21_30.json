@@ -1,0 +1,4863 @@
+{
+  "version": "v2",
+  "units": "21-30",
+  "exercises": [
+    {
+      "unit_key": "unit_21",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences using will ('ll) or won't where appropriate.",
+      "items": [
+        {
+          "prompt": "Complete the sentence with an immediate decision: The door is open. ____ (shut it)",
+          "options": null,
+          "canonical": "I'll shut it.",
+          "accepted_variants": [
+            "I'll shut it.",
+            "I'll shut it",
+            "i'll shut it.",
+            "I will shut it."
+          ],
+          "rule_keys": [
+            "unit_21_A"
+          ],
+          "item_key": "unit_21_ex1_i1"
+        },
+        {
+          "prompt": "Complete the sentence: I forgot to send the message. ____ (do it now)",
+          "options": null,
+          "canonical": "I'll do it now.",
+          "accepted_variants": [
+            "I'll do it now.",
+            "I'll do it now",
+            "i'll do it now.",
+            "I will do it now."
+          ],
+          "rule_keys": [
+            "unit_21_A"
+          ],
+          "item_key": "unit_21_ex1_i2"
+        },
+        {
+          "prompt": "Complete the reply: 'What would you like to drink?' ____ (orange juice)",
+          "options": null,
+          "canonical": "I'll have orange juice, please.",
+          "accepted_variants": [
+            "I'll have orange juice, please.",
+            "I'll have orange juice, please",
+            "i'll have orange juice, please.",
+            "I will have orange juice, please."
+          ],
+          "rule_keys": [
+            "unit_21_A"
+          ],
+          "item_key": "unit_21_ex1_i3"
+        },
+        {
+          "prompt": "Offer help: That suitcase looks heavy. ____ (carry it)",
+          "options": null,
+          "canonical": "I'll carry it.",
+          "accepted_variants": [
+            "I'll carry it.",
+            "I'll carry it",
+            "i'll carry it.",
+            "I will carry it."
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex1_i4"
+        },
+        {
+          "prompt": "Promise: Thanks for lending me £20. ____ (pay you back on Friday)",
+          "options": null,
+          "canonical": "I'll pay you back on Friday.",
+          "accepted_variants": [
+            "I'll pay you back on Friday.",
+            "I'll pay you back on Friday",
+            "i'll pay you back on friday.",
+            "I will pay you back on Friday."
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex1_i5"
+        },
+        {
+          "prompt": "Refuse: 'Can you drive me at 3 a.m.?' Sorry, ____.",
+          "options": null,
+          "canonical": "I won't.",
+          "accepted_variants": [
+            "I won't.",
+            "I won't",
+            "i won't.",
+            "I will not."
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex1_i6"
+        },
+        {
+          "prompt": "Negative decision: It's too late. ____ (not phone him tonight)",
+          "options": null,
+          "canonical": "I won't phone him tonight.",
+          "accepted_variants": [
+            "I won't phone him tonight.",
+            "I won't phone him tonight",
+            "i won't phone him tonight.",
+            "I will not phone him tonight."
+          ],
+          "rule_keys": [
+            "unit_21_A"
+          ],
+          "item_key": "unit_21_ex1_i7"
+        },
+        {
+          "prompt": "Agree: 'Can you send the file today?' Sure, ____.",
+          "options": null,
+          "canonical": "I'll send it today.",
+          "accepted_variants": [
+            "I'll send it today.",
+            "I'll send it today",
+            "i'll send it today.",
+            "I will send it today."
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_21",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use I'll / won't / Will you…? as needed.",
+      "items": [
+        {
+          "prompt": "Ask someone to do something: ____ (you / turn down the music) ? It's very loud.",
+          "options": null,
+          "canonical": "Will you turn down the music, please?",
+          "accepted_variants": [
+            "Will you turn down the music, please?",
+            "Will you turn down the music, please?.",
+            "will you turn down the music, please?"
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex2_i1"
+        },
+        {
+          "prompt": "Offer: You look tired. ____ (make you a coffee).",
+          "options": null,
+          "canonical": "I'll make you a coffee.",
+          "accepted_variants": [
+            "I'll make you a coffee.",
+            "I'll make you a coffee",
+            "i'll make you a coffee.",
+            "I will make you a coffee."
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex2_i2"
+        },
+        {
+          "prompt": "Agree: 'Can you meet me after work?' Yes, ____ (meet you at 6).",
+          "options": null,
+          "canonical": "I'll meet you at 6.",
+          "accepted_variants": [
+            "I'll meet you at 6.",
+            "I'll meet you at 6",
+            "i'll meet you at 6.",
+            "I will meet you at 6."
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex2_i3"
+        },
+        {
+          "prompt": "Promise: Don't worry. ____ (not tell anyone).",
+          "options": null,
+          "canonical": "I won't tell anyone.",
+          "accepted_variants": [
+            "I won't tell anyone.",
+            "I won't tell anyone",
+            "i won't tell anyone.",
+            "I will not tell anyone."
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex2_i4"
+        },
+        {
+          "prompt": "Refusal: I’ve asked him many times, but he ____ (not listen).",
+          "options": null,
+          "canonical": "won't listen",
+          "accepted_variants": [
+            "won't listen",
+            "won't listen.",
+            "Won't listen",
+            "will not listen",
+            "won’t listen",
+            "will not listen"
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex2_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_21",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct sentence in each situation.",
+      "items": [
+        {
+          "prompt": "You decide right now because the phone is ringing. Choose the best sentence.",
+          "options": [
+            "I'm answering it.",
+            "I'll answer it."
+          ],
+          "canonical": "I'll answer it.",
+          "accepted_variants": [
+            "I'll answer it.",
+            "I'll answer it",
+            "I'll answer it..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_A"
+          ],
+          "item_key": "unit_21_ex3_i1"
+        },
+        {
+          "prompt": "You arranged this yesterday. Choose the best sentence.",
+          "options": [
+            "I'll meet Ben tomorrow at 10.",
+            "I'm meeting Ben tomorrow at 10."
+          ],
+          "canonical": "I'm meeting Ben tomorrow at 10.",
+          "accepted_variants": [
+            "I'm meeting Ben tomorrow at 10.",
+            "I'm meeting Ben tomorrow at 10",
+            "I'm meeting Ben tomorrow at 10..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_C"
+          ],
+          "item_key": "unit_21_ex3_i2"
+        },
+        {
+          "prompt": "You offer help. Choose the best sentence.",
+          "options": [
+            "I'll help you with that.",
+            "I help you with that."
+          ],
+          "canonical": "I'll help you with that.",
+          "accepted_variants": [
+            "I'll help you with that.",
+            "I'll help you with that",
+            "I'll help you with that..",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex3_i3"
+        },
+        {
+          "prompt": "You already have a plan for Saturday. Choose the best sentence.",
+          "options": [
+            "I'll go to Kyiv on Saturday.",
+            "I'm going to Kyiv on Saturday."
+          ],
+          "canonical": "I'm going to Kyiv on Saturday.",
+          "accepted_variants": [
+            "I'm going to Kyiv on Saturday.",
+            "I'm going to Kyiv on Saturday",
+            "I'm going to Kyiv on Saturday..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_C"
+          ],
+          "item_key": "unit_21_ex3_i4"
+        },
+        {
+          "prompt": "You make a promise. Choose the best sentence.",
+          "options": [
+            "I don't tell anyone.",
+            "I won't tell anyone."
+          ],
+          "canonical": "I won't tell anyone.",
+          "accepted_variants": [
+            "I won't tell anyone.",
+            "I won't tell anyone",
+            "I won't tell anyone..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex3_i5"
+        },
+        {
+          "prompt": "You decide now what to order. Choose the best sentence.",
+          "options": [
+            "I'll take the soup, please.",
+            "I'm taking the soup, please."
+          ],
+          "canonical": "I'll take the soup, please.",
+          "accepted_variants": [
+            "I'll take the soup, please.",
+            "I'll take the soup, please",
+            "I'll take the soup, please..",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_21_A"
+          ],
+          "item_key": "unit_21_ex3_i6"
+        },
+        {
+          "prompt": "This is a fixed timetable. Choose the best sentence.",
+          "options": [
+            "The train will leave at 7.15.",
+            "The train leaves at 7.15."
+          ],
+          "canonical": "The train leaves at 7.15.",
+          "accepted_variants": [
+            "The train leaves at 7.15.",
+            "The train leaves at 7.15",
+            "The train leaves at 7.15..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_C"
+          ],
+          "item_key": "unit_21_ex3_i7"
+        },
+        {
+          "prompt": "You ask someone to do something. Choose the best sentence.",
+          "options": [
+            "Will you email me the details?",
+            "Do you email me the details?"
+          ],
+          "canonical": "Will you email me the details?",
+          "accepted_variants": [
+            "Will you email me the details?",
+            "Will you email me the details?",
+            "Will you email me the details?.",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex3_i8"
+        },
+        {
+          "prompt": "You’ve already decided earlier. Choose the best sentence.",
+          "options": [
+            "I'll have lunch with Nora tomorrow.",
+            "I'm having lunch with Nora tomorrow."
+          ],
+          "canonical": "I'm having lunch with Nora tomorrow.",
+          "accepted_variants": [
+            "I'm having lunch with Nora tomorrow.",
+            "I'm having lunch with Nora tomorrow",
+            "I'm having lunch with Nora tomorrow..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_C"
+          ],
+          "item_key": "unit_21_ex3_i9"
+        },
+        {
+          "prompt": "Immediate decision: it's cold. Choose the best sentence.",
+          "options": [
+            "I'll close the window.",
+            "I'm closing the window."
+          ],
+          "canonical": "I'll close the window.",
+          "accepted_variants": [
+            "I'll close the window.",
+            "I'll close the window",
+            "I'll close the window..",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_21_A"
+          ],
+          "item_key": "unit_21_ex3_i10"
+        },
+        {
+          "prompt": "Refusal (the machine 'refuses'). Choose the best sentence.",
+          "options": [
+            "The printer doesn't start.",
+            "The printer won't start."
+          ],
+          "canonical": "The printer won't start.",
+          "accepted_variants": [
+            "The printer won't start.",
+            "The printer won't start",
+            "The printer won't start..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_B"
+          ],
+          "item_key": "unit_21_ex3_i11"
+        },
+        {
+          "prompt": "Arrangement in diary. Choose the best sentence.",
+          "options": [
+            "We'll see the dentist on Monday.",
+            "We're seeing the dentist on Monday."
+          ],
+          "canonical": "We're seeing the dentist on Monday.",
+          "accepted_variants": [
+            "We're seeing the dentist on Monday.",
+            "We're seeing the dentist on Monday",
+            "We're seeing the dentist on Monday..",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_21_C"
+          ],
+          "item_key": "unit_21_ex3_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_21",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Write questions with Shall I…? or Shall we…?",
+      "items": [
+        {
+          "prompt": "You want to offer to carry a bag. Write the question: ____ (I / carry) your bag?",
+          "options": null,
+          "canonical": "Shall I carry your bag?",
+          "accepted_variants": [
+            "Shall I carry your bag?",
+            "Shall I carry your bag?.",
+            "shall i carry your bag?"
+          ],
+          "rule_keys": [
+            "unit_21_D"
+          ],
+          "item_key": "unit_21_ex4_i1"
+        },
+        {
+          "prompt": "You and a friend are choosing a restaurant. Suggest an idea: ____ (we / try) the new café?",
+          "options": null,
+          "canonical": "Shall we try the new café?",
+          "accepted_variants": [
+            "Shall we try the new café?",
+            "Shall we try the new café?.",
+            "shall we try the new café?"
+          ],
+          "rule_keys": [
+            "unit_21_D"
+          ],
+          "item_key": "unit_21_ex4_i2"
+        },
+        {
+          "prompt": "Ask for advice: I’ve got no cash. ____ (I / do) ?",
+          "options": null,
+          "canonical": "What shall I do?",
+          "accepted_variants": [
+            "What shall I do?",
+            "What shall I do?.",
+            "what shall i do?"
+          ],
+          "rule_keys": [
+            "unit_21_D"
+          ],
+          "item_key": "unit_21_ex4_i3"
+        },
+        {
+          "prompt": "Offer: It's hot in here. ____ (I / open) the window?",
+          "options": null,
+          "canonical": "Shall I open the window?",
+          "accepted_variants": [
+            "Shall I open the window?",
+            "Shall I open the window?.",
+            "shall i open the window?"
+          ],
+          "rule_keys": [
+            "unit_21_D"
+          ],
+          "item_key": "unit_21_ex4_i4"
+        },
+        {
+          "prompt": "Suggestion: We’re late. ____ (we / take) a taxi?",
+          "options": null,
+          "canonical": "Shall we take a taxi?",
+          "accepted_variants": [
+            "Shall we take a taxi?",
+            "Shall we take a taxi?.",
+            "shall we take a taxi?"
+          ],
+          "rule_keys": [
+            "unit_21_D"
+          ],
+          "item_key": "unit_21_ex4_i5"
+        },
+        {
+          "prompt": "Offer: You look busy. ____ (I / help) you?",
+          "options": null,
+          "canonical": "Shall I help you?",
+          "accepted_variants": [
+            "Shall I help you?",
+            "Shall I help you?.",
+            "shall i help you?"
+          ],
+          "rule_keys": [
+            "unit_21_D"
+          ],
+          "item_key": "unit_21_ex4_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_22",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with will / won't (as appropriate).",
+      "items": [
+        {
+          "prompt": "Complete: Don’t worry about the exam. You ____ fine.",
+          "options": null,
+          "canonical": "will do",
+          "accepted_variants": [
+            "will do",
+            "will do.",
+            "Will do"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex1_i1"
+        },
+        {
+          "prompt": "Complete: I’m cold. I think it ____ snow tonight.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex1_i2"
+        },
+        {
+          "prompt": "Complete: They ____ probably arrive after 8.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex1_i3"
+        },
+        {
+          "prompt": "Complete: I don’t think he ____ agree to that.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex1_i4"
+        },
+        {
+          "prompt": "Complete: I’m sure you ____ enjoy the concert.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex1_i5"
+        },
+        {
+          "prompt": "Complete: If you keep talking, the baby ____ wake up.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex1_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_22",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Make predictions. Complete each sentence with will / won't and a suitable verb.",
+      "items": [
+        {
+          "prompt": "Finish with a prediction: The sky is very dark. It ____.",
+          "options": null,
+          "canonical": "will rain",
+          "accepted_variants": [
+            "will rain",
+            "will rain.",
+            "Will rain"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex2_i1"
+        },
+        {
+          "prompt": "Finish: I’m late again. The boss ____.",
+          "options": null,
+          "canonical": "won't be happy",
+          "accepted_variants": [
+            "won't be happy",
+            "won't be happy.",
+            "Won't be happy",
+            "will not be happy"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex2_i2"
+        },
+        {
+          "prompt": "Finish: That film is great. You ____.",
+          "options": null,
+          "canonical": "will love it",
+          "accepted_variants": [
+            "will love it",
+            "will love it.",
+            "Will love it"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex2_i3"
+        },
+        {
+          "prompt": "Finish: They’ve missed the last bus. They ____.",
+          "options": null,
+          "canonical": "will have to walk",
+          "accepted_variants": [
+            "will have to walk",
+            "will have to walk.",
+            "Will have to walk"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex2_i4"
+        },
+        {
+          "prompt": "Finish: It’s 3 a.m. She ____.",
+          "options": null,
+          "canonical": "will be asleep",
+          "accepted_variants": [
+            "will be asleep",
+            "will be asleep.",
+            "Will be asleep"
+          ],
+          "rule_keys": [
+            "unit_22_C"
+          ],
+          "item_key": "unit_22_ex2_i5"
+        },
+        {
+          "prompt": "Finish: This box is too heavy. I ____.",
+          "options": null,
+          "canonical": "won't lift it",
+          "accepted_variants": [
+            "won't lift it",
+            "won't lift it.",
+            "Won't lift it",
+            "will not lift it"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex2_i6"
+        },
+        {
+          "prompt": "Finish: I’m not sure about Tom. He ____.",
+          "options": null,
+          "canonical": "will probably forget",
+          "accepted_variants": [
+            "will probably forget",
+            "will probably forget.",
+            "Will probably forget"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex2_i7"
+        },
+        {
+          "prompt": "Finish: The train is usually on time. It ____.",
+          "options": null,
+          "canonical": "will arrive soon",
+          "accepted_variants": [
+            "will arrive soon",
+            "will arrive soon.",
+            "Will arrive soon"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex2_i8"
+        },
+        {
+          "prompt": "Finish: I haven’t heard from them. They ____.",
+          "options": null,
+          "canonical": "will be busy",
+          "accepted_variants": [
+            "will be busy",
+            "will be busy.",
+            "Will be busy"
+          ],
+          "rule_keys": [
+            "unit_22_C"
+          ],
+          "item_key": "unit_22_ex2_i9"
+        },
+        {
+          "prompt": "Finish: The kids are very quiet. They ____.",
+          "options": null,
+          "canonical": "will be doing something naughty",
+          "accepted_variants": [
+            "will be doing something naughty",
+            "will be doing something naughty.",
+            "Will be doing something naughty"
+          ],
+          "rule_keys": [
+            "unit_22_C"
+          ],
+          "item_key": "unit_22_ex2_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_22",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "Choose the best sentence for a fixed arrangement.",
+          "options": [
+            "I'll see you tomorrow at 3.",
+            "I'm seeing you tomorrow at 3."
+          ],
+          "canonical": "I'm seeing you tomorrow at 3.",
+          "accepted_variants": [
+            "I'm seeing you tomorrow at 3.",
+            "I'm seeing you tomorrow at 3",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex3_i1"
+        },
+        {
+          "prompt": "Choose the best form after hope.",
+          "options": [
+            "I hope it will stop raining soon.",
+            "I hope it stops raining soon."
+          ],
+          "canonical": "I hope it stops raining soon.",
+          "accepted_variants": [
+            "I hope it stops raining soon.",
+            "I hope it stops raining soon",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex3_i2"
+        },
+        {
+          "prompt": "Choose the best sentence for a guess about now.",
+          "options": [
+            "He'll be at home now.",
+            "He's at home now."
+          ],
+          "canonical": "He'll be at home now.",
+          "accepted_variants": [
+            "He'll be at home now.",
+            "He'll be at home now",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_22_C"
+          ],
+          "item_key": "unit_22_ex3_i3"
+        },
+        {
+          "prompt": "Choose the better prediction sentence.",
+          "options": [
+            "I think they'll win.",
+            "I think they're going to win (I decided now)."
+          ],
+          "canonical": "I think they'll win.",
+          "accepted_variants": [
+            "I think they'll win.",
+            "I think they'll win",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex3_i4"
+        },
+        {
+          "prompt": "Choose the best sentence to show refusal.",
+          "options": [
+            "She won't help me.",
+            "She doesn't help me."
+          ],
+          "canonical": "She won't help me.",
+          "accepted_variants": [
+            "She won't help me.",
+            "She won't help me",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex3_i5"
+        },
+        {
+          "prompt": "Choose the best sentence for an official letter style.",
+          "options": [
+            "We will contact you shortly.",
+            "We are contact you shortly."
+          ],
+          "canonical": "We will contact you shortly.",
+          "accepted_variants": [
+            "We will contact you shortly.",
+            "We will contact you shortly",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_22_D"
+          ],
+          "item_key": "unit_22_ex3_i6"
+        },
+        {
+          "prompt": "Choose the best sentence for timetable/fact.",
+          "options": [
+            "The meeting will start at 9.00 on Monday (as scheduled).",
+            "The meeting starts at 9.00 on Monday."
+          ],
+          "canonical": "The meeting starts at 9.00 on Monday.",
+          "accepted_variants": [
+            "The meeting starts at 9.00 on Monday.",
+            "The meeting starts at 9.00 on Monday",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex3_i7"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_22",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences using shall / shan't where appropriate.",
+      "items": [
+        {
+          "prompt": "Complete (formal): I ____ be late. (shall / will)",
+          "options": null,
+          "canonical": "shall not",
+          "accepted_variants": [
+            "shall not",
+            "shall not.",
+            "Shall not",
+            "shan't"
+          ],
+          "rule_keys": [
+            "unit_22_D"
+          ],
+          "item_key": "unit_22_ex4_i1"
+        },
+        {
+          "prompt": "Write a suggestion with shall: ____ we start now?",
+          "options": null,
+          "canonical": "Shall",
+          "accepted_variants": [
+            "Shall",
+            "Shall.",
+            "shall"
+          ],
+          "rule_keys": [
+            "unit_22_D"
+          ],
+          "item_key": "unit_22_ex4_i2"
+        },
+        {
+          "prompt": "Write an offer: ____ I carry that for you?",
+          "options": null,
+          "canonical": "Shall",
+          "accepted_variants": [
+            "Shall",
+            "Shall.",
+            "shall"
+          ],
+          "rule_keys": [
+            "unit_22_D"
+          ],
+          "item_key": "unit_22_ex4_i3"
+        },
+        {
+          "prompt": "Complete: We ____ meet again next month. (formal)",
+          "options": null,
+          "canonical": "shall",
+          "accepted_variants": [
+            "shall",
+            "shall.",
+            "Shall"
+          ],
+          "rule_keys": [
+            "unit_22_D"
+          ],
+          "item_key": "unit_22_ex4_i4"
+        },
+        {
+          "prompt": "Negative (formal): I ____ be long. (shan’t / shall not)",
+          "options": null,
+          "canonical": "shan't",
+          "accepted_variants": [
+            "shan't",
+            "shan't.",
+            "Shan't",
+            "shall not"
+          ],
+          "rule_keys": [
+            "unit_22_D"
+          ],
+          "item_key": "unit_22_ex4_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_22",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use will / won't, or the present after hope.",
+      "items": [
+        {
+          "prompt": "Complete: Don’t phone Janet. She ____ be having dinner now.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_C"
+          ],
+          "item_key": "unit_22_ex5_i1"
+        },
+        {
+          "prompt": "Complete: I ____ probably be home after 7.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex5_i2"
+        },
+        {
+          "prompt": "Complete: The door’s locked. Someone ____ have the key.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_C"
+          ],
+          "item_key": "unit_22_ex5_i3"
+        },
+        {
+          "prompt": "Complete: I’m sure it ____ get better soon.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex5_i4"
+        },
+        {
+          "prompt": "Complete after hope: I hope you ____ my message.",
+          "options": null,
+          "canonical": "get",
+          "accepted_variants": [
+            "get",
+            "get.",
+            "Get"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex5_i5"
+        },
+        {
+          "prompt": "Complete: He says he’s sorry, but he ____ change. (refusal)",
+          "options": null,
+          "canonical": "won't",
+          "accepted_variants": [
+            "won't",
+            "won't.",
+            "Won't",
+            "will not"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex5_i6"
+        },
+        {
+          "prompt": "Complete: It’s quiet upstairs. The children ____ be asleep.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_C"
+          ],
+          "item_key": "unit_22_ex5_i7"
+        },
+        {
+          "prompt": "Complete: If you don’t hurry, you ____ miss the train.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_A"
+          ],
+          "item_key": "unit_22_ex5_i8"
+        },
+        {
+          "prompt": "Complete: I don’t think we ____ have enough time.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_22_B"
+          ],
+          "item_key": "unit_22_ex5_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_23",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with I'll (I will) or (be) going to.",
+      "items": [
+        {
+          "prompt": "Complete: 'I’m thirsty.' ____ get some water. (decide now)",
+          "options": null,
+          "canonical": "I'll",
+          "accepted_variants": [
+            "I'll",
+            "I will",
+            "i'll",
+            "i will"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i1"
+        },
+        {
+          "prompt": "Complete: I’ve already bought the tickets. ____ travel on Friday. (plan)",
+          "options": null,
+          "canonical": "I'm going to",
+          "accepted_variants": [
+            "I'm going to",
+            "I am going to",
+            "im going to",
+            "I'm gonna"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i2"
+        },
+        {
+          "prompt": "Complete: 'There’s a knock at the door.' ____ answer it. (decide now)",
+          "options": null,
+          "canonical": "I'll",
+          "accepted_variants": [
+            "I'll",
+            "I will",
+            "i'll",
+            "i will"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i3"
+        },
+        {
+          "prompt": "Complete: I’ve decided. ____ apply for that job. (plan)",
+          "options": null,
+          "canonical": "I'm going to",
+          "accepted_variants": [
+            "I'm going to",
+            "I am going to",
+            "im going to",
+            "I'm gonna"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i4"
+        },
+        {
+          "prompt": "Complete: 'This bag is too heavy.' ____ help you. (offer now)",
+          "options": null,
+          "canonical": "I'll",
+          "accepted_variants": [
+            "I'll",
+            "I will",
+            "i'll",
+            "i will"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i5"
+        },
+        {
+          "prompt": "Complete: We’ve arranged everything. ____ move house next month.",
+          "options": null,
+          "canonical": "We're going to",
+          "accepted_variants": [
+            "We're going to",
+            "We're going to.",
+            "we're going to",
+            "We are going to",
+            "She is going to"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i6"
+        },
+        {
+          "prompt": "Complete: 'I forgot your book!' ____ bring it tomorrow. (promise now)",
+          "options": null,
+          "canonical": "I'll",
+          "accepted_variants": [
+            "I'll",
+            "I will",
+            "i'll",
+            "i will"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i7"
+        },
+        {
+          "prompt": "Complete: I’m saving money because ____ buy a bike.",
+          "options": null,
+          "canonical": "I'm going to",
+          "accepted_variants": [
+            "I'm going to",
+            "I am going to",
+            "im going to",
+            "I'm gonna"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i8"
+        },
+        {
+          "prompt": "Complete: 'The phone is ringing.' ____ get it. (now)",
+          "options": null,
+          "canonical": "I'll",
+          "accepted_variants": [
+            "I'll",
+            "I will",
+            "i'll",
+            "i will"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i9"
+        },
+        {
+          "prompt": "Complete: She has planned her trip. She ____ visit Spain and Portugal.",
+          "options": null,
+          "canonical": "is going to",
+          "accepted_variants": [
+            "is going to",
+            "is going to.",
+            "Is going to",
+            "We are going to",
+            "She is going to"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i10"
+        },
+        {
+          "prompt": "Complete: 'I can’t do this maths.' ____ ask the teacher. (now)",
+          "options": null,
+          "canonical": "I'll",
+          "accepted_variants": [
+            "I'll",
+            "I will",
+            "i'll",
+            "i will"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex1_i11"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_23",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use will or (be) going to.",
+      "items": [
+        {
+          "prompt": "Complete: Look at those clouds! It ____ rain soon. (evidence)",
+          "options": null,
+          "canonical": "is going to",
+          "accepted_variants": [
+            "is going to",
+            "is going to.",
+            "Is going to"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i1"
+        },
+        {
+          "prompt": "Complete: I think the team ____ win tonight. (opinion)",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will",
+            "'ll"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i2"
+        },
+        {
+          "prompt": "Complete: Watch out! You ____ fall. (evidence)",
+          "options": null,
+          "canonical": "are going to",
+          "accepted_variants": [
+            "are going to",
+            "are going to.",
+            "Are going to"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i3"
+        },
+        {
+          "prompt": "Complete: Don’t worry. I’m sure you ____ pass the test. (opinion)",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will",
+            "'ll"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i4"
+        },
+        {
+          "prompt": "Complete: The glass is on the edge. It ____ break. (evidence)",
+          "options": null,
+          "canonical": "is going to",
+          "accepted_variants": [
+            "is going to",
+            "is going to.",
+            "Is going to"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i5"
+        },
+        {
+          "prompt": "Complete: In my view, prices ____ go up next year.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will",
+            "'ll"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i6"
+        },
+        {
+          "prompt": "Complete: He’s driving too fast. He ____ have an accident.",
+          "options": null,
+          "canonical": "is going to",
+          "accepted_variants": [
+            "is going to",
+            "is going to.",
+            "Is going to"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i7"
+        },
+        {
+          "prompt": "Complete: I’m sure you ____ enjoy the party.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will",
+            "'ll"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_23",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Write sentences using will / won't or (be) going to.",
+      "items": [
+        {
+          "prompt": "Write a reply with will (decision now): 'We’re out of milk.' -> ____ (buy some)",
+          "options": null,
+          "canonical": "I'll buy some.",
+          "accepted_variants": [
+            "I'll buy some.",
+            "I'll buy some",
+            "i'll buy some.",
+            "I will buy some."
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex3_i1"
+        },
+        {
+          "prompt": "Write a sentence with going to (plan): 'I’ve booked the hotel.' -> ____ (stay there for three nights)",
+          "options": null,
+          "canonical": "I'm going to stay there for three nights.",
+          "accepted_variants": [
+            "I'm going to stay there for three nights.",
+            "I'm going to stay there for three nights",
+            "i'm going to stay there for three nights.",
+            "I am going to stay there for three nights."
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex3_i2"
+        },
+        {
+          "prompt": "Prediction with evidence: 'The dog is growling.' -> It ____ bite.",
+          "options": null,
+          "canonical": "is going to",
+          "accepted_variants": [
+            "is going to",
+            "is going to.",
+            "Is going to",
+            "going to"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex3_i3"
+        },
+        {
+          "prompt": "Prediction (opinion): 'Do you like this song?' -> Yes, I think you ____ like it too.",
+          "options": null,
+          "canonical": "will",
+          "accepted_variants": [
+            "will",
+            "will.",
+            "Will"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex3_i4"
+        },
+        {
+          "prompt": "Offer: 'I can’t lift this.' -> ____ (help you)",
+          "options": null,
+          "canonical": "I'll help you.",
+          "accepted_variants": [
+            "I'll help you.",
+            "I'll help you",
+            "i'll help you.",
+            "I will help you."
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex3_i5"
+        },
+        {
+          "prompt": "Plan: 'We’ve decided already.' -> We ____ start at 6 a.m.",
+          "options": null,
+          "canonical": "are going to",
+          "accepted_variants": [
+            "are going to",
+            "are going to.",
+            "Are going to",
+            "going to"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex3_i6"
+        },
+        {
+          "prompt": "Negative: 'Is Tom coming?' -> No, he ____ come. (decision)",
+          "options": null,
+          "canonical": "won't",
+          "accepted_variants": [
+            "won't",
+            "will not",
+            "wont"
+          ],
+          "rule_keys": [
+            "unit_23_A"
+          ],
+          "item_key": "unit_23_ex3_i7"
+        },
+        {
+          "prompt": "Evidence: 'She’s got her suitcase.' -> She ____ leave.",
+          "options": null,
+          "canonical": "is going to",
+          "accepted_variants": [
+            "is going to",
+            "is going to.",
+            "Is going to",
+            "going to"
+          ],
+          "rule_keys": [
+            "unit_23_B"
+          ],
+          "item_key": "unit_23_ex3_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_24",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "At 8.30 tomorrow, I won't answer the phone because …",
+          "options": [
+            "I'll drive to work.",
+            "I'll be driving to work.",
+            "I drive to work.",
+            "I'm driving to work."
+          ],
+          "canonical": "I'll be driving to work.",
+          "accepted_variants": [
+            "I'll be driving to work.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex1_i1"
+        },
+        {
+          "prompt": "By the end of this month, we … the new website.",
+          "options": [
+            "will finish",
+            "will be finishing",
+            "will have finished",
+            "are finishing"
+          ],
+          "canonical": "will have finished",
+          "accepted_variants": [
+            "will have finished",
+            "c",
+            "C"
+          ],
+          "rule_keys": [
+            "unit_24_D"
+          ],
+          "item_key": "unit_24_ex1_i2"
+        },
+        {
+          "prompt": "This time next week, they … in the mountains.",
+          "options": [
+            "will hike",
+            "will be hiking",
+            "will have hiked",
+            "hike"
+          ],
+          "canonical": "will be hiking",
+          "accepted_variants": [
+            "will be hiking",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex1_i3"
+        },
+        {
+          "prompt": "When you arrive at 7, I … dinner.",
+          "options": [
+            "will cook",
+            "will be cooking",
+            "will have cooked",
+            "am cooking"
+          ],
+          "canonical": "will be cooking",
+          "accepted_variants": [
+            "will be cooking",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex1_i4"
+        },
+        {
+          "prompt": "By 10 a.m., she … all the emails.",
+          "options": [
+            "will reply to",
+            "will be replying to",
+            "will have replied to",
+            "replies to"
+          ],
+          "canonical": "will have replied to",
+          "accepted_variants": [
+            "will have replied to",
+            "c",
+            "C"
+          ],
+          "rule_keys": [
+            "unit_24_D"
+          ],
+          "item_key": "unit_24_ex1_i5"
+        },
+        {
+          "prompt": "At 3 p.m., the manager … the visitors around the office.",
+          "options": [
+            "will show",
+            "will be showing",
+            "will have shown",
+            "shows"
+          ],
+          "canonical": "will be showing",
+          "accepted_variants": [
+            "will be showing",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_24_C"
+          ],
+          "item_key": "unit_24_ex1_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_24",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with will be -ing.",
+      "items": [
+        {
+          "prompt": "Complete: Don’t call me at 9. I ____ (drive) to the airport then.",
+          "options": null,
+          "canonical": "will be driving",
+          "accepted_variants": [
+            "will be driving",
+            "will be driving.",
+            "Will be driving"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex2_i1"
+        },
+        {
+          "prompt": "Complete: At this time tomorrow, we ____ (sit) on the train.",
+          "options": null,
+          "canonical": "will be sitting",
+          "accepted_variants": [
+            "will be sitting",
+            "will be sitting.",
+            "Will be sitting"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex2_i2"
+        },
+        {
+          "prompt": "Complete: Next week I ____ (work) from home, so I can meet you at lunch.",
+          "options": null,
+          "canonical": "will be working",
+          "accepted_variants": [
+            "will be working",
+            "will be working.",
+            "Will be working"
+          ],
+          "rule_keys": [
+            "unit_24_C"
+          ],
+          "item_key": "unit_24_ex2_i3"
+        },
+        {
+          "prompt": "Complete: This evening she ____ (study), so please be quiet.",
+          "options": null,
+          "canonical": "will be studying",
+          "accepted_variants": [
+            "will be studying",
+            "will be studying.",
+            "Will be studying"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex2_i4"
+        },
+        {
+          "prompt": "Complete: At 6 o’clock, they ____ (have) dinner.",
+          "options": null,
+          "canonical": "will be having",
+          "accepted_variants": [
+            "will be having",
+            "will be having.",
+            "Will be having"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex2_i5"
+        },
+        {
+          "prompt": "Complete: Will you ____ (use) your laptop tonight?",
+          "options": null,
+          "canonical": "be using",
+          "accepted_variants": [
+            "be using",
+            "be using.",
+            "Be using"
+          ],
+          "rule_keys": [
+            "unit_24_C"
+          ],
+          "item_key": "unit_24_ex2_i6"
+        },
+        {
+          "prompt": "Complete: I ____ (see) Alex later, so I can ask him.",
+          "options": null,
+          "canonical": "will be seeing",
+          "accepted_variants": [
+            "will be seeing",
+            "will be seeing.",
+            "Will be seeing"
+          ],
+          "rule_keys": [
+            "unit_24_C"
+          ],
+          "item_key": "unit_24_ex2_i7"
+        },
+        {
+          "prompt": "Complete: The kids ____ (sleep) by the time we get home.",
+          "options": null,
+          "canonical": "will be sleeping",
+          "accepted_variants": [
+            "will be sleeping",
+            "will be sleeping.",
+            "Will be sleeping"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_24",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with will be -ing or will have done.",
+      "items": [
+        {
+          "prompt": "Complete: By Friday, I ____ (finish) the report.",
+          "options": null,
+          "canonical": "will have finished",
+          "accepted_variants": [
+            "will have finished",
+            "will have finished.",
+            "Will have finished"
+          ],
+          "rule_keys": [
+            "unit_24_D"
+          ],
+          "item_key": "unit_24_ex3_i1"
+        },
+        {
+          "prompt": "Complete: By the time you arrive, we ____ (leave).",
+          "options": null,
+          "canonical": "will have left",
+          "accepted_variants": [
+            "will have left",
+            "will have left.",
+            "Will have left"
+          ],
+          "rule_keys": [
+            "unit_24_D"
+          ],
+          "item_key": "unit_24_ex3_i2"
+        },
+        {
+          "prompt": "Complete: At 9 tomorrow, I ____ (work).",
+          "options": null,
+          "canonical": "will be working",
+          "accepted_variants": [
+            "will be working",
+            "will be working.",
+            "Will be working"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex3_i3"
+        },
+        {
+          "prompt": "Complete: In two hours, she ____ (cook) dinner.",
+          "options": null,
+          "canonical": "will be cooking",
+          "accepted_variants": [
+            "will be cooking",
+            "will be cooking.",
+            "Will be cooking"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex3_i4"
+        },
+        {
+          "prompt": "Complete: By next summer, they ____ (save) enough money.",
+          "options": null,
+          "canonical": "will have saved",
+          "accepted_variants": [
+            "will have saved",
+            "will have saved.",
+            "Will have saved"
+          ],
+          "rule_keys": [
+            "unit_24_D"
+          ],
+          "item_key": "unit_24_ex3_i5"
+        },
+        {
+          "prompt": "Complete: This time tomorrow, you ____ (fly) over the sea.",
+          "options": null,
+          "canonical": "will be flying",
+          "accepted_variants": [
+            "will be flying",
+            "will be flying.",
+            "Will be flying"
+          ],
+          "rule_keys": [
+            "unit_24_B"
+          ],
+          "item_key": "unit_24_ex3_i6"
+        },
+        {
+          "prompt": "Complete: By the end of the day, we ____ (send) the invoices.",
+          "options": null,
+          "canonical": "will have sent",
+          "accepted_variants": [
+            "will have sent",
+            "will have sent.",
+            "Will have sent"
+          ],
+          "rule_keys": [
+            "unit_24_D"
+          ],
+          "item_key": "unit_24_ex3_i7"
+        },
+        {
+          "prompt": "Complete: At 5 p.m., I ____ (meet) a client.",
+          "options": null,
+          "canonical": "will be meeting",
+          "accepted_variants": [
+            "will be meeting",
+            "will be meeting.",
+            "Will be meeting"
+          ],
+          "rule_keys": [
+            "unit_24_C"
+          ],
+          "item_key": "unit_24_ex3_i8"
+        },
+        {
+          "prompt": "Complete: By 5 p.m., I ____ (meet) three clients.",
+          "options": null,
+          "canonical": "will have met",
+          "accepted_variants": [
+            "will have met",
+            "will have met.",
+            "Will have met"
+          ],
+          "rule_keys": [
+            "unit_24_D"
+          ],
+          "item_key": "unit_24_ex3_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_25",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use the present (not will) after time words.",
+      "items": [
+        {
+          "prompt": "Complete: I’ll call you when I ____ home. (get)",
+          "options": null,
+          "canonical": "get",
+          "accepted_variants": [
+            "get",
+            "get.",
+            "Get"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i1"
+        },
+        {
+          "prompt": "Complete: Please turn off the lights before you ____ . (leave)",
+          "options": null,
+          "canonical": "leave",
+          "accepted_variants": [
+            "leave",
+            "leave.",
+            "Leave"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i2"
+        },
+        {
+          "prompt": "Complete: We’ll start as soon as everyone ____ . (arrive)",
+          "options": null,
+          "canonical": "arrives",
+          "accepted_variants": [
+            "arrives",
+            "arrives.",
+            "Arrives"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i3"
+        },
+        {
+          "prompt": "Complete: Wait here until I ____ back. (come)",
+          "options": null,
+          "canonical": "come",
+          "accepted_variants": [
+            "come",
+            "come.",
+            "Come"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i4"
+        },
+        {
+          "prompt": "Complete: After she ____ dinner, she’ll wash the dishes. (cook)",
+          "options": null,
+          "canonical": "cooks",
+          "accepted_variants": [
+            "cooks",
+            "cooks.",
+            "Cooks"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i5"
+        },
+        {
+          "prompt": "Complete: Don’t open the file until I ____ you. (tell)",
+          "options": null,
+          "canonical": "tell",
+          "accepted_variants": [
+            "tell",
+            "tell.",
+            "Tell"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i6"
+        },
+        {
+          "prompt": "Complete: I’ll pay you back when I ____ paid. (get)",
+          "options": null,
+          "canonical": "get",
+          "accepted_variants": [
+            "get",
+            "get.",
+            "Get"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i7"
+        },
+        {
+          "prompt": "Complete: I’m going to buy groceries after I ____ work. (finish)",
+          "options": null,
+          "canonical": "finish",
+          "accepted_variants": [
+            "finish",
+            "finish.",
+            "Finish"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i8"
+        },
+        {
+          "prompt": "Complete: When he ____ older, he’ll understand. (be)",
+          "options": null,
+          "canonical": "is",
+          "accepted_variants": [
+            "is",
+            "is.",
+            "Is"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i9"
+        },
+        {
+          "prompt": "Complete: We’ll go for a walk if the rain ____ . (stop)",
+          "options": null,
+          "canonical": "stops",
+          "accepted_variants": [
+            "stops",
+            "stops.",
+            "Stops"
+          ],
+          "rule_keys": [
+            "unit_25_A",
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex1_i10"
+        },
+        {
+          "prompt": "Complete: As soon as I ____ from the meeting, I’ll message you. (come)",
+          "options": null,
+          "canonical": "come",
+          "accepted_variants": [
+            "come",
+            "come.",
+            "Come"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i11"
+        },
+        {
+          "prompt": "Complete: I’ll be ready before you ____ . (go)",
+          "options": null,
+          "canonical": "go",
+          "accepted_variants": [
+            "go",
+            "go.",
+            "Go"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex1_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_25",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the present perfect where it means 'finished before'.",
+      "items": [
+        {
+          "prompt": "Complete: When I ____ the email, I’ll forward it to you. (receive)",
+          "options": null,
+          "canonical": "have received",
+          "accepted_variants": [
+            "have received",
+            "have received.",
+            "Have received"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i1"
+        },
+        {
+          "prompt": "Complete: I’ll let you know as soon as I ____ . (decide)",
+          "options": null,
+          "canonical": "have decided",
+          "accepted_variants": [
+            "have decided",
+            "have decided.",
+            "Have decided"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i2"
+        },
+        {
+          "prompt": "Complete: After we ____ dinner, we’ll watch a film. (finish)",
+          "options": null,
+          "canonical": "have finished",
+          "accepted_variants": [
+            "have finished",
+            "have finished.",
+            "Have finished"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i3"
+        },
+        {
+          "prompt": "Complete: Don’t go out until you ____ your homework. (do)",
+          "options": null,
+          "canonical": "have done",
+          "accepted_variants": [
+            "have done",
+            "have done.",
+            "Have done"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i4"
+        },
+        {
+          "prompt": "Complete: I’ll come to see you when I ____ some time off. (have)",
+          "options": null,
+          "canonical": "have had",
+          "accepted_variants": [
+            "have had",
+            "have had.",
+            "Have had"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i5"
+        },
+        {
+          "prompt": "Complete: She’ll call you after she ____ to the manager. (talk)",
+          "options": null,
+          "canonical": "has talked",
+          "accepted_variants": [
+            "has talked",
+            "has talked.",
+            "Has talked"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i6"
+        },
+        {
+          "prompt": "Complete: As soon as they ____ the result, they’ll announce it. (get)",
+          "options": null,
+          "canonical": "have got",
+          "accepted_variants": [
+            "have got",
+            "have got.",
+            "Have got"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i7"
+        },
+        {
+          "prompt": "Complete: We’ll start the meeting when everyone ____ . (arrive)",
+          "options": null,
+          "canonical": "has arrived",
+          "accepted_variants": [
+            "has arrived",
+            "has arrived.",
+            "Has arrived"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex2_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_25",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete each sentence with the correct present form.",
+      "items": [
+        {
+          "prompt": "Choose the best form: I’ll text you when I ____ (get / have got) there.",
+          "options": null,
+          "canonical": "get",
+          "accepted_variants": [
+            "get",
+            "get.",
+            "Get"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex3_i1"
+        },
+        {
+          "prompt": "Choose: When you ____ (finish / have finished), come and see me.",
+          "options": null,
+          "canonical": "have finished",
+          "accepted_variants": [
+            "have finished",
+            "have finished.",
+            "Have finished"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex3_i2"
+        },
+        {
+          "prompt": "Choose: I’ll do it after I ____ (eat / have eaten).",
+          "options": null,
+          "canonical": "have eaten",
+          "accepted_variants": [
+            "have eaten",
+            "have eaten.",
+            "Have eaten"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex3_i3"
+        },
+        {
+          "prompt": "Choose: When I ____ (see / have seen) Leo, I’ll tell him. (together)",
+          "options": null,
+          "canonical": "see",
+          "accepted_variants": [
+            "see",
+            "see.",
+            "See"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex3_i4"
+        },
+        {
+          "prompt": "Choose: Don’t switch it on until it ____ (cools / has cooled) down.",
+          "options": null,
+          "canonical": "has cooled",
+          "accepted_variants": [
+            "has cooled",
+            "has cooled.",
+            "Has cooled"
+          ],
+          "rule_keys": [
+            "unit_25_B"
+          ],
+          "item_key": "unit_25_ex3_i5"
+        },
+        {
+          "prompt": "Choose: I’ll speak to her when she ____ (comes / has come) back. (together)",
+          "options": null,
+          "canonical": "comes",
+          "accepted_variants": [
+            "comes",
+            "comes.",
+            "Comes"
+          ],
+          "rule_keys": [
+            "unit_25_A"
+          ],
+          "item_key": "unit_25_ex3_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_25",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with if or when.",
+      "items": [
+        {
+          "prompt": "Complete: ____ I see Dan, I’ll ask him. (if/when = not sure)",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If",
+            "If.",
+            "if",
+            "if",
+            "If"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i1"
+        },
+        {
+          "prompt": "Complete: ____ I see Dan tomorrow, I’ll ask him. (expected)",
+          "options": null,
+          "canonical": "When",
+          "accepted_variants": [
+            "When",
+            "When.",
+            "when",
+            "when",
+            "When"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i2"
+        },
+        {
+          "prompt": "Complete: We’ll stay inside ____ it rains. (possible)",
+          "options": null,
+          "canonical": "if",
+          "accepted_variants": [
+            "if",
+            "if.",
+            "If",
+            "if",
+            "If"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i3"
+        },
+        {
+          "prompt": "Complete: I’ll call you ____ I’m on the train. (expected)",
+          "options": null,
+          "canonical": "when",
+          "accepted_variants": [
+            "when",
+            "when.",
+            "When",
+            "when",
+            "When"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i4"
+        },
+        {
+          "prompt": "Complete: ____ you don’t apologise, I won’t help you. (condition)",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If",
+            "If.",
+            "if",
+            "if",
+            "If"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i5"
+        },
+        {
+          "prompt": "Complete: I’ll tell you ____ I know the answer. (expected)",
+          "options": null,
+          "canonical": "when",
+          "accepted_variants": [
+            "when",
+            "when.",
+            "When",
+            "when",
+            "When"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i6"
+        },
+        {
+          "prompt": "Complete: ____ you’re free later, we can meet for coffee. (possible)",
+          "options": null,
+          "canonical": "If",
+          "accepted_variants": [
+            "If",
+            "If.",
+            "if",
+            "if",
+            "If"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i7"
+        },
+        {
+          "prompt": "Complete: I’ll pay you back ____ I get paid. (expected time)",
+          "options": null,
+          "canonical": "when",
+          "accepted_variants": [
+            "when",
+            "when.",
+            "When",
+            "when",
+            "When"
+          ],
+          "rule_keys": [
+            "unit_25_C"
+          ],
+          "item_key": "unit_25_ex4_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_26",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with can or can't.",
+      "items": [
+        {
+          "prompt": "Complete: I ____ speak French, but not very well.",
+          "options": null,
+          "canonical": "can",
+          "accepted_variants": [
+            "can",
+            "can.",
+            "Can",
+            "can"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i1"
+        },
+        {
+          "prompt": "Complete: ____ you lend me your pen for a minute?",
+          "options": null,
+          "canonical": "Can",
+          "accepted_variants": [
+            "Can",
+            "Can.",
+            "can",
+            "can"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i2"
+        },
+        {
+          "prompt": "Complete: Sorry, you ____ park here. It’s private.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i3"
+        },
+        {
+          "prompt": "Complete: You ____ use my phone if you need to.",
+          "options": null,
+          "canonical": "can",
+          "accepted_variants": [
+            "can",
+            "can.",
+            "Can",
+            "can"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i4"
+        },
+        {
+          "prompt": "Complete: This room is noisy. I ____ concentrate.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i5"
+        },
+        {
+          "prompt": "Complete: ____ we sit here, or is it reserved?",
+          "options": null,
+          "canonical": "Can",
+          "accepted_variants": [
+            "Can",
+            "Can.",
+            "can",
+            "can"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i6"
+        },
+        {
+          "prompt": "Complete: She ____ run 10 km without stopping.",
+          "options": null,
+          "canonical": "can",
+          "accepted_variants": [
+            "can",
+            "can.",
+            "Can",
+            "can"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i7"
+        },
+        {
+          "prompt": "Complete: I ____ come to the meeting tomorrow. I’m busy.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i8"
+        },
+        {
+          "prompt": "Complete: We ____ see the sea from our balcony.",
+          "options": null,
+          "canonical": "can",
+          "accepted_variants": [
+            "can",
+            "can.",
+            "Can",
+            "can"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex1_i9"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_26",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with (be) able to in the correct form.",
+      "items": [
+        {
+          "prompt": "Complete: I haven’t ____ to sleep well lately.",
+          "options": null,
+          "canonical": "been able",
+          "accepted_variants": [
+            "been able",
+            "been able.",
+            "Been able"
+          ],
+          "rule_keys": [
+            "unit_26_B"
+          ],
+          "item_key": "unit_26_ex2_i1"
+        },
+        {
+          "prompt": "Complete: I’ll ____ to meet you after 5.",
+          "options": null,
+          "canonical": "be able",
+          "accepted_variants": [
+            "be able",
+            "be able.",
+            "Be able"
+          ],
+          "rule_keys": [
+            "unit_26_B"
+          ],
+          "item_key": "unit_26_ex2_i2"
+        },
+        {
+          "prompt": "Complete: Have you ever ____ to fix a bike?",
+          "options": null,
+          "canonical": "been able",
+          "accepted_variants": [
+            "been able",
+            "been able.",
+            "Been able"
+          ],
+          "rule_keys": [
+            "unit_26_B"
+          ],
+          "item_key": "unit_26_ex2_i3"
+        },
+        {
+          "prompt": "Complete: I’d like ____ to help, but I can’t.",
+          "options": null,
+          "canonical": "to be able",
+          "accepted_variants": [
+            "to be able",
+            "to be able.",
+            "To be able"
+          ],
+          "rule_keys": [
+            "unit_26_B"
+          ],
+          "item_key": "unit_26_ex2_i4"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_26",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with could / couldn't.",
+      "items": [
+        {
+          "prompt": "Complete: It was quiet, but I ____ hear a dog barking.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex3_i1"
+        },
+        {
+          "prompt": "Complete: I ____ see the sign clearly when I got closer.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex3_i2"
+        },
+        {
+          "prompt": "Complete: We were in the back row, so we ____ not see the screen.",
+          "options": null,
+          "canonical": "couldn't",
+          "accepted_variants": [
+            "couldn't",
+            "couldn't.",
+            "Couldn't",
+            "could not"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex3_i3"
+        },
+        {
+          "prompt": "Complete: She spoke fast and I ____ not understand her.",
+          "options": null,
+          "canonical": "couldn't",
+          "accepted_variants": [
+            "couldn't",
+            "couldn't.",
+            "Couldn't",
+            "could not"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex3_i4"
+        },
+        {
+          "prompt": "Complete: When I was a child, I ____ swim very well.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex3_i5"
+        },
+        {
+          "prompt": "Complete: I was so tired I ____ hardly keep my eyes open.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex3_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_26",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use was/were able to or managed to.",
+      "items": [
+        {
+          "prompt": "Complete: The door was stuck, but I ____ open it in the end.",
+          "options": null,
+          "canonical": "managed to",
+          "accepted_variants": [
+            "managed to",
+            "managed to.",
+            "Managed to"
+          ],
+          "rule_keys": [
+            "unit_26_D"
+          ],
+          "item_key": "unit_26_ex4_i1"
+        },
+        {
+          "prompt": "Complete: The fire was small, and we ____ put it out quickly.",
+          "options": null,
+          "canonical": "were able to",
+          "accepted_variants": [
+            "were able to",
+            "were able to.",
+            "Were able to"
+          ],
+          "rule_keys": [
+            "unit_26_D"
+          ],
+          "item_key": "unit_26_ex4_i2"
+        },
+        {
+          "prompt": "Complete: She ____ find my number after searching online.",
+          "options": null,
+          "canonical": "was able to",
+          "accepted_variants": [
+            "was able to",
+            "was able to.",
+            "Was able to"
+          ],
+          "rule_keys": [
+            "unit_26_D"
+          ],
+          "item_key": "unit_26_ex4_i3"
+        },
+        {
+          "prompt": "Complete: The signal was weak, but we ____ make a call.",
+          "options": null,
+          "canonical": "managed to",
+          "accepted_variants": [
+            "managed to",
+            "managed to.",
+            "Managed to"
+          ],
+          "rule_keys": [
+            "unit_26_D"
+          ],
+          "item_key": "unit_26_ex4_i4"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_26",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with can/can't, could/couldn't, or (be) able to.",
+      "items": [
+        {
+          "prompt": "Complete: I can’t talk now, but I ____ call you later.",
+          "options": null,
+          "canonical": "can",
+          "accepted_variants": [
+            "can",
+            "can.",
+            "Can"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex5_i1"
+        },
+        {
+          "prompt": "Complete: I didn’t have my glasses, so I ____ not read the menu.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex5_i2"
+        },
+        {
+          "prompt": "Complete: I’d love ____ speak Spanish fluently.",
+          "options": null,
+          "canonical": "to be able to",
+          "accepted_variants": [
+            "to be able to",
+            "to be able to.",
+            "To be able to"
+          ],
+          "rule_keys": [
+            "unit_26_B"
+          ],
+          "item_key": "unit_26_ex5_i3"
+        },
+        {
+          "prompt": "Complete: ____ you hear what he said just now?",
+          "options": null,
+          "canonical": "Could",
+          "accepted_variants": [
+            "Could",
+            "Could.",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex5_i4"
+        },
+        {
+          "prompt": "Complete: I’m sorry, I ____ help you today.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot"
+          ],
+          "rule_keys": [
+            "unit_26_A"
+          ],
+          "item_key": "unit_26_ex5_i5"
+        },
+        {
+          "prompt": "Complete: We ____ see the stars last night; the sky was cloudy.",
+          "options": null,
+          "canonical": "couldn't",
+          "accepted_variants": [
+            "couldn't",
+            "couldn't.",
+            "Couldn't"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex5_i6"
+        },
+        {
+          "prompt": "Complete: I’ll ____ to give you an answer tomorrow.",
+          "options": null,
+          "canonical": "be able",
+          "accepted_variants": [
+            "be able",
+            "be able.",
+            "Be able"
+          ],
+          "rule_keys": [
+            "unit_26_B"
+          ],
+          "item_key": "unit_26_ex5_i7"
+        },
+        {
+          "prompt": "Complete: We finally ____ to book a table.",
+          "options": null,
+          "canonical": "managed",
+          "accepted_variants": [
+            "managed",
+            "managed.",
+            "Managed"
+          ],
+          "rule_keys": [
+            "unit_26_D"
+          ],
+          "item_key": "unit_26_ex5_i8"
+        },
+        {
+          "prompt": "Complete: In the end, they ____ escape through a window.",
+          "options": null,
+          "canonical": "were able to",
+          "accepted_variants": [
+            "were able to",
+            "were able to.",
+            "Were able to"
+          ],
+          "rule_keys": [
+            "unit_26_D"
+          ],
+          "item_key": "unit_26_ex5_i9"
+        },
+        {
+          "prompt": "Complete: When I was 18, I ____ run much faster than now.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could"
+          ],
+          "rule_keys": [
+            "unit_26_C"
+          ],
+          "item_key": "unit_26_ex5_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_27",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Write sentences using could.",
+      "items": [
+        {
+          "prompt": "Write a suggestion with could: We don’t know where to eat. ____ go to the new bistro.",
+          "options": null,
+          "canonical": "We could go to the new bistro.",
+          "accepted_variants": [
+            "We could go to the new bistro.",
+            "We could go to the new bistro",
+            "we could go to the new bistro."
+          ],
+          "rule_keys": [
+            "unit_27_A"
+          ],
+          "item_key": "unit_27_ex1_i1"
+        },
+        {
+          "prompt": "Write a suggestion: It’s hot in here. We ____ open a window.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could"
+          ],
+          "rule_keys": [
+            "unit_27_A"
+          ],
+          "item_key": "unit_27_ex1_i2"
+        },
+        {
+          "prompt": "Write a suggestion: You’re not sure. You ____ ask the receptionist.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could"
+          ],
+          "rule_keys": [
+            "unit_27_A"
+          ],
+          "item_key": "unit_27_ex1_i3"
+        },
+        {
+          "prompt": "Write: Give a possible reason: He’s late. He ____ be stuck in traffic.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex1_i4"
+        },
+        {
+          "prompt": "Write: Less sure than can: It ____ rain later.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex1_i5"
+        },
+        {
+          "prompt": "Write: Unreal exaggeration: I’m so hungry I ____ eat a horse.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could"
+          ],
+          "rule_keys": [
+            "unit_27_B"
+          ],
+          "item_key": "unit_27_ex1_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_27",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with could / couldn't.",
+      "items": [
+        {
+          "prompt": "Complete: Be careful. The floor ____ be wet.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex2_i1"
+        },
+        {
+          "prompt": "Complete: It ____ get worse, so keep the receipt.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex2_i2"
+        },
+        {
+          "prompt": "Complete: I’m not sure what to do. I ____ talk to my tutor.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_27_A"
+          ],
+          "item_key": "unit_27_ex2_i3"
+        },
+        {
+          "prompt": "Complete: I’m so tired I ____ fall asleep on the bus.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_27_B"
+          ],
+          "item_key": "unit_27_ex2_i4"
+        },
+        {
+          "prompt": "Complete: He ____ be at work; it’s Sunday.",
+          "options": null,
+          "canonical": "couldn't",
+          "accepted_variants": [
+            "couldn't",
+            "couldn't.",
+            "Couldn't",
+            "could not"
+          ],
+          "rule_keys": [
+            "unit_27_E"
+          ],
+          "item_key": "unit_27_ex2_i5"
+        },
+        {
+          "prompt": "Complete: The meeting ____ finish early, but I’m not certain.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex2_i6"
+        },
+        {
+          "prompt": "Complete: I ____ not hear you. The music was loud.",
+          "options": null,
+          "canonical": "couldn't",
+          "accepted_variants": [
+            "couldn't",
+            "couldn't.",
+            "Couldn't",
+            "could not"
+          ],
+          "rule_keys": [
+            "unit_27_A"
+          ],
+          "item_key": "unit_27_ex2_i7"
+        },
+        {
+          "prompt": "Complete: She ____ be the person you saw — she looks similar.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex2_i8"
+        },
+        {
+          "prompt": "Complete: The plan ____ change at the last minute.",
+          "options": null,
+          "canonical": "could",
+          "accepted_variants": [
+            "could",
+            "could.",
+            "Could",
+            "could"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex2_i9"
+        },
+        {
+          "prompt": "Complete: He ____ do it yesterday because he was ill.",
+          "options": null,
+          "canonical": "couldn't",
+          "accepted_variants": [
+            "couldn't",
+            "couldn't.",
+            "Couldn't",
+            "could not"
+          ],
+          "rule_keys": [
+            "unit_27_E"
+          ],
+          "item_key": "unit_27_ex2_i10"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_27",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "General truth vs this situation: Choose the better sentence.",
+          "options": [
+            "Prices can change quickly.",
+            "Prices could change quickly."
+          ],
+          "canonical": "Prices can change quickly.",
+          "accepted_variants": [
+            "Prices can change quickly.",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex3_i1"
+        },
+        {
+          "prompt": "Specific situation: You’re not sure if the plan will stay the same. Choose.",
+          "options": [
+            "The plan can change.",
+            "The plan could change."
+          ],
+          "canonical": "The plan could change.",
+          "accepted_variants": [
+            "The plan could change.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex3_i2"
+        },
+        {
+          "prompt": "Suggestion: Choose the better sentence.",
+          "options": [
+            "We can go by taxi.",
+            "We could go by taxi."
+          ],
+          "canonical": "We could go by taxi.",
+          "accepted_variants": [
+            "We could go by taxi.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_27_A"
+          ],
+          "item_key": "unit_27_ex3_i3"
+        },
+        {
+          "prompt": "Unreal exaggeration: Choose the better sentence.",
+          "options": [
+            "I can sleep for 24 hours.",
+            "I could sleep for 24 hours."
+          ],
+          "canonical": "I could sleep for 24 hours.",
+          "accepted_variants": [
+            "I could sleep for 24 hours.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_27_B"
+          ],
+          "item_key": "unit_27_ex3_i4"
+        },
+        {
+          "prompt": "Possibility now: Choose.",
+          "options": [
+            "It can be my phone.",
+            "It could be my phone."
+          ],
+          "canonical": "It could be my phone.",
+          "accepted_variants": [
+            "It could be my phone.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex3_i5"
+        },
+        {
+          "prompt": "Not possible: Choose.",
+          "options": [
+            "He couldn't be 12; he’s an adult.",
+            "He might not be 12; he’s an adult."
+          ],
+          "canonical": "He couldn't be 12; he’s an adult.",
+          "accepted_variants": [
+            "He couldn't be 12; he’s an adult.",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_27_E"
+          ],
+          "item_key": "unit_27_ex3_i6"
+        },
+        {
+          "prompt": "Advice: Choose.",
+          "options": [
+            "You can talk to the manager.",
+            "You could talk to the manager."
+          ],
+          "canonical": "You could talk to the manager.",
+          "accepted_variants": [
+            "You could talk to the manager.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_27_A"
+          ],
+          "item_key": "unit_27_ex3_i7"
+        },
+        {
+          "prompt": "Possibility later: Choose.",
+          "options": [
+            "Traffic can be heavy at 6.",
+            "Traffic could be heavy at 6."
+          ],
+          "canonical": "Traffic could be heavy at 6.",
+          "accepted_variants": [
+            "Traffic could be heavy at 6.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_27_C"
+          ],
+          "item_key": "unit_27_ex3_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_27",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with could have / couldn't have.",
+      "items": [
+        {
+          "prompt": "Complete: You ____ told me earlier. I didn’t know! (could have)",
+          "options": null,
+          "canonical": "could have",
+          "accepted_variants": [
+            "could have",
+            "could have.",
+            "Could have",
+            "could have"
+          ],
+          "rule_keys": [
+            "unit_27_D"
+          ],
+          "item_key": "unit_27_ex4_i1"
+        },
+        {
+          "prompt": "Complete: I ____ missed the bus, but I left early. (could have)",
+          "options": null,
+          "canonical": "could have",
+          "accepted_variants": [
+            "could have",
+            "could have.",
+            "Could have",
+            "could have"
+          ],
+          "rule_keys": [
+            "unit_27_D"
+          ],
+          "item_key": "unit_27_ex4_i2"
+        },
+        {
+          "prompt": "Complete: They ____ won, but they played badly. (could have)",
+          "options": null,
+          "canonical": "could have",
+          "accepted_variants": [
+            "could have",
+            "could have.",
+            "Could have",
+            "could have"
+          ],
+          "rule_keys": [
+            "unit_27_D"
+          ],
+          "item_key": "unit_27_ex4_i3"
+        },
+        {
+          "prompt": "Complete: You ____ hurt yourself. Be more careful. (could have)",
+          "options": null,
+          "canonical": "could have",
+          "accepted_variants": [
+            "could have",
+            "could have.",
+            "Could have",
+            "could have"
+          ],
+          "rule_keys": [
+            "unit_27_D"
+          ],
+          "item_key": "unit_27_ex4_i4"
+        },
+        {
+          "prompt": "Complete: It ____ been John. He was abroad. (couldn't have)",
+          "options": null,
+          "canonical": "couldn't have",
+          "accepted_variants": [
+            "couldn't have",
+            "couldn't have.",
+            "Couldn't have",
+            "could not have"
+          ],
+          "rule_keys": [
+            "unit_27_E"
+          ],
+          "item_key": "unit_27_ex4_i5"
+        },
+        {
+          "prompt": "Complete: She ____ seen us; she was looking the other way. (couldn't have)",
+          "options": null,
+          "canonical": "couldn't have",
+          "accepted_variants": [
+            "couldn't have",
+            "couldn't have.",
+            "Couldn't have",
+            "could not have"
+          ],
+          "rule_keys": [
+            "unit_27_E"
+          ],
+          "item_key": "unit_27_ex4_i6"
+        },
+        {
+          "prompt": "Complete: The keys ____ disappeared. You had them a minute ago. (could have)",
+          "options": null,
+          "canonical": "could have",
+          "accepted_variants": [
+            "could have",
+            "could have.",
+            "Could have",
+            "could have"
+          ],
+          "rule_keys": [
+            "unit_27_D"
+          ],
+          "item_key": "unit_27_ex4_i7"
+        },
+        {
+          "prompt": "Complete: He ____ finished already; he started five minutes ago. (couldn't have)",
+          "options": null,
+          "canonical": "couldn't have",
+          "accepted_variants": [
+            "couldn't have",
+            "couldn't have.",
+            "Couldn't have",
+            "could not have"
+          ],
+          "rule_keys": [
+            "unit_27_E"
+          ],
+          "item_key": "unit_27_ex4_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_28",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with must or can't.",
+      "items": [
+        {
+          "prompt": "Complete: You’ve been working since 6 a.m. You ____ be exhausted.",
+          "options": null,
+          "canonical": "must",
+          "accepted_variants": [
+            "must",
+            "must.",
+            "Must",
+            "must"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i1"
+        },
+        {
+          "prompt": "Complete: The lights are off and nobody answers. They ____ be at home.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i2"
+        },
+        {
+          "prompt": "Complete: She knows all the details. She ____ have spoken to Mark.",
+          "options": null,
+          "canonical": "must",
+          "accepted_variants": [
+            "must",
+            "must.",
+            "Must",
+            "must"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i3"
+        },
+        {
+          "prompt": "Complete: That ____ be true. I saw the opposite with my own eyes.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i4"
+        },
+        {
+          "prompt": "Complete: You ____ be joking. (I’m sure)",
+          "options": null,
+          "canonical": "must",
+          "accepted_variants": [
+            "must",
+            "must.",
+            "Must",
+            "must"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i5"
+        },
+        {
+          "prompt": "Complete: He just said he’s 12, but he ____ be 12. He looks 25.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i6"
+        },
+        {
+          "prompt": "Complete: This ____ be the right address; the numbers don’t match.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i7"
+        },
+        {
+          "prompt": "Complete: She ____ be very rich. She owns three houses.",
+          "options": null,
+          "canonical": "must",
+          "accepted_variants": [
+            "must",
+            "must.",
+            "Must",
+            "must"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i8"
+        },
+        {
+          "prompt": "Complete: He ____ be hungry; he’s eaten a huge meal.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i9"
+        },
+        {
+          "prompt": "Complete: The exam was easy. It ____ be hard for you.",
+          "options": null,
+          "canonical": "can't",
+          "accepted_variants": [
+            "can't",
+            "can't.",
+            "Can't",
+            "cannot",
+            "can't"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i10"
+        },
+        {
+          "prompt": "Complete: They ____ be friends; they’ve known each other for years.",
+          "options": null,
+          "canonical": "must",
+          "accepted_variants": [
+            "must",
+            "must.",
+            "Must",
+            "must"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex1_i11"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_28",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences about the past.",
+      "items": [
+        {
+          "prompt": "Complete: She isn’t answering. She ____ have forgotten about the meeting.",
+          "options": null,
+          "canonical": "must have",
+          "accepted_variants": [
+            "must have",
+            "must have.",
+            "Must have",
+            "must have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i1"
+        },
+        {
+          "prompt": "Complete: He ____ have seen you; he was facing the other way.",
+          "options": null,
+          "canonical": "can't have",
+          "accepted_variants": [
+            "can't have",
+            "can't have.",
+            "Can't have",
+            "cannot have",
+            "ca not have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i2"
+        },
+        {
+          "prompt": "Complete: They arrived at 9, so they ____ have left after 8.",
+          "options": null,
+          "canonical": "must have",
+          "accepted_variants": [
+            "must have",
+            "must have.",
+            "Must have",
+            "must have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i3"
+        },
+        {
+          "prompt": "Complete: You ____ have locked the door. It’s still open.",
+          "options": null,
+          "canonical": "can't have",
+          "accepted_variants": [
+            "can't have",
+            "can't have.",
+            "Can't have",
+            "cannot have",
+            "ca not have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i4"
+        },
+        {
+          "prompt": "Complete: The files are missing. Someone ____ have deleted them.",
+          "options": null,
+          "canonical": "must have",
+          "accepted_variants": [
+            "must have",
+            "must have.",
+            "Must have",
+            "must have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i5"
+        },
+        {
+          "prompt": "Complete: She ____ have finished already; she started ten minutes ago.",
+          "options": null,
+          "canonical": "can't have",
+          "accepted_variants": [
+            "can't have",
+            "can't have.",
+            "Can't have",
+            "cannot have",
+            "ca not have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i6"
+        },
+        {
+          "prompt": "Complete: He looks relaxed. He ____ have had a good holiday.",
+          "options": null,
+          "canonical": "must have",
+          "accepted_variants": [
+            "must have",
+            "must have.",
+            "Must have",
+            "must have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i7"
+        },
+        {
+          "prompt": "Complete: That ____ have been Sam. Sam is in Canada.",
+          "options": null,
+          "canonical": "couldn't have",
+          "accepted_variants": [
+            "couldn't have",
+            "couldn't have.",
+            "Couldn't have",
+            "could not have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i8"
+        },
+        {
+          "prompt": "Complete: I ____ have left my keys on the bus. I can’t find them.",
+          "options": null,
+          "canonical": "must have",
+          "accepted_variants": [
+            "must have",
+            "must have.",
+            "Must have",
+            "must have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i9"
+        },
+        {
+          "prompt": "Complete: The window is broken. Someone ____ have thrown a stone.",
+          "options": null,
+          "canonical": "must have",
+          "accepted_variants": [
+            "must have",
+            "must have.",
+            "Must have",
+            "must have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i10"
+        },
+        {
+          "prompt": "Complete: She ____ have heard you; the music was very loud.",
+          "options": null,
+          "canonical": "couldn't have",
+          "accepted_variants": [
+            "couldn't have",
+            "couldn't have.",
+            "Couldn't have",
+            "could not have"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex2_i11"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_28",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Rewrite using must / can't (and must have / can't have).",
+      "items": [
+        {
+          "prompt": "Rewrite using must: I’m sure he is tired. -> He ____.",
+          "options": null,
+          "canonical": "must be tired",
+          "accepted_variants": [
+            "must be tired",
+            "must be tired.",
+            "Must be tired"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex3_i1"
+        },
+        {
+          "prompt": "Rewrite using can't: I’m sure she isn’t at work. -> She ____.",
+          "options": null,
+          "canonical": "can't be at work",
+          "accepted_variants": [
+            "can't be at work",
+            "can't be at work.",
+            "Can't be at work",
+            "cannot be at work"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex3_i2"
+        },
+        {
+          "prompt": "Rewrite using must have: I’m sure they forgot. -> They ____.",
+          "options": null,
+          "canonical": "must have forgotten",
+          "accepted_variants": [
+            "must have forgotten",
+            "must have forgotten.",
+            "Must have forgotten"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex3_i3"
+        },
+        {
+          "prompt": "Rewrite using can't have: I’m sure he didn’t see us. -> He ____.",
+          "options": null,
+          "canonical": "can't have seen us",
+          "accepted_variants": [
+            "can't have seen us",
+            "can't have seen us.",
+            "Can't have seen us",
+            "cannot have seen us"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex3_i4"
+        },
+        {
+          "prompt": "Rewrite: I’m sure it was a mistake. -> It ____.",
+          "options": null,
+          "canonical": "must have been a mistake",
+          "accepted_variants": [
+            "must have been a mistake",
+            "must have been a mistake.",
+            "Must have been a mistake"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex3_i5"
+        },
+        {
+          "prompt": "Rewrite: I’m sure she isn’t joking. -> She ____.",
+          "options": null,
+          "canonical": "can't be joking",
+          "accepted_variants": [
+            "can't be joking",
+            "can't be joking.",
+            "Can't be joking",
+            "cannot be joking"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex3_i6"
+        },
+        {
+          "prompt": "Rewrite: I’m sure you didn’t hear me. -> You ____.",
+          "options": null,
+          "canonical": "couldn't have heard me",
+          "accepted_variants": [
+            "couldn't have heard me",
+            "couldn't have heard me.",
+            "Couldn't have heard me"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex3_i7"
+        },
+        {
+          "prompt": "Rewrite: I’m sure this is the wrong key. -> This ____.",
+          "options": null,
+          "canonical": "can't be the right key",
+          "accepted_variants": [
+            "can't be the right key",
+            "can't be the right key.",
+            "Can't be the right key",
+            "cannot be the right key"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex3_i8"
+        },
+        {
+          "prompt": "Rewrite: I’m sure he’s the manager. -> He ____.",
+          "options": null,
+          "canonical": "must be the manager",
+          "accepted_variants": [
+            "must be the manager",
+            "must be the manager.",
+            "Must be the manager"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex3_i9"
+        },
+        {
+          "prompt": "Rewrite: I’m sure they left early. -> They ____.",
+          "options": null,
+          "canonical": "must have left early",
+          "accepted_variants": [
+            "must have left early",
+            "must have left early.",
+            "Must have left early"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex3_i10"
+        },
+        {
+          "prompt": "Rewrite: I’m sure it wasn’t cheap. -> It ____.",
+          "options": null,
+          "canonical": "can't have been cheap",
+          "accepted_variants": [
+            "can't have been cheap",
+            "can't have been cheap.",
+            "Can't have been cheap",
+            "cannot have been cheap"
+          ],
+          "rule_keys": [
+            "unit_28_B"
+          ],
+          "item_key": "unit_28_ex3_i11"
+        },
+        {
+          "prompt": "Rewrite: I’m sure she is busy. -> She ____.",
+          "options": null,
+          "canonical": "must be busy",
+          "accepted_variants": [
+            "must be busy",
+            "must be busy.",
+            "Must be busy"
+          ],
+          "rule_keys": [
+            "unit_28_A"
+          ],
+          "item_key": "unit_28_ex3_i12"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_29",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with may/might (or maybe / may be).",
+      "items": [
+        {
+          "prompt": "Complete: Where’s Anna? She ____ be in the library.",
+          "options": null,
+          "canonical": "may",
+          "accepted_variants": [
+            "may",
+            "may.",
+            "May",
+            "may"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i1"
+        },
+        {
+          "prompt": "Complete: It ____ rain later, so take a jacket.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might",
+            "might"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i2"
+        },
+        {
+          "prompt": "Complete: He ____ not know about the change.",
+          "options": null,
+          "canonical": "may not",
+          "accepted_variants": [
+            "may not",
+            "may not.",
+            "May not",
+            "may not"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i3"
+        },
+        {
+          "prompt": "Complete: She ____ not want to come with us.",
+          "options": null,
+          "canonical": "might not",
+          "accepted_variants": [
+            "might not",
+            "might not.",
+            "Might not",
+            "mightn't",
+            "might not"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i4"
+        },
+        {
+          "prompt": "Complete: ____ we should leave now. (one word)",
+          "options": null,
+          "canonical": "Maybe",
+          "accepted_variants": [
+            "Maybe",
+            "Maybe.",
+            "maybe",
+            "maybe"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i5"
+        },
+        {
+          "prompt": "Complete: He ____ busy. (two words)",
+          "options": null,
+          "canonical": "may be",
+          "accepted_variants": [
+            "may be",
+            "may be.",
+            "May be",
+            "may be"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i6"
+        },
+        {
+          "prompt": "Complete: This ____ be the wrong address.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might",
+            "might"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i7"
+        },
+        {
+          "prompt": "Complete: I ____ be late; there’s traffic.",
+          "options": null,
+          "canonical": "may",
+          "accepted_variants": [
+            "may",
+            "may.",
+            "May",
+            "may"
+          ],
+          "rule_keys": [
+            "unit_29_A"
+          ],
+          "item_key": "unit_29_ex1_i8"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_29",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences about the past with may/might have.",
+      "items": [
+        {
+          "prompt": "Complete: She isn’t here. She ____ have gone home early.",
+          "options": null,
+          "canonical": "may have",
+          "accepted_variants": [
+            "may have",
+            "may have.",
+            "May have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i1"
+        },
+        {
+          "prompt": "Complete: I can’t find my keys. I ____ have left them at work.",
+          "options": null,
+          "canonical": "might have",
+          "accepted_variants": [
+            "might have",
+            "might have.",
+            "Might have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i2"
+        },
+        {
+          "prompt": "Complete: He ____ not have heard you. The room was noisy.",
+          "options": null,
+          "canonical": "may not have",
+          "accepted_variants": [
+            "may not have",
+            "may not have.",
+            "May not have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i3"
+        },
+        {
+          "prompt": "Complete: They ____ have missed the train, so they took a taxi.",
+          "options": null,
+          "canonical": "might have",
+          "accepted_variants": [
+            "might have",
+            "might have.",
+            "Might have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i4"
+        },
+        {
+          "prompt": "Complete: I’m not sure. I ____ have sent it to the wrong email address.",
+          "options": null,
+          "canonical": "may have",
+          "accepted_variants": [
+            "may have",
+            "may have.",
+            "May have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i5"
+        },
+        {
+          "prompt": "Complete: She looks upset. Something ____ have happened.",
+          "options": null,
+          "canonical": "might have",
+          "accepted_variants": [
+            "might have",
+            "might have.",
+            "Might have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i6"
+        },
+        {
+          "prompt": "Complete: He ____ not have understood the instructions.",
+          "options": null,
+          "canonical": "might not have",
+          "accepted_variants": [
+            "might not have",
+            "might not have.",
+            "Might not have",
+            "mightn't have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i7"
+        },
+        {
+          "prompt": "Complete: The package ____ have arrived already. Check the mailbox.",
+          "options": null,
+          "canonical": "may have",
+          "accepted_variants": [
+            "may have",
+            "may have.",
+            "May have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i8"
+        },
+        {
+          "prompt": "Complete: We ____ have met before, but I’m not sure.",
+          "options": null,
+          "canonical": "might have",
+          "accepted_variants": [
+            "might have",
+            "might have.",
+            "Might have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i9"
+        },
+        {
+          "prompt": "Complete: The dog ____ have eaten the sandwich. It’s gone.",
+          "options": null,
+          "canonical": "may have",
+          "accepted_variants": [
+            "may have",
+            "may have.",
+            "May have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i10"
+        },
+        {
+          "prompt": "Complete: They ____ not have received my message.",
+          "options": null,
+          "canonical": "may not have",
+          "accepted_variants": [
+            "may not have",
+            "may not have.",
+            "May not have"
+          ],
+          "rule_keys": [
+            "unit_29_B"
+          ],
+          "item_key": "unit_29_ex2_i11"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_29",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "Choose the correct meaning (possible):",
+          "options": [
+            "It could be true.",
+            "It couldn't be true."
+          ],
+          "canonical": "It could be true.",
+          "accepted_variants": [
+            "It could be true.",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_29_C"
+          ],
+          "item_key": "unit_29_ex3_i1"
+        },
+        {
+          "prompt": "Choose the correct sentence for 'impossible':",
+          "options": [
+            "He might not be 20.",
+            "He couldn't be 20."
+          ],
+          "canonical": "He couldn't be 20.",
+          "accepted_variants": [
+            "He couldn't be 20.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_29_C"
+          ],
+          "item_key": "unit_29_ex3_i2"
+        },
+        {
+          "prompt": "Choose the best sentence: I'm not sure who it is.",
+          "options": [
+            "It could be Leo.",
+            "It couldn't be Leo."
+          ],
+          "canonical": "It could be Leo.",
+          "accepted_variants": [
+            "It could be Leo.",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_29_C"
+          ],
+          "item_key": "unit_29_ex3_i3"
+        },
+        {
+          "prompt": "Choose the best sentence: I'm sure it isn't my phone; mine is on the table.",
+          "options": [
+            "It might not be my phone.",
+            "It couldn't be my phone."
+          ],
+          "canonical": "It couldn't be my phone.",
+          "accepted_variants": [
+            "It couldn't be my phone.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_29_C"
+          ],
+          "item_key": "unit_29_ex3_i4"
+        },
+        {
+          "prompt": "Choose the best: It's possible she doesn't know.",
+          "options": [
+            "She couldn't know.",
+            "She might not know."
+          ],
+          "canonical": "She might not know.",
+          "accepted_variants": [
+            "She might not know.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_29_C"
+          ],
+          "item_key": "unit_29_ex3_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_30",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct option.",
+      "items": [
+        {
+          "prompt": "Choose the better sentence for a possibility (not a definite plan).",
+          "options": [
+            "I will go out later.",
+            "I might go out later."
+          ],
+          "canonical": "I might go out later.",
+          "accepted_variants": [
+            "I might go out later.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_30_A"
+          ],
+          "item_key": "unit_30_ex1_i1"
+        },
+        {
+          "prompt": "Choose the better sentence (possible rain).",
+          "options": [
+            "It will rain this afternoon.",
+            "It may rain this afternoon."
+          ],
+          "canonical": "It may rain this afternoon.",
+          "accepted_variants": [
+            "It may rain this afternoon.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_30_A"
+          ],
+          "item_key": "unit_30_ex1_i2"
+        },
+        {
+          "prompt": "Choose the better sentence (not certain).",
+          "options": [
+            "We will need to wait.",
+            "We might need to wait."
+          ],
+          "canonical": "We might need to wait.",
+          "accepted_variants": [
+            "We might need to wait.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_30_A"
+          ],
+          "item_key": "unit_30_ex1_i3"
+        },
+        {
+          "prompt": "Choose the better sentence for an unreal situation.",
+          "options": [
+            "If I had more free time, I may travel more.",
+            "If I had more free time, I might travel more."
+          ],
+          "canonical": "If I had more free time, I might travel more.",
+          "accepted_variants": [
+            "If I had more free time, I might travel more.",
+            "b",
+            "B"
+          ],
+          "rule_keys": [
+            "unit_30_B"
+          ],
+          "item_key": "unit_30_ex1_i4"
+        },
+        {
+          "prompt": "Choose the better sentence (no better alternative).",
+          "options": [
+            "We might as well walk.",
+            "We will as well walk."
+          ],
+          "canonical": "We might as well walk.",
+          "accepted_variants": [
+            "We might as well walk.",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_30_D"
+          ],
+          "item_key": "unit_30_ex1_i5"
+        },
+        {
+          "prompt": "Choose the better sentence (possible activity at 8).",
+          "options": [
+            "At 8, I might be working.",
+            "At 8, I will be working. (not sure)"
+          ],
+          "canonical": "At 8, I might be working.",
+          "accepted_variants": [
+            "At 8, I might be working.",
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_30_C"
+          ],
+          "item_key": "unit_30_ex1_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_30",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with might (unreal situations).",
+      "items": [
+        {
+          "prompt": "Complete: If I knew her number, I ____ call her.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_B"
+          ],
+          "item_key": "unit_30_ex2_i1"
+        },
+        {
+          "prompt": "Complete: If I were you, I ____ not accept that offer.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_B"
+          ],
+          "item_key": "unit_30_ex2_i2"
+        },
+        {
+          "prompt": "Complete: If they paid more, I ____ stay longer.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_B"
+          ],
+          "item_key": "unit_30_ex2_i3"
+        },
+        {
+          "prompt": "Complete: If the weather was better, we ____ go hiking.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_B"
+          ],
+          "item_key": "unit_30_ex2_i4"
+        },
+        {
+          "prompt": "Complete: If I had a car, I ____ drive to work.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_B"
+          ],
+          "item_key": "unit_30_ex2_i5"
+        },
+        {
+          "prompt": "Complete: If he spoke slower, I ____ understand him.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_B"
+          ],
+          "item_key": "unit_30_ex2_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_30",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete using may/might be -ing.",
+      "items": [
+        {
+          "prompt": "Complete: Don’t call at 9. I ____ (possible plan: study).",
+          "options": null,
+          "canonical": "might be studying",
+          "accepted_variants": [
+            "might be studying",
+            "might be studying.",
+            "Might be studying"
+          ],
+          "rule_keys": [
+            "unit_30_C"
+          ],
+          "item_key": "unit_30_ex3_i1"
+        },
+        {
+          "prompt": "Complete: Tomorrow morning she ____ (possible: meet a client).",
+          "options": null,
+          "canonical": "may be meeting a client",
+          "accepted_variants": [
+            "may be meeting a client",
+            "may be meeting a client.",
+            "May be meeting a client"
+          ],
+          "rule_keys": [
+            "unit_30_C"
+          ],
+          "item_key": "unit_30_ex3_i2"
+        },
+        {
+          "prompt": "Complete: At this time next week, we ____ (possible: travel).",
+          "options": null,
+          "canonical": "might be travelling",
+          "accepted_variants": [
+            "might be travelling",
+            "might be travelling.",
+            "Might be travelling"
+          ],
+          "rule_keys": [
+            "unit_30_C"
+          ],
+          "item_key": "unit_30_ex3_i3"
+        },
+        {
+          "prompt": "Complete: On Saturday he ____ (possible: work).",
+          "options": null,
+          "canonical": "might be working",
+          "accepted_variants": [
+            "might be working",
+            "might be working.",
+            "Might be working"
+          ],
+          "rule_keys": [
+            "unit_30_C"
+          ],
+          "item_key": "unit_30_ex3_i4"
+        },
+        {
+          "prompt": "Complete: They ____ (possible: stay with friends).",
+          "options": null,
+          "canonical": "may be staying with friends",
+          "accepted_variants": [
+            "may be staying with friends",
+            "may be staying with friends.",
+            "May be staying with friends"
+          ],
+          "rule_keys": [
+            "unit_30_C"
+          ],
+          "item_key": "unit_30_ex3_i5"
+        },
+        {
+          "prompt": "Complete: At 6 p.m., I ____ (possible: have dinner).",
+          "options": null,
+          "canonical": "might be having dinner",
+          "accepted_variants": [
+            "might be having dinner",
+            "might be having dinner.",
+            "Might be having dinner"
+          ],
+          "rule_keys": [
+            "unit_30_C"
+          ],
+          "item_key": "unit_30_ex3_i6"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_30",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with might as well / may as well.",
+      "items": [
+        {
+          "prompt": "Complete: The bus has gone, so we ____ walk.",
+          "options": null,
+          "canonical": "might as well",
+          "accepted_variants": [
+            "might as well",
+            "might as well.",
+            "Might as well"
+          ],
+          "rule_keys": [
+            "unit_30_D"
+          ],
+          "item_key": "unit_30_ex4_i1"
+        },
+        {
+          "prompt": "Complete: It’s already late. We ____ stay here tonight.",
+          "options": null,
+          "canonical": "might as well",
+          "accepted_variants": [
+            "might as well",
+            "might as well.",
+            "Might as well"
+          ],
+          "rule_keys": [
+            "unit_30_D"
+          ],
+          "item_key": "unit_30_ex4_i2"
+        },
+        {
+          "prompt": "Complete: I’m waiting anyway, so I ____ read a book.",
+          "options": null,
+          "canonical": "may as well",
+          "accepted_variants": [
+            "may as well",
+            "may as well.",
+            "May as well"
+          ],
+          "rule_keys": [
+            "unit_30_D"
+          ],
+          "item_key": "unit_30_ex4_i3"
+        },
+        {
+          "prompt": "Complete: Nobody is using this table, so we ____ sit here.",
+          "options": null,
+          "canonical": "may as well",
+          "accepted_variants": [
+            "may as well",
+            "may as well.",
+            "May as well"
+          ],
+          "rule_keys": [
+            "unit_30_D"
+          ],
+          "item_key": "unit_30_ex4_i4"
+        },
+        {
+          "prompt": "Complete: The shop is open, so I ____ go in.",
+          "options": null,
+          "canonical": "may as well",
+          "accepted_variants": [
+            "may as well",
+            "may as well.",
+            "May as well"
+          ],
+          "rule_keys": [
+            "unit_30_D"
+          ],
+          "item_key": "unit_30_ex4_i5"
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_30",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences.",
+      "items": [
+        {
+          "prompt": "Complete: I ____ go to the gym later, but I’m not sure.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_A"
+          ],
+          "item_key": "unit_30_ex5_i1"
+        },
+        {
+          "prompt": "Complete: He ____ not come. He’s feeling ill.",
+          "options": null,
+          "canonical": "may",
+          "accepted_variants": [
+            "may",
+            "may.",
+            "May"
+          ],
+          "rule_keys": [
+            "unit_30_A"
+          ],
+          "item_key": "unit_30_ex5_i2"
+        },
+        {
+          "prompt": "Complete: We ____ have to cancel if the weather is bad.",
+          "options": null,
+          "canonical": "might",
+          "accepted_variants": [
+            "might",
+            "might.",
+            "Might"
+          ],
+          "rule_keys": [
+            "unit_30_A"
+          ],
+          "item_key": "unit_30_ex5_i3"
+        },
+        {
+          "prompt": "Complete: We’ve got time, so we ____ take a different route.",
+          "options": null,
+          "canonical": "may as well",
+          "accepted_variants": [
+            "may as well",
+            "may as well.",
+            "May as well"
+          ],
+          "rule_keys": [
+            "unit_30_D"
+          ],
+          "item_key": "unit_30_ex5_i4"
+        }
+      ]
+    }
+  ]
+}

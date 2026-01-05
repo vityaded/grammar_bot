@@ -1,0 +1,6440 @@
+{
+  "version": "v2",
+  "units": "101-110",
+  "exercises": [
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Choose good or well to complete each sentence.",
+      "items": [
+        {
+          "item_key": "unit_101_ex1_i1",
+          "prompt": "1) She speaks English very ____.",
+          "options": null,
+          "canonical": "well",
+          "accepted_variants": [
+            "well",
+            "well,",
+            "well!",
+            "Well,",
+            "well.",
+            "well?",
+            "Well",
+            "Well!",
+            "Well?",
+            "Well."
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex1_i2",
+          "prompt": "2) The film was ____ but a little long.",
+          "options": null,
+          "canonical": "good",
+          "accepted_variants": [
+            "good",
+            "Good",
+            "good.",
+            "Good!",
+            "Good.",
+            "Good,",
+            "good?",
+            "good!",
+            "Good?",
+            "good,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex1_i3",
+          "prompt": "3) You did ____ on the driving test.",
+          "options": null,
+          "canonical": "well",
+          "accepted_variants": [
+            "well",
+            "well,",
+            "well!",
+            "Well,",
+            "well.",
+            "well?",
+            "Well",
+            "Well!",
+            "Well?",
+            "Well."
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex1_i4",
+          "prompt": "4) It’s a ____ idea to leave early.",
+          "options": null,
+          "canonical": "good",
+          "accepted_variants": [
+            "good",
+            "Good",
+            "good.",
+            "Good!",
+            "Good.",
+            "Good,",
+            "good?",
+            "good!",
+            "Good?",
+            "good,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex1_i5",
+          "prompt": "5) I didn’t sleep ____ last night.",
+          "options": null,
+          "canonical": "well",
+          "accepted_variants": [
+            "well",
+            "well,",
+            "well!",
+            "Well,",
+            "well.",
+            "well?",
+            "Well",
+            "Well!",
+            "Well?",
+            "Well."
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex1_i6",
+          "prompt": "6) He’s a ____ cook, but he doesn’t cook often.",
+          "options": null,
+          "canonical": "good",
+          "accepted_variants": [
+            "good",
+            "Good",
+            "good.",
+            "Good!",
+            "Good.",
+            "Good,",
+            "good?",
+            "good!",
+            "Good?",
+            "good,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex1_i7",
+          "prompt": "7) The kids behaved ____ during the trip.",
+          "options": null,
+          "canonical": "well",
+          "accepted_variants": [
+            "well",
+            "well,",
+            "well!",
+            "Well,",
+            "well.",
+            "well?",
+            "Well",
+            "Well!",
+            "Well?",
+            "Well."
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex1_i8",
+          "prompt": "8) Your pronunciation is really ____.",
+          "options": null,
+          "canonical": "good",
+          "accepted_variants": [
+            "good",
+            "Good",
+            "good.",
+            "Good!",
+            "Good.",
+            "Good,",
+            "good?",
+            "good!",
+            "Good?",
+            "good,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Make compound adjectives with well- (use a hyphen).",
+      "items": [
+        {
+          "item_key": "unit_101_ex2_i1",
+          "prompt": "1) Complete with a compound adjective: known → ____.",
+          "options": null,
+          "canonical": "well-known",
+          "accepted_variants": [
+            "well-known",
+            "well-known.",
+            "well-known!",
+            "Well-known?",
+            "Well-known,",
+            "Well-known",
+            "well-known?",
+            "Well-known!",
+            "Well-known.",
+            "well-known,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex2_i2",
+          "prompt": "2) Complete with a compound adjective: paid → ____.",
+          "options": null,
+          "canonical": "well-paid",
+          "accepted_variants": [
+            "well-paid",
+            "well-paid,",
+            "Well-paid!",
+            "well-paid?",
+            "Well-paid?",
+            "Well-paid.",
+            "well-paid.",
+            "Well-paid",
+            "Well-paid,",
+            "well-paid!"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex2_i3",
+          "prompt": "3) Complete with a compound adjective: educated → ____.",
+          "options": null,
+          "canonical": "well-educated",
+          "accepted_variants": [
+            "well-educated",
+            "Well-educated!",
+            "Well-educated",
+            "Well-educated.",
+            "Well-educated,",
+            "well-educated?",
+            "well-educated.",
+            "well-educated!",
+            "Well-educated?",
+            "well-educated,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex2_i4",
+          "prompt": "4) Complete with a compound adjective: behaved → ____.",
+          "options": null,
+          "canonical": "well-behaved",
+          "accepted_variants": [
+            "well-behaved",
+            "Well-behaved?",
+            "Well-behaved",
+            "well-behaved,",
+            "well-behaved.",
+            "well-behaved!",
+            "Well-behaved!",
+            "Well-behaved.",
+            "Well-behaved,",
+            "well-behaved?"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex2_i5",
+          "prompt": "5) Complete with a compound adjective: written → ____.",
+          "options": null,
+          "canonical": "well-written",
+          "accepted_variants": [
+            "well-written",
+            "well-written!",
+            "well-written.",
+            "well-written?",
+            "Well-written",
+            "Well-written!",
+            "well-written,",
+            "Well-written.",
+            "Well-written?",
+            "Well-written,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex2_i6",
+          "prompt": "6) Complete with a compound adjective: designed → ____.",
+          "options": null,
+          "canonical": "well-designed",
+          "accepted_variants": [
+            "well-designed",
+            "Well-designed!",
+            "Well-designed",
+            "Well-designed.",
+            "Well-designed,",
+            "well-designed!",
+            "well-designed,",
+            "Well-designed?",
+            "well-designed.",
+            "well-designed?"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete each sentence with fast, hard, late, or lately.",
+      "items": [
+        {
+          "item_key": "unit_101_ex3_i1",
+          "prompt": "1) He’s a ____ runner, but he can’t run ____ now. (use fast)",
+          "options": null,
+          "canonical": "fast",
+          "accepted_variants": [
+            "fast",
+            "fast!",
+            "fast?",
+            "Fast,",
+            "fast,",
+            "Fast.",
+            "fast.",
+            "Fast!",
+            "Fast?",
+            "Fast"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i2",
+          "prompt": "2) I’m sorry I’m ____. I missed the earlier bus.",
+          "options": null,
+          "canonical": "late",
+          "accepted_variants": [
+            "late",
+            "late?",
+            "Late.",
+            "Late?",
+            "late.",
+            "Late",
+            "Late,",
+            "Late!",
+            "late,",
+            "late!"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i3",
+          "prompt": "3) Have you seen Mia ____? (= recently)",
+          "options": null,
+          "canonical": "lately",
+          "accepted_variants": [
+            "lately",
+            "Lately,",
+            "Lately",
+            "lately,",
+            "Lately.",
+            "Lately?",
+            "lately!",
+            "lately.",
+            "lately?",
+            "Lately!"
+          ],
+          "rule_keys": [
+            "unit_101_D"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i4",
+          "prompt": "4) This puzzle is ____; I can’t do it quickly. (use hard)",
+          "options": null,
+          "canonical": "hard",
+          "accepted_variants": [
+            "hard",
+            "Hard.",
+            "Hard!",
+            "Hard",
+            "hard,",
+            "Hard,",
+            "hard!",
+            "hard?",
+            "hard.",
+            "Hard?"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i5",
+          "prompt": "5) She works really ____ when she has deadlines.",
+          "options": null,
+          "canonical": "hard",
+          "accepted_variants": [
+            "hard",
+            "Hard.",
+            "Hard!",
+            "Hard",
+            "hard,",
+            "Hard,",
+            "hard!",
+            "hard?",
+            "hard.",
+            "Hard?"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i6",
+          "prompt": "6) Don’t drive too ____ in town.",
+          "options": null,
+          "canonical": "fast",
+          "accepted_variants": [
+            "fast",
+            "fast!",
+            "fast?",
+            "Fast,",
+            "fast,",
+            "Fast.",
+            "fast.",
+            "Fast!",
+            "Fast?",
+            "Fast"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i7",
+          "prompt": "7) We arrived ____ because of traffic.",
+          "options": null,
+          "canonical": "late",
+          "accepted_variants": [
+            "late",
+            "late?",
+            "Late.",
+            "Late?",
+            "late.",
+            "Late",
+            "Late,",
+            "Late!",
+            "late,",
+            "late!"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i8",
+          "prompt": "8) I’ve been eating healthier ____. (= in recent weeks)",
+          "options": null,
+          "canonical": "lately",
+          "accepted_variants": [
+            "lately",
+            "Lately,",
+            "Lately",
+            "lately,",
+            "Lately.",
+            "Lately?",
+            "lately!",
+            "lately.",
+            "lately?",
+            "Lately!"
+          ],
+          "rule_keys": [
+            "unit_101_D"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex3_i9",
+          "prompt": "9) It’s ____ to concentrate with this noise.",
+          "options": null,
+          "canonical": "hard",
+          "accepted_variants": [
+            "hard",
+            "Hard.",
+            "Hard!",
+            "Hard",
+            "hard,",
+            "Hard,",
+            "hard!",
+            "hard?",
+            "hard.",
+            "Hard?"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Choose hard or hardly.",
+      "items": [
+        {
+          "item_key": "unit_101_ex4_i1",
+          "prompt": "1) I ____ know her. We’ve only met once.",
+          "options": null,
+          "canonical": "hardly",
+          "accepted_variants": [
+            "hardly",
+            "Hardly,",
+            "hardly,",
+            "hardly?",
+            "Hardly.",
+            "hardly!",
+            "hardly.",
+            "Hardly?",
+            "Hardly",
+            "Hardly!"
+          ],
+          "rule_keys": [
+            "unit_101_C"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex4_i2",
+          "prompt": "2) He studied ____ for the exam, so he passed.",
+          "options": null,
+          "canonical": "hard",
+          "accepted_variants": [
+            "hard",
+            "Hard.",
+            "Hard!",
+            "Hard",
+            "hard,",
+            "Hard,",
+            "hard!",
+            "hard?",
+            "hard.",
+            "Hard?"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex4_i3",
+          "prompt": "3) She tried ____, but she still couldn’t open the jar.",
+          "options": null,
+          "canonical": "hard",
+          "accepted_variants": [
+            "hard",
+            "Hard.",
+            "Hard!",
+            "Hard",
+            "hard,",
+            "Hard,",
+            "hard!",
+            "hard?",
+            "hard.",
+            "Hard?"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex4_i4",
+          "prompt": "4) We ____ had any time to talk at the party.",
+          "options": null,
+          "canonical": "hardly",
+          "accepted_variants": [
+            "hardly",
+            "Hardly,",
+            "hardly,",
+            "hardly?",
+            "Hardly.",
+            "hardly!",
+            "hardly.",
+            "Hardly?",
+            "Hardly",
+            "Hardly!"
+          ],
+          "rule_keys": [
+            "unit_101_C"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex4_i5",
+          "prompt": "5) It was foggy; I could ____ see the road.",
+          "options": null,
+          "canonical": "hardly",
+          "accepted_variants": [
+            "hardly",
+            "Hardly,",
+            "hardly,",
+            "hardly?",
+            "Hardly.",
+            "hardly!",
+            "hardly.",
+            "Hardly?",
+            "Hardly",
+            "Hardly!"
+          ],
+          "rule_keys": [
+            "unit_101_C"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex4_i6",
+          "prompt": "6) Don’t say he’s lazy. He works ____ every day.",
+          "options": null,
+          "canonical": "hard",
+          "accepted_variants": [
+            "hard",
+            "Hard.",
+            "Hard!",
+            "Hard",
+            "hard,",
+            "Hard,",
+            "hard!",
+            "hard?",
+            "hard.",
+            "Hard?"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex4_i7",
+          "prompt": "7) I ____ slept on the flight.",
+          "options": null,
+          "canonical": "hardly",
+          "accepted_variants": [
+            "hardly",
+            "Hardly,",
+            "hardly,",
+            "hardly?",
+            "Hardly.",
+            "hardly!",
+            "hardly.",
+            "Hardly?",
+            "Hardly",
+            "Hardly!"
+          ],
+          "rule_keys": [
+            "unit_101_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_101",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete each sentence with the correct word or expression.",
+      "items": [
+        {
+          "item_key": "unit_101_ex5_i1",
+          "prompt": "1) The report is ____ written. (compound)",
+          "options": null,
+          "canonical": "well-written",
+          "accepted_variants": [
+            "well-written",
+            "well-written!",
+            "well-written.",
+            "well-written?",
+            "Well-written",
+            "Well-written!",
+            "well-written,",
+            "Well-written.",
+            "Well-written?",
+            "Well-written,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i2",
+          "prompt": "2) I’m doing ____ today, thanks. (after 'be')",
+          "options": null,
+          "canonical": "well",
+          "accepted_variants": [
+            "well",
+            "well,",
+            "well!",
+            "Well,",
+            "well.",
+            "well?",
+            "Well",
+            "Well!",
+            "Well?",
+            "Well."
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i3",
+          "prompt": "3) Sorry I’m ____. (not on time)",
+          "options": null,
+          "canonical": "late",
+          "accepted_variants": [
+            "late",
+            "late?",
+            "Late.",
+            "Late?",
+            "late.",
+            "Late",
+            "Late,",
+            "Late!",
+            "late,",
+            "late!"
+          ],
+          "rule_keys": [
+            "unit_101_D"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i4",
+          "prompt": "4) I haven’t seen them ____.",
+          "options": null,
+          "canonical": "lately",
+          "accepted_variants": [
+            "lately",
+            "Lately,",
+            "Lately",
+            "lately,",
+            "Lately.",
+            "Lately?",
+            "lately!",
+            "lately.",
+            "lately?",
+            "Lately!"
+          ],
+          "rule_keys": [
+            "unit_101_D"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i5",
+          "prompt": "5) She plays the guitar really ____.",
+          "options": null,
+          "canonical": "well",
+          "accepted_variants": [
+            "well",
+            "well,",
+            "well!",
+            "Well,",
+            "well.",
+            "well?",
+            "Well",
+            "Well!",
+            "Well?",
+            "Well."
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i6",
+          "prompt": "6) The children were very ____.",
+          "options": null,
+          "canonical": "good",
+          "accepted_variants": [
+            "good",
+            "Good",
+            "good.",
+            "Good!",
+            "Good.",
+            "Good,",
+            "good?",
+            "good!",
+            "Good?",
+            "good,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i7",
+          "prompt": "7) I ____ noticed the change at first.",
+          "options": null,
+          "canonical": "hardly",
+          "accepted_variants": [
+            "hardly",
+            "Hardly,",
+            "hardly,",
+            "hardly?",
+            "Hardly.",
+            "hardly!",
+            "hardly.",
+            "Hardly?",
+            "Hardly",
+            "Hardly!"
+          ],
+          "rule_keys": [
+            "unit_101_C"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i8",
+          "prompt": "8) He drives too ____ on the motorway.",
+          "options": null,
+          "canonical": "fast",
+          "accepted_variants": [
+            "fast",
+            "fast!",
+            "fast?",
+            "Fast,",
+            "fast,",
+            "Fast.",
+            "fast.",
+            "Fast!",
+            "Fast?",
+            "Fast"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i9",
+          "prompt": "9) I worked ____ all week.",
+          "options": null,
+          "canonical": "hard",
+          "accepted_variants": [
+            "hard",
+            "Hard.",
+            "Hard!",
+            "Hard",
+            "hard,",
+            "Hard,",
+            "hard!",
+            "hard?",
+            "hard.",
+            "Hard?"
+          ],
+          "rule_keys": [
+            "unit_101_B"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i10",
+          "prompt": "10) The book was ____ and easy to read.",
+          "options": null,
+          "canonical": "good",
+          "accepted_variants": [
+            "good",
+            "Good",
+            "good.",
+            "Good!",
+            "Good.",
+            "Good,",
+            "good?",
+            "good!",
+            "Good?",
+            "good,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        },
+        {
+          "item_key": "unit_101_ex5_i11",
+          "prompt": "11) This is a ____-known problem.",
+          "options": null,
+          "canonical": "well-known",
+          "accepted_variants": [
+            "well-known",
+            "well-known.",
+            "well-known!",
+            "Well-known?",
+            "Well-known,",
+            "Well-known",
+            "well-known?",
+            "Well-known!",
+            "Well-known.",
+            "well-known,"
+          ],
+          "rule_keys": [
+            "unit_101_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Choose so or such.",
+      "items": [
+        {
+          "item_key": "unit_102_ex1_i1",
+          "prompt": "1) It was ____ cold that the lake froze overnight.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_A"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i2",
+          "prompt": "2) They had ____ a great time at the concert.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_B"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i3",
+          "prompt": "3) The lecture was ____ boring that I nearly fell asleep.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_A"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i4",
+          "prompt": "4) That’s ____ a strange question.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_B"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i5",
+          "prompt": "5) I was ____ tired after the trip.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_A"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i6",
+          "prompt": "6) We met ____ friendly neighbours.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_B"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i7",
+          "prompt": "7) The phone was ____ expensive that I didn’t buy it.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_A"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i8",
+          "prompt": "8) It was ____ a relief to hear the news.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_B"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i9",
+          "prompt": "9) She speaks ____ quietly that I can’t hear her.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_A"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex1_i10",
+          "prompt": "10) It was ____ a useful app that everyone installed it.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with so much, so many, so little, or so few.",
+      "items": [
+        {
+          "item_key": "unit_102_ex2_i1",
+          "prompt": "1) There were ____ people that we couldn’t get in.",
+          "options": null,
+          "canonical": "so many",
+          "accepted_variants": [
+            "so many",
+            "So many",
+            "so many.",
+            "So Many"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i2",
+          "prompt": "2) I have ____ work to finish tonight.",
+          "options": null,
+          "canonical": "so much",
+          "accepted_variants": [
+            "so much",
+            "So much",
+            "so much.",
+            "So Much"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i3",
+          "prompt": "3) We had ____ time that we skipped lunch.",
+          "options": null,
+          "canonical": "so little",
+          "accepted_variants": [
+            "so little",
+            "so little.",
+            "So little",
+            "So Little"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i4",
+          "prompt": "4) He made ____ mistakes in that email.",
+          "options": null,
+          "canonical": "so many",
+          "accepted_variants": [
+            "so many",
+            "So many",
+            "so many.",
+            "So Many"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i5",
+          "prompt": "5) She has ____ patience with rude customers.",
+          "options": null,
+          "canonical": "so little",
+          "accepted_variants": [
+            "so little",
+            "so little.",
+            "So little",
+            "So Little"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i6",
+          "prompt": "6) They spent ____ money on the wedding.",
+          "options": null,
+          "canonical": "so much",
+          "accepted_variants": [
+            "so much",
+            "So much",
+            "so much.",
+            "So Much"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i7",
+          "prompt": "7) There were ____ seats left.",
+          "options": null,
+          "canonical": "so few",
+          "accepted_variants": [
+            "so few",
+            "so few.",
+            "So few",
+            "So Few"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i8",
+          "prompt": "8) I ate ____ snacks that I wasn’t hungry for dinner.",
+          "options": null,
+          "canonical": "so many",
+          "accepted_variants": [
+            "so many",
+            "So many",
+            "so many.",
+            "So Many"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex2_i9",
+          "prompt": "9) We got ____ information that we felt lost.",
+          "options": null,
+          "canonical": "so little",
+          "accepted_variants": [
+            "so little",
+            "so little.",
+            "So little",
+            "So Little"
+          ],
+          "rule_keys": [
+            "unit_102_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with so or such. Use that where it fits (____).",
+      "items": [
+        {
+          "item_key": "unit_102_ex3_i1",
+          "prompt": "1) The street was ____ noisy ____ I couldn’t sleep.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex3_i2",
+          "prompt": "2) It was ____ a mess ____ we had to start again.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex3_i3",
+          "prompt": "3) The box was ____ heavy ____ I couldn’t lift it.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex3_i4",
+          "prompt": "4) She told ____ a funny story ____ everyone laughed.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex3_i5",
+          "prompt": "5) The movie was ____ long ____ we left early.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex3_i6",
+          "prompt": "6) They had ____ bad luck ____ they gave up.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex3_i7",
+          "prompt": "7) I was ____ hungry ____ I ate two sandwiches.",
+          "options": null,
+          "canonical": "so",
+          "accepted_variants": [
+            "so",
+            "So?",
+            "So",
+            "so!",
+            "So,",
+            "So.",
+            "so,",
+            "so?",
+            "So!",
+            "so."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex3_i8",
+          "prompt": "8) It was ____ a good offer ____ I accepted immediately.",
+          "options": null,
+          "canonical": "such",
+          "accepted_variants": [
+            "such",
+            "Such!",
+            "Such?",
+            "such?",
+            "Such,",
+            "such.",
+            "Such.",
+            "such,",
+            "such!",
+            "Such"
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_102",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Rewrite the sentences using so/such ... that.",
+      "items": [
+        {
+          "item_key": "unit_102_ex4_i1",
+          "prompt": "1) Rewrite using so/such ... that: Very hot. We stayed indoors.",
+          "options": null,
+          "canonical": "It was so hot that we stayed indoors.",
+          "accepted_variants": [
+            "It was so hot that we stayed indoors.",
+            "it was so hot that we stayed indoors.",
+            "It was so hot that we stayed indoors"
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex4_i2",
+          "prompt": "2) Rewrite using so/such ... that: The book was very interesting. I read it in one day.",
+          "options": null,
+          "canonical": "The book was so interesting that I read it in one day.",
+          "accepted_variants": [
+            "The book was so interesting that I read it in one day.",
+            "The book was so interesting that I read it in one day",
+            "the book was so interesting that I read it in one day."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex4_i3",
+          "prompt": "3) Rewrite using so/such ... that: It was a terrible storm. Flights were cancelled.",
+          "options": null,
+          "canonical": "It was such a terrible storm that flights were cancelled.",
+          "accepted_variants": [
+            "It was such a terrible storm that flights were cancelled.",
+            "it was such a terrible storm that flights were cancelled.",
+            "It was such a terrible storm that flights were cancelled"
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex4_i4",
+          "prompt": "4) Rewrite using so/such ... that: The coffee was very strong. I couldn’t finish it.",
+          "options": null,
+          "canonical": "The coffee was so strong that I couldn’t finish it.",
+          "accepted_variants": [
+            "The coffee was so strong that I couldn’t finish it.",
+            "The coffee was so strong that I couldn’t finish it",
+            "the coffee was so strong that I couldn’t finish it."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex4_i5",
+          "prompt": "5) Rewrite using so/such ... that: They were very kind people. They offered us a room.",
+          "options": null,
+          "canonical": "They were such kind people that they offered us a room.",
+          "accepted_variants": [
+            "They were such kind people that they offered us a room.",
+            "they were such kind people that they offered us a room.",
+            "They were such kind people that they offered us a room"
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex4_i6",
+          "prompt": "6) Rewrite using so/such ... that: The queue was very long. We went home.",
+          "options": null,
+          "canonical": "The queue was so long that we went home.",
+          "accepted_variants": [
+            "The queue was so long that we went home.",
+            "The queue was so long that we went home",
+            "the queue was so long that we went home."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        },
+        {
+          "item_key": "unit_102_ex4_i7",
+          "prompt": "7) Rewrite using so/such ... that: It was a difficult decision. I needed time.",
+          "options": null,
+          "canonical": "It was such a difficult decision that I needed time.",
+          "accepted_variants": [
+            "It was such a difficult decision that I needed time.",
+            "It was such a difficult decision that I needed time",
+            "it was such a difficult decision that I needed time."
+          ],
+          "rule_keys": [
+            "unit_102_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Add enough in the correct place.",
+      "items": [
+        {
+          "item_key": "unit_103_ex1_i1",
+          "prompt": "1) The soup isn’t hot ____.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i2",
+          "prompt": "2) Are you strong ____ to lift that box?",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i3",
+          "prompt": "3) You don’t drive carefully ____.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i4",
+          "prompt": "4) This room is big ____ for ten people.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i5",
+          "prompt": "5) I’m not old ____ to rent a car.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i6",
+          "prompt": "6) He didn’t speak clearly ____.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i7",
+          "prompt": "7) The Wi‑Fi is fast ____ for video calls.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i8",
+          "prompt": "8) She didn’t train hard ____.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i9",
+          "prompt": "9) Is the explanation simple ____?",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex1_i10",
+          "prompt": "10) I didn’t get up early ____.",
+          "options": null,
+          "canonical": "enough",
+          "accepted_variants": [
+            "enough",
+            "Enough?",
+            "Enough!",
+            "enough?",
+            "enough!",
+            "Enough.",
+            "enough.",
+            "Enough",
+            "enough,",
+            "Enough,"
+          ],
+          "rule_keys": [
+            "unit_103_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with too (and the noun phrase already given).",
+      "items": [
+        {
+          "item_key": "unit_103_ex2_i1",
+          "prompt": "1) This jacket is ____ small for me.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex2_i2",
+          "prompt": "2) I drank ____ much coffee and couldn’t sleep.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex2_i3",
+          "prompt": "3) There were ____ many people to park easily.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex2_i4",
+          "prompt": "4) The music is ____ loud.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex2_i5",
+          "prompt": "5) I spent ____ much money this week.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex2_i6",
+          "prompt": "6) The explanation is ____ complicated.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex2_i7",
+          "prompt": "7) We have ____ many meetings today.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex2_i8",
+          "prompt": "8) He talks ____ fast for me to follow.",
+          "options": null,
+          "canonical": "too",
+          "accepted_variants": [
+            "too",
+            "too,",
+            "Too?",
+            "Too,",
+            "too!",
+            "Too",
+            "too.",
+            "Too.",
+            "Too!",
+            "too?"
+          ],
+          "rule_keys": [
+            "unit_103_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_103",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Rewrite using too ... to or (not) ... enough to.",
+      "items": [
+        {
+          "item_key": "unit_103_ex3_i1",
+          "prompt": "1) Rewrite using too ... to / (not) ... enough to: I was very tired. I couldn’t finish the report.",
+          "options": null,
+          "canonical": "I was too tired to finish the report.",
+          "accepted_variants": [
+            "I was too tired to finish the report.",
+            "i was too tired to finish the report.",
+            "I was too tired to finish the report"
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i2",
+          "prompt": "2) Rewrite using too ... to / (not) ... enough to: She is 15. She can’t vote.",
+          "options": null,
+          "canonical": "She isn’t old enough to vote.",
+          "accepted_variants": [
+            "She isn’t old enough to vote.",
+            "She isn’t old enough to vote",
+            "she isn’t old enough to vote."
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i3",
+          "prompt": "3) Rewrite using too ... to / (not) ... enough to: The bag was very heavy. I couldn’t carry it.",
+          "options": null,
+          "canonical": "The bag was too heavy to carry.",
+          "accepted_variants": [
+            "The bag was too heavy to carry.",
+            "the bag was too heavy to carry.",
+            "The bag was too heavy to carry"
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i4",
+          "prompt": "4) Rewrite using too ... to / (not) ... enough to: He didn’t have the skill. He couldn’t fix it.",
+          "options": null,
+          "canonical": "He wasn’t experienced enough to fix it.",
+          "accepted_variants": [
+            "He wasn’t experienced enough to fix it.",
+            "He wasn’t experienced enough to fix it",
+            "he wasn’t experienced enough to fix it."
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i5",
+          "prompt": "5) Rewrite using too ... to / (not) ... enough to: We arrived late. We missed the start.",
+          "options": null,
+          "canonical": "We arrived too late to catch the start.",
+          "accepted_variants": [
+            "We arrived too late to catch the start.",
+            "we arrived too late to catch the start.",
+            "We arrived too late to catch the start"
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i6",
+          "prompt": "6) Rewrite using too ... to / (not) ... enough to: The coffee is very hot. I can’t drink it.",
+          "options": null,
+          "canonical": "The coffee is too hot to drink.",
+          "accepted_variants": [
+            "The coffee is too hot to drink.",
+            "the coffee is too hot to drink.",
+            "The coffee is too hot to drink"
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i7",
+          "prompt": "7) Rewrite using too ... to / (not) ... enough to: The explanation was clear. I could understand.",
+          "options": null,
+          "canonical": "The explanation was clear enough to understand.",
+          "accepted_variants": [
+            "The explanation was clear enough to understand.",
+            "the explanation was clear enough to understand.",
+            "The explanation was clear enough to understand"
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i8",
+          "prompt": "8) Rewrite using too ... to / (not) ... enough to: I don’t have time. I can’t go now.",
+          "options": null,
+          "canonical": "I don’t have enough time to go now.",
+          "accepted_variants": [
+            "I don’t have enough time to go now.",
+            "I don’t have enough time to go now",
+            "i don’t have enough time to go now."
+          ],
+          "rule_keys": [
+            "unit_103_B"
+          ]
+        },
+        {
+          "item_key": "unit_103_ex3_i9",
+          "prompt": "9) Rewrite using too ... to / (not) ... enough to: He’s very young. He can’t drive.",
+          "options": null,
+          "canonical": "He’s too young to drive.",
+          "accepted_variants": [
+            "He’s too young to drive.",
+            "he’s too young to drive.",
+            "He’s too young to drive"
+          ],
+          "rule_keys": [
+            "unit_103_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Choose pretty or fairly.",
+      "items": [
+        {
+          "item_key": "unit_104_ex1_i1",
+          "prompt": "1) I’m ____ tired, but I can keep working.",
+          "options": null,
+          "canonical": "pretty",
+          "accepted_variants": [
+            "pretty",
+            "pretty!",
+            "Pretty?",
+            "pretty.",
+            "Pretty!",
+            "Pretty,",
+            "pretty,",
+            "pretty?",
+            "Pretty",
+            "Pretty."
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex1_i2",
+          "prompt": "2) The instructions were ____ clear.",
+          "options": null,
+          "canonical": "fairly",
+          "accepted_variants": [
+            "fairly",
+            "fairly,",
+            "Fairly!",
+            "Fairly?",
+            "fairly.",
+            "Fairly",
+            "Fairly.",
+            "fairly!",
+            "fairly?",
+            "Fairly,"
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex1_i3",
+          "prompt": "3) It’s ____ easy to get there by метро.",
+          "options": null,
+          "canonical": "fairly",
+          "accepted_variants": [
+            "fairly",
+            "fairly,",
+            "Fairly!",
+            "Fairly?",
+            "fairly.",
+            "Fairly",
+            "Fairly.",
+            "fairly!",
+            "fairly?",
+            "Fairly,"
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex1_i4",
+          "prompt": "4) She was ____ upset about it.",
+          "options": null,
+          "canonical": "pretty",
+          "accepted_variants": [
+            "pretty",
+            "pretty!",
+            "Pretty?",
+            "pretty.",
+            "Pretty!",
+            "Pretty,",
+            "pretty,",
+            "pretty?",
+            "Pretty",
+            "Pretty."
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex1_i5",
+          "prompt": "5) The film was ____ good.",
+          "options": null,
+          "canonical": "pretty",
+          "accepted_variants": [
+            "pretty",
+            "pretty!",
+            "Pretty?",
+            "pretty.",
+            "Pretty!",
+            "Pretty,",
+            "pretty,",
+            "pretty?",
+            "Pretty",
+            "Pretty."
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex1_i6",
+          "prompt": "6) The room is ____ small.",
+          "options": null,
+          "canonical": "fairly",
+          "accepted_variants": [
+            "fairly",
+            "fairly,",
+            "Fairly!",
+            "Fairly?",
+            "fairly.",
+            "Fairly",
+            "Fairly.",
+            "fairly!",
+            "fairly?",
+            "Fairly,"
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex1_i7",
+          "prompt": "7) I’m ____ sure he’s right.",
+          "options": null,
+          "canonical": "pretty",
+          "accepted_variants": [
+            "pretty",
+            "pretty!",
+            "Pretty?",
+            "pretty.",
+            "Pretty!",
+            "Pretty,",
+            "pretty,",
+            "pretty?",
+            "Pretty",
+            "Pretty."
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with quite (meaning 'fairly') where it fits.",
+      "items": [
+        {
+          "item_key": "unit_104_ex2_i1",
+          "prompt": "1) The hotel was ____ nice (better than OK).",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex2_i2",
+          "prompt": "2) I’m ____ happy with the result.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex2_i3",
+          "prompt": "3) The task is ____ simple.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex2_i4",
+          "prompt": "4) It’s ____ a long walk from here.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_D"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex2_i5",
+          "prompt": "5) She’s ____ good at languages.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex2_i6",
+          "prompt": "6) We’ve had ____ a busy week.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_D"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex2_i7",
+          "prompt": "7) The café is ____ popular.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Use quite (meaning 'completely') with these adjectives.",
+      "items": [
+        {
+          "item_key": "unit_104_ex3_i1",
+          "prompt": "1) I’m ____ sure (= completely certain).",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex3_i2",
+          "prompt": "2) The bottle is ____ empty.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex3_i3",
+          "prompt": "3) That’s ____ impossible.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex3_i4",
+          "prompt": "4) The two designs are ____ different.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex3_i5",
+          "prompt": "5) I’m ____ satisfied now.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with rather.",
+      "items": [
+        {
+          "item_key": "unit_104_ex4_i1",
+          "prompt": "1) It’s ____ cold for April.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex4_i2",
+          "prompt": "2) The meeting was ____ boring.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex4_i3",
+          "prompt": "3) That’s ____ rude, isn’t it?",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex4_i4",
+          "prompt": "4) I’m ____ surprised you agreed.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex4_i5",
+          "prompt": "5) This sofa is ____ uncomfortable.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex4_i6",
+          "prompt": "6) The price is ____ high.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex4_i7",
+          "prompt": "7) It feels ____ strange to be back here.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_104",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Choose the best word: pretty, fairly, quite, or rather.",
+      "items": [
+        {
+          "item_key": "unit_104_ex5_i1",
+          "prompt": "1) It was ____ a surprise to see him there.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_D"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex5_i2",
+          "prompt": "2) That’s ____ a good idea.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_D"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex5_i3",
+          "prompt": "3) We had ____ a difficult day.",
+          "options": null,
+          "canonical": "quite",
+          "accepted_variants": [
+            "quite",
+            "quite.",
+            "Quite!",
+            "Quite,",
+            "quite!",
+            "quite?",
+            "quite,",
+            "Quite?",
+            "Quite",
+            "Quite."
+          ],
+          "rule_keys": [
+            "unit_104_D"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex5_i4",
+          "prompt": "4) It’s ____ a mess in here.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_D"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex5_i5",
+          "prompt": "5) She’s ____ confident today. (moderate)",
+          "options": null,
+          "canonical": "pretty",
+          "accepted_variants": [
+            "pretty",
+            "pretty!",
+            "Pretty?",
+            "pretty.",
+            "Pretty!",
+            "Pretty,",
+            "pretty,",
+            "pretty?",
+            "Pretty",
+            "Pretty."
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex5_i6",
+          "prompt": "6) The exam was ____ easy. (moderate)",
+          "options": null,
+          "canonical": "fairly",
+          "accepted_variants": [
+            "fairly",
+            "fairly,",
+            "Fairly!",
+            "Fairly?",
+            "fairly.",
+            "Fairly",
+            "Fairly.",
+            "fairly!",
+            "fairly?",
+            "Fairly,"
+          ],
+          "rule_keys": [
+            "unit_104_A"
+          ]
+        },
+        {
+          "item_key": "unit_104_ex5_i7",
+          "prompt": "7) The house is ____ expensive, considering the size.",
+          "options": null,
+          "canonical": "rather",
+          "accepted_variants": [
+            "rather",
+            "rather.",
+            "rather!",
+            "Rather?",
+            "Rather,",
+            "Rather.",
+            "Rather!",
+            "rather,",
+            "Rather",
+            "rather?"
+          ],
+          "rule_keys": [
+            "unit_104_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Write the comparative form.",
+      "items": [
+        {
+          "item_key": "unit_105_ex1_i1",
+          "prompt": "1) Write the comparative: cheap → ____.",
+          "options": null,
+          "canonical": "cheaper",
+          "accepted_variants": [
+            "cheaper",
+            "cheaper?",
+            "cheaper!",
+            "Cheaper",
+            "cheaper.",
+            "Cheaper!",
+            "Cheaper,",
+            "cheaper,",
+            "Cheaper.",
+            "Cheaper?"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i2",
+          "prompt": "2) Write the comparative: young → ____.",
+          "options": null,
+          "canonical": "younger",
+          "accepted_variants": [
+            "younger",
+            "Younger?",
+            "younger!",
+            "younger,",
+            "Younger,",
+            "Younger",
+            "Younger.",
+            "younger.",
+            "younger?",
+            "Younger!"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i3",
+          "prompt": "3) Write the comparative: easy → ____.",
+          "options": null,
+          "canonical": "easier",
+          "accepted_variants": [
+            "easier",
+            "Easier,",
+            "Easier?",
+            "Easier!",
+            "easier,",
+            "Easier.",
+            "easier!",
+            "easier.",
+            "easier?",
+            "Easier"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i4",
+          "prompt": "4) Write the comparative: big → ____.",
+          "options": null,
+          "canonical": "bigger",
+          "accepted_variants": [
+            "bigger",
+            "bigger!",
+            "bigger,",
+            "Bigger",
+            "Bigger,",
+            "Bigger!",
+            "bigger.",
+            "Bigger.",
+            "Bigger?",
+            "bigger?"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i5",
+          "prompt": "5) Write the comparative: thin → ____.",
+          "options": null,
+          "canonical": "thinner",
+          "accepted_variants": [
+            "thinner",
+            "thinner,",
+            "thinner!",
+            "Thinner?",
+            "thinner.",
+            "Thinner!",
+            "thinner?",
+            "Thinner.",
+            "Thinner",
+            "Thinner,"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i6",
+          "prompt": "6) Write the comparative: hot → ____.",
+          "options": null,
+          "canonical": "hotter",
+          "accepted_variants": [
+            "hotter",
+            "Hotter?",
+            "Hotter,",
+            "Hotter!",
+            "Hotter.",
+            "hotter!",
+            "hotter.",
+            "hotter,",
+            "Hotter",
+            "hotter?"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i7",
+          "prompt": "7) Write the comparative: nice → ____.",
+          "options": null,
+          "canonical": "nicer",
+          "accepted_variants": [
+            "nicer",
+            "Nicer",
+            "nicer,",
+            "Nicer?",
+            "Nicer,",
+            "nicer!",
+            "Nicer.",
+            "nicer?",
+            "Nicer!",
+            "nicer."
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i8",
+          "prompt": "8) Write the comparative: busy → ____.",
+          "options": null,
+          "canonical": "busier",
+          "accepted_variants": [
+            "busier",
+            "Busier",
+            "Busier,",
+            "Busier.",
+            "busier,",
+            "Busier?",
+            "Busier!",
+            "busier!",
+            "busier?",
+            "busier."
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i9",
+          "prompt": "9) Write the comparative: good → ____.",
+          "options": null,
+          "canonical": "better",
+          "accepted_variants": [
+            "better",
+            "better,",
+            "Better.",
+            "better!",
+            "Better?",
+            "Better,",
+            "Better!",
+            "better?",
+            "Better",
+            "better."
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i10",
+          "prompt": "10) Write the comparative: bad → ____.",
+          "options": null,
+          "canonical": "worse",
+          "accepted_variants": [
+            "worse",
+            "Worse,",
+            "Worse!",
+            "worse!",
+            "Worse.",
+            "worse?",
+            "Worse?",
+            "worse,",
+            "worse.",
+            "Worse"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i11",
+          "prompt": "11) Write the comparative: far → ____.",
+          "options": null,
+          "canonical": "farther",
+          "accepted_variants": [
+            "farther",
+            "farther,",
+            "Farther.",
+            "Farther,",
+            "farther?",
+            "Farther",
+            "Farther?",
+            "farther!",
+            "farther.",
+            "Farther!"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex1_i12",
+          "prompt": "12) Write the comparative: interesting → ____.",
+          "options": null,
+          "canonical": "more interesting",
+          "accepted_variants": [
+            "more interesting",
+            "More interesting",
+            "more interesting."
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the comparative (use than).",
+      "items": [
+        {
+          "item_key": "unit_105_ex2_i1",
+          "prompt": "1) My phone is ____ (new) than yours.",
+          "options": null,
+          "canonical": "newer",
+          "accepted_variants": [
+            "newer",
+            "Newer",
+            "Newer?",
+            "newer!",
+            "newer.",
+            "Newer!",
+            "Newer,",
+            "newer?",
+            "Newer.",
+            "newer,"
+          ],
+          "rule_keys": [
+            "unit_105_C"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i2",
+          "prompt": "2) This chair is ____ (comfortable) than that one.",
+          "options": null,
+          "canonical": "more comfortable",
+          "accepted_variants": [
+            "more comfortable",
+            "more comfortable.",
+            "More comfortable",
+            "More Comfortable"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i3",
+          "prompt": "3) Today is ____ (cold) than yesterday.",
+          "options": null,
+          "canonical": "colder",
+          "accepted_variants": [
+            "colder",
+            "Colder",
+            "colder?",
+            "colder,",
+            "colder!",
+            "colder.",
+            "Colder.",
+            "Colder?",
+            "Colder!",
+            "Colder,"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i4",
+          "prompt": "4) The blue route is ____ (short) than the red route.",
+          "options": null,
+          "canonical": "shorter",
+          "accepted_variants": [
+            "shorter",
+            "Shorter,",
+            "shorter,",
+            "shorter!",
+            "Shorter!",
+            "shorter?",
+            "shorter.",
+            "Shorter?",
+            "Shorter",
+            "Shorter."
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i5",
+          "prompt": "5) Her second attempt was ____ (good) than the first.",
+          "options": null,
+          "canonical": "better",
+          "accepted_variants": [
+            "better",
+            "better,",
+            "Better.",
+            "better!",
+            "Better?",
+            "Better,",
+            "Better!",
+            "better?",
+            "Better",
+            "better."
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i6",
+          "prompt": "6) This task is ____ (easy) than I expected.",
+          "options": null,
+          "canonical": "easier",
+          "accepted_variants": [
+            "easier",
+            "Easier,",
+            "Easier?",
+            "Easier!",
+            "easier,",
+            "Easier.",
+            "easier!",
+            "easier.",
+            "easier?",
+            "Easier"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i7",
+          "prompt": "7) Kyiv is ____ (big) than my hometown.",
+          "options": null,
+          "canonical": "bigger",
+          "accepted_variants": [
+            "bigger",
+            "bigger!",
+            "bigger,",
+            "Bigger",
+            "Bigger,",
+            "Bigger!",
+            "bigger.",
+            "Bigger.",
+            "Bigger?",
+            "bigger?"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i8",
+          "prompt": "8) The new plan is ____ (bad) than the old one.",
+          "options": null,
+          "canonical": "worse",
+          "accepted_variants": [
+            "worse",
+            "Worse,",
+            "Worse!",
+            "worse!",
+            "Worse.",
+            "worse?",
+            "Worse?",
+            "worse,",
+            "worse.",
+            "Worse"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i9",
+          "prompt": "9) This explanation is ____ (clear) than the previous one.",
+          "options": null,
+          "canonical": "clearer",
+          "accepted_variants": [
+            "clearer",
+            "clearer.",
+            "clearer,",
+            "Clearer",
+            "clearer!",
+            "Clearer!",
+            "Clearer?",
+            "clearer?",
+            "Clearer.",
+            "Clearer,"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex2_i10",
+          "prompt": "10) The hotel was ____ (expensive) than we thought.",
+          "options": null,
+          "canonical": "more expensive",
+          "accepted_variants": [
+            "more expensive",
+            "more expensive.",
+            "More expensive",
+            "More Expensive"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Write the correct comparative (‑er or more).",
+      "items": [
+        {
+          "item_key": "unit_105_ex3_i1",
+          "prompt": "1) She’s getting ____ (careful) as she practises.",
+          "options": null,
+          "canonical": "more careful",
+          "accepted_variants": [
+            "more careful",
+            "more careful.",
+            "More careful"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex3_i2",
+          "prompt": "2) This book is ____ (useful) than the first one.",
+          "options": null,
+          "canonical": "more useful",
+          "accepted_variants": [
+            "more useful",
+            "more useful.",
+            "More useful"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex3_i3",
+          "prompt": "3) The test was ____ (simple) than I expected.",
+          "options": null,
+          "canonical": "simpler",
+          "accepted_variants": [
+            "simpler",
+            "Simpler!",
+            "simpler,",
+            "Simpler,",
+            "Simpler.",
+            "Simpler?",
+            "simpler?",
+            "Simpler",
+            "simpler!",
+            "simpler."
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex3_i4",
+          "prompt": "4) A bus is ____ (slow) than a train.",
+          "options": null,
+          "canonical": "slower",
+          "accepted_variants": [
+            "slower",
+            "Slower.",
+            "slower,",
+            "slower!",
+            "slower.",
+            "slower?",
+            "Slower,",
+            "Slower?",
+            "Slower",
+            "Slower!"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex3_i5",
+          "prompt": "5) Your answer is ____ (polite) than mine.",
+          "options": null,
+          "canonical": "more polite",
+          "accepted_variants": [
+            "more polite",
+            "more polite.",
+            "More polite"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex3_i6",
+          "prompt": "6) The screen is ____ (bright) on this model.",
+          "options": null,
+          "canonical": "brighter",
+          "accepted_variants": [
+            "brighter",
+            "Brighter.",
+            "Brighter?",
+            "Brighter!",
+            "Brighter,",
+            "brighter.",
+            "Brighter",
+            "brighter,",
+            "brighter?",
+            "brighter!"
+          ],
+          "rule_keys": [
+            "unit_105_B"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex3_i7",
+          "prompt": "7) It’s ____ (difficult) to explain than to show.",
+          "options": null,
+          "canonical": "more difficult",
+          "accepted_variants": [
+            "more difficult",
+            "More difficult",
+            "more difficult."
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex3_i8",
+          "prompt": "8) I feel ____ (tired) today.",
+          "options": null,
+          "canonical": "more tired",
+          "accepted_variants": [
+            "more tired",
+            "more tired.",
+            "More tired"
+          ],
+          "rule_keys": [
+            "unit_105_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_105",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a comparative. Use than only if needed.",
+      "items": [
+        {
+          "item_key": "unit_105_ex4_i1",
+          "prompt": "1) It’s colder today, but tomorrow will be even ____.",
+          "options": null,
+          "canonical": "colder",
+          "accepted_variants": [
+            "colder",
+            "Colder",
+            "colder?",
+            "colder,",
+            "colder!",
+            "colder.",
+            "Colder.",
+            "Colder?",
+            "Colder!",
+            "Colder,"
+          ],
+          "rule_keys": [
+            "unit_105_C"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex4_i2",
+          "prompt": "2) I expected the trip to be cheaper, but it was ____.",
+          "options": null,
+          "canonical": "more expensive",
+          "accepted_variants": [
+            "more expensive",
+            "more expensive.",
+            "More expensive",
+            "More Expensive"
+          ],
+          "rule_keys": [
+            "unit_105_C"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex4_i3",
+          "prompt": "3) The second explanation was ____.",
+          "options": null,
+          "canonical": "clearer",
+          "accepted_variants": [
+            "clearer",
+            "clearer.",
+            "clearer,",
+            "Clearer",
+            "clearer!",
+            "Clearer!",
+            "Clearer?",
+            "clearer?",
+            "Clearer.",
+            "Clearer,"
+          ],
+          "rule_keys": [
+            "unit_105_C"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex4_i4",
+          "prompt": "4) I thought the job would be easier. In reality it’s ____.",
+          "options": null,
+          "canonical": "harder",
+          "accepted_variants": [
+            "harder",
+            "harder.",
+            "Harder?",
+            "Harder",
+            "harder!",
+            "Harder,",
+            "Harder!",
+            "harder?",
+            "Harder.",
+            "harder,"
+          ],
+          "rule_keys": [
+            "unit_105_C"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex4_i5",
+          "prompt": "5) This chair looks newer, but it’s actually ____ than the other.",
+          "options": null,
+          "canonical": "older",
+          "accepted_variants": [
+            "older",
+            "Older!",
+            "Older.",
+            "older.",
+            "Older?",
+            "Older",
+            "older?",
+            "older!",
+            "older,",
+            "Older,"
+          ],
+          "rule_keys": [
+            "unit_105_C"
+          ]
+        },
+        {
+          "item_key": "unit_105_ex4_i6",
+          "prompt": "6) The new update made the app ____ to use.",
+          "options": null,
+          "canonical": "easier",
+          "accepted_variants": [
+            "easier",
+            "Easier,",
+            "Easier?",
+            "Easier!",
+            "easier,",
+            "Easier.",
+            "easier!",
+            "easier.",
+            "easier?",
+            "Easier"
+          ],
+          "rule_keys": [
+            "unit_105_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with much/far/a lot + comparative.",
+      "items": [
+        {
+          "item_key": "unit_106_ex1_i1",
+          "prompt": "1) This exercise is ____ (easy) than the last one.",
+          "options": null,
+          "canonical": "much easier",
+          "accepted_variants": [
+            "much easier",
+            "much easier.",
+            "Much easier"
+          ],
+          "rule_keys": [
+            "unit_106_A"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex1_i2",
+          "prompt": "2) The new laptop is ____ (expensive) than mine.",
+          "options": null,
+          "canonical": "far more expensive",
+          "accepted_variants": [
+            "far more expensive",
+            "far more expensive.",
+            "Far more expensive"
+          ],
+          "rule_keys": [
+            "unit_106_A"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex1_i3",
+          "prompt": "3) I feel ____ (good) today.",
+          "options": null,
+          "canonical": "a lot better",
+          "accepted_variants": [
+            "a lot better",
+            "a lot better.",
+            "A lot better"
+          ],
+          "rule_keys": [
+            "unit_106_A"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex1_i4",
+          "prompt": "4) The new version is ____ (useful) than the old one.",
+          "options": null,
+          "canonical": "much more useful",
+          "accepted_variants": [
+            "much more useful",
+            "Much more useful",
+            "much more useful."
+          ],
+          "rule_keys": [
+            "unit_106_A"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex1_i5",
+          "prompt": "5) The sea is ____ (cold) than I expected.",
+          "options": null,
+          "canonical": "much colder",
+          "accepted_variants": [
+            "much colder",
+            "Much colder",
+            "much colder."
+          ],
+          "rule_keys": [
+            "unit_106_A"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex1_i6",
+          "prompt": "6) This route is ____ (long) than the other.",
+          "options": null,
+          "canonical": "far longer",
+          "accepted_variants": [
+            "far longer",
+            "Far longer",
+            "far longer."
+          ],
+          "rule_keys": [
+            "unit_106_A"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex1_i7",
+          "prompt": "7) Her English is ____ (fluent) now.",
+          "options": null,
+          "canonical": "a lot more fluent",
+          "accepted_variants": [
+            "a lot more fluent",
+            "a lot more fluent.",
+            "A lot more fluent"
+          ],
+          "rule_keys": [
+            "unit_106_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a bit/a little/slightly + comparative.",
+      "items": [
+        {
+          "item_key": "unit_106_ex2_i1",
+          "prompt": "1) I’m ____ (tired) than yesterday.",
+          "options": null,
+          "canonical": "a bit more tired",
+          "accepted_variants": [
+            "a bit more tired",
+            "A bit more tired",
+            "a bit more tired."
+          ],
+          "rule_keys": [
+            "unit_106_B"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex2_i2",
+          "prompt": "2) This room is ____ (small) than the other one.",
+          "options": null,
+          "canonical": "slightly smaller",
+          "accepted_variants": [
+            "slightly smaller",
+            "slightly smaller.",
+            "Slightly smaller"
+          ],
+          "rule_keys": [
+            "unit_106_B"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex2_i3",
+          "prompt": "3) The soup needs to be ____ (hot).",
+          "options": null,
+          "canonical": "a little hotter",
+          "accepted_variants": [
+            "a little hotter",
+            "a little hotter.",
+            "A little hotter"
+          ],
+          "rule_keys": [
+            "unit_106_B"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex2_i4",
+          "prompt": "4) The second option is ____ (cheap).",
+          "options": null,
+          "canonical": "a bit cheaper",
+          "accepted_variants": [
+            "a bit cheaper",
+            "A bit cheaper",
+            "a bit cheaper."
+          ],
+          "rule_keys": [
+            "unit_106_B"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex2_i5",
+          "prompt": "5) The result is ____ (good) now.",
+          "options": null,
+          "canonical": "slightly better",
+          "accepted_variants": [
+            "slightly better",
+            "slightly better.",
+            "Slightly better"
+          ],
+          "rule_keys": [
+            "unit_106_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with any or no (use no longer where needed).",
+      "items": [
+        {
+          "item_key": "unit_106_ex3_i1",
+          "prompt": "1) Is it ____ cheaper online?",
+          "options": null,
+          "canonical": "any",
+          "accepted_variants": [
+            "any",
+            "Any?",
+            "any?",
+            "Any.",
+            "Any!",
+            "Any,",
+            "any.",
+            "any,",
+            "Any",
+            "any!"
+          ],
+          "rule_keys": [
+            "unit_106_C"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex3_i2",
+          "prompt": "2) I don’t think it’s ____ better than before.",
+          "options": null,
+          "canonical": "any",
+          "accepted_variants": [
+            "any",
+            "Any?",
+            "any?",
+            "Any.",
+            "Any!",
+            "Any,",
+            "any.",
+            "any,",
+            "Any",
+            "any!"
+          ],
+          "rule_keys": [
+            "unit_106_C"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex3_i3",
+          "prompt": "3) The situation is ____ worse now.",
+          "options": null,
+          "canonical": "no",
+          "accepted_variants": [
+            "no",
+            "No,",
+            "No?",
+            "No!",
+            "No",
+            "no,",
+            "no?",
+            "no.",
+            "No.",
+            "no!"
+          ],
+          "rule_keys": [
+            "unit_106_C"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex3_i4",
+          "prompt": "4) I’m not ____ interested in that topic anymore.",
+          "options": null,
+          "canonical": "any",
+          "accepted_variants": [
+            "any",
+            "Any?",
+            "any?",
+            "Any.",
+            "Any!",
+            "Any,",
+            "any.",
+            "any,",
+            "Any",
+            "any!"
+          ],
+          "rule_keys": [
+            "unit_106_C"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex3_i5",
+          "prompt": "5) She’s ____ longer working here.",
+          "options": null,
+          "canonical": "no",
+          "accepted_variants": [
+            "no",
+            "No,",
+            "No?",
+            "No!",
+            "No",
+            "no,",
+            "no?",
+            "no.",
+            "No.",
+            "no!"
+          ],
+          "rule_keys": [
+            "unit_106_C"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex3_i6",
+          "prompt": "6) Are you feeling ____ better today?",
+          "options": null,
+          "canonical": "any",
+          "accepted_variants": [
+            "any",
+            "Any?",
+            "any?",
+            "Any.",
+            "Any!",
+            "Any,",
+            "any.",
+            "any,",
+            "Any",
+            "any!"
+          ],
+          "rule_keys": [
+            "unit_106_C"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex3_i7",
+          "prompt": "7) The new plan isn’t ____ simpler.",
+          "options": null,
+          "canonical": "any",
+          "accepted_variants": [
+            "any",
+            "Any?",
+            "any?",
+            "Any.",
+            "Any!",
+            "Any,",
+            "any.",
+            "any,",
+            "Any",
+            "any!"
+          ],
+          "rule_keys": [
+            "unit_106_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the correct pronoun/clause after than.",
+      "items": [
+        {
+          "item_key": "unit_106_ex4_i1",
+          "prompt": "1) She’s older than ____.",
+          "options": null,
+          "canonical": "me",
+          "accepted_variants": [
+            "me",
+            "Me?",
+            "me!",
+            "me.",
+            "Me",
+            "Me!",
+            "Me.",
+            "me,",
+            "Me,",
+            "me?"
+          ],
+          "rule_keys": [
+            "unit_106_D"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex4_i2",
+          "prompt": "2) He’s not as tall as you, but he’s taller than ____ ____.",
+          "options": null,
+          "canonical": "I am",
+          "accepted_variants": [
+            "I am",
+            "i am",
+            "I am.",
+            "I'm",
+            "I’m"
+          ],
+          "rule_keys": [
+            "unit_106_D"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex4_i3",
+          "prompt": "3) This computer is faster than ____.",
+          "options": null,
+          "canonical": "mine",
+          "accepted_variants": [
+            "mine",
+            "mine!",
+            "Mine.",
+            "Mine!",
+            "mine.",
+            "Mine,",
+            "Mine?",
+            "Mine",
+            "mine?",
+            "mine,"
+          ],
+          "rule_keys": [
+            "unit_106_D"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex4_i4",
+          "prompt": "4) She’s more organised than ____ ____.",
+          "options": null,
+          "canonical": "I am",
+          "accepted_variants": [
+            "I am",
+            "i am",
+            "I am.",
+            "I'm",
+            "I’m"
+          ],
+          "rule_keys": [
+            "unit_106_D"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex4_i5",
+          "prompt": "5) They earn more than ____.",
+          "options": null,
+          "canonical": "us",
+          "accepted_variants": [
+            "us",
+            "us!",
+            "Us!",
+            "us,",
+            "Us?",
+            "us.",
+            "us?",
+            "Us.",
+            "Us,",
+            "Us"
+          ],
+          "rule_keys": [
+            "unit_106_D"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex4_i6",
+          "prompt": "6) The trip was more tiring than ____ thought.",
+          "options": null,
+          "canonical": "I",
+          "accepted_variants": [
+            "I",
+            "I?",
+            "i",
+            "I.",
+            "I,",
+            "I!"
+          ],
+          "rule_keys": [
+            "unit_106_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_106",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete with comparative patterns (… and … / the … the …).",
+      "items": [
+        {
+          "item_key": "unit_106_ex5_i1",
+          "prompt": "1) Complete: My English is improving. It’s getting ____.",
+          "options": null,
+          "canonical": "better and better",
+          "accepted_variants": [
+            "better and better",
+            "better and better.",
+            "Better and better",
+            "better & better"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i2",
+          "prompt": "2) Complete: The weather is changing. It’s getting ____.",
+          "options": null,
+          "canonical": "colder and colder",
+          "accepted_variants": [
+            "colder and colder",
+            "colder and colder.",
+            "Colder and colder",
+            "colder & colder"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i3",
+          "prompt": "3) Complete: I like this place more each day. I like it ____.",
+          "options": null,
+          "canonical": "more and more",
+          "accepted_variants": [
+            "more and more",
+            "more and more.",
+            "More and more",
+            "more & more"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i4",
+          "prompt": "4) Complete: The noise got ____ during the night.",
+          "options": null,
+          "canonical": "louder and louder",
+          "accepted_variants": [
+            "louder and louder",
+            "louder and louder.",
+            "Louder and louder",
+            "louder & louder"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i5",
+          "prompt": "5) Complete: The more you practise, the ____ you get.",
+          "options": null,
+          "canonical": "better",
+          "accepted_variants": [
+            "better",
+            "better,",
+            "Better.",
+            "better!",
+            "Better?",
+            "Better,",
+            "Better!",
+            "better?",
+            "Better",
+            "better."
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i6",
+          "prompt": "6) Complete: The sooner we leave, the ____.",
+          "options": null,
+          "canonical": "better",
+          "accepted_variants": [
+            "better",
+            "better,",
+            "Better.",
+            "better!",
+            "Better?",
+            "Better,",
+            "Better!",
+            "better?",
+            "Better",
+            "better."
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i7",
+          "prompt": "7) Complete: The more I read, the ____ I understand.",
+          "options": null,
+          "canonical": "less",
+          "accepted_variants": [
+            "less",
+            "less,",
+            "Less",
+            "less.",
+            "Less.",
+            "Less,",
+            "Less?",
+            "Less!",
+            "less!",
+            "less?"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i8",
+          "prompt": "8) Complete: The longer we wait, the ____ it gets.",
+          "options": null,
+          "canonical": "more expensive",
+          "accepted_variants": [
+            "more expensive",
+            "more expensive.",
+            "More expensive"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i9",
+          "prompt": "9) Complete: The older I get, the ____ I am.",
+          "options": null,
+          "canonical": "happier",
+          "accepted_variants": [
+            "happier",
+            "Happier.",
+            "Happier,",
+            "Happier!",
+            "happier?",
+            "Happier?",
+            "happier!",
+            "Happier",
+            "happier.",
+            "happier,"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i10",
+          "prompt": "10) Complete: The bigger the city, the ____ traffic there is.",
+          "options": null,
+          "canonical": "more",
+          "accepted_variants": [
+            "more",
+            "more.",
+            "More.",
+            "more!",
+            "more,",
+            "More?",
+            "More,",
+            "More!",
+            "More",
+            "more?"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        },
+        {
+          "item_key": "unit_106_ex5_i11",
+          "prompt": "11) Complete: Her health is improving. She feels ____.",
+          "options": null,
+          "canonical": "better and better",
+          "accepted_variants": [
+            "better and better",
+            "better and better.",
+            "Better and better",
+            "better & better"
+          ],
+          "rule_keys": [
+            "unit_106_E"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with as ... as.",
+      "items": [
+        {
+          "item_key": "unit_107_ex1_i1",
+          "prompt": "1) He can run ____ (fast) his brother.",
+          "options": null,
+          "canonical": "as fast as",
+          "accepted_variants": [
+            "as fast as",
+            "As fast as",
+            "as fast as."
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex1_i2",
+          "prompt": "2) My bag is ____ (heavy) yours.",
+          "options": null,
+          "canonical": "as heavy as",
+          "accepted_variants": [
+            "as heavy as",
+            "As heavy as",
+            "as heavy as."
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex1_i3",
+          "prompt": "3) This test isn’t ____ (difficult) it looks.",
+          "options": null,
+          "canonical": "as difficult as",
+          "accepted_variants": [
+            "as difficult as",
+            "As difficult as",
+            "as difficult as."
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex1_i4",
+          "prompt": "4) She doesn’t drive ____ (carefully) her mum.",
+          "options": null,
+          "canonical": "as carefully as",
+          "accepted_variants": [
+            "as carefully as",
+            "As carefully as",
+            "as carefully as."
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex1_i5",
+          "prompt": "5) The apartment is ____ (quiet) at night.",
+          "options": null,
+          "canonical": "as quiet as",
+          "accepted_variants": [
+            "as quiet as",
+            "as quiet as.",
+            "As quiet as"
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex1_i6",
+          "prompt": "6) I’m ____ (tall) you.",
+          "options": null,
+          "canonical": "as tall as",
+          "accepted_variants": [
+            "as tall as",
+            "As tall as",
+            "as tall as."
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex1_i7",
+          "prompt": "7) Please answer ____ (quickly) you can.",
+          "options": null,
+          "canonical": "as quickly as",
+          "accepted_variants": [
+            "as quickly as",
+            "as quickly as.",
+            "As quickly as"
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with not as/so ... as (write the phrase as ... as).",
+      "items": [
+        {
+          "item_key": "unit_107_ex2_i1",
+          "prompt": "1) This phone isn’t ____ (expensive) the other one.",
+          "options": null,
+          "canonical": "as expensive as",
+          "accepted_variants": [
+            "as expensive as",
+            "as expensive as.",
+            "As expensive as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex2_i2",
+          "prompt": "2) I’m not ____ (fit) I used to be.",
+          "options": null,
+          "canonical": "as fit as",
+          "accepted_variants": [
+            "as fit as",
+            "as fit as.",
+            "As fit as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex2_i3",
+          "prompt": "3) The bus is not ____ (reliable) the train.",
+          "options": null,
+          "canonical": "as reliable as",
+          "accepted_variants": [
+            "as reliable as",
+            "As reliable as",
+            "as reliable as."
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex2_i4",
+          "prompt": "4) The soup wasn’t ____ (hot) I expected.",
+          "options": null,
+          "canonical": "as hot as",
+          "accepted_variants": [
+            "as hot as",
+            "as hot as.",
+            "As hot as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex2_i5",
+          "prompt": "5) He’s not ____ (friendly) his sister.",
+          "options": null,
+          "canonical": "as friendly as",
+          "accepted_variants": [
+            "as friendly as",
+            "As friendly as",
+            "as friendly as."
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex2_i6",
+          "prompt": "6) Today isn’t ____ (windy) yesterday.",
+          "options": null,
+          "canonical": "as windy as",
+          "accepted_variants": [
+            "as windy as",
+            "As windy as",
+            "as windy as."
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex2_i7",
+          "prompt": "7) The film wasn’t ____ (good) the reviews said.",
+          "options": null,
+          "canonical": "as good as",
+          "accepted_variants": [
+            "as good as",
+            "as good as.",
+            "As good as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex2_i8",
+          "prompt": "8) My laptop is not ____ (powerful) yours.",
+          "options": null,
+          "canonical": "as powerful as",
+          "accepted_variants": [
+            "as powerful as",
+            "as powerful as.",
+            "As powerful as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with as much/many/few/little ... as.",
+      "items": [
+        {
+          "item_key": "unit_107_ex3_i1",
+          "prompt": "1) I don’t have ____ (much time) you.",
+          "options": null,
+          "canonical": "as much time as",
+          "accepted_variants": [
+            "as much time as",
+            "As much time as",
+            "as much time as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex3_i2",
+          "prompt": "2) We didn’t get ____ (many answers) we hoped for.",
+          "options": null,
+          "canonical": "as many answers as",
+          "accepted_variants": [
+            "as many answers as",
+            "As many answers as",
+            "as many answers as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex3_i3",
+          "prompt": "3) She doesn’t eat ____ (much meat) before.",
+          "options": null,
+          "canonical": "as much meat as",
+          "accepted_variants": [
+            "as much meat as",
+            "As much meat as",
+            "as much meat as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex3_i4",
+          "prompt": "4) There aren’t ____ (many seats) last year.",
+          "options": null,
+          "canonical": "as many seats as",
+          "accepted_variants": [
+            "as many seats as",
+            "As many seats as",
+            "as many seats as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex3_i5",
+          "prompt": "5) I have ____ (few messages) today.",
+          "options": null,
+          "canonical": "as few messages as",
+          "accepted_variants": [
+            "as few messages as",
+            "As few messages as",
+            "as few messages as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex3_i6",
+          "prompt": "6) He has ____ (little patience) his brother.",
+          "options": null,
+          "canonical": "as little patience as",
+          "accepted_variants": [
+            "as little patience as",
+            "As little patience as",
+            "as little patience as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex3_i7",
+          "prompt": "7) We spent ____ (much money) we planned.",
+          "options": null,
+          "canonical": "as much money as",
+          "accepted_variants": [
+            "as much money as",
+            "As much money as",
+            "as much money as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Write the correct comparison phrase (… than / as … as).",
+      "items": [
+        {
+          "item_key": "unit_107_ex4_i1",
+          "prompt": "1) Choose the correct comparison: I’m ____ (old) my brother. (use than)",
+          "options": null,
+          "canonical": "older than",
+          "accepted_variants": [
+            "older than",
+            "older than.",
+            "Older than"
+          ],
+          "rule_keys": [
+            "unit_107_D"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex4_i2",
+          "prompt": "2) Choose the correct comparison: This room is ____ (big) the other one. (use than)",
+          "options": null,
+          "canonical": "bigger than",
+          "accepted_variants": [
+            "bigger than",
+            "bigger than.",
+            "Bigger than"
+          ],
+          "rule_keys": [
+            "unit_107_D"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex4_i3",
+          "prompt": "3) Choose the correct comparison: I’m ____ (tall) you. (use as ... as)",
+          "options": null,
+          "canonical": "as tall as",
+          "accepted_variants": [
+            "as tall as",
+            "As tall as",
+            "as tall as."
+          ],
+          "rule_keys": [
+            "unit_107_D"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex4_i4",
+          "prompt": "4) Choose the correct comparison: The train is ____ (fast) the bus. (use than)",
+          "options": null,
+          "canonical": "faster than",
+          "accepted_variants": [
+            "faster than",
+            "faster than.",
+            "Faster than"
+          ],
+          "rule_keys": [
+            "unit_107_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_107",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the correct comparative structure.",
+      "items": [
+        {
+          "item_key": "unit_107_ex5_i1",
+          "prompt": "1) Complete: My car is ____ (not / old) yours.",
+          "options": null,
+          "canonical": "not as old as",
+          "accepted_variants": [
+            "not as old as",
+            "not as old as.",
+            "Not as old as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i2",
+          "prompt": "2) Complete: She’s ____ (intelligent) her sister.",
+          "options": null,
+          "canonical": "as intelligent as",
+          "accepted_variants": [
+            "as intelligent as",
+            "As intelligent as",
+            "as intelligent as."
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i3",
+          "prompt": "3) Complete: We have ____ (few problems) last time.",
+          "options": null,
+          "canonical": "as few problems as",
+          "accepted_variants": [
+            "as few problems as",
+            "As few problems as",
+            "as few problems as."
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i4",
+          "prompt": "4) Complete: His flat is ____ (small) mine. (than)",
+          "options": null,
+          "canonical": "smaller than",
+          "accepted_variants": [
+            "smaller than",
+            "Smaller than",
+            "smaller than."
+          ],
+          "rule_keys": [
+            "unit_107_D"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i5",
+          "prompt": "5) Complete: This route is ____ (long) I expected. (not as)",
+          "options": null,
+          "canonical": "not as long as",
+          "accepted_variants": [
+            "not as long as",
+            "not as long as.",
+            "Not as long as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i6",
+          "prompt": "6) Complete: I can’t run ____ (fast) you.",
+          "options": null,
+          "canonical": "as fast as",
+          "accepted_variants": [
+            "as fast as",
+            "As fast as",
+            "as fast as."
+          ],
+          "rule_keys": [
+            "unit_107_A"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i7",
+          "prompt": "7) Complete: The new model is ____ (good) the old one. (than)",
+          "options": null,
+          "canonical": "better than",
+          "accepted_variants": [
+            "better than",
+            "Better than",
+            "better than."
+          ],
+          "rule_keys": [
+            "unit_107_D"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i8",
+          "prompt": "8) Complete: We don’t have ____ (much space) before.",
+          "options": null,
+          "canonical": "as much space as",
+          "accepted_variants": [
+            "as much space as",
+            "as much space as.",
+            "As much space as"
+          ],
+          "rule_keys": [
+            "unit_107_C"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i9",
+          "prompt": "9) Complete: The weather isn’t ____ (bad) yesterday.",
+          "options": null,
+          "canonical": "as bad as",
+          "accepted_variants": [
+            "as bad as",
+            "as bad as.",
+            "As bad as"
+          ],
+          "rule_keys": [
+            "unit_107_B"
+          ]
+        },
+        {
+          "item_key": "unit_107_ex5_i10",
+          "prompt": "10) Complete: The internet here is ____ (slow) at home. (than)",
+          "options": null,
+          "canonical": "slower than",
+          "accepted_variants": [
+            "slower than",
+            "slower than.",
+            "Slower than"
+          ],
+          "rule_keys": [
+            "unit_107_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Write the superlative form (include the).",
+      "items": [
+        {
+          "item_key": "unit_108_ex1_i1",
+          "prompt": "1) Write the superlative: cheap → ____.",
+          "options": null,
+          "canonical": "the cheapest",
+          "accepted_variants": [
+            "the cheapest",
+            "The cheapest",
+            "the cheapest.",
+            "cheapest"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex1_i2",
+          "prompt": "2) Write the superlative: big → ____.",
+          "options": null,
+          "canonical": "the biggest",
+          "accepted_variants": [
+            "the biggest",
+            "The biggest",
+            "the biggest.",
+            "biggest"
+          ],
+          "rule_keys": [
+            "unit_108_B"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex1_i3",
+          "prompt": "3) Write the superlative: easy → ____.",
+          "options": null,
+          "canonical": "the easiest",
+          "accepted_variants": [
+            "the easiest",
+            "the easiest.",
+            "The easiest",
+            "easiest"
+          ],
+          "rule_keys": [
+            "unit_108_B"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex1_i4",
+          "prompt": "4) Write the superlative: important → ____.",
+          "options": null,
+          "canonical": "the most important",
+          "accepted_variants": [
+            "the most important",
+            "The most important",
+            "the most important.",
+            "most important"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex1_i5",
+          "prompt": "5) Write the superlative: good → ____.",
+          "options": null,
+          "canonical": "the best",
+          "accepted_variants": [
+            "the best",
+            "the best.",
+            "The best",
+            "best"
+          ],
+          "rule_keys": [
+            "unit_108_B"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex1_i6",
+          "prompt": "6) Write the superlative: bad → ____.",
+          "options": null,
+          "canonical": "the worst",
+          "accepted_variants": [
+            "the worst",
+            "the worst.",
+            "The worst",
+            "worst"
+          ],
+          "rule_keys": [
+            "unit_108_B"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex1_i7",
+          "prompt": "7) Write the superlative: interesting → ____.",
+          "options": null,
+          "canonical": "the most interesting",
+          "accepted_variants": [
+            "the most interesting",
+            "the most interesting.",
+            "The most interesting",
+            "most interesting"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the superlative.",
+      "items": [
+        {
+          "item_key": "unit_108_ex2_i1",
+          "prompt": "1) This is ____ (cheap) place to eat nearby.",
+          "options": null,
+          "canonical": "the cheapest",
+          "accepted_variants": [
+            "the cheapest",
+            "The cheapest",
+            "the cheapest.",
+            "cheapest"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i2",
+          "prompt": "2) She’s ____ (young) person in our team.",
+          "options": null,
+          "canonical": "the youngest",
+          "accepted_variants": [
+            "the youngest",
+            "the youngest.",
+            "The youngest",
+            "youngest"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i3",
+          "prompt": "3) That was ____ (good) decision we could make.",
+          "options": null,
+          "canonical": "the best",
+          "accepted_variants": [
+            "the best",
+            "the best.",
+            "The best",
+            "best"
+          ],
+          "rule_keys": [
+            "unit_108_B"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i4",
+          "prompt": "4) It’s ____ (difficult) part of the course.",
+          "options": null,
+          "canonical": "the most difficult",
+          "accepted_variants": [
+            "the most difficult",
+            "The most difficult",
+            "the most difficult.",
+            "most difficult"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i5",
+          "prompt": "5) This is ____ (bad) coffee I’ve tried.",
+          "options": null,
+          "canonical": "the worst",
+          "accepted_variants": [
+            "the worst",
+            "the worst.",
+            "The worst",
+            "worst"
+          ],
+          "rule_keys": [
+            "unit_108_B"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i6",
+          "prompt": "6) He’s ____ (friendly) guy in the office.",
+          "options": null,
+          "canonical": "the friendliest",
+          "accepted_variants": [
+            "the friendliest",
+            "the friendliest.",
+            "The friendliest",
+            "friendliest"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i7",
+          "prompt": "7) That’s ____ (beautiful) view in the city.",
+          "options": null,
+          "canonical": "the most beautiful",
+          "accepted_variants": [
+            "the most beautiful",
+            "The most beautiful",
+            "the most beautiful.",
+            "most beautiful"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i8",
+          "prompt": "8) It was ____ (exciting) match of the season.",
+          "options": null,
+          "canonical": "the most exciting",
+          "accepted_variants": [
+            "the most exciting",
+            "The most exciting",
+            "the most exciting.",
+            "most exciting"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i9",
+          "prompt": "9) This is ____ (simple) way to do it.",
+          "options": null,
+          "canonical": "the simplest",
+          "accepted_variants": [
+            "the simplest",
+            "the simplest.",
+            "The simplest",
+            "simplest"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i10",
+          "prompt": "10) It’s ____ (important) point to remember.",
+          "options": null,
+          "canonical": "the most important",
+          "accepted_variants": [
+            "the most important",
+            "The most important",
+            "the most important.",
+            "most important"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i11",
+          "prompt": "11) She gave ____ (clear) explanation.",
+          "options": null,
+          "canonical": "the clearest",
+          "accepted_variants": [
+            "the clearest",
+            "The clearest",
+            "the clearest.",
+            "clearest"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex2_i12",
+          "prompt": "12) That’s ____ (funny) thing I’ve heard today.",
+          "options": null,
+          "canonical": "the funniest",
+          "accepted_variants": [
+            "the funniest",
+            "the funniest.",
+            "The funniest",
+            "funniest"
+          ],
+          "rule_keys": [
+            "unit_108_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with in/of or a noun phrase for one of the ...",
+      "items": [
+        {
+          "item_key": "unit_108_ex3_i1",
+          "prompt": "1) She’s the tallest ____ the class.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "In,",
+            "in?",
+            "in!",
+            "in.",
+            "In",
+            "In?",
+            "in,",
+            "In.",
+            "In!"
+          ],
+          "rule_keys": [
+            "unit_108_C"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i2",
+          "prompt": "2) This is the best ____ the three options.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "Of",
+            "Of,",
+            "of?",
+            "Of!",
+            "Of?",
+            "Of.",
+            "of,",
+            "of!",
+            "of."
+          ],
+          "rule_keys": [
+            "unit_108_C"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i3",
+          "prompt": "3) He’s one of the most reliable ____ in the team.",
+          "options": null,
+          "canonical": "people",
+          "accepted_variants": [
+            "people",
+            "People.",
+            "People,",
+            "People!",
+            "people?",
+            "People?",
+            "people!",
+            "people.",
+            "people,",
+            "People"
+          ],
+          "rule_keys": [
+            "unit_108_D"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i4",
+          "prompt": "4) That’s one of the oldest ____ in this street.",
+          "options": null,
+          "canonical": "buildings",
+          "accepted_variants": [
+            "buildings",
+            "buildings!",
+            "buildings,",
+            "Buildings?",
+            "buildings?",
+            "Buildings,",
+            "Buildings",
+            "Buildings!",
+            "Buildings.",
+            "buildings."
+          ],
+          "rule_keys": [
+            "unit_108_D"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i5",
+          "prompt": "5) It’s the cheapest ____ all the shops I checked.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "Of",
+            "Of,",
+            "of?",
+            "Of!",
+            "Of?",
+            "Of.",
+            "of,",
+            "of!",
+            "of."
+          ],
+          "rule_keys": [
+            "unit_108_C"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i6",
+          "prompt": "6) Who’s the fastest ____ your friends?",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "Of",
+            "Of,",
+            "of?",
+            "Of!",
+            "Of?",
+            "Of.",
+            "of,",
+            "of!",
+            "of."
+          ],
+          "rule_keys": [
+            "unit_108_C"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i7",
+          "prompt": "7) This is one of the most useful ____ I’ve bought.",
+          "options": null,
+          "canonical": "things",
+          "accepted_variants": [
+            "things",
+            "Things",
+            "Things?",
+            "Things,",
+            "things,",
+            "things.",
+            "things!",
+            "Things.",
+            "Things!",
+            "things?"
+          ],
+          "rule_keys": [
+            "unit_108_D"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i8",
+          "prompt": "8) She’s the best ____ our department.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "In,",
+            "in?",
+            "in!",
+            "in.",
+            "In",
+            "In?",
+            "in,",
+            "In.",
+            "In!"
+          ],
+          "rule_keys": [
+            "unit_108_C"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i9",
+          "prompt": "9) It was the worst ____ my life.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "Of",
+            "Of,",
+            "of?",
+            "Of!",
+            "Of?",
+            "Of.",
+            "of,",
+            "of!",
+            "of."
+          ],
+          "rule_keys": [
+            "unit_108_C"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex3_i10",
+          "prompt": "10) This is one of the most popular ____ in town.",
+          "options": null,
+          "canonical": "cafés",
+          "accepted_variants": [
+            "cafés",
+            "Cafés.",
+            "Cafés,",
+            "cafés.",
+            "cafés!",
+            "cafés?",
+            "Cafés",
+            "Cafés!",
+            "Cafés?",
+            "cafés,"
+          ],
+          "rule_keys": [
+            "unit_108_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_108",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with ever.",
+      "items": [
+        {
+          "item_key": "unit_108_ex4_i1",
+          "prompt": "1) It was the best meal I’ve ____ had.",
+          "options": null,
+          "canonical": "ever",
+          "accepted_variants": [
+            "ever",
+            "ever!",
+            "Ever?",
+            "Ever.",
+            "Ever",
+            "ever?",
+            "ever.",
+            "ever,",
+            "Ever,",
+            "Ever!"
+          ],
+          "rule_keys": [
+            "unit_108_E"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex4_i2",
+          "prompt": "2) That was the hardest exam I’ve ____ taken.",
+          "options": null,
+          "canonical": "ever",
+          "accepted_variants": [
+            "ever",
+            "ever!",
+            "Ever?",
+            "Ever.",
+            "Ever",
+            "ever?",
+            "ever.",
+            "ever,",
+            "Ever,",
+            "Ever!"
+          ],
+          "rule_keys": [
+            "unit_108_E"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex4_i3",
+          "prompt": "3) It’s the funniest video I’ve ____ seen.",
+          "options": null,
+          "canonical": "ever",
+          "accepted_variants": [
+            "ever",
+            "ever!",
+            "Ever?",
+            "Ever.",
+            "Ever",
+            "ever?",
+            "ever.",
+            "ever,",
+            "Ever,",
+            "Ever!"
+          ],
+          "rule_keys": [
+            "unit_108_E"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex4_i4",
+          "prompt": "4) This is the most beautiful place I’ve ____ visited.",
+          "options": null,
+          "canonical": "ever",
+          "accepted_variants": [
+            "ever",
+            "ever!",
+            "Ever?",
+            "Ever.",
+            "Ever",
+            "ever?",
+            "ever.",
+            "ever,",
+            "Ever,",
+            "Ever!"
+          ],
+          "rule_keys": [
+            "unit_108_E"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex4_i5",
+          "prompt": "5) It was the worst service I’ve ____ experienced.",
+          "options": null,
+          "canonical": "ever",
+          "accepted_variants": [
+            "ever",
+            "ever!",
+            "Ever?",
+            "Ever.",
+            "Ever",
+            "ever?",
+            "ever.",
+            "ever,",
+            "Ever,",
+            "Ever!"
+          ],
+          "rule_keys": [
+            "unit_108_E"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex4_i6",
+          "prompt": "6) That’s the most surprising thing I’ve ____ heard.",
+          "options": null,
+          "canonical": "ever",
+          "accepted_variants": [
+            "ever",
+            "ever!",
+            "Ever?",
+            "Ever.",
+            "Ever",
+            "ever?",
+            "ever.",
+            "ever,",
+            "Ever,",
+            "Ever!"
+          ],
+          "rule_keys": [
+            "unit_108_E"
+          ]
+        },
+        {
+          "item_key": "unit_108_ex4_i7",
+          "prompt": "7) It’s the most expensive mistake I’ve ____ made.",
+          "options": null,
+          "canonical": "ever",
+          "accepted_variants": [
+            "ever",
+            "ever!",
+            "Ever?",
+            "Ever.",
+            "Ever",
+            "ever?",
+            "ever.",
+            "ever,",
+            "Ever,",
+            "Ever!"
+          ],
+          "rule_keys": [
+            "unit_108_E"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put the words in the correct order.",
+      "items": [
+        {
+          "item_key": "unit_109_ex1_i1",
+          "prompt": "1) Put the words in order: (bought / a new laptop / I / yesterday)",
+          "options": null,
+          "canonical": "I bought a new laptop yesterday.",
+          "accepted_variants": [
+            "I bought a new laptop yesterday.",
+            "I bought a new laptop yesterday",
+            "i bought a new laptop yesterday."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i2",
+          "prompt": "2) Put the words in order: (reads / every evening / my sister / novels)",
+          "options": null,
+          "canonical": "My sister reads novels every evening.",
+          "accepted_variants": [
+            "My sister reads novels every evening.",
+            "my sister reads novels every evening.",
+            "My sister reads novels every evening"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i3",
+          "prompt": "3) Put the words in order: (found / on the floor / I / your keys)",
+          "options": null,
+          "canonical": "I found your keys on the floor.",
+          "accepted_variants": [
+            "I found your keys on the floor.",
+            "i found your keys on the floor.",
+            "I found your keys on the floor"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i4",
+          "prompt": "4) Put the words in order: (met / at a café / we / last week)",
+          "options": null,
+          "canonical": "We met at a café last week.",
+          "accepted_variants": [
+            "We met at a café last week.",
+            "We met at a café last week",
+            "we met at a café last week."
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i5",
+          "prompt": "5) Put the words in order: (sent / an email / he / this morning)",
+          "options": null,
+          "canonical": "He sent an email this morning.",
+          "accepted_variants": [
+            "He sent an email this morning.",
+            "He sent an email this morning",
+            "he sent an email this morning."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i6",
+          "prompt": "6) Put the words in order: (watched / at home / they / the match)",
+          "options": null,
+          "canonical": "They watched the match at home.",
+          "accepted_variants": [
+            "They watched the match at home.",
+            "they watched the match at home.",
+            "They watched the match at home"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i7",
+          "prompt": "7) Put the words in order: (saw / in the park / I / her)",
+          "options": null,
+          "canonical": "I saw her in the park.",
+          "accepted_variants": [
+            "I saw her in the park.",
+            "I saw her in the park",
+            "i saw her in the park."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i8",
+          "prompt": "8) Put the words in order: (cooked / for dinner / she / pasta)",
+          "options": null,
+          "canonical": "She cooked pasta for dinner.",
+          "accepted_variants": [
+            "She cooked pasta for dinner.",
+            "She cooked pasta for dinner",
+            "she cooked pasta for dinner."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i9",
+          "prompt": "9) Put the words in order: (lost / on the bus / I / my wallet)",
+          "options": null,
+          "canonical": "I lost my wallet on the bus.",
+          "accepted_variants": [
+            "I lost my wallet on the bus.",
+            "i lost my wallet on the bus.",
+            "I lost my wallet on the bus"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i10",
+          "prompt": "10) Put the words in order: (spoke / after class / we / to the teacher)",
+          "options": null,
+          "canonical": "We spoke to the teacher after class.",
+          "accepted_variants": [
+            "We spoke to the teacher after class.",
+            "we spoke to the teacher after class.",
+            "We spoke to the teacher after class"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i11",
+          "prompt": "11) Put the words in order: (fixed / quickly / he / the problem)",
+          "options": null,
+          "canonical": "He fixed the problem quickly.",
+          "accepted_variants": [
+            "He fixed the problem quickly.",
+            "he fixed the problem quickly.",
+            "He fixed the problem quickly"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex1_i12",
+          "prompt": "12) Put the words in order: (invited / to the party / they / us)",
+          "options": null,
+          "canonical": "They invited us to the party.",
+          "accepted_variants": [
+            "They invited us to the party.",
+            "They invited us to the party",
+            "they invited us to the party."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put place before time.",
+      "items": [
+        {
+          "item_key": "unit_109_ex2_i1",
+          "prompt": "1) Correct order (place + time): I met him ____ ____ . (at the station / this morning)",
+          "options": null,
+          "canonical": "at the station this morning",
+          "accepted_variants": [
+            "at the station this morning",
+            "at the station this morning.",
+            "At the station this morning"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex2_i2",
+          "prompt": "2) Correct order (place + time): We stayed ____ ____ . (in Lviv / last weekend)",
+          "options": null,
+          "canonical": "in Lviv last weekend",
+          "accepted_variants": [
+            "in Lviv last weekend",
+            "In Lviv last weekend",
+            "in Lviv last weekend.",
+            "In lviv last weekend"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex2_i3",
+          "prompt": "3) Correct order (place + time): She studied ____ ____ . (at home / yesterday)",
+          "options": null,
+          "canonical": "at home yesterday",
+          "accepted_variants": [
+            "at home yesterday",
+            "at home yesterday.",
+            "At home yesterday"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex2_i4",
+          "prompt": "4) Correct order (place + time): I left my bag ____ ____ . (in the car / last night)",
+          "options": null,
+          "canonical": "in the car last night",
+          "accepted_variants": [
+            "in the car last night",
+            "in the car last night.",
+            "In the car last night"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex2_i5",
+          "prompt": "5) Correct order (place + time): They had lunch ____ ____ . (in the park / on Sunday)",
+          "options": null,
+          "canonical": "in the park on Sunday",
+          "accepted_variants": [
+            "in the park on Sunday",
+            "In the park on Sunday",
+            "in the park on Sunday.",
+            "In the park on sunday"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex2_i6",
+          "prompt": "6) Correct order (place + time): We talked ____ ____ . (in the hallway / after the meeting)",
+          "options": null,
+          "canonical": "in the hallway after the meeting",
+          "accepted_variants": [
+            "in the hallway after the meeting",
+            "in the hallway after the meeting.",
+            "In the hallway after the meeting"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex2_i7",
+          "prompt": "7) Correct order (place + time): I saw her ____ ____ . (at work / this afternoon)",
+          "options": null,
+          "canonical": "at work this afternoon",
+          "accepted_variants": [
+            "at work this afternoon",
+            "At work this afternoon",
+            "at work this afternoon."
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex2_i8",
+          "prompt": "8) Correct order (place + time): He slept ____ ____ . (on the sofa / all day)",
+          "options": null,
+          "canonical": "on the sofa all day",
+          "accepted_variants": [
+            "on the sofa all day",
+            "on the sofa all day.",
+            "On the sofa all day"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_109",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Correct the word order.",
+      "items": [
+        {
+          "item_key": "unit_109_ex3_i1",
+          "prompt": "1) Correct the sentence: I went yesterday to the dentist.",
+          "options": null,
+          "canonical": "I went to the dentist yesterday.",
+          "accepted_variants": [
+            "I went to the dentist yesterday.",
+            "I went to the dentist yesterday",
+            "i went to the dentist yesterday."
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i2",
+          "prompt": "2) Correct the sentence: She speaks very well English.",
+          "options": null,
+          "canonical": "She speaks English very well.",
+          "accepted_variants": [
+            "She speaks English very well.",
+            "She speaks English very well",
+            "she speaks English very well."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i3",
+          "prompt": "3) Correct the sentence: We at home watched the movie.",
+          "options": null,
+          "canonical": "We watched the movie at home.",
+          "accepted_variants": [
+            "We watched the movie at home.",
+            "We watched the movie at home",
+            "we watched the movie at home."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i4",
+          "prompt": "4) Correct the sentence: He to the office drove this morning.",
+          "options": null,
+          "canonical": "He drove to the office this morning.",
+          "accepted_variants": [
+            "He drove to the office this morning.",
+            "he drove to the office this morning.",
+            "He drove to the office this morning"
+          ],
+          "rule_keys": [
+            "unit_109_C"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i5",
+          "prompt": "5) Correct the sentence: They in the kitchen were talking.",
+          "options": null,
+          "canonical": "They were talking in the kitchen.",
+          "accepted_variants": [
+            "They were talking in the kitchen.",
+            "they were talking in the kitchen.",
+            "They were talking in the kitchen"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i6",
+          "prompt": "6) Correct the sentence: I found in my pocket the receipt.",
+          "options": null,
+          "canonical": "I found the receipt in my pocket.",
+          "accepted_variants": [
+            "I found the receipt in my pocket.",
+            "I found the receipt in my pocket",
+            "i found the receipt in my pocket."
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i7",
+          "prompt": "7) Correct the sentence: She last week met him in Warsaw.",
+          "options": null,
+          "canonical": "She met him in Warsaw last week.",
+          "accepted_variants": [
+            "She met him in Warsaw last week.",
+            "she met him in Warsaw last week.",
+            "She met him in Warsaw last week"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i8",
+          "prompt": "8) Correct the sentence: We to Spain travelled last year.",
+          "options": null,
+          "canonical": "We travelled to Spain last year.",
+          "accepted_variants": [
+            "We travelled to Spain last year.",
+            "we travelled to Spain last year.",
+            "We travelled to Spain last year"
+          ],
+          "rule_keys": [
+            "unit_109_C"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i9",
+          "prompt": "9) Correct the sentence: He carefully read the instructions.",
+          "options": null,
+          "canonical": "He read the instructions carefully.",
+          "accepted_variants": [
+            "He read the instructions carefully.",
+            "he read the instructions carefully.",
+            "He read the instructions carefully"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i10",
+          "prompt": "10) Correct the sentence: I in a taxi came home.",
+          "options": null,
+          "canonical": "I came home in a taxi.",
+          "accepted_variants": [
+            "I came home in a taxi.",
+            "i came home in a taxi.",
+            "I came home in a taxi"
+          ],
+          "rule_keys": [
+            "unit_109_C"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i11",
+          "prompt": "11) Correct the sentence: They at the same café meet on Saturdays.",
+          "options": null,
+          "canonical": "They meet at the same café on Saturdays.",
+          "accepted_variants": [
+            "They meet at the same café on Saturdays.",
+            "they meet at the same café on Saturdays.",
+            "They meet at the same café on Saturdays"
+          ],
+          "rule_keys": [
+            "unit_109_B"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i12",
+          "prompt": "12) Correct the sentence: She the email sent immediately.",
+          "options": null,
+          "canonical": "She sent the email immediately.",
+          "accepted_variants": [
+            "She sent the email immediately.",
+            "she sent the email immediately.",
+            "She sent the email immediately"
+          ],
+          "rule_keys": [
+            "unit_109_A"
+          ]
+        },
+        {
+          "item_key": "unit_109_ex3_i13",
+          "prompt": "13) Correct the sentence: We to the cinema went on Friday.",
+          "options": null,
+          "canonical": "We went to the cinema on Friday.",
+          "accepted_variants": [
+            "We went to the cinema on Friday.",
+            "We went to the cinema on Friday",
+            "we went to the cinema on Friday."
+          ],
+          "rule_keys": [
+            "unit_109_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put the adverb in the correct place.",
+      "items": [
+        {
+          "item_key": "unit_110_ex1_i1",
+          "prompt": "1) Put 'often' in the correct place: I work from home.",
+          "options": null,
+          "canonical": "I often work from home.",
+          "accepted_variants": [
+            "I often work from home.",
+            "i often work from home.",
+            "I often work from home"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i2",
+          "prompt": "2) Put 'always' in the correct place: She drinks coffee in the morning.",
+          "options": null,
+          "canonical": "She always drinks coffee in the morning.",
+          "accepted_variants": [
+            "She always drinks coffee in the morning.",
+            "she always drinks coffee in the morning.",
+            "She always drinks coffee in the morning"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i3",
+          "prompt": "3) Put 'usually' in the correct place: We meet on Mondays.",
+          "options": null,
+          "canonical": "We usually meet on Mondays.",
+          "accepted_variants": [
+            "We usually meet on Mondays.",
+            "we usually meet on Mondays.",
+            "We usually meet on Mondays"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i4",
+          "prompt": "4) Put 'sometimes' in the correct place: They play chess after dinner.",
+          "options": null,
+          "canonical": "They sometimes play chess after dinner.",
+          "accepted_variants": [
+            "They sometimes play chess after dinner.",
+            "they sometimes play chess after dinner.",
+            "They sometimes play chess after dinner"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i5",
+          "prompt": "5) Put 'never' in the correct place: I forget my password.",
+          "options": null,
+          "canonical": "I never forget my password.",
+          "accepted_variants": [
+            "I never forget my password.",
+            "i never forget my password.",
+            "I never forget my password"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i6",
+          "prompt": "6) Put 'often' in the correct place: He watches tutorials at night.",
+          "options": null,
+          "canonical": "He often watches tutorials at night.",
+          "accepted_variants": [
+            "He often watches tutorials at night.",
+            "he often watches tutorials at night.",
+            "He often watches tutorials at night"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i7",
+          "prompt": "7) Put 'rarely' in the correct place: She cooks meat.",
+          "options": null,
+          "canonical": "She rarely cooks meat.",
+          "accepted_variants": [
+            "She rarely cooks meat.",
+            "She rarely cooks meat",
+            "she rarely cooks meat."
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i8",
+          "prompt": "8) Put 'usually' in the correct place: I take the bus to work.",
+          "options": null,
+          "canonical": "I usually take the bus to work.",
+          "accepted_variants": [
+            "I usually take the bus to work.",
+            "i usually take the bus to work.",
+            "I usually take the bus to work"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i9",
+          "prompt": "9) Put 'always' in the correct place: They arrive early.",
+          "options": null,
+          "canonical": "They always arrive early.",
+          "accepted_variants": [
+            "They always arrive early.",
+            "they always arrive early.",
+            "They always arrive early"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex1_i10",
+          "prompt": "10) Put 'sometimes' in the correct place: We travel by train.",
+          "options": null,
+          "canonical": "We sometimes travel by train.",
+          "accepted_variants": [
+            "We sometimes travel by train.",
+            "We sometimes travel by train",
+            "we sometimes travel by train."
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put the adverb in the correct place (be / auxiliary verbs).",
+      "items": [
+        {
+          "item_key": "unit_110_ex2_i1",
+          "prompt": "1) Put 'always' in the correct place: She is polite.",
+          "options": null,
+          "canonical": "She is always polite.",
+          "accepted_variants": [
+            "She is always polite.",
+            "she is always polite.",
+            "She is always polite"
+          ],
+          "rule_keys": [
+            "unit_110_B"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex2_i2",
+          "prompt": "2) Put 'often' in the correct place: He is tired after work.",
+          "options": null,
+          "canonical": "He is often tired after work.",
+          "accepted_variants": [
+            "He is often tired after work.",
+            "He is often tired after work",
+            "he is often tired after work."
+          ],
+          "rule_keys": [
+            "unit_110_B"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex2_i3",
+          "prompt": "3) Put 'never' in the correct place: They are late.",
+          "options": null,
+          "canonical": "They are never late.",
+          "accepted_variants": [
+            "They are never late.",
+            "they are never late.",
+            "They are never late"
+          ],
+          "rule_keys": [
+            "unit_110_B"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex2_i4",
+          "prompt": "4) Put 'already' in the correct place: I have finished.",
+          "options": null,
+          "canonical": "I have already finished.",
+          "accepted_variants": [
+            "I have already finished.",
+            "I have already finished",
+            "i have already finished."
+          ],
+          "rule_keys": [
+            "unit_110_C"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex2_i5",
+          "prompt": "5) Put 'probably' in the correct place: She will call later.",
+          "options": null,
+          "canonical": "She will probably call later.",
+          "accepted_variants": [
+            "She will probably call later.",
+            "she will probably call later.",
+            "She will probably call later"
+          ],
+          "rule_keys": [
+            "unit_110_C"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex2_i6",
+          "prompt": "6) Put 'still' in the correct place: They are waiting.",
+          "options": null,
+          "canonical": "They are still waiting.",
+          "accepted_variants": [
+            "They are still waiting.",
+            "They are still waiting",
+            "they are still waiting."
+          ],
+          "rule_keys": [
+            "unit_110_B"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex2_i7",
+          "prompt": "7) Put 'just' in the correct place: We have arrived.",
+          "options": null,
+          "canonical": "We have just arrived.",
+          "accepted_variants": [
+            "We have just arrived.",
+            "We have just arrived",
+            "we have just arrived."
+          ],
+          "rule_keys": [
+            "unit_110_E"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex2_i8",
+          "prompt": "8) Put 'never' in the correct place: I have been to Australia.",
+          "options": null,
+          "canonical": "I have never been to Australia.",
+          "accepted_variants": [
+            "I have never been to Australia.",
+            "I have never been to Australia",
+            "i have never been to Australia."
+          ],
+          "rule_keys": [
+            "unit_110_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_110",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Correct the word order / place the adverb.",
+      "items": [
+        {
+          "item_key": "unit_110_ex3_i1",
+          "prompt": "1) Correct the word order: I drink coffee always in the morning.",
+          "options": null,
+          "canonical": "I always drink coffee in the morning.",
+          "accepted_variants": [
+            "I always drink coffee in the morning.",
+            "i always drink coffee in the morning.",
+            "I always drink coffee in the morning"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i2",
+          "prompt": "2) Correct the word order: She is late often.",
+          "options": null,
+          "canonical": "She is often late.",
+          "accepted_variants": [
+            "She is often late.",
+            "She is often late",
+            "she is often late."
+          ],
+          "rule_keys": [
+            "unit_110_B"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i3",
+          "prompt": "3) Correct the word order: We have finished already.",
+          "options": null,
+          "canonical": "We have already finished.",
+          "accepted_variants": [
+            "We have already finished.",
+            "we have already finished.",
+            "We have already finished"
+          ],
+          "rule_keys": [
+            "unit_110_C"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i4",
+          "prompt": "4) Correct the word order: He drives carefully always.",
+          "options": null,
+          "canonical": "He always drives carefully.",
+          "accepted_variants": [
+            "He always drives carefully.",
+            "he always drives carefully.",
+            "He always drives carefully"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i5",
+          "prompt": "5) Correct the word order: They are working still.",
+          "options": null,
+          "canonical": "They are still working.",
+          "accepted_variants": [
+            "They are still working.",
+            "they are still working.",
+            "They are still working"
+          ],
+          "rule_keys": [
+            "unit_110_E"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i6",
+          "prompt": "6) Correct the word order: I probably will see you tomorrow.",
+          "options": null,
+          "canonical": "I will probably see you tomorrow.",
+          "accepted_variants": [
+            "I will probably see you tomorrow.",
+            "I will probably see you tomorrow",
+            "i will probably see you tomorrow."
+          ],
+          "rule_keys": [
+            "unit_110_C"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i7",
+          "prompt": "7) Put 'quietly' in the best place: She closed the door.",
+          "options": null,
+          "canonical": "She closed the door quietly.",
+          "accepted_variants": [
+            "She closed the door quietly.",
+            "she closed the door quietly.",
+            "She closed the door quietly"
+          ],
+          "rule_keys": [
+            "unit_110_D"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i8",
+          "prompt": "8) Put 'suddenly' in the best place: The lights went out.",
+          "options": null,
+          "canonical": "The lights suddenly went out.",
+          "accepted_variants": [
+            "The lights suddenly went out.",
+            "the lights suddenly went out.",
+            "The lights suddenly went out"
+          ],
+          "rule_keys": [
+            "unit_110_D"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i9",
+          "prompt": "9) Put 'again' in the best place: We met yesterday.",
+          "options": null,
+          "canonical": "We met again yesterday.",
+          "accepted_variants": [
+            "We met again yesterday.",
+            "We met again yesterday",
+            "we met again yesterday."
+          ],
+          "rule_keys": [
+            "unit_110_D"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i10",
+          "prompt": "10) Put 'just' in the correct place: I finished.",
+          "options": null,
+          "canonical": "I’ve just finished.",
+          "accepted_variants": [
+            "I’ve just finished.",
+            "I’ve just finished",
+            "i’ve just finished.",
+            "I've just finished.",
+            "I've just finished"
+          ],
+          "rule_keys": [
+            "unit_110_E"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i11",
+          "prompt": "11) Put 'already' in the correct place: Have you seen it?",
+          "options": null,
+          "canonical": "Have you already seen it?",
+          "accepted_variants": [
+            "Have you already seen it?",
+            "Have you already seen it",
+            "have you already seen it?"
+          ],
+          "rule_keys": [
+            "unit_110_E"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i12",
+          "prompt": "12) Put 'still' in the correct place: Are you waiting?",
+          "options": null,
+          "canonical": "Are you still waiting?",
+          "accepted_variants": [
+            "Are you still waiting?",
+            "Are you still waiting",
+            "are you still waiting?"
+          ],
+          "rule_keys": [
+            "unit_110_E"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i13",
+          "prompt": "13) Correct the word order: He doesn’t eat meat usually.",
+          "options": null,
+          "canonical": "He doesn’t usually eat meat.",
+          "accepted_variants": [
+            "He doesn’t usually eat meat.",
+            "he doesn’t usually eat meat.",
+            "He doesn’t usually eat meat",
+            "He doesn't usually eat meat.",
+            "He doesn't usually eat meat"
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i14",
+          "prompt": "14) Correct the word order: I have been never to Paris.",
+          "options": null,
+          "canonical": "I have never been to Paris.",
+          "accepted_variants": [
+            "I have never been to Paris.",
+            "I have never been to Paris",
+            "i have never been to Paris."
+          ],
+          "rule_keys": [
+            "unit_110_C"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i15",
+          "prompt": "15) Correct the word order: She speaks very well English.",
+          "options": null,
+          "canonical": "She speaks English very well.",
+          "accepted_variants": [
+            "She speaks English very well.",
+            "She speaks English very well",
+            "she speaks English very well."
+          ],
+          "rule_keys": [
+            "unit_110_D"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i16",
+          "prompt": "16) Correct the word order: We go often there in summer.",
+          "options": null,
+          "canonical": "We often go there in summer.",
+          "accepted_variants": [
+            "We often go there in summer.",
+            "We often go there in summer",
+            "we often go there in summer."
+          ],
+          "rule_keys": [
+            "unit_110_A"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i17",
+          "prompt": "17) Put 'also' in the correct place: I want to help.",
+          "options": null,
+          "canonical": "I also want to help.",
+          "accepted_variants": [
+            "I also want to help.",
+            "i also want to help.",
+            "I also want to help"
+          ],
+          "rule_keys": [
+            "unit_110_C"
+          ]
+        },
+        {
+          "item_key": "unit_110_ex3_i18",
+          "prompt": "18) Put 'still' in the correct place: I don’t understand.",
+          "options": null,
+          "canonical": "I still don’t understand.",
+          "accepted_variants": [
+            "I still don’t understand.",
+            "I still don’t understand",
+            "i still don’t understand.",
+            "I still don't understand.",
+            "I still don't understand"
+          ],
+          "rule_keys": [
+            "unit_110_E"
+          ]
+        }
+      ]
+    }
+  ]
+}

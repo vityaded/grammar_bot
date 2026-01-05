@@ -1,0 +1,2348 @@
+{
+  "exercises": [
+    {
+      "unit_key": "unit_36",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Use would / wouldn't to talk about imagined preferences.",
+      "items": [
+        {
+          "prompt": "Complete with a natural wish using would: You see a house near the sea and say:",
+          "options": null,
+          "canonical": "I'd love to live by the sea.",
+          "accepted_variants": [
+            "I'd love to live by the sea.",
+            "I'd love to live by the sea",
+            "I would love to live by the sea."
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "You are choosing a job. Write a sentence with wouldn't like to:",
+          "options": null,
+          "canonical": "I wouldn't like to work night shifts.",
+          "accepted_variants": [
+            "I wouldn't like to work night shifts.",
+            "I wouldn't like to work night shifts",
+            "I would not like to work night shifts."
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "You are talking about a dream trip. Write a sentence with would love to:",
+          "options": null,
+          "canonical": "I'd love to visit Japan one day.",
+          "accepted_variants": [
+            "I'd love to visit Japan one day.",
+            "I'd love to visit Japan one day",
+            "I would love to visit Japan one day."
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "You think a new laptop would be useful. Write a sentence with would be nice to have:",
+          "options": null,
+          "canonical": "It would be nice to have a faster laptop.",
+          "accepted_variants": [
+            "It would be nice to have a faster laptop.",
+            "It would be nice to have a faster laptop",
+            "It would be nice to have a faster laptop."
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "You plan a weekend. Write a sentence with would like to go to:",
+          "options": null,
+          "canonical": "I'd like to go to the mountains this weekend.",
+          "accepted_variants": [
+            "I'd like to go to the mountains this weekend.",
+            "I'd like to go to the mountains this weekend",
+            "I would like to go to the mountains this weekend."
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_36",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Complete using would + a verb from the word bank (correct form).",
+      "items": [
+        {
+          "prompt": "Fill the gap: They supported us a lot. I don't know what we _____ without them.",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would have done",
+          "accepted_variants": [
+            "would have done",
+            "would have done.",
+            "would have done"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Fill the gap: You should try the new café. I think you _____ it.",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would enjoy",
+          "accepted_variants": [
+            "would enjoy",
+            "would enjoy.",
+            "would enjoy"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Fill the gap: It's a shame you missed the concert. You _____ it.",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would have enjoyed",
+          "accepted_variants": [
+            "would have enjoyed",
+            "would have enjoyed.",
+            "would have enjoyed"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Fill the gap: If you were in my position, what _____ you _____?",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would you do",
+          "accepted_variants": [
+            "would you do",
+            "would you do.",
+            "would you do"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Fill the gap: He was in a rush when I saw him. Otherwise I _____ to talk.",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would have stopped",
+          "accepted_variants": [
+            "would have stopped",
+            "would have stopped.",
+            "would have stopped"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Fill the gap: We got stuck in traffic. It _____ quicker to walk.",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would have been",
+          "accepted_variants": [
+            "would have been",
+            "would have been.",
+            "would have been"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Fill the gap: Why don't you call Claire? She _____ pleased to hear from you.",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would be",
+          "accepted_variants": [
+            "would be",
+            "would be.",
+            "would be"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Fill the gap: In an ideal world, everybody _____ enough free time.",
+          "options": [
+            "be",
+            "do",
+            "enjoy",
+            "have",
+            "stop"
+          ],
+          "canonical": "would have",
+          "accepted_variants": [
+            "would have",
+            "would have.",
+            "would have"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_36",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Match each sentence with the most logical result/response (a–f).",
+      "items": [
+        {
+          "prompt": "Match the best reply/result for: I'd like to visit Australia one day.",
+          "options": [
+            "a) It wouldn't have been very pleasant.",
+            "b) It would have been fun.",
+            "c) That would be great.",
+            "d) It won't be much fun.",
+            "e) It wouldn't be very convenient.",
+            "f) It will be enjoyable."
+          ],
+          "canonical": "c",
+          "accepted_variants": [
+            "c",
+            "C",
+            "c)",
+            "(c)"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Match the best reply/result for: I wouldn't like to live on a busy road.",
+          "options": [
+            "a) It wouldn't have been very pleasant.",
+            "b) It would have been fun.",
+            "c) That would be great.",
+            "d) It won't be much fun.",
+            "e) It wouldn't be very convenient.",
+            "f) It will be enjoyable."
+          ],
+          "canonical": "e",
+          "accepted_variants": [
+            "e",
+            "E",
+            "e)",
+            "(e)"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Match the best reply/result for: I'm sorry your trip was cancelled.",
+          "options": [
+            "a) It wouldn't have been very pleasant.",
+            "b) It would have been fun.",
+            "c) That would be great.",
+            "d) It won't be much fun.",
+            "e) It wouldn't be very convenient.",
+            "f) It will be enjoyable."
+          ],
+          "canonical": "b",
+          "accepted_variants": [
+            "b",
+            "B",
+            "b)",
+            "(b)"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Match the best reply/result for: I'm looking forward to going out tonight.",
+          "options": [
+            "a) It wouldn't have been very pleasant.",
+            "b) It would have been fun.",
+            "c) That would be great.",
+            "d) It won't be much fun.",
+            "e) It wouldn't be very convenient.",
+            "f) It will be enjoyable."
+          ],
+          "canonical": "f",
+          "accepted_variants": [
+            "f",
+            "F",
+            "f)",
+            "(f)"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Match the best reply/result for: I'm glad we didn't go out in the rain.",
+          "options": [
+            "a) It wouldn't have been very pleasant.",
+            "b) It would have been fun.",
+            "c) That would be great.",
+            "d) It won't be much fun.",
+            "e) It wouldn't be very convenient.",
+            "f) It will be enjoyable."
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A",
+            "a)",
+            "(a)"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        },
+        {
+          "prompt": "Match the best reply/result for: I'm not looking forward to the trip.",
+          "options": [
+            "a) It wouldn't have been very pleasant.",
+            "b) It would have been fun.",
+            "c) That would be great.",
+            "d) It won't be much fun.",
+            "e) It wouldn't be very convenient.",
+            "f) It will be enjoyable."
+          ],
+          "canonical": "d",
+          "accepted_variants": [
+            "d",
+            "D",
+            "d)",
+            "(d)"
+          ],
+          "rule_keys": [
+            "unit_36_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_36",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Use promised + would/wouldn't (reported promises).",
+      "items": [
+        {
+          "prompt": "Complete with promised + would/wouldn't: I wonder why Mia is late. She promised _____.",
+          "options": null,
+          "canonical": "promised she wouldn't be late",
+          "accepted_variants": [
+            "promised she wouldn't be late",
+            "promised that she wouldn't be late",
+            "promised she wouldn't be late.",
+            "promised that she wouldn't be late."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        },
+        {
+          "prompt": "Complete with promised + would/wouldn't: I wonder why Ben hasn't emailed me. He promised _____.",
+          "options": null,
+          "canonical": "promised he would email me",
+          "accepted_variants": [
+            "promised he would email me",
+            "promised that he would email me",
+            "promised he would email me.",
+            "promised that he would email me."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        },
+        {
+          "prompt": "Complete with promised + would/wouldn't: Why did you tell Alex my secret? You promised _____.",
+          "options": null,
+          "canonical": "promised you wouldn't tell anyone",
+          "accepted_variants": [
+            "promised you wouldn't tell anyone",
+            "promised that you wouldn't tell anyone",
+            "promised you wouldn't tell anyone.",
+            "promised that you wouldn't tell anyone."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        },
+        {
+          "prompt": "Complete with promised + would/wouldn't: I'm surprised they left without us. They promised _____.",
+          "options": null,
+          "canonical": "promised they would wait for us",
+          "accepted_variants": [
+            "promised they would wait for us",
+            "promised that they would wait for us",
+            "promised they would wait for us.",
+            "promised that they would wait for us."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_36",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete using wouldn't to mean 'refused' (person/thing).",
+      "items": [
+        {
+          "prompt": "Complete with wouldn't + verb: I tried to warn him, but he _____.",
+          "options": null,
+          "canonical": "wouldn't listen",
+          "accepted_variants": [
+            "wouldn't listen",
+            "would not listen",
+            "wouldn't listen."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        },
+        {
+          "prompt": "Complete with wouldn't + verb: I asked her a simple question, but she _____.",
+          "options": null,
+          "canonical": "wouldn't answer",
+          "accepted_variants": [
+            "wouldn't answer",
+            "would not answer",
+            "wouldn't answer."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        },
+        {
+          "prompt": "Complete with wouldn't + verb: Paul was upset and he _____ to me for days.",
+          "options": null,
+          "canonical": "wouldn't speak",
+          "accepted_variants": [
+            "wouldn't speak",
+            "would not speak",
+            "wouldn't speak."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        },
+        {
+          "prompt": "Complete with wouldn't + verb: The laptop froze and it _____.",
+          "options": null,
+          "canonical": "wouldn't work",
+          "accepted_variants": [
+            "wouldn't work",
+            "would not work",
+            "wouldn't work."
+          ],
+          "rule_keys": [
+            "unit_36_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_36",
+      "exercise_index": 6,
+      "exercise_type": "mcq",
+      "instruction": "Use would to describe repeated actions in the past (choose a verb).",
+      "items": [
+        {
+          "prompt": "Complete with would (past habit): Whenever Richard got angry, he ____ out of the room.",
+          "options": [
+            "forget",
+            "shake",
+            "share",
+            "smile",
+            "stay",
+            "walk"
+          ],
+          "canonical": "would walk",
+          "accepted_variants": [
+            "would walk",
+            "would walk.",
+            "would walk"
+          ],
+          "rule_keys": [
+            "unit_36_C"
+          ]
+        },
+        {
+          "prompt": "Complete with would (past habit): Every time a train went past, the house ____ slightly.",
+          "options": [
+            "forget",
+            "shake",
+            "share",
+            "smile",
+            "stay",
+            "walk"
+          ],
+          "canonical": "would shake",
+          "accepted_variants": [
+            "would shake",
+            "would shake.",
+            "would shake"
+          ],
+          "rule_keys": [
+            "unit_36_C"
+          ]
+        },
+        {
+          "prompt": "Complete with would (past habit): She didn't have much, but she ____ her food with others.",
+          "options": [
+            "forget",
+            "shake",
+            "share",
+            "smile",
+            "stay",
+            "walk"
+          ],
+          "canonical": "would share",
+          "accepted_variants": [
+            "would share",
+            "would share.",
+            "would share"
+          ],
+          "rule_keys": [
+            "unit_36_C"
+          ]
+        },
+        {
+          "prompt": "Complete with would (past habit): It didn't matter how often you reminded him—he always ____.",
+          "options": [
+            "forget",
+            "shake",
+            "share",
+            "smile",
+            "stay",
+            "walk"
+          ],
+          "canonical": "would forget",
+          "accepted_variants": [
+            "would forget",
+            "would forget.",
+            "would forget"
+          ],
+          "rule_keys": [
+            "unit_36_C"
+          ]
+        },
+        {
+          "prompt": "Complete with would (past habit): When we were kids, we ____ at the beach all day.",
+          "options": [
+            "forget",
+            "shake",
+            "share",
+            "smile",
+            "stay",
+            "walk"
+          ],
+          "canonical": "would stay",
+          "accepted_variants": [
+            "would stay",
+            "would stay.",
+            "would stay"
+          ],
+          "rule_keys": [
+            "unit_36_C"
+          ]
+        },
+        {
+          "prompt": "Complete with would (past habit): Whenever I saw Lucy, she would always ____ and say hello.",
+          "options": [
+            "forget",
+            "shake",
+            "share",
+            "smile",
+            "stay",
+            "walk"
+          ],
+          "canonical": "would smile",
+          "accepted_variants": [
+            "would smile",
+            "would smile.",
+            "would smile"
+          ],
+          "rule_keys": [
+            "unit_36_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_37",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Match each sentence with the most suitable reply (a–h).",
+      "items": [
+        {
+          "prompt": "Match the best response for: Could you pass the sugar?",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "e",
+          "accepted_variants": [
+            "e",
+            "E",
+            "e)",
+            "(e)"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "Match the best response for: Would you like to go to the cinema?",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "g",
+          "accepted_variants": [
+            "g",
+            "G",
+            "g)",
+            "(g)"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Match the best response for: Can I use your toilet?",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "d",
+          "accepted_variants": [
+            "d",
+            "D",
+            "d)",
+            "(d)"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "Match the best response for: Do you mind if I leave work early?",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "b",
+          "accepted_variants": [
+            "b",
+            "B",
+            "b)",
+            "(b)"
+          ],
+          "rule_keys": [
+            "unit_37_B"
+          ]
+        },
+        {
+          "prompt": "Match the best response for: Can you do me a favour?",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A",
+            "a)",
+            "(a)"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "Match the best response for: Would you like something to eat?",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "h",
+          "accepted_variants": [
+            "h",
+            "H",
+            "h)",
+            "(h)"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Match the best response for: Can I give you a hand?",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "f",
+          "accepted_variants": [
+            "f",
+            "F",
+            "f)",
+            "(f)"
+          ],
+          "rule_keys": [
+            "unit_37_B"
+          ]
+        },
+        {
+          "prompt": "Match the best response for: I'd like some fresh air.",
+          "options": [
+            "a) It depends what you want me to do.",
+            "b) No, that's fine.",
+            "c) Me too. Let's go out for a walk.",
+            "d) Sure. It's the door on the left.",
+            "e) Yes, here you are.",
+            "f) No, it's all right. I can manage, thanks.",
+            "g) Maybe. What's on?",
+            "h) No, thanks. I'm not hungry."
+          ],
+          "canonical": "c",
+          "accepted_variants": [
+            "c",
+            "C",
+            "c)",
+            "(c)"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_37",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the best phrase for each situation.",
+      "items": [
+        {
+          "prompt": "Complete using the best phrase: You stop the car and offer a friend a lift: Hi Joe. _____ you a lift?",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "Can I give",
+          "accepted_variants": [
+            "Can I give",
+            "can i give",
+            "CAN I GIVE"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Complete using the best phrase: You are making a cold drink and offer ice: _____ some ice in your drink?",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "Would you like",
+          "accepted_variants": [
+            "Would you like",
+            "would you like",
+            "WOULD YOU LIKE"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Complete using the best phrase: In a café you order politely: _____ a chicken salad, please.",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "I'd like",
+          "accepted_variants": [
+            "I'd like",
+            "i'd like",
+            "I'D LIKE"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Complete using the best phrase: You have an extra ticket: _____ to a concert tomorrow night?",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "Would you like to come",
+          "accepted_variants": [
+            "Would you like to come",
+            "would you like to come",
+            "WOULD YOU LIKE TO COME"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Complete using the best phrase: On the phone: Lisa's not here. _____ a message?",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "Can I take",
+          "accepted_variants": [
+            "Can I take",
+            "can i take",
+            "CAN I TAKE"
+          ],
+          "rule_keys": [
+            "unit_37_B"
+          ]
+        },
+        {
+          "prompt": "Complete using the best phrase: You phone a clinic: Hello. _____ make an appointment, please.",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "I'd like to",
+          "accepted_variants": [
+            "I'd like to",
+            "i'd like to",
+            "I'D LIKE TO"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Complete using the best phrase: In a shoe shop: _____ these on?",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "Would you like to try",
+          "accepted_variants": [
+            "Would you like to try",
+            "would you like to try",
+            "WOULD YOU LIKE TO TRY"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "Complete using the best phrase: You see people you know in a café: _____ if I join you?",
+          "options": [
+            "I'd like",
+            "Would you like to try",
+            "Do you mind",
+            "Can I take",
+            "Can I give",
+            "Would you like to come",
+            "Would you like",
+            "I'd like to"
+          ],
+          "canonical": "Do you mind",
+          "accepted_variants": [
+            "Do you mind",
+            "do you mind",
+            "DO YOU MIND"
+          ],
+          "rule_keys": [
+            "unit_37_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_37",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Write polite requests/offers for each situation.",
+      "items": [
+        {
+          "prompt": "You're carrying a lot of things and can't open the door. Ask a man near the door.",
+          "options": null,
+          "canonical": "Could you open the door, please?",
+          "accepted_variants": [
+            "Could you open the door, please?",
+            "Could you open the door, please?.",
+            "Could you open the door, please?"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "You've finished your meal and want the bill. Ask the waiter.",
+          "options": null,
+          "canonical": "Could we have the bill, please?",
+          "accepted_variants": [
+            "Could we have the bill, please?",
+            "Could we have the bill, please?.",
+            "Could we have the bill, please?"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "You want your friend to check a form in English. Ask politely.",
+          "options": null,
+          "canonical": "Do you think you could check this form for me?",
+          "accepted_variants": [
+            "Do you think you could check this form for me?",
+            "Do you think you could check this form for me?.",
+            "Do you think you could check this form for me?"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "Music next door is very loud. Ask the woman to turn it down.",
+          "options": null,
+          "canonical": "Could you turn the music down, please?",
+          "accepted_variants": [
+            "Could you turn the music down, please?",
+            "Could you turn the music down, please?.",
+            "Could you turn the music down, please?"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "On a train, you're cold because the window is open. Ask the person next to you.",
+          "options": null,
+          "canonical": "Could you close the window, please?",
+          "accepted_variants": [
+            "Could you close the window, please?",
+            "Could you close the window, please?.",
+            "Could you close the window, please?"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "On a bus, an elderly man is standing. Offer him your seat.",
+          "options": null,
+          "canonical": "Would you like my seat?",
+          "accepted_variants": [
+            "Would you like my seat?",
+            "Would you like my seat?.",
+            "Would you like my seat?"
+          ],
+          "rule_keys": [
+            "unit_37_C"
+          ]
+        },
+        {
+          "prompt": "You're a tourist and need directions to the station. Ask at reception.",
+          "options": null,
+          "canonical": "Could you tell me how to get to the station, please?",
+          "accepted_variants": [
+            "Could you tell me how to get to the station, please?",
+            "Could you tell me how to get to the station, please?.",
+            "Could you tell me how to get to the station, please?"
+          ],
+          "rule_keys": [
+            "unit_37_A"
+          ]
+        },
+        {
+          "prompt": "In a clothes shop, you want to try some trousers on. Speak to the assistant.",
+          "options": null,
+          "canonical": "Could I try these on, please?",
+          "accepted_variants": [
+            "Could I try these on, please?",
+            "Could I try these on, please?.",
+            "Could I try these on, please?"
+          ],
+          "rule_keys": [
+            "unit_37_B"
+          ]
+        },
+        {
+          "prompt": "You meet a famous person and want an autograph. Ask politely.",
+          "options": null,
+          "canonical": "Could I have your autograph, please?",
+          "accepted_variants": [
+            "Could I have your autograph, please?",
+            "Could I have your autograph, please?.",
+            "Could I have your autograph, please?"
+          ],
+          "rule_keys": [
+            "unit_37_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_38",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Complete the gaps with verbs from the box.",
+      "items": [
+        {
+          "prompt": "Complete with the correct verb: If you _____ a wallet in the street, what would you do?",
+          "options": [
+            "did",
+            "dropped",
+            "found",
+            "happened",
+            "lost",
+            "was",
+            "went"
+          ],
+          "canonical": "found",
+          "accepted_variants": [
+            "found",
+            "Found",
+            "FOUND"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete with the correct verb: Be careful with that vase. If you _____ it, it would break.",
+          "options": [
+            "did",
+            "dropped",
+            "found",
+            "happened",
+            "lost",
+            "was",
+            "went"
+          ],
+          "canonical": "dropped",
+          "accepted_variants": [
+            "dropped",
+            "Dropped",
+            "DROPPED"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete with the correct verb: This notebook is important to me. I'd be upset if I _____ it.",
+          "options": [
+            "did",
+            "dropped",
+            "found",
+            "happened",
+            "lost",
+            "was",
+            "went"
+          ],
+          "canonical": "lost",
+          "accepted_variants": [
+            "lost",
+            "Lost",
+            "LOST"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete with the correct verb: I don't expect to lose my job, but if that _____, I'd need another one.",
+          "options": [
+            "did",
+            "dropped",
+            "found",
+            "happened",
+            "lost",
+            "was",
+            "went"
+          ],
+          "canonical": "happened",
+          "accepted_variants": [
+            "happened",
+            "Happened",
+            "HAPPENED"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete with the correct verb: We're planning a holiday. If we _____ to Italy, would you come?",
+          "options": [
+            "did",
+            "dropped",
+            "found",
+            "happened",
+            "lost",
+            "was",
+            "went"
+          ],
+          "canonical": "went",
+          "accepted_variants": [
+            "went",
+            "Went",
+            "WENT"
+          ],
+          "rule_keys": [
+            "unit_38_A.1"
+          ]
+        },
+        {
+          "prompt": "Complete with the correct verb: I don't think he'll fail, but I'd be surprised if he _____ .",
+          "options": [
+            "did",
+            "dropped",
+            "found",
+            "happened",
+            "lost",
+            "was",
+            "went"
+          ],
+          "canonical": "did",
+          "accepted_variants": [
+            "did",
+            "Did",
+            "DID"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete with the correct verb: If there _____ a fire in the building, would you know what to do?",
+          "options": [
+            "did",
+            "dropped",
+            "found",
+            "happened",
+            "lost",
+            "was",
+            "went"
+          ],
+          "canonical": "was",
+          "accepted_variants": [
+            "was",
+            "Was",
+            "WAS"
+          ],
+          "rule_keys": [
+            "unit_38_A.1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_38",
+      "exercise_index": 2,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct sentence (a or b) for each situation.",
+      "items": [
+        {
+          "prompt": "You don't expect to win the lottery. Choose the better sentence.",
+          "options": [
+            "a) If I win the lottery, I'll buy a house.",
+            "b) If I won the lottery, I'd buy a house."
+          ],
+          "canonical": "b",
+          "accepted_variants": [
+            "b",
+            "B",
+            "b)",
+            "(b)"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Your car is old and not worth much. Choose the better sentence.",
+          "options": [
+            "a) If I sell my car, I won't get much money for it.",
+            "b) If I sold my car, I wouldn't get much money for it."
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A",
+            "a)",
+            "(a)"
+          ],
+          "rule_keys": [
+            "unit_38_A.1"
+          ]
+        },
+        {
+          "prompt": "A friend wants to contact Sara. Choose the better sentence.",
+          "options": [
+            "a) If I see Sara, I'll tell her to call you.",
+            "b) If I saw Sara, I'd tell her to call you."
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A",
+            "a)",
+            "(a)"
+          ],
+          "rule_keys": [
+            "unit_38_A.1"
+          ]
+        },
+        {
+          "prompt": "You don't expect a fire. Choose the better question.",
+          "options": [
+            "a) What will you do if there is a fire?",
+            "b) What would you do if there was a fire?"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A",
+            "a)",
+            "(a)"
+          ],
+          "rule_keys": [
+            "unit_38_A.1"
+          ]
+        },
+        {
+          "prompt": "You imagine losing your passport. Choose the better sentence.",
+          "options": [
+            "a) I don't know what I'll do if I lose my passport.",
+            "b) I don't know what I'd do if I lost my passport."
+          ],
+          "canonical": "b",
+          "accepted_variants": [
+            "b",
+            "B",
+            "b)",
+            "(b)"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "A stranger asks the way to a bank. Choose the better sentence.",
+          "options": [
+            "a) If you go to the end of this street, you'll see a bank on the left.",
+            "b) If you went to the end of this street, you'd see a bank on the left."
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A",
+            "a)",
+            "(a)"
+          ],
+          "rule_keys": [
+            "unit_38_A.1"
+          ]
+        },
+        {
+          "prompt": "Nobody will press an emergency button. Choose the better question.",
+          "options": [
+            "a) What will happen if somebody presses that button?",
+            "b) What would happen if somebody pressed that button?"
+          ],
+          "canonical": "b",
+          "accepted_variants": [
+            "b",
+            "B",
+            "b)",
+            "(b)"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_38",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences (use if + past; would in the main clause).",
+      "items": [
+        {
+          "prompt": "Complete the sentence: I'd be very scared if somebody _____ a gun at me. (point)",
+          "options": null,
+          "canonical": "pointed",
+          "accepted_variants": [
+            "pointed",
+            "pointed.",
+            "pointed"
+          ],
+          "rule_keys": [
+            "unit_38_B"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: I can't afford a car. If I _____ a car, I'd have to borrow the money. (buy)",
+          "options": null,
+          "canonical": "bought",
+          "accepted_variants": [
+            "bought",
+            "bought.",
+            "bought"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: If you had a party, who _____ you _____ ? (invite)",
+          "options": null,
+          "canonical": "would you invite",
+          "accepted_variants": [
+            "would you invite",
+            "would you invite.",
+            "would you invite"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: Don't lend James your car. If he _____ me, I wouldn't lend him mine. (ask)",
+          "options": null,
+          "canonical": "asked",
+          "accepted_variants": [
+            "asked",
+            "asked.",
+            "asked"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: I don't think Gary and Emma will get married. I _____ amazed if they did. (be)",
+          "options": null,
+          "canonical": "would be",
+          "accepted_variants": [
+            "would be",
+            "would be.",
+            "would be"
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: If somebody _____ me $20,000, I _____ a long holiday. (give / have)",
+          "options": null,
+          "canonical": "gave, would have",
+          "accepted_variants": [
+            "gave, would have",
+            "gave would have",
+            "gave, would have."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: _____ you _____ nervous if you _____ a famous person? (be / meet)",
+          "options": null,
+          "canonical": "would you be, met",
+          "accepted_variants": [
+            "would you be, met",
+            "would you be met",
+            "would you be, met."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Complete the sentence: What _____ you _____ if you _____ in a lift and it _____ between floors? (do / be / stop)",
+          "options": null,
+          "canonical": "would you do, were, stopped",
+          "accepted_variants": [
+            "would you do, were, stopped",
+            "would you do were stopped",
+            "would you do, were, stopped."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_38",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Rewrite each idea beginning with If … (unreal condition).",
+      "items": [
+        {
+          "prompt": "We're not taking the 10.30 train because we'd arrive too early. Begin with If …",
+          "options": null,
+          "canonical": "If we took the 10.30 train, we'd arrive too early.",
+          "accepted_variants": [
+            "If we took the 10.30 train, we'd arrive too early.",
+            "If we took the 10.30 train, we'd arrive too early",
+            "If we took the 10.30 train, we would arrive too early."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "We're not staying at a hotel because it costs too much. Begin with If …",
+          "options": null,
+          "canonical": "If we stayed at a hotel, it would cost too much.",
+          "accepted_variants": [
+            "If we stayed at a hotel, it would cost too much.",
+            "If we stayed at a hotel, it would cost too much",
+            "If we stayed at a hotel, it would cost too much."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "There's no point telling you what happened because you won't believe me. Begin with If …",
+          "options": null,
+          "canonical": "If I told you what happened, you wouldn't believe me.",
+          "accepted_variants": [
+            "If I told you what happened, you wouldn't believe me.",
+            "If I told you what happened, you wouldn't believe me",
+            "If I told you what happened, you would not believe me."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Sally has no plans to leave her job because it's hard to find another one. Begin with If …",
+          "options": null,
+          "canonical": "If it were easy to find another job, Sally would leave hers.",
+          "accepted_variants": [
+            "If it were easy to find another job, Sally would leave hers.",
+            "If it were easy to find another job, Sally would leave hers",
+            "If it were easy to find another job, Sally would leave hers."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        },
+        {
+          "prompt": "Kevin isn't applying because he won't get the job. Begin with If …",
+          "options": null,
+          "canonical": "If Kevin thought he'd get the job, he'd apply.",
+          "accepted_variants": [
+            "If Kevin thought he'd get the job, he'd apply.",
+            "If Kevin thought he'd get the job, he'd apply",
+            "If Kevin thought he would get the job, he would apply."
+          ],
+          "rule_keys": [
+            "unit_38_A.2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_39",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put the verb into the correct form (second conditional).",
+      "items": [
+        {
+          "prompt": "Put the verb(s) into the correct form: If I _____ his number, I would phone him. (know)",
+          "options": null,
+          "canonical": "knew",
+          "accepted_variants": [
+            "knew",
+            "knew.",
+            "knew"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: I _____ that coat if I were you. (not / buy)",
+          "options": null,
+          "canonical": "wouldn't buy",
+          "accepted_variants": [
+            "wouldn't buy",
+            "wouldn't buy.",
+            "would not buy"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: I _____ you if I could, but I'm afraid I can't. (help)",
+          "options": null,
+          "canonical": "would help",
+          "accepted_variants": [
+            "would help",
+            "would help.",
+            "would help"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: This soup isn't very nice. It _____ better if it wasn't so salty. (taste)",
+          "options": null,
+          "canonical": "would taste",
+          "accepted_variants": [
+            "would taste",
+            "would taste.",
+            "would taste"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: We don't need a car, but we would need one if we _____ in the country. (live)",
+          "options": null,
+          "canonical": "lived",
+          "accepted_variants": [
+            "lived",
+            "lived.",
+            "lived"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: If we had the choice, we _____ in the country. (live)",
+          "options": null,
+          "canonical": "would live",
+          "accepted_variants": [
+            "would live",
+            "would live.",
+            "would live"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: I'd make a lot of changes if I _____ the manager. (be)",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were",
+            "were.",
+            "were"
+          ],
+          "rule_keys": [
+            "unit_39_B"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: I wouldn't call in the middle of the night if it _____ important. (not / be)",
+          "options": null,
+          "canonical": "wasn't",
+          "accepted_variants": [
+            "wasn't",
+            "was not",
+            "wasn't."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: If I were you, I _____. (not / wait)",
+          "options": null,
+          "canonical": "wouldn't wait",
+          "accepted_variants": [
+            "wouldn't wait",
+            "would not wait",
+            "wouldn't wait."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: If I _____ now, I might miss the best part. (go)",
+          "options": null,
+          "canonical": "went",
+          "accepted_variants": [
+            "went",
+            "went.",
+            "went"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: If there _____ so many cars, there _____ so much pollution. (not / be)",
+          "options": null,
+          "canonical": "weren't, wouldn't be",
+          "accepted_variants": [
+            "weren't, wouldn't be",
+            "were not, wouldn't be",
+            "weren't, wouldn't be.",
+            "weren't, would not be"
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "Put the verb(s) into the correct form: What _____ you _____ if you _____ to work? (do / not / have)",
+          "options": null,
+          "canonical": "would you do, didn't have",
+          "accepted_variants": [
+            "would you do, didn't have",
+            "would you do, did not have",
+            "would you do, didn't have."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_39",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Write a sentence with if … for each situation.",
+      "items": [
+        {
+          "prompt": "We don't see you often because you live far away. Write with if …",
+          "options": null,
+          "canonical": "If you didn't live so far away, we'd see you more often.",
+          "accepted_variants": [
+            "If you didn't live so far away, we'd see you more often.",
+            "If you didn't live so far away, we'd see you more often",
+            "If you did not live so far away, we'd see you more often.",
+            "If you didn't live so far away, we would see you more often."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "I like these shoes, but they're too expensive, so I'm not buying them. Write with if …",
+          "options": null,
+          "canonical": "If they weren't so expensive, I'd buy them.",
+          "accepted_variants": [
+            "If they weren't so expensive, I'd buy them.",
+            "If they weren't so expensive, I'd buy them",
+            "If they were not so expensive, I'd buy them.",
+            "If they weren't so expensive, I would buy them."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "We'd like to go on holiday, but we can't afford it. Write with if …",
+          "options": null,
+          "canonical": "We'd go on holiday if we could afford it.",
+          "accepted_variants": [
+            "We'd go on holiday if we could afford it.",
+            "We'd go on holiday if we could afford it",
+            "We would go on holiday if we could afford it."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "It would be nice to have lunch outside, but it's raining. Write with if …",
+          "options": null,
+          "canonical": "We'd have lunch outside if it wasn't raining.",
+          "accepted_variants": [
+            "We'd have lunch outside if it wasn't raining.",
+            "We'd have lunch outside if it wasn't raining",
+            "We'd have lunch outside if it was not raining.",
+            "We would have lunch outside if it wasn't raining."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        },
+        {
+          "prompt": "I don't want his advice, so I'm not going to ask for it. Write with if …",
+          "options": null,
+          "canonical": "If I wanted his advice, I'd ask for it.",
+          "accepted_variants": [
+            "If I wanted his advice, I'd ask for it.",
+            "If I wanted his advice, I'd ask for it",
+            "If I wanted his advice, I would ask for it."
+          ],
+          "rule_keys": [
+            "unit_39_A.1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_39",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Write sentences beginning I wish … (about the present).",
+      "items": [
+        {
+          "prompt": "I don't know many people (and I'm lonely). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish I knew more people.",
+          "accepted_variants": [
+            "I wish I knew more people.",
+            "I wish I knew more people",
+            "I wish I knew more people."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        },
+        {
+          "prompt": "I don't have much free time (and I need more). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish I had more free time.",
+          "accepted_variants": [
+            "I wish I had more free time.",
+            "I wish I had more free time",
+            "I wish I had more free time."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        },
+        {
+          "prompt": "Helen isn't here (and I need to see her). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish Helen were here.",
+          "accepted_variants": [
+            "I wish Helen were here.",
+            "I wish Helen were here",
+            "I wish Helen were here."
+          ],
+          "rule_keys": [
+            "unit_39_B"
+          ]
+        },
+        {
+          "prompt": "It's cold (and I hate cold weather). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish it wasn't so cold.",
+          "accepted_variants": [
+            "I wish it wasn't so cold.",
+            "I wish it wasn't so cold",
+            "I wish it was not so cold."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        },
+        {
+          "prompt": "I live in a big city (and I don't like it). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish I didn't live in such a big city.",
+          "accepted_variants": [
+            "I wish I didn't live in such a big city.",
+            "I wish I didn't live in such a big city",
+            "I wish I did not live in such a big city."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        },
+        {
+          "prompt": "I can't find my phone (which is a problem). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish I could find my phone.",
+          "accepted_variants": [
+            "I wish I could find my phone.",
+            "I wish I could find my phone",
+            "I wish I could find my phone."
+          ],
+          "rule_keys": [
+            "unit_39_D"
+          ]
+        },
+        {
+          "prompt": "I'm not feeling well (which isn't good). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish I felt better.",
+          "accepted_variants": [
+            "I wish I felt better.",
+            "I wish I felt better",
+            "I wish I felt better."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        },
+        {
+          "prompt": "I have to get up early tomorrow (but I'd prefer to sleep late). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish I didn't have to get up early tomorrow.",
+          "accepted_variants": [
+            "I wish I didn't have to get up early tomorrow.",
+            "I wish I didn't have to get up early tomorrow",
+            "I wish I did not have to get up early tomorrow."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        },
+        {
+          "prompt": "I don't know much about science (and I should know more). Begin: I wish …",
+          "options": null,
+          "canonical": "I wish I knew more about science.",
+          "accepted_variants": [
+            "I wish I knew more about science.",
+            "I wish I knew more about science",
+            "I wish I knew more about science."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_39",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Write your own sentences beginning I wish … (use the given ideas).",
+      "items": [
+        {
+          "prompt": "You would like to be somewhere else right now (e.g., on the beach). Write: I wish …",
+          "options": null,
+          "canonical": "I wish I were on the beach right now.",
+          "accepted_variants": [
+            "I wish I were on the beach right now.",
+            "I wish I were on the beach right now",
+            "I wish I were on the beach right now."
+          ],
+          "rule_keys": [
+            "unit_39_B"
+          ]
+        },
+        {
+          "prompt": "You'd like to have more money. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I had more money.",
+          "accepted_variants": [
+            "I wish I had more money.",
+            "I wish I had more money",
+            "I wish I had more money."
+          ],
+          "rule_keys": [
+            "unit_39_A.2"
+          ]
+        },
+        {
+          "prompt": "You'd like to be able to speak Spanish well. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I could speak Spanish well.",
+          "accepted_variants": [
+            "I wish I could speak Spanish well.",
+            "I wish I could speak Spanish well",
+            "I wish I could speak Spanish well."
+          ],
+          "rule_keys": [
+            "unit_39_D"
+          ]
+        },
+        {
+          "prompt": "You'd like to be more confident in public. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I were more confident in public.",
+          "accepted_variants": [
+            "I wish I were more confident in public.",
+            "I wish I were more confident in public",
+            "I wish I were more confident in public."
+          ],
+          "rule_keys": [
+            "unit_39_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_40",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put the verb into the correct form (third conditional / mixed time).",
+      "items": [
+        {
+          "prompt": "Put the verbs into the correct form: I didn't see you. If I _____ you, I would have _____ hello. (see / say)",
+          "options": null,
+          "canonical": "had seen, said",
+          "accepted_variants": [
+            "had seen, said",
+            "had seen said",
+            "had seen, said.",
+            "had seen , said"
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: Sara caught the train. If she _____ it, she would have _____ her flight too. (miss / miss)",
+          "options": null,
+          "canonical": "had missed, missed",
+          "accepted_variants": [
+            "had missed, missed",
+            "had missed missed",
+            "had missed, missed.",
+            "had missed , missed"
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: Thanks for reminding me about the birthday. If you _____, I would have _____. (not / remind / forget)",
+          "options": null,
+          "canonical": "hadn't reminded, forgotten",
+          "accepted_variants": [
+            "hadn't reminded, forgotten",
+            "hadn't reminded forgotten",
+            "hadn't reminded, forgotten.",
+            "hadn't reminded , forgotten"
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: I didn't have your email, so I couldn't contact you. If I _____ your email, I would have _____ you. (have / email)",
+          "options": null,
+          "canonical": "had had, emailed",
+          "accepted_variants": [
+            "had had, emailed",
+            "had had emailed",
+            "had had, emailed.",
+            "had had , emailed"
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: Their trip was OK, but they would have _____ it more if the weather _____ better. (enjoy / be)",
+          "options": null,
+          "canonical": "enjoyed, had been",
+          "accepted_variants": [
+            "enjoyed, had been",
+            "enjoyed had been",
+            "enjoyed, had been.",
+            "enjoyed , had been"
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: Sorry we're late. Our taxi got stuck. It would have _____ quicker if we _____. (be / walk)",
+          "options": null,
+          "canonical": "been, had walked",
+          "accepted_variants": [
+            "been, had walked",
+            "been had walked",
+            "been, had walked.",
+            "been , had walked"
+          ],
+          "rule_keys": [
+            "unit_40_C.1"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: Why didn't you tell me? If you _____ me, I would have _____ to help. (tell / try)",
+          "options": null,
+          "canonical": "had told, tried",
+          "accepted_variants": [
+            "had told, tried",
+            "had told tried",
+            "had told, tried.",
+            "had told , tried"
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: I'm not tired. If I _____ tired, I'd go home now. (be)",
+          "options": null,
+          "canonical": "were",
+          "accepted_variants": [
+            "were",
+            "were.",
+            "were"
+          ],
+          "rule_keys": [
+            "unit_40_C.1"
+          ]
+        },
+        {
+          "prompt": "Put the verbs into the correct form: I wasn't tired last night. If I _____ tired, I would have _____ home earlier. (be / go)",
+          "options": null,
+          "canonical": "had been, gone",
+          "accepted_variants": [
+            "had been, gone",
+            "had been gone",
+            "had been, gone.",
+            "had been , gone"
+          ],
+          "rule_keys": [
+            "unit_40_C.1"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_40",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "For each situation, write a sentence beginning with If …",
+      "items": [
+        {
+          "prompt": "I wasn't hungry, so I didn't eat anything. Begin with If …",
+          "options": null,
+          "canonical": "If I'd been hungry, I would have eaten something.",
+          "accepted_variants": [
+            "If I'd been hungry, I would have eaten something.",
+            "If I'd been hungry, I would have eaten something",
+            "If I would been hungry, I would have eaten something."
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "The accident happened because the road was icy. Begin with If …",
+          "options": null,
+          "canonical": "If the road hadn't been icy, the accident wouldn't have happened.",
+          "accepted_variants": [
+            "If the road hadn't been icy, the accident wouldn't have happened.",
+            "If the road hadn't been icy, the accident wouldn't have happened",
+            "If the road hadn't been icy, the accident would not have happened."
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "I didn't know you had to get up early, so I didn't wake you up. Begin with If …",
+          "options": null,
+          "canonical": "If I'd known you had to get up early, I would have woken you up.",
+          "accepted_variants": [
+            "If I'd known you had to get up early, I would have woken you up.",
+            "If I'd known you had to get up early, I would have woken you up",
+            "If I would known you had to get up early, I would have woken you up."
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "I lost my phone, so I couldn't call you. Begin with If …",
+          "options": null,
+          "canonical": "If I hadn't lost my phone, I could have called you.",
+          "accepted_variants": [
+            "If I hadn't lost my phone, I could have called you.",
+            "If I hadn't lost my phone, I could have called you",
+            "If I hadn't lost my phone, I could have called you."
+          ],
+          "rule_keys": [
+            "unit_40_C.2"
+          ]
+        },
+        {
+          "prompt": "Karen wasn't injured because she was wearing a seat belt. Begin with If …",
+          "options": null,
+          "canonical": "If Karen hadn't been wearing a seat belt, she might have been injured.",
+          "accepted_variants": [
+            "If Karen hadn't been wearing a seat belt, she might have been injured.",
+            "If Karen hadn't been wearing a seat belt, she might have been injured",
+            "If Karen hadn't been wearing a seat belt, she might have been injured."
+          ],
+          "rule_keys": [
+            "unit_40_C.2"
+          ]
+        },
+        {
+          "prompt": "You didn't have breakfast, so you're hungry now. Begin with If …",
+          "options": null,
+          "canonical": "If you'd had breakfast, you wouldn't be hungry now.",
+          "accepted_variants": [
+            "If you'd had breakfast, you wouldn't be hungry now.",
+            "If you'd had breakfast, you wouldn't be hungry now",
+            "If you'd had breakfast, you would not be hungry now."
+          ],
+          "rule_keys": [
+            "unit_40_C.1"
+          ]
+        },
+        {
+          "prompt": "I didn't get a taxi because I didn't have enough money. Begin with If …",
+          "options": null,
+          "canonical": "If I'd had enough money, I would have got a taxi.",
+          "accepted_variants": [
+            "If I'd had enough money, I would have got a taxi.",
+            "If I'd had enough money, I would have got a taxi",
+            "If I would had enough money, I would have got a taxi."
+          ],
+          "rule_keys": [
+            "unit_40_A"
+          ]
+        },
+        {
+          "prompt": "Dan didn't do well at school, so he couldn't go to university. Begin with If …",
+          "options": null,
+          "canonical": "If Dan had done well at school, he could have gone to university.",
+          "accepted_variants": [
+            "If Dan had done well at school, he could have gone to university.",
+            "If Dan had done well at school, he could have gone to university",
+            "If Dan had done well at school, he could have gone to university."
+          ],
+          "rule_keys": [
+            "unit_40_C.2"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_40",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Imagine each situation and write a sentence with I wish.",
+      "items": [
+        {
+          "prompt": "You've eaten too much and now you feel sick. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I hadn't eaten so much.",
+          "accepted_variants": [
+            "I wish I hadn't eaten so much.",
+            "I wish I hadn't eaten so much",
+            "I wish I hadn't eaten so much."
+          ],
+          "rule_keys": [
+            "unit_40_B"
+          ]
+        },
+        {
+          "prompt": "You never learned to play an instrument, and you regret it. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I'd learned to play an instrument.",
+          "accepted_variants": [
+            "I wish I'd learned to play an instrument.",
+            "I wish I'd learned to play an instrument",
+            "I wish I would learned to play an instrument."
+          ],
+          "rule_keys": [
+            "unit_40_B"
+          ]
+        },
+        {
+          "prompt": "You painted a wall bright red and now you think it was a bad choice. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I hadn't painted it bright red.",
+          "accepted_variants": [
+            "I wish I hadn't painted it bright red.",
+            "I wish I hadn't painted it bright red",
+            "I wish I hadn't painted it bright red."
+          ],
+          "rule_keys": [
+            "unit_40_B"
+          ]
+        },
+        {
+          "prompt": "You travelled by car, but the journey was tiring. Train would have been better. Write: I wish …",
+          "options": null,
+          "canonical": "I wish we'd gone by train.",
+          "accepted_variants": [
+            "I wish we'd gone by train.",
+            "I wish we'd gone by train",
+            "I wish we would gone by train."
+          ],
+          "rule_keys": [
+            "unit_40_B"
+          ]
+        },
+        {
+          "prompt": "Last year you visited New York but didn't have time for everything. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I'd had more time there.",
+          "accepted_variants": [
+            "I wish I'd had more time there.",
+            "I wish I'd had more time there",
+            "I wish I would had more time there."
+          ],
+          "rule_keys": [
+            "unit_40_B"
+          ]
+        },
+        {
+          "prompt": "You moved to a new flat and now you regret the decision. Write: I wish …",
+          "options": null,
+          "canonical": "I wish I hadn't moved there.",
+          "accepted_variants": [
+            "I wish I hadn't moved there.",
+            "I wish I hadn't moved there",
+            "I wish I hadn't moved there."
+          ],
+          "rule_keys": [
+            "unit_40_B"
+          ]
+        }
+      ]
+    }
+  ]
+}

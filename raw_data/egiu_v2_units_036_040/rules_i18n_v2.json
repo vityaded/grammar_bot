@@ -1,0 +1,257 @@
+[
+  {
+    "rule_key": "unit_36_A",
+    "unit_key": "unit_36",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use would / wouldn't to imagine a situation that isn’t real now; use would have + past participle to imagine a different past.",
+    "rule_text_uk": "Використовуй would / wouldn't, щоб уявити ситуацію, яка нереальна зараз; would have + дієприкметник — щоб уявити інше минуле.",
+    "rule_short_en": "Would = imagined (not real); would have = imagined past.",
+    "rule_short_uk": "Would = уява (не реальність); would have = уявне минуле.",
+    "examples": [
+      "I’d buy a bigger flat if I could afford it.",
+      "I wouldn’t say that in your place.",
+      "Without your help, we’d have been lost."
+    ]
+  },
+  {
+    "rule_key": "unit_36_B",
+    "unit_key": "unit_36",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "In reported speech, will often becomes would: He said he’d call. Wouldn’t can mean ‘refused’ (a person or thing wouldn’t do it).",
+    "rule_text_uk": "У непрямій мові will часто змінюється на would: He said he’d call. Wouldn’t також може означати «відмовився» (людина або річ).",
+    "rule_short_en": "Will → would in reports; wouldn’t = refused.",
+    "rule_short_uk": "Will → would; wouldn’t = відмовився/«не хотіло».",
+    "examples": [
+      "She promised she wouldn’t be late.",
+      "I asked him twice, but he wouldn’t answer.",
+      "The engine wouldn’t start."
+    ]
+  },
+  {
+    "rule_key": "unit_36_C",
+    "unit_key": "unit_36",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Would can describe repeated actions in the past (past habits), often with time expressions like when/whenever.",
+    "rule_text_uk": "Would може описувати повторювані дії в минулому (звички), часто з when/whenever.",
+    "rule_short_en": "Would = past habit (repeated action).",
+    "rule_short_uk": "Would = звичка в минулому (повторювана дія).",
+    "examples": [
+      "When we were kids, we’d play outside till dark.",
+      "Whenever he got stressed, he’d go for a long walk."
+    ]
+  },
+  {
+    "rule_key": "unit_37_A",
+    "unit_key": "unit_37",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "For requests, use Can you…? / Could you…? Could is usually more polite. You can also say Do you think you could…?",
+    "rule_text_uk": "Для прохання використовуй Can you…? / Could you…? Could зазвичай звучить ввічливіше. Також: Do you think you could…?",
+    "rule_short_en": "Requests: Can/Could you…? (Could = more polite).",
+    "rule_short_uk": "Прохання: Can/Could you…? (Could = ввічливіше).",
+    "examples": [
+      "Could you open the window, please?",
+      "Do you think you could help me for a minute?"
+    ]
+  },
+  {
+    "rule_key": "unit_37_B",
+    "unit_key": "unit_37",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "To ask permission, use Can I…? / Could I…? (May I…? is more formal). You can also use Do you mind if…? / Is it OK if…?",
+    "rule_text_uk": "Щоб попросити дозвіл, використовуй Can I…? / Could I…? (May I…? — більш формально). Також: Do you mind if…? / Is it OK if…?",
+    "rule_short_en": "Permission: Can/Could I…?; Do you mind if…?",
+    "rule_short_uk": "Дозвіл: Can/Could I…?; Do you mind if…?",
+    "examples": [
+      "Could I borrow your charger for a moment?",
+      "Is it OK if I sit here?"
+    ]
+  },
+  {
+    "rule_key": "unit_37_C",
+    "unit_key": "unit_37",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "For offers/invitations, use Can I…? (offer) and Would you like…? (invite/offer). I’d like… is a polite way to say what you want.",
+    "rule_text_uk": "Для пропозицій/запрошень: Can I…? (пропозиція допомоги) та Would you like…? (запрошення/пропозиція). I’d like… — ввічливо сказати, чого ти хочеш.",
+    "rule_short_en": "Offers: Can I…?; Invitations: Would you like…?; I’d like…",
+    "rule_short_uk": "Пропозиції: Can I…?; Запрошення: Would you like…?; I’d like…",
+    "examples": [
+      "Can I carry that for you?",
+      "Would you like some tea?",
+      "I’d like a receipt, please."
+    ]
+  },
+  {
+    "rule_key": "unit_38_A.1",
+    "unit_key": "unit_38",
+    "section_path": "A.1",
+    "title_en": null,
+    "rule_text_en": "Use if + present to talk about a real future possibility, often with will/can in the main clause.",
+    "rule_text_uk": "Використовуй if + теперішній час для реальної можливості в майбутньому; у головній частині часто will/can.",
+    "rule_short_en": "If + present = real possibility (will/can).",
+    "rule_short_uk": "If + теперішній = реальна можливість (will/can).",
+    "examples": [
+      "If it rains, we’ll stay at home.",
+      "If you hurry, you can catch the bus."
+    ]
+  },
+  {
+    "rule_key": "unit_38_A.2",
+    "unit_key": "unit_38",
+    "section_path": "A.2",
+    "title_en": null,
+    "rule_text_en": "Use if + past to imagine an unreal or unlikely situation now/future, with would/could/might in the main clause.",
+    "rule_text_uk": "Використовуй if + минулий час, щоб уявити нереальну або малоймовірну ситуацію зараз/у майбутньому; у головній частині would/could/might.",
+    "rule_short_en": "If + past = unreal (would/could/might).",
+    "rule_short_uk": "If + минулий = нереальне (would/could/might).",
+    "examples": [
+      "If I had more time, I’d learn Italian.",
+      "If we went by taxi, it might be faster."
+    ]
+  },
+  {
+    "rule_key": "unit_38_B",
+    "unit_key": "unit_38",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Don’t usually use would in the if-clause: If I won…, I’d buy…. Use would (or could/might) in the main clause instead.",
+    "rule_text_uk": "Зазвичай не вживай would у частині з if: If I won…, I’d buy…. Would (або could/might) став у головній частині.",
+    "rule_short_en": "No would in the if-clause (normally).",
+    "rule_short_uk": "Зазвичай без would у частині з if.",
+    "examples": [
+      "If she called, I’d answer.",
+      "If it stopped raining, we could go out."
+    ]
+  },
+  {
+    "rule_key": "unit_39_A.1",
+    "unit_key": "unit_39",
+    "section_path": "A.1",
+    "title_en": null,
+    "rule_text_en": "Second conditional: if + past, would + base verb for an unreal situation now/future (If I knew…, I’d… ).",
+    "rule_text_uk": "Друга умова: if + минулий час, would + інфінітив для нереальної ситуації зараз/у майбутньому (If I knew…, I’d… ).",
+    "rule_short_en": "If + past, would = unreal now/future.",
+    "rule_short_uk": "If + минулий, would = нереальне зараз/у майбутньому.",
+    "examples": [
+      "If I were you, I’d wait.",
+      "I’d help if I could."
+    ]
+  },
+  {
+    "rule_key": "unit_39_A.2",
+    "unit_key": "unit_39",
+    "section_path": "A.2",
+    "title_en": null,
+    "rule_text_en": "Wish for the present: I wish + past to show you’re unhappy about the situation now (I wish I had more time).",
+    "rule_text_uk": "Wish про теперішнє: I wish + минулий час, щоб показати невдоволення ситуацією зараз (I wish I had more time).",
+    "rule_short_en": "I wish + past = unhappy about now.",
+    "rule_short_uk": "I wish + минулий = жаль/незадоволення зараз.",
+    "examples": [
+      "I wish I lived closer to work.",
+      "I wish it wasn’t so noisy."
+    ]
+  },
+  {
+    "rule_key": "unit_39_B",
+    "unit_key": "unit_39",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "After if and wish, were is common instead of was (If I were / I wish it were). Was is also possible in informal English.",
+    "rule_text_uk": "Після if і wish часто вживають were замість was (If I were / I wish it were). У розмовній мові можливе й was.",
+    "rule_short_en": "If I were / I wish it were (was also possible).",
+    "rule_short_uk": "If I were / I wish it were (was теж можливе).",
+    "examples": [
+      "If I were taller, I’d play basketball.",
+      "I wish he were here."
+    ]
+  },
+  {
+    "rule_key": "unit_39_C",
+    "unit_key": "unit_39",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "We don’t usually say if … would. Put would in the main clause. Also, don’t say wish … would have … (see Unit 40).",
+    "rule_text_uk": "Зазвичай не кажуть if … would. Would став у головній частині. Також не кажуть wish … would have … (див. Unit 40).",
+    "rule_short_en": "No ‘if … would’ (normally).",
+    "rule_short_uk": "Зазвичай без ‘if … would’.",
+    "examples": [
+      "If I had the key, I would open the door.",
+      "Who would you call if you needed help?"
+    ]
+  },
+  {
+    "rule_key": "unit_39_D",
+    "unit_key": "unit_39",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Could can mean ‘would be able to’ in the main clause, or ‘was/were able to’ in the if-clause, depending on the context.",
+    "rule_text_uk": "Could може означати «міг би» у головній частині або «міг/могла» (здатність) у частині з if — залежно від контексту.",
+    "rule_short_en": "Could = would be able / was able (context).",
+    "rule_short_uk": "Could = «міг би» / «міг» (за контекстом).",
+    "examples": [
+      "If I could drive, I’d rent a car.",
+      "She could get a better job if she could speak German."
+    ]
+  },
+  {
+    "rule_key": "unit_40_A",
+    "unit_key": "unit_40",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Third conditional: if + had + past participle, would have + past participle to imagine a different past result.",
+    "rule_text_uk": "Третя умова: if + had + дієприкметник, would have + дієприкметник — щоб уявити інший результат у минулому.",
+    "rule_short_en": "If + had done, would have done = unreal past.",
+    "rule_short_uk": "If + had done, would have done = нереальне минуле.",
+    "examples": [
+      "If we’d left earlier, we would have caught the train.",
+      "If I’d known, I would have told you."
+    ]
+  },
+  {
+    "rule_key": "unit_40_B",
+    "unit_key": "unit_40",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Wish about the past: I wish + past perfect to show regret. Don’t use wish … would have …",
+    "rule_text_uk": "Wish про минуле: I wish + past perfect, щоб показати жаль. Не використовуй wish … would have …",
+    "rule_short_en": "I wish + had done = regret about the past.",
+    "rule_short_uk": "I wish + had done = жаль про минуле.",
+    "examples": [
+      "I wish I hadn’t said that.",
+      "I wish we’d taken a taxi."
+    ]
+  },
+  {
+    "rule_key": "unit_40_C.1",
+    "unit_key": "unit_40",
+    "section_path": "C.1",
+    "title_en": null,
+    "rule_text_en": "Mixed time: If I’d done …, I would be … (present result). If I’d done …, I would have done … (past result).",
+    "rule_text_uk": "Змішаний час: If I’d done …, I would be … (результат зараз). If I’d done …, I would have done … (результат у минулому).",
+    "rule_short_en": "Would be (now) vs would have done (past).",
+    "rule_short_uk": "Would be (зараз) vs would have done (минуле).",
+    "examples": [
+      "If I’d gone to bed earlier, I’d feel better now.",
+      "If she’d come, she would have met everyone."
+    ]
+  },
+  {
+    "rule_key": "unit_40_C.2",
+    "unit_key": "unit_40",
+    "section_path": "C.2",
+    "title_en": null,
+    "rule_text_en": "With third conditional, you can also use could have (ability) and might have (possibility) instead of would have.",
+    "rule_text_uk": "У третій умові можна також вживати could have (здатність) і might have (можливість) замість would have.",
+    "rule_short_en": "Could have = ability; might have = possibility.",
+    "rule_short_uk": "Could have = здатність; might have = можливість.",
+    "examples": [
+      "If you’d asked, I could have helped.",
+      "If it hadn’t rained, we might have gone out."
+    ]
+  }
+]

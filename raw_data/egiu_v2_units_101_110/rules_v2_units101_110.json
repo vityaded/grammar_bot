@@ -1,0 +1,588 @@
+{
+  "version": "v2",
+  "units": "101-110",
+  "rules": [
+    {
+      "rule_key": "unit_101_A",
+      "unit_key": "unit_101",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use good (adjective) before a noun; use well (adverb) after a verb for how someone does something. Use well with past participles (well-known, well-paid).",
+      "rule_text_uk": "Good — прикметник (перед іменником); well — прислівник (після дієслова), коли описуємо, як щось роблять. Well також уживається з дієприкметниками: well-known, well-paid.",
+      "rule_short_en": "good = adjective; well = adverb / past participle",
+      "rule_short_uk": "good = прикметник; well = прислівник / з дієприкметником",
+      "examples": [
+        "Her writing is good.",
+        "She writes well.",
+        "a well-known actor",
+        "I feel well today."
+      ]
+    },
+    {
+      "rule_key": "unit_101_B",
+      "unit_key": "unit_101",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Fast, hard and late can be adjectives or adverbs. With work/try, hard means 'with a lot of effort' (work hard).",
+      "rule_text_uk": "Fast, hard і late можуть бути прикметниками або прислівниками. Hard із work/try означає «з великим зусиллям» (work hard).",
+      "rule_short_en": "fast/hard/late can be adjective or adverb",
+      "rule_short_uk": "fast/hard/late можуть бути прикм. або присл.",
+      "examples": [
+        "He’s a fast learner.",
+        "He learns fast.",
+        "She works hard.",
+        "I arrived late."
+      ]
+    },
+    {
+      "rule_key": "unit_101_C",
+      "unit_key": "unit_101",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Hardly means 'very little / almost not'. It usually goes before the verb (hardly know). Hard and hardly have different meanings.",
+      "rule_text_uk": "Hardly означає «дуже мало / майже ні». Зазвичай стоїть перед дієсловом (hardly know). Hard і hardly мають різні значення.",
+      "rule_short_en": "hardly = almost not (position: before verb)",
+      "rule_short_uk": "hardly = майже ні (перед дієсловом)",
+      "examples": [
+        "I hardly slept.",
+        "We hardly know them.",
+        "He tried hard.",
+        "He hardly tried."
+      ]
+    },
+    {
+      "rule_key": "unit_101_D",
+      "unit_key": "unit_101",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Late = not on time. Lately = recently. Don’t confuse them (late ≠ lately).",
+      "rule_text_uk": "Late = «не вчасно». Lately = «останнім часом». Не плутайте: late ≠ lately.",
+      "rule_short_en": "late = not on time; lately = recently",
+      "rule_short_uk": "late = не вчасно; lately = останнім часом",
+      "examples": [
+        "Sorry I’m late.",
+        "Have you seen her lately?",
+        "I stayed up late.",
+        "Lately I’ve been busy."
+      ]
+    },
+    {
+      "rule_key": "unit_102_A",
+      "unit_key": "unit_102",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use so + adjective/adverb (so cold, so quickly).",
+      "rule_text_uk": "Вживайте so + прикметник/прислівник: so cold, so quickly.",
+      "rule_short_en": "so + adj/adv",
+      "rule_short_uk": "so + прикм./присл.",
+      "examples": [
+        "It’s so noisy here.",
+        "She spoke so softly."
+      ]
+    },
+    {
+      "rule_key": "unit_102_B",
+      "unit_key": "unit_102",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use such + (a/an) + adjective + noun: such a nice day, such good news.",
+      "rule_text_uk": "Вживайте such + (a/an) + прикметник + іменник: such a nice day, such good news.",
+      "rule_short_en": "such + (a) + adj + noun",
+      "rule_short_uk": "such + (a) + прикм. + іменник",
+      "examples": [
+        "It was such a surprise.",
+        "They have such good coffee."
+      ]
+    },
+    {
+      "rule_key": "unit_102_C",
+      "unit_key": "unit_102",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use so much/many/little/few + noun: so much work, so many people, so little time, so few seats.",
+      "rule_text_uk": "Вживайте so much/many/little/few + іменник: so much work, so many people, so little time, so few seats.",
+      "rule_short_en": "so much/many/little/few",
+      "rule_short_uk": "so much/many/little/few",
+      "examples": [
+        "We have so much to do.",
+        "There were so few tickets."
+      ]
+    },
+    {
+      "rule_key": "unit_102_D",
+      "unit_key": "unit_102",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "So/such can be followed by that to show result: It was so late that we went home. It was such a mess that we stopped.",
+      "rule_text_uk": "So/such можуть поєднуватися з that, щоб показати наслідок: It was so late that… / It was such a mess that…",
+      "rule_short_en": "so/such … that (result)",
+      "rule_short_uk": "so/such … that (наслідок)",
+      "examples": [
+        "It was so hot that we stayed inside.",
+        "It was such a long queue that we left."
+      ]
+    },
+    {
+      "rule_key": "unit_103_A",
+      "unit_key": "unit_103",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Enough usually comes after an adjective/adverb: warm enough, speak loudly enough.",
+      "rule_text_uk": "Enough зазвичай стоїть після прикметника/прислівника: warm enough, speak loudly enough.",
+      "rule_short_en": "adj/adv + enough",
+      "rule_short_uk": "прикм./присл. + enough",
+      "examples": [
+        "The room isn’t big enough.",
+        "You’re not speaking clearly enough."
+      ]
+    },
+    {
+      "rule_key": "unit_103_B",
+      "unit_key": "unit_103",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Enough comes before a noun: enough money, enough time. Use not enough + noun for lack.",
+      "rule_text_uk": "Enough стоїть перед іменником: enough money, enough time. Для нестачі: not enough + іменник.",
+      "rule_short_en": "enough + noun",
+      "rule_short_uk": "enough + іменник",
+      "examples": [
+        "We don’t have enough chairs.",
+        "Is there enough sugar?"
+      ]
+    },
+    {
+      "rule_key": "unit_103_C",
+      "unit_key": "unit_103",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Too means 'more than is good/necessary': too hot, too quickly. Use too much/many with nouns.",
+      "rule_text_uk": "Too означає «забагато / більше, ніж потрібно»: too hot, too quickly. З іменниками: too much/many.",
+      "rule_short_en": "too = more than needed",
+      "rule_short_uk": "too = більше, ніж потрібно",
+      "examples": [
+        "This coffee is too strong.",
+        "There are too many emails."
+      ]
+    },
+    {
+      "rule_key": "unit_103_D",
+      "unit_key": "unit_103",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Use too … to and (not) … enough to: too tired to work; not old enough to drive.",
+      "rule_text_uk": "Вживайте too … to та (not) … enough to: too tired to work; not old enough to drive.",
+      "rule_short_en": "too … to / (not) … enough to",
+      "rule_short_uk": "too … to / (не) … enough to",
+      "examples": [
+        "I was too late to catch the bus.",
+        "He isn’t experienced enough to lead it."
+      ]
+    },
+    {
+      "rule_key": "unit_104_A",
+      "unit_key": "unit_104",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Pretty and fairly mean 'to a moderate degree' and are common in spoken English: pretty tired, fairly easy.",
+      "rule_text_uk": "Pretty і fairly означають «досить / помірно» і часто вживаються в розмовній мові: pretty tired, fairly easy.",
+      "rule_short_en": "pretty/fairly = moderately",
+      "rule_short_uk": "pretty/fairly = помірно",
+      "examples": [
+        "I’m pretty sure.",
+        "The test was fairly easy."
+      ]
+    },
+    {
+      "rule_key": "unit_104_B",
+      "unit_key": "unit_104",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Quite can mean 'fairly' (quite nice) or 'completely' with some adjectives (quite certain). Context matters.",
+      "rule_text_uk": "Quite може означати «досить» (quite nice) або «повністю» з деякими прикметниками (quite certain). Значення залежить від контексту.",
+      "rule_short_en": "quite = fairly OR completely",
+      "rule_short_uk": "quite = досить АБО повністю",
+      "examples": [
+        "It’s quite good.",
+        "I’m quite certain about it."
+      ]
+    },
+    {
+      "rule_key": "unit_104_C",
+      "unit_key": "unit_104",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Rather often suggests something negative or surprising: rather cold, rather strange. It can also soften criticism.",
+      "rule_text_uk": "Rather часто має відтінок негативу або несподіванки: rather cold, rather strange. Також може пом’якшувати критику.",
+      "rule_short_en": "rather = a bit negative/surprising",
+      "rule_short_uk": "rather = трохи негативно/несподівано",
+      "examples": [
+        "It’s rather expensive.",
+        "That’s rather odd."
+      ]
+    },
+    {
+      "rule_key": "unit_104_D",
+      "unit_key": "unit_104",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Rather/quite can be used with a/an: rather a good idea, quite a long time. Word order matters.",
+      "rule_text_uk": "Rather/quite можна вживати з a/an: rather a good idea, quite a long time. Важливий порядок слів.",
+      "rule_short_en": "rather/quite a + noun phrase",
+      "rule_short_uk": "rather/quite a + іменникова фраза",
+      "examples": [
+        "It was quite a shock.",
+        "It’s rather a mess."
+      ]
+    },
+    {
+      "rule_key": "unit_105_A",
+      "unit_key": "unit_105",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Form the comparative with -er (cheap→cheaper) or more (expensive→more expensive). Use than to compare.",
+      "rule_text_uk": "Порівняльний ступінь: -er (cheap→cheaper) або more (expensive→more expensive). Для порівняння вживайте than.",
+      "rule_short_en": "comparative: -er / more + than",
+      "rule_short_uk": "порівн.: -er / more + than",
+      "examples": [
+        "This phone is cheaper than mine.",
+        "Today is more humid than yesterday."
+      ]
+    },
+    {
+      "rule_key": "unit_105_B",
+      "unit_key": "unit_105",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Spelling changes: big→bigger, easy→easier, hot→hotter. Some adjectives are irregular (good→better).",
+      "rule_text_uk": "Правопис: big→bigger, easy→easier, hot→hotter. Деякі прикметники неправильні (good→better).",
+      "rule_short_en": "spelling + irregular comparatives",
+      "rule_short_uk": "правопис + неправильні форми",
+      "examples": [
+        "A car is bigger than a bike.",
+        "This route is easier."
+      ]
+    },
+    {
+      "rule_key": "unit_105_C",
+      "unit_key": "unit_105",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use comparative + than, or comparative without than when the comparison is clear from context.",
+      "rule_text_uk": "Вживайте comparative + than, або comparative без than, якщо порівняння зрозуміле з контексту.",
+      "rule_short_en": "comparative with/without than",
+      "rule_short_uk": "порівн. з/без than",
+      "examples": [
+        "I expected it to be cheaper.",
+        "Her new job is better than the old one."
+      ]
+    },
+    {
+      "rule_key": "unit_106_A",
+      "unit_key": "unit_106",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use much/far/a lot + comparative for big differences: much better, far more expensive.",
+      "rule_text_uk": "Використовуйте much/far/a lot + comparative для великої різниці: much better, far more expensive.",
+      "rule_short_en": "much/far/a lot + comparative",
+      "rule_short_uk": "much/far/a lot + порівн.",
+      "examples": [
+        "This is much easier.",
+        "It’s far colder today."
+      ]
+    },
+    {
+      "rule_key": "unit_106_B",
+      "unit_key": "unit_106",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use a bit/a little/slightly + comparative for small differences: a bit older, slightly cheaper.",
+      "rule_text_uk": "Для невеликої різниці: a bit/a little/slightly + comparative: a bit older, slightly cheaper.",
+      "rule_short_en": "a bit/a little/slightly + comparative",
+      "rule_short_uk": "a bit/a little/slightly + порівн.",
+      "examples": [
+        "He looks a bit tired.",
+        "This one is slightly smaller."
+      ]
+    },
+    {
+      "rule_key": "unit_106_C",
+      "unit_key": "unit_106",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use any/no + comparative in questions/negatives: any better? no longer. Also: not any bigger.",
+      "rule_text_uk": "Вживайте any/no + comparative у питаннях і запереченнях: any better? not any bigger. Також: no longer.",
+      "rule_short_en": "any/no + comparative",
+      "rule_short_uk": "any/no + порівн.",
+      "examples": [
+        "Is it any cheaper online?",
+        "It’s not any easier now."
+      ]
+    },
+    {
+      "rule_key": "unit_106_D",
+      "unit_key": "unit_106",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "After than you can use object pronoun or clause: than me / than I am. Both are common; choose consistently.",
+      "rule_text_uk": "Після than можливий займенник-об’єкт або підрядна частина: than me / than I am. Обидва варіанти можливі — дотримуйтеся одного стилю.",
+      "rule_short_en": "than me / than I am",
+      "rule_short_uk": "than me / than I am",
+      "examples": [
+        "She’s taller than me.",
+        "She’s taller than I am."
+      ]
+    },
+    {
+      "rule_key": "unit_106_E",
+      "unit_key": "unit_106",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Use comparative + and + comparative for change (better and better). Use the + comparative, the + comparative (the sooner, the better).",
+      "rule_text_uk": "Для змін: comparative + and + comparative (better and better). Також: the + comparative, the + comparative (the sooner, the better).",
+      "rule_short_en": "better and better / the sooner, the better",
+      "rule_short_uk": "better and better / the sooner, the better",
+      "examples": [
+        "It’s getting colder and colder.",
+        "The more you practise, the better you get."
+      ]
+    },
+    {
+      "rule_key": "unit_107_A",
+      "unit_key": "unit_107",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Use as + adjective/adverb + as to show equality: as tall as, as quickly as.",
+      "rule_text_uk": "Вживайте as + прикметник/прислівник + as для рівності: as tall as, as quickly as.",
+      "rule_short_en": "as … as = equal",
+      "rule_short_uk": "as … as = однаково",
+      "examples": [
+        "My bag is as heavy as yours.",
+        "He ran as fast as he could."
+      ]
+    },
+    {
+      "rule_key": "unit_107_B",
+      "unit_key": "unit_107",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Use not as/so … as for inequality: not as big as, not so expensive as.",
+      "rule_text_uk": "Для нерівності: not as/so … as: not as big as, not so expensive as.",
+      "rule_short_en": "not as/so … as = less",
+      "rule_short_uk": "not as/so … as = менше",
+      "examples": [
+        "This room isn’t as bright as the other one.",
+        "It’s not so simple as it seems."
+      ]
+    },
+    {
+      "rule_key": "unit_107_C",
+      "unit_key": "unit_107",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use as much/many as with nouns: as much time as, as many people as. Also: as little/few as.",
+      "rule_text_uk": "З іменниками: as much/many as (as much time as, as many people as), також as little/few as.",
+      "rule_short_en": "as much/many (nouns)",
+      "rule_short_uk": "as much/many (іменники)",
+      "examples": [
+        "I don’t have as much time as you.",
+        "There weren’t as many guests as expected."
+      ]
+    },
+    {
+      "rule_key": "unit_107_D",
+      "unit_key": "unit_107",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Use than after comparatives. Don’t use than after as … as.",
+      "rule_text_uk": "Після порівняльного ступеня вживайте than. Після as … as than не використовується.",
+      "rule_short_en": "comparatives use than; as…as doesn’t",
+      "rule_short_uk": "порівн. = than; as…as без than",
+      "examples": [
+        "She’s older than her brother.",
+        "He’s as tall as his dad."
+      ]
+    },
+    {
+      "rule_key": "unit_108_A",
+      "unit_key": "unit_108",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Form superlatives with -est or most: the cheapest, the most interesting. Use the with superlatives.",
+      "rule_text_uk": "Найвищий ступінь: -est або most: the cheapest, the most interesting. Зазвичай потрібен the.",
+      "rule_short_en": "superlative: the -est / the most",
+      "rule_short_uk": "найвищий: the -est / the most",
+      "examples": [
+        "This is the smallest box.",
+        "It’s the most useful tool."
+      ]
+    },
+    {
+      "rule_key": "unit_108_B",
+      "unit_key": "unit_108",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "Spelling changes: big→the biggest, easy→the easiest. Some are irregular: good→the best, bad→the worst.",
+      "rule_text_uk": "Правопис: big→the biggest, easy→the easiest. Є неправильні: good→the best, bad→the worst.",
+      "rule_short_en": "spelling + irregular superlatives",
+      "rule_short_uk": "правопис + неправильні форми",
+      "examples": [
+        "That was the best day.",
+        "It’s the worst timing."
+      ]
+    },
+    {
+      "rule_key": "unit_108_C",
+      "unit_key": "unit_108",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "Use in/of with superlatives: the tallest in the class; the best of the three options.",
+      "rule_text_uk": "З найвищим ступенем: in/of — the tallest in the class; the best of the three options.",
+      "rule_short_en": "the …est in / the best of",
+      "rule_short_uk": "the …est in / the best of",
+      "examples": [
+        "She’s the fastest in our team.",
+        "This is the cheapest of the three."
+      ]
+    },
+    {
+      "rule_key": "unit_108_D",
+      "unit_key": "unit_108",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Use one of the + superlative + plural noun: one of the most exciting films.",
+      "rule_text_uk": "Вживайте one of the + найвищий ступінь + множина: one of the most exciting films.",
+      "rule_short_en": "one of the most …",
+      "rule_short_uk": "one of the most …",
+      "examples": [
+        "It’s one of the oldest buildings here.",
+        "He’s one of the best players."
+      ]
+    },
+    {
+      "rule_key": "unit_108_E",
+      "unit_key": "unit_108",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Use superlative + ever for lifetime experience: the best meal I’ve ever had.",
+      "rule_text_uk": "Вживайте superlative + ever для досвіду за все життя: the best meal I’ve ever had.",
+      "rule_short_en": "the best … ever",
+      "rule_short_uk": "найкращий … ever",
+      "examples": [
+        "It was the funniest thing I’ve ever seen.",
+        "This is the hardest test I’ve ever done."
+      ]
+    },
+    {
+      "rule_key": "unit_109_A",
+      "unit_key": "unit_109",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Word order is usually: subject + verb + object. Don’t put the object before the verb in statements.",
+      "rule_text_uk": "Порядок слів зазвичай: підмет + присудок + додаток. У ствердженнях додаток не ставлять перед дієсловом.",
+      "rule_short_en": "subject + verb + object",
+      "rule_short_uk": "підмет + дієслово + додаток",
+      "examples": [
+        "I bought a new phone.",
+        "She reads books every day."
+      ]
+    },
+    {
+      "rule_key": "unit_109_B",
+      "unit_key": "unit_109",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "When you have place and time, place usually comes before time: I met her in Kyiv yesterday.",
+      "rule_text_uk": "Коли є місце й час, зазвичай спершу місце, потім час: I met her in Kyiv yesterday.",
+      "rule_short_en": "place before time",
+      "rule_short_uk": "місце перед часом",
+      "examples": [
+        "We stayed at home all evening.",
+        "I saw him at the station this morning."
+      ]
+    },
+    {
+      "rule_key": "unit_109_C",
+      "unit_key": "unit_109",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "With verbs of movement (go, come, travel), place is important and comes after the verb: go to work, travel abroad. Then add time.",
+      "rule_text_uk": "З дієсловами руху (go, come, travel) місце важливе й стоїть після дієслова: go to work, travel abroad. Потім можна додати час.",
+      "rule_short_en": "go/come + place (+ time)",
+      "rule_short_uk": "go/come + місце (+ час)",
+      "examples": [
+        "She went to the doctor yesterday.",
+        "They travelled to Spain last year."
+      ]
+    },
+    {
+      "rule_key": "unit_110_A",
+      "unit_key": "unit_110",
+      "section_path": "A",
+      "title_en": null,
+      "rule_text_en": "Adverbs like always/usually/often go before the main verb: I often work from home.",
+      "rule_text_uk": "Прислівники частоти (always/usually/often) стоять перед основним дієсловом: I often work from home.",
+      "rule_short_en": "frequency adverb before main verb",
+      "rule_short_uk": "присл. частоти перед осн. дієсловом",
+      "examples": [
+        "I always drink tea.",
+        "They usually arrive early."
+      ]
+    },
+    {
+      "rule_key": "unit_110_B",
+      "unit_key": "unit_110",
+      "section_path": "B",
+      "title_en": null,
+      "rule_text_en": "With the verb be, adverbs go after be: She is always polite.",
+      "rule_text_uk": "З дієсловом be прислівник стоїть після be: She is always polite.",
+      "rule_short_en": "with be: be + adverb",
+      "rule_short_uk": "з be: be + прислівник",
+      "examples": [
+        "He is often busy.",
+        "You are never late."
+      ]
+    },
+    {
+      "rule_key": "unit_110_C",
+      "unit_key": "unit_110",
+      "section_path": "C",
+      "title_en": null,
+      "rule_text_en": "With auxiliary verbs, adverbs usually go after the first auxiliary: I have never been there.",
+      "rule_text_uk": "З допоміжними дієсловами прислівник зазвичай після першого допоміжного: I have never been there.",
+      "rule_short_en": "aux + adverb + verb",
+      "rule_short_uk": "допом. + присл. + дієслово",
+      "examples": [
+        "She has already left.",
+        "I will probably call later."
+      ]
+    },
+    {
+      "rule_key": "unit_110_D",
+      "unit_key": "unit_110",
+      "section_path": "D",
+      "title_en": null,
+      "rule_text_en": "Some adverbs can go at the end, especially manner/time: She spoke quietly. We met again yesterday.",
+      "rule_text_uk": "Деякі прислівники часто стоять у кінці (особливо способу/часу): She spoke quietly. We met again yesterday.",
+      "rule_short_en": "adverb at the end (manner/time)",
+      "rule_short_uk": "прислівник у кінці (спосіб/час)",
+      "examples": [
+        "He drives carefully.",
+        "I saw her yesterday."
+      ]
+    },
+    {
+      "rule_key": "unit_110_E",
+      "unit_key": "unit_110",
+      "section_path": "E",
+      "title_en": null,
+      "rule_text_en": "Just/already/still usually go in mid position (near the verb/aux): I’m still waiting. I’ve just finished.",
+      "rule_text_uk": "Just/already/still зазвичай стоять у середині речення (біля дієслова/aux): I’m still waiting. I’ve just finished.",
+      "rule_short_en": "just/already/still in mid position",
+      "rule_short_uk": "just/already/still у середині",
+      "examples": [
+        "I’m still tired.",
+        "She has just arrived."
+      ]
+    }
+  ]
+}

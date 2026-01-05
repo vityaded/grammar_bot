@@ -1,0 +1,547 @@
+[
+  {
+    "rule_key": "unit_1_A",
+    "unit_key": "unit_1",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use the present continuous for something happening now (around the moment of speaking).",
+    "rule_text_uk": "Вживай Present Continuous для дії, що відбувається зараз (приблизно в момент мовлення).",
+    "rule_short_en": "Now: am/is/are + -ing.",
+    "rule_short_uk": "Зараз: am/is/are + -ing.",
+    "examples": [
+      "I'm talking to you right now.",
+      "She is driving home at the moment.",
+      "We are waiting outside."
+    ]
+  },
+  {
+    "rule_key": "unit_1_B",
+    "unit_key": "unit_1",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Form: am/is/are + verb-ing. Use the short forms I'm, he's, we're, etc.",
+    "rule_text_uk": "Форма: am/is/are + дієслово з -ing. Використовуй скорочення I'm, he's, we're тощо.",
+    "rule_short_en": "Form = be + -ing (often contracted).",
+    "rule_short_uk": "Форма = be + -ing (часто скорочено).",
+    "examples": [
+      "She's listening to a podcast.",
+      "They're having lunch.",
+      "I'm not working today."
+    ]
+  },
+  {
+    "rule_key": "unit_1_C",
+    "unit_key": "unit_1",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Negative: am/is/are not + -ing. Questions: Am/Is/Are + subject + -ing?",
+    "rule_text_uk": "Заперечення: am/is/are not + -ing. Питання: Am/Is/Are + підмет + -ing?",
+    "rule_short_en": "Negatives & questions in the continuous.",
+    "rule_short_uk": "Заперечення й питання в Continuous.",
+    "examples": [
+      "He isn't sleeping.",
+      "Are you coming with us?",
+      "What are they doing?"
+    ]
+  },
+  {
+    "rule_key": "unit_1_D",
+    "unit_key": "unit_1",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Spelling: usually add -ing (work→working); sometimes drop final -e (make→making) or double a consonant (sit→sitting).",
+    "rule_text_uk": "Правопис: зазвичай додаємо -ing (work→working); інколи прибираємо кінцеве -e (make→making) або подвоюємо приголосну (sit→sitting).",
+    "rule_short_en": "Spelling rules for -ing forms.",
+    "rule_short_uk": "Правила написання -ing.",
+    "examples": [
+      "run → running",
+      "lie → lying",
+      "write → writing"
+    ]
+  },
+  {
+    "rule_key": "unit_2_A",
+    "unit_key": "unit_2",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use the present simple for habits, repeated actions, and things that are generally true.",
+    "rule_text_uk": "Вживай Present Simple для звичок, регулярних дій і загальних фактів.",
+    "rule_short_en": "Habits/facts: present simple.",
+    "rule_short_uk": "Звички/факти: Present Simple.",
+    "examples": [
+      "I go to the gym on Mondays.",
+      "Water boils at 100°C.",
+      "She works in a café."
+    ]
+  },
+  {
+    "rule_key": "unit_2_B",
+    "unit_key": "unit_2",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Questions: do/does + subject + base verb (Do you work? Does he work?).",
+    "rule_text_uk": "Питання: do/does + підмет + базова форма (Do you work? Does he work?).",
+    "rule_short_en": "Questions use do/does.",
+    "rule_short_uk": "Питання з do/does.",
+    "examples": [
+      "Do you like tea?",
+      "Does your brother drive?",
+      "Where do they live?"
+    ]
+  },
+  {
+    "rule_key": "unit_2_C",
+    "unit_key": "unit_2",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Negative: don't/doesn't + base verb (I don't work; he doesn't work).",
+    "rule_text_uk": "Заперечення: don't/doesn't + базова форма (I don't work; he doesn't work).",
+    "rule_short_en": "Negatives use don't/doesn't.",
+    "rule_short_uk": "Заперечення з don't/doesn't.",
+    "examples": [
+      "I don't eat meat.",
+      "She doesn't speak French.",
+      "They don't know."
+    ]
+  },
+  {
+    "rule_key": "unit_2_D",
+    "unit_key": "unit_2",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Short answers: Yes, I do. / No, he doesn't. Use do/does in the answer.",
+    "rule_text_uk": "Короткі відповіді: Yes, I do. / No, he doesn't. Використовуй do/does у відповіді.",
+    "rule_short_en": "Short answers: do/does.",
+    "rule_short_uk": "Короткі відповіді: do/does.",
+    "examples": [
+      "Yes, I do.",
+      "No, she doesn't.",
+      "Yes, they do."
+    ]
+  },
+  {
+    "rule_key": "unit_2_E",
+    "unit_key": "unit_2",
+    "section_path": "E",
+    "title_en": null,
+    "rule_text_en": "With he/she/it, add -s (works). Spelling: -es (watches), -ies (studies), goes, does, has.",
+    "rule_text_uk": "З he/she/it додаємо -s (works). Правопис: -es (watches), -ies (studies), goes, does, has.",
+    "rule_short_en": "He/she/it: add -s (spelling changes).",
+    "rule_short_uk": "He/she/it: додаємо -s (зміни правопису).",
+    "examples": [
+      "He teaches English.",
+      "She watches TV.",
+      "It goes fast."
+    ]
+  },
+  {
+    "rule_key": "unit_3_A",
+    "unit_key": "unit_3",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Present continuous = action happening now or around now (temporary situation).",
+    "rule_text_uk": "Present Continuous = дія відбувається зараз або навколо цього часу (тимчасово).",
+    "rule_short_en": "Now/temporary: present continuous.",
+    "rule_short_uk": "Зараз/тимчасово: Present Continuous.",
+    "examples": [
+      "I'm staying with friends this week.",
+      "She's working late tonight."
+    ]
+  },
+  {
+    "rule_key": "unit_3_B",
+    "unit_key": "unit_3",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Present simple = things that happen regularly, habits, and permanent situations.",
+    "rule_text_uk": "Present Simple = регулярні дії, звички та постійні ситуації.",
+    "rule_short_en": "Regular/permanent: present simple.",
+    "rule_short_uk": "Регулярне/постійне: Present Simple.",
+    "examples": [
+      "He plays tennis every Saturday.",
+      "They live near the station."
+    ]
+  },
+  {
+    "rule_key": "unit_4_A",
+    "unit_key": "unit_4",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use present continuous for a situation in progress these days (not necessarily right now).",
+    "rule_text_uk": "Вживай Present Continuous для ситуації, що триває зараз у цей період (не обовʼязково в цю секунду).",
+    "rule_short_en": "In progress these days: present continuous.",
+    "rule_short_uk": "Триває зараз (період): Present Continuous.",
+    "examples": [
+      "She's learning Spanish this year.",
+      "I'm looking for a new job these days."
+    ]
+  },
+  {
+    "rule_key": "unit_4_B",
+    "unit_key": "unit_4",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Use present simple for routines and things that happen repeatedly.",
+    "rule_text_uk": "Вживай Present Simple для розпорядку та повторюваних дій.",
+    "rule_short_en": "Routines: present simple.",
+    "rule_short_uk": "Розпорядок: Present Simple.",
+    "examples": [
+      "I start work at 9.",
+      "He usually walks to school."
+    ]
+  },
+  {
+    "rule_key": "unit_4_C",
+    "unit_key": "unit_4",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "With always/constantly/forever, present continuous can show irritation or repeated behaviour.",
+    "rule_text_uk": "З always/constantly/forever Present Continuous може виражати роздратування через повторювану поведінку.",
+    "rule_short_en": "Always + continuous = irritation.",
+    "rule_short_uk": "Always + Continuous = роздратування.",
+    "examples": [
+      "He's always losing his keys.",
+      "You're constantly complaining!"
+    ]
+  },
+  {
+    "rule_key": "unit_4_D",
+    "unit_key": "unit_4",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Some verbs (know, like, believe, need) are not normally used in continuous forms.",
+    "rule_text_uk": "Деякі дієслова (know, like, believe, need) зазвичай не вживаються в Continuous.",
+    "rule_short_en": "Stative verbs usually not in -ing.",
+    "rule_short_uk": "Стативні дієслова зазвичай без -ing.",
+    "examples": [
+      "I know the answer.",
+      "She likes this song.",
+      "We need some help."
+    ]
+  },
+  {
+    "rule_key": "unit_5_A",
+    "unit_key": "unit_5",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use past simple for finished actions in the past (yesterday, last week, in 2019).",
+    "rule_text_uk": "Вживай Past Simple для завершених дій у минулому (yesterday, last week, in 2019).",
+    "rule_short_en": "Finished past action: past simple.",
+    "rule_short_uk": "Завершена дія: Past Simple.",
+    "examples": [
+      "We arrived at 8.",
+      "I bought a new phone last month."
+    ]
+  },
+  {
+    "rule_key": "unit_5_B",
+    "unit_key": "unit_5",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Regular verbs: -ed (work→worked). Irregular verbs: see→saw, go→went, have→had.",
+    "rule_text_uk": "Правильні дієслова: -ed (work→worked). Неправильні: see→saw, go→went, have→had.",
+    "rule_short_en": "Past forms: -ed or irregular.",
+    "rule_short_uk": "Форми минулого: -ed або неправильні.",
+    "examples": [
+      "She played tennis.",
+      "He went home early.",
+      "They had dinner."
+    ]
+  },
+  {
+    "rule_key": "unit_5_C",
+    "unit_key": "unit_5",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Negative and questions: did + base verb (I didn't go. Did you go?).",
+    "rule_text_uk": "Заперечення й питання: did + базова форма (I didn't go. Did you go?).",
+    "rule_short_en": "Use did/didn't + base verb.",
+    "rule_short_uk": "Використовуй did/didn't + базову форму.",
+    "examples": [
+      "I didn't see him.",
+      "Did you call her?",
+      "Where did they stay?"
+    ]
+  },
+  {
+    "rule_key": "unit_5_D",
+    "unit_key": "unit_5",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "We often say when it happened: ago, last…, in…, on…, at…, yesterday.",
+    "rule_text_uk": "Часто вказуємо час: ago, last…, in…, on…, at…, yesterday.",
+    "rule_short_en": "Time expressions with past simple.",
+    "rule_short_uk": "Часові маркери для Past Simple.",
+    "examples": [
+      "I met her two years ago.",
+      "They left yesterday morning."
+    ]
+  },
+  {
+    "rule_key": "unit_6_A",
+    "unit_key": "unit_6",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Past continuous: was/were + verb-ing for an action in progress at a past time.",
+    "rule_text_uk": "Past Continuous: was/were + -ing для дії, що тривала в певний момент у минулому.",
+    "rule_short_en": "Past in progress: was/were + -ing.",
+    "rule_short_uk": "Минула тривала дія: was/were + -ing.",
+    "examples": [
+      "At 8 pm I was cooking.",
+      "They were watching a film."
+    ]
+  },
+  {
+    "rule_key": "unit_6_B",
+    "unit_key": "unit_6",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Use past continuous + past simple to show interruption: I was working when she called.",
+    "rule_text_uk": "Past Continuous + Past Simple: показує переривання: I was working when she called.",
+    "rule_short_en": "Interrupted action: was/were -ing + when + past simple.",
+    "rule_short_uk": "Переривання: was/were -ing + when + Past Simple.",
+    "examples": [
+      "I was sleeping when the phone rang.",
+      "We were leaving when it started to rain."
+    ]
+  },
+  {
+    "rule_key": "unit_6_C",
+    "unit_key": "unit_6",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Use past continuous with while for two actions happening at the same time.",
+    "rule_text_uk": "Past Continuous з while: дві дії відбувалися одночасно.",
+    "rule_short_en": "Two actions at the same time: while + past continuous.",
+    "rule_short_uk": "Дві одночасні дії: while + Past Continuous.",
+    "examples": [
+      "While I was driving, he was reading the map.",
+      "She was cooking while I was setting the table."
+    ]
+  },
+  {
+    "rule_key": "unit_6_D",
+    "unit_key": "unit_6",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Questions/negatives: Was/Were ...? / wasn't/weren't + -ing.",
+    "rule_text_uk": "Питання/заперечення: Was/Were ...? / wasn't/weren't + -ing.",
+    "rule_short_en": "Questions & negatives in past continuous.",
+    "rule_short_uk": "Питання й заперечення в Past Continuous.",
+    "examples": [
+      "Were you working yesterday?",
+      "He wasn't listening."
+    ]
+  },
+  {
+    "rule_key": "unit_6_E",
+    "unit_key": "unit_6",
+    "section_path": "E",
+    "title_en": null,
+    "rule_text_en": "Past continuous describes the background; past simple often tells the main event (sudden action).",
+    "rule_text_uk": "Past Continuous описує фон; Past Simple часто передає основну подію (раптову дію).",
+    "rule_short_en": "Background (continuous) vs event (simple).",
+    "rule_short_uk": "Фон (Continuous) vs подія (Simple).",
+    "examples": [
+      "I was walking home when I saw Tom.",
+      "It was raining, so we stayed in."
+    ]
+  },
+  {
+    "rule_key": "unit_7_A",
+    "unit_key": "unit_7",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Present perfect: have/has + past participle (I have finished; she has gone).",
+    "rule_text_uk": "Present Perfect: have/has + дієприкметник минулого (I have finished; she has gone).",
+    "rule_short_en": "Form: have/has + past participle.",
+    "rule_short_uk": "Форма: have/has + дієприкметник.",
+    "examples": [
+      "I've lost my keys.",
+      "She has broken her phone."
+    ]
+  },
+  {
+    "rule_key": "unit_7_B",
+    "unit_key": "unit_7",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Use present perfect for past actions with a result now (the time is not said).",
+    "rule_text_uk": "Present Perfect для минулої дії з результатом зараз (час не називається).",
+    "rule_short_en": "Past action, result now.",
+    "rule_short_uk": "Минула дія, результат зараз.",
+    "examples": [
+      "He's hurt his leg, so he can't run.",
+      "They've missed the bus."
+    ]
+  },
+  {
+    "rule_key": "unit_7_C",
+    "unit_key": "unit_7",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "We use already, just, and yet with the present perfect to talk about recent news.",
+    "rule_text_uk": "З Present Perfect вживаємо already, just, yet для нещодавніх подій/новин.",
+    "rule_short_en": "already/just/yet + present perfect.",
+    "rule_short_uk": "already/just/yet + Present Perfect.",
+    "examples": [
+      "I've just finished.",
+      "Have you eaten yet?",
+      "She's already left."
+    ]
+  },
+  {
+    "rule_key": "unit_7_D",
+    "unit_key": "unit_7",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "For experiences in life, we often use ever/never with the present perfect.",
+    "rule_text_uk": "Для життєвого досвіду часто вживаємо ever/never з Present Perfect.",
+    "rule_short_en": "Life experience: ever/never + present perfect.",
+    "rule_short_uk": "Досвід: ever/never + Present Perfect.",
+    "examples": [
+      "Have you ever been to Rome?",
+      "I've never tried sushi."
+    ]
+  },
+  {
+    "rule_key": "unit_8_A",
+    "unit_key": "unit_8",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Present perfect vs past simple: use present perfect when the time is not finished or not mentioned; use past simple with a finished time (yesterday, in 2020).",
+    "rule_text_uk": "Present Perfect vs Past Simple: Present Perfect — коли час не завершений або не названий; Past Simple — з завершеним часом (yesterday, in 2020).",
+    "rule_short_en": "Perfect (no finished time) vs past simple (finished time).",
+    "rule_short_uk": "Perfect (час не завершений) vs Past Simple (завершений час).",
+    "examples": [
+      "I've seen her today.",
+      "I saw her yesterday."
+    ]
+  },
+  {
+    "rule_key": "unit_8_B",
+    "unit_key": "unit_8",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "Questions about details often use past simple: When did you go? What did you buy?",
+    "rule_text_uk": "Питання про деталі часто в Past Simple: When did you go? What did you buy?",
+    "rule_short_en": "Details: often past simple.",
+    "rule_short_uk": "Деталі: часто Past Simple.",
+    "examples": [
+      "When did you arrive?",
+      "How much did it cost?"
+    ]
+  },
+  {
+    "rule_key": "unit_8_C",
+    "unit_key": "unit_8",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "We often start with present perfect for news, then switch to past simple for details.",
+    "rule_text_uk": "Часто починаємо з Present Perfect (новина), а потім переходимо на Past Simple (деталі).",
+    "rule_short_en": "Perfect for news, past for details.",
+    "rule_short_uk": "Perfect для новини, Past для деталей.",
+    "examples": [
+      "I've bought a car. I got it last week.",
+      "She's met the boss. She met him on Monday."
+    ]
+  },
+  {
+    "rule_key": "unit_9_A",
+    "unit_key": "unit_9",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Present perfect continuous: have/has been + verb-ing for an activity that started in the past and is still continuing or has just stopped.",
+    "rule_text_uk": "Present Perfect Continuous: have/has been + -ing для дії, що почалась у минулому і триває або щойно завершилась.",
+    "rule_short_en": "have/has been + -ing (activity over time).",
+    "rule_short_uk": "have/has been + -ing (дія протягом часу).",
+    "examples": [
+      "I've been studying for two hours.",
+      "She's been running, so she's tired."
+    ]
+  },
+  {
+    "rule_key": "unit_9_B",
+    "unit_key": "unit_9",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "We use it to focus on duration and activity (how long? all day? recently?).",
+    "rule_text_uk": "Вживаємо, щоб підкреслити тривалість і процес (how long? all day? recently?).",
+    "rule_short_en": "Focus on duration/process.",
+    "rule_short_uk": "Фокус на тривалості/процесі.",
+    "examples": [
+      "How long have you been waiting?",
+      "They've been working all morning."
+    ]
+  },
+  {
+    "rule_key": "unit_9_C",
+    "unit_key": "unit_9",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "Present perfect simple often focuses on result (I've written 3 emails), while continuous focuses on activity (I've been writing emails).",
+    "rule_text_uk": "Present Perfect Simple частіше про результат (I've written 3 emails), а Continuous — про процес (I've been writing emails).",
+    "rule_short_en": "Result (perfect) vs activity (perfect continuous).",
+    "rule_short_uk": "Результат (Perfect) vs процес (Perfect Continuous).",
+    "examples": [
+      "I've written five pages.",
+      "I've been writing for an hour."
+    ]
+  },
+  {
+    "rule_key": "unit_10_A",
+    "unit_key": "unit_10",
+    "section_path": "A",
+    "title_en": null,
+    "rule_text_en": "Use present perfect continuous for an unfinished activity; use present perfect simple for a finished result or number/amount.",
+    "rule_text_uk": "Present Perfect Continuous — незавершений процес; Present Perfect Simple — завершений результат або кількість/обсяг.",
+    "rule_short_en": "Continuous = activity; Simple = result/amount.",
+    "rule_short_uk": "Continuous = процес; Simple = результат/кількість.",
+    "examples": [
+      "I've been cleaning the kitchen.",
+      "I've cleaned the kitchen."
+    ]
+  },
+  {
+    "rule_key": "unit_10_B",
+    "unit_key": "unit_10",
+    "section_path": "B",
+    "title_en": null,
+    "rule_text_en": "With for/since and how long, both forms are possible, but continuous is common for activities (I've been working here since June).",
+    "rule_text_uk": "З for/since і how long можливі обидві форми, але для діяльності частіше Continuous (I've been working here since June).",
+    "rule_short_en": "for/since: continuous often sounds natural.",
+    "rule_short_uk": "for/since: часто природніше Continuous.",
+    "examples": [
+      "I've been living here for a year.",
+      "We've been waiting since 2 pm."
+    ]
+  },
+  {
+    "rule_key": "unit_10_C",
+    "unit_key": "unit_10",
+    "section_path": "C",
+    "title_en": null,
+    "rule_text_en": "We use the simple form with stative verbs (know, like, want): I've known him for years (not 'been knowing').",
+    "rule_text_uk": "Зі стативними дієсловами (know, like, want) вживаємо Simple: I've known him for years (не 'been knowing').",
+    "rule_short_en": "Stative verbs usually use perfect simple.",
+    "rule_short_uk": "Стативні дієслова: зазвичай Perfect Simple.",
+    "examples": [
+      "I've known her since school.",
+      "I've always liked this place."
+    ]
+  },
+  {
+    "rule_key": "unit_10_D",
+    "unit_key": "unit_10",
+    "section_path": "D",
+    "title_en": null,
+    "rule_text_en": "Some verbs change meaning: I've been having problems (= experiencing) vs I've had a shower (= completed).",
+    "rule_text_uk": "Деякі дієслова змінюють відтінок: I've been having problems (= маю) vs I've had a shower (= уже зробив).",
+    "rule_short_en": "Meaning can differ between simple and continuous.",
+    "rule_short_uk": "Значення може різнитися між Simple і Continuous.",
+    "examples": [
+      "I've been having trouble sleeping.",
+      "I've had three cups of coffee today."
+    ]
+  }
+]

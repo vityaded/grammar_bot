@@ -1,0 +1,4951 @@
+{
+  "version": "v2",
+  "units": "121-130",
+  "exercises": [
+    {
+      "unit_key": "unit_121",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put in at, on or in.",
+      "items": [
+        {
+          "prompt": "The meeting starts ____ 9.30.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "My cousin was born ____ 2006.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "We’re going away ____ the weekend.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "I usually feel sleepy ____ the afternoon.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "The shop is closed ____ Sunday.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "I woke up ____ the night because of a storm.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "I’ll see you ____ Friday evening.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_C"
+          ]
+        },
+        {
+          "prompt": "The exam is ____ 12 June.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "They moved here ____ March.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "I’m really busy ____ the moment.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "The concert finishes ____ midnight.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "We met ____ the summer of 2018.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "She always calls her mum ____ her birthday.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "The plane lands ____ 6.05 a.m.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "I like walking ____ the morning.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "We often go out ____ Saturday night.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_C"
+          ]
+        },
+        {
+          "prompt": "He left school ____ 1999.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "I’ll send you the details ____ Monday.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "The streets are quiet ____ night.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "Our neighbours moved in ____ the end of April.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "The hotel is cheaper ____ winter.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "She phoned me ____ lunchtime.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_121",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete each sentence with at, on or in.",
+      "items": [
+        {
+          "prompt": "I’ll be back ____ two hours.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_E"
+          ]
+        },
+        {
+          "prompt": "We’re meeting ____ Tuesday afternoon.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_C"
+          ]
+        },
+        {
+          "prompt": "I can’t talk now. Call me back ____ a few minutes.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_E"
+          ]
+        },
+        {
+          "prompt": "The temperature is often below zero ____ January.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "The next train is ____ 10.12.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "We usually exchange gifts ____ Christmas.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "Our class starts ____ the morning, not in the evening.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "They got married ____ 14 February.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "Let’s talk ____ the end of the lesson.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "The café is busy ____ lunchtime.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_121",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose a, b or both.",
+      "items": [
+        {
+          "prompt": "a) I’ll see you on Friday.\nb) I’ll see you Friday.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "both",
+          "accepted_variants": [
+            "both",
+            "BOTH",
+            "Both"
+          ],
+          "rule_keys": [
+            "unit_121_C"
+          ]
+        },
+        {
+          "prompt": "a) We’re meeting next Tuesday.\nb) We’re meeting on next Tuesday.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_D"
+          ]
+        },
+        {
+          "prompt": "a) The office is closed on 1 May.\nb) The office is closed in 1 May.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "a) I’m staying here at the weekend.\nb) I’m staying here on the weekend.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "both",
+          "accepted_variants": [
+            "both",
+            "BOTH",
+            "Both"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "a) The train leaves at 7.20.\nb) The train leaves on 7.20.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "a) She was born in 1998.\nb) She was born on 1998.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_A"
+          ]
+        },
+        {
+          "prompt": "a) I’m busy at the moment.\nb) I’m busy in the moment.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "a) They’ll arrive in ten minutes.\nb) They’ll arrive at ten minutes.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_E"
+          ]
+        },
+        {
+          "prompt": "a) He works at night.\nb) He works in night.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_B"
+          ]
+        },
+        {
+          "prompt": "a) We had dinner on Monday evening.\nb) We had dinner in Monday evening.",
+          "options": [
+            "a",
+            "b",
+            "both"
+          ],
+          "canonical": "a",
+          "accepted_variants": [
+            "a",
+            "A"
+          ],
+          "rule_keys": [
+            "unit_121_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_122",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with on time or in time.",
+      "items": [
+        {
+          "prompt": "The bus was late, so I wasn’t ____ for my appointment.",
+          "options": null,
+          "canonical": "on time",
+          "accepted_variants": [
+            "on time",
+            "ON TIME",
+            "On time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "We left early to get to the airport ____.",
+          "options": null,
+          "canonical": "in time",
+          "accepted_variants": [
+            "in time",
+            "IN TIME",
+            "In time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "I’ll try to be there ____ (not late).",
+          "options": null,
+          "canonical": "on time",
+          "accepted_variants": [
+            "on time",
+            "ON TIME",
+            "On time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "Did you finish the report ____ for the meeting?",
+          "options": null,
+          "canonical": "in time",
+          "accepted_variants": [
+            "in time",
+            "IN TIME",
+            "In time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "The film started exactly at 8.00 — right ____.",
+          "options": null,
+          "canonical": "on time",
+          "accepted_variants": [
+            "on time",
+            "ON TIME",
+            "On time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "I got to the station just ____ to catch the last train.",
+          "options": null,
+          "canonical": "in time",
+          "accepted_variants": [
+            "in time",
+            "IN TIME",
+            "In time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "Please arrive ____ — the class begins at 6.",
+          "options": null,
+          "canonical": "on time",
+          "accepted_variants": [
+            "on time",
+            "ON TIME",
+            "On time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "We hurried so we’d be back ____ for dinner.",
+          "options": null,
+          "canonical": "in time",
+          "accepted_variants": [
+            "in time",
+            "IN TIME",
+            "In time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "I saved the document ____ before the computer crashed.",
+          "options": null,
+          "canonical": "in time",
+          "accepted_variants": [
+            "in time",
+            "IN TIME",
+            "In time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_122",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete each sentence with just in time.",
+      "items": [
+        {
+          "prompt": "I caught the door before it closed — I got there ____.",
+          "options": null,
+          "canonical": "just in time",
+          "accepted_variants": [
+            "just in time",
+            "JUST IN TIME",
+            "Just in time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "We arrived ____ to hear the start of the speech.",
+          "options": null,
+          "canonical": "just in time",
+          "accepted_variants": [
+            "just in time",
+            "JUST IN TIME",
+            "Just in time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "He stopped the car ____ (at the last moment).",
+          "options": null,
+          "canonical": "just in time",
+          "accepted_variants": [
+            "just in time",
+            "JUST IN TIME",
+            "Just in time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        },
+        {
+          "prompt": "I reached the platform ____ and the train was still there.",
+          "options": null,
+          "canonical": "just in time",
+          "accepted_variants": [
+            "just in time",
+            "JUST IN TIME",
+            "Just in time"
+          ],
+          "rule_keys": [
+            "unit_122_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_122",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete with at the end of.",
+      "items": [
+        {
+          "prompt": "We had coffee ____ the meeting.",
+          "options": null,
+          "canonical": "at the end of",
+          "accepted_variants": [
+            "at the end of",
+            "AT THE END OF",
+            "At the end of"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "There’s a summary ____ this chapter.",
+          "options": null,
+          "canonical": "at the end of",
+          "accepted_variants": [
+            "at the end of",
+            "AT THE END OF",
+            "At the end of"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "They shook hands ____ the game.",
+          "options": null,
+          "canonical": "at the end of",
+          "accepted_variants": [
+            "at the end of",
+            "AT THE END OF",
+            "At the end of"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "I’ll call you ____ the day.",
+          "options": null,
+          "canonical": "at the end of",
+          "accepted_variants": [
+            "at the end of",
+            "AT THE END OF",
+            "At the end of"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "Write your name ____ the form.",
+          "options": null,
+          "canonical": "at the end of",
+          "accepted_variants": [
+            "at the end of",
+            "AT THE END OF",
+            "At the end of"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_122",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with in the end.",
+      "items": [
+        {
+          "prompt": "We discussed it for hours, but ____ we agreed.",
+          "options": null,
+          "canonical": "in the end",
+          "accepted_variants": [
+            "in the end",
+            "IN THE END",
+            "In the end"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "I didn’t want to go, but ____ I changed my mind.",
+          "options": null,
+          "canonical": "in the end",
+          "accepted_variants": [
+            "in the end",
+            "IN THE END",
+            "In the end"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "It was a hard decision. ____ we chose the cheaper option.",
+          "options": null,
+          "canonical": "in the end",
+          "accepted_variants": [
+            "in the end",
+            "IN THE END",
+            "In the end"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "She tried different jobs and ____ became a nurse.",
+          "options": null,
+          "canonical": "in the end",
+          "accepted_variants": [
+            "in the end",
+            "IN THE END",
+            "In the end"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_122",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete with at or in.",
+      "items": [
+        {
+          "prompt": "____ the end of the street there’s a small park.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "We were tired, but ____ the end we finished the climb.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "I’ll see you ____ the end of the week.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "____ the end, nobody complained.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "There’s a note ____ the end of this email.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "We argued a lot. ____ the end we apologised.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "____ the end of the film, everyone was crying.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "He didn’t want to move, but ____ the end he did.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "The score was 0–0 until ____ the end of the match.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        },
+        {
+          "prompt": "____ the end, the plan worked perfectly.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_122_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_123",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with in, at or on.",
+      "items": [
+        {
+          "prompt": "The children are playing ____ the garden.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "Meet me ____ the bus stop outside the museum.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "Your phone is ____ the table.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "I left my wallet ____ my bag.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "There’s someone waiting ____ the door.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "I wrote the address ____ the envelope.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "We sat ____ the balcony and watched the sunset.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "They live ____ a small village near the sea.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_123",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put in in, at or on.",
+      "items": [
+        {
+          "prompt": "There’s a mirror ____ the wall.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "We arrived ____ the station early.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "I saw your name ____ the list.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "He was sitting ____ the corner of the room.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "Please wait ____ the entrance.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "The cat is asleep ____ the sofa.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "She works ____ an office in the city centre.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "Put the milk ____ the fridge.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_123",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with in, at or on.",
+      "items": [
+        {
+          "prompt": "I met her ____ the airport.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "There’s a stain ____ your shirt.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "My grandparents live ____ Canada.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "Don’t leave food ____ the floor.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "We stopped ____ a small café for lunch.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "The key is ____ my pocket.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "Hang the picture ____ the wall.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "I’m waiting ____ the end of the street.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "There were dozens of people ____ the room.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "Your glasses are ____ your head!",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "Let’s meet ____ the corner near the bank.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        },
+        {
+          "prompt": "She lives ____ the third floor.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_123_C"
+          ]
+        },
+        {
+          "prompt": "We spent the afternoon ____ the park.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_123_A"
+          ]
+        },
+        {
+          "prompt": "Write the date ____ the top of the page.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_123_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_124",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with in, on or at.",
+      "items": [
+        {
+          "prompt": "There’s a line of taxis ____ the station.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_C"
+          ]
+        },
+        {
+          "prompt": "I saw your comment ____ the website.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "The supermarket is ____ the end of this road.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_C"
+          ]
+        },
+        {
+          "prompt": "We queued ____ a long row outside the theatre.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_A"
+          ]
+        },
+        {
+          "prompt": "The village is ____ the coast.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "There’s a small dot ____ the map.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "I can see a plane ____ the sky.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_A"
+          ]
+        },
+        {
+          "prompt": "His name is ____ the list.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "The bookshop is ____ the corner of this street.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_E"
+          ]
+        },
+        {
+          "prompt": "She’s standing ____ the front of the building.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_124",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put in in, on or at.",
+      "items": [
+        {
+          "prompt": "There’s a garden ____ the back of the house.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        },
+        {
+          "prompt": "I sat ____ the back of the car.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        },
+        {
+          "prompt": "Write the answer ____ the back of the page.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        },
+        {
+          "prompt": "The driver is ____ the front of the bus.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        },
+        {
+          "prompt": "There’s a notice ____ the front of the door.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        },
+        {
+          "prompt": "We waited ____ the front of the cinema.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        },
+        {
+          "prompt": "He found a photo ____ the back of the drawer.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_A"
+          ]
+        },
+        {
+          "prompt": "The address is printed ____ the front of the envelope.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_124",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with in, on or at.",
+      "items": [
+        {
+          "prompt": "There’s a picture ____ the wall to the right of the window.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "The title is ____ the top of the page.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_C"
+          ]
+        },
+        {
+          "prompt": "We stopped for coffee ____ the way home.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "I left my bag ____ the corner of the room.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_E"
+          ]
+        },
+        {
+          "prompt": "The café is ____ the corner near the post office.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_E"
+          ]
+        },
+        {
+          "prompt": "There’s a signature ____ the bottom of the letter.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_C"
+          ]
+        },
+        {
+          "prompt": "A row of trees grows ____ the river.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "You’ll find the information ____ the Internet.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        },
+        {
+          "prompt": "The restaurant is ____ the end of the street.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_C"
+          ]
+        },
+        {
+          "prompt": "There are stars ____ the sky tonight.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_A"
+          ]
+        },
+        {
+          "prompt": "Put your name ____ the top of the form.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_C"
+          ]
+        },
+        {
+          "prompt": "We’re meeting ____ the corner of Oak Street and Hill Road.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_124_E"
+          ]
+        },
+        {
+          "prompt": "He’s standing ____ the back of the queue.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_124_A"
+          ]
+        },
+        {
+          "prompt": "She lives ____ a small island off the coast.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_124_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_125",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with in or at.",
+      "items": [
+        {
+          "prompt": "I’m exhausted. I’m going to stay ____ bed today.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_A"
+          ]
+        },
+        {
+          "prompt": "My sister is ____ hospital after the operation.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_A"
+          ]
+        },
+        {
+          "prompt": "He isn’t ____ work this week. He’s on holiday.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_A"
+          ]
+        },
+        {
+          "prompt": "The kids are ____ school until 3 o’clock.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_A"
+          ]
+        },
+        {
+          "prompt": "We’ll be ____ home all evening.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_125",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put in in or at.",
+      "items": [
+        {
+          "prompt": "We met ____ a party last night.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_B"
+          ]
+        },
+        {
+          "prompt": "I’ll see you ____ the airport at 11.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_B"
+          ]
+        },
+        {
+          "prompt": "It was very hot ____ the theatre.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_C"
+          ]
+        },
+        {
+          "prompt": "Let’s meet ____ the theatre at 7.30.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_C"
+          ]
+        },
+        {
+          "prompt": "She’s ____ the doctor’s right now.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_B"
+          ]
+        },
+        {
+          "prompt": "I was ____ Sam’s house yesterday.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_B"
+          ]
+        },
+        {
+          "prompt": "There were a lot of people ____ the cinema.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_C"
+          ]
+        },
+        {
+          "prompt": "I’ll wait for you ____ the station entrance.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_125",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences. Use the correct preposition or phrase.",
+      "items": [
+        {
+          "prompt": "We travelled ____ a train all night.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "She was sitting ____ the back of the taxi.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "I left my phone ____ the bus.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "He got ____ the car and drove away.",
+          "options": null,
+          "canonical": "into",
+          "accepted_variants": [
+            "into",
+            "INTO",
+            "Into"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "We got ____ the bus at the next stop.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "He fell asleep ____ the plane.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "I’m going to work ____ my bike.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "They got ____ the taxi and paid the driver.",
+          "options": null,
+          "canonical": "out of",
+          "accepted_variants": [
+            "out of",
+            "OUT OF",
+            "Out of"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "We stopped ____ a small town for lunch.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_E"
+          ]
+        },
+        {
+          "prompt": "They live ____ a village near the mountains.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_E"
+          ]
+        },
+        {
+          "prompt": "I met her ____ a conference in Berlin.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_B"
+          ]
+        },
+        {
+          "prompt": "There weren’t many passengers ____ the train.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "I sat ____ the front seat of the car.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_D"
+          ]
+        },
+        {
+          "prompt": "We’ll change trains ____ Manchester.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_E"
+          ]
+        },
+        {
+          "prompt": "She spends most of the day ____ home.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_125_A"
+          ]
+        },
+        {
+          "prompt": "He’s still ____ prison.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_125_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_126",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Put in to, in, at, into, or leave it empty (—).",
+      "items": [
+        {
+          "prompt": "We’re going ____ the cinema tonight.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "I arrived ____ the airport at 6 a.m.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "They arrived ____ Canada yesterday.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "How do I get ____ your house from here?",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "She went ____ home early because she felt ill.",
+          "options": null,
+          "canonical": "",
+          "accepted_variants": [
+            "",
+            " "
+          ],
+          "rule_keys": [
+            "unit_126_B"
+          ]
+        },
+        {
+          "prompt": "I got ____ work late this morning.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "When we got ____ the hotel, it was full.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "The train arrived ____ Paris on time.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "I walked ____ the room without knocking.",
+          "options": null,
+          "canonical": "into",
+          "accepted_variants": [
+            "into",
+            "INTO",
+            "Into"
+          ],
+          "rule_keys": [
+            "unit_126_C"
+          ]
+        },
+        {
+          "prompt": "Put the letter ____ the envelope.",
+          "options": null,
+          "canonical": "into",
+          "accepted_variants": [
+            "into",
+            "INTO",
+            "Into"
+          ],
+          "rule_keys": [
+            "unit_126_C"
+          ]
+        },
+        {
+          "prompt": "We went ____ a party after dinner.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "What time did you arrive ____ the office?",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "He drove ____ the garage and parked.",
+          "options": null,
+          "canonical": "into",
+          "accepted_variants": [
+            "into",
+            "INTO",
+            "Into"
+          ],
+          "rule_keys": [
+            "unit_126_C"
+          ]
+        },
+        {
+          "prompt": "They came ____ my place for coffee.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "I’m going ____ bed. I’m exhausted.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "She came ____ the kitchen and sat down.",
+          "options": null,
+          "canonical": "into",
+          "accepted_variants": [
+            "into",
+            "INTO",
+            "Into"
+          ],
+          "rule_keys": [
+            "unit_126_C"
+          ]
+        },
+        {
+          "prompt": "We stopped ____ a small town on the way.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "After the meeting, I went straight ____ home.",
+          "options": null,
+          "canonical": "",
+          "accepted_variants": [
+            "",
+            " "
+          ],
+          "rule_keys": [
+            "unit_126_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_126",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with to, at, in, into or — (no word).",
+      "items": [
+        {
+          "prompt": "I’ve been ____ Italy twice.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "Have you ever been ____ New York?",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "When I got ____ home, it was raining.",
+          "options": null,
+          "canonical": "",
+          "accepted_variants": [
+            "",
+            " "
+          ],
+          "rule_keys": [
+            "unit_126_B"
+          ]
+        },
+        {
+          "prompt": "We stayed ____ home all weekend.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_126_B"
+          ]
+        },
+        {
+          "prompt": "They arrived ____ the station too late.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_126",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Choose the correct answer.",
+      "items": [
+        {
+          "prompt": "What time did you arrive ____ London?",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "I arrived ____ the hotel after midnight.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "Did you get ____ the station easily?",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "She’s gone ____ the shop. She’ll be back soon.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_126_A"
+          ]
+        },
+        {
+          "prompt": "He went ____ home by taxi.",
+          "options": null,
+          "canonical": "",
+          "accepted_variants": [
+            "",
+            " "
+          ],
+          "rule_keys": [
+            "unit_126_B"
+          ]
+        },
+        {
+          "prompt": "We ran ____ the building to get warm.",
+          "options": null,
+          "canonical": "into",
+          "accepted_variants": [
+            "into",
+            "INTO",
+            "Into"
+          ],
+          "rule_keys": [
+            "unit_126_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_126",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a suitable preposition.",
+      "items": [
+        {
+          "prompt": "He got ____ the car and shut the door.",
+          "options": null,
+          "canonical": "out of",
+          "accepted_variants": [
+            "out of",
+            "OUT OF",
+            "Out of"
+          ],
+          "rule_keys": [
+            "unit_126_D"
+          ]
+        },
+        {
+          "prompt": "Take your jacket ____ and sit down.",
+          "options": null,
+          "canonical": "off",
+          "accepted_variants": [
+            "off",
+            "OFF",
+            "Off"
+          ],
+          "rule_keys": [
+            "unit_126_D"
+          ]
+        },
+        {
+          "prompt": "She put the books ____ the shelf.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_126_D"
+          ]
+        },
+        {
+          "prompt": "The cat jumped ____ the table.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_126_D"
+          ]
+        },
+        {
+          "prompt": "I poured the water ____ a glass.",
+          "options": null,
+          "canonical": "into",
+          "accepted_variants": [
+            "into",
+            "INTO",
+            "Into"
+          ],
+          "rule_keys": [
+            "unit_126_C"
+          ]
+        },
+        {
+          "prompt": "He fell ____ his bike.",
+          "options": null,
+          "canonical": "off",
+          "accepted_variants": [
+            "off",
+            "OFF",
+            "Off"
+          ],
+          "rule_keys": [
+            "unit_126_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_127",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with in, on or at.",
+      "items": [
+        {
+          "prompt": "We got caught ____ the rain on the way home.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "I saw the match ____ TV last night.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "He learned Spanish ____ university.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_C"
+          ]
+        },
+        {
+          "prompt": "Please pay ____ cash if you can.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "She first drove a car ____ the age of 17.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_C"
+          ]
+        },
+        {
+          "prompt": "I spoke to her ____ the phone.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "The sign is written ____ French.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "____ the time, we didn’t have internet at home.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_127",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put in in, on or at.",
+      "items": [
+        {
+          "prompt": "I heard the news ____ the radio.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "Don’t drive ____ 120 km/h on this road.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_C"
+          ]
+        },
+        {
+          "prompt": "We sat outside ____ the sun.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "I’m not good at speaking ____ public.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "They’re away ____ holiday until Monday.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "I don’t like walking home ____ the dark.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "He’s ____ a trip in Spain right now.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "She was shouting ____ the phone.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "He left home ____ 19.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_C"
+          ]
+        },
+        {
+          "prompt": "____ the time, I didn’t own a car.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_D"
+          ]
+        },
+        {
+          "prompt": "I saw your post ____ the internet.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "We walked home ____ silence.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_127",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with a suitable preposition.",
+      "items": [
+        {
+          "prompt": "She’s ____ a good mood today.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "I met him ____ my way to work.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "The children were playing ____ the shade.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "He spoke to me ____ the phone for an hour.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "The programme is ____ TV again tonight.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "Please answer ____ English.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "They paid ____ cash.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "He’s been ____ love with her for years.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "I saw a deer ____ the distance.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "We’re going away ____ business next week.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "The car was travelling ____ 60 km/h.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_C"
+          ]
+        },
+        {
+          "prompt": "She left school ____ 16.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_C"
+          ]
+        },
+        {
+          "prompt": "____ the time, I didn’t have a smartphone.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_D"
+          ]
+        },
+        {
+          "prompt": "I heard it ____ the radio this morning.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "We waited outside ____ the rain.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "They’re ____ a short trip to Italy.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "He was driving too fast ____ the time.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_D"
+          ]
+        },
+        {
+          "prompt": "I saw it ____ the internet yesterday.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_127_B"
+          ]
+        },
+        {
+          "prompt": "____ my opinion, it’s too risky.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_127_A"
+          ]
+        },
+        {
+          "prompt": "I can’t talk ____ the moment.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_127_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_128",
+      "exercise_index": 1,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct phrase.",
+      "items": [
+        {
+          "prompt": "I didn’t plan it. I met her ____.",
+          "options": [
+            "by chance",
+            "by hand",
+            "by mistake",
+            "by credit card",
+            "by email",
+            "by myself"
+          ],
+          "canonical": "by chance",
+          "accepted_variants": [
+            "by chance",
+            "BY CHANCE",
+            "By chance"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "Sorry — I sent the message to the wrong person ____.",
+          "options": [
+            "by chance",
+            "by hand",
+            "by mistake",
+            "by credit card",
+            "by email",
+            "by myself"
+          ],
+          "canonical": "by mistake",
+          "accepted_variants": [
+            "by mistake",
+            "BY MISTAKE",
+            "By mistake"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "This scarf was made ____ (not by machine).",
+          "options": [
+            "by chance",
+            "by hand",
+            "by mistake",
+            "by credit card",
+            "by email",
+            "by myself"
+          ],
+          "canonical": "by hand",
+          "accepted_variants": [
+            "by hand",
+            "BY HAND",
+            "By hand"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "Can I pay ____?",
+          "options": [
+            "by chance",
+            "by hand",
+            "by mistake",
+            "by credit card",
+            "by email",
+            "by myself"
+          ],
+          "canonical": "by credit card",
+          "accepted_variants": [
+            "by credit card",
+            "BY CREDIT CARD",
+            "By credit card"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "Send me the photo ____ when you can.",
+          "options": [
+            "by chance",
+            "by hand",
+            "by mistake",
+            "by credit card",
+            "by email",
+            "by myself"
+          ],
+          "canonical": "by email",
+          "accepted_variants": [
+            "by email",
+            "BY EMAIL",
+            "By email"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "I repaired the bike ____ (without help).",
+          "options": [
+            "by chance",
+            "by hand",
+            "by mistake",
+            "by credit card",
+            "by email",
+            "by myself"
+          ],
+          "canonical": "by myself",
+          "accepted_variants": [
+            "by myself",
+            "BY MYSELF",
+            "By myself"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_128",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put in by, in or on.",
+      "items": [
+        {
+          "prompt": "I usually travel ____ train.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "I came here ____ my bike.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "She was sitting ____ a taxi when I called.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "We went to the island ____ ferry.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "He fell asleep ____ the bus.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "They went to the airport ____ car.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "I spent the whole journey ____ the plane reading.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "We arrived ____ my brother’s car.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "She prefers travelling ____ bus rather than driving.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_128",
+      "exercise_index": 3,
+      "exercise_type": "mcq",
+      "instruction": "Choose the correct ending.",
+      "items": [
+        {
+          "prompt": "I was woken up ____ in the middle of the night.",
+          "options": [
+            "by a strange noise",
+            "by mosquitoes",
+            "by lightning",
+            "by Leonardo da Vinci",
+            "by a professional photographer",
+            "by one of our players",
+            "by Beethoven"
+          ],
+          "canonical": "by a strange noise",
+          "accepted_variants": [
+            "by a strange noise",
+            "BY A STRANGE NOISE",
+            "By a strange noise"
+          ],
+          "rule_keys": [
+            "unit_128_C"
+          ]
+        },
+        {
+          "prompt": "This painting was done ____.",
+          "options": [
+            "by a strange noise",
+            "by mosquitoes",
+            "by lightning",
+            "by Leonardo da Vinci",
+            "by a professional photographer",
+            "by one of our players",
+            "by Beethoven"
+          ],
+          "canonical": "by Leonardo da Vinci",
+          "accepted_variants": [
+            "by Leonardo da Vinci",
+            "by leonardo da vinci",
+            "BY LEONARDO DA VINCI",
+            "By leonardo da vinci"
+          ],
+          "rule_keys": [
+            "unit_128_C"
+          ]
+        },
+        {
+          "prompt": "My arm was covered in bites. I’d been bitten ____.",
+          "options": [
+            "by a strange noise",
+            "by mosquitoes",
+            "by lightning",
+            "by Leonardo da Vinci",
+            "by a professional photographer",
+            "by one of our players",
+            "by Beethoven"
+          ],
+          "canonical": "by mosquitoes",
+          "accepted_variants": [
+            "by mosquitoes",
+            "BY MOSQUITOES",
+            "By mosquitoes"
+          ],
+          "rule_keys": [
+            "unit_128_C"
+          ]
+        },
+        {
+          "prompt": "The goal was scored ____.",
+          "options": [
+            "by a strange noise",
+            "by mosquitoes",
+            "by lightning",
+            "by Leonardo da Vinci",
+            "by a professional photographer",
+            "by one of our players",
+            "by Beethoven"
+          ],
+          "canonical": "by one of our players",
+          "accepted_variants": [
+            "by one of our players",
+            "BY ONE OF OUR PLAYERS",
+            "By one of our players"
+          ],
+          "rule_keys": [
+            "unit_128_C"
+          ]
+        },
+        {
+          "prompt": "The window was smashed ____ during the storm.",
+          "options": [
+            "by a strange noise",
+            "by mosquitoes",
+            "by lightning",
+            "by Leonardo da Vinci",
+            "by a professional photographer",
+            "by one of our players",
+            "by Beethoven"
+          ],
+          "canonical": "by lightning",
+          "accepted_variants": [
+            "by lightning",
+            "BY LIGHTNING",
+            "By lightning"
+          ],
+          "rule_keys": [
+            "unit_128_C"
+          ]
+        },
+        {
+          "prompt": "These portraits were taken ____.",
+          "options": [
+            "by a strange noise",
+            "by mosquitoes",
+            "by lightning",
+            "by Leonardo da Vinci",
+            "by a professional photographer",
+            "by one of our players",
+            "by Beethoven"
+          ],
+          "canonical": "by a professional photographer",
+          "accepted_variants": [
+            "by a professional photographer",
+            "BY A PROFESSIONAL PHOTOGRAPHER",
+            "By a professional photographer"
+          ],
+          "rule_keys": [
+            "unit_128_C"
+          ]
+        },
+        {
+          "prompt": "The music is a symphony ____.",
+          "options": [
+            "by a strange noise",
+            "by mosquitoes",
+            "by lightning",
+            "by Leonardo da Vinci",
+            "by a professional photographer",
+            "by one of our players",
+            "by Beethoven"
+          ],
+          "canonical": "by Beethoven",
+          "accepted_variants": [
+            "by Beethoven",
+            "by beethoven",
+            "BY BEETHOVEN",
+            "By beethoven"
+          ],
+          "rule_keys": [
+            "unit_128_C"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_128",
+      "exercise_index": 4,
+      "exercise_type": "free_text",
+      "instruction": "Put in by, in, on or with.",
+      "items": [
+        {
+          "prompt": "I contacted them ____ email.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "Write your name ____ the form, please.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "I met an old friend ____ the train.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "He opened the box ____ a knife.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_128_D"
+          ]
+        },
+        {
+          "prompt": "The package was sent ____ air mail.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "We stayed warm ____ walking fast.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_D"
+          ]
+        },
+        {
+          "prompt": "The letter was written ____ hand.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "I listen to podcasts ____ headphones.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_128_D"
+          ]
+        },
+        {
+          "prompt": "Can I pay ____ credit card?",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "We arrived ____ my friend’s car.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        },
+        {
+          "prompt": "I heard the announcement ____ the radio.",
+          "options": null,
+          "canonical": "on",
+          "accepted_variants": [
+            "on",
+            "ON",
+            "On"
+          ],
+          "rule_keys": [
+            "unit_128_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_128",
+      "exercise_index": 5,
+      "exercise_type": "free_text",
+      "instruction": "Complete with by + an amount.",
+      "items": [
+        {
+          "prompt": "Last year the company made 12% more profit. Profit increased ____ 12%.",
+          "options": null,
+          "canonical": "by 12%",
+          "accepted_variants": [
+            "by 12%",
+            "BY 12%",
+            "By 12%"
+          ],
+          "rule_keys": [
+            "unit_128_E"
+          ]
+        },
+        {
+          "prompt": "The train was 15 minutes late. It arrived late ____ 15 minutes.",
+          "options": null,
+          "canonical": "by 15 minutes",
+          "accepted_variants": [
+            "by 15 minutes",
+            "BY 15 MINUTES",
+            "By 15 minutes"
+          ],
+          "rule_keys": [
+            "unit_128_E"
+          ]
+        },
+        {
+          "prompt": "Team A scored 4 goals and Team B scored 2. Team A won ____ 2 goals.",
+          "options": null,
+          "canonical": "by 2 goals",
+          "accepted_variants": [
+            "by 2 goals",
+            "BY 2 GOALS",
+            "By 2 goals"
+          ],
+          "rule_keys": [
+            "unit_128_E"
+          ]
+        },
+        {
+          "prompt": "Yesterday it cost €48; today it’s €45. The price fell ____ €3.",
+          "options": null,
+          "canonical": "by €3",
+          "accepted_variants": [
+            "by €3",
+            "BY €3",
+            "By €3"
+          ],
+          "rule_keys": [
+            "unit_128_E"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_129",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete with a suitable noun + preposition.",
+      "items": [
+        {
+          "prompt": "She explained why she was leaving. She gave me a clear ____ leaving.",
+          "options": null,
+          "canonical": "reason for",
+          "accepted_variants": [
+            "reason for",
+            "REASON FOR",
+            "Reason for"
+          ],
+          "rule_keys": [
+            "unit_129_A"
+          ]
+        },
+        {
+          "prompt": "More people want apartments in the centre. There is strong ____ flats in the centre.",
+          "options": null,
+          "canonical": "demand for",
+          "accepted_variants": [
+            "demand for",
+            "DEMAND FOR",
+            "Demand for"
+          ],
+          "rule_keys": [
+            "unit_129_A"
+          ]
+        },
+        {
+          "prompt": "We found a way to fix the issue. We found a ____ the issue.",
+          "options": null,
+          "canonical": "solution to",
+          "accepted_variants": [
+            "solution to",
+            "SOLUTION TO",
+            "Solution to"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "Prices went up quickly. There was a sharp ____ prices.",
+          "options": null,
+          "canonical": "increase in",
+          "accepted_variants": [
+            "increase in",
+            "INCREASE IN",
+            "Increase in"
+          ],
+          "rule_keys": [
+            "unit_129_C"
+          ]
+        },
+        {
+          "prompt": "The storm caused a lot of problems. The storm was the ____ the damage.",
+          "options": null,
+          "canonical": "cause of",
+          "accepted_variants": [
+            "cause of",
+            "CAUSE OF",
+            "Cause of"
+          ],
+          "rule_keys": [
+            "unit_129_B"
+          ]
+        },
+        {
+          "prompt": "He has a very positive ____ his job.",
+          "options": null,
+          "canonical": "attitude to",
+          "accepted_variants": [
+            "attitude to",
+            "ATTITUDE TO",
+            "Attitude to"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "Their friendship is very close. They have a strong ____ each other.",
+          "options": null,
+          "canonical": "relationship with",
+          "accepted_variants": [
+            "relationship with",
+            "RELATIONSHIP WITH",
+            "Relationship with"
+          ],
+          "rule_keys": [
+            "unit_129_E"
+          ]
+        },
+        {
+          "prompt": "There’s a link ____ the two events.",
+          "options": null,
+          "canonical": "connection between",
+          "accepted_variants": [
+            "connection between",
+            "CONNECTION BETWEEN",
+            "Connection between"
+          ],
+          "rule_keys": [
+            "unit_129_E"
+          ]
+        },
+        {
+          "prompt": "The keys were damaged. There was ____ the keys.",
+          "options": null,
+          "canonical": "damage to",
+          "accepted_variants": [
+            "damage to",
+            "DAMAGE TO",
+            "Damage to"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "I got a card asking me to come. I received an ____ the wedding.",
+          "options": null,
+          "canonical": "invitation to",
+          "accepted_variants": [
+            "invitation to",
+            "INVITATION TO",
+            "Invitation to"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_129",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Complete with the correct preposition.",
+      "items": [
+        {
+          "prompt": "The company has a big demand ____ skilled workers.",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for",
+            "FOR",
+            "For"
+          ],
+          "rule_keys": [
+            "unit_129_A"
+          ]
+        },
+        {
+          "prompt": "The cause ____ the accident is unknown.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_129_B"
+          ]
+        },
+        {
+          "prompt": "There has been an increase ____ rent prices.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_129_C"
+          ]
+        },
+        {
+          "prompt": "What’s the solution ____ this problem?",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "I don’t understand his attitude ____ work.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "There’s a difference ____ these two models.",
+          "options": null,
+          "canonical": "between",
+          "accepted_variants": [
+            "between",
+            "BETWEEN",
+            "Between"
+          ],
+          "rule_keys": [
+            "unit_129_E"
+          ]
+        },
+        {
+          "prompt": "Do you have a relationship ____ your neighbours?",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_129_E"
+          ]
+        },
+        {
+          "prompt": "The map ____ the city is in this guidebook.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_129_B"
+          ]
+        },
+        {
+          "prompt": "There was a fall ____ sales last month.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_129_C"
+          ]
+        },
+        {
+          "prompt": "We got an invitation ____ the launch event.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_129",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Put in the correct preposition.",
+      "items": [
+        {
+          "prompt": "There’s no excuse ____ being rude.",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for",
+            "FOR",
+            "For"
+          ],
+          "rule_keys": [
+            "unit_129_A"
+          ]
+        },
+        {
+          "prompt": "The police are investigating the cause ____ the fire.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_129_B"
+          ]
+        },
+        {
+          "prompt": "We’ve seen a decrease ____ accidents on this road.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_129_C"
+          ]
+        },
+        {
+          "prompt": "What was his reaction ____ the news?",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "There is a connection ____ diet and health.",
+          "options": null,
+          "canonical": "between",
+          "accepted_variants": [
+            "between",
+            "BETWEEN",
+            "Between"
+          ],
+          "rule_keys": [
+            "unit_129_E"
+          ]
+        },
+        {
+          "prompt": "I have regular contact ____ my family abroad.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_129_E"
+          ]
+        },
+        {
+          "prompt": "There’s been a rise ____ fuel prices.",
+          "options": null,
+          "canonical": "in",
+          "accepted_variants": [
+            "in",
+            "IN",
+            "In"
+          ],
+          "rule_keys": [
+            "unit_129_C"
+          ]
+        },
+        {
+          "prompt": "She showed me a photo ____ her new house.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_129_B"
+          ]
+        },
+        {
+          "prompt": "We need a key ____ the front door.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "Is there any need ____ another meeting?",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for",
+            "FOR",
+            "For"
+          ],
+          "rule_keys": [
+            "unit_129_A"
+          ]
+        },
+        {
+          "prompt": "There’s a big difference ____ ‘can’ and ‘could’.",
+          "options": null,
+          "canonical": "between",
+          "accepted_variants": [
+            "between",
+            "BETWEEN",
+            "Between"
+          ],
+          "rule_keys": [
+            "unit_129_E"
+          ]
+        },
+        {
+          "prompt": "The storm did serious damage ____ the roof.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "They found the answer ____ the question quickly.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_129_D"
+          ]
+        },
+        {
+          "prompt": "There was an advantage ____ taking the early train.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_129_B"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_130",
+      "exercise_index": 1,
+      "exercise_type": "free_text",
+      "instruction": "Complete using adjective + of (and the person).",
+      "items": [
+        {
+          "prompt": "You paid for everyone’s coffee. It was ____ to do that. (use: generous)",
+          "options": null,
+          "canonical": "generous of you",
+          "accepted_variants": [
+            "generous of you",
+            "GENEROUS OF YOU",
+            "Generous of you"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "You didn’t check the address and sent it to the wrong place. It was ____ to do that. (use: careless)",
+          "options": null,
+          "canonical": "careless of you",
+          "accepted_variants": [
+            "careless of you",
+            "CARELESS OF YOU",
+            "Careless of you"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "I told them my password. It was ____ to do that. (use: stupid)",
+          "options": null,
+          "canonical": "stupid of me",
+          "accepted_variants": [
+            "stupid of me",
+            "STUPID OF ME",
+            "Stupid of me"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "You came to help without being asked. It was ____ to come. (use: nice)",
+          "options": null,
+          "canonical": "nice of you",
+          "accepted_variants": [
+            "nice of you",
+            "NICE OF YOU",
+            "Nice of you"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "He laughed at her mistake. It was ____ to laugh. (use: unkind)",
+          "options": null,
+          "canonical": "unkind of him",
+          "accepted_variants": [
+            "unkind of him",
+            "UNKIND OF HIM",
+            "Unkind of him"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "She spoke in front of 500 people. It was ____ to do that. (use: brave)",
+          "options": null,
+          "canonical": "brave of her",
+          "accepted_variants": [
+            "brave of her",
+            "BRAVE OF HER",
+            "Brave of her"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_130",
+      "exercise_index": 2,
+      "exercise_type": "free_text",
+      "instruction": "Put in the correct preposition.",
+      "items": [
+        {
+          "prompt": "I’m angry ____ the noise next door.",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "She was angry ____ her brother for lying.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "I’m tired ____ hearing the same complaint.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "He’s bored ____ his job.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "We were surprised ____ the result.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "Everyone was impressed ____ her English.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "I’m sorry ____ the confusion.",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_D"
+          ]
+        },
+        {
+          "prompt": "I’m sorry ____ being late.",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for",
+            "FOR",
+            "For"
+          ],
+          "rule_keys": [
+            "unit_130_D"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "unit_130",
+      "exercise_index": 3,
+      "exercise_type": "free_text",
+      "instruction": "Complete the sentences with a suitable preposition.",
+      "items": [
+        {
+          "prompt": "It was very kind ____ you to call.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "They’re always polite ____ customers.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "I’m annoyed ____ the mistake in the bill.",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "She was annoyed ____ me for forgetting.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "Are you angry ____ what happened?",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "Don’t be angry ____ him. It wasn’t his fault.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "I’m fed up ____ this weather.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "He’s bored ____ staying at home.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "I’m tired ____ waiting.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "We were amazed ____ how fast it was.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "I was shocked ____ the news.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "They were impressed ____ the way she handled it.",
+          "options": null,
+          "canonical": "with",
+          "accepted_variants": [
+            "with",
+            "WITH",
+            "With"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "I’m sorry ____ the mess in the kitchen.",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_D"
+          ]
+        },
+        {
+          "prompt": "I apologised and said I was sorry ____ shouting.",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for",
+            "FOR",
+            "For"
+          ],
+          "rule_keys": [
+            "unit_130_D"
+          ]
+        },
+        {
+          "prompt": "I feel sorry ____ people who are lonely.",
+          "options": null,
+          "canonical": "for",
+          "accepted_variants": [
+            "for",
+            "FOR",
+            "For"
+          ],
+          "rule_keys": [
+            "unit_130_D"
+          ]
+        },
+        {
+          "prompt": "It was stupid ____ me to trust him.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "She’s very friendly ____ everyone.",
+          "options": null,
+          "canonical": "to",
+          "accepted_variants": [
+            "to",
+            "TO",
+            "To"
+          ],
+          "rule_keys": [
+            "unit_130_A"
+          ]
+        },
+        {
+          "prompt": "We were surprised ____ the price.",
+          "options": null,
+          "canonical": "at",
+          "accepted_variants": [
+            "at",
+            "AT",
+            "At"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "He was surprised ____ the invitation.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "I’m annoyed ____ having to repeat myself.",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "She was impressed ____ his patience.",
+          "options": null,
+          "canonical": "by",
+          "accepted_variants": [
+            "by",
+            "BY",
+            "By"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "I’m tired ____ this argument.",
+          "options": null,
+          "canonical": "of",
+          "accepted_variants": [
+            "of",
+            "OF",
+            "Of"
+          ],
+          "rule_keys": [
+            "unit_130_C"
+          ]
+        },
+        {
+          "prompt": "They were angry ____ the decision.",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_B"
+          ]
+        },
+        {
+          "prompt": "I’m sorry ____ what I said earlier.",
+          "options": null,
+          "canonical": "about",
+          "accepted_variants": [
+            "about",
+            "ABOUT",
+            "About"
+          ],
+          "rule_keys": [
+            "unit_130_D"
+          ]
+        }
+      ]
+    }
+  ]
+}
