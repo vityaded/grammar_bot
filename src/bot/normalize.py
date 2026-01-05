@@ -23,6 +23,17 @@ def norm_text(s: str) -> str:
     s = re.sub(r"\s+", " ", s)
     return s
 
+def norm_answer_text(s: str) -> str:
+    s = _nfkc_normalize(s or "")
+    s = s.strip()
+    s = re.sub(r"\s+", " ", s)
+    while s and s[-1] in ".!?,":
+        s = s[:-1]
+    return s
+
+def norm_cmp_text(s: str) -> str:
+    return norm_answer_text(s).casefold()
+
 def norm_multiselect_raw(s: str) -> str:
     s = _nfkc_normalize(s or "")
     s = s.strip()
