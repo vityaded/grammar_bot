@@ -1,6 +1,7 @@
 from __future__ import annotations
 import json
 import datetime as dt
+import random
 import secrets
 
 from aiogram import Dispatcher, F
@@ -326,6 +327,7 @@ async def _due_current_item(
     due: DueItem,
     *,
     llm: LLMClient | None,
+    rng: random.Random | None = None,
 ) -> tuple[UnitExercise | None, dict | None]:
     try:
         ex = await ensure_unit_exercise(
@@ -344,9 +346,8 @@ async def _due_current_item(
             return (ex, None)
     except Exception:
         return (ex, None)
-    # cycle through all items in the exercise as item_in_exercise advances
-    idx = (due.item_in_exercise - 1) % len(items)
-    return (ex, items[idx])
+    picker = rng or random
+    return (ex, picker.choice(items))
 
 async def _handle_missing_due_content(
     m: Message,
@@ -858,8 +859,9 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 # update progress based on effective_correct, but "almost" counts wrong
                 if effective_correct:
                     due.correct_in_exercise += 1
-                    if due.correct_in_exercise >= 2:
-                        # exercise completed -> advance to next exercise
+                    required_correct = 3 if due.kind == "detour" else 2
+                    if due.correct_in_exercise >= required_correct:
+                        # exercise completed -> advance to next exercise (detour requires 3 correct items)
                         due.exercise_index += 1
                         due.item_in_exercise = 1
                         due.correct_in_exercise = 0
