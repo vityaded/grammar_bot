@@ -15,7 +15,6 @@ from .models import (
     RuleI18nV2, UnitExercise, utcnow
 )
 from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next
-from .normalize import norm_text, norm_multiselect_raw
 from .grader import grade_freetext, grade_mcq, grade_multiselect, maybe_llm_regrade
 from .i18n import t
 from .due_flow import ensure_detours_for_units, complete_due_without_exercise
@@ -31,6 +30,21 @@ def esc_md2(text: str) -> str:
     return text
 
 # ---------------- helpers ----------------
+_USER_ACCEPTANCE_MODE: dict[int, str] = {}
+
+def _get_user_acceptance_mode(tg_user_id: int, settings: Settings) -> str:
+    return _USER_ACCEPTANCE_MODE.get(tg_user_id, settings.acceptance_mode)
+
+def _set_user_acceptance_mode(tg_user_id: int, mode: str) -> None:
+    _USER_ACCEPTANCE_MODE[tg_user_id] = mode
+
+def _effective_correct(verdict: str, flipped_to_correct: bool, mode: str) -> bool:
+    if flipped_to_correct:
+        return True
+    if mode in ("easy", "normal"):
+        return verdict in ("correct", "almost")
+    return verdict == "correct"
+
 async def _get_or_create_user(s: AsyncSession, m: Message, default_lang: str) -> User:
     u = await s.get(User, m.from_user.id)
     if u:
@@ -467,13 +481,22 @@ async def _ask_due_item(
     st.updated_at = utcnow()
     await s.commit()
 
-def _grade_item(item_type: str, user_answer: str, canonical: str, accepted: list[str], options: list[str]) -> tuple[str, str]:
+def _grade_item(
+    item_type: str,
+    user_answer: str,
+    canonical: str,
+    accepted: list[str],
+    options: list[str],
+    *,
+    mode: str,
+    order_sensitive: bool,
+) -> tuple[str, str]:
     if item_type == "multiselect":
-        gr = grade_multiselect(user_answer, canonical, options, accepted)
+        gr = grade_multiselect(user_answer, canonical, options, accepted, order_sensitive=order_sensitive)
     elif item_type == "mcq":
-        gr = grade_mcq(user_answer, canonical, accepted, options)
+        gr = grade_mcq(user_answer, canonical, accepted, options, mode)
     else:
-        gr = grade_freetext(user_answer, canonical, accepted)
+        gr = grade_freetext(user_answer, canonical, accepted, mode)
     return (gr.verdict, gr.user_answer_norm)
 
 def _due_item_type_from_ex(ex: UnitExercise) -> str:
@@ -511,6 +534,18 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             esc_md2(t("progress_reset", user.ui_lang)),
             reply_markup=kb_start_placement(user.ui_lang),
         )
+
+    @dp.message(Command(commands=["easy", "normal", "strict"]))
+    async def on_set_difficulty(m: Message):
+        async with sessionmaker() as s:
+            user = await s.get(User, m.from_user.id)
+            if not user or not user.is_approved:
+                return
+        mode = (m.text or "").lstrip("/").strip().lower()
+        if mode not in {"easy", "normal", "strict"}:
+            return
+        _set_user_acceptance_mode(m.from_user.id, mode)
+        await m.answer(f"Difficulty set to {mode.upper()}.")
 
     @dp.message(CommandStart())
     async def on_start(m: Message):
@@ -658,9 +693,19 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 item = await s.get(PlacementItem, st.pending_placement_item_id)
                 if not item:
                     return
+                acceptance_mode = _get_user_acceptance_mode(user.id, settings)
                 accepted = _parse_accepted(item.accepted_variants_json)
                 options = _parse_options(item.options_json)
-                verdict, user_norm = _grade_item(item.item_type, m.text, item.canonical, accepted, options)
+                order_sensitive = acceptance_mode == "strict"
+                verdict, user_norm = _grade_item(
+                    item.item_type,
+                    m.text,
+                    item.canonical,
+                    accepted,
+                    options,
+                    mode=acceptance_mode,
+                    order_sensitive=order_sensitive,
+                )
                 rule_keys: list[str] = []
                 if verdict != "correct":
                     unit_keys = _parse_study_units(item.study_units_json, item.unit_key)
@@ -680,7 +725,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     unit_key=item.unit_key,
                     prompt=item.prompt,
                     canonical=item.canonical,
-                    user_answer_norm=(norm_multiselect_raw(user_norm) if item.item_type=="multiselect" else norm_text(user_norm)),
+                    user_answer_norm=user_norm,
                     verdict=verdict,
                     rule_keys_json=_rule_keys_json(rule_keys),
                 )
@@ -707,13 +752,25 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 ex, it, _item_index = await _due_current_item(s, due, llm=llm)
                 if not ex or not it:
                     return
+                acceptance_mode = _get_user_acceptance_mode(user.id, settings)
                 item_type = ex.exercise_type
                 canonical = str(it.get("canonical","")).strip()
                 accepted = [str(x) for x in (it.get("accepted_variants") or [])]
                 options = it.get("options") or []
                 if not isinstance(options, list):
                     options = []
-                verdict, user_norm = _grade_item(item_type, m.text, canonical, accepted, options)
+                order_sensitive = acceptance_mode == "strict"
+                if isinstance(it, dict) and it.get("order_sensitive") is True:
+                    order_sensitive = True
+                verdict, user_norm = _grade_item(
+                    item_type,
+                    m.text,
+                    canonical,
+                    accepted,
+                    options,
+                    mode=acceptance_mode,
+                    order_sensitive=order_sensitive,
+                )
                 rule_keys = _parse_rule_keys(it.get("rule_keys"))
 
                 att = Attempt(
@@ -724,7 +781,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     unit_key=due.unit_key,
                     prompt=str(it.get("prompt","")),
                     canonical=canonical,
-                    user_answer_norm=(norm_multiselect_raw(user_norm) if item_type=="multiselect" else norm_text(user_norm)),
+                    user_answer_norm=user_norm,
                     verdict=verdict,
                     rule_keys_json=_rule_keys_json(rule_keys),
                 )
@@ -838,7 +895,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 return
 
             wc = (await s.execute(select(WhyCache).where(WhyCache.attempt_id==attempt_id))).scalar_one_or_none()
-            effective_correct = (att.verdict == "correct") or (wc is not None and wc.flipped_to_correct)
+            acceptance_mode = _get_user_acceptance_mode(user.id, settings)
+            effective_correct = _effective_correct(
+                att.verdict,
+                wc is not None and wc.flipped_to_correct,
+                acceptance_mode,
+            )
 
             # ---- placement next ----
             if next_kind == "placement_next":
