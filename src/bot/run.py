@@ -1,4 +1,5 @@
 import asyncio
+import logging
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
@@ -7,6 +8,10 @@ from .db import ensure_sqlite_schema, make_engine, make_sessionmaker
 from .handlers import register_handlers
 
 async def main():
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+    )
     settings = load_settings()
     engine = make_engine(settings)
     if settings.database_url.startswith("sqlite"):

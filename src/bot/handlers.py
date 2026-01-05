@@ -1,6 +1,7 @@
 from __future__ import annotations
-import json
 import datetime as dt
+import json
+import logging
 import secrets
 
 from aiogram import Dispatcher, F
@@ -20,6 +21,8 @@ from .i18n import t
 from .due_flow import ensure_detours_for_units, complete_due_without_exercise
 from .exercise_generator import ensure_unit_exercise
 from .llm import LLMClient
+
+logger = logging.getLogger(__name__)
 
 # ---------------- MarkdownV2 escape ----------------
 def esc_md2(text: str) -> str:
@@ -511,6 +514,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
         if m.from_user.id not in settings.admin_ids:
             await m.answer("Forbidden")
             return
+        logger.info(
+            "admin_action: open_admin_panel admin_id=%s username=%s",
+            m.from_user.id,
+            m.from_user.username,
+        )
         await m.answer("Admin actions:", reply_markup=kb_admin_actions())
 
     @dp.message(Command(commands=["reset_progress", "reset_all"]))
@@ -583,6 +591,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             return
         token = secrets.token_urlsafe(12)
         start_token = f"INV_{token}"
+        logger.info(
+            "admin_action: create_invite admin_id=%s username=%s token_prefix=%s",
+            c.from_user.id,
+            c.from_user.username,
+            start_token[:8],
+        )
         try:
             me = await c.bot.get_me()
             username = me.username
@@ -633,6 +647,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             if user:
                 user.is_approved = True
             await s.commit()
+            logger.info(
+                "admin_action: approve_access admin_id=%s username=%s request_id=%s target_user_id=%s",
+                c.from_user.id,
+                c.from_user.username,
+                req_id,
+                req.tg_user_id,
+            )
             try:
                 await c.bot.send_message(req.tg_user_id, esc_md2(t("approved_choose_lang", settings.ui_default_lang)), reply_markup=kb_lang())
             except Exception:
@@ -655,6 +676,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
 
             due = await _next_due_item(s, user.id)
             if due:
+                logger.info(
+                    "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
+                    user.id,
+                    due.id,
+                    due.kind,
+                    "due_item_available_before_placement",
+                )
                 st.mode = due.kind
                 st.pending_due_item_id = due.id
                 st.pending_placement_item_id = None
@@ -672,6 +700,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 await c.message.answer("OK")
                 await c.answer()
                 return
+            logger.info(
+                "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                user.id,
+                item.id,
+                "no_due_items",
+            )
             await _ask_placement_item(c.message, user, st, item)
             await s.commit()
         await c.answer()
@@ -911,6 +945,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         await c.message.answer("OK")
                         await c.answer()
                         return
+                    logger.info(
+                        "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                        user.id,
+                        item.id,
+                        "placement_correct",
+                    )
                     await _ask_placement_item(c.message, user, st, item)
                     await s.commit()
                     await c.answer()
@@ -933,6 +973,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     await c.message.answer("OK")
                     await c.answer()
                     return
+                logger.info(
+                    "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
+                    user.id,
+                    next_due.id,
+                    next_due.kind,
+                    "placement_incorrect_detour_scheduled",
+                )
                 # start detour: show rule then first item immediately
                 await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
                 await s.commit()
@@ -946,12 +993,25 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     # go to next due/placement
                     di = await _next_due_item(s, user.id)
                     if di:
+                        logger.info(
+                            "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
+                            user.id,
+                            di.id,
+                            di.kind,
+                            "previous_due_inactive",
+                        )
                         await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
                         await s.commit()
                         await c.answer()
                         return
                     item = await _placement_next_item(s, st.last_placement_order)
                     if item:
+                        logger.info(
+                            "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                            user.id,
+                            item.id,
+                            "no_due_items_after_inactive_due",
+                        )
                         await _ask_placement_item(c.message, user, st, item)
                         await s.commit()
                     await c.answer()
@@ -970,6 +1030,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         await c.message.answer("OK")
                         await c.answer()
                         return
+                    logger.info(
+                        "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
+                        user.id,
+                        next_due.id,
+                        next_due.kind,
+                        "check_incorrect_detour_scheduled",
+                    )
                     await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
                     await s.commit()
                     await c.answer()
@@ -1059,18 +1126,38 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     # no header/message; just move to next due/placement by showing exercise immediately
                     di = await _next_due_item(s, user.id)
                     if di:
+                        logger.info(
+                            "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
+                            user.id,
+                            di.id,
+                            di.kind,
+                            "check_completed_next_due",
+                        )
                         await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
                         await s.commit()
                         await c.answer()
                         return
                     item = await _placement_next_item(s, st.last_placement_order)
                     if item:
+                        logger.info(
+                            "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                            user.id,
+                            item.id,
+                            "check_completed_no_due",
+                        )
                         await _ask_placement_item(c.message, user, st, item)
                         await s.commit()
                     await c.answer()
                     return
 
                 await s.commit()
+                logger.info(
+                    "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
+                    user.id,
+                    due.id,
+                    due.kind,
+                    "continue_due_exercise",
+                )
                 # ask next due item immediately
                 await _ask_due_item(c.message, s, user, st, due, show_rule_first=False, llm=llm)
                 await s.commit()
