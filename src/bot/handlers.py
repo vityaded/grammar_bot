@@ -9,10 +9,12 @@ import random
 from aiogram import Dispatcher, F
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
-from sqlalchemy import select, and_, delete, func
+from sqlalchemy import select, and_, delete
 from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
 
 from .config import Settings
+from .db_maintenance import purge_generated_exercises
+from .exercise_inventory import unit_real_exercise_indices
 from .models import (
     User, UserState, AccessRequest, PlacementItem, Attempt, WhyCache, DueItem,
     RuleI18nV2, UnitExercise, utcnow
@@ -360,23 +362,13 @@ def _filter_items_by_cause(items: list[dict], cause_keys: list[str]) -> list[dic
             filtered.append(it)
     return filtered or items
 
-async def _unit_exercise_count(s: AsyncSession, unit_key: str) -> int:
-    if not unit_key:
-        return 0
-    max_index = (
-        await s.execute(
-            select(func.max(UnitExercise.exercise_index)).where(UnitExercise.unit_key == unit_key)
-        )
-    ).scalar_one_or_none()
-    if not max_index:
-        return 0
-    return int(max_index)
-
 def _due_max_exercises(due: DueItem) -> int | None:
     if due.kind == "detour":
         return 4
     if due.kind == "revisit":
         return 2
+    if due.kind == "check":
+        return 1
     return None
 
 async def _select_real_exercises_for_due(
@@ -386,32 +378,70 @@ async def _select_real_exercises_for_due(
 ) -> list[int]:
     if max_exercises <= 0:
         return []
-    total = await _unit_exercise_count(s, due.unit_key)
-    if total <= 0:
+    candidates = await unit_real_exercise_indices(s, due.unit_key)
+    if not candidates:
         return []
-    candidates = list(range(1, total + 1))
     seed_input = f"{due.id}:{due.unit_key}:{due.kind}".encode("utf-8")
     seed = int.from_bytes(hashlib.sha256(seed_input).digest()[:8], "big")
     rng = random.Random(seed)
     rng.shuffle(candidates)
-    return candidates[: min(max_exercises, total)]
+    return candidates[: min(max_exercises, len(candidates))]
 
 async def _due_real_exercise_index(
     s: AsyncSession,
     due: DueItem,
 ) -> int | None:
+    if due.kind in ("detour", "revisit"):
+        max_exercises = _due_max_exercises(due) or 0
+        selected = await _select_real_exercises_for_due(s, due, max_exercises)
+        if not selected:
+            return None
+        position = due.exercise_index or 1
+        if position < 1:
+            position = 1
+        if position > len(selected):
+            return None
+        return selected[position - 1]
+    real_indices = await unit_real_exercise_indices(s, due.unit_key)
+    if not real_indices:
+        return None
+    if due.exercise_index in real_indices:
+        return due.exercise_index
+    return real_indices[0]
+
+
+async def _due_selected_exercises(
+    s: AsyncSession,
+    due: DueItem,
+) -> list[int]:
     max_exercises = _due_max_exercises(due)
     if max_exercises is None:
-        return due.exercise_index
-    selected = await _select_real_exercises_for_due(s, due, max_exercises)
-    if not selected:
-        return None
-    position = due.exercise_index or 1
-    if position < 1:
-        position = 1
-    if position > len(selected):
-        return None
-    return selected[position - 1]
+        return await unit_real_exercise_indices(s, due.unit_key)
+    return await _select_real_exercises_for_due(s, due, max_exercises)
+
+
+async def _log_due_selected(
+    s: AsyncSession,
+    due: DueItem,
+    *,
+    user_id: int,
+    reason: str,
+) -> None:
+    selected = await _due_selected_exercises(s, due)
+    real_exercise_index = await _due_real_exercise_index(s, due)
+    selected_preview = selected[:6]
+    logger.info(
+        "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s unit_key=%s real_exercise_index=%s exercise_pos=%s selected_exercises=%s item_in_exercise=%s",
+        user_id,
+        due.id,
+        due.kind,
+        reason,
+        due.unit_key,
+        real_exercise_index,
+        due.exercise_index,
+        selected_preview,
+        due.item_in_exercise,
+    )
 
 async def _advance_due_detour_revisit(
     s: AsyncSession,
@@ -505,19 +535,60 @@ async def _due_current_item(
 ) -> tuple[UnitExercise | None, dict | None, int | None]:
     """Returns (exercise, item, item_index); item and item_index may be None."""
     try:
+        selected = await _due_selected_exercises(s, due)
         real_exercise_index = await _due_real_exercise_index(s, due)
         if real_exercise_index is None:
-            return (None, None, None)
-        ex = await ensure_unit_exercise(
-            s,
-            unit_key=due.unit_key,
-            exercise_index=real_exercise_index,
-            llm_client=llm,
-        )
+            if selected:
+                due.exercise_index = 1
+                real_exercise_index = selected[0]
+                ex = await ensure_unit_exercise(
+                    s,
+                    unit_key=due.unit_key,
+                    exercise_index=real_exercise_index,
+                    llm_client=llm,
+                    allow_generate=False,
+                )
+            else:
+                bounded_index = max(1, min(due.exercise_index or 1, 2))
+                ex = await ensure_unit_exercise(
+                    s,
+                    unit_key=due.unit_key,
+                    exercise_index=bounded_index,
+                    llm_client=llm,
+                    allow_generate=True,
+                )
+        else:
+            if due.kind in ("detour", "revisit"):
+                position = due.exercise_index or 1
+                if position < 1 or position > len(selected):
+                    due.exercise_index = 1
+                    real_exercise_index = selected[0]
+            elif due.kind == "check":
+                if real_exercise_index != (due.exercise_index or real_exercise_index):
+                    due.exercise_index = 1
+            ex = await ensure_unit_exercise(
+                s,
+                unit_key=due.unit_key,
+                exercise_index=real_exercise_index,
+                llm_client=llm,
+                allow_generate=False,
+            )
     except ValueError:
         return (None, None, None)
     if not ex:
-        return (None, None, None)
+        if selected:
+            refreshed = await _due_selected_exercises(s, due)
+            if refreshed:
+                due.exercise_index = 1
+                ex = await ensure_unit_exercise(
+                    s,
+                    unit_key=due.unit_key,
+                    exercise_index=refreshed[0],
+                    llm_client=llm,
+                    allow_generate=False,
+                )
+        if not ex:
+            return (None, None, None)
     try:
         items = json.loads(ex.items_json)
         if not isinstance(items, list) or not items:
@@ -542,19 +613,52 @@ async def _due_items_length(
     llm: LLMClient | None,
 ) -> int | None:
     try:
+        selected = await _due_selected_exercises(s, due)
         real_exercise_index = await _due_real_exercise_index(s, due)
         if real_exercise_index is None:
-            return None
-        ex = await ensure_unit_exercise(
-            s,
-            unit_key=due.unit_key,
-            exercise_index=real_exercise_index,
-            llm_client=llm,
-        )
+            if selected:
+                due.exercise_index = 1
+                real_exercise_index = selected[0]
+                ex = await ensure_unit_exercise(
+                    s,
+                    unit_key=due.unit_key,
+                    exercise_index=real_exercise_index,
+                    llm_client=llm,
+                    allow_generate=False,
+                )
+            else:
+                bounded_index = max(1, min(due.exercise_index or 1, 2))
+                ex = await ensure_unit_exercise(
+                    s,
+                    unit_key=due.unit_key,
+                    exercise_index=bounded_index,
+                    llm_client=llm,
+                    allow_generate=True,
+                )
+        else:
+            ex = await ensure_unit_exercise(
+                s,
+                unit_key=due.unit_key,
+                exercise_index=real_exercise_index,
+                llm_client=llm,
+                allow_generate=False,
+            )
     except ValueError:
         return None
     if not ex:
-        return None
+        if selected:
+            refreshed = await _due_selected_exercises(s, due)
+            if refreshed:
+                due.exercise_index = 1
+                ex = await ensure_unit_exercise(
+                    s,
+                    unit_key=due.unit_key,
+                    exercise_index=refreshed[0],
+                    llm_client=llm,
+                    allow_generate=False,
+                )
+        if not ex:
+            return None
     try:
         items = json.loads(ex.items_json)
     except Exception:
@@ -676,6 +780,19 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             m.from_user.username,
         )
         await m.answer("Admin actions:", reply_markup=kb_admin_actions())
+
+    @dp.message(Command("purge_generated_exercises"))
+    async def on_purge_generated_exercises(m: Message):
+        if m.from_user.id not in settings.admin_ids:
+            await m.answer("Forbidden")
+            return
+        async with sessionmaker() as s:
+            deleted = await purge_generated_exercises(s)
+        if not deleted:
+            await m.answer("No out-of-range exercises to purge.")
+            return
+        summary = ", ".join(f"{unit_key}={count}" for unit_key, count in sorted(deleted.items()))
+        await m.answer(f"Purged out-of-range exercises: {summary}")
 
     @dp.message(Command(commands=["reset_progress", "reset_all"]))
     async def on_reset_progress(m: Message):
@@ -833,12 +950,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
 
             due = await _next_due_item(s, user.id)
             if due:
-                logger.info(
-                    "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
-                    user.id,
-                    due.id,
-                    due.kind,
-                    "due_item_available_before_placement",
+                await _log_due_selected(
+                    s,
+                    due,
+                    user_id=user.id,
+                    reason="due_item_available_before_placement",
                 )
                 st.mode = due.kind
                 st.pending_due_item_id = due.id
@@ -1134,12 +1250,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     await c.message.answer("OK")
                     await c.answer()
                     return
-                logger.info(
-                    "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
-                    user.id,
-                    next_due.id,
-                    next_due.kind,
-                    "placement_incorrect_detour_scheduled",
+                await _log_due_selected(
+                    s,
+                    next_due,
+                    user_id=user.id,
+                    reason="placement_incorrect_detour_scheduled",
                 )
                 # start detour: show rule then first item immediately
                 await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
@@ -1154,12 +1269,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     # go to next due/placement
                     di = await _next_due_item(s, user.id)
                     if di:
-                        logger.info(
-                            "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
-                            user.id,
-                            di.id,
-                            di.kind,
-                            "previous_due_inactive",
+                        await _log_due_selected(
+                            s,
+                            di,
+                            user_id=user.id,
+                            reason="previous_due_inactive",
                         )
                         await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
                         await s.commit()
@@ -1191,12 +1305,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         await c.message.answer("OK")
                         await c.answer()
                         return
-                    logger.info(
-                        "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
-                        user.id,
-                        next_due.id,
-                        next_due.kind,
-                        "check_incorrect_detour_scheduled",
+                    await _log_due_selected(
+                        s,
+                        next_due,
+                        user_id=user.id,
+                        reason="check_incorrect_detour_scheduled",
                     )
                     await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
                     await s.commit()
@@ -1220,12 +1333,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         await s.commit()
                         di = await _next_due_item(s, user.id)
                         if di:
-                            logger.info(
-                                "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
-                                user.id,
-                                di.id,
-                                di.kind,
-                                "due_completed_next_due",
+                            await _log_due_selected(
+                                s,
+                                di,
+                                user_id=user.id,
+                                reason="due_completed_next_due",
                             )
                             await _ask_due_item(
                                 c.message,
@@ -1281,12 +1393,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     # no header/message; just move to next due/placement by showing exercise immediately
                     di = await _next_due_item(s, user.id)
                     if di:
-                        logger.info(
-                            "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
-                            user.id,
-                            di.id,
-                            di.kind,
-                            "check_completed_next_due",
+                        await _log_due_selected(
+                            s,
+                            di,
+                            user_id=user.id,
+                            reason="check_completed_next_due",
                         )
                         await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
                         await s.commit()
@@ -1306,12 +1417,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     return
 
                 await s.commit()
-                logger.info(
-                    "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
-                    user.id,
-                    due.id,
-                    due.kind,
-                    "continue_due_exercise",
+                await _log_due_selected(
+                    s,
+                    due,
+                    user_id=user.id,
+                    reason="continue_due_exercise",
                 )
                 # ask next due item immediately
                 await _ask_due_item(c.message, s, user, st, due, show_rule_first=False, llm=llm)
