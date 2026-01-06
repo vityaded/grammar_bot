@@ -141,14 +141,24 @@ def grade_multiselect(
         return GradeResult("correct", user_norm, canonical_display)
     return GradeResult("wrong", user_norm, canonical_display)
 
-def maybe_llm_regrade(*, llm: LLMClient | None, prompt: str, canonical: str, user_answer_norm: str, mode: str, ui_lang: str) -> tuple[bool, str]:
+def maybe_llm_regrade(
+    *,
+    llm: LLMClient | None,
+    prompt: str,
+    canonical: str,
+    user_answer_norm: str,
+    flow_mode: str,
+    difficulty: str,
+    ui_lang: str,
+) -> tuple[bool, str]:
     if llm is None:
         return (False, "")
     out = llm.explain_and_regrade(
         prompt=prompt,
         canonical=canonical,
         user_answer=user_answer_norm,
-        mode=mode,
+        flow_mode=flow_mode,
+        difficulty=difficulty,
         ui_lang=ui_lang,
     )
     return (True, out or "")
