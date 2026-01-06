@@ -1,5 +1,11 @@
 import pytest
-from bot.grader import grade_freetext, grade_mcq, grade_multiselect
+from bot.grader import (
+    grade_freetext,
+    grade_mcq,
+    grade_multiselect,
+    grade_option_item,
+    resolve_option_item_config,
+)
 from bot.normalize import norm_text, norm_answer_text
 
 @pytest.mark.parametrize("mode", ["easy", "normal", "strict"])
@@ -42,3 +48,99 @@ def test_multiselect_ordering_override():
 def test_norm_answer_text_trailing_punct():
     assert norm_answer_text("here .") == "here"
     assert norm_answer_text("here,  ") == "here"
+
+
+def test_any_of_correctness():
+    options = ["you are feeling", "do you feel", "are you feeling"]
+    correct = ["do you feel", "are you feeling"]
+    res_b = grade_option_item(
+        "B",
+        "",
+        [],
+        options,
+        selection_policy="any",
+        correct_options=correct,
+        order_sensitive=False,
+        explicit_correct_options=True,
+    )
+    assert res_b.verdict == "correct"
+    res_c = grade_option_item(
+        "C",
+        "",
+        [],
+        options,
+        selection_policy="any",
+        correct_options=correct,
+        order_sensitive=False,
+        explicit_correct_options=True,
+    )
+    assert res_c.verdict == "correct"
+    res_a = grade_option_item(
+        "A",
+        "",
+        [],
+        options,
+        selection_policy="any",
+        correct_options=correct,
+        order_sensitive=False,
+        explicit_correct_options=True,
+    )
+    assert res_a.verdict == "wrong"
+    assert res_a.canonical == "do you feel / are you feeling"
+
+
+def test_any_of_multiple_selection_is_almost():
+    options = ["you are feeling", "do you feel", "are you feeling"]
+    correct = ["do you feel", "are you feeling"]
+    res = grade_option_item(
+        "B, C",
+        "",
+        [],
+        options,
+        selection_policy="any",
+        correct_options=correct,
+        order_sensitive=False,
+        explicit_correct_options=True,
+    )
+    assert res.verdict == "almost"
+    assert res.note == "Choose ONE option"
+
+
+def test_all_of_correctness():
+    options = ["alpha", "bravo", "charlie"]
+    correct = ["bravo", "charlie"]
+    res_partial = grade_option_item(
+        "B",
+        "",
+        [],
+        options,
+        selection_policy="all",
+        correct_options=correct,
+        order_sensitive=False,
+        explicit_correct_options=True,
+    )
+    assert res_partial.verdict == "almost"
+    res_full = grade_option_item(
+        "B, C",
+        "",
+        [],
+        options,
+        selection_policy="all",
+        correct_options=correct,
+        order_sensitive=False,
+        explicit_correct_options=True,
+    )
+    assert res_full.verdict == "correct"
+
+
+def test_legacy_multiselect_needs_review():
+    item = {
+        "canonical": "alpha, bravo",
+        "options": ["alpha", "bravo", "charlie"],
+    }
+    config = resolve_option_item_config(
+        item_type="multiselect",
+        item=item,
+        instruction="Reply with the letters in order, separated by commas (e.g., A, C).",
+    )
+    assert config.needs_review is True

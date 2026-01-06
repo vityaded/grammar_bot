@@ -20,7 +20,14 @@ from .models import (
     RuleI18nV2, UnitExercise, utcnow
 )
 from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next
-from .grader import grade_freetext, grade_mcq, grade_multiselect, maybe_llm_regrade
+from .grader import (
+    grade_freetext,
+    grade_mcq,
+    grade_multiselect,
+    grade_option_item,
+    maybe_llm_regrade,
+    resolve_option_item_config,
+)
 from .i18n import t
 from .due_flow import ensure_detours_for_units, complete_due_without_exercise
 from .exercise_generator import ensure_unit_exercise
@@ -288,6 +295,7 @@ def _feedback_text(
     canonical: str,
     ui_lang: str,
     acceptance_mode: str,
+    note: str = "",
 ) -> str:
     # labels bold; verdict emoji + one word
     if verdict == "correct":
@@ -299,21 +307,38 @@ def _feedback_text(
             v = "⚠️ Almost (counts as wrong)"
     else:
         v = "❌ Wrong"
+    note_text = f"{esc_md2(note)}\n" if note else ""
     # show user answer normalized and correct answer as inline code
     ua = esc_md2(user_answer_norm) if user_answer_norm else "—"
     ca = esc_md2(canonical)
-    return f"{v}\n*{esc_md2(t('your_answer', ui_lang))}* `{ua}`\n*{esc_md2(t('correct_answer', ui_lang))}* `{ca}`\n\n{esc_md2(t('press_next', ui_lang))}"
+    return (
+        f"{v}\n{note_text}*{esc_md2(t('your_answer', ui_lang))}* `{ua}`"
+        f"\n*{esc_md2(t('correct_answer', ui_lang))}* `{ca}`\n\n{esc_md2(t('press_next', ui_lang))}"
+    )
 
-def _parse_options(options_json: str | None) -> list[str]:
+def _parse_option_payload(options_json: str | None) -> tuple[list[str], str | None, list[str] | None]:
     if not options_json:
-        return []
+        return ([], None, None)
     try:
         v = json.loads(options_json)
         if isinstance(v, list):
-            return [str(x) for x in v]
+            return ([str(x) for x in v], None, None)
+        if isinstance(v, dict):
+            options = v.get("options")
+            if not isinstance(options, list):
+                options = []
+            selection_policy = v.get("selection_policy")
+            correct_options = v.get("correct_options")
+            if not isinstance(correct_options, list):
+                correct_options = None
+            return ([str(x) for x in options], selection_policy, correct_options)
     except Exception:
         pass
-    return []
+    return ([], None, None)
+
+def _parse_options(options_json: str | None) -> list[str]:
+    options, _selection_policy, _correct_options = _parse_option_payload(options_json)
+    return options
 
 def _parse_accepted(accepted_json: str) -> list[str]:
     try:
@@ -753,14 +778,41 @@ def _grade_item(
     *,
     mode: str,
     order_sensitive: bool,
-) -> tuple[str, str]:
-    if item_type == "multiselect":
-        gr = grade_multiselect(user_answer, canonical, options, accepted, order_sensitive=order_sensitive)
-    elif item_type == "mcq":
-        gr = grade_mcq(user_answer, canonical, accepted, options, mode)
-    else:
-        gr = grade_freetext(user_answer, canonical, accepted, mode)
-    return (gr.verdict, gr.user_answer_norm)
+    selection_policy: str | None = None,
+    correct_options: list[str] | None = None,
+    instruction: str | None = None,
+    log_context: dict | None = None,
+    item_ref: dict | None = None,
+) -> tuple[str, str, str, str]:
+    if item_type in ("multiselect", "mcq"):
+        item_payload = {
+            "canonical": canonical,
+            "options": options,
+            "selection_policy": selection_policy,
+            "correct_options": correct_options,
+        }
+        config = resolve_option_item_config(
+            item_type=item_type,
+            item=item_payload,
+            instruction=instruction,
+            logger=logger,
+            context=log_context,
+        )
+        if config.needs_review and item_ref is not None:
+            item_ref["needs_review"] = True
+        gr = grade_option_item(
+            user_answer,
+            canonical,
+            accepted,
+            options,
+            selection_policy=config.selection_policy,
+            correct_options=config.correct_options,
+            order_sensitive=order_sensitive,
+            explicit_correct_options=config.explicit_correct_options,
+        )
+        return (gr.verdict, gr.user_answer_norm, gr.canonical, gr.note)
+    gr = grade_freetext(user_answer, canonical, accepted, mode)
+    return (gr.verdict, gr.user_answer_norm, gr.canonical, gr.note)
 
 def _due_item_type_from_ex(ex: UnitExercise) -> str:
     return ex.exercise_type
@@ -1002,9 +1054,10 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     return
                 acceptance_mode = _get_user_acceptance_mode(st, settings)
                 accepted = _parse_accepted(item.accepted_variants_json)
-                options = _parse_options(item.options_json)
+                options_json = item.options_json
+                options, selection_policy, correct_options = _parse_option_payload(options_json)
                 order_sensitive = acceptance_mode == "strict"
-                verdict, user_norm = _grade_item(
+                verdict, user_norm, canonical_display, note = _grade_item(
                     item.item_type,
                     m.text,
                     item.canonical,
@@ -1012,6 +1065,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     options,
                     mode=acceptance_mode,
                     order_sensitive=order_sensitive,
+                    selection_policy=selection_policy,
+                    correct_options=correct_options,
+                    instruction=item.instruction,
+                    log_context={
+                        "scope": "placement",
+                        "item_id": item.id,
+                        "unit_key": item.unit_key,
+                    },
+                    item_ref=None,
                 )
                 base_ok = _effective_correct(verdict, False, acceptance_mode)
                 rule_keys: list[str] = []
@@ -1032,7 +1094,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     due_item_id=None,
                     unit_key=item.unit_key,
                     prompt=item.prompt,
-                    canonical=item.canonical,
+                    canonical=canonical_display,
                     user_answer_norm=user_norm,
                     verdict=verdict,
                     rule_keys_json=_rule_keys_json(rule_keys),
@@ -1045,7 +1107,14 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
 
-                fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang, acceptance_mode)
+                fb = _feedback_text(
+                    verdict,
+                    att.user_answer_norm,
+                    att.canonical,
+                    user.ui_lang,
+                    acceptance_mode,
+                    note,
+                )
                 if _should_attach_remediation(verdict, acceptance_mode, False):
                     rule_msg = await _render_rule_fallback_for_unit(s, item.unit_key, user.ui_lang, max_sections=3)
                     if rule_msg:
@@ -1067,10 +1136,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 options = it.get("options") or []
                 if not isinstance(options, list):
                     options = []
+                selection_policy = it.get("selection_policy")
+                correct_options = it.get("correct_options")
                 order_sensitive = acceptance_mode == "strict"
                 if isinstance(it, dict) and it.get("order_sensitive") is True:
                     order_sensitive = True
-                verdict, user_norm = _grade_item(
+                verdict, user_norm, canonical_display, note = _grade_item(
                     item_type,
                     m.text,
                     canonical,
@@ -1078,6 +1149,16 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     options,
                     mode=acceptance_mode,
                     order_sensitive=order_sensitive,
+                    selection_policy=selection_policy,
+                    correct_options=correct_options,
+                    instruction=ex.instruction,
+                    log_context={
+                        "scope": "unit_exercise",
+                        "unit_key": ex.unit_key,
+                        "exercise_index": ex.exercise_index,
+                        "item_index": _item_index,
+                    },
+                    item_ref=it if isinstance(it, dict) else None,
                 )
                 rule_keys = _parse_rule_keys(it.get("rule_keys"))
 
@@ -1088,7 +1169,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     due_item_id=due.id,
                     unit_key=due.unit_key,
                     prompt=str(it.get("prompt","")),
-                    canonical=canonical,
+                    canonical=canonical_display,
                     user_answer_norm=user_norm,
                     verdict=verdict,
                     rule_keys_json=_rule_keys_json(rule_keys),
@@ -1101,7 +1182,14 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
 
-                fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang, acceptance_mode)
+                fb = _feedback_text(
+                    verdict,
+                    att.user_answer_norm,
+                    att.canonical,
+                    user.ui_lang,
+                    acceptance_mode,
+                    note,
+                )
                 if _should_attach_remediation(verdict, acceptance_mode, False):
                     if rule_keys:
                         rule_msg = await _render_rules_for_keys(s, rule_keys, user.ui_lang, max_examples_total=2, prefer_short=True)
