@@ -33,13 +33,16 @@ def esc_md2(text: str) -> str:
     return text
 
 # ---------------- helpers ----------------
-_USER_ACCEPTANCE_MODE: dict[int, str] = {}
+def _get_user_acceptance_mode(st: UserState, settings: Settings) -> str:
+    m = (st.acceptance_mode or "").strip().lower()
+    if m in ("easy", "normal", "strict"):
+        return m
+    return settings.acceptance_mode
 
-def _get_user_acceptance_mode(tg_user_id: int, settings: Settings) -> str:
-    return _USER_ACCEPTANCE_MODE.get(tg_user_id, settings.acceptance_mode)
-
-def _set_user_acceptance_mode(tg_user_id: int, mode: str) -> None:
-    _USER_ACCEPTANCE_MODE[tg_user_id] = mode
+async def _set_user_acceptance_mode(s: AsyncSession, st: UserState, mode: str) -> None:
+    st.acceptance_mode = mode
+    st.updated_at = utcnow()
+    await s.commit()
 
 def _effective_correct(verdict: str, flipped_to_correct: bool, mode: str) -> bool:
     if flipped_to_correct:
@@ -47,6 +50,9 @@ def _effective_correct(verdict: str, flipped_to_correct: bool, mode: str) -> boo
     if mode in ("easy", "normal"):
         return verdict in ("correct", "almost")
     return verdict == "correct"
+
+def _should_attach_remediation(verdict: str, acceptance_mode: str, flipped: bool) -> bool:
+    return not _effective_correct(verdict, flipped, acceptance_mode)
 
 async def _get_or_create_user(s: AsyncSession, m: Message, default_lang: str) -> User:
     u = await s.get(User, m.from_user.id)
@@ -63,11 +69,21 @@ async def _get_or_create_user(s: AsyncSession, m: Message, default_lang: str) ->
     await s.commit()
     return u
 
-async def _get_or_create_state(s: AsyncSession, tg_user_id: int) -> UserState:
+async def _get_or_create_state(s: AsyncSession, tg_user_id: int, settings: Settings) -> UserState:
     st = await s.get(UserState, tg_user_id)
     if st:
+        current = (st.acceptance_mode or "").strip().lower()
+        if not current:
+            st.acceptance_mode = settings.acceptance_mode
+            st.updated_at = utcnow()
+            await s.commit()
         return st
-    st = UserState(tg_user_id=tg_user_id, mode="idle", last_placement_order=0)
+    st = UserState(
+        tg_user_id=tg_user_id,
+        mode="idle",
+        last_placement_order=0,
+        acceptance_mode=settings.acceptance_mode,
+    )
     s.add(st)
     await s.commit()
     return st
@@ -262,12 +278,21 @@ async def _render_rule_fallback_for_unit(
         return ""
     return (header + " " + lines[0] + ("\n" + "\n".join(lines[1:]) if len(lines) > 1 else "")).strip()
 
-def _feedback_text(verdict: str, user_answer_norm: str, canonical: str, ui_lang: str) -> str:
+def _feedback_text(
+    verdict: str,
+    user_answer_norm: str,
+    canonical: str,
+    ui_lang: str,
+    acceptance_mode: str,
+) -> str:
     # labels bold; verdict emoji + one word
     if verdict == "correct":
         v = "✅ Correct"
     elif verdict == "almost":
-        v = "⚠️ Almost"
+        if acceptance_mode in ("easy", "normal"):
+            v = "⚠️ Almost (accepted)"
+        else:
+            v = "⚠️ Almost (counts as wrong)"
     else:
         v = "❌ Wrong"
     # show user answer normalized and correct answer as inline code
@@ -527,7 +552,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             user = await s.get(User, m.from_user.id)
             if not user or not user.is_approved:
                 return
-            st = await _get_or_create_state(s, user.id)
+            st = await _get_or_create_state(s, user.id, settings)
             await s.execute(delete(WhyCache).where(WhyCache.tg_user_id == user.id))
             await s.execute(delete(Attempt).where(Attempt.tg_user_id == user.id))
             await s.execute(delete(DueItem).where(DueItem.tg_user_id == user.id))
@@ -545,21 +570,22 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
 
     @dp.message(Command(commands=["easy", "normal", "strict"]))
     async def on_set_difficulty(m: Message):
+        mode = (m.text or "").lstrip("/").strip().lower()
+        if mode not in {"easy", "normal", "strict"}:
+            return
         async with sessionmaker() as s:
             user = await s.get(User, m.from_user.id)
             if not user or not user.is_approved:
                 return
-        mode = (m.text or "").lstrip("/").strip().lower()
-        if mode not in {"easy", "normal", "strict"}:
-            return
-        _set_user_acceptance_mode(m.from_user.id, mode)
+            st = await _get_or_create_state(s, user.id, settings)
+            await _set_user_acceptance_mode(s, st, mode)
         await m.answer(f"Difficulty set to {mode.upper()}.")
 
     @dp.message(CommandStart())
     async def on_start(m: Message):
         async with sessionmaker() as s:
             user = await _get_or_create_user(s, m, settings.ui_default_lang)
-            await _get_or_create_state(s, user.id)
+            await _get_or_create_state(s, user.id, settings)
 
             token = None
             if m.text and len(m.text.split()) > 1:
@@ -672,7 +698,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             if not user or not user.is_approved:
                 await c.answer("No access", show_alert=True)
                 return
-            st = await _get_or_create_state(s, user.id)
+            st = await _get_or_create_state(s, user.id, settings)
 
             due = await _next_due_item(s, user.id)
             if due:
@@ -717,7 +743,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             user = await s.get(User, m.from_user.id)
             if not user or not user.is_approved:
                 return
-            st = await _get_or_create_state(s, user.id)
+            st = await _get_or_create_state(s, user.id, settings)
 
             if st.mode == "await_next":
                 await m.answer(esc_md2(t("use_buttons", user.ui_lang)))
@@ -727,7 +753,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 item = await s.get(PlacementItem, st.pending_placement_item_id)
                 if not item:
                     return
-                acceptance_mode = _get_user_acceptance_mode(user.id, settings)
+                acceptance_mode = _get_user_acceptance_mode(st, settings)
                 accepted = _parse_accepted(item.accepted_variants_json)
                 options = _parse_options(item.options_json)
                 order_sensitive = acceptance_mode == "strict"
@@ -740,8 +766,9 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     mode=acceptance_mode,
                     order_sensitive=order_sensitive,
                 )
+                base_ok = _effective_correct(verdict, False, acceptance_mode)
                 rule_keys: list[str] = []
-                if verdict != "correct":
+                if not base_ok:
                     unit_keys = _parse_study_units(item.study_units_json, item.unit_key)
                     seen = set()
                     for unit_key in unit_keys:
@@ -771,8 +798,8 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
 
-                fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang)
-                if verdict != "correct":
+                fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang, acceptance_mode)
+                if _should_attach_remediation(verdict, acceptance_mode, False):
                     rule_msg = await _render_rule_fallback_for_unit(s, item.unit_key, user.ui_lang, max_sections=3)
                     if rule_msg:
                         fb = f"{fb}\n\n{rule_msg}"
@@ -786,7 +813,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 ex, it, _item_index = await _due_current_item(s, due, llm=llm)
                 if not ex or not it:
                     return
-                acceptance_mode = _get_user_acceptance_mode(user.id, settings)
+                acceptance_mode = _get_user_acceptance_mode(st, settings)
                 item_type = ex.exercise_type
                 canonical = str(it.get("canonical","")).strip()
                 accepted = [str(x) for x in (it.get("accepted_variants") or [])]
@@ -827,8 +854,8 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
 
-                fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang)
-                if verdict != "correct":
+                fb = _feedback_text(verdict, att.user_answer_norm, att.canonical, user.ui_lang, acceptance_mode)
+                if _should_attach_remediation(verdict, acceptance_mode, False):
                     if rule_keys:
                         rule_msg = await _render_rules_for_keys(s, rule_keys, user.ui_lang, max_examples_total=2, prefer_short=True)
                     else:
@@ -847,6 +874,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             if not user:
                 await c.answer()
                 return
+            st = await _get_or_create_state(s, user.id, settings)
             att = await s.get(Attempt, attempt_id)
             if not att or att.tg_user_id != user.id:
                 await c.answer()
@@ -863,12 +891,14 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             flipped = False
             explanation = ""
             if llm:
+                difficulty = _get_user_acceptance_mode(st, settings)
                 ok, out = maybe_llm_regrade(
                     llm=llm,
                     prompt=att.prompt,
                     canonical=att.canonical,
                     user_answer_norm=att.user_answer_norm,
-                    mode=att.mode,
+                    flow_mode=att.mode,
+                    difficulty=difficulty,
                     ui_lang=user.ui_lang,
                 )
                 if ok:
@@ -918,7 +948,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
         attempt_id = int(attempt_id_str)
         async with sessionmaker() as s:
             user = await s.get(User, c.from_user.id)
-            st = await _get_or_create_state(s, c.from_user.id)
+            st = await _get_or_create_state(s, c.from_user.id, settings)
             if not user or not user.is_approved:
                 await c.answer()
                 return
@@ -929,7 +959,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 return
 
             wc = (await s.execute(select(WhyCache).where(WhyCache.attempt_id==attempt_id))).scalar_one_or_none()
-            acceptance_mode = _get_user_acceptance_mode(user.id, settings)
+            acceptance_mode = _get_user_acceptance_mode(st, settings)
             effective_correct = _effective_correct(
                 att.verdict,
                 wc is not None and wc.flipped_to_correct,

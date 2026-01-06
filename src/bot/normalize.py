@@ -29,6 +29,8 @@ def norm_answer_text(s: str) -> str:
     s = re.sub(r"\s+", " ", s)
     while s and s[-1] in ".!?,":
         s = s[:-1]
+    s = s.strip()
+    s = re.sub(r"\s+", " ", s)
     return s
 
 def norm_cmp_text(s: str) -> str:
