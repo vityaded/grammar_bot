@@ -5,6 +5,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from .config import load_settings
 from .db import ensure_sqlite_schema, make_engine, make_sessionmaker
+from .db_maintenance import log_out_of_range_exercises
 from .handlers import register_handlers
 
 async def main():
@@ -17,6 +18,8 @@ async def main():
     if settings.database_url.startswith("sqlite"):
         await ensure_sqlite_schema(engine)
     sessionmaker = make_sessionmaker(engine)
+    async with sessionmaker() as s:
+        await log_out_of_range_exercises(s)
 
     bot = Bot(
         settings.bot_token,

@@ -52,11 +52,11 @@ def test_detour_max_length_and_followup():
     async def _run():
         engine, Session = await _setup_session()
         async with Session() as s:
-            await _seed_unit(s, "unit_1", 4)
+            await _seed_unit(s, "unit_test_1", 4)
             due = DueItem(
                 tg_user_id=1,
                 kind="detour",
-                unit_key="unit_1",
+                unit_key="unit_test_1",
                 due_at=utcnow(),
                 exercise_index=1,
                 item_in_exercise=1,
@@ -104,11 +104,11 @@ def test_revisit_max_length_and_followup():
     async def _run():
         engine, Session = await _setup_session()
         async with Session() as s:
-            await _seed_unit(s, "unit_2", 4)
+            await _seed_unit(s, "unit_test_2", 4)
             due = DueItem(
                 tg_user_id=2,
                 kind="revisit",
-                unit_key="unit_2",
+                unit_key="unit_test_2",
                 due_at=utcnow(),
                 exercise_index=1,
                 item_in_exercise=1,
@@ -153,11 +153,11 @@ def test_select_real_exercises_deterministic():
     async def _run():
         engine, Session = await _setup_session()
         async with Session() as s:
-            await _seed_unit(s, "unit_3", 4)
+            await _seed_unit(s, "unit_test_3", 4)
             due_a = DueItem(
                 tg_user_id=3,
                 kind="detour",
-                unit_key="unit_3",
+                unit_key="unit_test_3",
                 due_at=utcnow(),
                 exercise_index=1,
                 item_in_exercise=1,
@@ -168,7 +168,7 @@ def test_select_real_exercises_deterministic():
             due_b = DueItem(
                 tg_user_id=3,
                 kind="detour",
-                unit_key="unit_3",
+                unit_key="unit_test_3",
                 due_at=utcnow(),
                 exercise_index=1,
                 item_in_exercise=1,

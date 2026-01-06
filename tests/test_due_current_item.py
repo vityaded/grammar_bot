@@ -16,7 +16,7 @@ def test_due_current_item_returns_three_tuple_on_value_error(monkeypatch):
     due = DueItem(
         tg_user_id=1,
         kind="detour",
-        unit_key="unit_1",
+        unit_key="unit_test_1",
         due_at=utcnow(),
         exercise_index=1,
         item_in_exercise=1,
@@ -40,7 +40,7 @@ def test_due_current_item_returns_three_tuple_when_exercise_missing(monkeypatch)
     due = DueItem(
         tg_user_id=1,
         kind="revisit",
-        unit_key="unit_2",
+        unit_key="unit_test_2",
         due_at=utcnow(),
         exercise_index=1,
         item_in_exercise=1,
