@@ -8,6 +8,10 @@ def test_due_current_item_returns_three_tuple_on_value_error(monkeypatch):
     async def raise_value_error(*args, **kwargs):
         raise ValueError("boom")
 
+    async def select_exercises(*args, **kwargs):
+        return [1]
+
+    monkeypatch.setattr(handlers, "_select_real_exercises_for_due", select_exercises)
     monkeypatch.setattr(handlers, "ensure_unit_exercise", raise_value_error)
     due = DueItem(
         tg_user_id=1,
@@ -28,6 +32,10 @@ def test_due_current_item_returns_three_tuple_when_exercise_missing(monkeypatch)
     async def return_none(*args, **kwargs):
         return None
 
+    async def select_exercises(*args, **kwargs):
+        return [1]
+
+    monkeypatch.setattr(handlers, "_select_real_exercises_for_due", select_exercises)
     monkeypatch.setattr(handlers, "ensure_unit_exercise", return_none)
     due = DueItem(
         tg_user_id=1,
