@@ -11,6 +11,12 @@ def kb_why_next(attempt_id: int, next_kind: str, ui_lang: str) -> InlineKeyboard
     b.adjust(2)
     return b.as_markup()
 
+def kb_why_only(attempt_id: int, ui_lang: str) -> InlineKeyboardMarkup:
+    b = InlineKeyboardBuilder()
+    b.button(text="❓ " + ("Чому" if ui_lang == "uk" else "Why"), callback_data=f"why:{attempt_id}")
+    b.adjust(1)
+    return b.as_markup()
+
 def kb_admin_approve(req_id: int) -> InlineKeyboardMarkup:
     b = InlineKeyboardBuilder()
     b.button(text="✅ Approve", callback_data=f"admin_approve:{req_id}")
