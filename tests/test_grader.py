@@ -1,6 +1,6 @@
 import pytest
 from bot.grader import grade_freetext, grade_mcq, grade_multiselect
-from bot.normalize import norm_text
+from bot.normalize import norm_text, norm_answer_text
 
 @pytest.mark.parametrize("mode", ["easy", "normal", "strict"])
 def test_mcq_letter_mapping(mode):
@@ -38,3 +38,7 @@ def test_multiselect_ordering_override():
     canonical = "were, was"
     user = "B, A"
     assert grade_multiselect(user, canonical, options, [], order_sensitive=True).verdict == "wrong"
+
+def test_norm_answer_text_trailing_punct():
+    assert norm_answer_text("here .") == "here"
+    assert norm_answer_text("here,  ") == "here"

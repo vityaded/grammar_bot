@@ -22,3 +22,15 @@ async def ensure_sqlite_schema(engine: AsyncEngine) -> None:
             await conn.execute(
                 text("ALTER TABLE placement_items ADD COLUMN study_units_json TEXT;")
             )
+        result = await conn.execute(text("PRAGMA table_info(user_state);"))
+        columns = {row[1] for row in result.fetchall()}
+        if "acceptance_mode" not in columns:
+            await conn.execute(
+                text("ALTER TABLE user_state ADD COLUMN acceptance_mode TEXT DEFAULT 'normal';")
+            )
+        await conn.execute(
+            text(
+                "UPDATE user_state SET acceptance_mode='normal' "
+                "WHERE acceptance_mode IS NULL OR acceptance_mode='';"
+            )
+        )

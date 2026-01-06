@@ -25,6 +25,7 @@ class UserState(Base):
 
     # placement | detour | revisit | check | idle
     mode: Mapped[str] = mapped_column(String(16), default="idle")
+    acceptance_mode: Mapped[str] = mapped_column(String(16), default="normal")
 
     pending_placement_item_id: Mapped[int | None] = mapped_column(Integer, nullable=True)
     pending_due_item_id: Mapped[int | None] = mapped_column(Integer, nullable=True)
