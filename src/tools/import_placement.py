@@ -14,6 +14,15 @@ async def main(path: str):
     async with Session() as s:
         await s.execute(delete(PlacementItem))
         for i, it in enumerate(items, start=1):
+            options_payload = it.get("options")
+            selection_policy = it.get("selection_policy")
+            correct_options = it.get("correct_options")
+            if selection_policy or correct_options:
+                options_payload = {
+                    "options": it.get("options") or [],
+                    "selection_policy": selection_policy,
+                    "correct_options": correct_options,
+                }
             p = PlacementItem(
                 order_index=it.get("order_index", i),
                 unit_key=it["unit_key"],
@@ -21,7 +30,7 @@ async def main(path: str):
                 item_type=it["item_type"],
                 canonical=it["canonical"],
                 accepted_variants_json=json.dumps(it.get("accepted_variants", []), ensure_ascii=False),
-                options_json=json.dumps(it.get("options")) if it.get("options") is not None else None,
+                options_json=json.dumps(options_payload) if options_payload is not None else None,
                 instruction=it.get("instruction"),
                 study_units_json=json.dumps(it.get("meta", {}).get("study_units")) if it.get("meta", {}).get("study_units") is not None else None,
             )
