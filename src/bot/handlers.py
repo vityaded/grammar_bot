@@ -3,11 +3,13 @@ import datetime as dt
 import json
 import logging
 import secrets
+import hashlib
+import random
 
 from aiogram import Dispatcher, F
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
-from sqlalchemy import select, and_, delete
+from sqlalchemy import select, and_, delete, func
 from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
 
 from .config import Settings
@@ -358,6 +360,124 @@ def _filter_items_by_cause(items: list[dict], cause_keys: list[str]) -> list[dic
             filtered.append(it)
     return filtered or items
 
+async def _unit_exercise_count(s: AsyncSession, unit_key: str) -> int:
+    if not unit_key:
+        return 0
+    max_index = (
+        await s.execute(
+            select(func.max(UnitExercise.exercise_index)).where(UnitExercise.unit_key == unit_key)
+        )
+    ).scalar_one_or_none()
+    if not max_index:
+        return 0
+    return int(max_index)
+
+def _due_max_exercises(due: DueItem) -> int | None:
+    if due.kind == "detour":
+        return 4
+    if due.kind == "revisit":
+        return 2
+    return None
+
+async def _select_real_exercises_for_due(
+    s: AsyncSession,
+    due: DueItem,
+    max_exercises: int,
+) -> list[int]:
+    if max_exercises <= 0:
+        return []
+    total = await _unit_exercise_count(s, due.unit_key)
+    if total <= 0:
+        return []
+    candidates = list(range(1, total + 1))
+    seed_input = f"{due.id}:{due.unit_key}:{due.kind}".encode("utf-8")
+    seed = int.from_bytes(hashlib.sha256(seed_input).digest()[:8], "big")
+    rng = random.Random(seed)
+    rng.shuffle(candidates)
+    return candidates[: min(max_exercises, total)]
+
+async def _due_real_exercise_index(
+    s: AsyncSession,
+    due: DueItem,
+) -> int | None:
+    max_exercises = _due_max_exercises(due)
+    if max_exercises is None:
+        return due.exercise_index
+    selected = await _select_real_exercises_for_due(s, due, max_exercises)
+    if not selected:
+        return None
+    position = due.exercise_index or 1
+    if position < 1:
+        position = 1
+    if position > len(selected):
+        return None
+    return selected[position - 1]
+
+async def _advance_due_detour_revisit(
+    s: AsyncSession,
+    due: DueItem,
+    *,
+    effective_correct: bool,
+    llm: LLMClient | None,
+) -> bool:
+    if effective_correct:
+        due.correct_in_exercise += 1
+        items_length = await _due_items_length(s, due, llm=llm)
+        if items_length is not None and items_length > 0:
+            required_correct = min(2, items_length)
+        else:
+            required_correct = 2
+        if due.correct_in_exercise >= required_correct:
+            due.exercise_index += 1
+            due.item_in_exercise = 1
+            due.correct_in_exercise = 0
+        else:
+            due.item_in_exercise = (due.item_in_exercise or 1) + 1
+            if items_length and due.item_in_exercise > items_length:
+                due.exercise_index += 1
+                due.item_in_exercise = 1
+                due.correct_in_exercise = 0
+    else:
+        due.item_in_exercise = 1
+        due.correct_in_exercise = 0
+
+    max_exercises = _due_max_exercises(due) or 0
+    selected = await _select_real_exercises_for_due(s, due, max_exercises)
+    if not selected:
+        return True
+    if (due.exercise_index or 1) > len(selected):
+        return True
+    return False
+
+def _create_follow_due(due: DueItem) -> DueItem | None:
+    if due.kind == "detour":
+        return DueItem(
+            tg_user_id=due.tg_user_id,
+            kind="revisit",
+            unit_key=due.unit_key,
+            due_at=utcnow() + dt.timedelta(days=2),
+            exercise_index=1,
+            item_in_exercise=1,
+            correct_in_exercise=0,
+            batch_num=1,
+            is_active=True,
+            cause_rule_keys_json=due.cause_rule_keys_json,
+        )
+    if due.kind == "revisit":
+        return DueItem(
+            tg_user_id=due.tg_user_id,
+            kind="check",
+            unit_key=due.unit_key,
+            due_at=utcnow() + dt.timedelta(days=7),
+            exercise_index=1,
+            item_in_exercise=1,
+            correct_in_exercise=0,
+            batch_num=1,
+            is_active=True,
+            cause_rule_keys_json=due.cause_rule_keys_json,
+        )
+    return None
+
 async def _ask_placement_item(m: Message, user: User, st: UserState, item: PlacementItem):
     instr = item.instruction or ""
     text = ""
@@ -385,10 +505,13 @@ async def _due_current_item(
 ) -> tuple[UnitExercise | None, dict | None, int | None]:
     """Returns (exercise, item, item_index); item and item_index may be None."""
     try:
+        real_exercise_index = await _due_real_exercise_index(s, due)
+        if real_exercise_index is None:
+            return (None, None, None)
         ex = await ensure_unit_exercise(
             s,
             unit_key=due.unit_key,
-            exercise_index=due.exercise_index,
+            exercise_index=real_exercise_index,
             llm_client=llm,
         )
     except ValueError:
@@ -403,6 +526,8 @@ async def _due_current_item(
         return (ex, None, None)
     cause_keys = _due_cause_keys(due)
     filtered_items = _filter_items_by_cause(items, cause_keys)
+    if due.kind in ("detour", "revisit"):
+        filtered_items = filtered_items[:2]
     item_index = due.item_in_exercise or 1
     if item_index < 1:
         item_index = 1
@@ -417,10 +542,13 @@ async def _due_items_length(
     llm: LLMClient | None,
 ) -> int | None:
     try:
+        real_exercise_index = await _due_real_exercise_index(s, due)
+        if real_exercise_index is None:
+            return None
         ex = await ensure_unit_exercise(
             s,
             unit_key=due.unit_key,
-            exercise_index=due.exercise_index,
+            exercise_index=real_exercise_index,
             llm_client=llm,
         )
     except ValueError:
@@ -435,6 +563,8 @@ async def _due_items_length(
         return None
     cause_keys = _due_cause_keys(due)
     filtered_items = _filter_items_by_cause(items, cause_keys)
+    if due.kind in ("detour", "revisit"):
+        filtered_items = filtered_items[:2]
     return len(filtered_items)
 
 async def _handle_missing_due_content(
@@ -1074,81 +1204,75 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     return
 
                 # update progress based on effective_correct, but "almost" counts wrong
-                if effective_correct:
-                    due.correct_in_exercise += 1
-                    base_required = 3 if due.kind == "detour" else 2
-                    items_length = await _due_items_length(s, due, llm=llm)
-                    if items_length is not None and items_length > 0:
-                        required_correct = min(base_required, items_length)
-                    else:
-                        required_correct = base_required
-                    if due.correct_in_exercise >= required_correct:
-                        # exercise completed -> advance to next exercise (detour requires 3 correct items)
-                        due.exercise_index += 1
-                        due.item_in_exercise = 1
-                        due.correct_in_exercise = 0
-                    else:
-                        # ask next item in this exercise
-                        due.item_in_exercise = (due.item_in_exercise or 1) + 1
+                if due.kind in ("detour", "revisit"):
+                    completed = await _advance_due_detour_revisit(
+                        s,
+                        due,
+                        effective_correct=effective_correct,
+                        llm=llm,
+                    )
+                    if completed:
+                        due.is_active = False
+                        follow = _create_follow_due(due)
+                        if follow:
+                            follow.tg_user_id = user.id
+                            s.add(follow)
+                        await s.commit()
+                        di = await _next_due_item(s, user.id)
+                        if di:
+                            logger.info(
+                                "next_item: due_selected user_id=%s due_id=%s kind=%s reason=%s",
+                                user.id,
+                                di.id,
+                                di.kind,
+                                "due_completed_next_due",
+                            )
+                            await _ask_due_item(
+                                c.message,
+                                s,
+                                user,
+                                st,
+                                di,
+                                show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1),
+                                llm=llm,
+                            )
+                            await s.commit()
+                            await c.answer()
+                            return
+                        item = await _placement_next_item(s, st.last_placement_order)
+                        if item:
+                            logger.info(
+                                "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                                user.id,
+                                item.id,
+                                "due_completed_no_due",
+                            )
+                            await _ask_placement_item(c.message, user, st, item)
+                            await s.commit()
+                        await c.answer()
+                        return
+                else:
+                    if effective_correct:
+                        due.correct_in_exercise += 1
                         items_length = await _due_items_length(s, due, llm=llm)
-                        if items_length and due.item_in_exercise > items_length:
+                        if items_length is not None and items_length > 0:
+                            required_correct = min(2, items_length)
+                        else:
+                            required_correct = 2
+                        if due.correct_in_exercise >= required_correct:
                             due.exercise_index += 1
                             due.item_in_exercise = 1
                             due.correct_in_exercise = 0
-                else:
-                    # wrong or almost => reset counters
-                    due.item_in_exercise = 1
-                    due.correct_in_exercise = 0
-
-                # check completion conditions
-                if due.kind in ("detour","revisit"):
-                    # each batch is 4 exercises; stop after 5 batches -> schedule revisit (if detour) or check (if revisit)
-                    batch_start = (due.batch_num - 1) * 4 + 1
-                    batch_end_exclusive = batch_start + 4
-                    if due.exercise_index >= batch_end_exclusive:
-                        if due.batch_num >= 5:
-                            due.is_active = False
-                            # schedule follow-up
-                            if due.kind == "detour":
-                                follow = DueItem(
-                                    tg_user_id=user.id,
-                                    kind="revisit",
-                                    unit_key=due.unit_key,
-                                    due_at=utcnow() + dt.timedelta(days=2),
-                                    exercise_index=1,
-                                    item_in_exercise=1,
-                                    correct_in_exercise=0,
-                                    batch_num=1,
-                                    is_active=True,
-                                    cause_rule_keys_json=due.cause_rule_keys_json,
-                                )
-                                s.add(follow)
-                            else:
-                                follow = DueItem(
-                                    tg_user_id=user.id,
-                                    kind="check",
-                                    unit_key=due.unit_key,
-                                    due_at=utcnow() + dt.timedelta(days=7),
-                                    exercise_index=1,
-                                    item_in_exercise=1,
-                                    correct_in_exercise=0,
-                                    batch_num=1,
-                                    is_active=True,
-                                    cause_rule_keys_json=due.cause_rule_keys_json,
-                                )
-                                s.add(follow)
-                            await s.commit()
-                            # stop message only for detour/revisit
-                            stop_msg = "OK\n\n" + esc_md2(t("press_next_only", user.ui_lang))
-                            await c.message.answer(stop_msg, reply_markup=kb_why_next(att.id, f"{due.kind}_next", user.ui_lang))
-                            await c.answer()
-                            return
                         else:
-                            # next batch
-                            due.batch_num += 1
-                            due.exercise_index = (due.batch_num - 1) * 4 + 1
-                            due.item_in_exercise = 1
-                            due.correct_in_exercise = 0
+                            due.item_in_exercise = (due.item_in_exercise or 1) + 1
+                            items_length = await _due_items_length(s, due, llm=llm)
+                            if items_length and due.item_in_exercise > items_length:
+                                due.exercise_index += 1
+                                due.item_in_exercise = 1
+                                due.correct_in_exercise = 0
+                    else:
+                        due.item_in_exercise = 1
+                        due.correct_in_exercise = 0
 
                 if due.kind == "check":
                     # one question only: if reached here, effective_correct == True, mark done and schedule detour only on wrong (handled above)
