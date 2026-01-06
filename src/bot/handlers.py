@@ -383,6 +383,7 @@ async def _due_current_item(
     *,
     llm: LLMClient | None,
 ) -> tuple[UnitExercise | None, dict | None, int | None]:
+    """Returns (exercise, item, item_index); item and item_index may be None."""
     try:
         ex = await ensure_unit_exercise(
             s,
@@ -391,9 +392,9 @@ async def _due_current_item(
             llm_client=llm,
         )
     except ValueError:
-        return (None, None)
+        return (None, None, None)
     if not ex:
-        return (None, None)
+        return (None, None, None)
     try:
         items = json.loads(ex.items_json)
         if not isinstance(items, list) or not items:
