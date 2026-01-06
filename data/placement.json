@@ -76,7 +76,7 @@
     "order_index": 4,
     "unit_key": "unit_4",
     "prompt": "1.4 How now? Better than before?",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "you are feeling",
@@ -94,7 +94,12 @@
       "study_units": [
         4
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "do you feel",
+      "are you feeling"
+    ]
   },
   {
     "order_index": 5,
@@ -287,7 +292,7 @@
     "order_index": 13,
     "unit_key": "unit_12",
     "prompt": "2.7 Sally has been working here .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "for six months",
@@ -307,7 +312,12 @@
       "study_units": [
         12
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "for six months",
+      "six months"
+    ]
   },
   {
     "order_index": 14,
@@ -430,7 +440,7 @@
     "order_index": 19,
     "unit_key": "unit_15",
     "prompt": "2.13 The people sitting next to me on the plane were nervous. before.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "They haven’t flown",
@@ -450,7 +460,12 @@
       "study_units": [
         15
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "They hadn’t flown",
+      "They’d never flown"
+    ]
   },
   {
     "order_index": 20,
@@ -596,7 +611,7 @@
     "order_index": 26,
     "unit_key": "unit_23",
     "prompt": "3.4 I think the weather nice later.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "will be",
@@ -616,7 +631,12 @@
         23,
         22
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "will be",
+      "is going to be"
+    ]
   },
   {
     "order_index": 27,
@@ -694,7 +714,7 @@
     "order_index": 30,
     "unit_key": "unit_26",
     "prompt": "4.1 The fire spread quickly, but everybody from the building.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "was able to escape",
@@ -712,7 +732,12 @@
       "study_units": [
         26
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "was able to escape",
+      "managed to escape"
+    ]
   },
   {
     "order_index": 31,
@@ -741,7 +766,7 @@
     "order_index": 32,
     "unit_key": "unit_27",
     "prompt": "4.3 The story be true, but I don’t think it is.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "might",
@@ -762,7 +787,13 @@
         27,
         29
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "might",
+      "could",
+      "may"
+    ]
   },
   {
     "order_index": 33,
@@ -815,7 +846,7 @@
     "order_index": 35,
     "unit_key": "unit_29",
     "prompt": "4.6 ‘Why wasn’t Amy at the meeting yesterday?’ ‘She about it.’",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "might not know",
@@ -834,7 +865,12 @@
       "study_units": [
         29
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "might not have known",
+      "may not have known"
+    ]
   },
   {
     "order_index": 36,
@@ -864,7 +900,7 @@
     "order_index": 37,
     "unit_key": "unit_32",
     "prompt": "4.8 We have plenty of time. We hurry.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "don’t need to",
@@ -882,13 +918,18 @@
       "study_units": [
         32
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "don’t need to",
+      "needn’t"
+    ]
   },
   {
     "order_index": 38,
     "unit_key": "unit_33",
     "prompt": "4.9 You missed a great party last night. You . Why didn’t you?",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "must have come",
@@ -907,13 +948,18 @@
       "study_units": [
         33
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "should have come",
+      "ought to have come"
+    ]
   },
   {
     "order_index": 39,
     "unit_key": "unit_34",
     "prompt": "4.10 Jane won the lottery. I suggested a car with the money she won.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "that she buy",
@@ -933,7 +979,13 @@
       "study_units": [
         34
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "that she buy",
+      "that she should buy",
+      "that she bought"
+    ]
   },
   {
     "order_index": 40,
@@ -962,7 +1014,7 @@
     "order_index": 41,
     "unit_key": "unit_35",
     "prompt": "4.12 It’s late. It’s time home.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "we go",
@@ -982,7 +1034,12 @@
       "study_units": [
         35
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "we went",
+      "to go"
+    ]
   },
   {
     "order_index": 42,
@@ -1231,7 +1288,7 @@
     "order_index": 52,
     "unit_key": "unit_44",
     "prompt": "6.5 There was a fight, but nobody .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "was hurt",
@@ -1249,7 +1306,12 @@
       "study_units": [
         44
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "was hurt",
+      "got hurt"
+    ]
   },
   {
     "order_index": 53,
@@ -1491,7 +1553,7 @@
     "order_index": 63,
     "unit_key": "unit_53",
     "prompt": "9.1 You can’t stop people what they want.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "doing",
@@ -1511,13 +1573,18 @@
         53,
         62
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "doing",
+      "from doing"
+    ]
   },
   {
     "order_index": 64,
     "unit_key": "unit_54",
     "prompt": "9.2 I’d better go now. I promised late.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "not being",
@@ -1537,7 +1604,12 @@
         54,
         36
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "not to be",
+      "I wouldn’t be"
+    ]
   },
   {
     "order_index": 65,
@@ -1757,7 +1829,7 @@
     "order_index": 74,
     "unit_key": "unit_62",
     "prompt": "9.12 I’m thinking a house. Do you think that’s a good idea?",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "to buy",
@@ -1777,7 +1849,12 @@
         62,
         66
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "of buying",
+      "about buying"
+    ]
   },
   {
     "order_index": 75,
@@ -1831,7 +1908,7 @@
     "order_index": 77,
     "unit_key": "unit_65",
     "prompt": "9.15 James doesn’t speak clearly. .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "It is hard to understand him",
@@ -1850,7 +1927,12 @@
       "study_units": [
         65
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "It is hard to understand him",
+      "He is hard to understand"
+    ]
   },
   {
     "order_index": 78,
@@ -1903,7 +1985,7 @@
     "order_index": 80,
     "unit_key": "unit_68",
     "prompt": "9.18 a hotel, we looked for somewhere to eat.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "Finding",
@@ -1922,7 +2004,12 @@
       "study_units": [
         68
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "After finding",
+      "Having found"
+    ]
   },
   {
     "order_index": 81,
@@ -1973,7 +2060,7 @@
     "order_index": 83,
     "unit_key": "unit_70",
     "prompt": "10.3 ‘Where are you going?’ ‘I’m going to buy .’",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "a bread",
@@ -1991,7 +2078,12 @@
       "study_units": [
         70
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "some bread",
+      "a loaf of bread"
+    ]
   },
   {
     "order_index": 84,
@@ -2397,7 +2489,7 @@
     "order_index": 101,
     "unit_key": "unit_87",
     "prompt": "11.7 We went shopping and spent money.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "a lot of",
@@ -2416,7 +2508,12 @@
       "study_units": [
         87
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "a lot of",
+      "lots of"
+    ]
   },
   {
     "order_index": 102,
@@ -2518,7 +2615,7 @@
     "order_index": 106,
     "unit_key": "unit_91",
     "prompt": "11.12 There were four books on the table. a different colour.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "Each of books was",
@@ -2536,13 +2633,18 @@
       "study_units": [
         91
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "Each of the books was",
+      "Each book was"
+    ]
   },
   {
     "order_index": 107,
     "unit_key": "unit_92",
     "prompt": "12.1 I don’t like stories have unhappy endings.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "that",
@@ -2561,13 +2663,18 @@
       "study_units": [
         92
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "that",
+      "which"
+    ]
   },
   {
     "order_index": 108,
     "unit_key": "unit_93",
     "prompt": "12.2 I didn’t believe them at first, but in fact everything was true.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "they said",
@@ -2585,7 +2692,12 @@
       "study_units": [
         93
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "they said",
+      "that they said"
+    ]
   },
   {
     "order_index": 109,
@@ -2663,7 +2775,7 @@
     "order_index": 112,
     "unit_key": "unit_97",
     "prompt": "12.6 George showed me some pictures by his father.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "painting",
@@ -2684,7 +2796,12 @@
         97,
         92
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "painted",
+      "that were painted"
+    ]
   },
   {
     "order_index": 113,
@@ -2736,7 +2853,7 @@
     "order_index": 115,
     "unit_key": "unit_100",
     "prompt": "13.3 Maria’s English is excellent. She speaks .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "perfectly English",
@@ -2755,7 +2872,12 @@
       "study_units": [
         100
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "English perfectly",
+      "perfect English"
+    ]
   },
   {
     "order_index": 116,
@@ -2784,7 +2906,7 @@
     "order_index": 117,
     "unit_key": "unit_102",
     "prompt": "13.5 I haven’t seen her for , I’ve forgotten what she looks like.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "so long",
@@ -2803,7 +2925,12 @@
       "study_units": [
         102
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "so long",
+      "such a long time"
+    ]
   },
   {
     "order_index": 118,
@@ -2833,7 +2960,7 @@
     "order_index": 119,
     "unit_key": "unit_104",
     "prompt": "13.7 Sarah is doing OK at the moment. She has .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "a quite good job",
@@ -2851,7 +2978,12 @@
       "study_units": [
         104
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "quite a good job",
+      "a pretty good job"
+    ]
   },
   {
     "order_index": 120,
@@ -2905,7 +3037,7 @@
     "order_index": 122,
     "unit_key": "unit_107",
     "prompt": "13.10 Patrick is a fast runner. I can’t run as fast as .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "he",
@@ -2923,7 +3055,12 @@
       "study_units": [
         107
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "him",
+      "he can"
+    ]
   },
   {
     "order_index": 123,
@@ -2953,7 +3090,7 @@
     "order_index": 124,
     "unit_key": "unit_109",
     "prompt": "13.12 Ben likes walking. .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "Every morning he walks to work",
@@ -2972,7 +3109,12 @@
       "study_units": [
         109
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "Every morning he walks to work",
+      "He walks to work every morning"
+    ]
   },
   {
     "order_index": 125,
@@ -3002,7 +3144,7 @@
     "order_index": 126,
     "unit_key": "unit_111",
     "prompt": "13.14 Lucy . She left last month.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "still doesn’t work here",
@@ -3022,7 +3164,12 @@
       "study_units": [
         111
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "doesn’t work here any more",
+      "no longer works here"
+    ]
   },
   {
     "order_index": 127,
@@ -3054,7 +3201,7 @@
     "order_index": 128,
     "unit_key": "unit_113",
     "prompt": "14.1 I couldn’t sleep very tired.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "although I was",
@@ -3073,7 +3220,12 @@
       "study_units": [
         113
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "although I was",
+      "in spite of being"
+    ]
   },
   {
     "order_index": 129,
@@ -3103,7 +3255,7 @@
     "order_index": 130,
     "unit_key": "unit_115",
     "prompt": "14.3 The club is for members only. You you’re a member.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "can’t go in if",
@@ -3122,13 +3274,18 @@
       "study_units": [
         115
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "can go in only if",
+      "can’t go in unless"
+    ]
   },
   {
     "order_index": 131,
     "unit_key": "unit_116",
     "prompt": "14.4 Yesterday we watched TV all evening we didn’t",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "when",
@@ -3147,7 +3304,12 @@
       "study_units": [
         116
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "as",
+      "since"
+    ]
   },
   {
     "order_index": 132,
@@ -3178,7 +3340,7 @@
     "order_index": 133,
     "unit_key": "unit_118",
     "prompt": "14.6 They are very kind to me. They treat me their own son.",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "like I’m",
@@ -3197,13 +3359,18 @@
       "study_units": [
         118
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "as if I was",
+      "as if I were"
+    ]
   },
   {
     "order_index": 134,
     "unit_key": "unit_119",
     "prompt": "14.7 I’m going to be in Moscow next week. I hope the weather will be",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "while I’ll be there",
@@ -3222,7 +3389,12 @@
       "study_units": [
         119
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "while I’m there",
+      "during my visit"
+    ]
   },
   {
     "order_index": 135,
@@ -3250,7 +3422,7 @@
     "order_index": 136,
     "unit_key": "unit_121",
     "prompt": "15.1 Bye! I’ll see you .",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "at Friday morning",
@@ -3269,7 +3441,12 @@
       "study_units": [
         121
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "on Friday morning",
+      "Friday morning"
+    ]
   },
   {
     "order_index": 137,
@@ -3370,7 +3547,7 @@
     "order_index": 141,
     "unit_key": "unit_126",
     "prompt": "15.6 What time did you the hotel?",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "arrive to",
@@ -3390,7 +3567,12 @@
       "study_units": [
         126
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "arrive at",
+      "get to"
+    ]
   },
   {
     "order_index": 142,
@@ -3827,7 +4009,7 @@
     "order_index": 160,
     "unit_key": "unit_144",
     "prompt": "16.8 I’m surprised to hear that Kate and Paul have . They seemed very",
-    "instruction": "Reply with the letters in order, separated by commas (e.g., A, C).",
+    "instruction": "Reply with ONE letter. More than one answer may be correct.",
     "item_type": "multiselect",
     "options": [
       "broken up",
@@ -3846,7 +4028,12 @@
       "study_units": [
         144
       ]
-    }
+    },
+    "selection_policy": "any",
+    "correct_options": [
+      "broken up",
+      "split up"
+    ]
   },
   {
     "order_index": 161,
