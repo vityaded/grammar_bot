@@ -19,7 +19,7 @@ from .models import (
     User, UserState, AccessRequest, PlacementItem, Attempt, WhyCache, DueItem,
     RuleI18nV2, UnitExercise, utcnow
 )
-from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next
+from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next, kb_why_only
 from .grader import (
     grade_freetext,
     grade_mcq,
@@ -296,6 +296,8 @@ def _feedback_text(
     ui_lang: str,
     acceptance_mode: str,
     note: str = "",
+    *,
+    show_next_prompt: bool = True,
 ) -> str:
     # labels bold; verdict emoji + one word
     if verdict == "correct":
@@ -311,10 +313,141 @@ def _feedback_text(
     # show user answer normalized and correct answer as inline code
     ua = esc_md2(user_answer_norm) if user_answer_norm else "—"
     ca = esc_md2(canonical)
+    tail = f"\n\n{esc_md2(t('press_next', ui_lang))}" if show_next_prompt else ""
     return (
         f"{v}\n{note_text}*{esc_md2(t('your_answer', ui_lang))}* `{ua}`"
-        f"\n*{esc_md2(t('correct_answer', ui_lang))}* `{ca}`\n\n{esc_md2(t('press_next', ui_lang))}"
+        f"\n*{esc_md2(t('correct_answer', ui_lang))}* `{ca}`{tail}"
     )
+
+async def _auto_next_after_correct_placement(m: Message, s: AsyncSession, user: User, st: UserState) -> None:
+    item = await _placement_next_item(s, st.last_placement_order)
+    if not item:
+        await m.answer("OK")
+        return
+    logger.info(
+        "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+        user.id,
+        item.id,
+        "placement_correct",
+    )
+    await _ask_placement_item(m, user, st, item)
+    await s.commit()
+
+async def _auto_next_after_correct_due(
+    m: Message,
+    s: AsyncSession,
+    user: User,
+    st: UserState,
+    due: DueItem,
+    *,
+    llm: LLMClient | None,
+) -> None:
+    if due.kind in ("detour", "revisit"):
+        completed = await _advance_due_detour_revisit(
+            s,
+            due,
+            effective_correct=True,
+            llm=llm,
+        )
+        if completed:
+            due.is_active = False
+            follow = _create_follow_due(due)
+            if follow:
+                follow.tg_user_id = user.id
+                s.add(follow)
+            await s.commit()
+            di = await _next_due_item(s, user.id)
+            if di:
+                await _log_due_selected(
+                    s,
+                    di,
+                    user_id=user.id,
+                    reason="due_completed_next_due",
+                )
+                await _ask_due_item(
+                    m,
+                    s,
+                    user,
+                    st,
+                    di,
+                    show_rule_first=(di.kind in ("detour", "revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1),
+                    llm=llm,
+                )
+                await s.commit()
+                return
+            item = await _placement_next_item(s, st.last_placement_order)
+            if item:
+                logger.info(
+                    "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                    user.id,
+                    item.id,
+                    "due_completed_no_due",
+                )
+                await _ask_placement_item(m, user, st, item)
+                await s.commit()
+            return
+    else:
+        due.correct_in_exercise += 1
+        items_length = await _due_items_length(s, due, llm=llm)
+        if items_length is not None and items_length > 0:
+            required_correct = min(2, items_length)
+        else:
+            required_correct = 2
+        if due.correct_in_exercise >= required_correct:
+            due.exercise_index += 1
+            due.item_in_exercise = 1
+            due.correct_in_exercise = 0
+        else:
+            due.item_in_exercise = (due.item_in_exercise or 1) + 1
+            items_length = await _due_items_length(s, due, llm=llm)
+            if items_length and due.item_in_exercise > items_length:
+                due.exercise_index += 1
+                due.item_in_exercise = 1
+                due.correct_in_exercise = 0
+
+    if due.kind == "check":
+        due.is_active = False
+        await s.commit()
+        di = await _next_due_item(s, user.id)
+        if di:
+            await _log_due_selected(
+                s,
+                di,
+                user_id=user.id,
+                reason="check_completed_next_due",
+            )
+            await _ask_due_item(
+                m,
+                s,
+                user,
+                st,
+                di,
+                show_rule_first=(di.kind in ("detour", "revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1),
+                llm=llm,
+            )
+            await s.commit()
+            return
+        item = await _placement_next_item(s, st.last_placement_order)
+        if item:
+            logger.info(
+                "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                user.id,
+                item.id,
+                "check_completed_no_due",
+            )
+            await _ask_placement_item(m, user, st, item)
+            await s.commit()
+        return
+
+    await s.commit()
+    await _log_due_selected(
+        s,
+        due,
+        user_id=user.id,
+        reason="continue_due_exercise",
+    )
+    await _ask_due_item(m, s, user, st, due, show_rule_first=False, llm=llm)
+    await s.commit()
 
 def _parse_option_payload(options_json: str | None) -> tuple[list[str], str | None, list[str] | None]:
     if not options_json:
@@ -1107,6 +1240,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
 
+                effective_correct = _effective_correct(verdict, False, acceptance_mode)
                 fb = _feedback_text(
                     verdict,
                     att.user_answer_norm,
@@ -1114,11 +1248,16 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     user.ui_lang,
                     acceptance_mode,
                     note,
+                    show_next_prompt=not effective_correct,
                 )
                 if _should_attach_remediation(verdict, acceptance_mode, False):
                     rule_msg = await _render_rule_fallback_for_unit(s, item.unit_key, user.ui_lang, max_sections=3)
                     if rule_msg:
                         fb = f"{fb}\n\n{rule_msg}"
+                if effective_correct:
+                    await m.answer(fb, reply_markup=kb_why_only(att.id, user.ui_lang))
+                    await _auto_next_after_correct_placement(m, s, user, st)
+                    return
                 await m.answer(fb, reply_markup=kb_why_next(att.id, "placement_next", user.ui_lang))
                 return
 
@@ -1182,6 +1321,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
 
+                effective_correct = _effective_correct(verdict, False, acceptance_mode)
                 fb = _feedback_text(
                     verdict,
                     att.user_answer_norm,
@@ -1189,6 +1329,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     user.ui_lang,
                     acceptance_mode,
                     note,
+                    show_next_prompt=not effective_correct,
                 )
                 if _should_attach_remediation(verdict, acceptance_mode, False):
                     if rule_keys:
@@ -1197,6 +1338,10 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         rule_msg = await _render_rule_fallback_for_unit(s, due.unit_key, user.ui_lang, max_sections=3)
                     if rule_msg:
                         fb = f"{fb}\n\n{rule_msg}"
+                if effective_correct:
+                    await m.answer(fb, reply_markup=kb_why_only(att.id, user.ui_lang))
+                    await _auto_next_after_correct_due(m, s, user, st, due, llm=llm)
+                    return
                 await m.answer(fb, reply_markup=kb_why_next(att.id, f"{due.kind}_next", user.ui_lang))
                 return
 
