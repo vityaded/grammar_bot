@@ -68,7 +68,17 @@ If CORRECT but different wording, say why it's acceptable.
         resp = client.models.generate_content(model=self.model, contents=contents)
         return (resp.text or "").strip()
 
-    def generate_unit_exercise(self, *, unit_key: str, exercise_index: int, rule_text: str, examples: list[str]) -> str:
+    def generate_unit_exercise(
+        self,
+        *,
+        unit_key: str,
+        exercise_index: int,
+        rule_text: str,
+        examples: list[str],
+        topic_lock: str,
+        unit_topic_hint: str,
+        extra_constraints: Optional[str] = None,
+    ) -> str:
         example_block = "\n".join(f"- {ex}" for ex in examples) if examples else "(no examples)"
         logger.info(
             "llm_usage: generate_unit_exercise model=%s unit_key=%s exercise_index=%s rule_text_len=%s examples=%s",
@@ -78,9 +88,13 @@ If CORRECT but different wording, say why it's acceptable.
             len(rule_text),
             len(examples),
         )
+        topic_hint_block = unit_topic_hint or ""
+        extra_block = f"\nExtra constraints: {extra_constraints}" if extra_constraints else ""
         contents = f"""You generate English grammar exercises.
 Unit: {unit_key}
 Exercise index: {exercise_index}
+Topic lock: {topic_lock}
+{topic_hint_block}
 Rule text: {rule_text}
 Examples:
 {example_block}
@@ -101,6 +115,7 @@ Constraints:
 - exercise_type should be "freetext" unless you must use mcq/multiselect; then include options.
 - Provide at least 2 items.
 - Keep everything in English.
+{extra_block}
 """
         client = self._client()
         resp = client.models.generate_content(model=self.model, contents=contents)
