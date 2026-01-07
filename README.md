@@ -61,7 +61,27 @@ Sample datasets are included in `data/samples/`.
 - On startup, the bot resumes users stuck in `await_next` or with missing pending placement/due items by sending the next question using the same Next-button flow.
 - Recovery runs during startup after handlers are registered (see `src/bot/run.py`) and is guarded by `UserState.startup_recovered_at` to avoid duplicate sends within ~30 minutes.
 
-## 6) What you still need to do
+## 6) How to run autotest
+The autotest runner simulates a user answering exercises directly from the database and logs JSONL events + a summary report.
+
+Required env vars:
+- `GOOGLE_API_KEY` (or legacy `GEMINI_API_KEY`) for Gemini access.
+
+Run on a DB copy (default; does NOT modify production data):
+```bash
+python -m src.tools.autotest_bot --db ./data/app.db --n 1000
+```
+
+Run in-place (explicitly modifies the original DB):
+```bash
+python -m src.tools.autotest_bot --db ./data/app.db --n 1000 --inplace
+```
+
+Logs are written to `./logs/`:
+- `logs/autotest_<timestamp>.jsonl`
+- `logs/autotest_<timestamp>_summary.json`
+
+## 7) What you still need to do
 1) Replace sample datasets with your real extracted datasets.
 2) Ensure every exercise item has:
    - `canonical` (single string shown as correct)
