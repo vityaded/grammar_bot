@@ -29,6 +29,7 @@ class Issue:
     issue_type: str
     severity: str
     details: str
+    metadata: dict[str, Any] | None = None
 
 
 @dataclass

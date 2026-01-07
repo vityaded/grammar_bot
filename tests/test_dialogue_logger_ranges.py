@@ -14,6 +14,7 @@ def test_dialogue_logger_merges_overlapping_ranges(tmp_path: Path) -> None:
         max_options=8,
         max_chars=1800,
         include_ref=False,
+        include_info_problems=False,
     )
     for idx in range(10):
         logger.append_turn(
