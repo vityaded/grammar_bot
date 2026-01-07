@@ -1,10 +1,13 @@
 import argparse
 import asyncio
 import datetime as dt
+import logging
 import os
 import shutil
 import sys
 from pathlib import Path
+
+from dotenv import load_dotenv
 
 from bot.autotest import AutotestRunner, RunnerConfig
 
@@ -18,12 +21,17 @@ def _build_db_url(path: Path) -> str:
 
 
 def main(argv: list[str]) -> int:
+    load_dotenv()
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s",
+    )
+    logger = logging.getLogger(__name__)
     parser = argparse.ArgumentParser()
     parser.add_argument("--db", default="./data/app.db")
     parser.add_argument("--inplace", action="store_true", default=False)
     parser.add_argument("--n", type=int, default=1000)
     parser.add_argument("--user-id", type=int, default=999000111)
-    parser.add_argument("--model", default="gemini-3-flash-preview")
     parser.add_argument("--mistake-min", type=int, default=10)
     parser.add_argument("--mistake-max", type=int, default=30)
     parser.add_argument("--seed", type=int)
@@ -38,6 +46,7 @@ def main(argv: list[str]) -> int:
     if not api_key:
         print("ERROR: GOOGLE_API_KEY or GEMINI_API_KEY is required")
         return 1
+    model = os.getenv("LLM_MODEL", "gemini-3-flash-preview").strip() or "gemini-3-flash-preview"
 
     timestamp = _timestamp()
     db_path = Path(args.db).resolve()
@@ -53,11 +62,12 @@ def main(argv: list[str]) -> int:
         run_db_path = copy_path
 
     log_dir = Path(args.log_dir)
+    logger.info("Autotest starting (model=%s, attempts=%s, inplace=%s)", model, args.n, args.inplace)
     config = RunnerConfig(
         db_url=_build_db_url(run_db_path),
         total_attempts=args.n,
         user_id=args.user_id,
-        model=args.model,
+        model=model,
         mistake_min=args.mistake_min,
         mistake_max=args.mistake_max,
         seed=args.seed,
