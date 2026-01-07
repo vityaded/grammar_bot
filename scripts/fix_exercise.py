@@ -7,7 +7,7 @@ exercise-by-exercise, based on the exercise items themselves.
 
 What it changes:
 - ONLY modifies: exercise["instruction"] (string).
-- Example/Answer are built deterministically from an existing item (no invented sentences).
+- Example/Answer are newly generated to match the exercise format without copying items.
 
 Auth / config (loaded from .env by default):
 - GEMINI_API_KEY=...
@@ -99,6 +99,13 @@ def normalize_text(s: str) -> str:
     return s
 
 
+def normalize_compare(s: str) -> str:
+    s = s.strip().lower()
+    s = s.replace("’", "'").replace("“", '"').replace("”", '"')
+    s = re.sub(r"\s+", " ", s)
+    return s
+
+
 def safe_str(x: Any) -> str:
     if x is None:
         return ""
@@ -131,10 +138,13 @@ class GeminiExerciseFix(BaseModel):
             "Do NOT include 'Example:' or 'Answer:' lines."
         ),
     )
-    example_item_index: int = Field(
+    example_prompt: str = Field(
         ...,
-        ge=1,
-        description="1-based index of an item to be used as the example.",
+        description="A NEW example prompt consistent with the exercise format and grammar target.",
+    )
+    example_answer: str = Field(
+        ...,
+        description="The correct answer to the example prompt, matching the required answer format.",
     )
     notes: List[str] = Field(
         default_factory=list,
@@ -312,21 +322,56 @@ def map_canonical_to_letters(canonical: Any, options: List[str], fmt: str) -> Op
     return ", ".join(letters)
 
 
-def build_example_block(item: Dict[str, Any], fmt: str) -> Tuple[str, str]:
-    """
-    Returns (example_question, example_answer) built deterministically from the item.
-    """
-    prompt = safe_str(item.get("prompt")).strip()
-    canonical = item.get("canonical")
-    options = item.get("options") or []
+def example_collides(example_prompt: str, item_prompts: List[str]) -> bool:
+    ex_norm = normalize_compare(example_prompt)
+    for item_prompt in item_prompts:
+        if ex_norm == normalize_compare(item_prompt):
+            return True
+    return False
 
-    if fmt in {"letter", "letters_csv"}:
-        mapped = map_canonical_to_letters(canonical, options, fmt)
-        if mapped:
-            return prompt, mapped
-        return prompt, safe_str(canonical).strip()
 
-    return prompt, safe_str(canonical).strip()
+def guess_free_text_answer(instruction_head: str) -> Tuple[str, List[str]]:
+    head = instruction_head.lower()
+    if "present continuous" in head or "present progressive" in head:
+        return "is playing", []
+    if "past continuous" in head:
+        return "was playing", []
+    if "present perfect" in head:
+        return "has played", []
+    if "past simple" in head or "simple past" in head:
+        return "played", []
+    if "future" in head or "will" in head:
+        return "will play", []
+    if "going to" in head:
+        return "is going to play", []
+    if "present simple" in head or "simple present" in head:
+        return "plays", []
+    return "", ["fallback_example_uncertain"]
+
+
+def fallback_example(answer_format: str, instruction_head: str) -> Tuple[str, str, List[str]]:
+    if answer_format == "text":
+        answer, notes = guess_free_text_answer(instruction_head)
+        if answer:
+            return "Complete: (play) My cousin ____ chess every Saturday.", answer, notes
+        return "Complete: ____", "", notes
+    if answer_format == "letter":
+        prompt = (
+            "Choose the correct option: Look! It ____.\n"
+            "A) rains\n"
+            "B) is raining\n"
+            "C) rain\n"
+            "D) rained"
+        )
+        return prompt, "B", []
+    prompt = (
+        "Choose TWO correct options:\n"
+        "A) She has finished the report.\n"
+        "B) She finished the report tomorrow.\n"
+        "C) She has already eaten.\n"
+        "D) She eat already."
+    )
+    return prompt, "A, C", []
 
 
 def strip_example_answer_lines(instruction_head: str) -> str:
@@ -359,36 +404,48 @@ def gemini_fix_one_exercise(
     retries: int,
     sleep_between: float,
     log_jsonl_path: Optional[Path],
-) -> Tuple[str, int, List[str]]:
+) -> Tuple[str, str, str, List[str], str, bool]:
     """
-    Returns: (instruction_head, example_item_index_1based, notes)
+    Returns: (instruction_head, example_prompt, example_answer, notes, example_source, example_collision)
     """
     fmt_line = format_line_for_answer_format(answer_format)
 
     prompt_items: List[Dict[str, Any]] = []
+    item_prompts: List[str] = []
     for i, it in enumerate(items[:max_items_in_prompt], start=1):
         opt = it.get("options")
         opt_pairs = options_with_letters(opt) if is_nonempty_list(opt) else None
+        prompt_text = safe_str(it.get("prompt")).strip()
         prompt_items.append(
             {
                 "i": i,
-                "prompt": safe_str(it.get("prompt")).strip(),
+                "prompt": prompt_text,
                 "options": opt_pairs,
                 "canonical": safe_str(it.get("canonical")).strip(),
             }
         )
+        item_prompts.append(prompt_text)
 
     payload = {
         "unit_key": ex_ref.unit_key,
         "exercise_index": ex_ref.exercise_index,
         "exercise_type": ex_ref.exercise_type,
+        "instruction_head_current": safe_str(ex_ref.exercise_obj.get("instruction")).strip(),
         "answer_format": answer_format,
         "format_line": fmt_line,
+        "items_prompts": [
+            {"prompt": prompt, "options_count": len(it.get("options") or [])}
+            for prompt, it in zip(item_prompts, items[:max_items_in_prompt])
+        ],
         "items": prompt_items,
         "constraints": [
             "Write ONE instruction_head that matches ALL items in this exercise.",
             "Do NOT include 'Example:' or 'Answer:' lines in instruction_head.",
-            "Do NOT invent new sentences; examples will be added by the script.",
+            "Create a NEW example similar to the exercise items, but do NOT reuse or paraphrase any item prompt exactly.",
+            "The example must not be substring-equal to any item prompt.",
+            "Use a different subject / nouns / time markers than the items.",
+            "Keep grammar target identical to the exercise.",
+            "Return example_prompt and example_answer that match the required answer format.",
             "If items require multiple forms, make instruction inclusive (e.g., 'present perfect simple or continuous').",
         ],
     }
@@ -396,6 +453,8 @@ def gemini_fix_one_exercise(
     system_text = (
         "You are a dataset editor for a grammar-learning Telegram bot.\n"
         "Task: write a corrected instruction_head that matches ALL items in the exercise.\n"
+        "Also create a NEW example prompt and answer consistent with the exercise type and grammar target.\n"
+        "Do not reuse or paraphrase any item prompt; the example must be different.\n"
         "Keep it short, clear, and accurate. Do not add Example/Answer lines.\n"
         "Return JSON strictly matching the schema."
     )
@@ -409,68 +468,119 @@ def gemini_fix_one_exercise(
         response_schema=GeminiExerciseFix,
     )
 
-    last_err: Optional[str] = None
-    for attempt in range(1, max(1, retries) + 1):
-        try:
-            log(f"Gemini call: payload_bytes={payload_size}, attempt={attempt}, model={model}")
-            start_time = time.monotonic()
-            resp = client.models.generate_content(
-                model=model,
-                contents=[system_text, user_text],
-                config=config,
-            )
-            elapsed = time.monotonic() - start_time
+    def call_gemini(current_payload: Dict[str, Any]) -> GeminiExerciseFix:
+        last_err: Optional[str] = None
+        for attempt in range(1, max(1, retries) + 1):
+            try:
+                log(f"Gemini call: payload_bytes={payload_size}, attempt={attempt}, model={model}")
+                start_time = time.monotonic()
+                resp = client.models.generate_content(
+                    model=model,
+                    contents=[system_text, "Exercise JSON:\n" + json.dumps(current_payload, ensure_ascii=False, indent=2)],
+                    config=config,
+                )
+                elapsed = time.monotonic() - start_time
 
-            parsed = getattr(resp, "parsed", None)
-            if parsed is None:
-                data = json.loads(resp.text)
-                parsed = GeminiExerciseFix(**data)
+                parsed = getattr(resp, "parsed", None)
+                if parsed is None:
+                    data = json.loads(resp.text)
+                    parsed = GeminiExerciseFix(**data)
 
-            head = strip_example_answer_lines(parsed.instruction_head or "")
-            ex_idx = int(parsed.example_item_index)
+                log(f"Gemini success: elapsed_seconds={elapsed:.2f}, notes_returned={bool(parsed.notes)}")
+                return parsed
+
+            except Exception as e:
+                last_err = f"{type(e).__name__}: {e}"
+                will_retry = attempt < retries
+                log(f"Gemini error: {last_err}; will_retry={will_retry}")
+                if attempt < retries:
+                    time.sleep(min(2.0 * attempt, 8.0))
+                    continue
+                raise RuntimeError(f"Gemini failed after {retries} attempts: {last_err}") from e
+
+        raise RuntimeError(f"Gemini failed: {last_err}")
+
+    example_source = "gemini"
+    collision_detected = False
+    parsed = call_gemini(payload)
+    head = strip_example_answer_lines(parsed.instruction_head)
+    example_prompt = safe_str(parsed.example_prompt).strip()
+    example_answer = safe_str(parsed.example_answer).strip()
+    notes = parsed.notes
+
+    if example_collides(example_prompt, item_prompts):
+        collision_detected = True
+        log(
+            "Example collision detected; retrying with anti-copy reminder "
+            f"unit_key={ex_ref.unit_key} exercise_index={ex_ref.exercise_index}"
+        )
+        example_source = "gemini_retry"
+        retry_payload = dict(payload)
+        retry_payload["constraints"] = payload["constraints"] + [
+            "Your previous example matched an existing item; create a different one.",
+        ]
+        for retry_round in range(1, 3):
+            parsed = call_gemini(retry_payload)
+            head = strip_example_answer_lines(parsed.instruction_head)
+            example_prompt = safe_str(parsed.example_prompt).strip()
+            example_answer = safe_str(parsed.example_answer).strip()
             notes = parsed.notes
+            if not example_collides(example_prompt, item_prompts):
+                log(
+                    "Example collision resolved after retry "
+                    f"retry_round={retry_round} unit_key={ex_ref.unit_key} "
+                    f"exercise_index={ex_ref.exercise_index}"
+                )
+                break
             log(
-                "Gemini success: elapsed_seconds="
-                f"{elapsed:.2f}, example_item_index={ex_idx}, notes_returned={bool(notes)}"
+                "Example collision persists after retry "
+                f"retry_round={retry_round} unit_key={ex_ref.unit_key} "
+                f"exercise_index={ex_ref.exercise_index}"
             )
 
-            if log_jsonl_path:
-                log_jsonl_path.parent.mkdir(parents=True, exist_ok=True)
-                with log_jsonl_path.open("a", encoding="utf-8") as f:
-                    f.write(
-                        json.dumps(
-                            {
-                                "ts": now_ts(),
-                                "unit_key": ex_ref.unit_key,
-                                "exercise_index": ex_ref.exercise_index,
-                                "exercise_type": ex_ref.exercise_type,
-                                "answer_format": answer_format,
-                                "model": model,
-                                "instruction_head": head,
-                                "example_item_index": ex_idx,
-                                "notes": notes,
-                            },
-                            ensure_ascii=False,
-                        )
-                        + "\n"
-                    )
+    if collision_detected and example_collides(example_prompt, item_prompts):
+        example_source = "fallback"
+        example_prompt, example_answer, fallback_notes = fallback_example(answer_format, head)
+        notes = notes + fallback_notes
+        log(
+            "Fallback example used "
+            f"unit_key={ex_ref.unit_key} exercise_index={ex_ref.exercise_index}"
+        )
+    else:
+        log(
+            "Example passed anti-copy validation "
+            f"unit_key={ex_ref.unit_key} exercise_index={ex_ref.exercise_index} source={example_source}"
+        )
 
-            if sleep_between > 0:
-                time.sleep(sleep_between)
-                log(f"Sleep between exercises: seconds={sleep_between}")
+    if log_jsonl_path:
+        log_jsonl_path.parent.mkdir(parents=True, exist_ok=True)
+        with log_jsonl_path.open("a", encoding="utf-8") as f:
+            f.write(
+                json.dumps(
+                    {
+                        "ts": now_ts(),
+                        "unit_key": ex_ref.unit_key,
+                        "exercise_index": ex_ref.exercise_index,
+                        "exercise_type": ex_ref.exercise_type,
+                        "answer_format": answer_format,
+                        "model": model,
+                        "instruction_head": head,
+                        "example_prompt": example_prompt,
+                        "example_answer": example_answer,
+                        "example_source": example_source,
+                        "example_collision": collision_detected,
+                        "notes": notes,
+                    },
+                    ensure_ascii=False,
+                )
+                + "\n"
+            )
 
-            return head, ex_idx, notes
+    if sleep_between > 0:
+        time.sleep(sleep_between)
+        log(f"Sleep between exercises: seconds={sleep_between}")
 
-        except Exception as e:
-            last_err = f"{type(e).__name__}: {e}"
-            will_retry = attempt < retries
-            log(f"Gemini error: {last_err}; will_retry={will_retry}")
-            if attempt < retries:
-                time.sleep(min(2.0 * attempt, 8.0))
-                continue
-            raise RuntimeError(f"Gemini failed after {retries} attempts: {last_err}") from e
-
-    raise RuntimeError(f"Gemini failed: {last_err}")
+    return head, example_prompt, example_answer, notes, example_source, collision_detected
 
 
 # ----------------------------
@@ -616,7 +726,7 @@ def main() -> int:
         answer_format = detect_answer_format(exercise_type, items)
 
         try:
-            head, example_idx_1b, notes = gemini_fix_one_exercise(
+            head, example_prompt, example_answer, notes, example_source, example_collision = gemini_fix_one_exercise(
                 client=client,
                 model=model,
                 ex_ref=ex_ref,
@@ -640,13 +750,8 @@ def main() -> int:
             )
             continue
 
-        if example_idx_1b < 1 or example_idx_1b > len(items):
-            example_idx_1b = 1
-            notes = notes + ["example_item_index_out_of_range -> coerced_to_1"]
-
-        example_item = items[example_idx_1b - 1]
-        ex_q, ex_a = build_example_block(example_item, answer_format)
-        new_instruction = compose_final_instruction(head, answer_format, ex_q, ex_a)
+        new_instruction = compose_final_instruction(head, answer_format, example_prompt, example_answer)
+        example_prompt_sha1 = sha1(example_prompt)
 
         if new_instruction != old_instruction:
             ex["instruction"] = new_instruction
@@ -665,7 +770,9 @@ def main() -> int:
                 "status": status,
                 "old_instruction": old_instruction,
                 "new_instruction": new_instruction,
-                "example_item_index": example_idx_1b,
+                "example_source": example_source,
+                "example_collision": example_collision,
+                "example_prompt_sha1": example_prompt_sha1,
                 "notes": notes,
             }
         )
