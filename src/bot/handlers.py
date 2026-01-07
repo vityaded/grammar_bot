@@ -50,6 +50,12 @@ def _get_user_acceptance_mode(st: UserState, settings: Settings) -> str:
         return m
     return settings.acceptance_mode
 
+def _get_user_acceptance_mode_from_state(st: UserState) -> str:
+    m = (st.acceptance_mode or "").strip().lower()
+    if m in ("easy", "normal", "strict"):
+        return m
+    return "normal"
+
 async def _set_user_acceptance_mode(s: AsyncSession, st: UserState, mode: str) -> None:
     st.acceptance_mode = mode
     st.updated_at = utcnow()
@@ -490,7 +496,7 @@ async def _auto_next_after_correct_due(
                     user,
                     st,
                     di,
-                    acceptance_mode=_get_user_acceptance_mode(st, settings),
+                    acceptance_mode=_get_user_acceptance_mode_from_state(st),
                     llm=llm,
                 )
                 await s.commit()
@@ -542,7 +548,7 @@ async def _auto_next_after_correct_due(
                 user,
                 st,
                 di,
-                acceptance_mode=_get_user_acceptance_mode(st, settings),
+                acceptance_mode=_get_user_acceptance_mode_from_state(st),
                 llm=llm,
             )
             await s.commit()
@@ -572,7 +578,7 @@ async def _auto_next_after_correct_due(
         user,
         st,
         due,
-        acceptance_mode=_get_user_acceptance_mode(st, settings),
+        acceptance_mode=_get_user_acceptance_mode_from_state(st),
         llm=llm,
     )
     await s.commit()
