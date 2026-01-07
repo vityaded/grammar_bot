@@ -57,7 +57,11 @@ Sample datasets are included in `data/samples/`.
 - Run as a systemd service (long polling). See `deploy/systemd/egiu-bot.service`.
 - Use a reverse-proxy / webhook only if you want; this repo uses polling by default.
 
-## 5) What you still need to do
+## 5) Startup recovery notes
+- On startup, the bot resumes users stuck in `await_next` or with missing pending placement/due items by sending the next question using the same Next-button flow.
+- Recovery runs during startup after handlers are registered (see `src/bot/run.py`) and is guarded by `UserState.startup_recovered_at` to avoid duplicate sends within ~30 minutes.
+
+## 6) What you still need to do
 1) Replace sample datasets with your real extracted datasets.
 2) Ensure every exercise item has:
    - `canonical` (single string shown as correct)

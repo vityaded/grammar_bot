@@ -36,6 +36,9 @@ class UserState(Base):
     # last graded attempt (for buttons)
     last_attempt_id: Mapped[int | None] = mapped_column(Integer, nullable=True)
 
+    # startup recovery guard
+    startup_recovered_at: Mapped[dt.datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+
     updated_at: Mapped[dt.datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 
 class AccessRequest(Base):

@@ -28,6 +28,10 @@ async def ensure_sqlite_schema(engine: AsyncEngine) -> None:
             await conn.execute(
                 text("ALTER TABLE user_state ADD COLUMN acceptance_mode TEXT DEFAULT 'normal';")
             )
+        if "startup_recovered_at" not in columns:
+            await conn.execute(
+                text("ALTER TABLE user_state ADD COLUMN startup_recovered_at DATETIME;")
+            )
         await conn.execute(
             text(
                 "UPDATE user_state SET acceptance_mode='normal' "
