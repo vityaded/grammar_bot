@@ -7,7 +7,7 @@ from aiogram.enums import ParseMode
 from .config import load_settings
 from .db import ensure_sqlite_schema, make_engine, make_sessionmaker
 from .db_maintenance import log_out_of_range_exercises
-from .handlers import register_handlers
+from .handlers import register_handlers, resume_stuck_users_on_startup
 
 async def _notify_admins(bot: Bot, admin_ids: list[int], message: str) -> None:
     chunk_size = 4000
@@ -36,6 +36,12 @@ async def main():
 
         dp = Dispatcher()
         register_handlers(dp, settings=settings, sessionmaker=sessionmaker)
+
+        await resume_stuck_users_on_startup(
+            bot,
+            settings=settings,
+            sessionmaker=sessionmaker,
+        )
 
         await dp.start_polling(bot)
     except Exception:

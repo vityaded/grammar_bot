@@ -1,4 +1,5 @@
 from __future__ import annotations
+import asyncio
 import datetime as dt
 import json
 import logging
@@ -6,7 +7,7 @@ import secrets
 import hashlib
 import random
 
-from aiogram import Dispatcher, F
+from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
 from sqlalchemy import select, and_, delete, func
@@ -34,6 +35,14 @@ from .exercise_generator import ensure_unit_exercise
 from .llm import LLMClient
 
 logger = logging.getLogger(__name__)
+
+class _BotMessenger:
+    def __init__(self, bot: Bot, chat_id: int):
+        self._bot = bot
+        self.chat_id = chat_id
+
+    async def answer(self, text: str, **kwargs):
+        return await self._bot.send_message(self.chat_id, text, **kwargs)
 
 # ---------------- MarkdownV2 escape ----------------
 def esc_md2(text: str) -> str:
@@ -70,6 +79,18 @@ def _effective_correct(verdict: str, flipped_to_correct: bool, mode: str) -> boo
 
 def _should_attach_remediation(verdict: str, acceptance_mode: str, flipped: bool) -> bool:
     return not _effective_correct(verdict, flipped, acceptance_mode)
+
+def _build_llm(settings: Settings) -> LLMClient | None:
+    if not settings.gemini_api_key:
+        return None
+    return LLMClient(settings.gemini_api_key, model=settings.llm_model)
+
+def _next_kind_from_attempt(att: Attempt) -> str | None:
+    if att.mode == "placement":
+        return "placement_next"
+    if att.mode in ("detour", "revisit", "check"):
+        return f"{att.mode}_next"
+    return None
 
 async def _get_or_create_user(s: AsyncSession, m: Message, default_lang: str) -> User:
     u = await s.get(User, m.from_user.id)
@@ -981,7 +1002,7 @@ async def _handle_missing_due_content(
             user,
             st,
             next_due,
-            acceptance_mode=_get_user_acceptance_mode(st, settings),
+            acceptance_mode=_get_user_acceptance_mode_from_state(st),
             llm=llm,
         )
         await s.commit()
@@ -1064,6 +1085,462 @@ async def _ask_due_item(
     st.updated_at = utcnow()
     await s.commit()
 
+async def _ask_next_due_or_placement(
+    m: Message,
+    s: AsyncSession,
+    user: User,
+    st: UserState,
+    *,
+    llm: LLMClient | None,
+    reason: str,
+) -> bool:
+    di = await _next_due_item(s, user.id)
+    if di:
+        await _log_due_selected(
+            s,
+            di,
+            user_id=user.id,
+            reason=reason,
+        )
+        await _ask_due_item(
+            m,
+            s,
+            user,
+            st,
+            di,
+            acceptance_mode=_get_user_acceptance_mode_from_state(st),
+            llm=llm,
+        )
+        await s.commit()
+        return True
+    item = await _placement_next_item(s, st.last_placement_order)
+    if item:
+        logger.info(
+            "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+            user.id,
+            item.id,
+            reason,
+        )
+        await _ask_placement_item(m, user, st, item)
+        await s.commit()
+        return True
+    st.mode = "idle"
+    st.pending_due_item_id = None
+    st.pending_placement_item_id = None
+    st.updated_at = utcnow()
+    await s.commit()
+    await m.answer("OK")
+    return True
+
+async def _handle_next_action(
+    m: Message,
+    s: AsyncSession,
+    user: User,
+    st: UserState,
+    att: Attempt,
+    next_kind: str,
+    *,
+    settings: Settings,
+    llm: LLMClient | None,
+) -> bool:
+    wc = (await s.execute(select(WhyCache).where(WhyCache.attempt_id==att.id))).scalar_one_or_none()
+    acceptance_mode = _get_user_acceptance_mode(st, settings)
+    effective_correct = _effective_correct(
+        att.verdict,
+        wc is not None and wc.flipped_to_correct,
+        acceptance_mode,
+    )
+
+    # ---- placement next ----
+    if next_kind == "placement_next":
+        if effective_correct:
+            # show next placement item immediately
+            item = await _placement_next_item(s, st.last_placement_order)
+            if not item:
+                await m.answer("OK")
+                return True
+            logger.info(
+                "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                user.id,
+                item.id,
+                "placement_correct",
+            )
+            await _ask_placement_item(m, user, st, item)
+            await s.commit()
+            return True
+
+        # wrong/almost -> schedule detour, but start detour only AFTER Next (this click).
+        placement_item = await s.get(PlacementItem, att.placement_item_id or 0) if att.placement_item_id else None
+        unit_keys = _parse_study_units(
+            placement_item.study_units_json if placement_item else None,
+            att.unit_key,
+        )
+        await ensure_detours_for_units(
+            s,
+            tg_user_id=user.id,
+            unit_keys=unit_keys,
+            cause_rule_keys_json=att.rule_keys_json,
+        )
+        next_due = await _next_due_item(s, user.id)
+        if not next_due:
+            await m.answer("OK")
+            return True
+        await _log_due_selected(
+            s,
+            next_due,
+            user_id=user.id,
+            reason="placement_incorrect_detour_scheduled",
+        )
+        # start detour: show rule then first item immediately
+        await _ask_due_item(
+            m,
+            s,
+            user,
+            st,
+            next_due,
+            acceptance_mode=_get_user_acceptance_mode(st, settings),
+            llm=llm,
+        )
+        await s.commit()
+        return True
+
+    # ---- due modes ----
+    if next_kind in ("detour_next","revisit_next","check_next"):
+        due = await s.get(DueItem, att.due_item_id or 0) if att.due_item_id else None
+        if not due or not due.is_active:
+            # go to next due/placement
+            di = await _next_due_item(s, user.id)
+            if di:
+                await _log_due_selected(
+                    s,
+                    di,
+                    user_id=user.id,
+                    reason="previous_due_inactive",
+                )
+                await _ask_due_item(
+                    m,
+                    s,
+                    user,
+                    st,
+                    di,
+                    acceptance_mode=_get_user_acceptance_mode(st, settings),
+                    llm=llm,
+                )
+                await s.commit()
+                return True
+            item = await _placement_next_item(s, st.last_placement_order)
+            if item:
+                logger.info(
+                    "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                    user.id,
+                    item.id,
+                    "no_due_items_after_inactive_due",
+                )
+                await _ask_placement_item(m, user, st, item)
+                await s.commit()
+            return True
+
+        # check special: if wrong and why did NOT flip -> detour on next
+        if due.kind == "check" and (not effective_correct):
+            await ensure_detours_for_units(
+                s,
+                tg_user_id=user.id,
+                unit_keys=[due.unit_key],
+                cause_rule_keys_json=att.rule_keys_json,
+            )
+            next_due = await _next_due_item(s, user.id)
+            if not next_due:
+                await m.answer("OK")
+                return True
+            await _log_due_selected(
+                s,
+                next_due,
+                user_id=user.id,
+                reason="check_incorrect_detour_scheduled",
+            )
+            await _ask_due_item(
+                m,
+                s,
+                user,
+                st,
+                next_due,
+                acceptance_mode=_get_user_acceptance_mode(st, settings),
+                llm=llm,
+            )
+            await s.commit()
+            return True
+
+        # update progress based on effective_correct, but "almost" counts wrong
+        if due.kind in ("detour", "revisit"):
+            completed = await _advance_due_detour_revisit(
+                s,
+                due,
+                effective_correct=effective_correct,
+                llm=llm,
+            )
+            if completed:
+                due.is_active = False
+                follow = _create_follow_due(due)
+                if follow:
+                    follow.tg_user_id = user.id
+                    s.add(follow)
+                await s.commit()
+                di = await _next_due_item(s, user.id)
+                if di:
+                    await _log_due_selected(
+                        s,
+                        di,
+                        user_id=user.id,
+                        reason="due_completed_next_due",
+                    )
+                    await _ask_due_item(
+                        m,
+                        s,
+                        user,
+                        st,
+                        di,
+                        acceptance_mode=_get_user_acceptance_mode(st, settings),
+                        llm=llm,
+                    )
+                    await s.commit()
+                    return True
+                item = await _placement_next_item(s, st.last_placement_order)
+                if item:
+                    logger.info(
+                        "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                        user.id,
+                        item.id,
+                        "due_completed_no_due",
+                    )
+                    await _ask_placement_item(m, user, st, item)
+                    await s.commit()
+                return True
+        else:
+            if effective_correct:
+                due.correct_in_exercise += 1
+                items_length = await _due_items_length(s, due, llm=llm)
+                if items_length is not None and items_length > 0:
+                    required_correct = min(2, items_length)
+                else:
+                    required_correct = 2
+                if due.correct_in_exercise >= required_correct:
+                    due.exercise_index += 1
+                    due.item_in_exercise = 1
+                    due.correct_in_exercise = 0
+                else:
+                    due.item_in_exercise = (due.item_in_exercise or 1) + 1
+                    items_length = await _due_items_length(s, due, llm=llm)
+                    if items_length and due.item_in_exercise > items_length:
+                        due.exercise_index += 1
+                        due.item_in_exercise = 1
+                        due.correct_in_exercise = 0
+            else:
+                due.item_in_exercise = 1
+                due.correct_in_exercise = 0
+
+        if due.kind == "check":
+            # one question only: if reached here, effective_correct == True, mark done and schedule detour only on wrong (handled above)
+            due.is_active = False
+            await s.commit()
+            # no header/message; just move to next due/placement by showing exercise immediately
+            di = await _next_due_item(s, user.id)
+            if di:
+                await _log_due_selected(
+                    s,
+                    di,
+                    user_id=user.id,
+                    reason="check_completed_next_due",
+                )
+                await _ask_due_item(
+                    m,
+                    s,
+                    user,
+                    st,
+                    di,
+                    acceptance_mode=_get_user_acceptance_mode(st, settings),
+                    llm=llm,
+                )
+                await s.commit()
+                return True
+            item = await _placement_next_item(s, st.last_placement_order)
+            if item:
+                logger.info(
+                    "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
+                    user.id,
+                    item.id,
+                    "check_completed_no_due",
+                )
+                await _ask_placement_item(m, user, st, item)
+                await s.commit()
+            return True
+
+        await s.commit()
+        await _log_due_selected(
+            s,
+            due,
+            user_id=user.id,
+            reason="continue_due_exercise",
+        )
+        # ask next due item immediately
+        await _ask_due_item(
+            m,
+            s,
+            user,
+            st,
+            due,
+            acceptance_mode=_get_user_acceptance_mode(st, settings),
+            llm=llm,
+        )
+        await s.commit()
+        return True
+    return False
+
+async def _is_stuck_state(
+    s: AsyncSession,
+    st: UserState,
+    *,
+    llm: LLMClient | None,
+) -> tuple[bool, str]:
+    if st.mode == "await_next":
+        return True, "await_next"
+    if st.mode == "placement":
+        if not st.pending_placement_item_id:
+            return True, "placement_missing_id"
+        item = await s.get(PlacementItem, st.pending_placement_item_id)
+        if not item:
+            return True, "placement_missing_item"
+        return False, ""
+    if st.mode in ("detour", "revisit", "check"):
+        if not st.pending_due_item_id:
+            return True, "due_missing_id"
+        due = await s.get(DueItem, st.pending_due_item_id)
+        if not due or not due.is_active:
+            return True, "due_missing_or_inactive"
+        ex, it, _item_index = await _due_current_item(s, due, llm=llm)
+        if not ex or not it:
+            return True, "due_missing_content"
+        return False, ""
+    return False, ""
+
+async def resume_stuck_users_on_startup(
+    bot: Bot,
+    *,
+    settings: Settings,
+    sessionmaker: async_sessionmaker[AsyncSession],
+    throttle_s: float = 0.05,
+    recovery_window: dt.timedelta | None = None,
+) -> None:
+    llm = _build_llm(settings)
+    window = recovery_window or dt.timedelta(minutes=30)
+    now = utcnow()
+    cutoff = now - window
+    async with sessionmaker() as s:
+        q = (
+            select(UserState.tg_user_id)
+            .join(User, User.id == UserState.tg_user_id)
+            .where(
+                User.is_approved.is_(True),
+                UserState.mode.in_(("await_next", "placement", "detour", "revisit", "check")),
+            )
+        )
+        user_ids = (await s.execute(q)).scalars().all()
+    logger.info("startup_recovery: candidates=%s", len(user_ids))
+    if not user_ids:
+        return
+
+    stuck_total = 0
+    resumed = 0
+    failed = 0
+    recovered_user_ids: list[int] = []
+    for user_id in user_ids:
+        async with sessionmaker() as s:
+            user = await s.get(User, user_id)
+            st = await s.get(UserState, user_id)
+            if not user or not st or not user.is_approved:
+                continue
+            if st.startup_recovered_at:
+                recovered_at = st.startup_recovered_at
+                if recovered_at.tzinfo is None:
+                    recovered_at = recovered_at.replace(tzinfo=dt.timezone.utc)
+                if recovered_at >= cutoff:
+                    continue
+            stuck, reason = await _is_stuck_state(s, st, llm=llm)
+            if not stuck:
+                continue
+            stuck_total += 1
+            user_id_value = user.id
+            messenger = _BotMessenger(bot, user_id_value)
+            try:
+                recovered = False
+                if st.mode == "await_next":
+                    att = await s.get(Attempt, st.last_attempt_id or 0) if st.last_attempt_id else None
+                    if att and att.tg_user_id == user_id_value:
+                        next_kind = _next_kind_from_attempt(att)
+                        if next_kind:
+                            recovered = await _handle_next_action(
+                                messenger,
+                                s,
+                                user,
+                                st,
+                                att,
+                                next_kind,
+                                settings=settings,
+                                llm=llm,
+                            )
+                    if not recovered:
+                        recovered = await _ask_next_due_or_placement(
+                            messenger,
+                            s,
+                            user,
+                            st,
+                            llm=llm,
+                            reason="recovery_no_attempt",
+                        )
+                elif st.mode in ("placement",):
+                    recovered = await _ask_next_due_or_placement(
+                        messenger,
+                        s,
+                        user,
+                        st,
+                        llm=llm,
+                        reason="recovery_missing_placement",
+                    )
+                elif st.mode in ("detour", "revisit", "check"):
+                    recovered = await _ask_next_due_or_placement(
+                        messenger,
+                        s,
+                        user,
+                        st,
+                        llm=llm,
+                        reason="recovery_missing_due",
+                    )
+                if recovered:
+                    st.startup_recovered_at = now
+                    st.updated_at = utcnow()
+                    await s.commit()
+                    resumed += 1
+                    recovered_user_ids.append(user_id_value)
+                else:
+                    failed += 1
+            except Exception:
+                failed += 1
+                await s.rollback()
+                logger.exception(
+                    "startup_recovery_failed user_id=%s reason=%s",
+                    user_id_value,
+                    reason,
+                )
+            if throttle_s:
+                await asyncio.sleep(throttle_s)
+    logger.info(
+        "startup_recovery: stuck_total=%s resumed=%s failed=%s",
+        stuck_total,
+        resumed,
+        failed,
+    )
+    if recovered_user_ids:
+        logger.debug("startup_recovery: resumed_user_ids=%s", recovered_user_ids)
+
 def _grade_item(
     item_type: str,
     user_answer: str,
@@ -1114,11 +1591,7 @@ def _due_item_type_from_ex(ex: UnitExercise) -> str:
 
 # ---------------- main registration ----------------
 def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async_sessionmaker[AsyncSession]):
-    llm = (
-        LLMClient(settings.gemini_api_key, model=settings.llm_model)
-        if settings.gemini_api_key
-        else None
-    )
+    llm = _build_llm(settings)
 
     @dp.message(Command("admin"))
     async def on_admin(m: Message):
@@ -1160,6 +1633,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             st.pending_due_item_id = None
             st.last_placement_order = 0
             st.last_attempt_id = None
+            st.startup_recovered_at = None
             st.updated_at = utcnow()
             await s.commit()
         await m.answer(
@@ -1625,269 +2099,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             if not att or att.tg_user_id != user.id:
                 await c.answer()
                 return
-
-            wc = (await s.execute(select(WhyCache).where(WhyCache.attempt_id==attempt_id))).scalar_one_or_none()
-            acceptance_mode = _get_user_acceptance_mode(st, settings)
-            effective_correct = _effective_correct(
-                att.verdict,
-                wc is not None and wc.flipped_to_correct,
-                acceptance_mode,
+            await _handle_next_action(
+                c.message,
+                s,
+                user,
+                st,
+                att,
+                next_kind,
+                settings=settings,
+                llm=llm,
             )
-
-            # ---- placement next ----
-            if next_kind == "placement_next":
-                if effective_correct:
-                    # show next placement item immediately
-                    item = await _placement_next_item(s, st.last_placement_order)
-                    if not item:
-                        await c.message.answer("OK")
-                        await c.answer()
-                        return
-                    logger.info(
-                        "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
-                        user.id,
-                        item.id,
-                        "placement_correct",
-                    )
-                    await _ask_placement_item(c.message, user, st, item)
-                    await s.commit()
-                    await c.answer()
-                    return
-
-                # wrong/almost -> schedule detour, but start detour only AFTER Next (this click).
-                placement_item = await s.get(PlacementItem, att.placement_item_id or 0) if att.placement_item_id else None
-                unit_keys = _parse_study_units(
-                    placement_item.study_units_json if placement_item else None,
-                    att.unit_key,
-                )
-                await ensure_detours_for_units(
-                    s,
-                    tg_user_id=user.id,
-                    unit_keys=unit_keys,
-                    cause_rule_keys_json=att.rule_keys_json,
-                )
-                next_due = await _next_due_item(s, user.id)
-                if not next_due:
-                    await c.message.answer("OK")
-                    await c.answer()
-                    return
-                await _log_due_selected(
-                    s,
-                    next_due,
-                    user_id=user.id,
-                    reason="placement_incorrect_detour_scheduled",
-                )
-                # start detour: show rule then first item immediately
-                await _ask_due_item(
-                    c.message,
-                    s,
-                    user,
-                    st,
-                    next_due,
-                    acceptance_mode=_get_user_acceptance_mode(st, settings),
-                    llm=llm,
-                )
-                await s.commit()
-                await c.answer()
-                return
-
-            # ---- due modes ----
-            if next_kind in ("detour_next","revisit_next","check_next"):
-                due = await s.get(DueItem, att.due_item_id or 0) if att.due_item_id else None
-                if not due or not due.is_active:
-                    # go to next due/placement
-                    di = await _next_due_item(s, user.id)
-                    if di:
-                        await _log_due_selected(
-                            s,
-                            di,
-                            user_id=user.id,
-                            reason="previous_due_inactive",
-                        )
-                        await _ask_due_item(
-                            c.message,
-                            s,
-                            user,
-                            st,
-                            di,
-                            acceptance_mode=_get_user_acceptance_mode(st, settings),
-                            llm=llm,
-                        )
-                        await s.commit()
-                        await c.answer()
-                        return
-                    item = await _placement_next_item(s, st.last_placement_order)
-                    if item:
-                        logger.info(
-                            "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
-                            user.id,
-                            item.id,
-                            "no_due_items_after_inactive_due",
-                        )
-                        await _ask_placement_item(c.message, user, st, item)
-                        await s.commit()
-                    await c.answer()
-                    return
-
-                # check special: if wrong and why did NOT flip -> detour on next
-                if due.kind == "check" and (not effective_correct):
-                    await ensure_detours_for_units(
-                        s,
-                        tg_user_id=user.id,
-                        unit_keys=[due.unit_key],
-                        cause_rule_keys_json=att.rule_keys_json,
-                    )
-                    next_due = await _next_due_item(s, user.id)
-                    if not next_due:
-                        await c.message.answer("OK")
-                        await c.answer()
-                        return
-                    await _log_due_selected(
-                        s,
-                        next_due,
-                        user_id=user.id,
-                        reason="check_incorrect_detour_scheduled",
-                    )
-                    await _ask_due_item(
-                        c.message,
-                        s,
-                        user,
-                        st,
-                        next_due,
-                        acceptance_mode=_get_user_acceptance_mode(st, settings),
-                        llm=llm,
-                    )
-                    await s.commit()
-                    await c.answer()
-                    return
-
-                # update progress based on effective_correct, but "almost" counts wrong
-                if due.kind in ("detour", "revisit"):
-                    completed = await _advance_due_detour_revisit(
-                        s,
-                        due,
-                        effective_correct=effective_correct,
-                        llm=llm,
-                    )
-                    if completed:
-                        due.is_active = False
-                        follow = _create_follow_due(due)
-                        if follow:
-                            follow.tg_user_id = user.id
-                            s.add(follow)
-                        await s.commit()
-                        di = await _next_due_item(s, user.id)
-                        if di:
-                            await _log_due_selected(
-                                s,
-                                di,
-                                user_id=user.id,
-                                reason="due_completed_next_due",
-                            )
-                            await _ask_due_item(
-                                c.message,
-                                s,
-                                user,
-                                st,
-                                di,
-                                acceptance_mode=_get_user_acceptance_mode(st, settings),
-                                llm=llm,
-                            )
-                            await s.commit()
-                            await c.answer()
-                            return
-                        item = await _placement_next_item(s, st.last_placement_order)
-                        if item:
-                            logger.info(
-                                "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
-                                user.id,
-                                item.id,
-                                "due_completed_no_due",
-                            )
-                            await _ask_placement_item(c.message, user, st, item)
-                            await s.commit()
-                        await c.answer()
-                        return
-                else:
-                    if effective_correct:
-                        due.correct_in_exercise += 1
-                        items_length = await _due_items_length(s, due, llm=llm)
-                        if items_length is not None and items_length > 0:
-                            required_correct = min(2, items_length)
-                        else:
-                            required_correct = 2
-                        if due.correct_in_exercise >= required_correct:
-                            due.exercise_index += 1
-                            due.item_in_exercise = 1
-                            due.correct_in_exercise = 0
-                        else:
-                            due.item_in_exercise = (due.item_in_exercise or 1) + 1
-                            items_length = await _due_items_length(s, due, llm=llm)
-                            if items_length and due.item_in_exercise > items_length:
-                                due.exercise_index += 1
-                                due.item_in_exercise = 1
-                                due.correct_in_exercise = 0
-                    else:
-                        due.item_in_exercise = 1
-                        due.correct_in_exercise = 0
-
-                if due.kind == "check":
-                    # one question only: if reached here, effective_correct == True, mark done and schedule detour only on wrong (handled above)
-                    due.is_active = False
-                    await s.commit()
-                    # no header/message; just move to next due/placement by showing exercise immediately
-                    di = await _next_due_item(s, user.id)
-                    if di:
-                        await _log_due_selected(
-                            s,
-                            di,
-                            user_id=user.id,
-                            reason="check_completed_next_due",
-                        )
-                        await _ask_due_item(
-                            c.message,
-                            s,
-                            user,
-                            st,
-                            di,
-                            acceptance_mode=_get_user_acceptance_mode(st, settings),
-                            llm=llm,
-                        )
-                        await s.commit()
-                        await c.answer()
-                        return
-                    item = await _placement_next_item(s, st.last_placement_order)
-                    if item:
-                        logger.info(
-                            "next_item: placement_selected user_id=%s placement_item_id=%s reason=%s",
-                            user.id,
-                            item.id,
-                            "check_completed_no_due",
-                        )
-                        await _ask_placement_item(c.message, user, st, item)
-                        await s.commit()
-                    await c.answer()
-                    return
-
-                await s.commit()
-                await _log_due_selected(
-                    s,
-                    due,
-                    user_id=user.id,
-                    reason="continue_due_exercise",
-                )
-                # ask next due item immediately
-                await _ask_due_item(
-                    c.message,
-                    s,
-                    user,
-                    st,
-                    due,
-                    acceptance_mode=_get_user_acceptance_mode(st, settings),
-                    llm=llm,
-                )
-                await s.commit()
-                await c.answer()
-                return
 
         await c.answer()
