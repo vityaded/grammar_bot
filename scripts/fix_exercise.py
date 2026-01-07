@@ -115,6 +115,10 @@ def sha1(s: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()
 
 
+def log(message: str) -> None:
+    print(message, file=sys.stderr, flush=True)
+
+
 # ----------------------------
 # Gemini output schema
 # ----------------------------
@@ -397,6 +401,7 @@ def gemini_fix_one_exercise(
     )
 
     user_text = "Exercise JSON:\n" + json.dumps(payload, ensure_ascii=False, indent=2)
+    payload_size = len(user_text.encode("utf-8"))
 
     config = types.GenerateContentConfig(
         temperature=temperature,
@@ -407,11 +412,14 @@ def gemini_fix_one_exercise(
     last_err: Optional[str] = None
     for attempt in range(1, max(1, retries) + 1):
         try:
+            log(f"Gemini call: payload_bytes={payload_size}, attempt={attempt}, model={model}")
+            start_time = time.monotonic()
             resp = client.models.generate_content(
                 model=model,
                 contents=[system_text, user_text],
                 config=config,
             )
+            elapsed = time.monotonic() - start_time
 
             parsed = getattr(resp, "parsed", None)
             if parsed is None:
@@ -421,6 +429,10 @@ def gemini_fix_one_exercise(
             head = strip_example_answer_lines(parsed.instruction_head or "")
             ex_idx = int(parsed.example_item_index)
             notes = parsed.notes or []
+            log(
+                "Gemini success: elapsed_seconds="
+                f"{elapsed:.2f}, example_item_index={ex_idx}, notes_returned={bool(notes)}"
+            )
 
             if log_jsonl_path:
                 log_jsonl_path.parent.mkdir(parents=True, exist_ok=True)
@@ -445,11 +457,14 @@ def gemini_fix_one_exercise(
 
             if sleep_between > 0:
                 time.sleep(sleep_between)
+                log(f"Sleep between exercises: seconds={sleep_between}")
 
             return head, ex_idx, notes
 
         except Exception as e:
             last_err = f"{type(e).__name__}: {e}"
+            will_retry = attempt < retries
+            log(f"Gemini error: {last_err}; will_retry={will_retry}")
             if attempt < retries:
                 time.sleep(min(2.0 * attempt, 8.0))
                 continue
@@ -501,6 +516,7 @@ def strip_instructions(obj: Any) -> Any:
 
 def main() -> int:
     env_path = load_env_upwards()
+    log(f"Loaded env path: {env_path or 'not found'}")
 
     ap = argparse.ArgumentParser(description="Fix unit_exercises_v2.json instruction fields via Gemini (exercise-by-exercise).")
     ap.add_argument("--in", dest="in_path", default="data/unit_exercises_v2.json", help="Input JSON path")
@@ -536,6 +552,7 @@ def main() -> int:
 
     api_key = cli_key or get_env("GEMINI_API_KEY") or get_env("LLM_API_KEY")
     model = cli_model or get_env("LLM_MODEL") or get_env("GEMINI_MODEL") or "gemini-2.5-flash"
+    log(f"Resolved config: model={model}, api_key_found={bool(api_key)}")
 
     if not api_key:
         print(
@@ -548,6 +565,19 @@ def main() -> int:
     client = genai.Client(api_key=api_key)
 
     root = read_json(in_path)
+    if isinstance(root, list):
+        top_level_label = "units"
+        top_level_count = len(root)
+    elif isinstance(root, dict) and isinstance(root.get("units"), list):
+        top_level_label = "units"
+        top_level_count = len(root["units"])
+    elif isinstance(root, dict) and isinstance(root.get("exercises"), list):
+        top_level_label = "exercises"
+        top_level_count = len(root["exercises"])
+    else:
+        top_level_label = "unknown"
+        top_level_count = 0
+    log(f"Loaded JSON: path={in_path} top_level_{top_level_label}={top_level_count}")
     root_before = copy.deepcopy(root)
 
     exercises = iter_exercises(root)
@@ -561,10 +591,22 @@ def main() -> int:
     processed = 0
     changed = 0
 
-    for ex_ref in exercises:
+    total_exercises = len(exercises)
+    log(f"Exercises to process: total={total_exercises}")
+
+    for current_index, ex_ref in enumerate(exercises, start=1):
+        log(
+            "Exercise start: "
+            f"{current_index}/{total_exercises} unit_key={ex_ref.unit_key} "
+            f"exercise_index={ex_ref.exercise_index} exercise_type={ex_ref.exercise_type}"
+        )
         ex = ex_ref.exercise_obj
         items = ex.get("items") or []
         if not isinstance(items, list) or not items:
+            log(
+                "Skipping exercise: missing items list or empty items "
+                f"unit_key={ex_ref.unit_key} exercise_index={ex_ref.exercise_index}"
+            )
             continue
 
         processed += 1
@@ -647,6 +689,10 @@ def main() -> int:
                 "patches_preview": patches[:50],
             },
         )
+        log(
+            "Patch report written (aborted): "
+            f"path={patch_report_path} processed={processed} changed={changed}"
+        )
         return 3
 
     # Patch report
@@ -664,6 +710,7 @@ def main() -> int:
             "patches": patches,
         },
     )
+    log(f"Patch report written: path={patch_report_path} processed={processed} changed={changed}")
 
     if args.dry_run:
         print(f"DRY RUN: processed={processed}, changed={changed}")
@@ -677,6 +724,7 @@ def main() -> int:
         print(f"Backup written: {backup}")
 
     json_dump(out_path, root)
+    log(f"Output JSON written: path={out_path} processed={processed} changed={changed}")
 
     print(f"Done. processed={processed}, changed={changed}")
     print(f"Output JSON: {out_path}")
