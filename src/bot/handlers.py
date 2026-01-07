@@ -9,7 +9,7 @@ import random
 from aiogram import Dispatcher, F
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
-from sqlalchemy import select, and_, delete
+from sqlalchemy import select, and_, delete, func
 from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
 
 from .config import Settings
@@ -157,6 +157,22 @@ def _rule_keys_json(rule_keys: list[str]) -> str | None:
         return None
     return json.dumps(rule_keys, ensure_ascii=False)
 
+class _RuleDisplayPlan:
+    __slots__ = ("show_rule_before", "prefer_short", "examples_per_rule", "max_examples_total")
+
+    def __init__(
+        self,
+        *,
+        show_rule_before: bool,
+        prefer_short: bool,
+        examples_per_rule: int,
+        max_examples_total: int,
+    ) -> None:
+        self.show_rule_before = show_rule_before
+        self.prefer_short = prefer_short
+        self.examples_per_rule = examples_per_rule
+        self.max_examples_total = max_examples_total
+
 def _section_sort_key(section_path: str | None) -> tuple[int, str, int]:
     if not section_path:
         return (1, "", 0)
@@ -210,6 +226,93 @@ def _pick_rule_text(rule: RuleI18nV2, ui_lang: str, prefer_short: bool) -> str:
             return c
     return ""
 
+def _preface_rule_plan(due_kind: str, is_due_start: bool, stuck: bool) -> _RuleDisplayPlan | None:
+    if due_kind == "detour":
+        if is_due_start or stuck:
+            return _RuleDisplayPlan(
+                show_rule_before=True,
+                prefer_short=False,
+                examples_per_rule=1,
+                max_examples_total=6,
+            )
+        return None
+    if due_kind == "revisit":
+        if is_due_start:
+            return _RuleDisplayPlan(
+                show_rule_before=True,
+                prefer_short=True,
+                examples_per_rule=0,
+                max_examples_total=2,
+            )
+        if stuck:
+            return _RuleDisplayPlan(
+                show_rule_before=True,
+                prefer_short=False,
+                examples_per_rule=1,
+                max_examples_total=6,
+            )
+        return None
+    if due_kind == "check":
+        if stuck:
+            return _RuleDisplayPlan(
+                show_rule_before=True,
+                prefer_short=False,
+                examples_per_rule=1,
+                max_examples_total=6,
+            )
+        return None
+    return None
+
+def _remediation_rule_plan(due_kind: str) -> _RuleDisplayPlan:
+    if due_kind == "detour":
+        return _RuleDisplayPlan(
+            show_rule_before=False,
+            prefer_short=True,
+            examples_per_rule=0,
+            max_examples_total=2,
+        )
+    return _RuleDisplayPlan(
+        show_rule_before=False,
+        prefer_short=False,
+        examples_per_rule=1,
+        max_examples_total=4,
+    )
+
+async def _due_attempt_info(
+    s: AsyncSession,
+    due: DueItem,
+    *,
+    acceptance_mode: str,
+    item_rule_keys: list[str],
+) -> tuple[bool, bool]:
+    count_q = select(func.count(Attempt.id)).where(Attempt.due_item_id == due.id)
+    attempt_count = (await s.execute(count_q)).scalar_one()
+    is_due_start = attempt_count == 0
+
+    last_two = (
+        await s.execute(
+            select(Attempt)
+            .where(Attempt.due_item_id == due.id)
+            .order_by(Attempt.created_at.desc(), Attempt.id.desc())
+            .limit(2)
+        )
+    ).scalars().all()
+    if len(last_two) < 2:
+        return is_due_start, False
+
+    cause_keys = _parse_rule_keys(due.cause_rule_keys_json)
+    target_keys = cause_keys if cause_keys else item_rule_keys
+    if not target_keys:
+        return is_due_start, False
+
+    def _overlaps(att: Attempt) -> bool:
+        keys = _parse_rule_keys(att.rule_keys_json)
+        return any(k in target_keys for k in keys)
+
+    wrong_flags = [not _effective_correct(att.verdict, False, acceptance_mode) for att in last_two]
+    stuck = all(wrong_flags) and all(_overlaps(att) for att in last_two)
+    return is_due_start, stuck
+
 async def _render_rules_for_keys(
     s: AsyncSession,
     rule_keys: list[str],
@@ -217,6 +320,7 @@ async def _render_rules_for_keys(
     *,
     max_examples_total: int = 2,
     prefer_short: bool = True,
+    examples_per_rule: int = 0,
 ) -> str:
     if not rule_keys:
         return ""
@@ -227,6 +331,7 @@ async def _render_rules_for_keys(
             rules.append(r)
     if not rules:
         return ""
+    rules.sort(key=lambda r: _section_sort_key(r.section_path))
 
     header = f"*{esc_md2(t('rule_header', ui_lang))}*"
     lines: list[str] = []
@@ -248,18 +353,32 @@ async def _render_rules_for_keys(
 
     if max_examples_total > 0:
         examples: list[str] = []
-        for r in rules:
-            if not r.examples_json:
-                continue
-            try:
-                ex = json.loads(r.examples_json)
+        if examples_per_rule > 0:
+            for r in rules:
+                if not r.examples_json:
+                    continue
+                try:
+                    ex = json.loads(r.examples_json)
+                except Exception:
+                    continue
                 if isinstance(ex, list):
-                    for line in ex:
+                    for line in ex[:examples_per_rule]:
                         examples.append(str(line))
-            except Exception:
-                continue
-            if len(examples) >= max_examples_total:
-                break
+                if len(examples) >= max_examples_total:
+                    break
+        else:
+            for r in rules:
+                if not r.examples_json:
+                    continue
+                try:
+                    ex = json.loads(r.examples_json)
+                    if isinstance(ex, list):
+                        for line in ex:
+                            examples.append(str(line))
+                except Exception:
+                    continue
+                if len(examples) >= max_examples_total:
+                    break
         if examples:
             examples = examples[:max_examples_total]
             msg += "\n" + "\n".join(esc_md2(e) for e in examples)
@@ -271,6 +390,7 @@ async def _render_rule_fallback_for_unit(
     ui_lang: str,
     *,
     max_sections: int = 3,
+    prefer_short: bool = True,
 ) -> str:
     rules = await _fetch_unit_rules_v2(s, unit_key)
     if not rules:
@@ -278,7 +398,7 @@ async def _render_rule_fallback_for_unit(
     header = f"*{esc_md2(t('rule_header', ui_lang))}*"
     lines: list[str] = []
     for r in rules[:max_sections]:
-        text = _pick_rule_text(r, ui_lang, prefer_short=True)
+        text = _pick_rule_text(r, ui_lang, prefer_short=prefer_short)
         if not text:
             continue
         if r.section_path:
@@ -370,7 +490,7 @@ async def _auto_next_after_correct_due(
                     user,
                     st,
                     di,
-                    show_rule_first=(di.kind in ("detour", "revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1),
+                    acceptance_mode=_get_user_acceptance_mode(st, settings),
                     llm=llm,
                 )
                 await s.commit()
@@ -422,7 +542,7 @@ async def _auto_next_after_correct_due(
                 user,
                 st,
                 di,
-                show_rule_first=(di.kind in ("detour", "revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1),
+                acceptance_mode=_get_user_acceptance_mode(st, settings),
                 llm=llm,
             )
             await s.commit()
@@ -446,7 +566,15 @@ async def _auto_next_after_correct_due(
         user_id=user.id,
         reason="continue_due_exercise",
     )
-    await _ask_due_item(m, s, user, st, due, show_rule_first=False, llm=llm)
+    await _ask_due_item(
+        m,
+        s,
+        user,
+        st,
+        due,
+        acceptance_mode=_get_user_acceptance_mode(st, settings),
+        llm=llm,
+    )
     await s.commit()
 
 def _parse_option_payload(options_json: str | None) -> tuple[list[str], str | None, list[str] | None]:
@@ -841,8 +969,15 @@ async def _handle_missing_due_content(
     await complete_due_without_exercise(s, due=due)
     next_due = await _next_due_item(s, user.id)
     if next_due:
-        show_rule = next_due.kind in ("detour", "revisit")
-        await _ask_due_item(m, s, user, st, next_due, show_rule_first=show_rule, llm=llm)
+        await _ask_due_item(
+            m,
+            s,
+            user,
+            st,
+            next_due,
+            acceptance_mode=_get_user_acceptance_mode(st, settings),
+            llm=llm,
+        )
         await s.commit()
         return
     item = await _placement_next_item(s, st.last_placement_order)
@@ -864,25 +999,46 @@ async def _ask_due_item(
     st: UserState,
     due: DueItem,
     *,
-    show_rule_first: bool,
+    acceptance_mode: str,
     llm: LLMClient | None,
 ):
-    # If show_rule_first: send one message with rule+examples, then immediately ask first item (separate message).
-    if show_rule_first:
-        cause_keys = _parse_rule_keys(due.cause_rule_keys_json)
-        if cause_keys:
-            rule_msg = await _render_rules_for_keys(s, cause_keys, user.ui_lang, max_examples_total=2, prefer_short=True)
-        else:
-            rule_msg = await _render_rule_fallback_for_unit(s, due.unit_key, user.ui_lang, max_sections=3)
-        if rule_msg:
-            await m.answer(rule_msg)
-
     ex, it, item_index = await _due_current_item(s, due, llm=llm)
     if not ex or not it:
         await _handle_missing_due_content(m, s, user, st, due, llm=llm)
         return
     if item_index and due.item_in_exercise != item_index:
         due.item_in_exercise = item_index
+
+    item_rule_keys = _parse_rule_keys(it.get("rule_keys"))
+    is_due_start, stuck = await _due_attempt_info(
+        s,
+        due,
+        acceptance_mode=acceptance_mode,
+        item_rule_keys=item_rule_keys,
+    )
+    plan = _preface_rule_plan(due.kind, is_due_start, stuck)
+    if plan and plan.show_rule_before:
+        cause_keys = _parse_rule_keys(due.cause_rule_keys_json)
+        rule_keys = cause_keys or item_rule_keys
+        if rule_keys:
+            rule_msg = await _render_rules_for_keys(
+                s,
+                rule_keys,
+                user.ui_lang,
+                max_examples_total=plan.max_examples_total,
+                prefer_short=plan.prefer_short,
+                examples_per_rule=plan.examples_per_rule,
+            )
+        else:
+            rule_msg = await _render_rule_fallback_for_unit(
+                s,
+                due.unit_key,
+                user.ui_lang,
+                max_sections=3,
+                prefer_short=plan.prefer_short,
+            )
+        if rule_msg:
+            await m.answer(rule_msg)
 
     instr = ex.instruction or ""
     text = ""
@@ -1147,7 +1303,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 st.updated_at = utcnow()
                 await s.commit()
                 # do not send any message before the exercise; show the exercise now (rule may appear for detour/revisit start when created; here due already exists)
-                await _ask_due_item(c.message, s, user, st, due, show_rule_first=(due.kind in ("detour","revisit") and due.item_in_exercise==1 and due.correct_in_exercise==0 and due.batch_num==1 and due.exercise_index==1), llm=llm)
+                await _ask_due_item(
+                    c.message,
+                    s,
+                    user,
+                    st,
+                    due,
+                    acceptance_mode=_get_user_acceptance_mode(st, settings),
+                    llm=llm,
+                )
                 await s.commit()
                 await c.answer()
                 return
@@ -1332,10 +1496,24 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     show_next_prompt=not effective_correct,
                 )
                 if _should_attach_remediation(verdict, acceptance_mode, False):
+                    plan = _remediation_rule_plan(due.kind)
                     if rule_keys:
-                        rule_msg = await _render_rules_for_keys(s, rule_keys, user.ui_lang, max_examples_total=2, prefer_short=True)
+                        rule_msg = await _render_rules_for_keys(
+                            s,
+                            rule_keys,
+                            user.ui_lang,
+                            max_examples_total=plan.max_examples_total,
+                            prefer_short=plan.prefer_short,
+                            examples_per_rule=plan.examples_per_rule,
+                        )
                     else:
-                        rule_msg = await _render_rule_fallback_for_unit(s, due.unit_key, user.ui_lang, max_sections=3)
+                        rule_msg = await _render_rule_fallback_for_unit(
+                            s,
+                            due.unit_key,
+                            user.ui_lang,
+                            max_sections=3,
+                            prefer_short=plan.prefer_short,
+                        )
                     if rule_msg:
                         fb = f"{fb}\n\n{rule_msg}"
                 if effective_correct:
@@ -1490,7 +1668,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     reason="placement_incorrect_detour_scheduled",
                 )
                 # start detour: show rule then first item immediately
-                await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
+                await _ask_due_item(
+                    c.message,
+                    s,
+                    user,
+                    st,
+                    next_due,
+                    acceptance_mode=_get_user_acceptance_mode(st, settings),
+                    llm=llm,
+                )
                 await s.commit()
                 await c.answer()
                 return
@@ -1508,7 +1694,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                             user_id=user.id,
                             reason="previous_due_inactive",
                         )
-                        await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
+                        await _ask_due_item(
+                            c.message,
+                            s,
+                            user,
+                            st,
+                            di,
+                            acceptance_mode=_get_user_acceptance_mode(st, settings),
+                            llm=llm,
+                        )
                         await s.commit()
                         await c.answer()
                         return
@@ -1544,7 +1738,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                         user_id=user.id,
                         reason="check_incorrect_detour_scheduled",
                     )
-                    await _ask_due_item(c.message, s, user, st, next_due, show_rule_first=True, llm=llm)
+                    await _ask_due_item(
+                        c.message,
+                        s,
+                        user,
+                        st,
+                        next_due,
+                        acceptance_mode=_get_user_acceptance_mode(st, settings),
+                        llm=llm,
+                    )
                     await s.commit()
                     await c.answer()
                     return
@@ -1578,7 +1780,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                                 user,
                                 st,
                                 di,
-                                show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1),
+                                acceptance_mode=_get_user_acceptance_mode(st, settings),
                                 llm=llm,
                             )
                             await s.commit()
@@ -1632,7 +1834,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                             user_id=user.id,
                             reason="check_completed_next_due",
                         )
-                        await _ask_due_item(c.message, s, user, st, di, show_rule_first=(di.kind in ("detour","revisit") and di.exercise_index==1 and di.item_in_exercise==1 and di.batch_num==1), llm=llm)
+                        await _ask_due_item(
+                            c.message,
+                            s,
+                            user,
+                            st,
+                            di,
+                            acceptance_mode=_get_user_acceptance_mode(st, settings),
+                            llm=llm,
+                        )
                         await s.commit()
                         await c.answer()
                         return
@@ -1657,7 +1867,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     reason="continue_due_exercise",
                 )
                 # ask next due item immediately
-                await _ask_due_item(c.message, s, user, st, due, show_rule_first=False, llm=llm)
+                await _ask_due_item(
+                    c.message,
+                    s,
+                    user,
+                    st,
+                    due,
+                    acceptance_mode=_get_user_acceptance_mode(st, settings),
+                    llm=llm,
+                )
                 await s.commit()
                 await c.answer()
                 return
