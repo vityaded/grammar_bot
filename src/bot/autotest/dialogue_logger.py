@@ -21,6 +21,7 @@ class DialogueLogger:
         max_options: int,
         max_chars: int,
         include_ref: bool,
+        include_info_problems: bool,
     ) -> None:
         self._dialogue_path = dialogue_path
         self._problems_path = problems_path
@@ -28,6 +29,7 @@ class DialogueLogger:
         self._max_options = max_options
         self._max_chars = max_chars
         self._include_ref = include_ref
+        self._include_info_problems = include_info_problems
         self._turns: list[Turn] = []
         self._problem_turns: dict[int, set[str]] = {}
         self._issue_turns_by_type: dict[str, set[int]] = {}
@@ -43,7 +45,8 @@ class DialogueLogger:
         self._dialogue_handle.write("\n")
 
     def mark_problem(self, turn_index: int, issue: Issue) -> None:
-        self._problem_turns.setdefault(turn_index, set()).add(issue.issue_type)
+        if self._include_info_problems or issue.severity in ("warning", "error"):
+            self._problem_turns.setdefault(turn_index, set()).add(issue.issue_type)
         self._issue_turns_by_type.setdefault(issue.issue_type, set()).add(turn_index)
 
     def finalize(self) -> DialogueSummary:
@@ -105,12 +108,35 @@ class DialogueLogger:
         return issue_types
 
     def _format_turn(self, turn: Turn) -> str:
+        feedback = self._with_detect_line(turn)
         parts = [
             self._format_block(self._label("Bot", turn), self._safe_text(turn.bot_message)),
             self._format_block(self._label("User", turn), self._safe_text(turn.user_message)),
-            self._format_block(self._label("Bot", turn), self._safe_text(turn.bot_feedback)),
+            self._format_block(self._label("Bot", turn), self._safe_text(feedback)),
         ]
         return "\n".join(parts)
+
+    def _with_detect_line(self, turn: Turn) -> str:
+        if not turn.issues:
+            return turn.bot_feedback
+        detect_line = self._detect_line(turn.issues)
+        if not detect_line:
+            return turn.bot_feedback
+        if not turn.bot_feedback:
+            return detect_line
+        return f"{turn.bot_feedback}\n{detect_line}"
+
+    def _detect_line(self, issues: list[dict[str, object]]) -> str | None:
+        for issue in issues:
+            metadata = issue.get("metadata") or {}
+            if not isinstance(metadata, dict):
+                continue
+            task_kind = metadata.get("task_kind")
+            example_kind = metadata.get("example_kind")
+            trigger = metadata.get("trigger")
+            if task_kind or example_kind or trigger:
+                return f"Detect: task_kind={task_kind} example_kind={example_kind} trigger={trigger}"
+        return None
 
     def _label(self, role: str, turn: Turn) -> str:
         if not self._include_ref or turn.jsonl_ref is None:
