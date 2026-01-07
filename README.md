@@ -29,6 +29,7 @@ BOT_TOKEN=...
 ADMIN_IDS=123456789,987654321
 DATABASE_URL=sqlite+aiosqlite:///./data/app.db
 GOOGLE_API_KEY=...
+LLM_MODEL=gemini-3-flash-preview
 ```
 
 ## 3) Load content
