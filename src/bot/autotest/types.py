@@ -29,3 +29,14 @@ class Issue:
     issue_type: str
     severity: str
     details: str
+
+
+@dataclass
+class Turn:
+    turn_id: int
+    question_key: str
+    bot_message: str
+    user_message: str
+    bot_feedback: str
+    issues: list[dict[str, Any]]
+    jsonl_ref: int | str | None = None

@@ -19,10 +19,40 @@ from ..grader import grade_freetext, grade_option_item, resolve_option_item_conf
 from ..models import Attempt, UnitExercise, User, UserState, utcnow
 from ..normalize import norm_cmp_text, norm_multiselect_raw
 from .checks import gather_issues
+from .dialogue_logger import DialogueLogger
 from .solver import GeminiSolver
-from .types import AnswerAttempt, Issue, QuestionContext
+from .types import AnswerAttempt, Issue, QuestionContext, Turn
 
 logger = logging.getLogger(__name__)
+
+
+def _truncate_text(text: str, max_chars: int) -> str:
+    if max_chars <= 0 or len(text) <= max_chars:
+        return text
+    remaining = len(text) - max_chars
+    return f"{text[:max_chars]}...[TRUNCATED {remaining} chars]"
+
+
+def format_bot_message(ctx: QuestionContext, *, max_options: int, max_chars: int) -> str:
+    header = f"[{ctx.unit_key} ex{ctx.exercise_index} item{ctx.item_idx}] {ctx.question_key}"
+    instruction = _truncate_text(ctx.instruction or "", max_chars)
+    prompt = str(ctx.item.get("prompt") or "")
+    prompt = _truncate_text(prompt, max_chars) if len(prompt) > max_chars else prompt
+    options = [str(x) for x in (ctx.item.get("options") or [])]
+    option_lines: list[str] = []
+    if options:
+        truncated = options[:max_options]
+        for idx, opt in enumerate(truncated):
+            label = chr(ord("A") + idx)
+            opt_text = _truncate_text(str(opt), max_chars) if len(str(opt)) > max_chars else str(opt)
+            option_lines.append(f"{label}) {opt_text}")
+        remaining = len(options) - len(truncated)
+        if remaining > 0:
+            option_lines.append(f"...(+{remaining} more)")
+    parts = [header, "Instruction:", instruction, "Question:", prompt]
+    if option_lines:
+        parts.extend(["Options:", "\n".join(option_lines), "Format: A, C"])
+    return "\n".join(parts)
 
 
 @dataclass
@@ -39,6 +69,12 @@ class RunnerConfig:
     timeout_sec: float
     log_dir: Path
     run_id: str
+    dialogue_log_path: Path
+    problem_dialogue_log_path: Path
+    dialogue_context: int
+    dialogue_max_options: int
+    dialogue_max_chars: int
+    dialogue_include_jsonl_ref: bool
     ui_lang: str = "en"
     mode: str = "sweep"
 
@@ -136,6 +172,16 @@ class AutotestRunner:
         self._acceptance_mode = "normal"
         self._log_path = config.log_dir / f"autotest_{config.run_id}.jsonl"
         self._summary_path = config.log_dir / f"autotest_{config.run_id}_summary.json"
+        self._dialogue_logger = DialogueLogger(
+            config.dialogue_log_path,
+            config.problem_dialogue_log_path,
+            config.dialogue_context,
+            config.dialogue_max_options,
+            config.dialogue_max_chars,
+            config.dialogue_include_jsonl_ref,
+        )
+        self._event_index = 0
+        self._turn_id = 0
 
     async def run(self) -> int:
         logger.info(
@@ -230,9 +276,23 @@ class AutotestRunner:
             "options": ctx.item.get("options"),
             "canonical": ctx.item.get("canonical"),
         }
-        await self._log_event("question_loaded", ctx)
+        jsonl_ref = await self._log_event("question_loaded", ctx)
+        turn = Turn(
+            turn_id=self._turn_id,
+            question_key=ctx.question_key,
+            bot_message=format_bot_message(
+                ctx,
+                max_options=self.config.dialogue_max_options,
+                max_chars=self.config.dialogue_max_chars,
+            ),
+            user_message="",
+            bot_feedback="",
+            issues=[],
+            jsonl_ref=jsonl_ref if self.config.dialogue_include_jsonl_ref else None,
+        )
+        self._turn_id += 1
         for issue in gather_issues(ctx):
-            await self._record_issue(ctx, issue)
+            await self._record_issue(ctx, issue, turn)
         force_wrong = self._mistake_scheduler.should_force_wrong()
         try:
             attempt = await self._solver.solve(ctx)
@@ -240,11 +300,24 @@ class AutotestRunner:
             count = self._timeout_counts.get(ctx.question_key, 0) + 1
             self._timeout_counts[ctx.question_key] = count
             await self._log_event("exception", ctx, details={"error": "timeout"})
+            await self._record_issue(ctx, Issue("LLM_TIMEOUT", "error", "solver timeout"), turn)
+            turn.user_message = "[NO_ANSWER: timeout]"
+            turn.bot_feedback = "[ERROR]"
+            self._dialogue_logger.append_turn(turn)
             if count >= 3:
                 await self._log_stuck(ctx, "gemini_timeout")
+                await self._append_stop_turn(ctx, reason="gemini_timeout", turn=turn)
                 await self._write_summary(reason="stuck", exception=exc)
                 raise StuckError("gemini_timeout")
             return
+        except Exception as exc:
+            await self._log_event("exception", ctx, details={"error": "solver_exception", "message": str(exc)})
+            await self._record_issue(ctx, Issue("LLM_EXCEPTION", "error", str(exc)), turn)
+            turn.user_message = f"[NO_ANSWER: {exc}]"
+            turn.bot_feedback = "[ERROR]"
+            self._dialogue_logger.append_turn(turn)
+            await self._write_summary(reason="exception", exception=exc)
+            raise
         await self._log_event("answer_generated", ctx, details={"answer_raw": attempt.raw})
 
         if force_wrong:
@@ -266,6 +339,7 @@ class AutotestRunner:
                         "warning",
                         "canonical or correct options could not be resolved; forced random wrong option",
                     ),
+                    turn,
                 )
 
         verdict, answer_norm, canonical_display = self._grade(ctx, attempt.raw)
@@ -304,6 +378,7 @@ class AutotestRunner:
                     "error",
                     "forced wrong answer graded correct",
                 ),
+                turn,
             )
         if norm_cmp_text(str(ctx.item.get("canonical") or "")) == norm_cmp_text(attempt.raw):
             if verdict == "wrong":
@@ -314,6 +389,7 @@ class AutotestRunner:
                         "error",
                         "canonical answer graded wrong",
                     ),
+                    turn,
                 )
         progress_key = ctx.question_key
         stuck = self._stuck.record(question_key=ctx.question_key, progress_key=progress_key)
@@ -326,8 +402,12 @@ class AutotestRunner:
                         "error",
                         f"no progress for {stuck[1]} attempts",
                     ),
+                    turn,
                 )
             await self._log_stuck(ctx, f"{stuck[0]}:{stuck[1]}")
+            self._finalize_turn(ctx, turn, verdict, answer_norm, canonical_display, attempt, force_wrong)
+            self._dialogue_logger.append_turn(turn)
+            await self._append_stop_turn(ctx, reason=f"{stuck[0]}:{stuck[1]}", turn=turn)
             await self._write_summary(reason="stuck")
             raise StuckError("stuck")
         self._last_verdicts.append(
@@ -339,6 +419,8 @@ class AutotestRunner:
         )
         if len(self._last_verdicts) > 5:
             self._last_verdicts = self._last_verdicts[-5:]
+        self._finalize_turn(ctx, turn, verdict, answer_norm, canonical_display, attempt, force_wrong)
+        self._dialogue_logger.append_turn(turn)
         await self._insert_attempt(session, ctx, answer_norm, verdict)
 
     def _force_wrong(self, ctx: QuestionContext, attempt: AnswerAttempt) -> AnswerAttempt:
@@ -430,7 +512,56 @@ class AutotestRunner:
             state.updated_at = utcnow()
             await session.commit()
 
-    async def _record_issue(self, ctx: QuestionContext, issue: Issue) -> None:
+    def _finalize_turn(
+        self,
+        ctx: QuestionContext,
+        turn: Turn,
+        verdict: str,
+        answer_norm: str,
+        canonical_display: str,
+        attempt: AnswerAttempt,
+        force_wrong: bool,
+    ) -> None:
+        user_lines = [attempt.raw]
+        if answer_norm != attempt.raw:
+            user_lines.append(f"Normalized: {answer_norm}")
+        turn.user_message = "\n".join(user_lines)
+        feedback_lines = [f"Verdict: {verdict}"]
+        if canonical_display:
+            feedback_lines.append(f"Canonical: {canonical_display}")
+        if force_wrong:
+            feedback_lines.append("ForcedWrong: yes")
+            if attempt.force_reason:
+                feedback_lines.append(f"ForceReason: {attempt.force_reason}")
+        issue_tags = [f"[{issue['issue_type']}]" for issue in turn.issues]
+        if issue_tags:
+            feedback_lines.append("Issues: " + " ".join(issue_tags))
+        turn.bot_feedback = "\n".join(feedback_lines)
+
+    async def _append_stop_turn(self, ctx: QuestionContext, *, reason: str, turn: Turn) -> None:
+        stop_issue = Issue("STOPPED", "error", reason)
+        stop_turn = Turn(
+            turn_id=self._turn_id,
+            question_key=ctx.question_key,
+            bot_message=(
+                f"[STOPPED] reason={reason}\n"
+                "Last question:\n"
+                + format_bot_message(
+                    ctx,
+                    max_options=self.config.dialogue_max_options,
+                    max_chars=self.config.dialogue_max_chars,
+                )
+            ),
+            user_message=turn.user_message or "[NO_ANSWER]",
+            bot_feedback="[ERROR]",
+            issues=[{"issue_type": stop_issue.issue_type, "severity": stop_issue.severity, "details": stop_issue.details}],
+            jsonl_ref=turn.jsonl_ref if self.config.dialogue_include_jsonl_ref else None,
+        )
+        self._turn_id += 1
+        self._dialogue_logger.mark_problem(stop_turn.turn_id, stop_issue)
+        self._dialogue_logger.append_turn(stop_turn)
+
+    async def _record_issue(self, ctx: QuestionContext, issue: Issue, turn: Turn | None = None) -> None:
         self._issues[issue.issue_type] += 1
         if issue.issue_type not in self._issue_examples:
             self._issue_examples[issue.issue_type] = []
@@ -441,6 +572,15 @@ class AutotestRunner:
                     "details": issue.details,
                 }
             )
+        if turn:
+            turn.issues.append(
+                {
+                    "issue_type": issue.issue_type,
+                    "severity": issue.severity,
+                    "details": issue.details,
+                }
+            )
+            self._dialogue_logger.mark_problem(turn.turn_id, issue)
         await self._log_event(
             "issue_detected",
             ctx,
@@ -451,7 +591,7 @@ class AutotestRunner:
             },
         )
 
-    async def _log_event(self, event: str, ctx: QuestionContext, *, details: dict[str, Any] | None = None) -> None:
+    async def _log_event(self, event: str, ctx: QuestionContext, *, details: dict[str, Any] | None = None) -> int:
         payload = {
             "ts": dt.datetime.now(tz=dt.timezone.utc).isoformat(),
             "run_id": self.config.run_id,
@@ -470,6 +610,8 @@ class AutotestRunner:
         self._log_path.parent.mkdir(parents=True, exist_ok=True)
         with self._log_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(payload, ensure_ascii=False) + "\n")
+        self._event_index += 1
+        return self._event_index
 
     async def _log_exception(self, event: str, exc: Exception) -> None:
         logger.exception("Autotest exception: %s", event)
@@ -484,12 +626,14 @@ class AutotestRunner:
         self._log_path.parent.mkdir(parents=True, exist_ok=True)
         with self._log_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(payload, ensure_ascii=False) + "\n")
+        self._event_index += 1
 
     async def _log_stuck(self, ctx: QuestionContext, reason: str) -> None:
         logger.warning("Autotest stuck: %s (%s)", reason, ctx.question_key)
         await self._log_event("stuck", ctx, details={"reason": reason})
 
     async def _write_summary(self, *, reason: str | None, exception: Exception | None = None) -> None:
+        dialogue_summary = self._dialogue_logger.finalize()
         summary = {
             "run_id": self.config.run_id,
             "totals": {
@@ -513,6 +657,10 @@ class AutotestRunner:
             "last_events": list(self._events),
             "last_context": self._last_ctx,
             "last_verdicts": self._last_verdicts,
+            "dialogue_log_path": str(self.config.dialogue_log_path),
+            "problem_dialogue_log_path": str(self.config.problem_dialogue_log_path),
+            "problem_turn_count": dialogue_summary.problem_turn_count,
+            "issue_turn_count_by_type": dialogue_summary.issue_turn_count_by_type,
         }
         if exception:
             summary["exception"] = {
