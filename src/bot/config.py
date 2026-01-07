@@ -20,6 +20,7 @@ class Settings:
     admin_ids: List[int]
     database_url: str
     gemini_api_key: str | None
+    llm_model: str
     ui_default_lang: str = "uk"  # uk/en
     acceptance_mode: str = "normal"  # easy|normal|strict
 
@@ -35,6 +36,7 @@ def load_settings() -> Settings:
 
     database_url = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./data/app.db")
     gemini_api_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY") or None
+    llm_model = os.getenv("LLM_MODEL", "gemini-3-flash-preview").strip()
     acceptance_mode = os.getenv("ACCEPTANCE_MODE", "normal").strip().lower()
     if acceptance_mode not in {"easy", "normal", "strict"}:
         raise RuntimeError("ACCEPTANCE_MODE must be easy, normal, or strict")
@@ -44,5 +46,6 @@ def load_settings() -> Settings:
         admin_ids=admin_ids,
         database_url=database_url,
         gemini_api_key=gemini_api_key,
+        llm_model=llm_model,
         acceptance_mode=acceptance_mode,
     )
