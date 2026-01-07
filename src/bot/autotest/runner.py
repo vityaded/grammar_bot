@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import datetime as dt
 import json
+import logging
 import random
 import traceback
 from collections import Counter, deque
@@ -20,6 +21,8 @@ from ..normalize import norm_cmp_text, norm_multiselect_raw
 from .checks import gather_issues
 from .solver import GeminiSolver
 from .types import AnswerAttempt, Issue, QuestionContext
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -135,18 +138,33 @@ class AutotestRunner:
         self._summary_path = config.log_dir / f"autotest_{config.run_id}_summary.json"
 
     async def run(self) -> int:
+        logger.info(
+            "Autotest run started (run_id=%s, model=%s, total_attempts=%s)",
+            self.config.run_id,
+            self.config.model,
+            self.config.total_attempts,
+        )
         await ensure_sqlite_schema(self._engine)
         async with self._sessionmaker() as session:
             await self._ensure_test_user(session)
             try:
                 exit_code = await self._run_sweep(session)
             except StuckError:
+                logger.warning("Autotest stopped: stuck condition reached")
                 return 2
             except Exception as exc:
+                logger.exception("Autotest stopped: unexpected error")
                 await self._log_exception("runner_exception", exc)
                 await self._write_summary(reason="exception", exception=exc)
                 return 3
         await self._write_summary(reason=None)
+        logger.info(
+            "Autotest run completed (attempts=%s, correct=%s, almost=%s, wrong=%s)",
+            self._stats.attempts,
+            self._stats.correct,
+            self._stats.almost,
+            self._stats.wrong,
+        )
         return exit_code
 
     async def _ensure_test_user(self, session: AsyncSession) -> None:
@@ -269,6 +287,14 @@ class AutotestRunner:
             self._stats.almost += 1
         else:
             self._stats.wrong += 1
+        if self._stats.attempts == 1 or self._stats.attempts % 50 == 0:
+            logger.info(
+                "Progress: attempts=%s correct=%s almost=%s wrong=%s",
+                self._stats.attempts,
+                self._stats.correct,
+                self._stats.almost,
+                self._stats.wrong,
+            )
         if force_wrong and verdict == "correct":
             self._stats.forced_wrong_accepted += 1
             await self._record_issue(
@@ -446,6 +472,7 @@ class AutotestRunner:
             handle.write(json.dumps(payload, ensure_ascii=False) + "\n")
 
     async def _log_exception(self, event: str, exc: Exception) -> None:
+        logger.exception("Autotest exception: %s", event)
         payload = {
             "ts": dt.datetime.now(tz=dt.timezone.utc).isoformat(),
             "run_id": self.config.run_id,
@@ -459,6 +486,7 @@ class AutotestRunner:
             handle.write(json.dumps(payload, ensure_ascii=False) + "\n")
 
     async def _log_stuck(self, ctx: QuestionContext, reason: str) -> None:
+        logger.warning("Autotest stuck: %s (%s)", reason, ctx.question_key)
         await self._log_event("stuck", ctx, details={"reason": reason})
 
     async def _write_summary(self, *, reason: str | None, exception: Exception | None = None) -> None:
