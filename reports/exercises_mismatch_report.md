@@ -1,0 +1,1119 @@
+# Exercises mismatch report
+
+## Totals
+- answer_block_in_instruction: 555
+- example_mismatch: 1
+
+## Details
+- unit_1 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete with the present continuous (am/is/are + -ing). Example: Complete: (study) Anna ____ in the library at the moment. Answer: is studying" → "Complete with the present continuous (am/is/are + -ing). Example: Complete: (study) Anna ____ in the library at the moment. Answer: is studying"
+- unit_1 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct sentence (present continuous for 'now'). Example: Choose the correct option: A) Oleh studies this minute. B) Oleh is studying right now. C) Oleh has studied r..." → "Choose the correct sentence (present continuous for 'now'). Example: Choose the correct option: A) Oleh studies this minute. B) Oleh is studying right now. C) Oleh has studied r..."
+- unit_1 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions in the present continuous. Example: Complete: (work) Anna ____ at home at the moment. Answer: is working" → "Write questions in the present continuous. Example: Complete: (work) Anna ____ at home at the moment. Answer: is working"
+- unit_1 ex 4 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct -ing form (watch spelling). Example: Correct the sentence: 'She don't want this.' Answer: She doesn't want it." → "Complete with the correct -ing form (watch spelling). Example: Correct the sentence: 'She don't want this.' Answer: She doesn't want it."
+- unit_2 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete with the present simple. Example: Complete in the present simple: (live) My sister ____ on Mondays. Answer: lives" → "Complete with the present simple. Example: Complete in the present simple: (live) My sister ____ on Mondays. Answer: lives"
+- unit_2 ex 2 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the correct form (he/she/it). Example: Correct the sentence: 'I am agree with you.' Answer: I agree with you." → "Put the verb in the correct form (he/she/it). Example: Correct the sentence: 'I am agree with you.' Answer: I agree with you."
+- unit_2 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions with do/does. Example: Complete: ____ you like English after work? (do/does) Answer: Do" → "Write questions with do/does. Example: Complete: ____ you like English after work? (do/does) Answer: Do"
+- unit_2 ex 4 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (don't/doesn't). Example: Complete the negative: they ____ fish. (not / remember) Answer: don't remember" → "Complete the sentences (don't/doesn't). Example: Complete the negative: they ____ fish. (not / remember) Answer: don't remember"
+- unit_2 ex 5 (free_text) [example_mismatch]
+  - Instruction: "Write short answers. Example: Write a sentence: (next week / meet / my colleague) Answer: I'll meet my colleague next week." → "Write short answers."
+- unit_3 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the present simple or present continuous. Example: Complete: (wait) She ____ in the kitchen right now. Answer: is waiting" → "Put the verb in the present simple or present continuous. Example: Complete: (wait) She ____ in the kitchen right now. Answer: is waiting"
+- unit_3 ex 2 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct form (now vs usually). Example: Correct the sentence: 'They is working right now.' Answer: They are working this minute." → "Complete with the correct form (now vs usually). Example: Correct the sentence: 'They is working right now.' Answer: They are working this minute."
+- unit_3 ex 3 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the correct form. Example: Correct the sentence: 'I must to go now.' Answer: I must go now." → "Put the verb in the correct form. Example: Correct the sentence: 'I must to go now.' Answer: I must go now."
+- unit_3 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Correct the sentences (use the right tense). Example: Correct the sentence: 'She don't know coffee.' Answer: She doesn't know this." → "Correct the sentences (use the right tense). Example: Correct the sentence: 'She don't know coffee.' Answer: She doesn't know this."
+- unit_4 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the present simple or present continuous. Example: Complete: (drive) Katya ____ at home now. Answer: is driving" → "Put the verb in the present simple or present continuous. Example: Complete: (drive) Katya ____ at home now. Answer: is driving"
+- unit_4 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write sentences in the present continuous. Example: Complete: (study) I ____ at the gym this minute. Answer: am studying" → "Write sentences in the present continuous. Example: Complete: (study) I ____ at the gym this minute. Answer: am studying"
+- unit_4 ex 3 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with the correct form. Example: Correct the sentence: 'He study to school in the evenings.' Answer: He studies to work on Mondays." → "Complete each sentence with the correct form. Example: Correct the sentence: 'He study to school in the evenings.' Answer: He studies to work on Mondays."
+- unit_4 ex 4 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the correct form. Example: Correct the sentence: 'He study to work once a week.' Answer: He studies to work once a week." → "Put the verb in the correct form. Example: Correct the sentence: 'He study to work once a week.' Answer: He studies to work once a week."
+- unit_5 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences in the past simple. Example: Complete with the past simple: (visit) Lena ____ us yesterday. Answer: visited" → "Complete the sentences in the past simple. Example: Complete with the past simple: (visit) Lena ____ us yesterday. Answer: visited"
+- unit_5 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the past simple forms. Example: Complete with the past simple: (build) Danylo ____ me last night. Answer: built" → "Complete with the past simple forms. Example: Complete with the past simple: (build) Danylo ____ me last night. Answer: built"
+- unit_5 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions with did. Example: Write a sentence: (in the evening / visit / my colleague) Answer: I'll visit my colleague in the evening." → "Write questions with did. Example: Write a sentence: (in the evening / visit / my colleague) Answer: I'll visit my colleague in the evening."
+- unit_5 ex 4 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete using the past simple. Example: Complete with the past simple: (visit) Danylo ____ his sister yesterday. Answer: visited" → "Complete using the past simple. Example: Complete with the past simple: (visit) Danylo ____ his sister yesterday. Answer: visited"
+- unit_6 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the past continuous (was/were + -ing). Example: Complete with the past continuous: At 9 pm, Katya ____ at the station. Answer: was cooking" → "Put the verb in the past continuous (was/were + -ing). Example: Complete with the past continuous: At 9 pm, Katya ____ at the station. Answer: was cooking"
+- unit_6 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with past continuous and past simple. Example: Complete with the past simple: (play) Danylo ____ me two days ago. Answer: playyed" → "Complete with past continuous and past simple. Example: Complete with the past simple: (play) Danylo ____ me two days ago. Answer: playyed"
+- unit_6 ex 3 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete with the past continuous. Example: Complete with the past continuous: At 9 pm, Sofia ____ at work. Answer: was sleeping" → "Complete with the past continuous. Example: Complete with the past continuous: At 9 pm, Sofia ____ at work. Answer: was sleeping"
+- unit_6 ex 4 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Choose the correct verb form. Example: Choose the correct option: A) Anna looked at weekends. B) Anna is looking once a week. C) Anna looks on Mondays. D) Anna will look on Mond..." → "Choose the correct verb form. Example: Choose the correct option: A) Anna looked at weekends. B) Anna is looking once a week. C) Anna looks on Mondays. D) Anna will look on Mond..."
+- unit_7 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete with have/has + past participle. Example: Complete: (visit) Katya ____ your message. Answer: has visited" → "Complete with have/has + past participle. Example: Complete: (visit) Katya ____ your message. Answer: has visited"
+- unit_7 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the past participle. Example: Write a sentence: (on Saturday / travel / my friend) Answer: I'll travel my friend on Saturday." → "Write the past participle. Example: Write a sentence: (on Saturday / travel / my friend) Answer: I'll travel my friend on Saturday."
+- unit_7 ex 3 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete using just/already/yet. Example: Complete: Can you ____ this form for me? (just / already / yet) Answer: just" → "Complete using just/already/yet. Example: Complete: Can you ____ this form for me? (just / already / yet) Answer: just"
+- unit_7 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write sentences/questions with ever/never and yet. Example: Write a sentence: (next week / study / my friend) Answer: I'll study my friend next week." → "Write sentences/questions with ever/never and yet. Example: Write a sentence: (next week / study / my friend) Answer: I'll study my friend next week."
+- unit_8 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions with Have you ever…? Example: Write the question: you / ever / meet / a famous actor? Answer: Have you ever meet a famous actor?" → "Write questions with Have you ever…? Example: Write the question: you / ever / meet / a famous actor? Answer: Have you ever meet a famous actor?"
+- unit_8 ex 2 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete (present perfect or past simple). Example: Complete with the past simple: (watch) Iryna ____ me yesterday. Answer: watched" → "Complete (present perfect or past simple). Example: Complete with the past simple: (watch) Iryna ____ me yesterday. Answer: watched"
+- unit_8 ex 3 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Write sentences in the present perfect. Example: Complete: (visit) Lena ____ my keys. Answer: has visited" → "Write sentences in the present perfect. Example: Complete: (visit) Lena ____ my keys. Answer: has visited"
+- unit_8 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write two sentences: present perfect (news) + past simple (detail). Example: Complete with the past simple: (help) Danylo ____ his sister last night. Answer: helped" → "Write two sentences: present perfect (news) + past simple (detail). Example: Complete with the past simple: (help) Danylo ____ his sister last night. Answer: helped"
+- unit_9 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Complete with the present perfect continuous. Example: Complete: (listen) She ____ at the gym now. Answer: is listening" → "Complete with the present perfect continuous. Example: Complete: (listen) She ____ at the gym now. Answer: is listening"
+- unit_9 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use the present perfect continuous (often with for/since). Example: Complete: (drive) They ____ at the station right now. Answer: are driving" → "Use the present perfect continuous (often with for/since). Example: Complete: (drive) They ____ at the station right now. Answer: are driving"
+- unit_9 ex 3 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Choose for or since. Example: Choose the correct option: A) Maksym is cooking on Mondays. B) Maksym cooks once a week. C) Maksym will cook every summer. D) Maksym cooked every s..." → "Choose for or since. Example: Choose the correct option: A) Maksym is cooking on Mondays. B) Maksym cooks once a week. C) Maksym will cook every summer. D) Maksym cooked every s..."
+- unit_9 ex 4 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Choose the correct form (perfect simple or perfect continuous). Example: Choose the correct option: A) Iryna studied in the evenings. B) Iryna studies every day. C) Iryna will s..." → "Choose the correct form (perfect simple or perfect continuous). Example: Choose the correct option: A) Iryna studied in the evenings. B) Iryna studies every day. C) Iryna will s..."
+- unit_10 ex 1 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Choose the correct form (present perfect simple or continuous). Example: Choose the correct option: A) Lena has finished the report. B) Lena will finish my keys. C) Lena finishe..." → "Choose the correct form (present perfect simple or continuous). Example: Choose the correct option: A) Lena has finished the report. B) Lena will finish my keys. C) Lena finishe..."
+- unit_10 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions (How long…? How many…?). Example: Write a sentence: (in the evening / call / my friend) Answer: I'll call my friend in the evening." → "Write questions (How long…? How many…?). Example: Write a sentence: (in the evening / call / my friend) Answer: I'll call my friend in the evening."
+- unit_10 ex 3 (gapfill) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the correct form. Example: Correct the sentence: 'She don't like this.' Answer: She doesn't like coffee." → "Put the verb in the correct form. Example: Correct the sentence: 'She don't like this.' Answer: She doesn't like coffee."
+- unit_11 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Yaroslav is driving at weekends. B) Yaroslav will drive in the evenings. C) Yaroslav drived on Mondays. D) Yaro..." → "Choose the correct option. Example: Choose the correct option: A) Yaroslav is driving at weekends. B) Yaroslav will drive in the evenings. C) Yaroslav drived on Mondays. D) Yaro..."
+- unit_11 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Make questions using the present perfect. Example: Complete: (write) Danylo ____ the task. Answer: has writed" → "Make questions using the present perfect. Example: Complete: (write) Danylo ____ the task. Answer: has writed"
+- unit_11 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the answers. Example: Complete: There isn't ____ time. Answer: many" → "Complete the answers. Example: Complete: There isn't ____ time. Answer: many"
+- unit_12 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with for or since. Example: Complete: We ____ sugar, so let's buy some. (for / since) Answer: for" → "Complete with for or since. Example: Complete: We ____ sugar, so let's buy some. (for / since) Answer: for"
+- unit_12 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with ago / for / since where appropriate. Example: Complete: I ____ my neighbour's cat when she's away. (ago / for / since where appropriate) Answer: ago" → "Complete with ago / for / since where appropriate. Example: Complete: I ____ my neighbour's cat when she's away. (ago / for / since where appropriate) Answer: ago"
+- unit_12 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions or short answers about time (how long / for / since). Example: Write a sentence: (on Saturday / visit / a new recipe) Answer: I'll visit a new recipe on Saturday." → "Write questions or short answers about time (how long / for / since). Example: Write a sentence: (on Saturday / visit / a new recipe) Answer: I'll visit a new recipe on Saturday."
+- unit_12 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use 'It's been ... since ...' or complete with since. Example: Complete: There isn't ____ time. (unit_12-4) Answer: a little" → "Use 'It's been ... since ...' or complete with since. Example: Complete: There isn't ____ time. (unit_12-4) Answer: a little"
+- unit_13 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use present perfect where it fits; otherwise use past simple. Example: Complete with the past simple: (help) Maksym ____ us yesterday. Answer: helped" → "Use present perfect where it fits; otherwise use past simple. Example: Complete with the past simple: (help) Maksym ____ us yesterday. Answer: helped"
+- unit_13 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write OK or correct the sentence. Example: Correct the sentence: 'He study to the gym at weekends.' Answer: He studies to school every day." → "Write OK or correct the sentence. Example: Correct the sentence: 'He study to the gym at weekends.' Answer: He studies to school every day."
+- unit_13 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with present perfect or past simple. Example: Complete with the past simple: (finish) Yaroslav ____ his sister yesterday. Answer: finished" → "Complete with present perfect or past simple. Example: Complete with the past simple: (finish) Yaroslav ____ his sister yesterday. Answer: finished"
+- unit_14 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the verb into past simple (finished time). Example: Complete with the past simple: (finish) Katya ____ me yesterday. Answer: finished" → "Put the verb into past simple (finished time). Example: Complete with the past simple: (finish) Katya ____ me yesterday. Answer: finished"
+- unit_14 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the verb into present perfect (time up to now). Example: Complete: (send) Katya ____ the report. Answer: has sended" → "Put the verb into present perfect (time up to now). Example: Complete: (send) Katya ____ the report. Answer: has sended"
+- unit_14 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose past simple or present perfect. Example: Choose the correct option: A) Iryna has forgeted my keys. B) Iryna is forgeting the report. C) Iryna forgeted my keys. D) Iryna w..." → "Choose past simple or present perfect. Example: Choose the correct option: A) Iryna has forgeted my keys. B) Iryna is forgeting the report. C) Iryna forgeted my keys. D) Iryna w..."
+- unit_14 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions with When…? / What time…? Example: Write a sentence: (tomorrow / call / my colleague) Answer: Tomorrow I'll call my colleague." → "Write questions with When…? / What time…? Example: Write a sentence: (tomorrow / call / my colleague) Answer: Tomorrow I'll call my colleague."
+- unit_15 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the verb into past perfect (had done). Example: Complete: By the time I arrived, Danylo ____. Answer: had meeted" → "Put the verb into past perfect (had done). Example: Complete: By the time I arrived, Danylo ____. Answer: had meeted"
+- unit_15 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using before/after + past perfect. Example: Complete: By the time I arrived, Anna ____. Answer: had made" → "Rewrite using before/after + past perfect. Example: Complete: By the time I arrived, Anna ____. Answer: had made"
+- unit_15 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with past perfect where it shows 'earlier past'. Example: Complete: By the time I arrived, Oleh ____. Answer: had left" → "Complete with past perfect where it shows 'earlier past'. Example: Complete: By the time I arrived, Oleh ____. Answer: had left"
+- unit_16 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the verb into past perfect continuous (had been doing). Example: Complete: By the time I arrived, Katya ____. Answer: had left" → "Put the verb into past perfect continuous (had been doing). Example: Complete: By the time I arrived, Katya ____. Answer: had left"
+- unit_16 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose past perfect simple or continuous. Example: Choose the correct option: A) Maksym carried in the evenings. B) Maksym will carry once a week. C) Maksym is carrying every da..." → "Choose past perfect simple or continuous. Example: Choose the correct option: A) Maksym carried in the evenings. B) Maksym will carry once a week. C) Maksym is carrying every da..."
+- unit_16 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with had been doing (often with for/since). Example: Complete: There isn't ____ time. (unit_16-3) Answer: any" → "Complete with had been doing (often with for/since). Example: Complete: There isn't ____ time. (unit_16-3) Answer: any"
+- unit_17 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with have/has (have got is also possible in meaning A). Example: Complete: Can you ____ this form for me? (have / has) Answer: have" → "Complete with have/has (have got is also possible in meaning A). Example: Complete: Can you ____ this form for me? (have / has) Answer: have"
+- unit_17 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite or make questions/negatives. Use have / have got where appropriate. Example: Rewrite using the passive: 'People produced these chairs every year.' Answer: These chairs w..." → "Rewrite or make questions/negatives. Use have / have got where appropriate. Example: Rewrite using the passive: 'People produced these chairs every year.' Answer: These chairs w..."
+- unit_17 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct form of have. Example: Correct the sentence: 'She don't like coffee.' Answer: She doesn't like this." → "Complete with the correct form of have. Example: Correct the sentence: 'She don't like coffee.' Answer: She doesn't like this."
+- unit_17 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct form (have / have got / have as an action). Example: Choose the correct option: A) Iryna is reading every summer. B) Iryna readed every summer. C) Iryna will ..." → "Choose the correct form (have / have got / have as an action). Example: Choose the correct option: A) Iryna is reading every summer. B) Iryna readed every summer. C) Iryna will ..."
+- unit_18 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with used to / didn't use to. Example: Complete: I ____ my neighbour's cat when she's away. (used to / didn't use to) Answer: used to" → "Complete with used to / didn't use to. Example: Complete: I ____ my neighbour's cat when she's away. (used to / didn't use to) Answer: used to"
+- unit_18 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions with Did ... use to ... ? Example: Write a sentence: (next week / visit / my friend) Answer: I'll visit my friend next week." → "Write questions with Did ... use to ... ? Example: Write a sentence: (next week / visit / my friend) Answer: I'll visit my friend next week."
+- unit_18 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (used to vs now). Example: Complete: There isn't ____ time. (unit_18-3) Answer: much" → "Complete the sentences (used to vs now). Example: Complete: There isn't ____ time. (unit_18-3) Answer: much"
+- unit_18 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with be used to / get used to or used to. Example: Complete: I ____ my neighbour's cat when she's away. (be used to / get used to or used to) Answer: be used to" → "Complete with be used to / get used to or used to. Example: Complete: I ____ my neighbour's cat when she's away. (be used to / get used to or used to) Answer: be used to"
+- unit_19 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use present continuous for future arrangements. Example: Complete: (cook) I ____ in class right now. Answer: am cooking" → "Use present continuous for future arrangements. Example: Complete: (cook) I ____ in class right now. Answer: am cooking"
+- unit_19 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use present simple for timetables and schedules. Example: Complete in the present simple: (work) My parents ____ at weekends. Answer: work" → "Use present simple for timetables and schedules. Example: Complete in the present simple: (work) My parents ____ at weekends. Answer: work"
+- unit_19 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Present simple vs present continuous (future meaning). Example: Complete: (talk) He ____ in the kitchen right now. Answer: is talking" → "Present simple vs present continuous (future meaning). Example: Complete: (talk) He ____ in the kitchen right now. Answer: is talking"
+- unit_19 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose present continuous (arrangement) or present simple (timetable). Example: Choose the correct option: A) Katya cooked right now. B) Katya is cooking now. C) Katya has cooke..." → "Choose present continuous (arrangement) or present simple (timetable). Example: Choose the correct option: A) Katya cooked right now. B) Katya is cooking now. C) Katya has cooke..."
+- unit_20 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with going to + verb (plans). Example: Complete: He's holding a suitcase. He ____ travel today. (going to) Answer: is going to" → "Complete with going to + verb (plans). Example: Complete: He's holding a suitcase. He ____ travel today. (going to) Answer: is going to"
+- unit_20 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Make predictions with going to (evidence now). Example: Complete: She's looking at the recipe. She ____ bake a cake. (going to) Answer: is going to" → "Make predictions with going to (evidence now). Example: Complete: She's looking at the recipe. She ____ bake a cake. (going to) Answer: is going to"
+- unit_20 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Questions and negatives with (be) going to. Example: Complete: Look at those dark clouds! It ____ rain soon. (going to) Answer: is going to" → "Questions and negatives with (be) going to. Example: Complete: Look at those dark clouds! It ____ rain soon. (going to) Answer: is going to"
+- unit_20 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with was/were going to (a past plan). Example: Complete: She's looking at the recipe. She ____ bake a cake. (going to) (unit_20-4) Answer: is going to" → "Complete with was/were going to (a past plan). Example: Complete: She's looking at the recipe. She ____ bake a cake. (going to) (unit_20-4) Answer: is going to"
+- unit_21 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences using will ('ll) or won't where appropriate. Example: Complete: I think I ____ come you later. (will) Answer: will come" → "Complete the sentences using will ('ll) or won't where appropriate. Example: Complete: I think I ____ come you later. (will) Answer: will come"
+- unit_21 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use I'll / won't / Will you…? as needed. Example: Complete: I think I ____ go you later. (will) Answer: will go" → "Complete the sentences. Use I'll / won't / Will you…? as needed. Example: Complete: I think I ____ go you later. (will) Answer: will go"
+- unit_21 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct sentence in each situation. Example: Choose the correct option: A) Katya practices in the evenings. B) Katya will practice every summer. C) Katya practiced on..." → "Choose the correct sentence in each situation. Example: Choose the correct option: A) Katya practices in the evenings. B) Katya will practice every summer. C) Katya practiced on..."
+- unit_21 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write questions with Shall I…? or Shall we…? Example: Write a sentence: (on Saturday / call / my parents) Answer: I'll call my parents on Saturday." → "Write questions with Shall I…? or Shall we…? Example: Write a sentence: (on Saturday / call / my parents) Answer: I'll call my parents on Saturday."
+- unit_22 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with will / won't (as appropriate). Example: Complete: I think I ____ help you later. (will) Answer: will help" → "Complete the sentences with will / won't (as appropriate). Example: Complete: I think I ____ help you later. (will) Answer: will help"
+- unit_22 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Make predictions. Complete each sentence with will / won't and a suitable verb. Example: Complete: I think I ____ meet you later. (will) Answer: will meet" → "Make predictions. Complete each sentence with will / won't and a suitable verb. Example: Complete: I think I ____ meet you later. (will) Answer: will meet"
+- unit_22 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Katya painted once a week. B) Katya paints once a week. C) Katya is painting every day. D) Katya will paint on ..." → "Choose the correct option. Example: Choose the correct option: A) Katya painted once a week. B) Katya paints once a week. C) Katya is painting every day. D) Katya will paint on ..."
+- unit_22 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences using shall / shan't where appropriate. Example: Complete: I ____ my neighbour's cat when she's away. (shall / shan't where appropriate) Answer: shall" → "Complete the sentences using shall / shan't where appropriate. Example: Complete: I ____ my neighbour's cat when she's away. (shall / shan't where appropriate) Answer: shall"
+- unit_22 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use will / won't, or the present after hope. Example: Complete: I think I ____ send you later. (will) Answer: will send" → "Complete the sentences. Use will / won't, or the present after hope. Example: Complete: I think I ____ send you later. (will) Answer: will send"
+- unit_23 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with I'll (I will) or (be) going to. Example: Complete: Look at those dark clouds! It ____ rain soon. (going to) (unit_23-1) Answer: is going to" → "Complete the sentences with I'll (I will) or (be) going to. Example: Complete: Look at those dark clouds! It ____ rain soon. (going to) (unit_23-1) Answer: is going to"
+- unit_23 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use will or (be) going to. Example: Complete: He's holding a suitcase. He ____ travel today. (going to) (unit_23-2) Answer: is going to" → "Complete the sentences. Use will or (be) going to. Example: Complete: He's holding a suitcase. He ____ travel today. (going to) (unit_23-2) Answer: is going to"
+- unit_23 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write sentences using will / won't or (be) going to. Example: Complete: She's looking at the recipe. She ____ bake a cake. (going to) (unit_23-3) Answer: is going to" → "Write sentences using will / won't or (be) going to. Example: Complete: She's looking at the recipe. She ____ bake a cake. (going to) (unit_23-3) Answer: is going to"
+- unit_24 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Danylo paints on Mondays. B) Danylo will paint every summer. C) Danylo is painting at weekends. D) Danylo paint..." → "Choose the correct option. Example: Choose the correct option: A) Danylo paints on Mondays. B) Danylo will paint every summer. C) Danylo is painting at weekends. D) Danylo paint..."
+- unit_24 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with will be -ing. Example: Complete: I think I ____ finish you later. (will) Answer: will finish" → "Complete the sentences with will be -ing. Example: Complete: I think I ____ finish you later. (will) Answer: will finish"
+- unit_24 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with will be -ing or will have done. Example: Complete: I think I ____ call you later. (will) Answer: will call" → "Complete with will be -ing or will have done. Example: Complete: I think I ____ call you later. (will) Answer: will call"
+- unit_25 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use the present (not will) after time words. Example: Complete: I think I ____ come you later. (will) (unit_25-1) Answer: will come" → "Complete the sentences. Use the present (not will) after time words. Example: Complete: I think I ____ come you later. (will) (unit_25-1) Answer: will come"
+- unit_25 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the present perfect where it means 'finished before'. Example: Complete: (visit) Lena ____ the report. Answer: has visited" → "Complete with the present perfect where it means 'finished before'. Example: Complete: (visit) Lena ____ the report. Answer: has visited"
+- unit_25 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with the correct present form. Example: Correct the sentence: 'They is studying right now.' Answer: They are studying this minute." → "Complete each sentence with the correct present form. Example: Correct the sentence: 'They is studying right now.' Answer: They are studying this minute."
+- unit_25 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with if or when. Example: Write a sentence with if: you don't water plants → they die. Answer: If you don't water plants, they die." → "Complete with if or when. Example: Write a sentence with if: you don't water plants → they die. Answer: If you don't water plants, they die."
+- unit_26 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with can or can't. Example: Complete: Can you ____ this form for me? (can / can't) Answer: can" → "Complete the sentences with can or can't. Example: Complete: Can you ____ this form for me? (can / can't) Answer: can"
+- unit_26 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with (be) able to in the correct form. Example: Correct the sentence: 'They is working this minute.' Answer: They are working this minute." → "Complete with (be) able to in the correct form. Example: Correct the sentence: 'They is working this minute.' Answer: They are working this minute."
+- unit_26 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with could / couldn't. Example: Complete: Please ____ your jacket; it's warm inside. (could / couldn't) Answer: could" → "Complete with could / couldn't. Example: Complete: Please ____ your jacket; it's warm inside. (could / couldn't) Answer: could"
+- unit_26 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use was/were able to or managed to. Example: Complete: There isn't ____ time. (unit_26-4) Answer: any" → "Complete the sentences. Use was/were able to or managed to. Example: Complete: There isn't ____ time. (unit_26-4) Answer: any"
+- unit_26 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with can/can't, could/couldn't, or (be) able to. Example: Complete: I ____ my neighbour's cat when she's away. (can / can't, could / couldn't, or able to)..." → "Complete the sentences with can/can't, could/couldn't, or (be) able to. Example: Complete: I ____ my neighbour's cat when she's away. (can / can't, could / couldn't, or able to)..."
+- unit_27 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write sentences using could. Example: Write a sentence: (in the evening / meet / my colleague) Answer: I'll meet my colleague in the evening." → "Write sentences using could. Example: Write a sentence: (in the evening / meet / my colleague) Answer: I'll meet my colleague in the evening."
+- unit_27 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with could / couldn't. Example: Complete: I ____ my neighbour's cat when she's away. (could / couldn't) Answer: could" → "Complete the sentences with could / couldn't. Example: Complete: I ____ my neighbour's cat when she's away. (could / couldn't) Answer: could"
+- unit_27 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Oleh runned in the evenings. B) Oleh is running every day. C) Oleh will run in the evenings. D) Oleh runs in th..." → "Choose the correct option. Example: Choose the correct option: A) Oleh runned in the evenings. B) Oleh is running every day. C) Oleh will run in the evenings. D) Oleh runs in th..."
+- unit_27 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with could have / couldn't have. Example: Complete: We ____ sugar, so let's buy some. (could have / couldn't have) Answer: could have" → "Complete the sentences with could have / couldn't have. Example: Complete: We ____ sugar, so let's buy some. (could have / couldn't have) Answer: could have"
+- unit_28 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with must or can't. Example: Complete: I ____ my neighbour's cat when she's away. (must / can't) Answer: must" → "Complete the sentences with must or can't. Example: Complete: I ____ my neighbour's cat when she's away. (must / can't) Answer: must"
+- unit_28 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences about the past. Example: Complete: There isn't ____ time. (unit_28-2) Answer: many" → "Complete the sentences about the past. Example: Complete: There isn't ____ time. (unit_28-2) Answer: many"
+- unit_28 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using must / can't (and must have / can't have). Example: Rewrite using the passive: 'They repaired the window every year.' Answer: The window was repaired every year." → "Rewrite using must / can't (and must have / can't have). Example: Rewrite using the passive: 'They repaired the window every year.' Answer: The window was repaired every year."
+- unit_29 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with may/might (or maybe / may be). Example: Complete: We ____ sugar, so let's buy some. (may / might) Answer: may" → "Complete with may/might (or maybe / may be). Example: Complete: We ____ sugar, so let's buy some. (may / might) Answer: may"
+- unit_29 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences about the past with may/might have. Example: Complete: Please ____ your jacket; it's warm inside. (may / might have) Answer: may" → "Complete the sentences about the past with may/might have. Example: Complete: Please ____ your jacket; it's warm inside. (may / might have) Answer: may"
+- unit_29 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Oleh listened on Mondays. B) Oleh will listen on Mondays. C) Oleh listens on Mondays. D) Oleh is listening in t..." → "Choose the correct option. Example: Choose the correct option: A) Oleh listened on Mondays. B) Oleh will listen on Mondays. C) Oleh listens on Mondays. D) Oleh is listening in t..."
+- unit_30 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Iryna talked in the evenings. B) Iryna will talk once a week. C) Iryna talks on Mondays. D) Iryna is talking at..." → "Choose the correct option. Example: Choose the correct option: A) Iryna talked in the evenings. B) Iryna will talk once a week. C) Iryna talks on Mondays. D) Iryna is talking at..."
+- unit_30 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with might (unreal situations). Example: Complete: There isn't ____ time. (unit_30-2) Answer: a few" → "Complete the sentences with might (unreal situations). Example: Complete: There isn't ____ time. (unit_30-2) Answer: a few"
+- unit_30 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using may/might be -ing. Example: Complete: Please ____ your jacket; it's warm inside. (may / might be -ing) Answer: may" → "Complete using may/might be -ing. Example: Complete: Please ____ your jacket; it's warm inside. (may / might be -ing) Answer: may"
+- unit_30 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with might as well / may as well. Example: Complete: Can you ____ this form for me? (might as well / may as well) Answer: might as well" → "Complete the sentences with might as well / may as well. Example: Complete: Can you ____ this form for me? (might as well / may as well) Answer: might as well"
+- unit_30 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Example: Complete: There isn't ____ time. (unit_30-5) Answer: many" → "Complete the sentences. Example: Complete: There isn't ____ time. (unit_30-5) Answer: many"
+- unit_31 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the gaps with have/has/had to. Use the verb cues in brackets. Example: Complete: Please ____ your jacket; it's warm inside. (have / has) Answer: have" → "Complete the gaps with have/has/had to. Use the verb cues in brackets. Example: Complete: Please ____ your jacket; it's warm inside. (have / has) Answer: have"
+- unit_31 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use have/has/had to + the verb in brackets. Some sentences are negative (don't/doesn't have to). Example: Complete the negative: my brother ____ coffee. (not / understand) Answe..." → "Use have/has/had to + the verb in brackets. Some sentences are negative (don't/doesn't have to). Example: Complete the negative: my brother ____ coffee. (not / understand) Answe..."
+- unit_31 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "In some sentences, must is wrong or unnatural. Write OK or correct the sentence. Example: Correct the sentence: 'He work to school in the evenings.' Answer: He works to school a..." → "In some sentences, must is wrong or unnatural. Write OK or correct the sentence. Example: Correct the sentence: 'He work to school in the evenings.' Answer: He works to school a..."
+- unit_31 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with mustn't, don't have to, or doesn't have to. Example: Complete the negative: my brother ____ coffee. (not / like) Answer: doesn't like" → "Complete with mustn't, don't have to, or doesn't have to. Example: Complete the negative: my brother ____ coffee. (not / like) Answer: doesn't like"
+- unit_32 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Which sentence (a-g) has a similar meaning? Choose the letter. Example: Choose the correct option: A) Anna will talk every day. B) Anna is talking on Mondays. C) Anna talked on ..." → "Which sentence (a-g) has a similar meaning? Choose the letter. Example: Choose the correct option: A) Anna will talk every day. B) Anna is talking on Mondays. C) Anna talked on ..."
+- unit_32 ex 2 (multiselect) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option(s). Example: Choose the correct option: A) Oleh is washing once a week. B) Oleh washed once a week. C) Oleh will wash on Mondays. D) Oleh washes at wee..." → "Choose the correct option(s). Example: Choose the correct option: A) Oleh is washing once a week. B) Oleh washed once a week. C) Oleh will wash on Mondays. D) Oleh washes at wee..."
+- unit_32 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with needn't + verb (no 'to'). Use the verb cue. Example: Complete: There isn't ____ time. (unit_32-3) Answer: any" → "Complete with needn't + verb (no 'to'). Use the verb cue. Example: Complete: There isn't ____ time. (unit_32-3) Answer: any"
+- unit_32 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "For each situation, write two sentences: needn't have + past participle, then could have + past participle. Example: Write a sentence: (next week / visit / a new recipe) Answer:..." → "For each situation, write two sentences: needn't have + past participle, then could have + past participle. Example: Write a sentence: (next week / visit / a new recipe) Answer:..."
+- unit_32 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write OK if correct. If not, rewrite the sentence. Example: Write a sentence with if: you study regularly → you learn faster. Answer: If you study regularly, you learn faster." → "Write OK if correct. If not, rewrite the sentence. Example: Write a sentence with if: you study regularly → you learn faster. Answer: If you study regularly, you learn faster."
+- unit_33 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "For each situation, write a sentence with should or shouldn't. Example: Write a sentence: (next week / travel / my parents) Answer: I'll travel my parents next week." → "For each situation, write a sentence with should or shouldn't. Example: Write a sentence: (next week / travel / my parents) Answer: I'll travel my parents next week."
+- unit_33 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences using should / shouldn't + a suitable phrase. Example: Complete: I ____ my neighbour's cat when she's away. (should / shouldn't + a suitable phrase) Answe..." → "Complete the sentences using should / shouldn't + a suitable phrase. Example: Complete: I ____ my neighbour's cat when she's away. (should / shouldn't + a suitable phrase) Answe..."
+- unit_33 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with should or should have + the verb in brackets. Example: Complete: There isn't ____ time. (unit_33-3) Answer: a little" → "Complete with should or should have + the verb in brackets. Example: Complete: There isn't ____ time. (unit_33-3) Answer: a little"
+- unit_33 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Read each situation and write a sentence with should / should have / shouldn't / shouldn't have. Example: Write a sentence: (tomorrow / call / my parents) Answer: Tomorrow I'll ..." → "Read each situation and write a sentence with should / should have / shouldn't / shouldn't have. Example: Write a sentence: (tomorrow / call / my parents) Answer: Tomorrow I'll ..."
+- unit_34 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite the sentence using should (recommend / insist / suggest / demand). Example: Rewrite using the passive: 'The company repaired the packages every year.' Answer: The packag..." → "Rewrite the sentence using should (recommend / insist / suggest / demand). Example: Rewrite using the passive: 'The company repaired the packages every year.' Answer: The packag..."
+- unit_34 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Two sentences are incorrect. Write OK or rewrite the incorrect ones. Example: Rewrite using the passive: 'People stealed the road every year.' Answer: The road was stealed every..." → "Two sentences are incorrect. Write OK or rewrite the incorrect ones. Example: Rewrite using the passive: 'People stealed the road every year.' Answer: The road was stealed every..."
+- unit_34 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using should + verb. Example: Complete: There isn't ____ time. (unit_34-3) Answer: many" → "Complete using should + verb. Example: Complete: There isn't ____ time. (unit_34-3) Answer: many"
+- unit_34 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with if ... should ... . Then rewrite the same ideas starting with Should ... Example: Write a sentence with if: it rains → we stay at home. Answer: If it rains, we sta..." → "Complete with if ... should ... . Then rewrite the same ideas starting with Should ... Example: Write a sentence with if: it rains → we stay at home. Answer: If it rains, we sta..."
+- unit_34 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the responses using I should + a verb. Example: Complete: There isn't ____ time. (unit_34-5) Answer: a little" → "Complete the responses using I should + a verb. Example: Complete: There isn't ____ time. (unit_34-5) Answer: a little"
+- unit_35 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write a sentence with 'd better or 'd better not (strong advice). Example: Write a sentence: (tomorrow / visit / a new recipe) Answer: Tomorrow I'll visit a new recipe." → "Write a sentence with 'd better or 'd better not (strong advice). Example: Write a sentence: (tomorrow / visit / a new recipe) Answer: Tomorrow I'll visit a new recipe."
+- unit_35 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "In some sentences, had better is not suitable. Write OK or change it to should. Example: Write a sentence: (in the evening / call / my colleague) Answer: I'll call my colleague ..." → "In some sentences, had better is not suitable. Write OK or change it to should. Example: Write a sentence: (in the evening / call / my colleague) Answer: I'll call my colleague ..."
+- unit_35 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with ONE word from the box: better, do, did, had, hadn't, I'd, not, to, should, was, were. Example: Complete: There isn't ____ time. (unit_35-3) Answer: some" → "Complete each sentence with ONE word from the box: better, do, did, had, hadn't, I'd, not, to, should, was, were. Example: Complete: There isn't ____ time. (unit_35-3) Answer: some"
+- unit_35 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write sentences with It's time + past (e.g., It's time I went...). Use the cues in brackets. Example: Write a sentence: (tomorrow / cook / my friend) Answer: Tomorrow I'll cook ..." → "Write sentences with It's time + past (e.g., It's time I went...). Use the cues in brackets. Example: Write a sentence: (tomorrow / cook / my friend) Answer: Tomorrow I'll cook ..."
+- unit_36 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use would / wouldn't to talk about imagined preferences. Example: Complete: I ____ (be) ready. Answer: am" → "Use would / wouldn't to talk about imagined preferences. Example: Complete: I ____ (be) ready. Answer: am"
+- unit_36 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using would + a verb from the word bank (correct form). Example: Correct the sentence: 'They is traveling now.' Answer: They are traveling at the moment." → "Complete using would + a verb from the word bank (correct form). Example: Correct the sentence: 'They is traveling now.' Answer: They are traveling at the moment."
+- unit_36 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Match each sentence with the most logical result/response (a–f). Example: Choose: A) the most logical result B) response C) (skip) D) (skip) Answer: A (the most logical result)" → "Match each sentence with the most logical result/response (a–f). Example: Choose: A) the most logical result B) response C) (skip) D) (skip) Answer: A (the most logical result)"
+- unit_36 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use promised + would/wouldn't (reported promises). Example: Complete: I ____ (be) ready. (unit_36-4) Answer: am" → "Use promised + would/wouldn't (reported promises). Example: Complete: I ____ (be) ready. (unit_36-4) Answer: am"
+- unit_36 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using wouldn't to mean 'refused' (person/thing). Example: Complete: There isn't ____ time. (unit_36-5) Answer: many" → "Complete using wouldn't to mean 'refused' (person/thing). Example: Complete: There isn't ____ time. (unit_36-5) Answer: many"
+- unit_36 ex 6 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use would to describe repeated actions in the past (choose a verb). Example: Choose the correct option: A) Taras will talk at weekends. B) Taras talked on Mondays. C) Taras talk..." → "Use would to describe repeated actions in the past (choose a verb). Example: Choose the correct option: A) Taras will talk at weekends. B) Taras talked on Mondays. C) Taras talk..."
+- unit_37 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Match each sentence with the most suitable reply (a–h). Example: Choose the correct option: A) Yaroslav studies every day. B) Yaroslav studied in the evenings. C) Yaroslav is st..." → "Match each sentence with the most suitable reply (a–h). Example: Choose the correct option: A) Yaroslav studies every day. B) Yaroslav studied in the evenings. C) Yaroslav is st..."
+- unit_37 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the best phrase for each situation. Example: Choose the correct option: A) Danylo practices once a week. B) Danylo will practice every summer. C) Danylo practiced every s..." → "Choose the best phrase for each situation. Example: Choose the correct option: A) Danylo practices once a week. B) Danylo will practice every summer. C) Danylo practiced every s..."
+- unit_37 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write polite requests/offers for each situation. Example: Write a sentence: (on Saturday / travel / a new recipe) Answer: I'll travel a new recipe on Saturday." → "Write polite requests/offers for each situation. Example: Write a sentence: (on Saturday / travel / a new recipe) Answer: I'll travel a new recipe on Saturday."
+- unit_38 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Complete the gaps with verbs from the box. Example: Choose the correct option: A) Yaroslav will drive in the evenings. B) Yaroslav drived at weekends. C) Yaroslav drives at week..." → "Complete the gaps with verbs from the box. Example: Choose the correct option: A) Yaroslav will drive in the evenings. B) Yaroslav drived at weekends. C) Yaroslav drives at week..."
+- unit_38 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct sentence (a or b) for each situation. Example: Choose the correct option: A) Danylo will write in the evenings. B) Danylo writed at weekends. C) Danylo writes..." → "Choose the correct sentence (a or b) for each situation. Example: Choose the correct option: A) Danylo will write in the evenings. B) Danylo writed at weekends. C) Danylo writes..."
+- unit_38 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (use if + past; would in the main clause). Example: Write a sentence with if: you heat ice → it melts. Answer: If you heat ice, it melts." → "Complete the sentences (use if + past; would in the main clause). Example: Write a sentence with if: you heat ice → it melts. Answer: If you heat ice, it melts."
+- unit_38 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite each idea beginning with If … (unreal condition). Example: Write a sentence with if: it rains → we stay at home. (unit_38-4) Answer: If it rains, we stay at home." → "Rewrite each idea beginning with If … (unreal condition). Example: Write a sentence with if: it rains → we stay at home. (unit_38-4) Answer: If it rains, we stay at home."
+- unit_39 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the verb into the correct form (second conditional). Example: Correct the sentence: 'They is traveling right now.' Answer: They are traveling now." → "Put the verb into the correct form (second conditional). Example: Correct the sentence: 'They is traveling right now.' Answer: They are traveling now."
+- unit_39 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write a sentence with if … for each situation. Example: Write a sentence with if: it rains → we stay at home. (unit_39-2) Answer: If it rains, we stay at home." → "Write a sentence with if … for each situation. Example: Write a sentence with if: it rains → we stay at home. (unit_39-2) Answer: If it rains, we stay at home."
+- unit_39 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write sentences beginning I wish … (about the present). Example: Write a sentence: (tomorrow / travel / a new recipe) Answer: Tomorrow I'll travel a new recipe." → "Write sentences beginning I wish … (about the present). Example: Write a sentence: (tomorrow / travel / a new recipe) Answer: Tomorrow I'll travel a new recipe."
+- unit_39 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write your own sentences beginning I wish … (use the given ideas). Example: Write a sentence: (next week / study / a new recipe) Answer: I'll study a new recipe next week." → "Write your own sentences beginning I wish … (use the given ideas). Example: Write a sentence: (next week / study / a new recipe) Answer: I'll study a new recipe next week."
+- unit_40 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the verb into the correct form (third conditional / mixed time). Example: Correct the sentence: 'He play to the gym once a week.' Answer: He plays to the gym in the evenings." → "Put the verb into the correct form (third conditional / mixed time). Example: Correct the sentence: 'He play to the gym once a week.' Answer: He plays to the gym in the evenings."
+- unit_40 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "For each situation, write a sentence beginning with If … Example: Write a sentence with if: it rains → we stay at home. (unit_40-2) Answer: If it rains, we stay at home." → "For each situation, write a sentence beginning with If … Example: Write a sentence with if: it rains → we stay at home. (unit_40-2) Answer: If it rains, we stay at home."
+- unit_40 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Imagine each situation and write a sentence with I wish. Example: Write a sentence: (on Saturday / cook / my parents) Answer: I'll cook my parents on Saturday." → "Imagine each situation and write a sentence with I wish. Example: Write a sentence: (on Saturday / cook / my parents) Answer: I'll cook my parents on Saturday."
+- unit_41 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in wish(ed) or hope(d). Example: Complete: There isn't ____ time. (unit_41-1) Answer: much" → "Put in wish(ed) or hope(d). Example: Complete: There isn't ____ time. (unit_41-1) Answer: much"
+- unit_41 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the verb in the correct form after wish. Example: Correct the sentence: 'She don't know this.' Answer: She doesn't know it." → "Put the verb in the correct form after wish. Example: Correct the sentence: 'She don't know this.' Answer: She doesn't know it."
+- unit_41 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with could / could have. Example: Complete: Please ____ your jacket; it's warm inside. (could / could have) Answer: could" → "Complete with could / could have. Example: Complete: Please ____ your jacket; it's warm inside. (could / could have) Answer: could"
+- unit_41 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with would or wouldn't. Example: Complete: I ____ my neighbour's cat when she's away. (would / wouldn't) Answer: would" → "Complete with would or wouldn't. Example: Complete: I ____ my neighbour's cat when she's away. (would / wouldn't) Answer: would"
+- unit_42 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite the sentences in the passive. Example: Complete (passive): My phone ____ last night. (fix) Answer: was fixed" → "Rewrite the sentences in the passive. Example: Complete (passive): My phone ____ last night. (fix) Answer: was fixed"
+- unit_42 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct passive form. Example: Complete (passive): The room ____ this morning. (clean) Answer: was cleaned" → "Complete with the correct passive form. Example: Complete (passive): The room ____ this morning. (clean) Answer: was cleaned"
+- unit_42 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences using the passive. Example: Complete (passive): My phone ____ two days ago. (steal) Answer: was stealed" → "Complete the sentences using the passive. Example: Complete (passive): My phone ____ two days ago. (steal) Answer: was stealed"
+- unit_42 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite the sentences in the passive. Example: Complete (passive): The window ____ two days ago. (steal) Answer: was stealed" → "Rewrite the sentences in the passive. Example: Complete (passive): The window ____ two days ago. (steal) Answer: was stealed"
+- unit_43 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using has/have been or had been. Example: Complete: I ____ my neighbour's cat when she's away. (has / have been or had been) Answer: has" → "Complete using has/have been or had been. Example: Complete: I ____ my neighbour's cat when she's away. (has / have been or had been) Answer: has"
+- unit_43 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using is/are being or was/were being. Example: Complete: Can you ____ this form for me? (is / are being or was / were being) Answer: is" → "Complete using is/are being or was/were being. Example: Complete: Can you ____ this form for me? (is / are being or was / were being) Answer: is"
+- unit_43 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using (to) be done / (to) have been done. Example: Complete: Can you ____ this form for me? (be done / have been done) Answer: be done" → "Complete using (to) be done / (to) have been done. Example: Complete: Can you ____ this form for me? (be done / have been done) Answer: be done"
+- unit_44 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using the passive (person first). Example: Complete (passive): The bike ____ last night. (fix) Answer: was fixed" → "Rewrite using the passive (person first). Example: Complete (passive): The bike ____ last night. (fix) Answer: was fixed"
+- unit_44 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using the passive (thing first + to). Example: Complete (passive): The window ____ this morning. (damage) Answer: was damaged" → "Rewrite using the passive (thing first + to). Example: Complete (passive): The window ____ this morning. (damage) Answer: was damaged"
+- unit_44 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using being + past participle. Example: Complete: There isn't ____ time. (unit_44-3) Answer: a little" → "Complete using being + past participle. Example: Complete: There isn't ____ time. (unit_44-3) Answer: a little"
+- unit_44 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite/complete using passive structures. Example: Complete (passive): My phone ____ yesterday. (send) Answer: was sended" → "Rewrite/complete using passive structures. Example: Complete (passive): My phone ____ yesterday. (send) Answer: was sended"
+- unit_45 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using It is said/believed etc. that ... Example: Rewrite using the passive: 'People stealed the window last week.' Answer: The window was stealed last week." → "Rewrite using It is said/believed etc. that ... Example: Rewrite using the passive: 'People stealed the window last week.' Answer: The window was stealed last week."
+- unit_45 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using is said/believed/expected to ... Example: Rewrite using the passive: 'They cleaned these chairs every year.' Answer: These chairs was cleaned every year." → "Rewrite using is said/believed/expected to ... Example: Rewrite using the passive: 'They cleaned these chairs every year.' Answer: These chairs was cleaned every year."
+- unit_45 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using is said to have ... Example: Rewrite using the passive: 'People cleaned the road in 2010.' Answer: The road was cleaned in 2010." → "Rewrite using is said to have ... Example: Rewrite using the passive: 'People cleaned the road in 2010.' Answer: The road was cleaned in 2010."
+- unit_45 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with supposed to. Example: Complete: There isn't ____ time. (unit_45-4) Answer: much" → "Complete with supposed to. Example: Complete: There isn't ____ time. (unit_45-4) Answer: much"
+- unit_46 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (have something done). Example: Complete: There isn't ____ time. (unit_46-1) Answer: some" → "Complete the sentences (have something done). Example: Complete: There isn't ____ time. (unit_46-1) Answer: some"
+- unit_46 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using have something done. Example: Rewrite using the passive: 'Someone built the packages last week.' Answer: The packages was built last week." → "Rewrite using have something done. Example: Rewrite using the passive: 'Someone built the packages last week.' Answer: The packages was built last week."
+- unit_46 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use get instead of have where possible. Example: Complete: I ____ (be) ready. (unit_46-3) Answer: am" → "Use get instead of have where possible. Example: Complete: I ____ (be) ready. (unit_46-3) Answer: am"
+- unit_46 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (word order). Example: Complete: There isn't ____ time. (unit_46-4) Answer: any" → "Complete the sentences (word order). Example: Complete: There isn't ____ time. (unit_46-4) Answer: any"
+- unit_46 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete (something happened to you/your things). Example: Complete: There isn't ____ time. (unit_46-5) Answer: many" → "Complete (something happened to you/your things). Example: Complete: There isn't ____ time. (unit_46-5) Answer: many"
+- unit_47 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the reported sentences. Example: Complete: There isn't ____ time. (unit_47-1) Answer: a little" → "Complete the reported sentences. Example: Complete: There isn't ____ time. (unit_47-1) Answer: a little"
+- unit_47 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete (past simple or past perfect). Example: Complete with the past simple: (play) Oleh ____ us yesterday. Answer: playyed" → "Complete (past simple or past perfect). Example: Complete with the past simple: (play) Oleh ____ us yesterday. Answer: playyed"
+- unit_48 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the reported sentences. Example: Complete: There isn't ____ time. (unit_48-1) Answer: many" → "Complete the reported sentences. Example: Complete: There isn't ____ time. (unit_48-1) Answer: many"
+- unit_48 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in say/says/said or tell/told. Example: Complete: There isn't ____ time. (unit_48-2) Answer: some" → "Put in say/says/said or tell/told. Example: Complete: There isn't ____ time. (unit_48-2) Answer: some"
+- unit_48 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using told/asked + to ... Example: Rewrite using the passive: 'The company delivered the road in 2010.' Answer: The road was delivered in 2010." → "Rewrite using told/asked + to ... Example: Rewrite using the passive: 'The company delivered the road in 2010.' Answer: The road was delivered in 2010."
+- unit_49 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Make questions. Example: Complete: I ____ (be) ready. (unit_49-1) Answer: am" → "Make questions. Example: Complete: I ____ (be) ready. (unit_49-1) Answer: am"
+- unit_49 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with do/does/did. Example: Complete: ____ he work yesterday? (do/does/did) Answer: Did" → "Complete with do/does/did. Example: Complete: ____ he work yesterday? (do/does/did) Answer: Did"
+- unit_49 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete (who/what is the subject). Example: Complete: There isn't ____ time. (unit_49-3) Answer: any" → "Complete (who/what is the subject). Example: Complete: There isn't ____ time. (unit_49-3) Answer: any"
+- unit_49 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Make questions with a preposition. Example: Put in in/on/at: The meeting is ____ Friday. Answer: on" → "Make questions with a preposition. Example: Put in in/on/at: The meeting is ____ Friday. Answer: on"
+- unit_50 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (indirect questions). Example: Complete: There isn't ____ time. (unit_50-1) Answer: a few" → "Complete the sentences (indirect questions). Example: Complete: There isn't ____ time. (unit_50-1) Answer: a few"
+- unit_50 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete (indirect questions: no do/does/did). Example: Complete: ____ your neighbour live last week? (do/does/did) Answer: Did" → "Complete (indirect questions: no do/does/did). Example: Complete: ____ your neighbour live last week? (do/does/did) Answer: Did"
+- unit_50 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the reported questions. Example: Complete: There isn't ____ time. (unit_50-3) Answer: any" → "Complete the reported questions. Example: Complete: There isn't ____ time. (unit_50-3) Answer: any"
+- unit_51 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with an auxiliary verb only (do/does/did, have, be, can, will etc.). Example: Complete: ____ your sister like at weekends? (do/does/did) Answer: Does" → "Complete with an auxiliary verb only (do/does/did, have, be, can, will etc.). Example: Complete: ____ your sister like at weekends? (do/does/did) Answer: Does"
+- unit_51 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Reply to show interest or surprise. Use a short question with an auxiliary. Example: Complete: I ____ (be) ready. (unit_51-2) Answer: am" → "Reply to show interest or surprise. Use a short question with an auxiliary. Example: Complete: I ____ (be) ready. (unit_51-2) Answer: am"
+- unit_51 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the replies using so / neither / nor / (not) either. Example: Complete: Please ____ your jacket; it's warm inside. (so / neither / nor / either) Answer: so" → "Complete the replies using so / neither / nor / (not) either. Example: Complete: Please ____ your jacket; it's warm inside. (so / neither / nor / either) Answer: so"
+- unit_51 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Answer using short phrases like I think so / I hope not / I’m afraid so etc. Example: Complete: I ____ (be) ready. (unit_51-4) Answer: am" → "Answer using short phrases like I think so / I hope not / I’m afraid so etc. Example: Complete: I ____ (be) ready. (unit_51-4) Answer: am"
+- unit_52 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Add the correct question tag. Example: Add the question tag: He likes coffee, ____? Answer: doesn't he" → "Add the correct question tag. Example: Add the question tag: He likes coffee, ____? Answer: doesn't he"
+- unit_52 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a question tag (often used to ask for information or a favour). Example: Add the question tag: They were late, ____? Answer: weren't they" → "Complete the sentences with a question tag (often used to ask for information or a favour). Example: Add the question tag: They were late, ____? Answer: weren't they"
+- unit_52 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the special question tags: Let’s …, Don’t …, I’m … Example: Add the question tag: She can't swim, ____? Answer: can she" → "Complete the special question tags: Let’s …, Don’t …, I’m … Example: Add the question tag: She can't swim, ____? Answer: can she"
+- unit_53 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with the -ing form of the verb in brackets. Example: Complete: There isn't ____ time. (unit_53-1) Answer: a little" → "Complete the sentences with the -ing form of the verb in brackets. Example: Complete: There isn't ____ time. (unit_53-1) Answer: a little"
+- unit_53 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a suitable verb in the -ing form. (Any correct verb + -ing that fits is acceptable.) Example: Correct the sentence: 'They is waiting now.' Answer: They are waiting..." → "Complete with a suitable verb in the -ing form. (Any correct verb + -ing that fits is acceptable.) Example: Correct the sentence: 'They is waiting now.' Answer: They are waiting..."
+- unit_53 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with the -ing form. Example: Complete: There isn't ____ time. (unit_53-3) Answer: some" → "Complete the sentences with the -ing form. Example: Complete: There isn't ____ time. (unit_53-3) Answer: some"
+- unit_53 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences using verb + object + -ing. Example: Complete: There isn't ____ time. (unit_53-4) Answer: much" → "Complete the sentences using verb + object + -ing. Example: Complete: There isn't ____ time. (unit_53-4) Answer: much"
+- unit_54 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with to + infinitive. Example: Complete: There isn't ____ time. (unit_54-1) Answer: a little" → "Complete with to + infinitive. Example: Complete: There isn't ____ time. (unit_54-1) Answer: a little"
+- unit_54 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with not to + infinitive. Example: Complete: There isn't ____ time. (unit_54-2) Answer: a little" → "Complete with not to + infinitive. Example: Complete: There isn't ____ time. (unit_54-2) Answer: a little"
+- unit_54 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (dare / seem / appear / pretend / claim + infinitive). Example: Complete: There isn't ____ time. (unit_54-3) Answer: a few" → "Complete the sentences (dare / seem / appear / pretend / claim + infinitive). Example: Complete: There isn't ____ time. (unit_54-3) Answer: a few"
+- unit_54 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a question word + to + infinitive. Example: Complete: There isn't ____ time. (unit_54-4) Answer: some" → "Complete with a question word + to + infinitive. Example: Complete: There isn't ____ time. (unit_54-4) Answer: some"
+- unit_54 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with to + infinitive. Example: Complete: There isn't ____ time. (unit_54-5) Answer: a little" → "Complete with to + infinitive. Example: Complete: There isn't ____ time. (unit_54-5) Answer: a little"
+- unit_55 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (to + infinitive, sometimes with an object). Example: Complete: There isn't ____ time. (unit_55-1) Answer: some" → "Complete the sentences (to + infinitive, sometimes with an object). Example: Complete: There isn't ____ time. (unit_55-1) Answer: some"
+- unit_55 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (verb + object + to…). Example: Complete: There isn't ____ time. (unit_55-2) Answer: a little" → "Complete the sentences (verb + object + to…). Example: Complete: There isn't ____ time. (unit_55-2) Answer: a little"
+- unit_55 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the infinitive without to (make/let). Example: Complete: There isn't ____ time. (unit_55-3) Answer: a little" → "Complete with the infinitive without to (make/let). Example: Complete: There isn't ____ time. (unit_55-3) Answer: a little"
+- unit_55 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (passive forms and ‘be made to’). Example: Complete (passive): The bike ____ yesterday. (fix) Answer: was fixed" → "Complete the sentences (passive forms and ‘be made to’). Example: Complete (passive): The bike ____ yesterday. (fix) Answer: was fixed"
+- unit_56 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with the correct form (-ing or to + infinitive). Example: Correct the sentence: 'She don't need it.' Answer: She doesn't need it." → "Complete the sentences with the correct form (-ing or to + infinitive). Example: Correct the sentence: 'She don't need it.' Answer: She doesn't need it."
+- unit_56 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with -ing or to + infinitive (remember / regret / go on). Example: Complete: I ____ my neighbour's cat when she's away. (-ing / to + infinitive) Answer: -ing" → "Complete the sentences with -ing or to + infinitive (remember / regret / go on). Example: Complete: I ____ my neighbour's cat when she's away. (-ing / to + infinitive) Answer: -ing"
+- unit_56 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. In many cases, -ing and to + infinitive are both possible. Example: Complete: There isn't ____ time. (unit_56-3) Answer: many" → "Complete the sentences. In many cases, -ing and to + infinitive are both possible. Example: Complete: There isn't ____ time. (unit_56-3) Answer: many"
+- unit_57 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with try + to… or try + -ing. Example: Complete: We ____ sugar, so let's buy some. (try + to… / try + -ing) Answer: try + to…" → "Complete the sentences with try + to… or try + -ing. Example: Complete: We ____ sugar, so let's buy some. (try + to… / try + -ing) Answer: try + to…"
+- unit_57 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with need to… or need -ing. Example: Complete: I ____ my neighbour's cat when she's away. (need to… / need -ing) Answer: need to…" → "Complete the sentences with need to… or need -ing. Example: Complete: I ____ my neighbour's cat when she's away. (need to… / need -ing) Answer: need to…"
+- unit_57 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with help (to) + infinitive. Both forms are acceptable in many cases. Example: Complete: There isn't ____ time. (unit_57-3) Answer: any" → "Complete the sentences with help (to) + infinitive. Both forms are acceptable in many cases. Example: Complete: There isn't ____ time. (unit_57-3) Answer: any"
+- unit_57 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with can’t help + -ing (or can’t help it). Example: Complete: There isn't ____ time. (unit_57-4) Answer: a few" → "Complete with can’t help + -ing (or can’t help it). Example: Complete: There isn't ____ time. (unit_57-4) Answer: a few"
+- unit_58 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with -ing or to + infinitive (both can be correct in general meanings). Example: Correct the sentence: 'They is waiting right now.' Answer: They are waiting at the moment." → "Complete with -ing or to + infinitive (both can be correct in general meanings). Example: Correct the sentence: 'They is waiting right now.' Answer: They are waiting at the moment."
+- unit_58 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use -ing for existing situations, and choose between like doing / like to do when needed. Example: Choose the correct option: A) Taras runs every summer...." → "Complete the sentences. Use -ing for existing situations, and choose between like doing / like to do when needed. Example: Choose the correct option: A) Taras runs every summer...."
+- unit_58 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (would like/love/prefer + to… ; would mind + -ing). Example: Complete: There isn't ____ time. (unit_58-3) Answer: some" → "Complete the sentences (would like/love/prefer + to… ; would mind + -ing). Example: Complete: There isn't ____ time. (unit_58-3) Answer: some"
+- unit_58 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with would like/love/hate + to have done (regret about the past). Example: Complete: We ____ sugar, so let's buy some. (would like / love / hate + to have done) Answer:..." → "Complete with would like/love/hate + to have done (regret about the past). Example: Complete: We ____ sugar, so let's buy some. (would like / love / hate + to have done) Answer:..."
+- unit_59 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with prefer (to / -ing / …to… / …rather than…). Example: Complete: This plan is ____ than the old one. (quiet) Answer: quieter" → "Complete the sentences with prefer (to / -ing / …to… / …rather than…). Example: Complete: This plan is ____ than the old one. (quiet) Answer: quieter"
+- unit_59 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with would prefer (to…) or would rather (base verb). Example: Complete: I ____ my neighbour's cat when she's away. (would prefer / would rather) Answer: w..." → "Complete the sentences with would prefer (to…) or would rather (base verb). Example: Complete: I ____ my neighbour's cat when she's away. (would prefer / would rather) Answer: w..."
+- unit_59 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with than (would rather … than …). Example: Complete: This plan is ____ than the old one. (cheap) Answer: cheaper" → "Complete with than (would rather … than …). Example: Complete: This plan is ____ than the old one. (cheap) Answer: cheaper"
+- unit_59 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences (I’d rather you did/didn’t …). Example: Complete: There isn't ____ time. (unit_59-4) Answer: a little" → "Complete the sentences (I’d rather you did/didn’t …). Example: Complete: There isn't ____ time. (unit_59-4) Answer: a little"
+- unit_60 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use a preposition + -ing. Example: Put in in/on/at: The meeting is ____ July. Answer: in" → "Complete the sentences. Use a preposition + -ing. Example: Put in in/on/at: The meeting is ____ July. Answer: in"
+- unit_60 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with by + -ing. Example: Complete: There isn't ____ time. (unit_60-2) Answer: much" → "Complete the sentences with by + -ing. Example: Complete: There isn't ____ time. (unit_60-2) Answer: much"
+- unit_60 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with the -ing form after before/after/by/without. Example: Complete: Can you ____ this form for me? (the -ing form after before / after / by / without) An..." → "Complete the sentences with the -ing form after before/after/by/without. Example: Complete: Can you ____ this form for me? (the -ing form after before / after / by / without) An..."
+- unit_60 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Here to is a preposition, so use to + -ing. Example: Put in in/on/at: The meeting is ____ 7:45. Answer: at" → "Complete the sentences. Here to is a preposition, so use to + -ing. Example: Put in in/on/at: The meeting is ____ 7:45. Answer: at"
+- unit_61 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with to + verb. Example: Complete: There isn't ____ time. (unit_61-1) Answer: a few" → "Complete with to + verb. Example: Complete: There isn't ____ time. (unit_61-1) Answer: a few"
+- unit_61 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using would like / would prefer. Example: Rewrite using the passive: 'Someone built my bike every year.' Answer: My bike was built every year." → "Rewrite using would like / would prefer. Example: Rewrite using the passive: 'Someone built my bike every year.' Answer: My bike was built every year."
+- unit_61 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Maksym studied at weekends. B) Maksym will study every day. C) Maksym is studying at weekends. D) Maksym studie..." → "Choose the correct option. Example: Choose the correct option: A) Maksym studied at weekends. B) Maksym will study every day. C) Maksym is studying at weekends. D) Maksym studie..."
+- unit_62 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with -ing forms. Example: Complete: There isn't ____ time. (unit_62-1) Answer: any" → "Complete with -ing forms. Example: Complete: There isn't ____ time. (unit_62-1) Answer: any"
+- unit_62 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete after a preposition with -ing. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_62-2) Answer: at" → "Complete after a preposition with -ing. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_62-2) Answer: at"
+- unit_62 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Lena will paint in the evenings. B) Lena paints every day. C) Lena painted once a week. D) Lena is painting in ..." → "Choose the correct option. Example: Choose the correct option: A) Lena will paint in the evenings. B) Lena paints every day. C) Lena painted once a week. D) Lena is painting in ..."
+- unit_63 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete: verb + object + to. Example: Complete: There isn't ____ time. (unit_63-1) Answer: a few" → "Complete: verb + object + to. Example: Complete: There isn't ____ time. (unit_63-1) Answer: a few"
+- unit_63 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with make/let + infinitive (no to). Example: Complete: Can you ____ this form for me? (make / let + infinitive) Answer: make" → "Complete with make/let + infinitive (no to). Example: Complete: Can you ____ this form for me? (make / let + infinitive) Answer: make"
+- unit_63 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Oleh will fix at weekends. B) Oleh is fixing every day. C) Oleh fixes every day. D) Oleh fixed every day. Answe..." → "Choose the correct option. Example: Choose the correct option: A) Oleh will fix at weekends. B) Oleh is fixing every day. C) Oleh fixes every day. D) Oleh fixed every day. Answe..."
+- unit_64 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Lena paints at weekends. B) Lena will paint on Mondays. C) Lena painted every day. D) Lena is painting every da..." → "Choose the correct option. Example: Choose the correct option: A) Lena paints at weekends. B) Lena will paint on Mondays. C) Lena painted every day. D) Lena is painting every da..."
+- unit_64 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct form (-ing or to + verb). Example: Correct the sentence: 'He study to work every summer.' Answer: He studies to work every summer." → "Complete with the correct form (-ing or to + verb). Example: Correct the sentence: 'He study to work every summer.' Answer: He studies to work every summer."
+- unit_64 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite to show the difference in meaning. Example: Write a sentence with if: you heat ice → it melts. (unit_64-3) Answer: If you heat ice, it melts." → "Rewrite to show the difference in meaning. Example: Write a sentence with if: you heat ice → it melts. (unit_64-3) Answer: If you heat ice, it melts."
+- unit_65 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with to + verb (purpose). Example: Complete: There isn't ____ time. (unit_65-1) Answer: a little" → "Complete with to + verb (purpose). Example: Complete: There isn't ____ time. (unit_65-1) Answer: a little"
+- unit_65 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with in order (not) to / so as (not) to. Example: Complete: I ____ my neighbour's cat when she's away. (in order to / so as to) Answer: in order to" → "Complete with in order (not) to / so as (not) to. Example: Complete: I ____ my neighbour's cat when she's away. (in order to / so as to) Answer: in order to"
+- unit_65 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose to or for. Example: Choose the correct option: A) Anna washes at weekends. B) Anna will wash every day. C) Anna washed every day. D) Anna is washing every summer. Answer: A" → "Choose to or for. Example: Choose the correct option: A) Anna washes at weekends. B) Anna will wash every day. C) Anna washed every day. D) Anna is washing every summer. Answer: A"
+- unit_66 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with to + verb. Example: Complete: There isn't ____ time. (unit_66-1) Answer: a few" → "Complete with to + verb. Example: Complete: There isn't ____ time. (unit_66-1) Answer: a few"
+- unit_66 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Katya will play once a week. B) Katya playyed every day. C) Katya plays in the evenings. D) Katya is playying e..." → "Choose the correct option. Example: Choose the correct option: A) Katya will play once a week. B) Katya playyed every day. C) Katya plays in the evenings. D) Katya is playying e..."
+- unit_66 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using it + adjective + to. Example: Rewrite using the passive: 'They built the road last week.' Answer: The road was built last week." → "Rewrite using it + adjective + to. Example: Rewrite using the passive: 'They built the road last week.' Answer: The road was built last week."
+- unit_67 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with -ing after a preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_67-1) Answer: on" → "Complete with -ing after a preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_67-1) Answer: on"
+- unit_67 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete: verb + preposition + -ing. Example: Put in in/on/at: The meeting is ____ Friday. (unit_67-2) Answer: on" → "Complete: verb + preposition + -ing. Example: Put in in/on/at: The meeting is ____ Friday. (unit_67-2) Answer: on"
+- unit_67 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Oleh carried once a week. B) Oleh is carrying once a week. C) Oleh will carry at weekends. D) Oleh carries once..." → "Choose the correct option. Example: Choose the correct option: A) Oleh carried once a week. B) Oleh is carrying once a week. C) Oleh will carry at weekends. D) Oleh carries once..."
+- unit_68 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with -ing as the subject. Example: Complete: There isn't ____ time. (unit_68-1) Answer: many" → "Complete with -ing as the subject. Example: Complete: There isn't ____ time. (unit_68-1) Answer: many"
+- unit_68 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with -ing after be. Example: Complete: There isn't ____ time. (unit_68-2) Answer: some" → "Complete with -ing after be. Example: Complete: There isn't ____ time. (unit_68-2) Answer: some"
+- unit_68 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Sofia will cook every day. B) Sofia is cooking every day. C) Sofia cooks every day. D) Sofia cooked in the even..." → "Choose the correct option. Example: Choose the correct option: A) Sofia will cook every day. B) Sofia is cooking every day. C) Sofia cooks every day. D) Sofia cooked in the even..."
+- unit_69 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Oleh will drive once a week. B) Oleh drived on Mondays. C) Oleh drives in the evenings. D) Oleh is driving once..." → "Choose the correct option. Example: Choose the correct option: A) Oleh will drive once a week. B) Oleh drived on Mondays. C) Oleh drives in the evenings. D) Oleh is driving once..."
+- unit_69 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with be used to / get used to. Example: Complete: We ____ sugar, so let's buy some. (be used to / get used to) Answer: be used to" → "Complete with be used to / get used to. Example: Complete: We ____ sugar, so let's buy some. (be used to / get used to) Answer: be used to"
+- unit_69 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using used to (past). Example: Rewrite using the passive: 'The company repaired this bridge last week.' Answer: This bridge was repaired last week." → "Rewrite using used to (past). Example: Rewrite using the passive: 'The company repaired this bridge last week.' Answer: This bridge was repaired last week."
+- unit_70 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with prefer (to / -ing) and would rather. Example: Complete: There isn't ____ time. (unit_70-1) Answer: a little" → "Complete with prefer (to / -ing) and would rather. Example: Complete: There isn't ____ time. (unit_70-1) Answer: a little"
+- unit_70 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Anna waited at weekends. B) Anna waits every summer. C) Anna will wait every day. D) Anna is waiting at weekend..." → "Choose the correct option. Example: Choose the correct option: A) Anna waited at weekends. B) Anna waits every summer. C) Anna will wait every day. D) Anna is waiting at weekend..."
+- unit_70 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using would rather + past (someone else). Example: Rewrite using the passive: 'The company cleaned the window every year.' Answer: The window was cleaned every year." → "Rewrite using would rather + past (someone else). Example: Rewrite using the passive: 'The company cleaned the window every year.' Answer: The window was cleaned every year."
+- unit_71 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with a/an or some + noun. Example: Complete with a/an: He's ____ orange. Answer: an" → "Complete each sentence with a/an or some + noun. Example: Complete with a/an: He's ____ orange. Answer: an"
+- unit_71 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the job. Use a/an. Example: Complete with a/an: He's ____ engineer. Answer: an" → "Write the job. Use a/an. Example: Complete with a/an: He's ____ engineer. Answer: an"
+- unit_71 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Oleh will talk every day. B) Oleh talks on Mondays. C) Oleh talked at weekends. D) Oleh is talking every day. A..." → "Choose the correct option. Example: Choose the correct option: A) Oleh will talk every day. B) Oleh talks on Mondays. C) Oleh talked at weekends. D) Oleh is talking every day. A..."
+- unit_71 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a/an or some. Example: Complete with a/an: He's ____ apple. Answer: an" → "Complete with a/an or some. Example: Complete with a/an: He's ____ apple. Answer: an"
+- unit_72 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a/an and the. Write two words (e.g., a, the). Example: Complete with a/an: He's ____ hour. Answer: an" → "Complete with a/an and the. Write two words (e.g., a, the). Example: Complete with a/an: He's ____ hour. Answer: an"
+- unit_72 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct word: a, an or the. Example: Choose the correct option: A) Maksym is playying every day. B) Maksym playyed at weekends. C) Maksym will play at weekends. D) Ma..." → "Choose the correct word: a, an or the. Example: Choose the correct option: A) Maksym is playying every day. B) Maksym playyed at weekends. C) Maksym will play at weekends. D) Ma..."
+- unit_72 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a, an or the. Example: Complete: I ____ my neighbour's cat when she's away. (a, an / the) Answer: a, an" → "Complete with a, an or the. Example: Complete: I ____ my neighbour's cat when she's away. (a, an / the) Answer: a, an"
+- unit_72 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct sentence. Example: Choose the correct option: A) Sofia is traveling at weekends. B) Sofia travels every day. C) Sofia will travel every day. D) Sofia traveled..." → "Choose the correct sentence. Example: Choose the correct option: A) Sofia is traveling at weekends. B) Sofia travels every day. C) Sofia will travel every day. D) Sofia traveled..."
+- unit_73 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Taras will cook every day. B) Taras is cooking every summer. C) Taras cooks at weekends. D) Taras cooked every ..." → "Choose the correct option. Example: Choose the correct option: A) Taras will cook every day. B) Taras is cooking every summer. C) Taras cooks at weekends. D) Taras cooked every ..."
+- unit_73 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Iryna watches every day. B) Iryna is watching every day. C) Iryna will watch every day. D) Iryna watched on Mon..." → "Choose the correct option. Example: Choose the correct option: A) Iryna watches every day. B) Iryna is watching every day. C) Iryna will watch every day. D) Iryna watched on Mon..."
+- unit_73 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrase. Example: Choose the correct option: A) Oleh watched every summer. B) Oleh will watch in the evenings. C) Oleh is watching every summer. D) Oleh watche..." → "Choose the correct phrase. Example: Choose the correct option: A) Oleh watched every summer. B) Oleh will watch in the evenings. C) Oleh is watching every summer. D) Oleh watche..."
+- unit_73 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Oleh waits at weekends. B) Oleh waited at weekends. C) Oleh is waiting once a week. D) Oleh will wait once a we..." → "Choose the correct option. Example: Choose the correct option: A) Oleh waits at weekends. B) Oleh waited at weekends. C) Oleh is waiting once a week. D) Oleh will wait once a we..."
+- unit_74 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrase. Example: Choose the correct option: A) Iryna will fix on Mondays. B) Iryna is fixing at weekends. C) Iryna fixes on Mondays. D) Iryna fixed at weekend..." → "Choose the correct phrase. Example: Choose the correct option: A) Iryna will fix on Mondays. B) Iryna is fixing at weekends. C) Iryna fixes on Mondays. D) Iryna fixed at weekend..."
+- unit_74 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose bed or the bed. Example: Choose the correct option: A) Yaroslav listens every day. B) Yaroslav listened every summer. C) Yaroslav is listening every day. D) Yaroslav will..." → "Choose bed or the bed. Example: Choose the correct option: A) Yaroslav listens every day. B) Yaroslav listened every summer. C) Yaroslav is listening every day. D) Yaroslav will..."
+- unit_74 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrase (home/work). Example: Choose the correct option: A) Lena will carry at weekends. B) Lena is carrying once a week. C) Lena carries every day. D) Lena ca..." → "Choose the correct phrase (home/work). Example: Choose the correct option: A) Lena will carry at weekends. B) Lena is carrying once a week. C) Lena carries every day. D) Lena ca..."
+- unit_74 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrase. Example: Choose the correct option: A) Taras writed once a week. B) Taras is writing every day. C) Taras writes once a week. D) Taras will write on Mo..." → "Choose the correct phrase. Example: Choose the correct option: A) Taras writed once a week. B) Taras is writing every day. C) Taras writes once a week. D) Taras will write on Mo..."
+- unit_75 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the sentence that means ‘in general’. Example: Choose the correct option: A) Lena studied at weekends. B) Lena will study every summer. C) Lena is studying once a week. D..." → "Choose the sentence that means ‘in general’. Example: Choose the correct option: A) Lena studied at weekends. B) Lena will study every summer. C) Lena is studying once a week. D..."
+- unit_75 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the sentence that means a general category. Example: Choose the correct option: A) Taras will work at weekends. B) Taras is working every summer. C) Taras works in the ev..." → "Choose the sentence that means a general category. Example: Choose the correct option: A) Taras will work at weekends. B) Taras is working every summer. C) Taras works in the ev..."
+- unit_75 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct sentence. Example: Choose the correct option: A) Maksym will watch on Mondays. B) Maksym watches every summer. C) Maksym watched in the evenings. D) Maksym is..." → "Choose the correct sentence. Example: Choose the correct option: A) Maksym will watch on Mondays. B) Maksym watches every summer. C) Maksym watched in the evenings. D) Maksym is..."
+- unit_75 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Lena will wait every day. B) Lena waited once a week. C) Lena is waiting at weekends. D) Lena waits at weekends..." → "Choose the correct option. Example: Choose the correct option: A) Lena will wait every day. B) Lena waited once a week. C) Lena is waiting at weekends. D) Lena waits at weekends..."
+- unit_76 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct sentence. Example: Choose the correct option: A) Lena talks in the evenings. B) Lena is talking every day. C) Lena talked at weekends. D) Lena will talk in th..." → "Choose the correct sentence. Example: Choose the correct option: A) Lena talks in the evenings. B) Lena is talking every day. C) Lena talked at weekends. D) Lena will talk in th..."
+- unit_76 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct form. Example: Choose the correct option: A) Taras will carry every summer. B) Taras carried in the evenings. C) Taras is carrying every summer. D) Taras carr..." → "Choose the correct form. Example: Choose the correct option: A) Taras will carry every summer. B) Taras carried in the evenings. C) Taras is carrying every summer. D) Taras carr..."
+- unit_76 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct nationality word. Example: Correct the sentence: 'He work to school on Mondays.' Answer: He works to work every summer." → "Complete with the correct nationality word. Example: Correct the sentence: 'He work to school on Mondays.' Answer: He works to work every summer."
+- unit_76 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Iryna travels in the evenings. B) Iryna is traveling on Mondays. C) Iryna will travel once a week. D) Iryna tra..." → "Choose the correct option. Example: Choose the correct option: A) Iryna travels in the evenings. B) Iryna is traveling on Mondays. C) Iryna will travel once a week. D) Iryna tra..."
+- unit_77 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct place name. Example: Choose the correct option: A) Maksym looked once a week. B) Maksym looks every day. C) Maksym is looking on Mondays. D) Maksym will look ..." → "Choose the correct place name. Example: Choose the correct option: A) Maksym looked once a week. B) Maksym looks every day. C) Maksym is looking on Mondays. D) Maksym will look ..."
+- unit_77 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct form. Example: Choose the correct option: A) Maksym will listen in the evenings. B) Maksym listened every day. C) Maksym is listening once a week. D) Maksym l..." → "Choose the correct form. Example: Choose the correct option: A) Maksym will listen in the evenings. B) Maksym listened every day. C) Maksym is listening once a week. D) Maksym l..."
+- unit_77 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Sofia is talking once a week. B) Sofia talks once a week. C) Sofia talked on Mondays. D) Sofia will talk once a..." → "Choose the correct option. Example: Choose the correct option: A) Sofia is talking once a week. B) Sofia talks once a week. C) Sofia talked on Mondays. D) Sofia will talk once a..."
+- unit_78 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct name. Example: Choose the correct option: A) Katya is waiting on Mondays. B) Katya will wait once a week. C) Katya waited at weekends. D) Katya waits in the e..." → "Choose the correct name. Example: Choose the correct option: A) Katya is waiting on Mondays. B) Katya will wait once a week. C) Katya waited at weekends. D) Katya waits in the e..."
+- unit_78 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct form (with or without the). Example: Choose the correct option: A) Taras practiced at weekends. B) Taras will practice on Mondays. C) Taras is practicing at w..." → "Choose the correct form (with or without the). Example: Choose the correct option: A) Taras practiced at weekends. B) Taras will practice on Mondays. C) Taras is practicing at w..."
+- unit_78 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Taras runs every day. B) Taras runned every summer. C) Taras will run on Mondays. D) Taras is running at weeken..." → "Choose the correct option. Example: Choose the correct option: A) Taras runs every day. B) Taras runned every summer. C) Taras will run on Mondays. D) Taras is running at weeken..."
+- unit_79 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct verb form (is/are/was/were). Example: Correct the sentence: 'She don't know it.' Answer: She doesn't know coffee." → "Complete with the correct verb form (is/are/was/were). Example: Correct the sentence: 'She don't know it.' Answer: She doesn't know coffee."
+- unit_79 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with pair / a pair / pairs. Example: Complete: We ____ sugar, so let's buy some. (pair / a pair / pairs) Answer: pair" → "Complete with pair / a pair / pairs. Example: Complete: We ____ sugar, so let's buy some. (pair / a pair / pairs) Answer: pair"
+- unit_79 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct sentence. Example: Choose the correct option: A) Katya listened at weekends. B) Katya will listen once a week. C) Katya listens at weekends. D) Katya is liste..." → "Choose the correct sentence. Example: Choose the correct option: A) Katya listened at weekends. B) Katya will listen once a week. C) Katya listens at weekends. D) Katya is liste..."
+- unit_79 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with is/are/was/were (treat the amount as one thing). Example: Complete: Please ____ your jacket; it's warm inside. (is / are / was / were) Answer: is" → "Complete with is/are/was/were (treat the amount as one thing). Example: Complete: Please ____ your jacket; it's warm inside. (is / are / was / were) Answer: is"
+- unit_79 ex 5 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct option. Example: Choose the correct option: A) Lena is studying every day. B) Lena studies on Mondays. C) Lena studied every summer. D) Lena will study every ..." → "Choose the correct option. Example: Choose the correct option: A) Lena is studying every day. B) Lena studies on Mondays. C) Lena studied every summer. D) Lena will study every ..."
+- unit_80 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Make noun+noun phrases (e.g., bus driver). Example: Complete: I ____ (be) ready. (unit_80-1) Answer: am" → "Make noun+noun phrases (e.g., bus driver). Example: Complete: I ____ (be) ready. (unit_80-1) Answer: am"
+- unit_80 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a measurement adjective (use singular + hyphen). Example: Complete: There isn't ____ time. (unit_80-2) Answer: any" → "Complete with a measurement adjective (use singular + hyphen). Example: Complete: There isn't ____ time. (unit_80-2) Answer: any"
+- unit_80 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the correct age expression. Example: Correct the sentence: 'He play to work once a week.' Answer: He plays to school on Mondays." → "Write the correct age expression. Example: Correct the sentence: 'He play to work once a week.' Answer: He plays to school on Mondays."
+- unit_80 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrase. Example: Choose the correct option: A) Iryna works every summer. B) Iryna worked once a week. C) Iryna will work on Mondays. D) Iryna is working once ..." → "Choose the correct phrase. Example: Choose the correct option: A) Iryna works every summer. B) Iryna worked once a week. C) Iryna will work on Mondays. D) Iryna is working once ..."
+- unit_81 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite phrases using ’s or of, as requested. Example: Rewrite using the passive: 'Someone cleaned my bike last week.' Answer: My bike was cleaned last week." → "Rewrite phrases using ’s or of, as requested. Example: Rewrite using the passive: 'Someone cleaned my bike last week.' Answer: My bike was cleaned last week."
+- unit_81 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using plural or irregular plural possessives. Example: Rewrite using the passive: 'People produced the packages last week.' Answer: The packages was produced last week." → "Rewrite using plural or irregular plural possessives. Example: Rewrite using the passive: 'People produced the packages last week.' Answer: The packages was produced last week."
+- unit_81 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using ’s with time/amount expressions. Example: Rewrite using the passive: 'Someone built these chairs yesterday.' Answer: These chairs was built yesterday." → "Rewrite using ’s with time/amount expressions. Example: Rewrite using the passive: 'Someone built these chairs yesterday.' Answer: These chairs was built yesterday."
+- unit_81 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the phrase that sounds more natural. Example: Choose the correct option: A) Maksym is watching every day. B) Maksym will watch once a week. C) Maksym watched in the eveni..." → "Choose the phrase that sounds more natural. Example: Choose the correct option: A) Maksym is watching every day. B) Maksym will watch once a week. C) Maksym watched in the eveni..."
+- unit_82 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct reflexive pronoun. Example: Correct the sentence: 'He work to work every summer.' Answer: He works to school once a week." → "Complete with the correct reflexive pronoun. Example: Correct the sentence: 'He work to work every summer.' Answer: He works to school once a week."
+- unit_82 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with natural forms like get dressed, shave, wash, etc. Example: Complete: There isn't ____ time. (unit_82-2) Answer: many" → "Complete with natural forms like get dressed, shave, wash, etc. Example: Complete: There isn't ____ time. (unit_82-2) Answer: many"
+- unit_82 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with each other / one another. Example: Complete: Please ____ your jacket; it's warm inside. (each other / one another) Answer: each other" → "Complete with each other / one another. Example: Complete: Please ____ your jacket; it's warm inside. (each other / one another) Answer: each other"
+- unit_82 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete sentences using -self/-selves for emphasis. Example: Complete: We ____ sugar, so let's buy some. (-self / -selves for emphasis) Answer: -self" → "Complete sentences using -self/-selves for emphasis. Example: Complete: We ____ sugar, so let's buy some. (-self / -selves for emphasis) Answer: -self"
+- unit_82 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Answer using -self/-selves to show 'without help' or emphasis. Example: Complete: I ____ (be) ready. (unit_82-5) Answer: am" → "Answer using -self/-selves to show 'without help' or emphasis. Example: Complete: I ____ (be) ready. (unit_82-5) Answer: am"
+- unit_83 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite phrases using 'a ... of mine/yours/his' etc. Example: Rewrite using the passive: 'Someone cleaned the window every year.' Answer: The window was cleaned every year." → "Rewrite phrases using 'a ... of mine/yours/his' etc. Example: Rewrite using the passive: 'Someone cleaned the window every year.' Answer: The window was cleaned every year."
+- unit_83 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with mine/yours/his/hers/ours/theirs. Example: Complete: I ____ my neighbour's cat when she's away. (mine / yours / his / hers) Answer: mine" → "Complete with mine/yours/his/hers/ours/theirs. Example: Complete: I ____ my neighbour's cat when she's away. (mine / yours / his / hers) Answer: mine"
+- unit_83 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using 'own' where it fits. Example: Complete: There isn't ____ time. (unit_83-3) Answer: a little" → "Complete using 'own' where it fits. Example: Complete: There isn't ____ time. (unit_83-3) Answer: a little"
+- unit_83 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with on my own / by myself (alone). Example: Complete: Can you ____ this form for me? (on my own / by myself) Answer: on my own" → "Complete with on my own / by myself (alone). Example: Complete: Can you ____ this form for me? (on my own / by myself) Answer: on my own"
+- unit_83 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with on my own / by myself to match the meaning. Example: Complete: Please ____ your jacket; it's warm inside. (on my own / by myself to match the meaning) Answer: on m..." → "Complete with on my own / by myself to match the meaning. Example: Complete: Please ____ your jacket; it's warm inside. (on my own / by myself to match the meaning) Answer: on m..."
+- unit_83 ex 6 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite each sentence using on my own / by myself. Example: Rewrite using the passive: 'Someone produced my bike last week.' Answer: My bike was produced last week." → "Rewrite each sentence using on my own / by myself. Example: Rewrite using the passive: 'Someone produced my bike last week.' Answer: My bike was produced last week."
+- unit_84 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete sentences with there is/are or Is/Are there. Example: Complete: We ____ sugar, so let's buy some. (there is / are or Is / Are there) Answer: there is" → "Complete sentences with there is/are or Is/Are there. Example: Complete: We ____ sugar, so let's buy some. (there is / are or Is / Are there) Answer: there is"
+- unit_84 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with there was/were (past). Example: Complete: Please ____ your jacket; it's warm inside. (there was / were) Answer: there was" → "Complete with there was/were (past). Example: Complete: Please ____ your jacket; it's warm inside. (there was / were) Answer: there was"
+- unit_84 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using there + appropriate tense/modal. Example: Complete: Can you ____ this form for me? (there + appropriate tense / modal) Answer: there + appropriate tense" → "Complete using there + appropriate tense/modal. Example: Complete: Can you ____ this form for me? (there + appropriate tense / modal) Answer: there + appropriate tense"
+- unit_84 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with it is/was for time, weather, distance, or a situation. Example: Complete: There isn't ____ time. (unit_84-4) Answer: some" → "Complete with it is/was for time, weather, distance, or a situation. Example: Complete: There isn't ____ time. (unit_84-4) Answer: some"
+- unit_85 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with some or any. Example: Complete: We ____ sugar, so let's buy some. (some / any) Answer: some" → "Complete with some or any. Example: Complete: We ____ sugar, so let's buy some. (some / any) Answer: some"
+- unit_85 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with somebody/anybody/something/anything/somewhere/anywhere. Example: Complete: Please ____ your jacket; it's warm inside. (somebody / anybody / something / anything) A..." → "Complete with somebody/anybody/something/anything/somewhere/anywhere. Example: Complete: Please ____ your jacket; it's warm inside. (somebody / anybody / something / anything) A..."
+- unit_85 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with any (= it doesn't matter which/when/what/who). Example: Complete: There isn't ____ time. (unit_85-3) Answer: any" → "Complete with any (= it doesn't matter which/when/what/who). Example: Complete: There isn't ____ time. (unit_85-3) Answer: any"
+- unit_86 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite sentences using no or not any. Example: Rewrite using the passive: 'People repaired the road every year.' Answer: The road was repaired every year." → "Rewrite sentences using no or not any. Example: Rewrite using the passive: 'People repaired the road every year.' Answer: The road was repaired every year."
+- unit_86 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with none / none of where appropriate. Example: Complete: Can you ____ this form for me? (none / none of where appropriate) Answer: none" → "Complete with none / none of where appropriate. Example: Complete: Can you ____ this form for me? (none / none of where appropriate) Answer: none"
+- unit_86 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with nobody / nothing / nowhere. Example: Complete: I ____ my neighbour's cat when she's away. (nobody / nothing / nowhere) Answer: nobody" → "Complete with nobody / nothing / nowhere. Example: Complete: I ____ my neighbour's cat when she's away. (nobody / nothing / nowhere) Answer: nobody"
+- unit_86 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Mixed practice with none of and other negative words. Example: Complete: I ____ (be) ready. (unit_86-4) Answer: am" → "Mixed practice with none of and other negative words. Example: Complete: I ____ (be) ready. (unit_86-4) Answer: am"
+- unit_87 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with much or many. Example: Complete: Can you ____ this form for me? (much / many) Answer: much" → "Complete with much or many. Example: Complete: Can you ____ this form for me? (much / many) Answer: much"
+- unit_87 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using a lot of / lots of / plenty of. Example: Rewrite using the passive: 'Someone stealed this bridge last week.' Answer: This bridge was stealed last week." → "Rewrite using a lot of / lots of / plenty of. Example: Rewrite using the passive: 'Someone stealed this bridge last week.' Answer: This bridge was stealed last week."
+- unit_87 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose between (a) little/(a) few. Example: Choose the correct option: A) Lena is cooking at weekends. B) Lena cooks once a week. C) Lena will cook on Mondays. D) Lena cooked on..." → "Choose between (a) little/(a) few. Example: Choose the correct option: A) Lena is cooking at weekends. B) Lena cooks once a week. C) Lena will cook on Mondays. D) Lena cooked on..."
+- unit_87 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with too much/many/little/few. Example: Complete: I ____ my neighbour's cat when she's away. (too much / many / little / few) Answer: too much" → "Complete with too much/many/little/few. Example: Complete: I ____ my neighbour's cat when she's away. (too much / many / little / few) Answer: too much"
+- unit_87 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Mixed practice with quantifiers. Example: Write a sentence with if: you heat ice → it melts. (unit_87-5) Answer: If you heat ice, it melts." → "Mixed practice with quantifiers. Example: Write a sentence with if: you heat ice → it melts. (unit_87-5) Answer: If you heat ice, it melts."
+- unit_88 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with all/most/some/no (general). Example: Complete: I ____ my neighbour's cat when she's away. (all / most / some / no) Answer: all" → "Complete with all/most/some/no (general). Example: Complete: I ____ my neighbour's cat when she's away. (all / most / some / no) Answer: all"
+- unit_88 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with all of/most of/some of/none of. Example: Complete: We ____ sugar, so let's buy some. (all of / most of / some of / none of) Answer: all of" → "Complete with all of/most of/some of/none of. Example: Complete: We ____ sugar, so let's buy some. (all of / most of / some of / none of) Answer: all of"
+- unit_88 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Correct phrases by adding/removing 'of' with pronouns. Example: Correct the sentence: 'They is waiting this minute.' Answer: They are waiting now." → "Correct phrases by adding/removing 'of' with pronouns. Example: Correct the sentence: 'They is waiting this minute.' Answer: They are waiting now."
+- unit_88 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite/complete using none of or not all where needed. Example: Rewrite using the passive: 'They repaired the packages last week.' Answer: The packages was repaired last week." → "Rewrite/complete using none of or not all where needed. Example: Rewrite using the passive: 'They repaired the packages last week.' Answer: The packages was repaired last week."
+- unit_89 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using both / both of. Example: Complete: I ____ my neighbour's cat when she's away. (both / both of) Answer: both" → "Complete using both / both of. Example: Complete: I ____ my neighbour's cat when she's away. (both / both of) Answer: both"
+- unit_89 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using either / either of. Example: Complete: Please ____ your jacket; it's warm inside. (either / either of) Answer: either" → "Complete using either / either of. Example: Complete: Please ____ your jacket; it's warm inside. (either / either of) Answer: either"
+- unit_89 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using neither / neither of. Example: Complete: I ____ my neighbour's cat when she's away. (neither / neither of) Answer: neither" → "Complete using neither / neither of. Example: Complete: I ____ my neighbour's cat when she's away. (neither / neither of) Answer: neither"
+- unit_89 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete sentences with both of / either of / neither of and correct verb form. Example: Correct the sentence: 'He go to work in the evenings.' Answer: He goes to school in the ..." → "Complete sentences with both of / either of / neither of and correct verb form. Example: Correct the sentence: 'He go to work in the evenings.' Answer: He goes to school in the ..."
+- unit_89 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite/complete using either...or / neither...nor. Example: Rewrite using the passive: 'Someone stealed these chairs last week.' Answer: These chairs was stealed last week." → "Rewrite/complete using either...or / neither...nor. Example: Rewrite using the passive: 'Someone stealed these chairs last week.' Answer: These chairs was stealed last week."
+- unit_90 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with all or every. Example: Complete: Please ____ your jacket; it's warm inside. (all / every) Answer: all" → "Complete with all or every. Example: Complete: Please ____ your jacket; it's warm inside. (all / every) Answer: all"
+- unit_90 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with everybody/everyone/everything or all (of). Example: Complete: We ____ sugar, so let's buy some. (everybody / everyone / everything or all) Answer: everybody" → "Complete with everybody/everyone/everything or all (of). Example: Complete: We ____ sugar, so let's buy some. (everybody / everyone / everything or all) Answer: everybody"
+- unit_90 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose between all day / the whole day, and use whole where needed. Example: Choose the correct option: A) Yaroslav will wait at weekends. B) Yaroslav waited on Mondays. C) Yaro..." → "Choose between all day / the whole day, and use whole where needed. Example: Choose the correct option: A) Yaroslav will wait at weekends. B) Yaroslav waited on Mondays. C) Yaro..."
+- unit_90 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Mixed practice with all, every, whole, and of-phrases. Example: Complete: I ____ (be) ready. (unit_90-4) Answer: am" → "Mixed practice with all, every, whole, and of-phrases. Example: Complete: I ____ (be) ready. (unit_90-4) Answer: am"
+- unit_91 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **each** or **every**. Example: Complete: Can you ____ this form for me? (**each** / **every**) Answer: **each**" → "Complete with **each** or **every**. Example: Complete: Can you ____ this form for me? (**each** / **every**) Answer: **each**"
+- unit_91 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **each (of)** / **every** / **every one of**. Example: Complete: Can you ____ this form for me? (**each ** / **every** / **every one of**) Answer: **each **" → "Complete with **each (of)** / **every** / **every one of**. Example: Complete: Can you ____ this form for me? (**each ** / **every** / **every one of**) Answer: **each **"
+- unit_91 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put **each** in the correct place (often at the end). Write the missing word. Example: Correct the sentence: 'He work to the gym at weekends.' Answer: He works to the gym on Mon..." → "Put **each** in the correct place (often at the end). Write the missing word. Example: Correct the sentence: 'He work to the gym at weekends.' Answer: He works to the gym on Mon..."
+- unit_91 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **everyone** or **every one**. Example: Complete: Can you ____ this form for me? (**everyone** / **every one**) Answer: **everyone**" → "Complete with **everyone** or **every one**. Example: Complete: Can you ____ this form for me? (**everyone** / **every one**) Answer: **everyone**"
+- unit_92 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **who**, **which**, or **that**. Example: Complete: I ____ my neighbour's cat when she's away. (**who**, **which**, / **that**) Answer: **who**, **which**," → "Complete with **who**, **which**, or **that**. Example: Complete: I ____ my neighbour's cat when she's away. (**who**, **which**, / **that**) Answer: **who**, **which**,"
+- unit_92 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with **who** / **which** / **that**. Example: Complete: We ____ sugar, so let's buy some. (**who** / **which** / **that**) Answer: **who**" → "Complete the sentences with **who** / **which** / **that**. Example: Complete: We ____ sugar, so let's buy some. (**who** / **which** / **that**) Answer: **who**"
+- unit_92 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Replace the pronoun (he/she/it/they) with a relative pronoun. Write **who**, **which**, or **that**. Example: Write a sentence: (in the evening / study / my friend) Answer: I'll..." → "Replace the pronoun (he/she/it/they) with a relative pronoun. Write **who**, **which**, or **that**. Example: Write a sentence: (in the evening / study / my friend) Answer: I'll..."
+- unit_92 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **what**. Example: Complete: There isn't ____ time. (unit_92-4) Answer: some" → "Complete with **what**. Example: Complete: There isn't ____ time. (unit_92-4) Answer: some"
+- unit_93 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **who**, **which**, or **that**. Example: Complete: Can you ____ this form for me? (**who**, **which**, / **that**) Answer: **who**, **which**," → "Complete with **who**, **which**, or **that**. Example: Complete: Can you ____ this form for me? (**who**, **which**, / **that**) Answer: **who**, **which**,"
+- unit_93 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with **who/which/that** (in these examples it could be omitted, but write one option). Example: Write a sentence: (in the evening / visit / a new recipe) ..." → "Complete the sentences with **who/which/that** (in these examples it could be omitted, but write one option). Example: Write a sentence: (in the evening / visit / a new recipe) ..."
+- unit_93 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct preposition (to / for / with / about / at / from / in). Example: Put in in/on/at: The meeting is ____ 7:45. (unit_93-3) Answer: at" → "Complete with the correct preposition (to / for / with / about / at / from / in). Example: Put in in/on/at: The meeting is ____ 7:45. (unit_93-3) Answer: at"
+- unit_93 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **that**, **what**, or write **blank** if no word is needed. Example: Write a sentence with if: it rains → we stay at home. (unit_93-4) Answer: If it rains, we sta..." → "Complete with **that**, **what**, or write **blank** if no word is needed. Example: Write a sentence with if: it rains → we stay at home. (unit_93-4) Answer: If it rains, we sta..."
+- unit_94 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **whose**. Example: Complete: There isn't ____ time. (unit_94-1) Answer: any" → "Complete with **whose**. Example: Complete: There isn't ____ time. (unit_94-1) Answer: any"
+- unit_94 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **whom**, **who**, or write **blank** if no word is needed (informal). Example: Write a sentence with if: you study regularly → you learn faster. (unit_94-2) Answe..." → "Complete with **whom**, **who**, or write **blank** if no word is needed (informal). Example: Write a sentence with if: you study regularly → you learn faster. (unit_94-2) Answe..."
+- unit_94 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **where**. Example: Complete: There isn't ____ time. (unit_94-3) Answer: any" → "Complete with **where**. Example: Complete: There isn't ____ time. (unit_94-3) Answer: any"
+- unit_94 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **when**, **why**, or **that**. Example: Complete: We ____ sugar, so let's buy some. (**when**, **why**, / **that**) Answer: **when**, **why**," → "Complete with **when**, **why**, or **that**. Example: Complete: We ____ sugar, so let's buy some. (**when**, **why**, / **that**) Answer: **when**, **why**,"
+- unit_95 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write **defining** or **non-defining**. Example: Write a sentence: (tomorrow / meet / my colleague) Answer: Tomorrow I'll meet my colleague." → "Write **defining** or **non-defining**. Example: Write a sentence: (tomorrow / meet / my colleague) Answer: Tomorrow I'll meet my colleague."
+- unit_95 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **who** or **which** (non-defining; commas are implied). Do NOT use **that**. Example: Complete: There isn't ____ time. (unit_95-2) Answer: any" → "Complete with **who** or **which** (non-defining; commas are implied). Do NOT use **that**. Example: Complete: There isn't ____ time. (unit_95-2) Answer: any"
+- unit_95 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **which** (refers to the whole clause). Example: Complete: There isn't ____ time. (unit_95-3) Answer: much" → "Complete with **which** (refers to the whole clause). Example: Complete: There isn't ____ time. (unit_95-3) Answer: much"
+- unit_96 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **whom** or **which** (formal: preposition + whom/which). Example: Put in in/on/at: The meeting is ____ 7:45. (unit_96-1) Answer: at" → "Complete with **whom** or **which** (formal: preposition + whom/which). Example: Put in in/on/at: The meeting is ____ 7:45. (unit_96-1) Answer: at"
+- unit_96 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a phrase like **all of whom / most of which / none of which / one of whom**, etc. Example: Complete: I ____ my neighbour's cat when she's away. (a phrase like **al..." → "Complete with a phrase like **all of whom / most of which / none of which / one of whom**, etc. Example: Complete: I ____ my neighbour's cat when she's away. (a phrase like **al..."
+- unit_96 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with **which** (refers to the whole idea). Example: Complete: There isn't ____ time. (unit_96-3) Answer: many" → "Complete with **which** (refers to the whole idea). Example: Complete: There isn't ____ time. (unit_96-3) Answer: many"
+- unit_97 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the **-ing** form. Example: Write a sentence: (on Saturday / call / my friend) Answer: I'll call my friend on Saturday." → "Write the **-ing** form. Example: Write a sentence: (on Saturday / call / my friend) Answer: I'll call my friend on Saturday."
+- unit_97 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the correct **past participle** (used in an -ed clause). Example: Correct the sentence: 'They is studying now.' Answer: They are studying this minute." → "Write the correct **past participle** (used in an -ed clause). Example: Correct the sentence: 'They is studying now.' Answer: They are studying this minute."
+- unit_97 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct **-ing** or **-ed** form. Example: Correct the sentence: 'He go to work once a week.' Answer: He goes to the gym in the evenings." → "Complete with the correct **-ing** or **-ed** form. Example: Correct the sentence: 'He go to work once a week.' Answer: He goes to the gym in the evenings."
+- unit_97 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct **-ing** or **-ed** form. Example: Correct the sentence: 'She don't like it.' Answer: She doesn't like coffee." → "Complete with the correct **-ing** or **-ed** form. Example: Correct the sentence: 'She don't like it.' Answer: She doesn't like coffee."
+- unit_98 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct adjective: **-ing** or **-ed**. Example: Choose the correct option: A) Maksym carried every summer. B) Maksym carries in the evenings. C) Maksym is carrying a..." → "Choose the correct adjective: **-ing** or **-ed**. Example: Choose the correct option: A) Maksym carried every summer. B) Maksym carries in the evenings. C) Maksym is carrying a..."
+- unit_98 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct form (**-ing** or **-ed**). Example: Correct the sentence: 'They is studying this minute.' Answer: They are studying now." → "Complete with the correct form (**-ing** or **-ed**). Example: Correct the sentence: 'They is studying this minute.' Answer: They are studying now."
+- unit_98 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with an **-ing** or **-ed** adjective. Example: Complete: The lesson was ____, so I was ____. (interest) Answer: interesting, interested" → "Complete the sentences with an **-ing** or **-ed** adjective. Example: Complete: The lesson was ____, so I was ____. (interest) Answer: interesting, interested"
+- unit_99 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the words in the correct order. Example: Correct the sentence: 'He go to school every summer.' Answer: He goes to the gym on Mondays." → "Put the words in the correct order. Example: Correct the sentence: 'He go to school every summer.' Answer: He goes to the gym on Mondays."
+- unit_99 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrase (write it). Example: Choose the correct option: A) Yaroslav will wait once a week. B) Yaroslav is waiting every day. C) Yaroslav waited on Mondays. D) ..." → "Choose the correct phrase (write it). Example: Choose the correct option: A) Yaroslav will wait once a week. B) Yaroslav is waiting every day. C) Yaroslav waited on Mondays. D) ..."
+- unit_99 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct word (adjective or adverb). Example: Choose the correct option: A) Sofia worked on Mondays. B) Sofia works at weekends. C) Sofia is working every day. D) Sofi..." → "Choose the correct word (adjective or adverb). Example: Choose the correct option: A) Sofia worked on Mondays. B) Sofia works at weekends. C) Sofia is working every day. D) Sofi..."
+- unit_99 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the phrase with **first/next/last** + number. Example: Complete: Can you ____ this form for me? (**first / next / last** + number) Answer: **first" → "Complete the phrase with **first/next/last** + number. Example: Complete: Can you ____ this form for me? (**first / next / last** + number) Answer: **first"
+- unit_100 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct word form. Example: Correct the sentence: 'They is traveling this minute.' Answer: They are traveling now." → "Complete with the correct word form. Example: Correct the sentence: 'They is traveling this minute.' Answer: They are traveling now."
+- unit_100 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct word. Example: Choose the correct option: A) Oleh is fixing at weekends. B) Oleh fixed in the evenings. C) Oleh will fix every summer. D) Oleh fixes at weeken..." → "Choose the correct word. Example: Choose the correct option: A) Oleh is fixing at weekends. B) Oleh fixed in the evenings. C) Oleh will fix every summer. D) Oleh fixes at weeken..."
+- unit_100 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with an adjective or adverb. Example: Complete: Can you ____ this form for me? (an adjective / adverb) Answer: an adjective" → "Complete with an adjective or adverb. Example: Complete: Can you ____ this form for me? (an adjective / adverb) Answer: an adjective"
+- unit_100 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with an adverb (e.g., really, extremely, terribly, badly). Example: Complete: There isn't ____ time. (unit_100-4) Answer: much" → "Complete with an adverb (e.g., really, extremely, terribly, badly). Example: Complete: There isn't ____ time. (unit_100-4) Answer: much"
+- unit_101 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose good or well to complete each sentence. Example: Choose the correct option: A) Maksym looks at weekends. B) Maksym looked once a week. C) Maksym will look in the evenings..." → "Choose good or well to complete each sentence. Example: Choose the correct option: A) Maksym looks at weekends. B) Maksym looked once a week. C) Maksym will look in the evenings..."
+- unit_101 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Make compound adjectives with well- (use a hyphen). Example: Complete: I ____ (be) ready. (unit_101-2) Answer: am" → "Make compound adjectives with well- (use a hyphen). Example: Complete: I ____ (be) ready. (unit_101-2) Answer: am"
+- unit_101 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with fast, hard, late, or lately. Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately) Answer: fast, hard, late," → "Complete each sentence with fast, hard, late, or lately. Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately) Answer: fast, hard, late,"
+- unit_101 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose hard or hardly. Example: Choose the correct option: A) Sofia worked in the evenings. B) Sofia will work on Mondays. C) Sofia is working on Mondays. D) Sofia works once a ..." → "Choose hard or hardly. Example: Choose the correct option: A) Sofia worked in the evenings. B) Sofia will work on Mondays. C) Sofia is working on Mondays. D) Sofia works once a ..."
+- unit_101 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with the correct word or expression. Example: Correct the sentence: 'She don't want coffee.' Answer: She doesn't want this." → "Complete each sentence with the correct word or expression. Example: Correct the sentence: 'She don't want coffee.' Answer: She doesn't want this."
+- unit_102 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose so or such. Example: Choose the correct option: A) Oleh travels every day. B) Oleh is traveling in the evenings. C) Oleh will travel every day. D) Oleh traveled on Monday..." → "Choose so or such. Example: Choose the correct option: A) Oleh travels every day. B) Oleh is traveling in the evenings. C) Oleh will travel every day. D) Oleh traveled on Monday..."
+- unit_102 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with so much, so many, so little, or so few. Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few) Answer: so much, so many, so l..." → "Complete with so much, so many, so little, or so few. Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few) Answer: so much, so many, so l..."
+- unit_102 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with so or such. Use that where it fits (____). Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits) Answer: so" → "Complete with so or such. Use that where it fits (____). Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits) Answer: so"
+- unit_102 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite the sentences using so/such ... that. Example: Rewrite using the passive: 'People built my bike last week.' Answer: My bike was built last week." → "Rewrite the sentences using so/such ... that. Example: Rewrite using the passive: 'People built my bike last week.' Answer: My bike was built last week."
+- unit_103 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Add enough in the correct place. Example: Correct the sentence: 'He play to the gym in the evenings.' Answer: He plays to school at weekends." → "Add enough in the correct place. Example: Correct the sentence: 'He play to the gym in the evenings.' Answer: He plays to school at weekends."
+- unit_103 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with too (and the noun phrase already given). Example: Complete: There isn't ____ time. (unit_103-2) Answer: some" → "Complete with too (and the noun phrase already given). Example: Complete: There isn't ____ time. (unit_103-2) Answer: some"
+- unit_103 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Rewrite using too ... to or (not) ... enough to. Example: Rewrite using the passive: 'The company built these chairs last week.' Answer: These chairs was built last week." → "Rewrite using too ... to or (not) ... enough to. Example: Rewrite using the passive: 'The company built these chairs last week.' Answer: These chairs was built last week."
+- unit_104 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose pretty or fairly. Example: Choose the correct option: A) Anna choosed once a week. B) Anna will choose every summer. C) Anna is choosing on Mondays. D) Anna chooses in th..." → "Choose pretty or fairly. Example: Choose the correct option: A) Anna choosed once a week. B) Anna will choose every summer. C) Anna is choosing on Mondays. D) Anna chooses in th..."
+- unit_104 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with quite (meaning 'fairly') where it fits. Example: Complete: There isn't ____ time. (unit_104-2) Answer: any" → "Complete with quite (meaning 'fairly') where it fits. Example: Complete: There isn't ____ time. (unit_104-2) Answer: any"
+- unit_104 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use quite (meaning 'completely') with these adjectives. Example: Complete: There isn't ____ time. (unit_104-3) Answer: a little" → "Use quite (meaning 'completely') with these adjectives. Example: Complete: There isn't ____ time. (unit_104-3) Answer: a little"
+- unit_104 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with rather. Example: Complete: There isn't ____ time. (unit_104-4) Answer: many" → "Complete with rather. Example: Complete: There isn't ____ time. (unit_104-4) Answer: many"
+- unit_104 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the best word: pretty, fairly, quite, or rather. Example: Choose the correct option: A) Sofia playyed every day. B) Sofia is playying every summer. C) Sofia will play eve..." → "Choose the best word: pretty, fairly, quite, or rather. Example: Choose the correct option: A) Sofia playyed every day. B) Sofia is playying every summer. C) Sofia will play eve..."
+- unit_105 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the comparative form. Example: Complete: This plan is ____ than the old one. (comfortable) Answer: more comfortable" → "Write the comparative form. Example: Complete: This plan is ____ than the old one. (comfortable) Answer: more comfortable"
+- unit_105 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the comparative (use than). Example: Complete: This plan is ____ than the old one. (safe) Answer: more safe" → "Complete with the comparative (use than). Example: Complete: This plan is ____ than the old one. (safe) Answer: more safe"
+- unit_105 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the correct comparative (‑er or more). Example: Complete: This plan is ____ than the old one. (fast) Answer: faster" → "Write the correct comparative (‑er or more). Example: Complete: This plan is ____ than the old one. (fast) Answer: faster"
+- unit_105 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a comparative. Use than only if needed. Example: Complete: This plan is ____ than the old one. (busy) Answer: more busy" → "Complete with a comparative. Use than only if needed. Example: Complete: This plan is ____ than the old one. (busy) Answer: more busy"
+- unit_106 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with much/far/a lot + comparative. Example: Complete: This plan is ____ than the old one. (useful) Answer: more useful" → "Complete with much/far/a lot + comparative. Example: Complete: This plan is ____ than the old one. (useful) Answer: more useful"
+- unit_106 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a bit/a little/slightly + comparative. Example: Complete: This plan is ____ than the old one. (busy) (unit_106-2) Answer: more busy" → "Complete with a bit/a little/slightly + comparative. Example: Complete: This plan is ____ than the old one. (busy) (unit_106-2) Answer: more busy"
+- unit_106 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with any or no (use no longer where needed). Example: Complete: Can you ____ this form for me? (any / no) Answer: any" → "Complete with any or no (use no longer where needed). Example: Complete: Can you ____ this form for me? (any / no) Answer: any"
+- unit_106 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct pronoun/clause after than. Example: Complete: This plan is ____ than the old one. (cheap) (unit_106-4) Answer: cheaper" → "Complete with the correct pronoun/clause after than. Example: Complete: This plan is ____ than the old one. (cheap) (unit_106-4) Answer: cheaper"
+- unit_106 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with comparative patterns (… and … / the … the …). Example: Complete: This plan is ____ than the old one. (comfortable) (unit_106-5) Answer: more comfortable" → "Complete with comparative patterns (… and … / the … the …). Example: Complete: This plan is ____ than the old one. (comfortable) (unit_106-5) Answer: more comfortable"
+- unit_107 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with as ... as. Example: Complete: My laptop is as ____ as yours. (quiet) Answer: quiet" → "Complete with as ... as. Example: Complete: My laptop is as ____ as yours. (quiet) Answer: quiet"
+- unit_107 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with not as/so ... as (write the phrase as ... as). Example: Complete: This street is not as ____ as the main road. (comfortable) Answer: comfortable" → "Complete with not as/so ... as (write the phrase as ... as). Example: Complete: This street is not as ____ as the main road. (comfortable) Answer: comfortable"
+- unit_107 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with as much/many/few/little ... as. Example: Complete: We ____ sugar, so let's buy some. (as much / many / few / little ... as) Answer: as much" → "Complete with as much/many/few/little ... as. Example: Complete: We ____ sugar, so let's buy some. (as much / many / few / little ... as) Answer: as much"
+- unit_107 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the correct comparison phrase (… than / as … as). Example: Complete: This plan is ____ than the old one. (useful) (unit_107-4) Answer: more useful" → "Write the correct comparison phrase (… than / as … as). Example: Complete: This plan is ____ than the old one. (useful) (unit_107-4) Answer: more useful"
+- unit_107 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct comparative structure. Example: Complete: This plan is ____ than the old one. (quiet) (unit_107-5) Answer: quieter" → "Complete with the correct comparative structure. Example: Complete: This plan is ____ than the old one. (quiet) (unit_107-5) Answer: quieter"
+- unit_108 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Write the superlative form (include the). Example: Write a sentence: (on Saturday / travel / my parents) Answer: I'll travel my parents on Saturday." → "Write the superlative form (include the). Example: Write a sentence: (on Saturday / travel / my parents) Answer: I'll travel my parents on Saturday."
+- unit_108 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the superlative. Example: Complete: There isn't ____ time. (unit_108-2) Answer: some" → "Complete with the superlative. Example: Complete: There isn't ____ time. (unit_108-2) Answer: some"
+- unit_108 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with in/of or a noun phrase for one of the ... Example: Complete: There isn't ____ time. (unit_108-3) Answer: many" → "Complete with in/of or a noun phrase for one of the ... Example: Complete: There isn't ____ time. (unit_108-3) Answer: many"
+- unit_108 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with ever. Example: Complete: There isn't ____ time. (unit_108-4) Answer: many" → "Complete with ever. Example: Complete: There isn't ____ time. (unit_108-4) Answer: many"
+- unit_109 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the words in the correct order. Example: Correct the sentence: 'He work to school every summer.' Answer: He works to school at weekends." → "Put the words in the correct order. Example: Correct the sentence: 'He work to school every summer.' Answer: He works to school at weekends."
+- unit_109 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put place before time. Example: Complete: There isn't ____ time. (unit_109-2) Answer: a little" → "Put place before time. Example: Complete: There isn't ____ time. (unit_109-2) Answer: a little"
+- unit_109 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Correct the word order. Example: Correct the sentence: 'He study to work in the evenings.' Answer: He studies to the gym every day." → "Correct the word order. Example: Correct the sentence: 'He study to work in the evenings.' Answer: He studies to the gym every day."
+- unit_110 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the adverb in the correct place. Example: Correct the sentence: 'He study to work every day.' Answer: He studies to school on Mondays." → "Put the adverb in the correct place. Example: Correct the sentence: 'He study to work every day.' Answer: He studies to school on Mondays."
+- unit_110 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put the adverb in the correct place (be / auxiliary verbs). Example: Correct the sentence: 'They is waiting at the moment.' Answer: They are waiting now." → "Put the adverb in the correct place (be / auxiliary verbs). Example: Correct the sentence: 'They is waiting at the moment.' Answer: They are waiting now."
+- unit_110 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Correct the word order / place the adverb. Example: Correct the sentence: 'He work to work once a week.' Answer: He works to the gym every summer." → "Correct the word order / place the adverb. Example: Correct the sentence: 'He work to work once a week.' Answer: He works to the gym every summer."
+- unit_111 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with still, any more/any longer, or no longer. Example: Complete: We ____ sugar, so let's buy some. (still, any more / any longer, or no longer) Answer: s..." → "Complete the sentences with still, any more/any longer, or no longer. Example: Complete: We ____ sugar, so let's buy some. (still, any more / any longer, or no longer) Answer: s..."
+- unit_111 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in still to show that the situation continues. Example: Complete: There isn't ____ time. (unit_111-2) Answer: a few" → "Put in still to show that the situation continues. Example: Complete: There isn't ____ time. (unit_111-2) Answer: a few"
+- unit_111 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with still, yet, already, any more/any longer, or no longer. Example: Complete: We ____ sugar, so let's buy some. (still, yet, already, any more / any lon..." → "Complete each sentence with still, yet, already, any more/any longer, or no longer. Example: Complete: We ____ sugar, so let's buy some. (still, yet, already, any more / any lon..."
+- unit_112 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with even. Example: Complete: There isn't ____ time. (unit_112-1) Answer: some" → "Complete the sentences with even. Example: Complete: There isn't ____ time. (unit_112-1) Answer: some"
+- unit_112 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put even in the correct position (before the main verb; after be/auxiliaries). Example: Correct the sentence: 'He study to the gym every day.' Answer: He studies to the gym at w..." → "Put even in the correct position (before the main verb; after be/auxiliaries). Example: Correct the sentence: 'He study to the gym every day.' Answer: He studies to the gym at w..."
+- unit_112 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use (not) even for emphasis. Example: Complete: I ____ (be) ready. (unit_112-3) Answer: am" → "Use (not) even for emphasis. Example: Complete: I ____ (be) ready. (unit_112-3) Answer: am"
+- unit_112 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with even to emphasise an unusual detail. Example: Complete: There isn't ____ time. (unit_112-4) Answer: a little" → "Complete with even to emphasise an unusual detail. Example: Complete: There isn't ____ time. (unit_112-4) Answer: a little"
+- unit_113 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with although / though / even though. Example: Complete: Can you ____ this form for me? (although / though / even though) Answer: although" → "Complete the sentences with although / though / even though. Example: Complete: Can you ____ this form for me? (although / though / even though) Answer: although"
+- unit_113 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with despite or in spite of. Example: Complete: We ____ sugar, so let's buy some. (despite / in spite of) Answer: despite" → "Complete with despite or in spite of. Example: Complete: We ____ sugar, so let's buy some. (despite / in spite of) Answer: despite"
+- unit_113 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use although/though with a clause, or despite/in spite of (the fact that) for contrast. Example: Complete: I ____ (be) ready. (unit_113-3) Answer: am" → "Use although/though with a clause, or despite/in spite of (the fact that) for contrast. Example: Complete: I ____ (be) ready. (unit_113-3) Answer: am"
+- unit_113 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with though / even if / even though. Example: Write a sentence with if: you study regularly → you learn faster. (unit_113-4) Answer: If you study regularly, you learn f..." → "Complete with though / even if / even though. Example: Write a sentence with if: you study regularly → you learn faster. (unit_113-4) Answer: If you study regularly, you learn f..."
+- unit_114 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with in case. Example: Complete: There isn't ____ time. (unit_114-1) Answer: a little" → "Complete the sentences with in case. Example: Complete: There isn't ____ time. (unit_114-1) Answer: a little"
+- unit_114 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Add just in case to make the precaution stronger. Example: Complete: I ____ (be) ready. (unit_114-2) Answer: am" → "Add just in case to make the precaution stronger. Example: Complete: I ____ (be) ready. (unit_114-2) Answer: am"
+- unit_114 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose if or in case. Example: Choose the correct option: A) Iryna is running every summer. B) Iryna runs every summer. C) Iryna runned on Mondays. D) Iryna will run in the even..." → "Choose if or in case. Example: Choose the correct option: A) Iryna is running every summer. B) Iryna runs every summer. C) Iryna runned on Mondays. D) Iryna will run in the even..."
+- unit_114 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with in case of + noun. Example: Complete: There isn't ____ time. (unit_114-4) Answer: any" → "Complete with in case of + noun. Example: Complete: There isn't ____ time. (unit_114-4) Answer: any"
+- unit_115 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with unless (= if not). Example: Write a sentence with if: it rains → we stay at home. (unit_115-1) Answer: If it rains, we stay at home." → "Complete with unless (= if not). Example: Write a sentence with if: it rains → we stay at home. (unit_115-1) Answer: If it rains, we stay at home."
+- unit_115 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with as long as / so long as / provided (that). Example: Complete: We ____ sugar, so let's buy some. (as long as / so long as / provided) Answer: as long as" → "Complete with as long as / so long as / provided (that). Example: Complete: We ____ sugar, so let's buy some. (as long as / so long as / provided) Answer: as long as"
+- unit_115 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use unless (= if not). In unreal situations with would, use if … not. Example: Write a sentence with if: you heat ice → it melts. (unit_115-3) Answer: If you heat ice, it melts." → "Use unless (= if not). In unreal situations with would, use if … not. Example: Write a sentence with if: you heat ice → it melts. (unit_115-3) Answer: If you heat ice, it melts."
+- unit_115 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with unless / as long as / provided (that). Example: Complete: We ____ sugar, so let's buy some. (unless / as long as / provided) Answer: unless" → "Complete with unless / as long as / provided (that). Example: Complete: We ____ sugar, so let's buy some. (unless / as long as / provided) Answer: unless"
+- unit_116 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose as when two actions happen at the same time. Example: Choose the correct option: A) Oleh travels every summer. B) Oleh traveled once a week. C) Oleh is traveling every su..." → "Choose as when two actions happen at the same time. Example: Choose the correct option: A) Oleh travels every summer. B) Oleh traveled once a week. C) Oleh is traveling every su..."
+- unit_116 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose when if one thing happens after another. Example: Choose the correct option: A) Lena watched every day. B) Lena is watching at weekends. C) Lena watches once a week. D) L..." → "Choose when if one thing happens after another. Example: Choose the correct option: A) Lena watched every day. B) Lena is watching at weekends. C) Lena watches once a week. D) L..."
+- unit_116 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with as meaning 'because'. Example: Complete: There isn't ____ time. (unit_116-3) Answer: any" → "Complete with as meaning 'because'. Example: Complete: There isn't ____ time. (unit_116-3) Answer: any"
+- unit_116 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose as or when. Example: Choose the correct option: A) Danylo will run every summer. B) Danylo runned every day. C) Danylo is running every summer. D) Danylo runs every summe..." → "Choose as or when. Example: Choose the correct option: A) Danylo will run every summer. B) Danylo runned every day. C) Danylo is running every summer. D) Danylo runs every summe..."
+- unit_116 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with as meaning 'because'. Example: Complete: There isn't ____ time. (unit_116-5) Answer: a little" → "Complete with as meaning 'because'. Example: Complete: There isn't ____ time. (unit_116-5) Answer: a little"
+- unit_117 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with as/like/such as and common expressions. Example: Complete: I ____ my neighbour's cat when she's away. (as / like / such as and common expressions) Answer: as" → "Complete with as/like/such as and common expressions. Example: Complete: I ____ my neighbour's cat when she's away. (as / like / such as and common expressions) Answer: as"
+- unit_117 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with as in fixed expressions. Example: Complete: There isn't ____ time. (unit_117-2) Answer: any" → "Complete with as in fixed expressions. Example: Complete: There isn't ____ time. (unit_117-2) Answer: any"
+- unit_117 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with like or such as. Example: Complete: Can you ____ this form for me? (like / such as) Answer: like" → "Complete with like or such as. Example: Complete: Can you ____ this form for me? (like / such as) Answer: like"
+- unit_117 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with as / like / such as and related expressions. Example: Complete: Can you ____ this form for me? (as / like) Answer: as" → "Complete the sentences with as / like / such as and related expressions. Example: Complete: Can you ____ this form for me? (as / like) Answer: as"
+- unit_118 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with like / as if / as though after look/sound/seem. Example: Write a sentence with if: it rains → we stay at home. (unit_118-1) Answer: If it rains, we stay at home." → "Complete with like / as if / as though after look/sound/seem. Example: Write a sentence with if: it rains → we stay at home. (unit_118-1) Answer: If it rains, we stay at home."
+- unit_118 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with like / as if / as though. Example: Write a sentence with if: it rains → we stay at home. (unit_118-2) Answer: If it rains, we stay at home." → "Complete with like / as if / as though. Example: Write a sentence with if: it rains → we stay at home. (unit_118-2) Answer: If it rains, we stay at home."
+- unit_118 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct form after as if / as though (often past forms for an unreal present). Example: Choose the correct option: A) Oleh studied in the evenings. B) Oleh will study..." → "Choose the correct form after as if / as though (often past forms for an unreal present). Example: Choose the correct option: A) Oleh studied in the evenings. B) Oleh will study..."
+- unit_118 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with were after as if (formal/unreal style). Example: Write a sentence with if: you study regularly → you learn faster. (unit_118-4) Answer: If you study regularly, you..." → "Complete with were after as if (formal/unreal style). Example: Write a sentence with if: you study regularly → you learn faster. (unit_118-4) Answer: If you study regularly, you..."
+- unit_119 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with for to say how long something lasts. Example: Complete: There isn't ____ time. (unit_119-1) Answer: much" → "Complete with for to say how long something lasts. Example: Complete: There isn't ____ time. (unit_119-1) Answer: much"
+- unit_119 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with during to say when something happened within a period. Example: Complete: There isn't ____ time. (unit_119-2) Answer: many" → "Complete with during to say when something happened within a period. Example: Complete: There isn't ____ time. (unit_119-2) Answer: many"
+- unit_119 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with while to show two actions at the same time. Example: Complete: There isn't ____ time. (unit_119-3) Answer: much" → "Complete with while to show two actions at the same time. Example: Complete: There isn't ____ time. (unit_119-3) Answer: much"
+- unit_119 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose for, during or while. Example: Choose the correct option: A) Lena writes in the evenings. B) Lena writed in the evenings. C) Lena will write at weekends. D) Lena is writi..." → "Choose for, during or while. Example: Choose the correct option: A) Lena writes in the evenings. B) Lena writed in the evenings. C) Lena will write at weekends. D) Lena is writi..."
+- unit_120 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Use by to mean 'not later than'. Example: Complete: This plan is ____ than the old one. (useful) (unit_120-1) Answer: more useful" → "Use by to mean 'not later than'. Example: Complete: This plan is ____ than the old one. (useful) (unit_120-1) Answer: more useful"
+- unit_120 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable form after by the time. Example: Complete: There isn't ____ time. (unit_120-2) Answer: a few" → "Complete the sentences with a suitable form after by the time. Example: Complete: There isn't ____ time. (unit_120-2) Answer: a few"
+- unit_120 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose by or until. Example: Choose the correct option: A) Lena looks on Mondays. B) Lena is looking at weekends. C) Lena looked once a week. D) Lena will look once a week. Answ..." → "Choose by or until. Example: Choose the correct option: A) Lena looks on Mondays. B) Lena is looking at weekends. C) Lena looked once a week. D) Lena will look once a week. Answ..."
+- unit_120 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using by / by the time / until. Example: Complete: Can you ____ this form for me? (by / by the time / until) Answer: by" → "Complete using by / by the time / until. Example: Complete: Can you ____ this form for me? (by / by the time / until) Answer: by"
+- unit_121 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in at, on or in. Example: Complete: There isn't ____ time. (unit_121-1) Answer: much" → "Put in at, on or in. Example: Complete: There isn't ____ time. (unit_121-1) Answer: much"
+- unit_121 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with at, on or in. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_121-2) Answer: at" → "Complete each sentence with at, on or in. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_121-2) Answer: at"
+- unit_121 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose a, b or both. Example: Choose the correct option: A) Maksym planned once a week. B) Maksym will plan at weekends. C) Maksym plans on Mondays. D) Maksym is planning once a..." → "Choose a, b or both. Example: Choose the correct option: A) Maksym planned once a week. B) Maksym will plan at weekends. C) Maksym plans on Mondays. D) Maksym is planning once a..."
+- unit_122 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with on time or in time. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_122-1) Answer: at" → "Complete with on time or in time. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_122-1) Answer: at"
+- unit_122 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with just in time. Example: Complete: There isn't ____ time. (unit_122-2) Answer: some" → "Complete each sentence with just in time. Example: Complete: There isn't ____ time. (unit_122-2) Answer: some"
+- unit_122 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with at the end of. Example: Complete: There isn't ____ time. (unit_122-3) Answer: some" → "Complete with at the end of. Example: Complete: There isn't ____ time. (unit_122-3) Answer: some"
+- unit_122 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with in the end. Example: Complete: There isn't ____ time. (unit_122-4) Answer: many" → "Complete with in the end. Example: Complete: There isn't ____ time. (unit_122-4) Answer: many"
+- unit_122 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with at or in. Example: Put in in/on/at: The meeting is ____ July. (unit_122-5) Answer: in" → "Complete with at or in. Example: Put in in/on/at: The meeting is ____ July. (unit_122-5) Answer: in"
+- unit_123 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with in, at or on. Example: Put in in/on/at: The meeting is ____ July. (unit_123-1) Answer: in" → "Complete with in, at or on. Example: Put in in/on/at: The meeting is ____ July. (unit_123-1) Answer: in"
+- unit_123 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in in, at or on. Example: Complete: There isn't ____ time. (unit_123-2) Answer: some" → "Put in in, at or on. Example: Complete: There isn't ____ time. (unit_123-2) Answer: some"
+- unit_123 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with in, at or on. Example: Put in in/on/at: The meeting is ____ Friday. (unit_123-3) Answer: on" → "Complete the sentences with in, at or on. Example: Put in in/on/at: The meeting is ____ Friday. (unit_123-3) Answer: on"
+- unit_124 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with in, on or at. Example: Put in in/on/at: The meeting is ____ Friday. (unit_124-1) Answer: on" → "Complete with in, on or at. Example: Put in in/on/at: The meeting is ____ Friday. (unit_124-1) Answer: on"
+- unit_124 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in in, on or at. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_124-2) Answer: at" → "Put in in, on or at. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_124-2) Answer: at"
+- unit_124 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with in, on or at. Example: Put in in/on/at: The meeting is ____ Friday. (unit_124-3) Answer: on" → "Complete the sentences with in, on or at. Example: Put in in/on/at: The meeting is ____ Friday. (unit_124-3) Answer: on"
+- unit_125 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with in or at. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_125-1) Answer: at" → "Complete the sentences with in or at. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_125-1) Answer: at"
+- unit_125 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in in or at. Example: Complete: There isn't ____ time. (unit_125-2) Answer: a little" → "Put in in or at. Example: Complete: There isn't ____ time. (unit_125-2) Answer: a little"
+- unit_125 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use the correct preposition or phrase. Example: Put in in/on/at: The meeting is ____ Friday. (unit_125-3) Answer: on" → "Complete the sentences. Use the correct preposition or phrase. Example: Put in in/on/at: The meeting is ____ Friday. (unit_125-3) Answer: on"
+- unit_126 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in to, in, at, into, or leave it empty (—). Example: Complete: There isn't ____ time. (unit_126-1) Answer: a few" → "Put in to, in, at, into, or leave it empty (—). Example: Complete: There isn't ____ time. (unit_126-1) Answer: a few"
+- unit_126 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with to, at, in, into or — (no word). Example: Put in in/on/at: The meeting is ____ July. (unit_126-2) Answer: in" → "Complete with to, at, in, into or — (no word). Example: Put in in/on/at: The meeting is ____ July. (unit_126-2) Answer: in"
+- unit_126 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct answer. Example: Choose the correct option: A) Yaroslav will write in the evenings. B) Yaroslav writed every day. C) Yaroslav writes every day. D) Yaroslav is..." → "Choose the correct answer. Example: Choose the correct option: A) Yaroslav will write in the evenings. B) Yaroslav writed every day. C) Yaroslav writes every day. D) Yaroslav is..."
+- unit_126 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a suitable preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_126-4) Answer: at" → "Complete with a suitable preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_126-4) Answer: at"
+- unit_127 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with in, on or at. Example: Put in in/on/at: The meeting is ____ July. (unit_127-1) Answer: in" → "Complete with in, on or at. Example: Put in in/on/at: The meeting is ____ July. (unit_127-1) Answer: in"
+- unit_127 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in in, on or at. Example: Put in in/on/at: The meeting is ____ Friday. (unit_127-2) Answer: on" → "Put in in, on or at. Example: Put in in/on/at: The meeting is ____ Friday. (unit_127-2) Answer: on"
+- unit_127 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_127-3) Answer: at" → "Complete the sentences with a suitable preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_127-3) Answer: at"
+- unit_128 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrase. Example: Choose the correct option: A) Anna worked on Mondays. B) Anna will work once a week. C) Anna works every summer. D) Anna is working once a we..." → "Choose the correct phrase. Example: Choose the correct option: A) Anna worked on Mondays. B) Anna will work once a week. C) Anna works every summer. D) Anna is working once a we..."
+- unit_128 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in by, in or on. Example: Complete: There isn't ____ time. (unit_128-2) Answer: any" → "Put in by, in or on. Example: Complete: There isn't ____ time. (unit_128-2) Answer: any"
+- unit_128 ex 3 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct ending. Example: Choose the correct option: A) Oleh plays every summer. B) Oleh is playying at weekends. C) Oleh will play every day. D) Oleh playyed once a w..." → "Choose the correct ending. Example: Choose the correct option: A) Oleh plays every summer. B) Oleh is playying at weekends. C) Oleh will play every day. D) Oleh playyed once a w..."
+- unit_128 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in by, in, on or with. Example: Complete: There isn't ____ time. (unit_128-4) Answer: some" → "Put in by, in, on or with. Example: Complete: There isn't ____ time. (unit_128-4) Answer: some"
+- unit_128 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with by + an amount. Example: Complete: There isn't ____ time. (unit_128-5) Answer: much" → "Complete with by + an amount. Example: Complete: There isn't ____ time. (unit_128-5) Answer: much"
+- unit_129 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with a suitable noun + preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_129-1) Answer: on" → "Complete with a suitable noun + preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_129-1) Answer: on"
+- unit_129 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete with the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_129-2) Answer: on" → "Complete with the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_129-2) Answer: on"
+- unit_129 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_129-3) Answer: at" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_129-3) Answer: at"
+- unit_130 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete using adjective + of (and the person). Example: Complete: There isn't ____ time. (unit_130-1) Answer: any" → "Complete using adjective + of (and the person). Example: Complete: There isn't ____ time. (unit_130-1) Answer: any"
+- unit_130 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_130-2) Answer: at" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_130-2) Answer: at"
+- unit_130 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_130-3) Answer: on" → "Complete the sentences with a suitable preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_130-3) Answer: on"
+- unit_131 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Choose an adjective. (All answers use '… of'.) Example: Choose the correct option: A) Oleh will listen every day. B) Oleh is listening once a week. C) Ol..." → "Complete the sentences. Choose an adjective. (All answers use '… of'.) Example: Choose the correct option: A) Oleh will listen every day. B) Oleh is listening once a week. C) Ol..."
+- unit_131 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the best phrase to complete each sentence. Example: Choose the correct option: A) Taras reads once a week. B) Taras will read at weekends. C) Taras readed in the evenings..." → "Choose the best phrase to complete each sentence. Example: Choose the correct option: A) Taras reads once a week. B) Taras will read at weekends. C) Taras readed in the evenings..."
+- unit_131 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition after the adjective. Example: Put in in/on/at: The meeting is ____ July. (unit_131-3) Answer: in" → "Put in the correct preposition after the adjective. Example: Put in in/on/at: The meeting is ____ July. (unit_131-3) Answer: in"
+- unit_131 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the second sentence so it means the same as the first. Example: Complete: There isn't ____ time. (unit_131-4) Answer: many" → "Complete the second sentence so it means the same as the first. Example: Complete: There isn't ____ time. (unit_131-4) Answer: many"
+- unit_131 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ July. (unit_131-5) Answer: in" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ July. (unit_131-5) Answer: in"
+- unit_132 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Oleh is planning every summer. B) Oleh plans at weekends. C) Oleh will plan every summer. D) Ole..." → "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Oleh is planning every summer. B) Oleh plans at weekends. C) Oleh will plan every summer. D) Ole..."
+- unit_132 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each gap with a suitable verb + preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_132-2) Answer: on" → "Complete each gap with a suitable verb + preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_132-2) Answer: on"
+- unit_132 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in 'to' or 'at'. Example: Complete: Can you ____ this form for me? (to / at) Answer: to" → "Put in 'to' or 'at'. Example: Complete: Can you ____ this form for me? (to / at) Answer: to"
+- unit_133 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Lena will choose every summer. B) Lena chooses in the evenings. C) Lena is choosing every summer..." → "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Lena will choose every summer. B) Lena chooses in the evenings. C) Lena is choosing every summer..."
+- unit_133 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in about / for, or leave the gap empty. Example: Complete: There isn't ____ time. (unit_133-2) Answer: many" → "Put in about / for, or leave the gap empty. Example: Complete: There isn't ____ time. (unit_133-2) Answer: many"
+- unit_133 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with care about / care for / take care of / look after. Example: Complete: Please ____ your jacket; it's warm inside. (care about / care for / take care o..." → "Complete the sentences with care about / care for / take care of / look after. Example: Complete: Please ____ your jacket; it's warm inside. (care about / care for / take care o..."
+- unit_133 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrasal verb. Example: Choose the correct option: A) Yaroslav reads once a week. B) Yaroslav readed every day. C) Yaroslav will read in the evenings. D) Yaros..." → "Choose the correct phrasal verb. Example: Choose the correct option: A) Yaroslav reads once a week. B) Yaroslav readed every day. C) Yaroslav will read in the evenings. D) Yaros..."
+- unit_133 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ July. (unit_133-5) Answer: in" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ July. (unit_133-5) Answer: in"
+- unit_134 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in about / of / from. Example: Complete: There isn't ____ time. (unit_134-1) Answer: much" → "Put in about / of / from. Example: Complete: There isn't ____ time. (unit_134-1) Answer: much"
+- unit_134 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in about or of. Example: Complete: There isn't ____ time. (unit_134-2) Answer: a little" → "Put in about or of. Example: Complete: There isn't ____ time. (unit_134-2) Answer: a little"
+- unit_134 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in about or of. Example: Complete: There isn't ____ time. (unit_134-3) Answer: a few" → "Put in about or of. Example: Complete: There isn't ____ time. (unit_134-3) Answer: a few"
+- unit_134 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in about / of / from. Example: Complete: There isn't ____ time. (unit_134-4) Answer: some" → "Put in about / of / from. Example: Complete: There isn't ____ time. (unit_134-4) Answer: some"
+- unit_135 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_135-1) Answer: at" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_135-1) Answer: at"
+- unit_135 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ July. (unit_135-2) Answer: in" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ July. (unit_135-2) Answer: in"
+- unit_135 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in from. Example: Complete: There isn't ____ time. (unit_135-3) Answer: much" → "Put in from. Example: Complete: There isn't ____ time. (unit_135-3) Answer: much"
+- unit_135 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in on. Example: Complete: There isn't ____ time. (unit_135-4) Answer: a few" → "Put in on. Example: Complete: There isn't ____ time. (unit_135-4) Answer: a few"
+- unit_136 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_136-1) Answer: on" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_136-1) Answer: on"
+- unit_136 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Katya worked every day. B) Katya is working every summer. C) Katya works in the evenings. D) Kat..." → "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Katya worked every day. B) Katya is working every summer. C) Katya works in the evenings. D) Kat..."
+- unit_136 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_136-3) Answer: on" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_136-3) Answer: on"
+- unit_136 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence with a suitable verb + preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_136-4) Answer: at" → "Complete each sentence with a suitable verb + preposition. Example: Put in in/on/at: The meeting is ____ 7:45. (unit_136-4) Answer: at"
+- unit_137 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Complete each sentence. Choose a particle. Example: Choose the correct option: A) Yaroslav is fixing on Mondays. B) Yaroslav fixes every day. C) Yaroslav will fix every summer. ..." → "Complete each sentence. Choose a particle. Example: Choose the correct option: A) Yaroslav is fixing on Mondays. B) Yaroslav fixes every day. C) Yaroslav will fix every summer. ..."
+- unit_137 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrasal verb. Example: Choose the correct option: A) Sofia traveled once a week. B) Sofia is traveling in the evenings. C) Sofia will travel on Mondays. D) So..." → "Choose the correct phrasal verb. Example: Choose the correct option: A) Sofia traveled once a week. B) Sofia is traveling in the evenings. C) Sofia will travel on Mondays. D) So..."
+- unit_137 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_137-3) Answer: on" → "Put in the correct preposition. Example: Put in in/on/at: The meeting is ____ Friday. (unit_137-3) Answer: on"
+- unit_137 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct word order (a or b). Example: Choose the correct option: A) Anna carries every summer. B) Anna carried every summer. C) Anna is carrying on Mondays. D) Anna w..." → "Choose the correct word order (a or b). Example: Choose the correct option: A) Anna carries every summer. B) Anna carried every summer. C) Anna is carrying on Mondays. D) Anna w..."
+- unit_138 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Choose in or out. Example: Choose the correct option: A) Anna cooked every day. B) Anna is cooking every day. C) Anna will cook in the evenings. D) Anna ..." → "Complete the sentences. Choose in or out. Example: Choose the correct option: A) Anna cooked every day. B) Anna is cooking every day. C) Anna will cook in the evenings. D) Anna ..."
+- unit_138 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Danylo is listening in the evenings. B) Danylo listened once a week. C) Danylo listens in the ev..." → "Which sentence is correct? Choose a or b. Example: Choose the correct option: A) Danylo is listening in the evenings. B) Danylo listened once a week. C) Danylo listens in the ev..."
+- unit_138 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrasal verb. Example: Choose the correct option: A) Danylo practiced once a week. B) Danylo practices every summer. C) Danylo is practicing on Mondays. D) Da..." → "Choose the correct phrasal verb. Example: Choose the correct option: A) Danylo practiced once a week. B) Danylo practices every summer. C) Danylo is practicing on Mondays. D) Da..."
+- unit_138 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose in or out. Example: Choose the correct option: A) Taras is painting on Mondays. B) Taras paints at weekends. C) Taras painted once a week. D) Taras will paint at weekends..." → "Choose in or out. Example: Choose the correct option: A) Taras is painting on Mondays. B) Taras paints at weekends. C) Taras painted once a week. D) Taras will paint at weekends..."
+- unit_138 ex 5 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrasal verb. Example: Choose the correct option: A) Danylo watched on Mondays. B) Danylo watches on Mondays. C) Danylo is watching once a week. D) Danylo wil..." → "Choose the correct phrasal verb. Example: Choose the correct option: A) Danylo watched on Mondays. B) Danylo watches on Mondays. C) Danylo is watching once a week. D) Danylo wil..."
+- unit_139 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Choose the correct verb + out. Example: Choose the correct option: A) Maksym listens in the evenings. B) Maksym will listen every day. C) Maksym is listening on Mondays. D) Maks..." → "Choose the correct verb + out. Example: Choose the correct option: A) Maksym listens in the evenings. B) Maksym will listen every day. C) Maksym is listening on Mondays. D) Maks..."
+- unit_139 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Choose a verb + out. Example: Choose the correct option: A) Oleh is studying every day. B) Oleh studied on Mondays. C) Oleh will study every summer. D) O..." → "Complete the sentences. Choose a verb + out. Example: Choose the correct option: A) Oleh is studying every day. B) Oleh studied on Mondays. C) Oleh will study every summer. D) O..."
+- unit_139 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Put in out. Example: Complete: There isn't ____ time. (unit_139-3) Answer: any" → "Put in out. Example: Complete: There isn't ____ time. (unit_139-3) Answer: any"
+- unit_139 ex 4 (mcq) [answer_block_in_instruction]
+  - Instruction: "What does 'work out' mean here? Choose the best option. Example: Choose the correct option: A) Danylo carries on Mondays. B) Danylo is carrying at weekends. C) Danylo will carry..." → "What does 'work out' mean here? Choose the best option. Example: Choose the correct option: A) Danylo carries on Mondays. B) Danylo is carrying at weekends. C) Danylo will carry..."
+- unit_140 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use a verb + on/off (sometimes with it/the light etc.). Example: Complete: Can you ____ this form for me? (it / the light etc.)) Answer: it" → "Complete the sentences. Use a verb + on/off (sometimes with it/the light etc.). Example: Complete: Can you ____ this form for me? (it / the light etc.)) Answer: it"
+- unit_140 ex 2 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrasal verb: go on / call off / put off. Example: Choose the correct option: A) Sofia readed once a week. B) Sofia reads on Mondays. C) Sofia is reading on M..." → "Choose the correct phrasal verb: go on / call off / put off. Example: Choose the correct option: A) Sofia readed once a week. B) Sofia reads on Mondays. C) Sofia is reading on M..."
+- unit_140 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences. Use a suitable verb + on/off. Example: Complete: There isn't ____ time. (unit_140-3) Answer: any" → "Complete the sentences. Use a suitable verb + on/off. Example: Complete: There isn't ____ time. (unit_140-3) Answer: any"
+- unit_141 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct meaning. Example: Choose the correct option: A) Iryna will cook at weekends. B) Iryna cooked in the evenings. C) Iryna is cooking at weekends. D) Iryna cooks ..." → "Choose the correct meaning. Example: Choose the correct option: A) Iryna will cook at weekends. B) Iryna cooked in the evenings. C) Iryna is cooking at weekends. D) Iryna cooks ..."
+- unit_141 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ your phone. Answer: pick up" → "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ your phone. Answer: pick up"
+- unit_141 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the dialogues with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ my little cousin. Answer: look after" → "Complete the dialogues with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ my little cousin. Answer: look after"
+- unit_142 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with up or down phrasal verbs. Example: Complete with a phrasal verb: Please ____ smoking. Answer: give up" → "Complete the sentences with up or down phrasal verbs. Example: Complete with a phrasal verb: Please ____ smoking. Answer: give up"
+- unit_142 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with knock down / cut down / burn down (or be knocked down). Example: Complete: I ____ my neighbour's cat when she's away. (knock down / cut down / burn d..." → "Complete the sentences with knock down / cut down / burn down (or be knocked down). Example: Complete: I ____ my neighbour's cat when she's away. (knock down / cut down / burn d..."
+- unit_142 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable '... down' phrasal verb. Example: Complete with a phrasal verb: Please ____ the light. Answer: turn on" → "Complete the sentences with a suitable '... down' phrasal verb. Example: Complete with a phrasal verb: Please ____ the light. Answer: turn on"
+- unit_143 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with catch up / keep up / hurry up. Example: Complete: Can you ____ this form for me? (catch up / keep up / hurry up) Answer: catch up" → "Complete the sentences with catch up / keep up / hurry up. Example: Complete: Can you ____ this form for me? (catch up / keep up / hurry up) Answer: catch up"
+- unit_143 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ the meeting. Answer: put off" → "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ the meeting. Answer: put off"
+- unit_143 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ your shoes. Answer: take off" → "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ your shoes. Answer: take off"
+- unit_144 ex 1 (mcq) [answer_block_in_instruction]
+  - Instruction: "Choose the correct phrasal verb. Example: Choose the correct option: A) Taras will swim on Mondays. B) Taras swims at weekends. C) Taras swimmed every day. D) Taras is swimming ..." → "Choose the correct phrasal verb. Example: Choose the correct option: A) Taras will swim on Mondays. B) Taras swims at weekends. C) Taras swimmed every day. D) Taras is swimming ..."
+- unit_144 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ milk. Answer: run out of" → "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ milk. Answer: run out of"
+- unit_144 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ a new account. Answer: set up" → "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ a new account. Answer: set up"
+- unit_144 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ a new account. (unit_144-4) Answer: set up" → "Complete the sentences with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ a new account. (unit_144-4) Answer: set up"
+- unit_145 ex 1 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with away/back or a suitable verb + away/back. Example: Complete: Can you ____ this form for me? (away / back or a suitable verb + away / back) Answer: away" → "Complete the sentences with away/back or a suitable verb + away/back. Example: Complete: Can you ____ this form for me? (away / back or a suitable verb + away / back) Answer: away"
+- unit_145 ex 2 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with away or back. Example: Complete: We ____ sugar, so let's buy some. (away / back) Answer: away" → "Complete the sentences with away or back. Example: Complete: We ____ sugar, so let's buy some. (away / back) Answer: away"
+- unit_145 ex 3 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the sentences with a suitable phrasal verb with away/back. Example: Complete with a phrasal verb: Please ____ smoking. (unit_145-3) Answer: give up" → "Complete the sentences with a suitable phrasal verb with away/back. Example: Complete with a phrasal verb: Please ____ smoking. (unit_145-3) Answer: give up"
+- unit_145 ex 4 (free_text) [answer_block_in_instruction]
+  - Instruction: "Complete the dialogues with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ my little cousin. (unit_145-4) Answer: look after" → "Complete the dialogues with a suitable phrasal verb. Example: Complete with a phrasal verb: Please ____ my little cousin. (unit_145-4) Answer: look after"
