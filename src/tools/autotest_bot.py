@@ -49,6 +49,11 @@ def main(argv: list[str]) -> int:
         action=argparse.BooleanOptionalAction,
         default=True,
     )
+    parser.add_argument(
+        "--include-info-problems",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+    )
     parser.add_argument("--mode", choices=["sweep"], default="sweep")
     args = parser.parse_args(argv)
 
@@ -98,6 +103,7 @@ def main(argv: list[str]) -> int:
         dialogue_max_options=args.dialogue_max_options,
         dialogue_max_chars=args.dialogue_max_chars,
         dialogue_include_jsonl_ref=args.dialogue_include_jsonl_ref,
+        include_info_problems=args.include_info_problems,
         mode=args.mode,
     )
     runner = AutotestRunner(config, api_key=api_key)
