@@ -75,6 +75,7 @@ class RunnerConfig:
     dialogue_max_options: int
     dialogue_max_chars: int
     dialogue_include_jsonl_ref: bool
+    include_info_problems: bool
     ui_lang: str = "en"
     mode: str = "sweep"
 
@@ -179,6 +180,7 @@ class AutotestRunner:
             config.dialogue_max_options,
             config.dialogue_max_chars,
             config.dialogue_include_jsonl_ref,
+            config.include_info_problems,
         )
         self._event_index = 0
         self._turn_id = 0
@@ -554,7 +556,14 @@ class AutotestRunner:
             ),
             user_message=turn.user_message or "[NO_ANSWER]",
             bot_feedback="[ERROR]",
-            issues=[{"issue_type": stop_issue.issue_type, "severity": stop_issue.severity, "details": stop_issue.details}],
+            issues=[
+                {
+                    "issue_type": stop_issue.issue_type,
+                    "severity": stop_issue.severity,
+                    "details": stop_issue.details,
+                    "metadata": stop_issue.metadata,
+                }
+            ],
             jsonl_ref=turn.jsonl_ref if self.config.dialogue_include_jsonl_ref else None,
         )
         self._turn_id += 1
@@ -570,6 +579,7 @@ class AutotestRunner:
                 {
                     "question_key": ctx.question_key,
                     "details": issue.details,
+                    "metadata": issue.metadata,
                 }
             )
         if turn:
@@ -578,6 +588,7 @@ class AutotestRunner:
                     "issue_type": issue.issue_type,
                     "severity": issue.severity,
                     "details": issue.details,
+                    "metadata": issue.metadata,
                 }
             )
             self._dialogue_logger.mark_problem(turn.turn_id, issue)
@@ -588,6 +599,7 @@ class AutotestRunner:
                 "issue_type": issue.issue_type,
                 "severity": issue.severity,
                 "details": issue.details,
+                "metadata": issue.metadata,
             },
         )
 
