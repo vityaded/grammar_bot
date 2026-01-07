@@ -39,6 +39,16 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--max-no-progress", type=int, default=20)
     parser.add_argument("--timeout-sec", type=float, default=15.0)
     parser.add_argument("--log-dir", default="./logs")
+    parser.add_argument("--dialogue-log")
+    parser.add_argument("--problem-dialogue-log")
+    parser.add_argument("--dialogue-context", type=int, default=3)
+    parser.add_argument("--dialogue-max-options", type=int, default=8)
+    parser.add_argument("--dialogue-max-chars", type=int, default=1800)
+    parser.add_argument(
+        "--dialogue-include-jsonl-ref",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+    )
     parser.add_argument("--mode", choices=["sweep"], default="sweep")
     args = parser.parse_args(argv)
 
@@ -62,6 +72,12 @@ def main(argv: list[str]) -> int:
         run_db_path = copy_path
 
     log_dir = Path(args.log_dir)
+    dialogue_log_path = Path(args.dialogue_log) if args.dialogue_log else log_dir / f"autotest_{timestamp}_dialogue.txt"
+    problem_dialogue_log_path = (
+        Path(args.problem_dialogue_log)
+        if args.problem_dialogue_log
+        else log_dir / f"autotest_{timestamp}_dialogue_problems.txt"
+    )
     logger.info("Autotest starting (model=%s, attempts=%s, inplace=%s)", model, args.n, args.inplace)
     config = RunnerConfig(
         db_url=_build_db_url(run_db_path),
@@ -76,6 +92,12 @@ def main(argv: list[str]) -> int:
         timeout_sec=args.timeout_sec,
         log_dir=log_dir,
         run_id=timestamp,
+        dialogue_log_path=dialogue_log_path,
+        problem_dialogue_log_path=problem_dialogue_log_path,
+        dialogue_context=args.dialogue_context,
+        dialogue_max_options=args.dialogue_max_options,
+        dialogue_max_chars=args.dialogue_max_chars,
+        dialogue_include_jsonl_ref=args.dialogue_include_jsonl_ref,
         mode=args.mode,
     )
     runner = AutotestRunner(config, api_key=api_key)
