@@ -1114,7 +1114,11 @@ def _due_item_type_from_ex(ex: UnitExercise) -> str:
 
 # ---------------- main registration ----------------
 def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async_sessionmaker[AsyncSession]):
-    llm = LLMClient(settings.gemini_api_key) if settings.gemini_api_key else None
+    llm = (
+        LLMClient(settings.gemini_api_key, model=settings.llm_model)
+        if settings.gemini_api_key
+        else None
+    )
 
     @dp.message(Command("admin"))
     async def on_admin(m: Message):
