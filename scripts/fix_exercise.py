@@ -136,8 +136,8 @@ class GeminiExerciseFix(BaseModel):
         ge=1,
         description="1-based index of an item to be used as the example.",
     )
-    notes: Optional[List[str]] = Field(
-        default=None,
+    notes: List[str] = Field(
+        default_factory=list,
         description="Optional brief notes/warnings.",
     )
 
@@ -428,7 +428,7 @@ def gemini_fix_one_exercise(
 
             head = strip_example_answer_lines(parsed.instruction_head or "")
             ex_idx = int(parsed.example_item_index)
-            notes = parsed.notes or []
+            notes = parsed.notes
             log(
                 "Gemini success: elapsed_seconds="
                 f"{elapsed:.2f}, example_item_index={ex_idx}, notes_returned={bool(notes)}"
@@ -642,7 +642,7 @@ def main() -> int:
 
         if example_idx_1b < 1 or example_idx_1b > len(items):
             example_idx_1b = 1
-            notes = (notes or []) + ["example_item_index_out_of_range -> coerced_to_1"]
+            notes = notes + ["example_item_index_out_of_range -> coerced_to_1"]
 
         example_item = items[example_idx_1b - 1]
         ex_q, ex_a = build_example_block(example_item, answer_format)
@@ -666,7 +666,7 @@ def main() -> int:
                 "old_instruction": old_instruction,
                 "new_instruction": new_instruction,
                 "example_item_index": example_idx_1b,
-                "notes": notes or [],
+                "notes": notes,
             }
         )
 
