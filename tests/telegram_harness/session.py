@@ -106,7 +106,8 @@ class RecordingSession(BaseSession):
         if isinstance(method, SendMessage):
             if chat_id is None:
                 return True
-            return self._build_message(bot, int(chat_id), payload.get("text"), method.reply_markup)
+            reply_markup = payload.get("reply_markup", method.reply_markup)
+            return self._build_message(bot, int(chat_id), payload.get("text"), reply_markup)
 
         if isinstance(method, EditMessageText):
             if chat_id is None:
