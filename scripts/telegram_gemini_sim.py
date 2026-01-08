@@ -5,10 +5,22 @@ import asyncio
 import json
 import os
 import re
-from datetime import datetime
+import sys
+import warnings
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+warnings.filterwarnings(
+    "ignore",
+    message=r'.*Field "model_custom_emoji_id" has conflict with protected namespace.*',
+    category=UserWarning,
+)
+
+from dotenv import load_dotenv
 from sqlalchemy import select
 
 from src.bot.autotest.solver import GeminiSolver
@@ -17,7 +29,7 @@ from src.bot.models import PlacementItem, UserState
 from tests.telegram_harness.harness import BotHarness
 
 
-def _api_key() -> str | None:
+def _get_gemini_key() -> str | None:
     return os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
 
 
@@ -135,15 +147,47 @@ async def _send_solver_answer(
     return answer.raw
 
 
-async def run_simulation(turns: int) -> None:
-    api_key = _api_key()
-    if not api_key:
-        print("Missing GOOGLE_API_KEY or GEMINI_API_KEY. Exiting.")
-        raise SystemExit(1)
+def _truncate(text: str | None, limit: int = 160) -> str:
+    if not text:
+        return ""
+    clean = " ".join(text.split())
+    if len(clean) <= limit:
+        return clean
+    return f"{clean[:limit - 3]}..."
 
-    reports_dir = Path("reports")
+
+def _log(message: str, *, enabled: bool) -> None:
+    if not enabled:
+        return
+    print(message, flush=True)
+
+
+async def run_simulation(*, turns: int, use_gemini: bool, verbose: bool, env_file: Path) -> None:
+    api_key = _get_gemini_key() if use_gemini else None
+    if use_gemini and not api_key:
+        print(
+            "Gemini is enabled but no API key found. Set GOOGLE_API_KEY in environment or .env",
+            flush=True,
+        )
+        raise SystemExit(2)
+
+    reports_dir = ROOT / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
-    log_path = reports_dir / f"telegram_gemini_sim_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.jsonl"
+    log_path = reports_dir / f"telegram_gemini_sim_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.jsonl"
+
+    gemini_status = "enabled" if use_gemini else "disabled"
+    _log(
+        "\n".join(
+            [
+                "Telegram Gemini Simulation",
+                f"Turns: {turns}",
+                f"Gemini: {gemini_status}",
+                f"Env file: {env_file}",
+                f"Report: {log_path}",
+            ]
+        ),
+        enabled=True,
+    )
 
     harness = await BotHarness.create(Path("/tmp"))
     try:
@@ -152,7 +196,9 @@ async def run_simulation(turns: int) -> None:
         await _seed_placement_item(harness)
         await _ensure_access_flow(harness, admin_id=admin_id, user_id=user_id)
 
-        solver = GeminiSolver(api_key=api_key, model=harness.settings.llm_model, timeout_sec=30)
+        solver = None
+        if use_gemini and api_key:
+            solver = GeminiSolver(api_key=api_key, model=harness.settings.llm_model, timeout_sec=30)
 
         for turn in range(1, turns + 1):
             message = harness.last_bot_message(user_id)
@@ -177,20 +223,37 @@ async def run_simulation(turns: int) -> None:
                     data=choice,
                 )
                 log_entry["user_action"] = {"type": "click", "value": choice}
+                _log(f"Turn {turn}: USER -> CLICK: callback_data={choice}", enabled=verbose)
             else:
                 pending_item = await _get_pending_placement(harness, user_id)
                 if pending_item:
-                    acceptance_mode = await _get_acceptance_mode(harness, user_id)
-                    answer = await _send_solver_answer(
-                        harness,
-                        solver,
-                        user_id,
-                        pending_item,
-                        acceptance_mode,
-                    )
+                    if solver:
+                        acceptance_mode = await _get_acceptance_mode(harness, user_id)
+                        answer = await _send_solver_answer(
+                            harness,
+                            solver,
+                            user_id,
+                            pending_item,
+                            acceptance_mode,
+                        )
+                    else:
+                        answer = pending_item.canonical or pending_item.prompt or ""
+                        await harness.send_text(user_id=user_id, text=answer)
                     log_entry["user_action"] = {"type": "text", "value": answer}
+                    _log(f"Turn {turn}: USER -> TEXT: {_truncate(answer)}", enabled=verbose)
                 else:
                     log_entry["user_action"] = {"type": "noop"}
+                    _log(f"Turn {turn}: USER -> NOOP", enabled=verbose)
+
+            reply_message = harness.last_bot_message(user_id)
+            reply_text = reply_message.text if reply_message else None
+            reply_buttons = harness.find_callback_data(user_id)
+            log_entry["bot_reply"] = reply_text
+            log_entry["reply_buttons"] = reply_buttons
+
+            if reply_message:
+                _log(f"Turn {turn}: BOT <- TEXT: {_truncate(reply_text)}", enabled=verbose)
+                _log(f"Turn {turn}: BOT <- inline buttons: {len(reply_buttons)}", enabled=verbose)
 
             with log_path.open("a", encoding="utf-8") as handle:
                 handle.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
@@ -201,8 +264,27 @@ async def run_simulation(turns: int) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--turns", type=int, default=20)
+    parser.add_argument("--no-gemini", action="store_true", help="Run without Gemini (no API key needed)")
+    parser.add_argument("--env-file", default=str(ROOT / ".env"), help="Path to .env file")
+    verbosity = parser.add_mutually_exclusive_group()
+    verbosity.add_argument("--verbose", action="store_true", help="Enable verbose logging (default)")
+    verbosity.add_argument("--quiet", action="store_true", help="Disable per-turn logging")
     args = parser.parse_args()
-    asyncio.run(run_simulation(args.turns))
+
+    env_file = Path(args.env_file)
+    load_dotenv(dotenv_path=env_file, override=False)
+    verbose = False if args.quiet else True
+    if args.verbose:
+        verbose = True
+
+    asyncio.run(
+        run_simulation(
+            turns=args.turns,
+            use_gemini=not args.no_gemini,
+            verbose=verbose,
+            env_file=env_file,
+        )
+    )
 
 
 if __name__ == "__main__":
