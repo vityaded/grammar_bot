@@ -98,6 +98,16 @@ async def _ensure_access_flow(harness: BotHarness, *, admin_id: int, user_id: in
             message=admin_request,
             data=approval_cb,
         )
+    elif approval_cb:
+        admin_request = harness.last_bot_message(admin_id)
+        if not admin_request:
+            raise RuntimeError("Admin message missing for approval callback")
+        await harness.click(
+            from_user_id=admin_id,
+            chat_id=admin_id,
+            message=admin_request,
+            data=approval_cb,
+        )
     else:
         print("No approval button found in recorded admin messages", flush=True)
         callbacks_found = harness.find_callbacks_matching(admin_id, "")
