@@ -33,8 +33,22 @@ def norm_answer_text(s: str) -> str:
     s = re.sub(r"\s+", " ", s)
     return s
 
+def _strip_punctuation(s: str) -> str:
+    if not s:
+        return ""
+    cleaned = []
+    for ch in s:
+        if unicodedata.category(ch).startswith("P"):
+            cleaned.append(" ")
+        else:
+            cleaned.append(ch)
+    return "".join(cleaned)
+
 def norm_cmp_text(s: str) -> str:
-    return norm_answer_text(s).casefold()
+    normalized = norm_answer_text(s)
+    normalized = _strip_punctuation(normalized)
+    normalized = re.sub(r"\s+", " ", normalized).strip()
+    return normalized.casefold()
 
 def norm_multiselect_raw(s: str) -> str:
     s = _nfkc_normalize(s or "")
