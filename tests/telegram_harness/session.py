@@ -15,11 +15,12 @@ from aiogram.types import Chat, InlineKeyboardMarkup, Message, User
 
 
 class RecordingSession(BaseSession):
-    def __init__(self) -> None:
+    def __init__(self, *, validate_markdown: bool = False) -> None:
         super().__init__()
         self.calls: list[dict[str, Any]] = []
         self.messages_by_chat: dict[int, list[Message]] = {}
         self._message_id_counter: dict[int, int] = {}
+        self.validate_markdown = validate_markdown
 
     async def close(self) -> None:
         return None
@@ -105,7 +106,7 @@ class RecordingSession(BaseSession):
         if isinstance(method, SendMessage):
             if chat_id is None:
                 return True
-            return self._build_message(bot, int(chat_id), payload.get("text"), payload.get("reply_markup"))
+            return self._build_message(bot, int(chat_id), payload.get("text"), method.reply_markup)
 
         if isinstance(method, EditMessageText):
             if chat_id is None:

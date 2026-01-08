@@ -119,17 +119,60 @@ class BotHarness:
         chat_id: int,
         predicate: Callable[[str], bool] | None = None,
     ) -> list[str]:
-        message = self.last_bot_message(chat_id)
-        if not message or not message.reply_markup:
+        session = self.bot.session
+        if not isinstance(session, RecordingSession):
             return []
-        if not isinstance(message.reply_markup, InlineKeyboardMarkup):
+        messages = session.messages_by_chat.get(chat_id, [])
+        for message in reversed(messages):
+            if not message.reply_markup:
+                continue
+            if not isinstance(message.reply_markup, InlineKeyboardMarkup):
+                continue
+            results: list[str] = []
+            for row in message.reply_markup.inline_keyboard:
+                for button in row:
+                    if button.callback_data is None:
+                        continue
+                    if predicate and not predicate(button.callback_data):
+                        continue
+                    results.append(button.callback_data)
+            if results:
+                return results
+        return []
+
+    def find_callbacks_matching(self, chat_id: int, prefix: str) -> list[str]:
+        session = self.bot.session
+        if not isinstance(session, RecordingSession):
             return []
+        messages = session.messages_by_chat.get(chat_id, [])
         results: list[str] = []
-        for row in message.reply_markup.inline_keyboard:
-            for button in row:
-                if button.callback_data is None:
-                    continue
-                if predicate and not predicate(button.callback_data):
-                    continue
-                results.append(button.callback_data)
+        for message in reversed(messages):
+            if not message.reply_markup:
+                continue
+            if not isinstance(message.reply_markup, InlineKeyboardMarkup):
+                continue
+            for row in message.reply_markup.inline_keyboard:
+                for button in row:
+                    if button.callback_data and button.callback_data.startswith(prefix):
+                        results.append(button.callback_data)
         return results
+
+    def find_message_with_callback(
+        self,
+        chat_id: int,
+        predicate: Callable[[str], bool],
+    ) -> Message | None:
+        session = self.bot.session
+        if not isinstance(session, RecordingSession):
+            return None
+        messages = session.messages_by_chat.get(chat_id, [])
+        for message in reversed(messages):
+            if not message.reply_markup:
+                continue
+            if not isinstance(message.reply_markup, InlineKeyboardMarkup):
+                continue
+            for row in message.reply_markup.inline_keyboard:
+                for button in row:
+                    if button.callback_data and predicate(button.callback_data):
+                        return message
+        return None
