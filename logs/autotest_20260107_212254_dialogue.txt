@@ -1,0 +1,2229 @@
+Bot [ref=1]: [unit_1 ex1 item1] unit_1:1:1
+             Instruction:
+             Complete with the present continuous (am/is/are + -ing).
+             Example: Complete: (study) Anna ____ in the library at the moment.
+             Answer: is studying
+             Question:
+             (read) I ____ a book right now.
+User [ref=1]: am reading
+Bot [ref=1]: Verdict: correct
+             Canonical: am reading
+Bot [ref=4]: [unit_1 ex1 item2] unit_1:1:2
+             Instruction:
+             Complete with the present continuous (am/is/are + -ing).
+             Example: Complete: (study) Anna ____ in the library at the moment.
+             Answer: is studying
+             Question:
+             (cook) Sarah ____ dinner at the moment.
+User [ref=4]: is cooking
+Bot [ref=4]: Verdict: correct
+             Canonical: is cooking
+Bot [ref=7]: [unit_1 ex1 item3] unit_1:1:3
+             Instruction:
+             Complete with the present continuous (am/is/are + -ing).
+             Example: Complete: (study) Anna ____ in the library at the moment.
+             Answer: is studying
+             Question:
+             (rain) It ____ outside.
+User [ref=7]: is raining
+Bot [ref=7]: Verdict: correct
+             Canonical: is raining
+Bot [ref=10]: [unit_1 ex1 item4] unit_1:1:4
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (study) Anna ____ in the library at the moment.
+              Answer: is studying
+              Question:
+              (talk) We ____ on the phone.
+User [ref=10]: are talking
+Bot [ref=10]: Verdict: correct
+              Canonical: are talking
+Bot [ref=13]: [unit_1 ex1 item5] unit_1:1:5
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (study) Anna ____ in the library at the moment.
+              Answer: is studying
+              Question:
+              (work) Tom ____ today.
+User [ref=13]: is working
+Bot [ref=13]: Verdict: correct
+              Canonical: is working
+Bot [ref=16]: [unit_1 ex1 item6] unit_1:1:6
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (study) Anna ____ in the library at the moment.
+              Answer: is studying
+              Question:
+              (wait) They ____ for the bus.
+User [ref=16]: are waiting
+Bot [ref=16]: Verdict: correct
+              Canonical: are waiting
+Bot [ref=19]: [unit_1 ex2 item1] unit_1:2:1
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: A: a woman is driving now.
+              Options:
+              A) She drives to work.
+              B) She is driving to work.
+              C) She drove to work.
+              D) She has driven to work.
+              Format: A, C
+User [ref=19]: B
+               Normalized: She is driving to work
+Bot [ref=19]: Verdict: correct
+              Canonical: She is driving to work.
+Bot [ref=22]: [unit_1 ex2 item2] unit_1:2:2
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: B: two people are laughing now.
+              Options:
+              A) They laugh a lot.
+              B) They are laughing.
+              C) They laughed.
+              D) They have laughed.
+              Format: A, C
+User [ref=22]: B
+               Normalized: They are laughing
+Bot [ref=22]: Verdict: correct
+              Canonical: They are laughing.
+Bot [ref=25]: [unit_1 ex2 item3] unit_1:2:3
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: C: a child is sleeping at the moment.
+              Options:
+              A) He sleeps.
+              B) He is sleeping.
+              C) He slept.
+              D) He has slept.
+              Format: A, C
+User [ref=25]: B
+               Normalized: He is sleeping
+Bot [ref=25]: Verdict: correct
+              Canonical: He is sleeping.
+Bot [ref=28]: [unit_1 ex2 item4] unit_1:2:4
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: D: I'm on the phone now.
+              Options:
+              A) I talk on the phone.
+              B) I'm talking on the phone.
+              C) I talked on the phone.
+              D) I've talked on the phone.
+              Format: A, C
+User [ref=28]: C
+               Normalized: I talked on the phone
+Bot [ref=28]: Verdict: wrong
+              Canonical: I'm talking on the phone.
+              ForcedWrong: yes
+              ForceReason: option-swap
+Bot [ref=32]: [unit_1 ex2 item5] unit_1:2:5
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: E: it's snowing now.
+              Options:
+              A) It snows.
+              B) It's snowing.
+              C) It snowed.
+              D) It has snowed.
+              Format: A, C
+User [ref=32]: B
+               Normalized: It's snowing
+Bot [ref=32]: Verdict: correct
+              Canonical: It's snowing.
+Bot [ref=35]: [unit_1 ex2 item6] unit_1:2:6
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: F: we are having lunch now.
+              Options:
+              A) We have lunch.
+              B) We're having lunch.
+              C) We had lunch.
+              D) We've had lunch.
+              Format: A, C
+User [ref=35]: B
+               Normalized: We're having lunch
+Bot [ref=35]: Verdict: correct
+              Canonical: We're having lunch.
+Bot [ref=38]: [unit_1 ex2 item7] unit_1:2:7
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: G: she is watching TV now.
+              Options:
+              A) She watches TV.
+              B) She's watching TV.
+              C) She watched TV.
+              D) She has watched TV.
+              Format: A, C
+User [ref=38]: B
+               Normalized: She's watching TV
+Bot [ref=38]: Verdict: correct
+              Canonical: She's watching TV.
+Bot [ref=41]: [unit_1 ex2 item8] unit_1:2:8
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: A) Oleh studies this minute.  B) Oleh is studying right now.  C) Oleh has studied right now.  D) Oleh studied at the moment.
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: H: they are playing now.
+              Options:
+              A) They play football.
+              B) They're playing football.
+              C) They played football.
+              D) They've played football.
+              Format: A, C
+User [ref=41]: B
+               Normalized: They're playing football
+Bot [ref=41]: Verdict: correct
+              Canonical: They're playing football.
+Bot [ref=44]: [unit_1 ex3 item1] unit_1:3:1
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: You / watch TV now?
+User [ref=44]: Are you watching TV now?
+               Normalized: Are you watching TV now
+Bot [ref=44]: Verdict: correct
+              Canonical: Are you watching TV now?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=48]: [unit_1 ex3 item2] unit_1:3:2
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: she / wear a coat today?
+User [ref=48]: Is she wearing a coat today?
+               Normalized: Is she wearing a coat today
+Bot [ref=48]: Verdict: correct
+              Canonical: Is she wearing a coat today?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=52]: [unit_1 ex3 item3] unit_1:3:3
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: they / wait for you?
+User [ref=52]: Are they waiting for you?
+               Normalized: Are they waiting for you
+Bot [ref=52]: Verdict: correct
+              Canonical: Are they waiting for you?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=56]: [unit_1 ex3 item4] unit_1:3:4
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: it / rain at the moment?
+User [ref=56]: Is it raining at the moment?
+               Normalized: Is it raining at the moment
+Bot [ref=56]: Verdict: correct
+              Canonical: Is it raining at the moment?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=60]: [unit_1 ex3 item5] unit_1:3:5
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: what / you / do?
+User [ref=60]: What are you doing?
+               Normalized: What are you doing
+Bot [ref=60]: Verdict: correct
+              Canonical: What are you doing?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=64]: [unit_1 ex3 item6] unit_1:3:6
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: where / he / go?
+User [ref=64]: Where is he going?
+               Normalized: Where is he going
+Bot [ref=64]: Verdict: correct
+              Canonical: Where is he going?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=68]: [unit_1 ex3 item7] unit_1:3:7
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: why / they / laugh?
+User [ref=68]: Why are they laughing?
+               Normalized: Why are they laughing
+Bot [ref=68]: Verdict: correct
+              Canonical: Why are they laughing?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=72]: [unit_1 ex3 item8] unit_1:3:8
+              Instruction:
+              Write questions in the present continuous.
+              Example: Complete: (work) Anna ____ at home at the moment.
+              Answer: is working
+              Question:
+              Write the question: who / you / speak to?
+User [ref=72]: Who are you speaking to?
+               Normalized: Who are you speaking to
+Bot [ref=72]: Verdict: correct
+              Canonical: Who are you speaking to?
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=76]: [unit_1 ex4 item1] unit_1:4:1
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Correct the sentence: 'She don't want this.'
+              Answer: She doesn't want it.
+              Question:
+              (swim) He ____ in the sea.
+User [ref=76]: swimming
+Bot [ref=76]: Verdict: wrong
+              Canonical: is swimming
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=80]: [unit_1 ex4 item2] unit_1:4:2
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Correct the sentence: 'She don't want this.'
+              Answer: She doesn't want it.
+              Question:
+              (make) She ____ a cake.
+User [ref=80]: making
+Bot [ref=80]: Verdict: wrong
+              Canonical: is making
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=84]: [unit_1 ex4 item3] unit_1:4:3
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Correct the sentence: 'She don't want this.'
+              Answer: She doesn't want it.
+              Question:
+              (run) I ____ fast.
+User [ref=84]: running
+Bot [ref=84]: Verdict: wrong
+              Canonical: am running
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=88]: [unit_1 ex4 item4] unit_1:4:4
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Correct the sentence: 'She don't want this.'
+              Answer: She doesn't want it.
+              Question:
+              (write) They ____ emails.
+User [ref=88]: are writing
+Bot [ref=88]: Verdict: correct
+              Canonical: are writing
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=92]: [unit_1 ex4 item5] unit_1:4:5
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Correct the sentence: 'She don't want this.'
+              Answer: She doesn't want it.
+              Question:
+              (sit) The baby ____ on the floor.
+User [ref=92]: is sitting
+Bot [ref=92]: Verdict: correct
+              Canonical: is sitting
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=96]: [unit_1 ex4 item6] unit_1:4:6
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Correct the sentence: 'She don't want this.'
+              Answer: She doesn't want it.
+              Question:
+              (lie) He ____ on the sofa.
+User [ref=96]: lying
+Bot [ref=96]: Verdict: wrong
+              Canonical: is lying
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=100]: [unit_1 ex4 item7] unit_1:4:7
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (dance) We ____.
+User [ref=100]: dancing
+Bot [ref=100]: Verdict: wrong
+               Canonical: are dancing
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=104]: [unit_1 ex4 item8] unit_1:4:8
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (stop) The bus ____.
+User [ref=104]: stopping
+Bot [ref=104]: Verdict: wrong
+               Canonical: is stopping
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=108]: [unit_1 ex4 item9] unit_1:4:9
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (plan) I ____ my trip.
+User [ref=108]: am planning
+Bot [ref=108]: Verdict: correct
+               Canonical: am planning
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=112]: [unit_1 ex4 item10] unit_1:4:10
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (take) She ____ photos.
+User [ref=112]: is taking
+Bot [ref=112]: Verdict: correct
+               Canonical: is taking
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=116]: [unit_1 ex4 item11] unit_1:4:11
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (come) They ____ home.
+User [ref=116]: are coming
+Bot [ref=116]: Verdict: correct
+               Canonical: are coming
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=120]: [unit_1 ex4 item12] unit_1:4:12
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (have) I ____ lunch.
+User [ref=120]: am having
+Bot [ref=120]: Verdict: correct
+               Canonical: am having
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=124]: [unit_1 ex4 item13] unit_1:4:13
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (study) He ____ for an exam.
+User [ref=124]: is studying
+Bot [ref=124]: Verdict: correct
+               Canonical: is studying
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=128]: [unit_1 ex4 item14] unit_1:4:14
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Correct the sentence: 'She don't want this.'
+               Answer: She doesn't want it.
+               Question:
+               (get) We ____ ready.
+User [ref=128]: getting
+Bot [ref=128]: Verdict: wrong
+               Canonical: are getting
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=132]: [unit_10 ex1 item1] unit_10:1:1
+               Instruction:
+               Choose the correct form (present perfect simple or continuous).
+               Example: Choose the correct option: A) Lena has finished the report.  B) Lena will finish my keys.  C) Lena finished the email.  D) Lena is finishing the email.
+               Answer: A
+               Question:
+               The kitchen is a mess. I ____ (clean).
+User [ref=132]: have been cleaning
+Bot [ref=132]: Verdict: correct
+               Canonical: have been cleaning
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=137]: [unit_10 ex1 item2] unit_10:1:2
+               Instruction:
+               Choose the correct form (present perfect simple or continuous).
+               Example: Choose the correct option: A) Lena has finished the report.  B) Lena will finish my keys.  C) Lena finished the email.  D) Lena is finishing the email.
+               Answer: A
+               Question:
+               Now it looks nice. I ____ (clean) the kitchen.
+User [ref=137]: have cleaned
+Bot [ref=137]: Verdict: correct
+               Canonical: have cleaned
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=142]: [unit_10 ex1 item3] unit_10:1:3
+               Instruction:
+               Choose the correct form (present perfect simple or continuous).
+               Example: Choose the correct option: A) Lena has finished the report.  B) Lena will finish my keys.  C) Lena finished the email.  D) Lena is finishing the email.
+               Answer: A
+               Question:
+               I'm tired. We ____ (walk) for hours.
+User [ref=142]: have been walking
+Bot [ref=142]: Verdict: correct
+               Canonical: have been walking
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=147]: [unit_10 ex1 item4] unit_10:1:4
+               Instruction:
+               Choose the correct form (present perfect simple or continuous).
+               Example: Choose the correct option: A) Lena has finished the report.  B) Lena will finish my keys.  C) Lena finished the email.  D) Lena is finishing the email.
+               Answer: A
+               Question:
+               We ____ (walk) 10 kilometres today.
+User [ref=147]: have walked not
+Bot [ref=147]: Verdict: wrong
+               Canonical: have walked
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=153]: [unit_10 ex2 item1] unit_10:2:1
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Write a sentence: (in the evening / call / my friend)
+               Answer: I'll call my friend in the evening.
+               Question:
+               Ask: you / wait / for the bus (20 minutes).
+User [ref=153]: How long have you been waiting for the bus?
+                Normalized: How long have you been waiting for the bus
+Bot [ref=153]: Verdict: correct
+               Canonical: How long have you been waiting for the bus?
+Bot [ref=156]: [unit_10 ex2 item2] unit_10:2:2
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Write a sentence: (in the evening / call / my friend)
+               Answer: I'll call my friend in the evening.
+               Question:
+               Ask: she / know / him (2019).
+User [ref=156]: How long has she known him?
+                Normalized: How long has she known him
+Bot [ref=156]: Verdict: correct
+               Canonical: How long has she known him?
+Bot [ref=159]: [unit_10 ex2 item3] unit_10:2:3
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Write a sentence: (in the evening / call / my friend)
+               Answer: I'll call my friend in the evening.
+               Question:
+               Ask: they / live here (two years).
+User [ref=159]: How long have they lived here?
+                Normalized: How long have they lived here
+Bot [ref=159]: Verdict: wrong
+               Canonical: How long have they been living here?
+Bot [ref=162]: [unit_10 ex2 item4] unit_10:2:4
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Write a sentence: (in the evening / call / my friend)
+               Answer: I'll call my friend in the evening.
+               Question:
+               Ask: you / have / this car (six months).
+User [ref=162]: How long have you had this car?
+                Normalized: How long have you had this car
+Bot [ref=162]: Verdict: correct
+               Canonical: How long have you had this car?
+Bot [ref=165]: [unit_10 ex2 item5] unit_10:2:5
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Write a sentence: (in the evening / call / my friend)
+               Answer: I'll call my friend in the evening.
+               Question:
+               Ask: he / play / tennis (three years).
+User [ref=165]: How long has he played tennis?
+                Normalized: How long has he played tennis
+Bot [ref=165]: Verdict: wrong
+               Canonical: How long has he been playing tennis?
+Bot [ref=168]: [unit_10 ex2 item6] unit_10:2:6
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Write a sentence: (in the evening / call / my friend)
+               Answer: I'll call my friend in the evening.
+               Question:
+               Ask: how many emails / you / write today (5).
+User [ref=168]: How many emails did you write today?
+                Normalized: How many emails did you write today
+Bot [ref=168]: Verdict: wrong
+               Canonical: How many emails have you written today?
+Bot [ref=171]: [unit_10 ex2 item7] unit_10:2:7
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Write a sentence: (in the evening / call / my friend)
+               Answer: I'll call my friend in the evening.
+               Question:
+               Ask: how many cups of coffee / she / have today (3).
+User [ref=171]: How many cups of coffee did she have today?
+                Normalized: How many cups of coffee did she have today
+Bot [ref=171]: Verdict: wrong
+               Canonical: How many cups of coffee has she had today?
+Bot [ref=174]: [unit_10 ex3 item1] unit_10:3:1
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (have) I ____ (have) this phone for two years.
+User [ref=174]: have had
+Bot [ref=174]: Verdict: correct
+               Canonical: have had
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=178]: [unit_10 ex3 item2] unit_10:3:2
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (have) I ____ (have) problems with it recently.
+User [ref=178]: have had
+Bot [ref=178]: Verdict: wrong
+               Canonical: have been having
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=182]: [unit_10 ex3 item3] unit_10:3:3
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (work) She ____ (work) here since June.
+User [ref=182]: has been working
+Bot [ref=182]: Verdict: correct
+               Canonical: has been working
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=186]: [unit_10 ex3 item4] unit_10:3:4
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (work) She ____ (work) in three different offices.
+User [ref=186]: has worked
+Bot [ref=186]: Verdict: correct
+               Canonical: has worked
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=190]: [unit_10 ex3 item5] unit_10:3:5
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (read) He ____ (read) for an hour.
+User [ref=190]: has been reading
+Bot [ref=190]: Verdict: correct
+               Canonical: has been reading
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=194]: [unit_10 ex3 item6] unit_10:3:6
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (read) He ____ (read) four chapters.
+User [ref=194]: has read
+Bot [ref=194]: Verdict: correct
+               Canonical: has read
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=198]: [unit_10 ex3 item7] unit_10:3:7
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (live) We ____ (live) here for a long time.
+User [ref=198]: have lived
+Bot [ref=198]: Verdict: wrong
+               Canonical: have been living
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=202]: [unit_10 ex3 item8] unit_10:3:8
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (live) We ____ (live) in Kyiv before.
+User [ref=202]: lived
+Bot [ref=202]: Verdict: wrong
+               Canonical: have lived
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=206]: [unit_10 ex3 item9] unit_10:3:9
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (know) I ____ (know) him since school.
+User [ref=206]: have known not
+Bot [ref=206]: Verdict: wrong
+               Canonical: have known
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=211]: [unit_10 ex3 item10] unit_10:3:10
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (learn) I ____ (learn) Spanish recently.
+User [ref=211]: have been learning
+Bot [ref=211]: Verdict: correct
+               Canonical: have been learning
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=215]: [unit_10 ex3 item11] unit_10:3:11
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (learn) I ____ (learn) a lot of new words.
+User [ref=215]: am learning
+Bot [ref=215]: Verdict: wrong
+               Canonical: have learned
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=219]: [unit_10 ex3 item12] unit_10:3:12
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (wait) They ____ (wait) since 3 o'clock.
+User [ref=219]: have been waiting
+Bot [ref=219]: Verdict: correct
+               Canonical: have been waiting
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=223]: [unit_10 ex3 item13] unit_10:3:13
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (wait) They ____ (wait) for the result. It's ready now.
+User [ref=223]: are waiting
+Bot [ref=223]: Verdict: wrong
+               Canonical: have waited
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=227]: [unit_10 ex3 item14] unit_10:3:14
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (rain) It ____ (rain) all day.
+User [ref=227]: has been raining
+Bot [ref=227]: Verdict: correct
+               Canonical: has been raining
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=231]: [unit_10 ex3 item15] unit_10:3:15
+               Instruction:
+               Put the verb in the correct form.
+               Example: Correct the sentence: 'She don't like this.'
+               Answer: She doesn't like coffee.
+               Question:
+               Complete: (rain) It ____ (rain) three times this week.
+User [ref=231]: has rained
+Bot [ref=231]: Verdict: correct
+               Canonical: has rained
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=235]: [unit_100 ex1 item1] unit_100:1:1
+               Instruction:
+               Complete with the correct word form.
+               Example: Correct the sentence: 'They is traveling this minute.'
+               Answer: They are traveling now.
+               Question:
+               1) He spoke ____ . (quiet)
+User [ref=235]: quietly
+Bot [ref=235]: Verdict: correct
+               Canonical: quietly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=239]: [unit_100 ex1 item2] unit_100:1:2
+               Instruction:
+               Complete with the correct word form.
+               Example: Correct the sentence: 'They is traveling this minute.'
+               Answer: They are traveling now.
+               Question:
+               2) She smiled ____ . (happy)
+User [ref=239]: happily
+Bot [ref=239]: Verdict: correct
+               Canonical: happily
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=243]: [unit_100 ex1 item3] unit_100:1:3
+               Instruction:
+               Complete with the correct word form.
+               Example: Correct the sentence: 'They is traveling this minute.'
+               Answer: They are traveling now.
+               Question:
+               3) It was a ____ atmosphere. (friendly)
+User [ref=243]: friendly
+Bot [ref=243]: Verdict: correct
+               Canonical: friendly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=247]: [unit_100 ex1 item4] unit_100:1:4
+               Instruction:
+               Complete with the correct word form.
+               Example: Correct the sentence: 'They is traveling this minute.'
+               Answer: They are traveling now.
+               Question:
+               4) We had a ____ chat. (lovely)
+User [ref=247]: lovely
+Bot [ref=247]: Verdict: correct
+               Canonical: lovely
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=251]: [unit_100 ex1 item5] unit_100:1:5
+               Instruction:
+               Complete with the correct word form.
+               Example: Correct the sentence: 'They is traveling this minute.'
+               Answer: They are traveling now.
+               Question:
+               5) The children played ____ . (noisy)
+User [ref=251]: noisily not
+Bot [ref=251]: Verdict: wrong
+               Canonical: noisily
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=256]: [unit_100 ex1 item6] unit_100:1:6
+               Instruction:
+               Complete with the correct word form.
+               Example: Correct the sentence: 'They is traveling this minute.'
+               Answer: They are traveling now.
+               Question:
+               6) He answered ____ . (polite)
+User [ref=256]: politely
+Bot [ref=256]: Verdict: correct
+               Canonical: politely
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=260]: [unit_100 ex2 item1] unit_100:2:1
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               1) She’s a ____ driver. (good / well)
+User [ref=260]: good
+Bot [ref=260]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=265]: [unit_100 ex2 item2] unit_100:2:2
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               2) She drives ____ . (good / well)
+User [ref=265]: well
+Bot [ref=265]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=270]: [unit_100 ex2 item3] unit_100:2:3
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               3) The team played ____ . (bad / badly)
+User [ref=270]: badly
+Bot [ref=270]: Verdict: correct
+               Canonical: badly
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=275]: [unit_100 ex2 item4] unit_100:2:4
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               4) The weather is ____ today. (terrible / terribly)
+User [ref=275]: terrible
+Bot [ref=275]: Verdict: correct
+               Canonical: terrible
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=280]: [unit_100 ex2 item5] unit_100:2:5
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               5) He did ____ in the test. (good / well)
+User [ref=280]: good
+Bot [ref=280]: Verdict: wrong
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=285]: [unit_100 ex2 item6] unit_100:2:6
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               6) That was a ____ decision. (stupid / stupidly)
+User [ref=285]: stupid
+Bot [ref=285]: Verdict: correct
+               Canonical: stupid
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=290]: [unit_100 ex2 item7] unit_100:2:7
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               7) He reacted ____ . (stupid / stupidly)
+User [ref=290]: stupidly
+Bot [ref=290]: Verdict: correct
+               Canonical: stupidly
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=295]: [unit_100 ex2 item8] unit_100:2:8
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               8) It’s ____ to understand. (easy / easily)
+User [ref=295]: easy
+Bot [ref=295]: Verdict: correct
+               Canonical: easy
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=300]: [unit_100 ex2 item9] unit_100:2:9
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               9) I can ____ understand it. (easy / easily)
+User [ref=300]: easily
+Bot [ref=300]: Verdict: correct
+               Canonical: easily
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=305]: [unit_100 ex2 item10] unit_100:2:10
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               10) She’s ____ about exams. (nervous / nervously)
+User [ref=305]: nervous
+Bot [ref=305]: Verdict: correct
+               Canonical: nervous
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=310]: [unit_100 ex2 item11] unit_100:2:11
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               11) She spoke ____ . (nervous / nervously)
+User [ref=310]: nervously
+Bot [ref=310]: Verdict: correct
+               Canonical: nervously
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=315]: [unit_100 ex2 item12] unit_100:2:12
+               Instruction:
+               Choose the correct word.
+               Example: Choose the correct option: A) Oleh is fixing at weekends.  B) Oleh fixed in the evenings.  C) Oleh will fix every summer.  D) Oleh fixes at weekends.
+               Answer: D
+               Question:
+               12) The train arrived ____ . (late / lately)
+User [ref=315]: late
+Bot [ref=315]: Verdict: correct
+               Canonical: late
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=320]: [unit_100 ex3 item1] unit_100:3:1
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               1) You look ____ . (tired / tiredly)
+User [ref=320]: tired
+Bot [ref=320]: Verdict: correct
+               Canonical: tired
+Bot [ref=323]: [unit_100 ex3 item2] unit_100:3:2
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               2) He felt ____ after the run. (bad / badly)
+User [ref=323]: bad
+Bot [ref=323]: Verdict: correct
+               Canonical: bad
+Bot [ref=326]: [unit_100 ex3 item3] unit_100:3:3
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               3) The food tastes ____ . (good / well)
+User [ref=326]: good
+Bot [ref=326]: Verdict: correct
+               Canonical: good
+Bot [ref=329]: [unit_100 ex3 item4] unit_100:3:4
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               4) She sings ____ . (beautiful / beautifully)
+User [ref=329]: beautifully
+Bot [ref=329]: Verdict: correct
+               Canonical: beautifully
+Bot [ref=332]: [unit_100 ex3 item5] unit_100:3:5
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               5) The plan sounds ____ . (great / greatly)
+User [ref=332]: great
+Bot [ref=332]: Verdict: correct
+               Canonical: great
+Bot [ref=335]: [unit_100 ex3 item6] unit_100:3:6
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               6) He works ____ . (hard / hardly)
+User [ref=335]: hard
+Bot [ref=335]: Verdict: correct
+               Canonical: hard
+Bot [ref=338]: [unit_100 ex3 item7] unit_100:3:7
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               7) This suitcase feels ____ . (heavy / heavily)
+User [ref=338]: heavy
+Bot [ref=338]: Verdict: correct
+               Canonical: heavy
+Bot [ref=341]: [unit_100 ex3 item8] unit_100:3:8
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               8) She listened ____ . (careful / carefully)
+User [ref=341]: carefully not
+Bot [ref=341]: Verdict: wrong
+               Canonical: carefully
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=345]: [unit_100 ex3 item9] unit_100:3:9
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               9) The engine runs ____ . (smooth / smoothly)
+User [ref=345]: smoothly
+Bot [ref=345]: Verdict: correct
+               Canonical: smoothly
+Bot [ref=348]: [unit_100 ex3 item10] unit_100:3:10
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: Can you ____ this form for me? (an adjective / adverb)
+               Answer: an adjective
+               Question:
+               10) I feel ____ about it. (happy / happily)
+User [ref=348]: happy
+Bot [ref=348]: Verdict: correct
+               Canonical: happy
+Bot [ref=351]: [unit_100 ex4 item1] unit_100:4:1
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               1) I’m ____ sorry about that.
+User [ref=351]: terribly
+Bot [ref=351]: Verdict: correct
+               Canonical: terribly
+Bot [ref=354]: [unit_100 ex4 item2] unit_100:4:2
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               2) She was ____ kind to me.
+User [ref=354]: very
+Bot [ref=354]: Verdict: wrong
+               Canonical: incredibly
+Bot [ref=357]: [unit_100 ex4 item3] unit_100:4:3
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               3) The car was ____ damaged.
+User [ref=357]: terribly
+Bot [ref=357]: Verdict: wrong
+               Canonical: badly
+Bot [ref=360]: [unit_100 ex4 item4] unit_100:4:4
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               4) He was ____ tired after the trip.
+User [ref=360]: very
+Bot [ref=360]: Verdict: wrong
+               Canonical: really
+Bot [ref=363]: [unit_100 ex4 item5] unit_100:4:5
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               5) It’s ____ important to be on time.
+User [ref=363]: very
+Bot [ref=363]: Verdict: wrong
+               Canonical: extremely
+Bot [ref=366]: [unit_100 ex4 item6] unit_100:4:6
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               6) The room was ____ organised.
+User [ref=366]: badly
+Bot [ref=366]: Verdict: wrong
+               Canonical: poorly
+Bot [ref=369]: [unit_100 ex4 item7] unit_100:4:7
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               7) I was ____ surprised to see him.
+User [ref=369]: terribly
+Bot [ref=369]: Verdict: wrong
+               Canonical: quite
+Bot [ref=372]: [unit_100 ex4 item8] unit_100:4:8
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               8) That’s ____ unfair.
+User [ref=372]: really
+Bot [ref=372]: Verdict: wrong
+               Canonical: totally
+Bot [ref=375]: [unit_100 ex4 item9] unit_100:4:9
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: There isn't ____ time. (unit_100-4)
+               Answer: much
+               Question:
+               9) She’s ____ good at maths.
+User [ref=375]: very
+Bot [ref=375]: Verdict: correct
+               Canonical: very
+Bot [ref=378]: [unit_101 ex1 item1] unit_101:1:1
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               1) She speaks English very ____.
+User [ref=378]: well
+Bot [ref=378]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=383]: [unit_101 ex1 item2] unit_101:1:2
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               2) The film was ____ but a little long.
+User [ref=383]: good
+Bot [ref=383]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=388]: [unit_101 ex1 item3] unit_101:1:3
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               3) You did ____ on the driving test.
+User [ref=388]: well
+Bot [ref=388]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=393]: [unit_101 ex1 item4] unit_101:1:4
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               4) It’s a ____ idea to leave early.
+User [ref=393]: good
+Bot [ref=393]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=398]: [unit_101 ex1 item5] unit_101:1:5
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               5) I didn’t sleep ____ last night.
+User [ref=398]: well
+Bot [ref=398]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=403]: [unit_101 ex1 item6] unit_101:1:6
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               6) He’s a ____ cook, but he doesn’t cook often.
+User [ref=403]: good
+Bot [ref=403]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=408]: [unit_101 ex1 item7] unit_101:1:7
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               7) The kids behaved ____ during the trip.
+User [ref=408]: well not
+Bot [ref=408]: Verdict: wrong
+               Canonical: well
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=414]: [unit_101 ex1 item8] unit_101:1:8
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Choose the correct option: A) Maksym looks at weekends.  B) Maksym looked once a week.  C) Maksym will look in the evenings.  D) Maksym is looking in the evenings.
+               Answer: A
+               Question:
+               8) Your pronunciation is really ____.
+User [ref=414]: good
+Bot [ref=414]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=419]: [unit_101 ex2 item1] unit_101:2:1
+               Instruction:
+               Make compound adjectives with well- (use a hyphen).
+               Example: Complete: I ____ (be) ready. (unit_101-2)
+               Answer: am
+               Question:
+               1) Complete with a compound adjective: known → ____.
+User [ref=419]: well-known
+Bot [ref=419]: Verdict: correct
+               Canonical: well-known
+Bot [ref=422]: [unit_101 ex2 item2] unit_101:2:2
+               Instruction:
+               Make compound adjectives with well- (use a hyphen).
+               Example: Complete: I ____ (be) ready. (unit_101-2)
+               Answer: am
+               Question:
+               2) Complete with a compound adjective: paid → ____.
+User [ref=422]: well-paid
+Bot [ref=422]: Verdict: correct
+               Canonical: well-paid
+Bot [ref=425]: [unit_101 ex2 item3] unit_101:2:3
+               Instruction:
+               Make compound adjectives with well- (use a hyphen).
+               Example: Complete: I ____ (be) ready. (unit_101-2)
+               Answer: am
+               Question:
+               3) Complete with a compound adjective: educated → ____.
+User [ref=425]: well-educated
+Bot [ref=425]: Verdict: correct
+               Canonical: well-educated
+Bot [ref=428]: [unit_101 ex2 item4] unit_101:2:4
+               Instruction:
+               Make compound adjectives with well- (use a hyphen).
+               Example: Complete: I ____ (be) ready. (unit_101-2)
+               Answer: am
+               Question:
+               4) Complete with a compound adjective: behaved → ____.
+User [ref=428]: well-behaved
+Bot [ref=428]: Verdict: correct
+               Canonical: well-behaved
+Bot [ref=431]: [unit_101 ex2 item5] unit_101:2:5
+               Instruction:
+               Make compound adjectives with well- (use a hyphen).
+               Example: Complete: I ____ (be) ready. (unit_101-2)
+               Answer: am
+               Question:
+               5) Complete with a compound adjective: written → ____.
+User [ref=431]: well-written
+Bot [ref=431]: Verdict: correct
+               Canonical: well-written
+Bot [ref=434]: [unit_101 ex2 item6] unit_101:2:6
+               Instruction:
+               Make compound adjectives with well- (use a hyphen).
+               Example: Complete: I ____ (be) ready. (unit_101-2)
+               Answer: am
+               Question:
+               6) Complete with a compound adjective: designed → ____.
+User [ref=434]: well-designed
+Bot [ref=434]: Verdict: correct
+               Canonical: well-designed
+Bot [ref=437]: [unit_101 ex3 item1] unit_101:3:1
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               1) He’s a ____ runner, but he can’t run ____ now. (use fast)
+User [ref=437]: fast, fast
+Bot [ref=437]: Verdict: wrong
+               Canonical: fast
+Bot [ref=440]: [unit_101 ex3 item2] unit_101:3:2
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               2) I’m sorry I’m ____. I missed the earlier bus.
+User [ref=440]: late
+Bot [ref=440]: Verdict: correct
+               Canonical: late
+Bot [ref=443]: [unit_101 ex3 item3] unit_101:3:3
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               3) Have you seen Mia ____? (= recently)
+User [ref=443]: lately
+Bot [ref=443]: Verdict: correct
+               Canonical: lately
+Bot [ref=446]: [unit_101 ex3 item4] unit_101:3:4
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               4) This puzzle is ____; I can’t do it quickly. (use hard)
+User [ref=446]: hard not
+Bot [ref=446]: Verdict: wrong
+               Canonical: hard
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=450]: [unit_101 ex3 item5] unit_101:3:5
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               5) She works really ____ when she has deadlines.
+User [ref=450]: hard
+Bot [ref=450]: Verdict: correct
+               Canonical: hard
+Bot [ref=453]: [unit_101 ex3 item6] unit_101:3:6
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               6) Don’t drive too ____ in town.
+User [ref=453]: fast
+Bot [ref=453]: Verdict: correct
+               Canonical: fast
+Bot [ref=456]: [unit_101 ex3 item7] unit_101:3:7
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               7) We arrived ____ because of traffic.
+User [ref=456]: late
+Bot [ref=456]: Verdict: correct
+               Canonical: late
+Bot [ref=459]: [unit_101 ex3 item8] unit_101:3:8
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               8) I’ve been eating healthier ____. (= in recent weeks)
+User [ref=459]: lately
+Bot [ref=459]: Verdict: correct
+               Canonical: lately
+Bot [ref=462]: [unit_101 ex3 item9] unit_101:3:9
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: We ____ sugar, so let's buy some. (fast, hard, late, / lately)
+               Answer: fast, hard, late,
+               Question:
+               9) It’s ____ to concentrate with this noise.
+User [ref=462]: hard
+Bot [ref=462]: Verdict: correct
+               Canonical: hard
+Bot [ref=465]: [unit_101 ex4 item1] unit_101:4:1
+               Instruction:
+               Choose hard or hardly.
+               Example: Choose the correct option: A) Sofia worked in the evenings.  B) Sofia will work on Mondays.  C) Sofia is working on Mondays.  D) Sofia works once a week.
+               Answer: D
+               Question:
+               1) I ____ know her. We’ve only met once.
+User [ref=465]: hardly
+Bot [ref=465]: Verdict: correct
+               Canonical: hardly
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=470]: [unit_101 ex4 item2] unit_101:4:2
+               Instruction:
+               Choose hard or hardly.
+               Example: Choose the correct option: A) Sofia worked in the evenings.  B) Sofia will work on Mondays.  C) Sofia is working on Mondays.  D) Sofia works once a week.
+               Answer: D
+               Question:
+               2) He studied ____ for the exam, so he passed.
+User [ref=470]: hard
+Bot [ref=470]: Verdict: correct
+               Canonical: hard
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=475]: [unit_101 ex4 item3] unit_101:4:3
+               Instruction:
+               Choose hard or hardly.
+               Example: Choose the correct option: A) Sofia worked in the evenings.  B) Sofia will work on Mondays.  C) Sofia is working on Mondays.  D) Sofia works once a week.
+               Answer: D
+               Question:
+               3) She tried ____, but she still couldn’t open the jar.
+User [ref=475]: hard
+Bot [ref=475]: Verdict: correct
+               Canonical: hard
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=480]: [unit_101 ex4 item4] unit_101:4:4
+               Instruction:
+               Choose hard or hardly.
+               Example: Choose the correct option: A) Sofia worked in the evenings.  B) Sofia will work on Mondays.  C) Sofia is working on Mondays.  D) Sofia works once a week.
+               Answer: D
+               Question:
+               4) We ____ had any time to talk at the party.
+User [ref=480]: hardly
+Bot [ref=480]: Verdict: correct
+               Canonical: hardly
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=485]: [unit_101 ex4 item5] unit_101:4:5
+               Instruction:
+               Choose hard or hardly.
+               Example: Choose the correct option: A) Sofia worked in the evenings.  B) Sofia will work on Mondays.  C) Sofia is working on Mondays.  D) Sofia works once a week.
+               Answer: D
+               Question:
+               5) It was foggy; I could ____ see the road.
+User [ref=485]: hardly
+Bot [ref=485]: Verdict: correct
+               Canonical: hardly
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=490]: [unit_101 ex4 item6] unit_101:4:6
+               Instruction:
+               Choose hard or hardly.
+               Example: Choose the correct option: A) Sofia worked in the evenings.  B) Sofia will work on Mondays.  C) Sofia is working on Mondays.  D) Sofia works once a week.
+               Answer: D
+               Question:
+               6) Don’t say he’s lazy. He works ____ every day.
+User [ref=490]: hard
+Bot [ref=490]: Verdict: correct
+               Canonical: hard
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=495]: [unit_101 ex4 item7] unit_101:4:7
+               Instruction:
+               Choose hard or hardly.
+               Example: Choose the correct option: A) Sofia worked in the evenings.  B) Sofia will work on Mondays.  C) Sofia is working on Mondays.  D) Sofia works once a week.
+               Answer: D
+               Question:
+               7) I ____ slept on the flight.
+User [ref=495]: hardly
+Bot [ref=495]: Verdict: correct
+               Canonical: hardly
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=500]: [unit_101 ex5 item1] unit_101:5:1
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               1) The report is ____ written. (compound)
+User [ref=500]: well
+Bot [ref=500]: Verdict: wrong
+               Canonical: well-written
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=504]: [unit_101 ex5 item2] unit_101:5:2
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               2) I’m doing ____ today, thanks. (after 'be')
+User [ref=504]: fine
+Bot [ref=504]: Verdict: wrong
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=508]: [unit_101 ex5 item3] unit_101:5:3
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               3) Sorry I’m ____. (not on time)
+User [ref=508]: late
+Bot [ref=508]: Verdict: correct
+               Canonical: late
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=512]: [unit_101 ex5 item4] unit_101:5:4
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               4) I haven’t seen them ____.
+User [ref=512]: since
+Bot [ref=512]: Verdict: wrong
+               Canonical: lately
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=516]: [unit_101 ex5 item5] unit_101:5:5
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               5) She plays the guitar really ____.
+User [ref=516]: well
+Bot [ref=516]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=520]: [unit_101 ex5 item6] unit_101:5:6
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               6) The children were very ____.
+User [ref=520]: excited
+Bot [ref=520]: Verdict: wrong
+               Canonical: good
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=524]: [unit_101 ex5 item7] unit_101:5:7
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               7) I ____ noticed the change at first.
+User [ref=524]: didn't
+Bot [ref=524]: Verdict: wrong
+               Canonical: hardly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=528]: [unit_101 ex5 item8] unit_101:5:8
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               8) He drives too ____ on the motorway.
+User [ref=528]: fast not
+Bot [ref=528]: Verdict: wrong
+               Canonical: fast
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=533]: [unit_101 ex5 item9] unit_101:5:9
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               9) I worked ____ all week.
+User [ref=533]: hard
+Bot [ref=533]: Verdict: correct
+               Canonical: hard
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=537]: [unit_101 ex5 item10] unit_101:5:10
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               10) The book was ____ and easy to read.
+User [ref=537]: engaging
+Bot [ref=537]: Verdict: wrong
+               Canonical: good
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=541]: [unit_101 ex5 item11] unit_101:5:11
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Correct the sentence: 'She don't want coffee.'
+               Answer: She doesn't want this.
+               Question:
+               11) This is a ____-known problem.
+User [ref=541]: well
+Bot [ref=541]: Verdict: wrong
+               Canonical: well-known
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=545]: [unit_102 ex1 item1] unit_102:1:1
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               1) It was ____ cold that the lake froze overnight.
+User [ref=545]: so
+Bot [ref=545]: Verdict: correct
+               Canonical: so
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=550]: [unit_102 ex1 item2] unit_102:1:2
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               2) They had ____ a great time at the concert.
+User [ref=550]: so
+Bot [ref=550]: Verdict: wrong
+               Canonical: such
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=555]: [unit_102 ex1 item3] unit_102:1:3
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               3) The lecture was ____ boring that I nearly fell asleep.
+User [ref=555]: so
+Bot [ref=555]: Verdict: correct
+               Canonical: so
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=560]: [unit_102 ex1 item4] unit_102:1:4
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               4) That’s ____ a strange question.
+User [ref=560]: so
+Bot [ref=560]: Verdict: wrong
+               Canonical: such
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=565]: [unit_102 ex1 item5] unit_102:1:5
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               5) I was ____ tired after the trip.
+User [ref=565]: so
+Bot [ref=565]: Verdict: correct
+               Canonical: so
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=570]: [unit_102 ex1 item6] unit_102:1:6
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               6) We met ____ friendly neighbours.
+User [ref=570]: so
+Bot [ref=570]: Verdict: wrong
+               Canonical: such
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=575]: [unit_102 ex1 item7] unit_102:1:7
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               7) The phone was ____ expensive that I didn’t buy it.
+User [ref=575]: so
+Bot [ref=575]: Verdict: correct
+               Canonical: so
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=580]: [unit_102 ex1 item8] unit_102:1:8
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               8) It was ____ a relief to hear the news.
+User [ref=580]: so
+Bot [ref=580]: Verdict: wrong
+               Canonical: such
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=585]: [unit_102 ex1 item9] unit_102:1:9
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               9) She speaks ____ quietly that I can’t hear her.
+User [ref=585]: so
+Bot [ref=585]: Verdict: correct
+               Canonical: so
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=590]: [unit_102 ex1 item10] unit_102:1:10
+               Instruction:
+               Choose so or such.
+               Example: Choose the correct option: A) Oleh travels every day.  B) Oleh is traveling in the evenings.  C) Oleh will travel every day.  D) Oleh traveled on Mondays.
+               Answer: A
+               Question:
+               10) It was ____ a useful app that everyone installed it.
+User [ref=590]: so
+Bot [ref=590]: Verdict: wrong
+               Canonical: such
+               Issues: [INSTRUCTION_FORMAT_MISMATCH] [EXAMPLE_TASK_MISMATCH]
+Bot [ref=595]: [unit_102 ex2 item1] unit_102:2:1
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               1) There were ____ people that we couldn’t get in.
+User [ref=595]: so many
+Bot [ref=595]: Verdict: correct
+               Canonical: so many
+Bot [ref=598]: [unit_102 ex2 item2] unit_102:2:2
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               2) I have ____ work to finish tonight.
+User [ref=598]: so much not
+Bot [ref=598]: Verdict: wrong
+               Canonical: so much
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=602]: [unit_102 ex2 item3] unit_102:2:3
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               3) We had ____ time that we skipped lunch.
+User [ref=602]: so little
+Bot [ref=602]: Verdict: correct
+               Canonical: so little
+Bot [ref=605]: [unit_102 ex2 item4] unit_102:2:4
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               4) He made ____ mistakes in that email.
+User [ref=605]: so many
+Bot [ref=605]: Verdict: correct
+               Canonical: so many
+Bot [ref=608]: [unit_102 ex2 item5] unit_102:2:5
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               5) She has ____ patience with rude customers.
+User [ref=608]: so little
+Bot [ref=608]: Verdict: correct
+               Canonical: so little
+Bot [ref=611]: [unit_102 ex2 item6] unit_102:2:6
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               6) They spent ____ money on the wedding.
+User [ref=611]: so much
+Bot [ref=611]: Verdict: correct
+               Canonical: so much
+Bot [ref=614]: [unit_102 ex2 item7] unit_102:2:7
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               7) There were ____ seats left.
+User [ref=614]: so few
+Bot [ref=614]: Verdict: correct
+               Canonical: so few
+Bot [ref=617]: [unit_102 ex2 item8] unit_102:2:8
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               8) I ate ____ snacks that I wasn’t hungry for dinner.
+User [ref=617]: so many
+Bot [ref=617]: Verdict: correct
+               Canonical: so many
+Bot [ref=620]: [unit_102 ex2 item9] unit_102:2:9
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: We ____ sugar, so let's buy some. (so much, so many, so little, / so few)
+               Answer: so much, so many, so little,
+               Question:
+               9) We got ____ information that we felt lost.
+User [ref=620]: so much
+Bot [ref=620]: Verdict: wrong
+               Canonical: so little
+Bot [ref=623]: [unit_102 ex3 item1] unit_102:3:1
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               1) The street was ____ noisy ____ I couldn’t sleep.
+User [ref=623]: so
+Bot [ref=623]: Verdict: correct
+               Canonical: so
+Bot [ref=626]: [unit_102 ex3 item2] unit_102:3:2
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               2) It was ____ a mess ____ we had to start again.
+User [ref=626]: so, that
+Bot [ref=626]: Verdict: wrong
+               Canonical: such
+Bot [ref=629]: [unit_102 ex3 item3] unit_102:3:3
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               3) The box was ____ heavy ____ I couldn’t lift it.
+User [ref=629]: so, that
+Bot [ref=629]: Verdict: wrong
+               Canonical: so
+Bot [ref=632]: [unit_102 ex3 item4] unit_102:3:4
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               4) She told ____ a funny story ____ everyone laughed.
+User [ref=632]: so, that
+Bot [ref=632]: Verdict: wrong
+               Canonical: such
+Bot [ref=635]: [unit_102 ex3 item5] unit_102:3:5
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               5) The movie was ____ long ____ we left early.
+User [ref=635]: so
+Bot [ref=635]: Verdict: correct
+               Canonical: so
+Bot [ref=638]: [unit_102 ex3 item6] unit_102:3:6
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               6) They had ____ bad luck ____ they gave up.
+User [ref=638]: so, that
+Bot [ref=638]: Verdict: wrong
+               Canonical: such
+Bot [ref=641]: [unit_102 ex3 item7] unit_102:3:7
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               7) I was ____ hungry ____ I ate two sandwiches.
+User [ref=641]: so, that
+Bot [ref=641]: Verdict: wrong
+               Canonical: so
+Bot [ref=644]: [unit_102 ex3 item8] unit_102:3:8
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: Please ____ your jacket; it's warm inside. (so / such. Use that where it fits)
+               Answer: so
+               Question:
+               8) It was ____ a good offer ____ I accepted immediately.
+User [ref=644]: so, that
+Bot [ref=644]: Verdict: wrong
+               Canonical: such
+Bot [ref=647]: [unit_102 ex4 item1] unit_102:4:1
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite using the passive: 'People built my bike last week.'
+               Answer: My bike was built last week.
+               Question:
+               1) Rewrite using so/such ... that: Very hot. We stayed indoors.
+User [ref=647]: It was so hot that we stayed indoors.
+                Normalized: It was so hot that we stayed indoors
+Bot [ref=647]: Verdict: correct
+               Canonical: It was so hot that we stayed indoors.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=651]: [unit_102 ex4 item2] unit_102:4:2
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite using the passive: 'People built my bike last week.'
+               Answer: My bike was built last week.
+               Question:
+               2) Rewrite using so/such ... that: The book was very interesting. I read it in one day.
+User [ref=651]: The book was so interesting that I read it in one day.
+                Normalized: The book was so interesting that I read it in one day
+Bot [ref=651]: Verdict: correct
+               Canonical: The book was so interesting that I read it in one day.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=655]: [unit_102 ex4 item3] unit_102:4:3
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite using the passive: 'People built my bike last week.'
+               Answer: My bike was built last week.
+               Question:
+               3) Rewrite using so/such ... that: It was a terrible storm. Flights were cancelled.
+User [ref=655]: It was so terrible a storm that flights were cancelled.
+                Normalized: It was so terrible a storm that flights were cancelled
+Bot [ref=655]: Verdict: wrong
+               Canonical: It was such a terrible storm that flights were cancelled.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=659]: [unit_102 ex4 item4] unit_102:4:4
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite using the passive: 'People built my bike last week.'
+               Answer: My bike was built last week.
+               Question:
+               4) Rewrite using so/such ... that: The coffee was very strong. I couldn’t finish it.
+User [ref=659]: The coffee was so strong that I couldn’t finish it.
+                Normalized: The coffee was so strong that I couldn't finish it
+Bot [ref=659]: Verdict: correct
+               Canonical: The coffee was so strong that I couldn’t finish it.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=663]: [unit_102 ex4 item5] unit_102:4:5
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite using the passive: 'People built my bike last week.'
+               Answer: My bike was built last week.
+               Question:
+               5) Rewrite using so/such ... that: They were very kind people. They offered us a room.
+User [ref=663]: They were so kind that they offered us a room.
+                Normalized: They were so kind that they offered us a room
+Bot [ref=663]: Verdict: wrong
+               Canonical: They were such kind people that they offered us a room.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=667]: [unit_102 ex4 item6] unit_102:4:6
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite using the passive: 'People built my bike last week.'
+               Answer: My bike was built last week.
+               Question:
+               6) Rewrite using so/such ... that: The queue was very long. We went home.
+User [ref=667]: The queue was so long that we went home.
+                Normalized: The queue was so long that we went home
+Bot [ref=667]: Verdict: correct
+               Canonical: The queue was so long that we went home.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=671]: [unit_102 ex4 item7] unit_102:4:7
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite using the passive: 'People built my bike last week.'
+               Answer: My bike was built last week.
+               Question:
+               7) Rewrite using so/such ... that: It was a difficult decision. I needed time.
+User [ref=671]: It was such a difficult decision that I needed time.
+                Normalized: It was such a difficult decision that I needed time
+Bot [ref=671]: Verdict: correct
+               Canonical: It was such a difficult decision that I needed time.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=675]: [unit_103 ex1 item1] unit_103:1:1
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               1) The soup isn’t hot ____.
+User [ref=675]: enough
+Bot [ref=675]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=679]: [unit_103 ex1 item2] unit_103:1:2
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               2) Are you strong ____ to lift that box?
+User [ref=679]: enough not
+Bot [ref=679]: Verdict: wrong
+               Canonical: enough
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=684]: [unit_103 ex1 item3] unit_103:1:3
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               3) You don’t drive carefully ____.
+User [ref=684]: enough
+Bot [ref=684]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=688]: [unit_103 ex1 item4] unit_103:1:4
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               4) This room is big ____ for ten people.
+User [ref=688]: enough
+Bot [ref=688]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=692]: [unit_103 ex1 item5] unit_103:1:5
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               5) I’m not old ____ to rent a car.
+User [ref=692]: enough
+Bot [ref=692]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=696]: [unit_103 ex1 item6] unit_103:1:6
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               6) He didn’t speak clearly ____.
+User [ref=696]: enough
+Bot [ref=696]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=700]: [unit_103 ex1 item7] unit_103:1:7
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               7) The Wi‑Fi is fast ____ for video calls.
+User [ref=700]: enough
+Bot [ref=700]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=704]: [unit_103 ex1 item8] unit_103:1:8
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               8) She didn’t train hard ____.
+User [ref=704]: enough
+Bot [ref=704]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=708]: [unit_103 ex1 item9] unit_103:1:9
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               9) Is the explanation simple ____?
+User [ref=708]: enough
+Bot [ref=708]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=712]: [unit_103 ex1 item10] unit_103:1:10
+               Instruction:
+               Add enough in the correct place.
+               Example: Correct the sentence: 'He play to the gym in the evenings.'
+               Answer: He plays to school at weekends.
+               Question:
+               10) I didn’t get up early ____.
+User [ref=712]: enough
+Bot [ref=712]: Verdict: correct
+               Canonical: enough
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=716]: [unit_103 ex2 item1] unit_103:2:1
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               1) This jacket is ____ small for me.
+User [ref=716]: too
+Bot [ref=716]: Verdict: correct
+               Canonical: too
+Bot [ref=719]: [unit_103 ex2 item2] unit_103:2:2
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               2) I drank ____ much coffee and couldn’t sleep.
+User [ref=719]: too
+Bot [ref=719]: Verdict: correct
+               Canonical: too
+Bot [ref=722]: [unit_103 ex2 item3] unit_103:2:3
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               3) There were ____ many people to park easily.
+User [ref=722]: too not
+Bot [ref=722]: Verdict: wrong
+               Canonical: too
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=726]: [unit_103 ex2 item4] unit_103:2:4
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               4) The music is ____ loud.
+User [ref=726]: too
+Bot [ref=726]: Verdict: correct
+               Canonical: too
+Bot [ref=729]: [unit_103 ex2 item5] unit_103:2:5
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               5) I spent ____ much money this week.
+User [ref=729]: too
+Bot [ref=729]: Verdict: correct
+               Canonical: too
+Bot [ref=732]: [unit_103 ex2 item6] unit_103:2:6
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               6) The explanation is ____ complicated.
+User [ref=732]: too
+Bot [ref=732]: Verdict: correct
+               Canonical: too
+Bot [ref=735]: [unit_103 ex2 item7] unit_103:2:7
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               7) We have ____ many meetings today.
+User [ref=735]: too
+Bot [ref=735]: Verdict: correct
+               Canonical: too
+Bot [ref=738]: [unit_103 ex2 item8] unit_103:2:8
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: There isn't ____ time. (unit_103-2)
+               Answer: some
+               Question:
+               8) He talks ____ fast for me to follow.
+User [ref=738]: too
+Bot [ref=738]: Verdict: correct
+               Canonical: too
+Bot [ref=741]: [unit_103 ex3 item1] unit_103:3:1
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               1) Rewrite using too ... to / (not) ... enough to: I was very tired. I couldn’t finish the report.
+User [ref=741]: I was too tired to finish the report.
+                Normalized: I was too tired to finish the report
+Bot [ref=741]: Verdict: correct
+               Canonical: I was too tired to finish the report.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=745]: [unit_103 ex3 item2] unit_103:3:2
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               2) Rewrite using too ... to / (not) ... enough to: She is 15. She can’t vote.
+User [ref=745]: She is too young to vote.
+                Normalized: She is too young to vote
+Bot [ref=745]: Verdict: wrong
+               Canonical: She isn’t old enough to vote.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=749]: [unit_103 ex3 item3] unit_103:3:3
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               3) Rewrite using too ... to / (not) ... enough to: The bag was very heavy. I couldn’t carry it.
+User [ref=749]: The bag was too heavy for me to carry.
+                Normalized: The bag was too heavy for me to carry
+Bot [ref=749]: Verdict: wrong
+               Canonical: The bag was too heavy to carry.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=753]: [unit_103 ex3 item4] unit_103:3:4
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               4) Rewrite using too ... to / (not) ... enough to: He didn’t have the skill. He couldn’t fix it.
+User [ref=753]: He didn't have enough skill to fix it.
+                Normalized: He didn't have enough skill to fix it
+Bot [ref=753]: Verdict: wrong
+               Canonical: He wasn’t experienced enough to fix it.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=757]: [unit_103 ex3 item5] unit_103:3:5
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               5) Rewrite using too ... to / (not) ... enough to: We arrived late. We missed the start.
+User [ref=757]: We arrived too late to miss the start.
+                Normalized: We arrived too late to miss the start
+Bot [ref=757]: Verdict: wrong
+               Canonical: We arrived too late to catch the start.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=761]: [unit_103 ex3 item6] unit_103:3:6
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               6) Rewrite using too ... to / (not) ... enough to: The coffee is very hot. I can’t drink it.
+User [ref=761]: The coffee is too hot to drink. not
+Bot [ref=761]: Verdict: wrong
+               Canonical: The coffee is too hot to drink.
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=766]: [unit_103 ex3 item7] unit_103:3:7
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               7) Rewrite using too ... to / (not) ... enough to: The explanation was clear. I could understand.
+User [ref=766]: The explanation was clear enough for me to understand.
+                Normalized: The explanation was clear enough for me to understand
+Bot [ref=766]: Verdict: wrong
+               Canonical: The explanation was clear enough to understand.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=770]: [unit_103 ex3 item8] unit_103:3:8
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite using the passive: 'The company built these chairs last week.'
+               Answer: These chairs was built last week.
+               Question:
+               8) Rewrite using too ... to / (not) ... enough to: I don’t have time. I can’t go now.
+User [ref=770]: I don't have enough time to go now.
+                Normalized: I don't have enough time to go now
+Bot [ref=770]: Verdict: correct
+               Canonical: I don’t have enough time to go now.
+               Issues: [EXAMPLE_TASK_MISMATCH]

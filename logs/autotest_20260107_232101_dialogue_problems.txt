@@ -1,0 +1,400 @@
+----- PROBLEM CONTEXT (turns 65..82) -----
+Issues: EXAMPLE_TASK_MISMATCH
+Bot [ref=200]: [unit_100 ex1 item4] unit_100:1:4
+               Instruction:
+               Complete with the correct word form.
+               Example: She sings ____ . (beautiful)
+               Answer: beautifully
+               Question:
+               4) We had a ____ chat. (lovely)
+User [ref=200]: lovely
+Bot [ref=200]: Verdict: correct
+               Canonical: lovely
+Bot [ref=203]: [unit_100 ex1 item5] unit_100:1:5
+               Instruction:
+               Complete with the correct word form.
+               Example: She sings ____ . (beautiful)
+               Answer: beautifully
+               Question:
+               5) The children played ____ . (noisy)
+User [ref=203]: noisily
+Bot [ref=203]: Verdict: correct
+               Canonical: noisily
+Bot [ref=206]: [unit_100 ex1 item6] unit_100:1:6
+               Instruction:
+               Complete with the correct word form.
+               Example: She sings ____ . (beautiful)
+               Answer: beautifully
+               Question:
+               6) He answered ____ . (polite)
+User [ref=206]: politely
+Bot [ref=206]: Verdict: correct
+               Canonical: politely
+Bot [ref=209]: [unit_100 ex2 item1] unit_100:2:1
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               1) She’s a ____ driver. (good / well)
+User [ref=209]: good
+Bot [ref=209]: Verdict: correct
+               Canonical: good
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=213]: [unit_100 ex2 item2] unit_100:2:2
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               2) She drives ____ . (good / well)
+User [ref=213]: well
+Bot [ref=213]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=217]: [unit_100 ex2 item3] unit_100:2:3
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               3) The team played ____ . (bad / badly)
+User [ref=217]: badly
+Bot [ref=217]: Verdict: correct
+               Canonical: badly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=221]: [unit_100 ex2 item4] unit_100:2:4
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               4) The weather is ____ today. (terrible / terribly)
+User [ref=221]: terrible
+Bot [ref=221]: Verdict: correct
+               Canonical: terrible
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=225]: [unit_100 ex2 item5] unit_100:2:5
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               5) He did ____ in the test. (good / well)
+User [ref=225]: well
+Bot [ref=225]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=229]: [unit_100 ex2 item6] unit_100:2:6
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               6) That was a ____ decision. (stupid / stupidly)
+User [ref=229]: stupid
+Bot [ref=229]: Verdict: correct
+               Canonical: stupid
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=233]: [unit_100 ex2 item7] unit_100:2:7
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               7) He reacted ____ . (stupid / stupidly)
+User [ref=233]: stupidly
+Bot [ref=233]: Verdict: correct
+               Canonical: stupidly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=237]: [unit_100 ex2 item8] unit_100:2:8
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               8) It’s ____ to understand. (easy / easily)
+User [ref=237]: easy
+Bot [ref=237]: Verdict: correct
+               Canonical: easy
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=241]: [unit_100 ex2 item9] unit_100:2:9
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               9) I can ____ understand it. (easy / easily)
+User [ref=241]: easily
+Bot [ref=241]: Verdict: correct
+               Canonical: easily
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=245]: [unit_100 ex2 item10] unit_100:2:10
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               10) She’s ____ about exams. (nervous / nervously)
+User [ref=245]: nervous
+Bot [ref=245]: Verdict: correct
+               Canonical: nervous
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=249]: [unit_100 ex2 item11] unit_100:2:11
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               11) She spoke ____ . (nervous / nervously)
+User [ref=249]: nervously
+Bot [ref=249]: Verdict: correct
+               Canonical: nervously
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=253]: [unit_100 ex2 item12] unit_100:2:12
+               Instruction:
+               Choose the correct word (adjective or adverb) to complete each sentence.
+               Example: The music played ____. (loud / loudly)
+               Answer: loudly
+               Question:
+               12) The train arrived ____ . (late / lately)
+User [ref=253]: late
+Bot [ref=253]: Verdict: correct
+               Canonical: late
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=choice_implicit example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs choice_implicit)
+Bot [ref=257]: [unit_100 ex3 item1] unit_100:3:1
+               Instruction:
+               Complete the sentence with the correct form of the word in parentheses.
+               Example: The music played ____. (loud / loudly)
+               Answer: loud
+               Question:
+               1) You look ____ . (tired / tiredly)
+User [ref=257]: tired
+Bot [ref=257]: Verdict: correct
+               Canonical: tired
+Bot [ref=260]: [unit_100 ex3 item2] unit_100:3:2
+               Instruction:
+               Complete the sentence with the correct form of the word in parentheses.
+               Example: The music played ____. (loud / loudly)
+               Answer: loud
+               Question:
+               2) He felt ____ after the run. (bad / badly)
+User [ref=260]: bad
+Bot [ref=260]: Verdict: correct
+               Canonical: bad
+Bot [ref=263]: [unit_100 ex3 item3] unit_100:3:3
+               Instruction:
+               Complete the sentence with the correct form of the word in parentheses.
+               Example: The music played ____. (loud / loudly)
+               Answer: loud
+               Question:
+               3) The food tastes ____ . (good / well)
+User [ref=263]: good
+Bot [ref=263]: Verdict: correct
+               Canonical: good
+----- PROBLEM CONTEXT (turns 126..142) -----
+Issues: EXAMPLE_TASK_MISMATCH
+Bot [ref=398]: [unit_101 ex4 item5] unit_101:4:5
+               Instruction:
+               Complete the sentences with the correct form of 'hard' or 'hardly'.
+               Example: She ____ finished her homework when the phone rang.
+               Answer: had hardly
+               Question:
+               5) It was foggy; I could ____ see the road.
+User [ref=398]: hardly
+Bot [ref=398]: Verdict: correct
+               Canonical: hardly
+Bot [ref=401]: [unit_101 ex4 item6] unit_101:4:6
+               Instruction:
+               Complete the sentences with the correct form of 'hard' or 'hardly'.
+               Example: She ____ finished her homework when the phone rang.
+               Answer: had hardly
+               Question:
+               6) Don’t say he’s lazy. He works ____ every day.
+User [ref=401]: hard
+Bot [ref=401]: Verdict: correct
+               Canonical: hard
+Bot [ref=404]: [unit_101 ex4 item7] unit_101:4:7
+               Instruction:
+               Complete the sentences with the correct form of 'hard' or 'hardly'.
+               Example: She ____ finished her homework when the phone rang.
+               Answer: had hardly
+               Question:
+               7) I ____ slept on the flight.
+User [ref=404]: hardly
+Bot [ref=404]: Verdict: correct
+               Canonical: hardly
+Bot [ref=407]: [unit_101 ex5 item1] unit_101:5:1
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               1) The report is ____ written. (compound)
+User [ref=407]: well
+Bot [ref=407]: Verdict: wrong
+               Canonical: well-written
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=411]: [unit_101 ex5 item2] unit_101:5:2
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               2) I’m doing ____ today, thanks. (after 'be')
+User [ref=411]: well
+Bot [ref=411]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=415]: [unit_101 ex5 item3] unit_101:5:3
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               3) Sorry I’m ____. (not on time)
+User [ref=415]: late
+Bot [ref=415]: Verdict: correct
+               Canonical: late
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=419]: [unit_101 ex5 item4] unit_101:5:4
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               4) I haven’t seen them ____.
+User [ref=419]: since
+Bot [ref=419]: Verdict: wrong
+               Canonical: lately
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=423]: [unit_101 ex5 item5] unit_101:5:5
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               5) She plays the guitar really ____.
+User [ref=423]: well
+Bot [ref=423]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=427]: [unit_101 ex5 item6] unit_101:5:6
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               6) The children were very ____.
+User [ref=427]: happy
+Bot [ref=427]: Verdict: wrong
+               Canonical: good
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=431]: [unit_101 ex5 item7] unit_101:5:7
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               7) I ____ noticed the change at first.
+User [ref=431]: didn't
+Bot [ref=431]: Verdict: wrong
+               Canonical: hardly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=435]: [unit_101 ex5 item8] unit_101:5:8
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               8) He drives too ____ on the motorway.
+User [ref=435]: fast
+Bot [ref=435]: Verdict: correct
+               Canonical: fast
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=439]: [unit_101 ex5 item9] unit_101:5:9
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               9) I worked ____ all week.
+User [ref=439]: hard
+Bot [ref=439]: Verdict: correct
+               Canonical: hard
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=443]: [unit_101 ex5 item10] unit_101:5:10
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               10) The book was ____ and easy to read.
+User [ref=443]: interesting
+Bot [ref=443]: Verdict: wrong
+               Canonical: good
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=447]: [unit_101 ex5 item11] unit_101:5:11
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: She sings ____. (well/good)
+               Answer: well
+               Question:
+               11) This is a ____-known problem.
+User [ref=447]: well
+Bot [ref=447]: Verdict: wrong
+               Canonical: well-known
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=gap_fill example_kind=sentence_build_tokens trigger=kind_incompatible(sentence_build_tokens vs gap_fill)
+Bot [ref=451]: [unit_102 ex1 item1] unit_102:1:1
+               Instruction:
+               Complete the sentences with 'so' or 'such'.
+               Example: This is ____ an interesting book that I can't put it down.
+               Answer: such
+               Question:
+               1) It was ____ cold that the lake froze overnight.
+User [ref=451]: so
+Bot [ref=451]: Verdict: correct
+               Canonical: so
+Bot [ref=454]: [unit_102 ex1 item2] unit_102:1:2
+               Instruction:
+               Complete the sentences with 'so' or 'such'.
+               Example: This is ____ an interesting book that I can't put it down.
+               Answer: such
+               Question:
+               2) They had ____ a great time at the concert.
+User [ref=454]: so
+Bot [ref=454]: Verdict: wrong
+               Canonical: such
+Bot [ref=457]: [unit_102 ex1 item3] unit_102:1:3
+               Instruction:
+               Complete the sentences with 'so' or 'such'.
+               Example: This is ____ an interesting book that I can't put it down.
+               Answer: such
+               Question:
+               3) The lecture was ____ boring that I nearly fell asleep.
+User [ref=457]: so
+Bot [ref=457]: Verdict: correct
+               Canonical: so

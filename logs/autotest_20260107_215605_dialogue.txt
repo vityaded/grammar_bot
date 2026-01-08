@@ -1,0 +1,2229 @@
+Bot [ref=1]: [unit_1 ex1 item1] unit_1:1:1
+             Instruction:
+             Complete with the present continuous (am/is/are + -ing).
+             Example: Complete: (fix) The manager ____ right now.
+             Answer: is fixing
+             Question:
+             (read) I ____ a book right now.
+User [ref=1]: am reading
+Bot [ref=1]: Verdict: correct
+             Canonical: am reading
+Bot [ref=4]: [unit_1 ex1 item2] unit_1:1:2
+             Instruction:
+             Complete with the present continuous (am/is/are + -ing).
+             Example: Complete: (fix) The manager ____ right now.
+             Answer: is fixing
+             Question:
+             (cook) Sarah ____ dinner at the moment.
+User [ref=4]: is cooking
+Bot [ref=4]: Verdict: correct
+             Canonical: is cooking
+Bot [ref=7]: [unit_1 ex1 item3] unit_1:1:3
+             Instruction:
+             Complete with the present continuous (am/is/are + -ing).
+             Example: Complete: (fix) The manager ____ right now.
+             Answer: is fixing
+             Question:
+             (rain) It ____ outside.
+User [ref=7]: is raining
+Bot [ref=7]: Verdict: correct
+             Canonical: is raining
+Bot [ref=10]: [unit_1 ex1 item4] unit_1:1:4
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (fix) The manager ____ right now.
+              Answer: is fixing
+              Question:
+              (talk) We ____ on the phone.
+User [ref=10]: are talking
+Bot [ref=10]: Verdict: correct
+              Canonical: are talking
+Bot [ref=13]: [unit_1 ex1 item5] unit_1:1:5
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (fix) The manager ____ right now.
+              Answer: is fixing
+              Question:
+              (work) Tom ____ today.
+User [ref=13]: is working
+Bot [ref=13]: Verdict: correct
+              Canonical: is working
+Bot [ref=16]: [unit_1 ex1 item6] unit_1:1:6
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (fix) The manager ____ right now.
+              Answer: is fixing
+              Question:
+              (wait) They ____ for the bus.
+User [ref=16]: are waiting
+Bot [ref=16]: Verdict: correct
+              Canonical: are waiting
+Bot [ref=19]: [unit_1 ex2 item1] unit_1:2:1
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: A: a woman is driving now.
+              Options:
+              A) She drives to work.
+              B) She is driving to work.
+              C) She drove to work.
+              D) She has driven to work.
+              Format: A, C
+User [ref=19]: B
+               Normalized: She is driving to work
+Bot [ref=19]: Verdict: correct
+              Canonical: She is driving to work.
+Bot [ref=22]: [unit_1 ex2 item2] unit_1:2:2
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: B: two people are laughing now.
+              Options:
+              A) They laugh a lot.
+              B) They are laughing.
+              C) They laughed.
+              D) They have laughed.
+              Format: A, C
+User [ref=22]: B
+               Normalized: They are laughing
+Bot [ref=22]: Verdict: correct
+              Canonical: They are laughing.
+Bot [ref=25]: [unit_1 ex2 item3] unit_1:2:3
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: C: a child is sleeping at the moment.
+              Options:
+              A) He sleeps.
+              B) He is sleeping.
+              C) He slept.
+              D) He has slept.
+              Format: A, C
+User [ref=25]: B
+               Normalized: He is sleeping
+Bot [ref=25]: Verdict: correct
+              Canonical: He is sleeping.
+Bot [ref=28]: [unit_1 ex2 item4] unit_1:2:4
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: D: I'm on the phone now.
+              Options:
+              A) I talk on the phone.
+              B) I'm talking on the phone.
+              C) I talked on the phone.
+              D) I've talked on the phone.
+              Format: A, C
+User [ref=28]: B
+               Normalized: I'm talking on the phone
+Bot [ref=28]: Verdict: correct
+              Canonical: I'm talking on the phone.
+Bot [ref=31]: [unit_1 ex2 item5] unit_1:2:5
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: E: it's snowing now.
+              Options:
+              A) It snows.
+              B) It's snowing.
+              C) It snowed.
+              D) It has snowed.
+              Format: A, C
+User [ref=31]: B
+               Normalized: It's snowing
+Bot [ref=31]: Verdict: correct
+              Canonical: It's snowing.
+Bot [ref=34]: [unit_1 ex2 item6] unit_1:2:6
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: F: we are having lunch now.
+              Options:
+              A) We have lunch.
+              B) We're having lunch.
+              C) We had lunch.
+              D) We've had lunch.
+              Format: A, C
+User [ref=34]: B
+               Normalized: We're having lunch
+Bot [ref=34]: Verdict: correct
+              Canonical: We're having lunch.
+Bot [ref=37]: [unit_1 ex2 item7] unit_1:2:7
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: G: she is watching TV now.
+              Options:
+              A) She watches TV.
+              B) She's watching TV.
+              C) She watched TV.
+              D) She has watched TV.
+              Format: A, C
+User [ref=37]: B
+               Normalized: She's watching TV
+Bot [ref=37]: Verdict: correct
+              Canonical: She's watching TV.
+Bot [ref=40]: [unit_1 ex2 item8] unit_1:2:8
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: H: they are playing now.
+              Options:
+              A) They play football.
+              B) They're playing football.
+              C) They played football.
+              D) They've played football.
+              Format: A, C
+User [ref=40]: B
+               Normalized: They're playing football
+Bot [ref=40]: Verdict: correct
+              Canonical: They're playing football.
+Bot [ref=43]: [unit_1 ex3 item1] unit_1:3:1
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: You / watch TV now?
+User [ref=43]: Are you watching TV now?
+               Normalized: Are you watching TV now
+Bot [ref=43]: Verdict: correct
+              Canonical: Are you watching TV now?
+Bot [ref=46]: [unit_1 ex3 item2] unit_1:3:2
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: she / wear a coat today?
+User [ref=46]: Is she wearing a coat today?
+               Normalized: Is she wearing a coat today
+Bot [ref=46]: Verdict: correct
+              Canonical: Is she wearing a coat today?
+Bot [ref=49]: [unit_1 ex3 item3] unit_1:3:3
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: they / wait for you?
+User [ref=49]: Are they waiting for you?
+               Normalized: Are they waiting for you
+Bot [ref=49]: Verdict: correct
+              Canonical: Are they waiting for you?
+Bot [ref=52]: [unit_1 ex3 item4] unit_1:3:4
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: it / rain at the moment?
+User [ref=52]: Is it raining at the moment?
+               Normalized: Is it raining at the moment
+Bot [ref=52]: Verdict: correct
+              Canonical: Is it raining at the moment?
+Bot [ref=55]: [unit_1 ex3 item5] unit_1:3:5
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: what / you / do?
+User [ref=55]: What are you doing?
+               Normalized: What are you doing
+Bot [ref=55]: Verdict: correct
+              Canonical: What are you doing?
+Bot [ref=58]: [unit_1 ex3 item6] unit_1:3:6
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: where / he / go?
+User [ref=58]: Where is he going?
+               Normalized: Where is he going
+Bot [ref=58]: Verdict: correct
+              Canonical: Where is he going?
+Bot [ref=61]: [unit_1 ex3 item7] unit_1:3:7
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: why / they / laugh?
+User [ref=61]: Why are they laughing? not
+Bot [ref=61]: Verdict: wrong
+              Canonical: Why are they laughing?
+              ForcedWrong: yes
+              ForceReason: corrupted-text
+Bot [ref=65]: [unit_1 ex3 item8] unit_1:3:8
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: who / you / speak to?
+User [ref=65]: Who are you speaking to?
+               Normalized: Who are you speaking to
+Bot [ref=65]: Verdict: correct
+              Canonical: Who are you speaking to?
+Bot [ref=68]: [unit_1 ex4 item1] unit_1:4:1
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (swim) He ____ in the sea.
+User [ref=68]: is swimming
+Bot [ref=68]: Verdict: correct
+              Canonical: is swimming
+Bot [ref=71]: [unit_1 ex4 item2] unit_1:4:2
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (make) She ____ a cake.
+User [ref=71]: is making
+Bot [ref=71]: Verdict: correct
+              Canonical: is making
+Bot [ref=74]: [unit_1 ex4 item3] unit_1:4:3
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (run) I ____ fast.
+User [ref=74]: am running
+Bot [ref=74]: Verdict: correct
+              Canonical: am running
+Bot [ref=77]: [unit_1 ex4 item4] unit_1:4:4
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (write) They ____ emails.
+User [ref=77]: are writing
+Bot [ref=77]: Verdict: correct
+              Canonical: are writing
+Bot [ref=80]: [unit_1 ex4 item5] unit_1:4:5
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (sit) The baby ____ on the floor.
+User [ref=80]: is sitting
+Bot [ref=80]: Verdict: correct
+              Canonical: is sitting
+Bot [ref=83]: [unit_1 ex4 item6] unit_1:4:6
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (lie) He ____ on the sofa.
+User [ref=83]: is lying
+Bot [ref=83]: Verdict: correct
+              Canonical: is lying
+Bot [ref=86]: [unit_1 ex4 item7] unit_1:4:7
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (dance) We ____.
+User [ref=86]: are dancing
+Bot [ref=86]: Verdict: correct
+              Canonical: are dancing
+Bot [ref=89]: [unit_1 ex4 item8] unit_1:4:8
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (stop) The bus ____.
+User [ref=89]: is stopping
+Bot [ref=89]: Verdict: correct
+              Canonical: is stopping
+Bot [ref=92]: [unit_1 ex4 item9] unit_1:4:9
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (plan) I ____ my trip.
+User [ref=92]: am planning
+Bot [ref=92]: Verdict: correct
+              Canonical: am planning
+Bot [ref=95]: [unit_1 ex4 item10] unit_1:4:10
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (take) She ____ photos.
+User [ref=95]: is taking
+Bot [ref=95]: Verdict: correct
+              Canonical: is taking
+Bot [ref=98]: [unit_1 ex4 item11] unit_1:4:11
+              Instruction:
+              Complete with the correct -ing form (watch spelling).
+              Example: Complete: She  ____ at the moment. (watch)
+              Answer: is watching
+              Question:
+              (come) They ____ home.
+User [ref=98]: are coming
+Bot [ref=98]: Verdict: correct
+              Canonical: are coming
+Bot [ref=101]: [unit_1 ex4 item12] unit_1:4:12
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Complete: She  ____ at the moment. (watch)
+               Answer: is watching
+               Question:
+               (have) I ____ lunch.
+User [ref=101]: am having
+Bot [ref=101]: Verdict: correct
+               Canonical: am having
+Bot [ref=104]: [unit_1 ex4 item13] unit_1:4:13
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Complete: She  ____ at the moment. (watch)
+               Answer: is watching
+               Question:
+               (study) He ____ for an exam.
+User [ref=104]: is studying
+Bot [ref=104]: Verdict: correct
+               Canonical: is studying
+Bot [ref=107]: [unit_1 ex4 item14] unit_1:4:14
+               Instruction:
+               Complete with the correct -ing form (watch spelling).
+               Example: Complete: She  ____ at the moment. (watch)
+               Answer: is watching
+               Question:
+               (get) We ____ ready.
+User [ref=107]: are getting
+Bot [ref=107]: Verdict: correct
+               Canonical: are getting
+Bot [ref=110]: [unit_10 ex1 item1] unit_10:1:1
+               Instruction:
+               Put the verb in the present perfect (have/has + past participle).
+               Example: Complete: (clean) He ____ it before.
+               Answer: has cleaned
+               Question:
+               The kitchen is a mess. I ____ (clean).
+User [ref=110]: haven't cleaned
+Bot [ref=110]: Verdict: wrong
+               Canonical: have been cleaning
+Bot [ref=113]: [unit_10 ex1 item2] unit_10:1:2
+               Instruction:
+               Put the verb in the present perfect (have/has + past participle).
+               Example: Complete: (clean) He ____ it before.
+               Answer: has cleaned
+               Question:
+               Now it looks nice. I ____ (clean) the kitchen.
+User [ref=113]: have cleaned
+Bot [ref=113]: Verdict: correct
+               Canonical: have cleaned
+Bot [ref=116]: [unit_10 ex1 item3] unit_10:1:3
+               Instruction:
+               Put the verb in the present perfect (have/has + past participle).
+               Example: Complete: (clean) He ____ it before.
+               Answer: has cleaned
+               Question:
+               I'm tired. We ____ (walk) for hours.
+User [ref=116]: have walked
+Bot [ref=116]: Verdict: wrong
+               Canonical: have been walking
+Bot [ref=119]: [unit_10 ex1 item4] unit_10:1:4
+               Instruction:
+               Put the verb in the present perfect (have/has + past participle).
+               Example: Complete: (clean) He ____ it before.
+               Answer: has cleaned
+               Question:
+               We ____ (walk) 10 kilometres today.
+User [ref=119]: have walked
+Bot [ref=119]: Verdict: correct
+               Canonical: have walked
+Bot [ref=122]: [unit_10 ex2 item1] unit_10:2:1
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: you / wait / for the bus (20 minutes).
+User [ref=122]: How long have you been waiting for the bus?
+                Normalized: How long have you been waiting for the bus
+Bot [ref=122]: Verdict: correct
+               Canonical: How long have you been waiting for the bus?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=126]: [unit_10 ex2 item2] unit_10:2:2
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: she / know / him (2019).
+User [ref=126]: Does she know him?
+                Normalized: Does she know him
+Bot [ref=126]: Verdict: wrong
+               Canonical: How long has she known him?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=130]: [unit_10 ex2 item3] unit_10:2:3
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: they / live here (two years).
+User [ref=130]: How long have they lived here?
+                Normalized: How long have they lived here
+Bot [ref=130]: Verdict: wrong
+               Canonical: How long have they been living here?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=134]: [unit_10 ex2 item4] unit_10:2:4
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: you / have / this car (six months).
+User [ref=134]: How long have you had this car?
+                Normalized: How long have you had this car
+Bot [ref=134]: Verdict: correct
+               Canonical: How long have you had this car?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=138]: [unit_10 ex2 item5] unit_10:2:5
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: he / play / tennis (three years).
+User [ref=138]: How long has he been playing tennis?
+                Normalized: How long has he been playing tennis
+Bot [ref=138]: Verdict: correct
+               Canonical: How long has he been playing tennis?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=142]: [unit_10 ex2 item6] unit_10:2:6
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: how many emails / you / write today (5).
+User [ref=142]: How many emails did you write today?
+                Normalized: How many emails did you write today
+Bot [ref=142]: Verdict: wrong
+               Canonical: How many emails have you written today?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=146]: [unit_10 ex2 item7] unit_10:2:7
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: how many cups of coffee / she / have today (3).
+User [ref=146]: How many cups of coffee did she have today?
+                Normalized: How many cups of coffee did she have today
+Bot [ref=146]: Verdict: wrong
+               Canonical: How many cups of coffee has she had today?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=150]: [unit_10 ex3 item1] unit_10:3:1
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (have) I ____ (have) this phone for two years.
+User [ref=150]: have had
+Bot [ref=150]: Verdict: correct
+               Canonical: have had
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=154]: [unit_10 ex3 item2] unit_10:3:2
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (have) I ____ (have) problems with it recently.
+User [ref=154]: have had extra
+Bot [ref=154]: Verdict: wrong
+               Canonical: have been having
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=159]: [unit_10 ex3 item3] unit_10:3:3
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (work) She ____ (work) here since June.
+User [ref=159]: has been working
+Bot [ref=159]: Verdict: correct
+               Canonical: has been working
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=163]: [unit_10 ex3 item4] unit_10:3:4
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (work) She ____ (work) in three different offices.
+User [ref=163]: has worked
+Bot [ref=163]: Verdict: correct
+               Canonical: has worked
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=167]: [unit_10 ex3 item5] unit_10:3:5
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (read) He ____ (read) for an hour.
+User [ref=167]: has been reading
+Bot [ref=167]: Verdict: correct
+               Canonical: has been reading
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=171]: [unit_10 ex3 item6] unit_10:3:6
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (read) He ____ (read) four chapters.
+User [ref=171]: has read
+Bot [ref=171]: Verdict: correct
+               Canonical: has read
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=175]: [unit_10 ex3 item7] unit_10:3:7
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (live) We ____ (live) here for a long time.
+User [ref=175]: have lived
+Bot [ref=175]: Verdict: wrong
+               Canonical: have been living
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=179]: [unit_10 ex3 item8] unit_10:3:8
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (live) We ____ (live) in Kyiv before.
+User [ref=179]: have lived
+Bot [ref=179]: Verdict: correct
+               Canonical: have lived
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=183]: [unit_10 ex3 item9] unit_10:3:9
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (know) I ____ (know) him since school.
+User [ref=183]: have known
+Bot [ref=183]: Verdict: correct
+               Canonical: have known
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=187]: [unit_10 ex3 item10] unit_10:3:10
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (learn) I ____ (learn) Spanish recently.
+User [ref=187]: have learned
+Bot [ref=187]: Verdict: wrong
+               Canonical: have been learning
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=191]: [unit_10 ex3 item11] unit_10:3:11
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (learn) I ____ (learn) a lot of new words.
+User [ref=191]: have learned
+Bot [ref=191]: Verdict: correct
+               Canonical: have learned
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=195]: [unit_10 ex3 item12] unit_10:3:12
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (wait) They ____ (wait) since 3 o'clock.
+User [ref=195]: have been waiting
+Bot [ref=195]: Verdict: correct
+               Canonical: have been waiting
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=199]: [unit_10 ex3 item13] unit_10:3:13
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (wait) They ____ (wait) for the result. It's ready now.
+User [ref=199]: have waited
+Bot [ref=199]: Verdict: correct
+               Canonical: have waited
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=203]: [unit_10 ex3 item14] unit_10:3:14
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (rain) It ____ (rain) all day.
+User [ref=203]: has been raining
+Bot [ref=203]: Verdict: correct
+               Canonical: has been raining
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=207]: [unit_10 ex3 item15] unit_10:3:15
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (rain) It ____ (rain) three times this week.
+User [ref=207]: has rained
+Bot [ref=207]: Verdict: correct
+               Canonical: has rained
+               Issues: [EXAMPLE_ANSWER_SUSPICIOUS]
+Bot [ref=211]: [unit_100 ex1 item1] unit_100:1:1
+               Instruction:
+               Complete with the correct word form.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               1) He spoke ____ . (quiet)
+User [ref=211]: quietly
+Bot [ref=211]: Verdict: correct
+               Canonical: quietly
+Bot [ref=214]: [unit_100 ex1 item2] unit_100:1:2
+               Instruction:
+               Complete with the correct word form.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               2) She smiled ____ . (happy)
+User [ref=214]: happily
+Bot [ref=214]: Verdict: correct
+               Canonical: happily
+Bot [ref=217]: [unit_100 ex1 item3] unit_100:1:3
+               Instruction:
+               Complete with the correct word form.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               3) It was a ____ atmosphere. (friendly)
+User [ref=217]: friendly
+Bot [ref=217]: Verdict: correct
+               Canonical: friendly
+Bot [ref=220]: [unit_100 ex1 item4] unit_100:1:4
+               Instruction:
+               Complete with the correct word form.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               4) We had a ____ chat. (lovely)
+User [ref=220]: lovely not
+Bot [ref=220]: Verdict: wrong
+               Canonical: lovely
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=224]: [unit_100 ex1 item5] unit_100:1:5
+               Instruction:
+               Complete with the correct word form.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               5) The children played ____ . (noisy)
+User [ref=224]: noisily
+Bot [ref=224]: Verdict: correct
+               Canonical: noisily
+Bot [ref=227]: [unit_100 ex1 item6] unit_100:1:6
+               Instruction:
+               Complete with the correct word form.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               6) He answered ____ . (polite)
+User [ref=227]: politely
+Bot [ref=227]: Verdict: correct
+               Canonical: politely
+Bot [ref=230]: [unit_100 ex2 item1] unit_100:2:1
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               1) She’s a ____ driver. (good / well)
+User [ref=230]: good
+Bot [ref=230]: Verdict: correct
+               Canonical: good
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=234]: [unit_100 ex2 item2] unit_100:2:2
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               2) She drives ____ . (good / well)
+User [ref=234]: well
+Bot [ref=234]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=238]: [unit_100 ex2 item3] unit_100:2:3
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               3) The team played ____ . (bad / badly)
+User [ref=238]: badly
+Bot [ref=238]: Verdict: correct
+               Canonical: badly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=242]: [unit_100 ex2 item4] unit_100:2:4
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               4) The weather is ____ today. (terrible / terribly)
+User [ref=242]: terrible
+Bot [ref=242]: Verdict: correct
+               Canonical: terrible
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=246]: [unit_100 ex2 item5] unit_100:2:5
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               5) He did ____ in the test. (good / well)
+User [ref=246]: well
+Bot [ref=246]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=250]: [unit_100 ex2 item6] unit_100:2:6
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               6) That was a ____ decision. (stupid / stupidly)
+User [ref=250]: stupid
+Bot [ref=250]: Verdict: correct
+               Canonical: stupid
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=254]: [unit_100 ex2 item7] unit_100:2:7
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               7) He reacted ____ . (stupid / stupidly)
+User [ref=254]: stupidly
+Bot [ref=254]: Verdict: correct
+               Canonical: stupidly
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=258]: [unit_100 ex2 item8] unit_100:2:8
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               8) It’s ____ to understand. (easy / easily)
+User [ref=258]: easy
+Bot [ref=258]: Verdict: correct
+               Canonical: easy
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=262]: [unit_100 ex2 item9] unit_100:2:9
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               9) I can ____ understand it. (easy / easily)
+User [ref=262]: easily
+Bot [ref=262]: Verdict: correct
+               Canonical: easily
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=266]: [unit_100 ex2 item10] unit_100:2:10
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               10) She’s ____ about exams. (nervous / nervously)
+User [ref=266]: nervous
+Bot [ref=266]: Verdict: correct
+               Canonical: nervous
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=270]: [unit_100 ex2 item11] unit_100:2:11
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               11) She spoke ____ . (nervous / nervously)
+User [ref=270]: nervously
+Bot [ref=270]: Verdict: correct
+               Canonical: nervously
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=274]: [unit_100 ex2 item12] unit_100:2:12
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (clean) My neighbour ____ every weekend.
+               Answer: cleans
+               Question:
+               12) The train arrived ____ . (late / lately)
+User [ref=274]: late
+Bot [ref=274]: Verdict: correct
+               Canonical: late
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=278]: [unit_100 ex3 item1] unit_100:3:1
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               1) You look ____ . (tired / tiredly)
+User [ref=278]: tired
+Bot [ref=278]: Verdict: correct
+               Canonical: tired
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=282]: [unit_100 ex3 item2] unit_100:3:2
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               2) He felt ____ after the run. (bad / badly)
+User [ref=282]: bad
+Bot [ref=282]: Verdict: correct
+               Canonical: bad
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=286]: [unit_100 ex3 item3] unit_100:3:3
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               3) The food tastes ____ . (good / well)
+User [ref=286]: good
+Bot [ref=286]: Verdict: correct
+               Canonical: good
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=290]: [unit_100 ex3 item4] unit_100:3:4
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               4) She sings ____ . (beautiful / beautifully)
+User [ref=290]: beautifully
+Bot [ref=290]: Verdict: correct
+               Canonical: beautifully
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=294]: [unit_100 ex3 item5] unit_100:3:5
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               5) The plan sounds ____ . (great / greatly)
+User [ref=294]: great
+Bot [ref=294]: Verdict: correct
+               Canonical: great
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=298]: [unit_100 ex3 item6] unit_100:3:6
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               6) He works ____ . (hard / hardly)
+User [ref=298]: hard
+Bot [ref=298]: Verdict: correct
+               Canonical: hard
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=302]: [unit_100 ex3 item7] unit_100:3:7
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               7) This suitcase feels ____ . (heavy / heavily)
+User [ref=302]: heavy
+Bot [ref=302]: Verdict: correct
+               Canonical: heavy
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=306]: [unit_100 ex3 item8] unit_100:3:8
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               8) She listened ____ . (careful / carefully)
+User [ref=306]: carefully
+Bot [ref=306]: Verdict: correct
+               Canonical: carefully
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=310]: [unit_100 ex3 item9] unit_100:3:9
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               9) The engine runs ____ . (smooth / smoothly)
+User [ref=310]: smoothly not
+Bot [ref=310]: Verdict: wrong
+               Canonical: smoothly
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=315]: [unit_100 ex3 item10] unit_100:3:10
+               Instruction:
+               Complete with an adjective or adverb.
+               Example: Complete: (cook) My neighbour ____ every weekend.
+               Answer: cooks
+               Question:
+               10) I feel ____ about it. (happy / happily)
+User [ref=315]: happy
+Bot [ref=315]: Verdict: correct
+               Canonical: happy
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=gap_fill trigger=kind_incompatible(gap_fill vs sentence_build_tokens)
+Bot [ref=319]: [unit_100 ex4 item1] unit_100:4:1
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               1) I’m ____ sorry about that.
+User [ref=319]: terribly
+Bot [ref=319]: Verdict: correct
+               Canonical: terribly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=323]: [unit_100 ex4 item2] unit_100:4:2
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               2) She was ____ kind to me.
+User [ref=323]: incredibly
+Bot [ref=323]: Verdict: correct
+               Canonical: incredibly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=327]: [unit_100 ex4 item3] unit_100:4:3
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               3) The car was ____ damaged.
+User [ref=327]: terribly
+Bot [ref=327]: Verdict: wrong
+               Canonical: badly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=331]: [unit_100 ex4 item4] unit_100:4:4
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               4) He was ____ tired after the trip.
+User [ref=331]: terribly
+Bot [ref=331]: Verdict: wrong
+               Canonical: really
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=335]: [unit_100 ex4 item5] unit_100:4:5
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               5) It’s ____ important to be on time.
+User [ref=335]: really
+Bot [ref=335]: Verdict: wrong
+               Canonical: extremely
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=339]: [unit_100 ex4 item6] unit_100:4:6
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               6) The room was ____ organised.
+User [ref=339]: badly
+Bot [ref=339]: Verdict: wrong
+               Canonical: poorly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=343]: [unit_100 ex4 item7] unit_100:4:7
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               7) I was ____ surprised to see him.
+User [ref=343]: terribly
+Bot [ref=343]: Verdict: wrong
+               Canonical: quite
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=347]: [unit_100 ex4 item8] unit_100:4:8
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               8) That’s ____ unfair.
+User [ref=347]: terribly
+Bot [ref=347]: Verdict: wrong
+               Canonical: totally
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=351]: [unit_100 ex4 item9] unit_100:4:9
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               9) She’s ____ good at maths.
+User [ref=351]: incredibly
+Bot [ref=351]: Verdict: wrong
+               Canonical: very
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=355]: [unit_101 ex1 item1] unit_101:1:1
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               1) She speaks English very ____.
+User [ref=355]: well
+Bot [ref=355]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=359]: [unit_101 ex1 item2] unit_101:1:2
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               2) The film was ____ but a little long.
+User [ref=359]: good
+Bot [ref=359]: Verdict: correct
+               Canonical: good
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=363]: [unit_101 ex1 item3] unit_101:1:3
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               3) You did ____ on the driving test.
+User [ref=363]: well
+Bot [ref=363]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=367]: [unit_101 ex1 item4] unit_101:1:4
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               4) It’s a ____ idea to leave early.
+User [ref=367]: good
+Bot [ref=367]: Verdict: correct
+               Canonical: good
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=371]: [unit_101 ex1 item5] unit_101:1:5
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               5) I didn’t sleep ____ last night.
+User [ref=371]: well not
+Bot [ref=371]: Verdict: wrong
+               Canonical: well
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=376]: [unit_101 ex1 item6] unit_101:1:6
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               6) He’s a ____ cook, but he doesn’t cook often.
+User [ref=376]: good
+Bot [ref=376]: Verdict: correct
+               Canonical: good
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=380]: [unit_101 ex1 item7] unit_101:1:7
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               7) The kids behaved ____ during the trip.
+User [ref=380]: well
+Bot [ref=380]: Verdict: correct
+               Canonical: well
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=384]: [unit_101 ex1 item8] unit_101:1:8
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               8) Your pronunciation is really ____.
+User [ref=384]: good
+Bot [ref=384]: Verdict: correct
+               Canonical: good
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=388]: [unit_101 ex2 item1] unit_101:2:1
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               1) Complete with a compound adjective: known → ____.
+User [ref=388]: well-known
+Bot [ref=388]: Verdict: correct
+               Canonical: well-known
+Bot [ref=391]: [unit_101 ex2 item2] unit_101:2:2
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               2) Complete with a compound adjective: paid → ____.
+User [ref=391]: well-paid
+Bot [ref=391]: Verdict: correct
+               Canonical: well-paid
+Bot [ref=394]: [unit_101 ex2 item3] unit_101:2:3
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               3) Complete with a compound adjective: educated → ____.
+User [ref=394]: well-educated
+Bot [ref=394]: Verdict: correct
+               Canonical: well-educated
+Bot [ref=397]: [unit_101 ex2 item4] unit_101:2:4
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               4) Complete with a compound adjective: behaved → ____.
+User [ref=397]: well-behaved
+Bot [ref=397]: Verdict: correct
+               Canonical: well-behaved
+Bot [ref=400]: [unit_101 ex2 item5] unit_101:2:5
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               5) Complete with a compound adjective: written → ____.
+User [ref=400]: well-written
+Bot [ref=400]: Verdict: correct
+               Canonical: well-written
+Bot [ref=403]: [unit_101 ex2 item6] unit_101:2:6
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               6) Complete with a compound adjective: designed → ____.
+User [ref=403]: custom-designed
+Bot [ref=403]: Verdict: wrong
+               Canonical: well-designed
+Bot [ref=406]: [unit_101 ex3 item1] unit_101:3:1
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               1) He’s a ____ runner, but he can’t run ____ now. (use fast)
+User [ref=406]: fast, fast
+Bot [ref=406]: Verdict: wrong
+               Canonical: fast
+Bot [ref=409]: [unit_101 ex3 item2] unit_101:3:2
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               2) I’m sorry I’m ____. I missed the earlier bus.
+User [ref=409]: late
+Bot [ref=409]: Verdict: correct
+               Canonical: late
+Bot [ref=412]: [unit_101 ex3 item3] unit_101:3:3
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               3) Have you seen Mia ____? (= recently)
+User [ref=412]: lately
+Bot [ref=412]: Verdict: correct
+               Canonical: lately
+Bot [ref=415]: [unit_101 ex3 item4] unit_101:3:4
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               4) This puzzle is ____; I can’t do it quickly. (use hard)
+User [ref=415]: hard
+Bot [ref=415]: Verdict: correct
+               Canonical: hard
+Bot [ref=418]: [unit_101 ex3 item5] unit_101:3:5
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               5) She works really ____ when she has deadlines.
+User [ref=418]: hard
+Bot [ref=418]: Verdict: correct
+               Canonical: hard
+Bot [ref=421]: [unit_101 ex3 item6] unit_101:3:6
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               6) Don’t drive too ____ in town.
+User [ref=421]: fast
+Bot [ref=421]: Verdict: correct
+               Canonical: fast
+Bot [ref=424]: [unit_101 ex3 item7] unit_101:3:7
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               7) We arrived ____ because of traffic.
+User [ref=424]: late
+Bot [ref=424]: Verdict: correct
+               Canonical: late
+Bot [ref=427]: [unit_101 ex3 item8] unit_101:3:8
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               8) I’ve been eating healthier ____. (= in recent weeks)
+User [ref=427]: lately
+Bot [ref=427]: Verdict: correct
+               Canonical: lately
+Bot [ref=430]: [unit_101 ex3 item9] unit_101:3:9
+               Instruction:
+               Complete each sentence with fast, hard, late, or lately.
+               Example: Complete: (carry) My neighbour ____ every weekend.
+               Answer: carries
+               Question:
+               9) It’s ____ to concentrate with this noise.
+User [ref=430]: hard
+Bot [ref=430]: Verdict: correct
+               Canonical: hard
+Bot [ref=433]: [unit_101 ex4 item1] unit_101:4:1
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               1) I ____ know her. We’ve only met once.
+User [ref=433]: do not
+Bot [ref=433]: Verdict: wrong
+               Canonical: hardly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=437]: [unit_101 ex4 item2] unit_101:4:2
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               2) He studied ____ for the exam, so he passed.
+User [ref=437]: hard
+Bot [ref=437]: Verdict: correct
+               Canonical: hard
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=441]: [unit_101 ex4 item3] unit_101:4:3
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               3) She tried ____, but she still couldn’t open the jar.
+User [ref=441]: to open
+Bot [ref=441]: Verdict: wrong
+               Canonical: hard
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=445]: [unit_101 ex4 item4] unit_101:4:4
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               4) We ____ had any time to talk at the party.
+User [ref=445]: haven't
+Bot [ref=445]: Verdict: wrong
+               Canonical: hardly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=449]: [unit_101 ex4 item5] unit_101:4:5
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               5) It was foggy; I could ____ see the road.
+User [ref=449]: barely
+Bot [ref=449]: Verdict: almost
+               Canonical: hardly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=453]: [unit_101 ex4 item6] unit_101:4:6
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               6) Don’t say he’s lazy. He works ____ every day.
+User [ref=453]: hard
+Bot [ref=453]: Verdict: correct
+               Canonical: hard
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=457]: [unit_101 ex4 item7] unit_101:4:7
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               7) I ____ slept on the flight.
+User [ref=457]: had
+Bot [ref=457]: Verdict: wrong
+               Canonical: hardly
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=461]: [unit_101 ex5 item1] unit_101:5:1
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               1) The report is ____ written. (compound)
+User [ref=461]: well
+Bot [ref=461]: Verdict: wrong
+               Canonical: well-written
+Bot [ref=464]: [unit_101 ex5 item2] unit_101:5:2
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               2) I’m doing ____ today, thanks. (after 'be')
+User [ref=464]: fine
+Bot [ref=464]: Verdict: wrong
+               Canonical: well
+Bot [ref=467]: [unit_101 ex5 item3] unit_101:5:3
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               3) Sorry I’m ____. (not on time)
+User [ref=467]: late not
+Bot [ref=467]: Verdict: wrong
+               Canonical: late
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=471]: [unit_101 ex5 item4] unit_101:5:4
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               4) I haven’t seen them ____.
+User [ref=471]: since
+Bot [ref=471]: Verdict: wrong
+               Canonical: lately
+Bot [ref=474]: [unit_101 ex5 item5] unit_101:5:5
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               5) She plays the guitar really ____.
+User [ref=474]: well
+Bot [ref=474]: Verdict: correct
+               Canonical: well
+Bot [ref=477]: [unit_101 ex5 item6] unit_101:5:6
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               6) The children were very ____.
+User [ref=477]: excited
+Bot [ref=477]: Verdict: wrong
+               Canonical: good
+Bot [ref=480]: [unit_101 ex5 item7] unit_101:5:7
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               7) I ____ noticed the change at first.
+User [ref=480]: didn't
+Bot [ref=480]: Verdict: wrong
+               Canonical: hardly
+Bot [ref=483]: [unit_101 ex5 item8] unit_101:5:8
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               8) He drives too ____ on the motorway.
+User [ref=483]: fast
+Bot [ref=483]: Verdict: correct
+               Canonical: fast
+Bot [ref=486]: [unit_101 ex5 item9] unit_101:5:9
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               9) I worked ____ all week.
+User [ref=486]: hard
+Bot [ref=486]: Verdict: correct
+               Canonical: hard
+Bot [ref=489]: [unit_101 ex5 item10] unit_101:5:10
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               10) The book was ____ and easy to read.
+User [ref=489]: interesting
+Bot [ref=489]: Verdict: wrong
+               Canonical: good
+Bot [ref=492]: [unit_101 ex5 item11] unit_101:5:11
+               Instruction:
+               Complete each sentence with the correct word or expression.
+               Example: Complete: (drive) My neighbour ____ every weekend.
+               Answer: drives
+               Question:
+               11) This is a ____-known problem.
+User [ref=492]: well
+Bot [ref=492]: Verdict: wrong
+               Canonical: well-known
+Bot [ref=495]: [unit_102 ex1 item1] unit_102:1:1
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               1) It was ____ cold that the lake froze overnight.
+User [ref=495]: so
+Bot [ref=495]: Verdict: correct
+               Canonical: so
+Bot [ref=498]: [unit_102 ex1 item2] unit_102:1:2
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               2) They had ____ a great time at the concert.
+User [ref=498]: had extra
+Bot [ref=498]: Verdict: wrong
+               Canonical: such
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=502]: [unit_102 ex1 item3] unit_102:1:3
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               3) The lecture was ____ boring that I nearly fell asleep.
+User [ref=502]: so
+Bot [ref=502]: Verdict: correct
+               Canonical: so
+Bot [ref=505]: [unit_102 ex1 item4] unit_102:1:4
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               4) That’s ____ a strange question.
+User [ref=505]: such
+Bot [ref=505]: Verdict: correct
+               Canonical: such
+Bot [ref=508]: [unit_102 ex1 item5] unit_102:1:5
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               5) I was ____ tired after the trip.
+User [ref=508]: very
+Bot [ref=508]: Verdict: wrong
+               Canonical: so
+Bot [ref=511]: [unit_102 ex1 item6] unit_102:1:6
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               6) We met ____ friendly neighbours.
+User [ref=511]: friendly
+Bot [ref=511]: Verdict: wrong
+               Canonical: such
+Bot [ref=514]: [unit_102 ex1 item7] unit_102:1:7
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               7) The phone was ____ expensive that I didn’t buy it.
+User [ref=514]: so
+Bot [ref=514]: Verdict: correct
+               Canonical: so
+Bot [ref=517]: [unit_102 ex1 item8] unit_102:1:8
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               8) It was ____ a relief to hear the news.
+User [ref=517]: such
+Bot [ref=517]: Verdict: correct
+               Canonical: such
+Bot [ref=520]: [unit_102 ex1 item9] unit_102:1:9
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               9) She speaks ____ quietly that I can’t hear her.
+User [ref=520]: so
+Bot [ref=520]: Verdict: correct
+               Canonical: so
+Bot [ref=523]: [unit_102 ex1 item10] unit_102:1:10
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (shop) My neighbour ____ every weekend.
+               Answer: shops
+               Question:
+               10) It was ____ a useful app that everyone installed it.
+User [ref=523]: such
+Bot [ref=523]: Verdict: correct
+               Canonical: such
+Bot [ref=526]: [unit_102 ex2 item1] unit_102:2:1
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               1) There were ____ people that we couldn’t get in.
+User [ref=526]: so many
+Bot [ref=526]: Verdict: correct
+               Canonical: so many
+Bot [ref=529]: [unit_102 ex2 item2] unit_102:2:2
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               2) I have ____ work to finish tonight.
+User [ref=529]: so much
+Bot [ref=529]: Verdict: correct
+               Canonical: so much
+Bot [ref=532]: [unit_102 ex2 item3] unit_102:2:3
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               3) We had ____ time that we skipped lunch.
+User [ref=532]: so little
+Bot [ref=532]: Verdict: correct
+               Canonical: so little
+Bot [ref=535]: [unit_102 ex2 item4] unit_102:2:4
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               4) He made ____ mistakes in that email.
+User [ref=535]: so many
+Bot [ref=535]: Verdict: correct
+               Canonical: so many
+Bot [ref=538]: [unit_102 ex2 item5] unit_102:2:5
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               5) She has ____ patience with rude customers.
+User [ref=538]: so little
+Bot [ref=538]: Verdict: correct
+               Canonical: so little
+Bot [ref=541]: [unit_102 ex2 item6] unit_102:2:6
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               6) They spent ____ money on the wedding.
+User [ref=541]: so much
+Bot [ref=541]: Verdict: correct
+               Canonical: so much
+Bot [ref=544]: [unit_102 ex2 item7] unit_102:2:7
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               7) There were ____ seats left.
+User [ref=544]: so few
+Bot [ref=544]: Verdict: correct
+               Canonical: so few
+Bot [ref=547]: [unit_102 ex2 item8] unit_102:2:8
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               8) I ate ____ snacks that I wasn’t hungry for dinner.
+User [ref=547]: so many
+Bot [ref=547]: Verdict: correct
+               Canonical: so many
+Bot [ref=550]: [unit_102 ex2 item9] unit_102:2:9
+               Instruction:
+               Complete with so much, so many, so little, or so few.
+               Example: Complete: (fix) My neighbour ____ every weekend.
+               Answer: fixes
+               Question:
+               9) We got ____ information that we felt lost.
+User [ref=550]: so little
+Bot [ref=550]: Verdict: correct
+               Canonical: so little
+Bot [ref=553]: [unit_102 ex3 item1] unit_102:3:1
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               1) The street was ____ noisy ____ I couldn’t sleep.
+User [ref=553]: so
+Bot [ref=553]: Verdict: correct
+               Canonical: so
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=557]: [unit_102 ex3 item2] unit_102:3:2
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               2) It was ____ a mess ____ we had to start again.
+User [ref=557]: so, that
+Bot [ref=557]: Verdict: wrong
+               Canonical: such
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=561]: [unit_102 ex3 item3] unit_102:3:3
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               3) The box was ____ heavy ____ I couldn’t lift it.
+User [ref=561]: so, that
+Bot [ref=561]: Verdict: wrong
+               Canonical: so
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=565]: [unit_102 ex3 item4] unit_102:3:4
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               4) She told ____ a funny story ____ everyone laughed.
+User [ref=565]: such, that
+Bot [ref=565]: Verdict: wrong
+               Canonical: such
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=569]: [unit_102 ex3 item5] unit_102:3:5
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               5) The movie was ____ long ____ we left early.
+User [ref=569]: so, that
+Bot [ref=569]: Verdict: wrong
+               Canonical: so
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=573]: [unit_102 ex3 item6] unit_102:3:6
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               6) They had ____ bad luck ____ they gave up.
+User [ref=573]: so, that
+Bot [ref=573]: Verdict: wrong
+               Canonical: such
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=577]: [unit_102 ex3 item7] unit_102:3:7
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               7) I was ____ hungry ____ I ate two sandwiches.
+User [ref=577]: so hungry that
+Bot [ref=577]: Verdict: wrong
+               Canonical: so
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=581]: [unit_102 ex3 item8] unit_102:3:8
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               8) It was ____ a good offer ____ I accepted immediately.
+User [ref=581]: so, that
+Bot [ref=581]: Verdict: wrong
+               Canonical: such
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=585]: [unit_102 ex4 item1] unit_102:4:1
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               1) Rewrite using so/such ... that: Very hot. We stayed indoors.
+User [ref=585]: It was so hot that we stayed indoors.
+                Normalized: It was so hot that we stayed indoors
+Bot [ref=585]: Verdict: correct
+               Canonical: It was so hot that we stayed indoors.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=rewrite trigger=kind_incompatible(rewrite vs sentence_build_tokens)
+Bot [ref=589]: [unit_102 ex4 item2] unit_102:4:2
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               2) Rewrite using so/such ... that: The book was very interesting. I read it in one day.
+User [ref=589]: The book was so interesting that I read it in one day. not
+Bot [ref=589]: Verdict: wrong
+               Canonical: The book was so interesting that I read it in one day.
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=rewrite trigger=kind_incompatible(rewrite vs sentence_build_tokens)
+Bot [ref=594]: [unit_102 ex4 item3] unit_102:4:3
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               3) Rewrite using so/such ... that: It was a terrible storm. Flights were cancelled.
+User [ref=594]: It was such a terrible storm that flights were cancelled.
+                Normalized: It was such a terrible storm that flights were cancelled
+Bot [ref=594]: Verdict: correct
+               Canonical: It was such a terrible storm that flights were cancelled.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=rewrite trigger=kind_incompatible(rewrite vs sentence_build_tokens)
+Bot [ref=598]: [unit_102 ex4 item4] unit_102:4:4
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               4) Rewrite using so/such ... that: The coffee was very strong. I couldn’t finish it.
+User [ref=598]: The coffee was so strong that I couldn’t finish it.
+                Normalized: The coffee was so strong that I couldn't finish it
+Bot [ref=598]: Verdict: correct
+               Canonical: The coffee was so strong that I couldn’t finish it.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=rewrite trigger=kind_incompatible(rewrite vs sentence_build_tokens)
+Bot [ref=602]: [unit_102 ex4 item5] unit_102:4:5
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               5) Rewrite using so/such ... that: They were very kind people. They offered us a room.
+User [ref=602]: They were so kind people that they offered us a room.
+                Normalized: They were so kind people that they offered us a room
+Bot [ref=602]: Verdict: almost
+               Canonical: They were such kind people that they offered us a room.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=rewrite trigger=kind_incompatible(rewrite vs sentence_build_tokens)
+Bot [ref=606]: [unit_102 ex4 item6] unit_102:4:6
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               6) Rewrite using so/such ... that: The queue was very long. We went home.
+User [ref=606]: The queue was so long that we went home.
+                Normalized: The queue was so long that we went home
+Bot [ref=606]: Verdict: correct
+               Canonical: The queue was so long that we went home.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=rewrite trigger=kind_incompatible(rewrite vs sentence_build_tokens)
+Bot [ref=610]: [unit_102 ex4 item7] unit_102:4:7
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               7) Rewrite using so/such ... that: It was a difficult decision. I needed time.
+User [ref=610]: It was such a difficult decision that I needed time.
+                Normalized: It was such a difficult decision that I needed time
+Bot [ref=610]: Verdict: correct
+               Canonical: It was such a difficult decision that I needed time.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+               Detect: task_kind=sentence_build_tokens example_kind=rewrite trigger=kind_incompatible(rewrite vs sentence_build_tokens)
+Bot [ref=614]: [unit_103 ex1 item1] unit_103:1:1
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               1) The soup isn’t hot ____.
+User [ref=614]: enough
+Bot [ref=614]: Verdict: correct
+               Canonical: enough
+Bot [ref=617]: [unit_103 ex1 item2] unit_103:1:2
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               2) Are you strong ____ to lift that box?
+User [ref=617]: enough
+Bot [ref=617]: Verdict: correct
+               Canonical: enough
+Bot [ref=620]: [unit_103 ex1 item3] unit_103:1:3
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               3) You don’t drive carefully ____.
+User [ref=620]: enough
+Bot [ref=620]: Verdict: correct
+               Canonical: enough
+Bot [ref=623]: [unit_103 ex1 item4] unit_103:1:4
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               4) This room is big ____ for ten people.
+User [ref=623]: enough
+Bot [ref=623]: Verdict: correct
+               Canonical: enough
+Bot [ref=626]: [unit_103 ex1 item5] unit_103:1:5
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               5) I’m not old ____ to rent a car.
+User [ref=626]: old enough
+Bot [ref=626]: Verdict: wrong
+               Canonical: enough
+Bot [ref=629]: [unit_103 ex1 item6] unit_103:1:6
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               6) He didn’t speak clearly ____.
+User [ref=629]: enough not
+Bot [ref=629]: Verdict: wrong
+               Canonical: enough
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+Bot [ref=633]: [unit_103 ex1 item7] unit_103:1:7
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               7) The Wi‑Fi is fast ____ for video calls.
+User [ref=633]: fast enough
+Bot [ref=633]: Verdict: wrong
+               Canonical: enough
+Bot [ref=636]: [unit_103 ex1 item8] unit_103:1:8
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               8) She didn’t train hard ____.
+User [ref=636]: enough
+Bot [ref=636]: Verdict: correct
+               Canonical: enough
+Bot [ref=639]: [unit_103 ex1 item9] unit_103:1:9
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               9) Is the explanation simple ____?
+User [ref=639]: enough
+Bot [ref=639]: Verdict: correct
+               Canonical: enough
+Bot [ref=642]: [unit_103 ex1 item10] unit_103:1:10
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               10) I didn’t get up early ____.
+User [ref=642]: yesterday
+Bot [ref=642]: Verdict: wrong
+               Canonical: enough
+Bot [ref=645]: [unit_103 ex2 item1] unit_103:2:1
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               1) This jacket is ____ small for me.
+User [ref=645]: too
+Bot [ref=645]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=649]: [unit_103 ex2 item2] unit_103:2:2
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               2) I drank ____ much coffee and couldn’t sleep.
+User [ref=649]: too
+Bot [ref=649]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=653]: [unit_103 ex2 item3] unit_103:2:3
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               3) There were ____ many people to park easily.
+User [ref=653]: too
+Bot [ref=653]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=657]: [unit_103 ex2 item4] unit_103:2:4
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               4) The music is ____ loud.
+User [ref=657]: too
+Bot [ref=657]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=661]: [unit_103 ex2 item5] unit_103:2:5
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               5) I spent ____ much money this week.
+User [ref=661]: too
+Bot [ref=661]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=665]: [unit_103 ex2 item6] unit_103:2:6
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               6) The explanation is ____ complicated.
+User [ref=665]: too
+Bot [ref=665]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=669]: [unit_103 ex2 item7] unit_103:2:7
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               7) We have ____ many meetings today.
+User [ref=669]: too
+Bot [ref=669]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=673]: [unit_103 ex2 item8] unit_103:2:8
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               8) He talks ____ fast for me to follow.
+User [ref=673]: too
+Bot [ref=673]: Verdict: correct
+               Canonical: too
+               Issues: [EXAMPLE_PLACEHOLDER]
+Bot [ref=677]: [unit_103 ex3 item1] unit_103:3:1
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               1) Rewrite using too ... to / (not) ... enough to: I was very tired. I couldn’t finish the report.
+User [ref=677]: I was too tired to finish the report.
+                Normalized: I was too tired to finish the report
+Bot [ref=677]: Verdict: correct
+               Canonical: I was too tired to finish the report.
+Bot [ref=680]: [unit_103 ex3 item2] unit_103:3:2
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               2) Rewrite using too ... to / (not) ... enough to: She is 15. She can’t vote.
+User [ref=680]: She is too young to vote.
+                Normalized: She is too young to vote
+Bot [ref=680]: Verdict: wrong
+               Canonical: She isn’t old enough to vote.
+Bot [ref=683]: [unit_103 ex3 item3] unit_103:3:3
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               3) Rewrite using too ... to / (not) ... enough to: The bag was very heavy. I couldn’t carry it.
+User [ref=683]: The bag was too heavy for me to carry.
+                Normalized: The bag was too heavy for me to carry
+Bot [ref=683]: Verdict: wrong
+               Canonical: The bag was too heavy to carry.
+Bot [ref=686]: [unit_103 ex3 item4] unit_103:3:4
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               4) Rewrite using too ... to / (not) ... enough to: He didn’t have the skill. He couldn’t fix it.
+User [ref=686]: He didn't have enough skill to fix it.
+                Normalized: He didn't have enough skill to fix it
+Bot [ref=686]: Verdict: wrong
+               Canonical: He wasn’t experienced enough to fix it.
+Bot [ref=689]: [unit_103 ex3 item5] unit_103:3:5
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               5) Rewrite using too ... to / (not) ... enough to: We arrived late. We missed the start.
+User [ref=689]: We arrived too late to miss the start.
+                Normalized: We arrived too late to miss the start
+Bot [ref=689]: Verdict: wrong
+               Canonical: We arrived too late to catch the start.
+Bot [ref=692]: [unit_103 ex3 item6] unit_103:3:6
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               6) Rewrite using too ... to / (not) ... enough to: The coffee is very hot. I can’t drink it.
+User [ref=692]: The coffee is too hot to drink.
+                Normalized: The coffee is too hot to drink
+Bot [ref=692]: Verdict: correct
+               Canonical: The coffee is too hot to drink.
+Bot [ref=695]: [unit_103 ex3 item7] unit_103:3:7
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               7) Rewrite using too ... to / (not) ... enough to: The explanation was clear. I could understand.
+User [ref=695]: The explanation was clear enough for me to understand.
+                Normalized: The explanation was clear enough for me to understand
+Bot [ref=695]: Verdict: wrong
+               Canonical: The explanation was clear enough to understand.
+Bot [ref=698]: [unit_103 ex3 item8] unit_103:3:8
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               8) Rewrite using too ... to / (not) ... enough to: I don’t have time. I can’t go now.
+User [ref=698]: I don't have enough time to go now.
+                Normalized: I don't have enough time to go now
+Bot [ref=698]: Verdict: correct
+               Canonical: I don’t have enough time to go now.

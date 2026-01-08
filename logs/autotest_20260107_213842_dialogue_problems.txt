@@ -1,0 +1,784 @@
+----- PROBLEM CONTEXT (turns 3..16) -----
+Issues: EXAMPLE_TASK_MISMATCH
+Bot [ref=10]: [unit_1 ex1 item4] unit_1:1:4
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (fix) The manager ____ right now.
+              Answer: is fixing
+              Question:
+              (talk) We ____ on the phone.
+User [ref=10]: are talking
+Bot [ref=10]: Verdict: correct
+              Canonical: are talking
+Bot [ref=13]: [unit_1 ex1 item5] unit_1:1:5
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (fix) The manager ____ right now.
+              Answer: is fixing
+              Question:
+              (work) Tom ____ today.
+User [ref=13]: is working
+Bot [ref=13]: Verdict: correct
+              Canonical: is working
+Bot [ref=16]: [unit_1 ex1 item6] unit_1:1:6
+              Instruction:
+              Complete with the present continuous (am/is/are + -ing).
+              Example: Complete: (fix) The manager ____ right now.
+              Answer: is fixing
+              Question:
+              (wait) They ____ for the bus.
+User [ref=16]: are waiting
+Bot [ref=16]: Verdict: correct
+              Canonical: are waiting
+Bot [ref=19]: [unit_1 ex2 item1] unit_1:2:1
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: A: a woman is driving now.
+              Options:
+              A) She drives to work.
+              B) She is driving to work.
+              C) She drove to work.
+              D) She has driven to work.
+              Format: A, C
+User [ref=19]: B
+               Normalized: She is driving to work
+Bot [ref=19]: Verdict: correct
+              Canonical: She is driving to work.
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=23]: [unit_1 ex2 item2] unit_1:2:2
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: B: two people are laughing now.
+              Options:
+              A) They laugh a lot.
+              B) They are laughing.
+              C) They laughed.
+              D) They have laughed.
+              Format: A, C
+User [ref=23]: B
+               Normalized: They are laughing
+Bot [ref=23]: Verdict: correct
+              Canonical: They are laughing.
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=27]: [unit_1 ex2 item3] unit_1:2:3
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: C: a child is sleeping at the moment.
+              Options:
+              A) He sleeps.
+              B) He is sleeping.
+              C) He slept.
+              D) He has slept.
+              Format: A, C
+User [ref=27]: B
+               Normalized: He is sleeping
+Bot [ref=27]: Verdict: correct
+              Canonical: He is sleeping.
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=31]: [unit_1 ex2 item4] unit_1:2:4
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: D: I'm on the phone now.
+              Options:
+              A) I talk on the phone.
+              B) I'm talking on the phone.
+              C) I talked on the phone.
+              D) I've talked on the phone.
+              Format: A, C
+User [ref=31]: B
+               Normalized: I'm talking on the phone
+Bot [ref=31]: Verdict: correct
+              Canonical: I'm talking on the phone.
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=35]: [unit_1 ex2 item5] unit_1:2:5
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: E: it's snowing now.
+              Options:
+              A) It snows.
+              B) It's snowing.
+              C) It snowed.
+              D) It has snowed.
+              Format: A, C
+User [ref=35]: B
+               Normalized: It's snowing
+Bot [ref=35]: Verdict: correct
+              Canonical: It's snowing.
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=39]: [unit_1 ex2 item6] unit_1:2:6
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: F: we are having lunch now.
+              Options:
+              A) We have lunch.
+              B) We're having lunch.
+              C) We had lunch.
+              D) We've had lunch.
+              Format: A, C
+User [ref=39]: C
+               Normalized: We had lunch
+Bot [ref=39]: Verdict: wrong
+              Canonical: We're having lunch.
+              ForcedWrong: yes
+              ForceReason: option-swap
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=44]: [unit_1 ex2 item7] unit_1:2:7
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: G: she is watching TV now.
+              Options:
+              A) She watches TV.
+              B) She's watching TV.
+              C) She watched TV.
+              D) She has watched TV.
+              Format: A, C
+User [ref=44]: B
+               Normalized: She's watching TV
+Bot [ref=44]: Verdict: correct
+              Canonical: She's watching TV.
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=48]: [unit_1 ex2 item8] unit_1:2:8
+              Instruction:
+              Choose the correct sentence (present continuous for 'now').
+              Example: Choose the correct option: Look! It ____. | A) rains | B) is raining | C) rain | D) rained
+              Answer: B
+              Question:
+              Choose the best sentence for the situation: H: they are playing now.
+              Options:
+              A) They play football.
+              B) They're playing football.
+              C) They played football.
+              D) They've played football.
+              Format: A, C
+User [ref=48]: B
+               Normalized: They're playing football
+Bot [ref=48]: Verdict: correct
+              Canonical: They're playing football.
+              Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=52]: [unit_1 ex3 item1] unit_1:3:1
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: You / watch TV now?
+User [ref=52]: Are you watching TV now?
+               Normalized: Are you watching TV now
+Bot [ref=52]: Verdict: correct
+              Canonical: Are you watching TV now?
+Bot [ref=55]: [unit_1 ex3 item2] unit_1:3:2
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: she / wear a coat today?
+User [ref=55]: Is she wearing a coat today?
+               Normalized: Is she wearing a coat today
+Bot [ref=55]: Verdict: correct
+              Canonical: Is she wearing a coat today?
+Bot [ref=58]: [unit_1 ex3 item3] unit_1:3:3
+              Instruction:
+              Write questions in the present continuous.
+              Example: Write the question: he / work / today?
+              Answer: Is he working today?
+              Question:
+              Write the question: they / wait for you?
+User [ref=58]: Are they waiting for you?
+               Normalized: Are they waiting for you
+Bot [ref=58]: Verdict: correct
+              Canonical: Are they waiting for you?
+----- PROBLEM CONTEXT (turns 37..49) -----
+Issues: EXAMPLE_TASK_MISMATCH
+Bot [ref=122]: [unit_10 ex1 item2] unit_10:1:2
+               Instruction:
+               Put the verb in the present perfect (have/has + past participle).
+               Example: Complete: (clean) He ____ it before.
+               Answer: has cleaned
+               Question:
+               Now it looks nice. I ____ (clean) the kitchen.
+User [ref=122]: have cleaned
+Bot [ref=122]: Verdict: correct
+               Canonical: have cleaned
+Bot [ref=125]: [unit_10 ex1 item3] unit_10:1:3
+               Instruction:
+               Put the verb in the present perfect (have/has + past participle).
+               Example: Complete: (clean) He ____ it before.
+               Answer: has cleaned
+               Question:
+               I'm tired. We ____ (walk) for hours.
+User [ref=125]: have walked
+Bot [ref=125]: Verdict: wrong
+               Canonical: have been walking
+Bot [ref=128]: [unit_10 ex1 item4] unit_10:1:4
+               Instruction:
+               Put the verb in the present perfect (have/has + past participle).
+               Example: Complete: (clean) He ____ it before.
+               Answer: has cleaned
+               Question:
+               We ____ (walk) 10 kilometres today.
+User [ref=128]: have walked
+Bot [ref=128]: Verdict: correct
+               Canonical: have walked
+Bot [ref=131]: [unit_10 ex2 item1] unit_10:2:1
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: you / wait / for the bus (20 minutes).
+User [ref=131]: How long have you been waiting for the bus?
+                Normalized: How long have you been waiting for the bus
+Bot [ref=131]: Verdict: correct
+               Canonical: How long have you been waiting for the bus?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=135]: [unit_10 ex2 item2] unit_10:2:2
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: she / know / him (2019).
+User [ref=135]: Does she know him?
+                Normalized: Does she know him
+Bot [ref=135]: Verdict: wrong
+               Canonical: How long has she known him?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=139]: [unit_10 ex2 item3] unit_10:2:3
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: they / live here (two years).
+User [ref=139]: How long have they lived here?
+                Normalized: How long have they lived here
+Bot [ref=139]: Verdict: wrong
+               Canonical: How long have they been living here?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=143]: [unit_10 ex2 item4] unit_10:2:4
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: you / have / this car (six months).
+User [ref=143]: How long have you had this car?
+                Normalized: How long have you had this car
+Bot [ref=143]: Verdict: correct
+               Canonical: How long have you had this car?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=147]: [unit_10 ex2 item5] unit_10:2:5
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: he / play / tennis (three years).
+User [ref=147]: How long has he been playing tennis?
+                Normalized: How long has he been playing tennis
+Bot [ref=147]: Verdict: correct
+               Canonical: How long has he been playing tennis?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=151]: [unit_10 ex2 item6] unit_10:2:6
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: how many emails / you / write today (5).
+User [ref=151]: How many emails did you write today?
+                Normalized: How many emails did you write today
+Bot [ref=151]: Verdict: wrong
+               Canonical: How many emails have you written today?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=155]: [unit_10 ex2 item7] unit_10:2:7
+               Instruction:
+               Write questions (How long…? How many…?).
+               Example: Complete: (play) My neighbour ____ every weekend.
+               Answer: plays
+               Question:
+               Ask: how many cups of coffee / she / have today (3).
+User [ref=155]: How many cups of coffee did she have today?
+                Normalized: How many cups of coffee did she have today
+Bot [ref=155]: Verdict: wrong
+               Canonical: How many cups of coffee has she had today?
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=159]: [unit_10 ex3 item1] unit_10:3:1
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (have) I ____ (have) this phone for two years.
+User [ref=159]: have had
+Bot [ref=159]: Verdict: correct
+               Canonical: have had
+Bot [ref=162]: [unit_10 ex3 item2] unit_10:3:2
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (have) I ____ (have) problems with it recently.
+User [ref=162]: have had
+Bot [ref=162]: Verdict: wrong
+               Canonical: have been having
+Bot [ref=165]: [unit_10 ex3 item3] unit_10:3:3
+               Instruction:
+               Put the verb in the correct form.
+               Example: Complete: (eat) You ____ it before.
+               Answer: have ate
+               Question:
+               Complete: (work) She ____ (work) here since June.
+User [ref=165]: has been working
+Bot [ref=165]: Verdict: correct
+               Canonical: has been working
+----- PROBLEM CONTEXT (turns 96..109) -----
+Issues: INSTRUCTION_FORMAT_MISMATCH
+Bot [ref=308]: [unit_100 ex4 item7] unit_100:4:7
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               7) I was ____ surprised to see him.
+User [ref=308]: terribly
+Bot [ref=308]: Verdict: wrong
+               Canonical: quite
+Bot [ref=311]: [unit_100 ex4 item8] unit_100:4:8
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               8) That’s ____ unfair.
+User [ref=311]: terribly
+Bot [ref=311]: Verdict: wrong
+               Canonical: totally
+Bot [ref=314]: [unit_100 ex4 item9] unit_100:4:9
+               Instruction:
+               Complete with an adverb (e.g., really, extremely, terribly, badly).
+               Example: Complete: (paint) My neighbour ____ every weekend.
+               Answer: paints
+               Question:
+               9) She’s ____ good at maths.
+User [ref=314]: incredibly
+Bot [ref=314]: Verdict: wrong
+               Canonical: very
+Bot [ref=317]: [unit_101 ex1 item1] unit_101:1:1
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               1) She speaks English very ____.
+User [ref=317]: well
+Bot [ref=317]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=321]: [unit_101 ex1 item2] unit_101:1:2
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               2) The film was ____ but a little long.
+User [ref=321]: good
+Bot [ref=321]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=325]: [unit_101 ex1 item3] unit_101:1:3
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               3) You did ____ on the driving test.
+User [ref=325]: well
+Bot [ref=325]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=329]: [unit_101 ex1 item4] unit_101:1:4
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               4) It’s a ____ idea to leave early.
+User [ref=329]: good
+Bot [ref=329]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=333]: [unit_101 ex1 item5] unit_101:1:5
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               5) I didn’t sleep ____ last night.
+User [ref=333]: well
+Bot [ref=333]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=337]: [unit_101 ex1 item6] unit_101:1:6
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               6) He’s a ____ cook, but he doesn’t cook often.
+User [ref=337]: good
+Bot [ref=337]: Verdict: correct
+               Canonical: good
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=341]: [unit_101 ex1 item7] unit_101:1:7
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               7) The kids behaved ____ during the trip.
+User [ref=341]: well
+Bot [ref=341]: Verdict: correct
+               Canonical: well
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=345]: [unit_101 ex1 item8] unit_101:1:8
+               Instruction:
+               Choose good or well to complete each sentence.
+               Example: Complete: (work) My neighbour ____ every weekend.
+               Answer: works
+               Question:
+               8) Your pronunciation is really ____.
+User [ref=345]: good not
+Bot [ref=345]: Verdict: wrong
+               Canonical: good
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [INSTRUCTION_FORMAT_MISMATCH]
+Bot [ref=350]: [unit_101 ex2 item1] unit_101:2:1
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               1) Complete with a compound adjective: known → ____.
+User [ref=350]: well-known
+Bot [ref=350]: Verdict: correct
+               Canonical: well-known
+Bot [ref=353]: [unit_101 ex2 item2] unit_101:2:2
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               2) Complete with a compound adjective: paid → ____.
+User [ref=353]: well-paid
+Bot [ref=353]: Verdict: correct
+               Canonical: well-paid
+Bot [ref=356]: [unit_101 ex2 item3] unit_101:2:3
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (listen) My neighbour ____ every weekend.
+               Answer: listens
+               Question:
+               3) Complete with a compound adjective: educated → ____.
+User [ref=356]: well-educated
+Bot [ref=356]: Verdict: correct
+               Canonical: well-educated
+----- PROBLEM CONTEXT (turns 164..176) -----
+Issues: EXAMPLE_TASK_MISMATCH
+Bot [ref=523]: [unit_102 ex3 item6] unit_102:3:6
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               6) They had ____ bad luck ____ they gave up.
+User [ref=523]: so, that
+Bot [ref=523]: Verdict: wrong
+               Canonical: such
+Bot [ref=526]: [unit_102 ex3 item7] unit_102:3:7
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               7) I was ____ hungry ____ I ate two sandwiches.
+User [ref=526]: so hungry that
+Bot [ref=526]: Verdict: wrong
+               Canonical: so
+Bot [ref=529]: [unit_102 ex3 item8] unit_102:3:8
+               Instruction:
+               Complete with so or such. Use that where it fits (____).
+               Example: Complete: (call) My neighbour ____ every weekend.
+               Answer: calls
+               Question:
+               8) It was ____ a good offer ____ I accepted immediately.
+User [ref=529]: so, that
+Bot [ref=529]: Verdict: wrong
+               Canonical: such
+Bot [ref=532]: [unit_102 ex4 item1] unit_102:4:1
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               1) Rewrite using so/such ... that: Very hot. We stayed indoors.
+User [ref=532]: It was so hot that we stayed indoors. not
+Bot [ref=532]: Verdict: wrong
+               Canonical: It was so hot that we stayed indoors.
+               ForcedWrong: yes
+               ForceReason: corrupted-text
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=537]: [unit_102 ex4 item2] unit_102:4:2
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               2) Rewrite using so/such ... that: The book was very interesting. I read it in one day.
+User [ref=537]: The book was so interesting that I read it in one day.
+                Normalized: The book was so interesting that I read it in one day
+Bot [ref=537]: Verdict: correct
+               Canonical: The book was so interesting that I read it in one day.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=541]: [unit_102 ex4 item3] unit_102:4:3
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               3) Rewrite using so/such ... that: It was a terrible storm. Flights were cancelled.
+User [ref=541]: It was such a terrible storm that flights were cancelled.
+                Normalized: It was such a terrible storm that flights were cancelled
+Bot [ref=541]: Verdict: correct
+               Canonical: It was such a terrible storm that flights were cancelled.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=545]: [unit_102 ex4 item4] unit_102:4:4
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               4) Rewrite using so/such ... that: The coffee was very strong. I couldn’t finish it.
+User [ref=545]: The coffee was so strong that I couldn’t finish it.
+                Normalized: The coffee was so strong that I couldn't finish it
+Bot [ref=545]: Verdict: correct
+               Canonical: The coffee was so strong that I couldn’t finish it.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=549]: [unit_102 ex4 item5] unit_102:4:5
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               5) Rewrite using so/such ... that: They were very kind people. They offered us a room.
+User [ref=549]: They were so kind people that they offered us a room.
+                Normalized: They were so kind people that they offered us a room
+Bot [ref=549]: Verdict: almost
+               Canonical: They were such kind people that they offered us a room.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=553]: [unit_102 ex4 item6] unit_102:4:6
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               6) Rewrite using so/such ... that: The queue was very long. We went home.
+User [ref=553]: The queue was so long that we went home.
+                Normalized: The queue was so long that we went home
+Bot [ref=553]: Verdict: correct
+               Canonical: The queue was so long that we went home.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=557]: [unit_102 ex4 item7] unit_102:4:7
+               Instruction:
+               Rewrite the sentences using so/such ... that.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               7) Rewrite using so/such ... that: It was a difficult decision. I needed time.
+User [ref=557]: It was such a difficult decision that I needed time.
+                Normalized: It was such a difficult decision that I needed time
+Bot [ref=557]: Verdict: correct
+               Canonical: It was such a difficult decision that I needed time.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=561]: [unit_103 ex1 item1] unit_103:1:1
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               1) The soup isn’t hot ____.
+User [ref=561]: enough
+Bot [ref=561]: Verdict: correct
+               Canonical: enough
+Bot [ref=564]: [unit_103 ex1 item2] unit_103:1:2
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               2) Are you strong ____ to lift that box?
+User [ref=564]: enough
+Bot [ref=564]: Verdict: correct
+               Canonical: enough
+Bot [ref=567]: [unit_103 ex1 item3] unit_103:1:3
+               Instruction:
+               Complete the sentences with the correct form.
+               Example: Complete: (build) My neighbour ____ every weekend.
+               Answer: builds
+               Question:
+               3) You don’t drive carefully ____.
+User [ref=567]: enough
+Bot [ref=567]: Verdict: correct
+               Canonical: enough
+----- PROBLEM CONTEXT (turns 189..199) -----
+Issues: EXAMPLE_TASK_MISMATCH
+Bot [ref=607]: [unit_103 ex2 item6] unit_103:2:6
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               6) The explanation is ____ complicated.
+User [ref=607]: too
+Bot [ref=607]: Verdict: correct
+               Canonical: too
+Bot [ref=610]: [unit_103 ex2 item7] unit_103:2:7
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               7) We have ____ many meetings today.
+User [ref=610]: too
+Bot [ref=610]: Verdict: correct
+               Canonical: too
+Bot [ref=613]: [unit_103 ex2 item8] unit_103:2:8
+               Instruction:
+               Complete with too (and the noun phrase already given).
+               Example: Complete: (run) My neighbour ____ every weekend.
+               Answer: runs
+               Question:
+               8) He talks ____ fast for me to follow.
+User [ref=613]: too
+Bot [ref=613]: Verdict: correct
+               Canonical: too
+Bot [ref=616]: [unit_103 ex3 item1] unit_103:3:1
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               1) Rewrite using too ... to / (not) ... enough to: I was very tired. I couldn’t finish the report.
+User [ref=616]: I was too tired to finish the report.
+                Normalized: I was too tired to finish the report
+Bot [ref=616]: Verdict: correct
+               Canonical: I was too tired to finish the report.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=620]: [unit_103 ex3 item2] unit_103:3:2
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               2) Rewrite using too ... to / (not) ... enough to: She is 15. She can’t vote.
+User [ref=620]: She is too young to vote.
+                Normalized: She is too young to vote
+Bot [ref=620]: Verdict: wrong
+               Canonical: She isn’t old enough to vote.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=624]: [unit_103 ex3 item3] unit_103:3:3
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               3) Rewrite using too ... to / (not) ... enough to: The bag was very heavy. I couldn’t carry it.
+User [ref=624]: The bag was too heavy for me to carry.
+                Normalized: The bag was too heavy for me to carry
+Bot [ref=624]: Verdict: wrong
+               Canonical: The bag was too heavy to carry.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=628]: [unit_103 ex3 item4] unit_103:3:4
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               4) Rewrite using too ... to / (not) ... enough to: He didn’t have the skill. He couldn’t fix it.
+User [ref=628]: He didn't have enough skill to fix it.
+                Normalized: He didn't have enough skill to fix it
+Bot [ref=628]: Verdict: wrong
+               Canonical: He wasn’t experienced enough to fix it.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=632]: [unit_103 ex3 item5] unit_103:3:5
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               5) Rewrite using too ... to / (not) ... enough to: We arrived late. We missed the start.
+User [ref=632]: We arrived too late to miss the start.
+                Normalized: We arrived too late to miss the start
+Bot [ref=632]: Verdict: wrong
+               Canonical: We arrived too late to catch the start.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=636]: [unit_103 ex3 item6] unit_103:3:6
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               6) Rewrite using too ... to / (not) ... enough to: The coffee is very hot. I can’t drink it.
+User [ref=636]: The coffee is too hot to drink.
+                Normalized: The coffee is too hot to drink
+Bot [ref=636]: Verdict: correct
+               Canonical: The coffee is too hot to drink.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=640]: [unit_103 ex3 item7] unit_103:3:7
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               7) Rewrite using too ... to / (not) ... enough to: The explanation was clear. I could understand.
+User [ref=640]: The explanation was clear enough for me to understand.
+                Normalized: The explanation was clear enough for me to understand
+Bot [ref=640]: Verdict: wrong
+               Canonical: The explanation was clear enough to understand.
+               Issues: [EXAMPLE_TASK_MISMATCH]
+Bot [ref=644]: [unit_103 ex3 item8] unit_103:3:8
+               Instruction:
+               Rewrite using too ... to or (not) ... enough to.
+               Example: Rewrite the sentence: I started to work at 9.
+               Answer: I began working at 9.
+               Question:
+               8) Rewrite using too ... to / (not) ... enough to: I don’t have time. I can’t go now.
+User [ref=644]: I don't have enough time to go now.
+                Normalized: I don't have enough time to go now
+Bot [ref=644]: Verdict: correct
+               Canonical: I don’t have enough time to go now.
+               Issues: [EXAMPLE_TASK_MISMATCH]
