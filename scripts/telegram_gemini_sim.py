@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import dataclasses
 import json
-import os
 import re
 import sys
 import warnings
@@ -20,20 +20,17 @@ warnings.filterwarnings(
     category=UserWarning,
 )
 
-from dotenv import load_dotenv
-from sqlalchemy import select
+from sqlalchemy import func, select
+from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
 
 from src.bot.autotest.solver import GeminiSolver
 from src.bot.autotest.types import QuestionContext
-from aiogram.types import Chat, Message, User
+from aiogram.types import Chat, InlineKeyboardMarkup, Message, User
 
+from src.bot.config import load_settings
 from src.bot.models import AccessRequest, PlacementItem, UserState
 from tests.telegram_harness.harness import BotHarness
 from tests.telegram_harness.session import RecordingSession
-
-
-def _get_gemini_key() -> str | None:
-    return os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
 
 
 def _parse_options(options_json: str | None) -> list[str]:
@@ -45,22 +42,59 @@ def _parse_options(options_json: str | None) -> list[str]:
         return []
 
 
-async def _seed_placement_item(harness: BotHarness) -> None:
-    async with harness.sessionmaker() as session:
-        existing = (await session.execute(select(PlacementItem).limit(1))).scalar_one_or_none()
-        if existing:
-            return
-        session.add(
-            PlacementItem(
-                order_index=1,
-                unit_key="unit_1",
-                prompt="Type: I am here.",
-                item_type="freetext",
-                canonical="I am here.",
-                accepted_variants_json="[]",
+def _buttons_from_message(message: Message | None) -> list[str]:
+    if not message or not message.reply_markup:
+        return []
+    if not isinstance(message.reply_markup, InlineKeyboardMarkup):
+        return []
+    buttons: list[str] = []
+    for row in message.reply_markup.inline_keyboard:
+        for button in row:
+            if button.callback_data is not None:
+                buttons.append(button.callback_data)
+    return buttons
+
+
+def _load_sample_placement_items(path: Path) -> list[dict[str, Any]]:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return payload["items"] if isinstance(payload, dict) else payload
+
+
+async def _seed_sample_placement_items(
+    sessionmaker: async_sessionmaker,
+    sample_path: Path,
+) -> int:
+    items = _load_sample_placement_items(sample_path)
+    async with sessionmaker() as session:
+        for index, item in enumerate(items, start=1):
+            options_payload = item.get("options")
+            selection_policy = item.get("selection_policy")
+            correct_options = item.get("correct_options")
+            if selection_policy or correct_options:
+                options_payload = {
+                    "options": item.get("options") or [],
+                    "selection_policy": selection_policy,
+                    "correct_options": correct_options,
+                }
+            session.add(
+                PlacementItem(
+                    order_index=item.get("order_index", index),
+                    unit_key=item["unit_key"],
+                    prompt=item["prompt"],
+                    item_type=item["item_type"],
+                    canonical=item.get("canonical"),
+                    accepted_variants_json=json.dumps(item.get("accepted_variants", []), ensure_ascii=False),
+                    options_json=json.dumps(options_payload, ensure_ascii=False)
+                    if options_payload is not None
+                    else None,
+                    instruction=item.get("instruction"),
+                    study_units_json=json.dumps(item.get("meta", {}).get("study_units"), ensure_ascii=False)
+                    if item.get("meta", {}).get("study_units") is not None
+                    else None,
+                )
             )
-        )
-        await session.commit()
+        await session.flush()
+    return len(items)
 
 
 async def _ensure_access_flow(harness: BotHarness, *, admin_id: int, user_id: int) -> None:
@@ -223,8 +257,23 @@ def _log(message: str, *, enabled: bool) -> None:
     print(message, flush=True)
 
 
-async def run_simulation(*, turns: int, use_gemini: bool, verbose: bool, env_file: Path) -> None:
-    api_key = _get_gemini_key() if use_gemini else None
+async def run_simulation(
+    *,
+    turns: int,
+    use_gemini: bool,
+    verbose: bool,
+    commit: bool,
+    admin_id: int | None,
+    seed_sample_placement: bool,
+) -> None:
+    settings = load_settings()
+    database_url = settings.database_url
+    api_key = settings.gemini_api_key if use_gemini else None
+    if admin_id is None:
+        admin_id = settings.admin_ids[0]
+    elif admin_id not in settings.admin_ids:
+        settings = dataclasses.replace(settings, admin_ids=[*settings.admin_ids, admin_id])
+
     if use_gemini and not api_key:
         print(
             "Gemini is enabled but no API key found. Set GOOGLE_API_KEY in environment or .env",
@@ -243,18 +292,36 @@ async def run_simulation(*, turns: int, use_gemini: bool, verbose: bool, env_fil
                 "Telegram Gemini Simulation",
                 f"Turns: {turns}",
                 f"Gemini: {gemini_status}",
-                f"Env file: {env_file}",
+                f"Database: {database_url}",
+                f"Transaction: {'commit' if commit else 'rollback'}",
                 f"Report: {log_path}",
             ]
         ),
         enabled=True,
     )
 
-    harness = await BotHarness.create(Path("/tmp"))
+    engine = create_async_engine(database_url, future=True)
+    conn = await engine.connect()
+    trans = await conn.begin()
+    SessionLocal = async_sessionmaker(bind=conn, expire_on_commit=False)
+
+    harness = await BotHarness.create(
+        sessionmaker=SessionLocal,
+        settings=settings,
+    )
     try:
-        admin_id = 999
         user_id = 111
-        await _seed_placement_item(harness)
+        async with SessionLocal() as session:
+            placement_count = await session.scalar(select(func.count(PlacementItem.id)))
+        if placement_count == 0:
+            print("No placement items in DB; start_placement will immediately finish.", flush=True)
+            if seed_sample_placement:
+                inserted = await _seed_sample_placement_items(
+                    SessionLocal,
+                    ROOT / "data" / "placement.json",
+                )
+                print(f"Seeded {inserted} sample placement items.", flush=True)
+
         await _ensure_access_flow(harness, admin_id=admin_id, user_id=user_id)
 
         solver = None
@@ -263,7 +330,7 @@ async def run_simulation(*, turns: int, use_gemini: bool, verbose: bool, env_fil
 
         for turn in range(1, turns + 1):
             message = harness.last_bot_message(user_id)
-            buttons = harness.find_callback_data(user_id)
+            buttons = _buttons_from_message(message)
             log_entry: dict[str, Any] = {
                 "turn": turn,
                 "bot_message": message.text if message else None,
@@ -303,8 +370,10 @@ async def run_simulation(*, turns: int, use_gemini: bool, verbose: bool, env_fil
                     log_entry["user_action"] = {"type": "text", "value": answer}
                     _log(f"Turn {turn}: USER -> TEXT: {_truncate(answer)}", enabled=verbose)
                 else:
-                    log_entry["user_action"] = {"type": "noop"}
-                    _log(f"Turn {turn}: USER -> NOOP", enabled=verbose)
+                    answer = "OK"
+                    await harness.send_text(user_id=user_id, text=answer)
+                    log_entry["user_action"] = {"type": "text", "value": answer}
+                    _log(f"Turn {turn}: USER -> TEXT: {_truncate(answer)}", enabled=verbose)
 
             reply_message = harness.last_bot_message(user_id)
             reply_text = reply_message.text if reply_message else None
@@ -318,22 +387,38 @@ async def run_simulation(*, turns: int, use_gemini: bool, verbose: bool, env_fil
 
             with log_path.open("a", encoding="utf-8") as handle:
                 handle.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
+        if commit:
+            await trans.commit()
+        else:
+            await trans.rollback()
+    except Exception:
+        if trans.is_active:
+            await trans.rollback()
+        raise
     finally:
         await harness.close()
+        await conn.close()
+        await engine.dispose()
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--turns", type=int, default=20)
     parser.add_argument("--no-gemini", action="store_true", help="Run without Gemini (no API key needed)")
-    parser.add_argument("--env-file", default=str(ROOT / ".env"), help="Path to .env file")
+    parser.add_argument("--admin-id", type=int, default=None, help="Override admin id (must be in ADMIN_IDS)")
+    parser.add_argument(
+        "--seed-sample-placement",
+        action="store_true",
+        help="Seed sample placement items if none exist (uses data/placement.json)",
+    )
+    tx_mode = parser.add_mutually_exclusive_group()
+    tx_mode.add_argument("--commit", action="store_true", help="Persist changes to the real database")
+    tx_mode.add_argument("--rollback", action="store_true", help="Rollback changes (default)")
     verbosity = parser.add_mutually_exclusive_group()
     verbosity.add_argument("--verbose", action="store_true", help="Enable verbose logging (default)")
     verbosity.add_argument("--quiet", action="store_true", help="Disable per-turn logging")
     args = parser.parse_args()
 
-    env_file = Path(args.env_file)
-    load_dotenv(dotenv_path=env_file, override=False)
     verbose = False if args.quiet else True
     if args.verbose:
         verbose = True
@@ -343,7 +428,9 @@ def main() -> None:
             turns=args.turns,
             use_gemini=not args.no_gemini,
             verbose=verbose,
-            env_file=env_file,
+            commit=args.commit,
+            admin_id=args.admin_id,
+            seed_sample_placement=args.seed_sample_placement,
         )
     )
 
