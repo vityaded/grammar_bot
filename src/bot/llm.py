@@ -45,7 +45,7 @@ Canonical correct answer: {canonical}
 
 Normalization rules (always ignore):
 - Letter case differences.
-- Trailing cosmetic punctuation at the end: . ! ? ,
+- Punctuation differences (e.g., commas/semicolons, trailing punctuation).
 - Curly vs straight quotes.
 
 Difficulty rules:
