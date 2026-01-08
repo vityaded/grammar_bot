@@ -21,13 +21,14 @@ warnings.filterwarnings(
 )
 
 from sqlalchemy import func, select
-from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
+from sqlalchemy.ext.asyncio import async_sessionmaker
 
 from src.bot.autotest.solver import GeminiSolver
 from src.bot.autotest.types import QuestionContext
 from aiogram.types import Chat, InlineKeyboardMarkup, Message, User
 
 from src.bot.config import load_settings
+from src.bot.db import ensure_sqlite_schema, make_engine
 from src.bot.models import AccessRequest, PlacementItem, UserState
 from tests.telegram_harness.harness import BotHarness
 from tests.telegram_harness.session import RecordingSession
@@ -300,7 +301,8 @@ async def run_simulation(
         enabled=True,
     )
 
-    engine = create_async_engine(database_url, future=True)
+    engine = make_engine(settings)
+    await ensure_sqlite_schema(engine)
     conn = await engine.connect()
     trans = await conn.begin()
     SessionLocal = async_sessionmaker(bind=conn, expire_on_commit=False)
