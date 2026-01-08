@@ -2,8 +2,6 @@ import asyncio
 import logging
 import traceback
 from aiogram import Bot, Dispatcher
-from aiogram.client.default import DefaultBotProperties
-from aiogram.enums import ParseMode
 from .config import load_settings
 from .db import ensure_sqlite_schema, make_engine, make_sessionmaker
 from .db_maintenance import log_out_of_range_exercises
@@ -22,10 +20,7 @@ async def main():
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
     )
     settings = load_settings()
-    bot = Bot(
-        settings.bot_token,
-        default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN_V2),
-    )
+    bot = Bot(settings.bot_token)
     try:
         engine = make_engine(settings)
         if settings.database_url.startswith("sqlite"):

@@ -8,8 +8,10 @@ import hashlib
 import random
 
 from aiogram import Bot, Dispatcher, F
+from aiogram.enums import ParseMode
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
+from aiogram.utils.formatting import Text, Bold, Code
 from sqlalchemy import select, and_, delete, func
 from sqlalchemy.ext.asyncio import async_sessionmaker, AsyncSession
 
@@ -133,6 +135,7 @@ async def _send_admin_requests(s: AsyncSession, settings: Settings, m: Message, 
                 admin_id,
                 f"Access request from {esc_md2(m.from_user.full_name)} \\({m.from_user.id}\\)\nToken: `{esc_md2(req.invite_token)}`",
                 reply_markup=kb_admin_approve(req.id),
+                parse_mode=ParseMode.MARKDOWN_V2,
             )
         except Exception:
             pass
@@ -436,7 +439,115 @@ async def _render_rule_fallback_for_unit(
         return ""
     return (header + " " + lines[0] + ("\n" + "\n".join(lines[1:]) if len(lines) > 1 else "")).strip()
 
-def _feedback_text(
+def _build_rules_text(
+    rules: list[RuleI18nV2],
+    ui_lang: str,
+    *,
+    max_examples_total: int,
+    prefer_short: bool,
+    examples_per_rule: int,
+) -> Text | None:
+    if not rules:
+        return None
+    rules.sort(key=lambda r: _section_sort_key(r.section_path))
+
+    lines: list[str] = []
+    for r in rules:
+        text = _pick_rule_text(r, ui_lang, prefer_short)
+        if not text:
+            continue
+        if r.section_path:
+            line = f"{r.section_path}. {text}"
+        else:
+            line = text
+        lines.append(line)
+    if not lines:
+        return None
+
+    parts: list[object] = [Bold(t("rule_header", ui_lang)), " ", lines[0]]
+    if len(lines) > 1:
+        parts.extend(["\n", "\n".join(lines[1:])])
+
+    if max_examples_total > 0:
+        examples: list[str] = []
+        if examples_per_rule > 0:
+            for r in rules:
+                if not r.examples_json:
+                    continue
+                try:
+                    ex = json.loads(r.examples_json)
+                except Exception:
+                    continue
+                if isinstance(ex, list):
+                    for line in ex[:examples_per_rule]:
+                        examples.append(str(line))
+                if len(examples) >= max_examples_total:
+                    break
+        else:
+            for r in rules:
+                if not r.examples_json:
+                    continue
+                try:
+                    ex = json.loads(r.examples_json)
+                    if isinstance(ex, list):
+                        for line in ex:
+                            examples.append(str(line))
+                except Exception:
+                    continue
+                if len(examples) >= max_examples_total:
+                    break
+        if examples:
+            examples = examples[:max_examples_total]
+            parts.extend(["\n", "\n".join(examples)])
+
+    return Text(*parts)
+
+async def _render_rules_for_keys_entities(
+    s: AsyncSession,
+    rule_keys: list[str],
+    ui_lang: str,
+    *,
+    max_examples_total: int = 2,
+    prefer_short: bool = True,
+    examples_per_rule: int = 0,
+) -> Text | None:
+    if not rule_keys:
+        return None
+    rules: list[RuleI18nV2] = []
+    for key in rule_keys:
+        r = await _fetch_rule_v2(s, key)
+        if r:
+            rules.append(r)
+    if not rules:
+        return None
+    return _build_rules_text(
+        rules,
+        ui_lang,
+        max_examples_total=max_examples_total,
+        prefer_short=prefer_short,
+        examples_per_rule=examples_per_rule,
+    )
+
+async def _render_rule_fallback_for_unit_entities(
+    s: AsyncSession,
+    unit_key: str,
+    ui_lang: str,
+    *,
+    max_sections: int = 3,
+    prefer_short: bool = True,
+) -> Text | None:
+    rules = await _fetch_unit_rules_v2(s, unit_key)
+    if not rules:
+        return None
+    return _build_rules_text(
+        rules[:max_sections],
+        ui_lang,
+        max_examples_total=0,
+        prefer_short=prefer_short,
+        examples_per_rule=0,
+    )
+
+def _build_feedback_text(
     verdict: str,
     user_answer_norm: str,
     canonical: str,
@@ -445,7 +556,7 @@ def _feedback_text(
     note: str = "",
     *,
     show_next_prompt: bool = True,
-) -> str:
+) -> Text:
     # labels bold; verdict emoji + one word
     if verdict == "correct":
         v = "✅ Correct"
@@ -456,15 +567,52 @@ def _feedback_text(
             v = "⚠️ Almost (counts as wrong)"
     else:
         v = "❌ Wrong"
-    note_text = f"{esc_md2(note)}\n" if note else ""
+    parts: list[object] = [v]
+    if note:
+        parts.extend(["\n", note])
+
     # show user answer normalized and correct answer as inline code
-    ua = esc_md2(user_answer_norm) if user_answer_norm else "—"
-    ca = esc_md2(canonical)
-    tail = f"\n\n{esc_md2(t('press_next', ui_lang))}" if show_next_prompt else ""
-    return (
-        f"{v}\n{note_text}*{esc_md2(t('your_answer', ui_lang))}* `{ua}`"
-        f"\n*{esc_md2(t('correct_answer', ui_lang))}* `{ca}`{tail}"
+    ua = user_answer_norm or "—"
+    ca = canonical
+    parts.extend(
+        [
+            "\n",
+            Bold(t("your_answer", ui_lang)),
+            " ",
+            Code(ua),
+            "\n",
+            Bold(t("correct_answer", ui_lang)),
+            " ",
+            Code(ca),
+        ]
     )
+    if show_next_prompt:
+        parts.extend(["\n\n", t("press_next", ui_lang)])
+    return Text(*parts)
+
+def build_feedback_message(
+    verdict: str,
+    user_answer_norm: str,
+    canonical: str,
+    ui_lang: str,
+    acceptance_mode: str,
+    note: str = "",
+    *,
+    show_next_prompt: bool = True,
+    rule_message: Text | None = None,
+) -> dict[str, object]:
+    content = _build_feedback_text(
+        verdict,
+        user_answer_norm,
+        canonical,
+        ui_lang,
+        acceptance_mode,
+        note,
+        show_next_prompt=show_next_prompt,
+    )
+    if rule_message:
+        content = Text(content, "\n\n", rule_message)
+    return content.as_kwargs()
 
 async def _auto_next_after_correct_placement(m: Message, s: AsyncSession, user: User, st: UserState) -> None:
     item = await _placement_next_item(s, st.last_placement_order)
@@ -832,7 +980,7 @@ async def _ask_placement_item(m: Message, user: User, st: UserState, item: Place
         for i, o in enumerate(opts):
             label = chr(ord("A")+i)
             text += f"\n{esc_md2(f'{label})')} {esc_md2(str(o))}"
-    await m.answer(text)
+    await m.answer(text, parse_mode=ParseMode.MARKDOWN_V2)
 
     st.mode = "placement"
     st.pending_placement_item_id = item.id
@@ -1065,7 +1213,7 @@ async def _ask_due_item(
                 prefer_short=plan.prefer_short,
             )
         if rule_msg:
-            await m.answer(rule_msg)
+            await m.answer(rule_msg, parse_mode=ParseMode.MARKDOWN_V2)
 
     instr = ex.instruction or ""
     text = ""
@@ -1077,7 +1225,7 @@ async def _ask_due_item(
         for i, o in enumerate(opts):
             label = chr(ord("A")+i)
             text += f"\n{esc_md2(f'{label})')} {esc_md2(str(o))}"
-    await m.answer(text)
+    await m.answer(text, parse_mode=ParseMode.MARKDOWN_V2)
 
     st.mode = due.kind
     st.pending_due_item_id = due.id
@@ -1639,6 +1787,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
         await m.answer(
             esc_md2(t("progress_reset", user.ui_lang)),
             reply_markup=kb_start_placement(user.ui_lang),
+            parse_mode=ParseMode.MARKDOWN_V2,
         )
 
     @dp.message(Command(commands=["easy", "normal", "strict"]))
@@ -1678,10 +1827,18 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                             select(AccessRequest).where(and_(AccessRequest.tg_user_id==user.id, AccessRequest.invite_token==token))
                         )).scalar_one()
                     await _send_admin_requests(s, settings, m, req)
-                await m.answer(esc_md2(t("access_required", settings.ui_default_lang)), reply_markup=kb_lang())
+                await m.answer(
+                    esc_md2(t("access_required", settings.ui_default_lang)),
+                    reply_markup=kb_lang(),
+                    parse_mode=ParseMode.MARKDOWN_V2,
+                )
                 return
 
-            await m.answer(esc_md2(t("choose_lang", user.ui_lang)), reply_markup=kb_lang())
+            await m.answer(
+                esc_md2(t("choose_lang", user.ui_lang)),
+                reply_markup=kb_lang(),
+                parse_mode=ParseMode.MARKDOWN_V2,
+            )
 
     @dp.callback_query(F.data == "admin_invite")
     async def admin_invite(c: CallbackQuery):
@@ -1714,7 +1871,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 f"`{esc_md2(start_token)}`\n\n"
                 f"Use /start `{esc_md2(start_token)}`"
             )
-        await c.message.answer(msg)
+        await c.message.answer(msg, parse_mode=ParseMode.MARKDOWN_V2)
         await c.answer("Invite created")
 
     @dp.callback_query(F.data.startswith("lang:"))
@@ -1754,7 +1911,12 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 req.tg_user_id,
             )
             try:
-                await c.bot.send_message(req.tg_user_id, esc_md2(t("approved_choose_lang", settings.ui_default_lang)), reply_markup=kb_lang())
+                await c.bot.send_message(
+                    req.tg_user_id,
+                    esc_md2(t("approved_choose_lang", settings.ui_default_lang)),
+                    reply_markup=kb_lang(),
+                    parse_mode=ParseMode.MARKDOWN_V2,
+                )
             except Exception:
                 pass
         await c.answer("Approved")
@@ -1826,7 +1988,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             st = await _get_or_create_state(s, user.id, settings)
 
             if st.mode == "await_next":
-                await m.answer(esc_md2(t("use_buttons", user.ui_lang)))
+                await m.answer(esc_md2(t("use_buttons", user.ui_lang)), parse_mode=ParseMode.MARKDOWN_V2)
                 return
 
             if st.mode == "placement" and st.pending_placement_item_id:
@@ -1889,7 +2051,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 await s.commit()
 
                 effective_correct = _effective_correct(verdict, False, acceptance_mode)
-                fb = _feedback_text(
+                rule_msg = None
+                if _should_attach_remediation(verdict, acceptance_mode, False):
+                    rule_msg = await _render_rule_fallback_for_unit_entities(
+                        s,
+                        item.unit_key,
+                        user.ui_lang,
+                        max_sections=3,
+                    )
+                fb_kwargs = build_feedback_message(
                     verdict,
                     att.user_answer_norm,
                     att.canonical,
@@ -1897,16 +2067,13 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                     acceptance_mode,
                     note,
                     show_next_prompt=not effective_correct,
+                    rule_message=rule_msg,
                 )
-                if _should_attach_remediation(verdict, acceptance_mode, False):
-                    rule_msg = await _render_rule_fallback_for_unit(s, item.unit_key, user.ui_lang, max_sections=3)
-                    if rule_msg:
-                        fb = f"{fb}\n\n{rule_msg}"
                 if effective_correct:
-                    await m.answer(fb, reply_markup=kb_why_only(att.id, user.ui_lang))
+                    await m.answer(**fb_kwargs, reply_markup=kb_why_only(att.id, user.ui_lang))
                     await _auto_next_after_correct_placement(m, s, user, st)
                     return
-                await m.answer(fb, reply_markup=kb_why_next(att.id, "placement_next", user.ui_lang))
+                await m.answer(**fb_kwargs, reply_markup=kb_why_next(att.id, "placement_next", user.ui_lang))
                 return
 
             if st.mode in ("detour","revisit","check") and st.pending_due_item_id:
@@ -1970,19 +2137,11 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 await s.commit()
 
                 effective_correct = _effective_correct(verdict, False, acceptance_mode)
-                fb = _feedback_text(
-                    verdict,
-                    att.user_answer_norm,
-                    att.canonical,
-                    user.ui_lang,
-                    acceptance_mode,
-                    note,
-                    show_next_prompt=not effective_correct,
-                )
+                rule_msg = None
                 if _should_attach_remediation(verdict, acceptance_mode, False):
                     plan = _remediation_rule_plan(due.kind)
                     if rule_keys:
-                        rule_msg = await _render_rules_for_keys(
+                        rule_msg = await _render_rules_for_keys_entities(
                             s,
                             rule_keys,
                             user.ui_lang,
@@ -1991,20 +2150,28 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                             examples_per_rule=plan.examples_per_rule,
                         )
                     else:
-                        rule_msg = await _render_rule_fallback_for_unit(
+                        rule_msg = await _render_rule_fallback_for_unit_entities(
                             s,
                             due.unit_key,
                             user.ui_lang,
                             max_sections=3,
                             prefer_short=plan.prefer_short,
                         )
-                    if rule_msg:
-                        fb = f"{fb}\n\n{rule_msg}"
+                fb_kwargs = build_feedback_message(
+                    verdict,
+                    att.user_answer_norm,
+                    att.canonical,
+                    user.ui_lang,
+                    acceptance_mode,
+                    note,
+                    show_next_prompt=not effective_correct,
+                    rule_message=rule_msg,
+                )
                 if effective_correct:
-                    await m.answer(fb, reply_markup=kb_why_only(att.id, user.ui_lang))
+                    await m.answer(**fb_kwargs, reply_markup=kb_why_only(att.id, user.ui_lang))
                     await _auto_next_after_correct_due(m, s, user, st, due, llm=llm)
                     return
-                await m.answer(fb, reply_markup=kb_why_next(att.id, f"{due.kind}_next", user.ui_lang))
+                await m.answer(**fb_kwargs, reply_markup=kb_why_next(att.id, f"{due.kind}_next", user.ui_lang))
                 return
 
     # ---------- WHY button ----------
@@ -2025,7 +2192,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             # cache by attempt + answer_norm (invalidate if changed)
             wc = (await s.execute(select(WhyCache).where(WhyCache.attempt_id==attempt_id))).scalar_one_or_none()
             if wc and wc.answer_norm == att.user_answer_norm:
-                await c.message.answer(wc.message_text)
+                await c.message.answer(wc.message_text, parse_mode=ParseMode.MARKDOWN_V2)
                 await c.answer()
                 return
 
@@ -2080,7 +2247,7 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 s.add(wc)
             await s.commit()
 
-            await c.message.answer(msg)
+            await c.message.answer(msg, parse_mode=ParseMode.MARKDOWN_V2)
         await c.answer()
 
     # ---------- NEXT button ----------

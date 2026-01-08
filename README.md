@@ -81,7 +81,18 @@ Logs are written to `./logs/`:
 - `logs/autotest_<timestamp>.jsonl`
 - `logs/autotest_<timestamp>_summary.json`
 
-## 7) What you still need to do
+## 7) Testing message formatting
+Run the unit test for entity-based feedback formatting:
+```bash
+pytest tests/test_feedback.py
+```
+
+Manual integration check (recommended after running the bot locally):
+1) Trigger the feedback flow (e.g., answer a placement or due question).
+2) Include special characters like `(`, `)`, `[`, `]`, `.`, `!`, `\` in your answer.
+3) Confirm the feedback message sends without errors and bold labels render.
+
+## 8) What you still need to do
 1) Replace sample datasets with your real extracted datasets.
 2) Ensure every exercise item has:
    - `canonical` (single string shown as correct)
