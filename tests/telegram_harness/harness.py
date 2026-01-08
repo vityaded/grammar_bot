@@ -37,28 +37,39 @@ class BotHarness:
     @classmethod
     async def create(
         cls,
-        tmp_path: Path,
+        tmp_path: Path | None = None,
         *,
+        sessionmaker: async_sessionmaker | None = None,
+        settings: Settings | None = None,
         settings_overrides: dict[str, object] | None = None,
     ) -> "BotHarness":
-        database_url = f"sqlite+aiosqlite:///{tmp_path / 'test.db'}"
-        settings = Settings(
-            bot_token="123456:TEST",
-            admin_ids=[999],
-            database_url=database_url,
-            gemini_api_key=None,
-            llm_model="gemini-3-flash-preview",
-            ui_default_lang="uk",
-            acceptance_mode="normal",
-        )
-        if settings_overrides:
-            settings = dataclasses.replace(settings, **settings_overrides)
+        engine = None
+        if sessionmaker is None:
+            if tmp_path is None:
+                raise ValueError("tmp_path is required when sessionmaker is not provided")
+            database_url = f"sqlite+aiosqlite:///{tmp_path / 'test.db'}"
+            settings = Settings(
+                bot_token="123456:TEST",
+                admin_ids=[999],
+                database_url=database_url,
+                gemini_api_key=None,
+                llm_model="gemini-3-flash-preview",
+                ui_default_lang="uk",
+                acceptance_mode="normal",
+            )
+            if settings_overrides:
+                settings = dataclasses.replace(settings, **settings_overrides)
 
-        engine = create_async_engine(settings.database_url, echo=False)
-        async with engine.begin() as conn:
-            await conn.run_sync(Base.metadata.create_all)
+            engine = create_async_engine(settings.database_url, echo=False)
+            async with engine.begin() as conn:
+                await conn.run_sync(Base.metadata.create_all)
 
-        sessionmaker = async_sessionmaker(engine, expire_on_commit=False)
+            sessionmaker = async_sessionmaker(engine, expire_on_commit=False)
+        else:
+            if settings is None:
+                raise ValueError("settings are required when sessionmaker is provided")
+            if settings_overrides:
+                settings = dataclasses.replace(settings, **settings_overrides)
         dispatcher = Dispatcher()
         register_handlers(dispatcher, settings=settings, sessionmaker=sessionmaker)
 
@@ -73,7 +84,8 @@ class BotHarness:
 
     async def close(self) -> None:
         await self.bot.session.close()
-        await self.engine.dispose()
+        if self.engine is not None:
+            await self.engine.dispose()
 
     def _next_update_id(self) -> int:
         self._update_id += 1
