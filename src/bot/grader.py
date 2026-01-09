@@ -4,7 +4,7 @@ from dataclasses import dataclass
 import logging
 import re
 from typing import List, TYPE_CHECKING
-from .normalize import norm_answer_text, norm_cmp_text, split_tokens
+from .normalize import norm_answer_text, norm_cmp_text, norm_cmp_text_spaced, split_tokens
 from .choices import resolve_choice
 
 if TYPE_CHECKING:
@@ -34,10 +34,11 @@ def grade_freetext(user: str, canonical: str, accepted_variants: List[str], mode
     user_norm = norm_answer_text(user)
     user_cmp = norm_cmp_text(user)
     canonical_display = (canonical or "").strip()
-    targets = [norm_cmp_text(canonical_display)] + [
-        norm_cmp_text(x) for x in (accepted_variants or []) if x
-    ]
+    target_texts = [canonical_display] + [x for x in (accepted_variants or []) if x]
+    targets = [norm_cmp_text(text) for text in target_texts if text]
     if user_cmp and user_cmp in targets:
+        return GradeResult("correct", user_norm, canonical_display)
+    if user_cmp and _contains_target_tokens(user, target_texts):
         return GradeResult("correct", user_norm, canonical_display)
 
     close = False
@@ -75,6 +76,27 @@ def _is_close(a: str, b: str) -> bool:
         return False
     limit = 2 if max(len(a), len(b)) <= 20 else 3
     return _levenshtein(a, b) <= limit
+
+def _contains_target_tokens(user: str, targets: list[str]) -> bool:
+    user_tokens = _tokenize_cmp(user)
+    if not user_tokens:
+        return False
+    for target in targets:
+        target_tokens = _tokenize_cmp(target)
+        if not target_tokens:
+            continue
+        if len(user_tokens) <= len(target_tokens):
+            continue
+        for idx in range(len(user_tokens) - len(target_tokens) + 1):
+            if user_tokens[idx : idx + len(target_tokens)] == target_tokens:
+                return True
+    return False
+
+def _tokenize_cmp(text: str) -> list[str]:
+    normalized = norm_cmp_text_spaced(text)
+    if not normalized:
+        return []
+    return normalized.split()
 
 def _legacy_mcq_match(user: str, canonical: str, accepted_variants: List[str], options: List[str]) -> GradeResult:
     resolved = resolve_choice(user, options)
