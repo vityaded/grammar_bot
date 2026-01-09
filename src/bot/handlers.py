@@ -2265,6 +2265,15 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
             att = await s.get(Attempt, attempt_id)
             if not att or att.tg_user_id != user.id:
                 await c.answer()
+                await c.message.answer("That task expired, sending a new one…")
+                await _ask_next_due_or_placement(
+                    c.message,
+                    s,
+                    user,
+                    st,
+                    llm=llm,
+                    reason="expired_attempt",
+                )
                 return
             await _handle_next_action(
                 c.message,
