@@ -51,6 +51,10 @@ Dev-only reset option (simplest):
 - `python -m src.bot.init_db`
 - re-import datasets with the commands above
 
+Schema updates note:
+- SQLite users are auto-migrated on startup via `ensure_sqlite_schema` (new columns are added automatically).
+- For other databases, add the new columns manually or via migrations when schema changes land.
+
 Sample datasets are included in `data/samples/`.
 
 ## 4) Deployment notes

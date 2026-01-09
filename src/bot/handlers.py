@@ -690,23 +690,22 @@ async def _auto_next_after_correct_due(
                 await s.commit()
             return
     else:
+        _mark_due_attempt(due, effective_correct=True)
         due.correct_in_exercise += 1
         items_length = await _due_items_length(s, due, llm=llm)
-        if items_length is not None and items_length > 0:
-            required_correct = min(2, items_length)
-        else:
-            required_correct = 2
+        required_correct = _required_correct_for_due(due, items_length=items_length)
         if due.correct_in_exercise >= required_correct:
             due.exercise_index += 1
             due.item_in_exercise = 1
             due.correct_in_exercise = 0
+            _reset_due_exercise_progress(due)
         else:
             due.item_in_exercise = (due.item_in_exercise or 1) + 1
-            items_length = await _due_items_length(s, due, llm=llm)
             if items_length and due.item_in_exercise > items_length:
                 due.exercise_index += 1
                 due.item_in_exercise = 1
                 due.correct_in_exercise = 0
+                _reset_due_exercise_progress(due)
 
     if due.kind == "check":
         due.is_active = False
@@ -912,6 +911,21 @@ async def _log_due_selected(
         due.item_in_exercise,
     )
 
+def _reset_due_exercise_progress(due: DueItem) -> None:
+    due.exercise_attempts = 0
+    due.exercise_hard_mode = False
+
+def _mark_due_attempt(due: DueItem, *, effective_correct: bool) -> None:
+    due.exercise_attempts = (due.exercise_attempts or 0) + 1
+    if not effective_correct and due.exercise_attempts <= 2:
+        due.exercise_hard_mode = True
+
+def _required_correct_for_due(due: DueItem, *, items_length: int | None) -> int:
+    required_correct = 2 if (due.exercise_attempts >= 2 and not due.exercise_hard_mode) else 5
+    if items_length is not None and items_length > 0:
+        return min(required_correct, items_length)
+    return required_correct
+
 async def _advance_due_detour_revisit(
     s: AsyncSession,
     due: DueItem,
@@ -919,23 +933,23 @@ async def _advance_due_detour_revisit(
     effective_correct: bool,
     llm: LLMClient | None,
 ) -> bool:
+    _mark_due_attempt(due, effective_correct=effective_correct)
     if effective_correct:
         due.correct_in_exercise += 1
         items_length = await _due_items_length(s, due, llm=llm)
-        if items_length is not None and items_length > 0:
-            required_correct = min(2, items_length)
-        else:
-            required_correct = 2
+        required_correct = _required_correct_for_due(due, items_length=items_length)
         if due.correct_in_exercise >= required_correct:
             due.exercise_index += 1
             due.item_in_exercise = 1
             due.correct_in_exercise = 0
+            _reset_due_exercise_progress(due)
         else:
             due.item_in_exercise = (due.item_in_exercise or 1) + 1
             if items_length and due.item_in_exercise > items_length:
                 due.exercise_index += 1
                 due.item_in_exercise = 1
                 due.correct_in_exercise = 0
+                _reset_due_exercise_progress(due)
     else:
         due.item_in_exercise = 1
         due.correct_in_exercise = 0
@@ -1009,6 +1023,7 @@ async def _due_current_item(
         if real_exercise_index is None:
             if selected:
                 due.exercise_index = 1
+                _reset_due_exercise_progress(due)
                 real_exercise_index = selected[0]
                 ex = await ensure_unit_exercise(
                     s,
@@ -1031,10 +1046,12 @@ async def _due_current_item(
                 position = due.exercise_index or 1
                 if position < 1 or position > len(selected):
                     due.exercise_index = 1
+                    _reset_due_exercise_progress(due)
                     real_exercise_index = selected[0]
             elif due.kind == "check":
                 if real_exercise_index != (due.exercise_index or real_exercise_index):
                     due.exercise_index = 1
+                    _reset_due_exercise_progress(due)
             ex = await ensure_unit_exercise(
                 s,
                 unit_key=due.unit_key,
@@ -1049,6 +1066,7 @@ async def _due_current_item(
             refreshed = await _due_selected_exercises(s, due)
             if refreshed:
                 due.exercise_index = 1
+                _reset_due_exercise_progress(due)
                 ex = await ensure_unit_exercise(
                     s,
                     unit_key=due.unit_key,
@@ -1087,6 +1105,7 @@ async def _due_items_length(
         if real_exercise_index is None:
             if selected:
                 due.exercise_index = 1
+                _reset_due_exercise_progress(due)
                 real_exercise_index = selected[0]
                 ex = await ensure_unit_exercise(
                     s,
@@ -1114,15 +1133,16 @@ async def _due_items_length(
             )
     except ValueError:
         return None
-    if not ex:
-        if selected:
-            refreshed = await _due_selected_exercises(s, due)
-            if refreshed:
-                due.exercise_index = 1
-                ex = await ensure_unit_exercise(
-                    s,
-                    unit_key=due.unit_key,
-                    exercise_index=refreshed[0],
+        if not ex:
+            if selected:
+                refreshed = await _due_selected_exercises(s, due)
+                if refreshed:
+                    due.exercise_index = 1
+                    _reset_due_exercise_progress(due)
+                    ex = await ensure_unit_exercise(
+                        s,
+                        unit_key=due.unit_key,
+                        exercise_index=refreshed[0],
                     llm_client=llm,
                     allow_generate=False,
                 )
@@ -1472,24 +1492,23 @@ async def _handle_next_action(
                     await s.commit()
                 return True
         else:
+            _mark_due_attempt(due, effective_correct=effective_correct)
             if effective_correct:
                 due.correct_in_exercise += 1
                 items_length = await _due_items_length(s, due, llm=llm)
-                if items_length is not None and items_length > 0:
-                    required_correct = min(2, items_length)
-                else:
-                    required_correct = 2
+                required_correct = _required_correct_for_due(due, items_length=items_length)
                 if due.correct_in_exercise >= required_correct:
                     due.exercise_index += 1
                     due.item_in_exercise = 1
                     due.correct_in_exercise = 0
+                    _reset_due_exercise_progress(due)
                 else:
                     due.item_in_exercise = (due.item_in_exercise or 1) + 1
-                    items_length = await _due_items_length(s, due, llm=llm)
                     if items_length and due.item_in_exercise > items_length:
                         due.exercise_index += 1
                         due.item_in_exercise = 1
                         due.correct_in_exercise = 0
+                        _reset_due_exercise_progress(due)
             else:
                 due.item_in_exercise = 1
                 due.correct_in_exercise = 0
