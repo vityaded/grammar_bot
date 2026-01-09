@@ -308,8 +308,11 @@ def grade_option_item(
     canonical_display = _format_correct_answer(correct_options, selection_policy, canonical)
     selections = _map_user_selections(user, options)
     if not selections:
-        if selection_policy == "any" and not explicit_correct_options:
-            return _legacy_mcq_match(user, canonical, accepted_variants, options)
+        if selection_policy == "any":
+            if _contains_target_tokens(user, correct_options):
+                return GradeResult("correct", norm_answer_text(user), canonical_display)
+            if not explicit_correct_options:
+                return _legacy_mcq_match(user, canonical, accepted_variants, options)
         return GradeResult("wrong", "—", canonical_display)
 
     user_norm = norm_answer_text(", ".join(selections))
