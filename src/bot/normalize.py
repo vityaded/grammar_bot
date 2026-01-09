@@ -33,20 +33,26 @@ def norm_answer_text(s: str) -> str:
     s = re.sub(r"\s+", " ", s)
     return s
 
-def _strip_punctuation(s: str) -> str:
+def _letters_only(s: str, *, preserve_spaces: bool) -> str:
     if not s:
         return ""
     cleaned = []
     for ch in s:
-        if unicodedata.category(ch).startswith("P"):
-            cleaned.append(" ")
-        else:
+        if unicodedata.category(ch).startswith("L"):
             cleaned.append(ch)
+        elif preserve_spaces:
+            cleaned.append(" ")
     return "".join(cleaned)
 
 def norm_cmp_text(s: str) -> str:
     normalized = norm_answer_text(s)
-    normalized = _strip_punctuation(normalized)
+    normalized = _letters_only(normalized, preserve_spaces=False)
+    normalized = re.sub(r"\s+", "", normalized).strip()
+    return normalized.casefold()
+
+def norm_cmp_text_spaced(s: str) -> str:
+    normalized = norm_answer_text(s)
+    normalized = _letters_only(normalized, preserve_spaces=True)
     normalized = re.sub(r"\s+", " ", normalized).strip()
     return normalized.casefold()
 
