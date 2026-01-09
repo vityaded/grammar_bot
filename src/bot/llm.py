@@ -45,7 +45,7 @@ Canonical correct answer: {canonical}
 
 Normalization rules (always ignore):
 - Letter case differences.
-- Punctuation differences (e.g., commas/semicolons, trailing punctuation).
+- Non-letter characters (digits, punctuation, symbols, whitespace).
 - Curly vs straight quotes.
 
 Difficulty rules:
