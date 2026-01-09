@@ -22,7 +22,15 @@ from .models import (
     User, UserState, AccessRequest, PlacementItem, Attempt, WhyCache, DueItem,
     RuleI18nV2, UnitExercise, utcnow
 )
-from .keyboards import kb_admin_actions, kb_admin_approve, kb_lang, kb_start_placement, kb_why_next, kb_why_only
+from .keyboards import (
+    kb_admin_actions,
+    kb_admin_approve,
+    kb_lang,
+    kb_next_only,
+    kb_start_placement,
+    kb_why_next,
+    kb_why_only,
+)
 from .grader import (
     grade_freetext,
     grade_mcq,
@@ -2247,7 +2255,9 @@ def register_handlers(dp: Dispatcher, *, settings: Settings, sessionmaker: async
                 s.add(wc)
             await s.commit()
 
-            await c.message.answer(msg, parse_mode=ParseMode.MARKDOWN_V2)
+            next_kind = _next_kind_from_attempt(att)
+            reply_markup = kb_next_only(att.id, next_kind, user.ui_lang) if next_kind else None
+            await c.message.answer(msg, parse_mode=ParseMode.MARKDOWN_V2, reply_markup=reply_markup)
         await c.answer()
 
     # ---------- NEXT button ----------
