@@ -1,14 +1,14 @@
 from bot.handlers import build_feedback_message
 
 
-def test_feedback_almost_label_acceptance():
-    kwargs = build_feedback_message("almost", "answer", "answer", "en", "normal")
-    assert "Almost (accepted)" in kwargs["text"]
+def test_feedback_correct_label():
+    kwargs = build_feedback_message("correct", "answer", "answer", "en", "normal")
+    assert "Correct" in kwargs["text"]
 
 
-def test_feedback_almost_label_strict():
-    kwargs = build_feedback_message("almost", "answer", "answer", "en", "strict")
-    assert "counts as wrong" in kwargs["text"]
+def test_feedback_wrong_label():
+    kwargs = build_feedback_message("wrong", "answer", "answer", "en", "strict")
+    assert "Wrong" in kwargs["text"]
 
 
 def test_feedback_message_allows_special_chars():

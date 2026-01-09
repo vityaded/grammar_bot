@@ -15,7 +15,7 @@ else:
 
 @dataclass
 class GradeResult:
-    verdict: str            # correct | almost | wrong
+    verdict: str            # correct | wrong
     user_answer_norm: str
     canonical: str
     note: str = ""
@@ -41,14 +41,11 @@ def grade_freetext(user: str, canonical: str, accepted_variants: List[str], mode
     if user_cmp and _contains_target_tokens(user, target_texts):
         return GradeResult("correct", user_norm, canonical_display)
 
-    close = False
     if user_cmp and canonical_display:
         close = any(_is_close(user_cmp, t) for t in targets if t)
-
-    if close and mode == "easy":
-        return GradeResult("correct", user_norm, canonical_display)
-    if close and mode in ("normal", "strict"):
-        return GradeResult("almost", user_norm, canonical_display)
+        if close and mode in ("easy", "normal", "strict"):
+            if any(_contains_all_letters(user_cmp, t) for t in targets if t):
+                return GradeResult("correct", user_norm, canonical_display)
     return GradeResult("wrong", user_norm, canonical_display)
 
 def _levenshtein(a: str, b: str) -> int:
@@ -97,6 +94,19 @@ def _tokenize_cmp(text: str) -> list[str]:
     if not normalized:
         return []
     return normalized.split()
+
+
+def _contains_all_letters(user_cmp: str, target_cmp: str) -> bool:
+    if not user_cmp or not target_cmp:
+        return False
+    from collections import Counter
+
+    user_counts = Counter(user_cmp)
+    target_counts = Counter(target_cmp)
+    for ch, needed in target_counts.items():
+        if user_counts.get(ch, 0) < needed:
+            return False
+    return True
 
 def _legacy_mcq_match(user: str, canonical: str, accepted_variants: List[str], options: List[str]) -> GradeResult:
     resolved = resolve_choice(user, options)
@@ -320,10 +330,8 @@ def grade_option_item(
     user_cmp = [norm_cmp_text(x) for x in selections]
 
     if selection_policy == "any":
-        if len(user_cmp) == 1 and user_cmp[0] in correct_cmp:
+        if correct_cmp and set(correct_cmp).issubset(set(user_cmp)):
             return GradeResult("correct", user_norm, canonical_display)
-        if len(user_cmp) > 1 and set(user_cmp).intersection(correct_cmp):
-            return GradeResult("almost", user_norm, canonical_display, note="Choose ONE option")
         return GradeResult("wrong", user_norm, canonical_display)
 
     if order_sensitive:
@@ -331,13 +339,13 @@ def grade_option_item(
             return GradeResult("correct", user_norm, canonical_display)
         return GradeResult("wrong", user_norm, canonical_display)
 
-    if set(user_cmp) == set(correct_cmp):
+    if set(correct_cmp).issubset(set(user_cmp)) and correct_cmp:
         return GradeResult("correct", user_norm, canonical_display)
     overlap = set(user_cmp).intersection(correct_cmp)
     if overlap:
         missing = [opt for opt in correct_options if norm_cmp_text(opt) not in set(user_cmp)]
         extra = [opt for opt in selections if norm_cmp_text(opt) not in set(correct_cmp)]
-        return GradeResult("almost", user_norm, canonical_display, missing=missing, extra=extra)
+        return GradeResult("wrong", user_norm, canonical_display, missing=missing, extra=extra)
     return GradeResult("wrong", user_norm, canonical_display)
 
 

@@ -83,8 +83,6 @@ async def _set_user_acceptance_mode(s: AsyncSession, st: UserState, mode: str) -
 def _effective_correct(verdict: str, flipped_to_correct: bool, mode: str) -> bool:
     if flipped_to_correct:
         return True
-    if mode in ("easy", "normal"):
-        return verdict in ("correct", "almost")
     return verdict == "correct"
 
 def _should_attach_remediation(verdict: str, acceptance_mode: str, flipped: bool) -> bool:
@@ -568,11 +566,6 @@ def _build_feedback_text(
     # labels bold; verdict emoji + one word
     if verdict == "correct":
         v = "✅ Correct"
-    elif verdict == "almost":
-        if acceptance_mode in ("easy", "normal"):
-            v = "⚠️ Almost (accepted)"
-        else:
-            v = "⚠️ Almost (counts as wrong)"
     else:
         v = "❌ Wrong"
     parts: list[object] = [v]
@@ -1341,7 +1334,7 @@ async def _handle_next_action(
             await s.commit()
             return True
 
-        # wrong/almost -> schedule detour, but start detour only AFTER Next (this click).
+        # wrong -> schedule detour, but start detour only AFTER Next (this click).
         placement_item = await s.get(PlacementItem, att.placement_item_id or 0) if att.placement_item_id else None
         unit_keys = _parse_study_units(
             placement_item.study_units_json if placement_item else None,
@@ -1442,7 +1435,7 @@ async def _handle_next_action(
             await s.commit()
             return True
 
-        # update progress based on effective_correct, but "almost" counts wrong
+        # update progress based on effective_correct
         if due.kind in ("detour", "revisit"):
             completed = await _advance_due_detour_revisit(
                 s,
