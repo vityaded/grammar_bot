@@ -102,6 +102,8 @@ async def ensure_detours_for_units(
         existing.exercise_index = 1
         existing.item_in_exercise = 1
         existing.correct_in_exercise = 0
+        existing.exercise_attempts = 0
+        existing.exercise_hard_mode = False
         existing.batch_num = 1
         existing.is_active = True
         existing.cause_rule_keys_json = merged_json

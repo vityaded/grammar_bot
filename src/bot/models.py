@@ -112,6 +112,8 @@ class DueItem(Base):
     exercise_index: Mapped[int] = mapped_column(Integer, default=1)
     item_in_exercise: Mapped[int] = mapped_column(Integer, default=1)  # 1..K (K depends on exercise items and filtering)
     correct_in_exercise: Mapped[int] = mapped_column(Integer, default=0)  # 0..required_correct (2 for revisit, up to 3 for detour, capped by items)
+    exercise_attempts: Mapped[int] = mapped_column(Integer, default=0)
+    exercise_hard_mode: Mapped[bool] = mapped_column(Boolean, default=False)
 
     batch_num: Mapped[int] = mapped_column(Integer, default=1)  # 1..max_batches
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
