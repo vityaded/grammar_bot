@@ -1084,8 +1084,6 @@ async def _due_current_item(
         return (ex, None, None)
     cause_keys = _due_cause_keys(due)
     filtered_items = _filter_items_by_cause(items, cause_keys)
-    if due.kind in ("detour", "revisit"):
-        filtered_items = filtered_items[:2]
     item_index = due.item_in_exercise or 1
     if item_index < 1:
         item_index = 1
@@ -1156,8 +1154,6 @@ async def _due_items_length(
         return None
     cause_keys = _due_cause_keys(due)
     filtered_items = _filter_items_by_cause(items, cause_keys)
-    if due.kind in ("detour", "revisit"):
-        filtered_items = filtered_items[:2]
     return len(filtered_items)
 
 async def _handle_missing_due_content(
