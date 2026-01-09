@@ -47,6 +47,12 @@ def _strip_punctuation(s: str) -> str:
 def norm_cmp_text(s: str) -> str:
     normalized = norm_answer_text(s)
     normalized = _strip_punctuation(normalized)
+    normalized = re.sub(r"\s+", "", normalized).strip()
+    return normalized.casefold()
+
+def norm_cmp_text_spaced(s: str) -> str:
+    normalized = norm_answer_text(s)
+    normalized = _strip_punctuation(normalized)
     normalized = re.sub(r"\s+", " ", normalized).strip()
     return normalized.casefold()
 
