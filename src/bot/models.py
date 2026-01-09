@@ -135,7 +135,7 @@ class Attempt(Base):
     prompt: Mapped[str] = mapped_column(Text)
     canonical: Mapped[str] = mapped_column(Text)
     user_answer_norm: Mapped[str] = mapped_column(Text)
-    verdict: Mapped[str] = mapped_column(String(16))  # correct | almost | wrong
+    verdict: Mapped[str] = mapped_column(String(16))  # correct | wrong
     rule_keys_json: Mapped[str | None] = mapped_column(Text, nullable=True)
     created_at: Mapped[dt.datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 

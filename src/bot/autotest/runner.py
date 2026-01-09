@@ -84,7 +84,6 @@ class RunnerConfig:
 class AttemptStats:
     attempts: int = 0
     correct: int = 0
-    almost: int = 0
     wrong: int = 0
     forced_wrong: int = 0
     forced_wrong_accepted: int = 0
@@ -207,10 +206,9 @@ class AutotestRunner:
                 return 3
         await self._write_summary(reason=None)
         logger.info(
-            "Autotest run completed (attempts=%s, correct=%s, almost=%s, wrong=%s)",
+            "Autotest run completed (attempts=%s, correct=%s, wrong=%s)",
             self._stats.attempts,
             self._stats.correct,
-            self._stats.almost,
             self._stats.wrong,
         )
         return exit_code
@@ -359,16 +357,13 @@ class AutotestRunner:
         self._stats.attempts += 1
         if verdict == "correct":
             self._stats.correct += 1
-        elif verdict == "almost":
-            self._stats.almost += 1
         else:
             self._stats.wrong += 1
         if self._stats.attempts == 1 or self._stats.attempts % 50 == 0:
             logger.info(
-                "Progress: attempts=%s correct=%s almost=%s wrong=%s",
+                "Progress: attempts=%s correct=%s wrong=%s",
                 self._stats.attempts,
                 self._stats.correct,
-                self._stats.almost,
                 self._stats.wrong,
             )
         if force_wrong and verdict == "correct":
@@ -651,7 +646,6 @@ class AutotestRunner:
             "totals": {
                 "attempts": self._stats.attempts,
                 "correct": self._stats.correct,
-                "almost": self._stats.almost,
                 "wrong": self._stats.wrong,
             },
             "issues": {

@@ -29,8 +29,14 @@ def test_freetext_close_typos():
     canonical = "doesn't"
     user = "doesnt"
     assert grade_freetext(user, canonical, [], "easy").verdict == "correct"
-    assert grade_freetext(user, canonical, [], "normal").verdict == "almost"
-    assert grade_freetext(user, canonical, [], "strict").verdict == "almost"
+    assert grade_freetext(user, canonical, [], "normal").verdict == "correct"
+    assert grade_freetext(user, canonical, [], "strict").verdict == "correct"
+
+
+def test_freetext_missing_letters_is_wrong():
+    canonical = "spelling"
+    user = "spelin"
+    assert grade_freetext(user, canonical, [], "normal").verdict == "wrong"
 
 def test_multiselect_ordering_modes():
     options = ["were", "was"]
@@ -89,7 +95,7 @@ def test_any_of_correctness():
     assert res_a.canonical == "do you feel / are you feeling"
 
 
-def test_any_of_multiple_selection_is_almost():
+def test_any_of_multiple_selection_is_correct():
     options = ["you are feeling", "do you feel", "are you feeling"]
     correct = ["do you feel", "are you feeling"]
     res = grade_option_item(
@@ -102,8 +108,8 @@ def test_any_of_multiple_selection_is_almost():
         order_sensitive=False,
         explicit_correct_options=True,
     )
-    assert res.verdict == "almost"
-    assert res.note == "Choose ONE option"
+    assert res.verdict == "correct"
+    assert res.note == ""
 
 
 def test_all_of_correctness():
@@ -119,7 +125,7 @@ def test_all_of_correctness():
         order_sensitive=False,
         explicit_correct_options=True,
     )
-    assert res_partial.verdict == "almost"
+    assert res_partial.verdict == "wrong"
     res_full = grade_option_item(
         "B, C",
         "",
@@ -131,6 +137,17 @@ def test_all_of_correctness():
         explicit_correct_options=True,
     )
     assert res_full.verdict == "correct"
+    res_extra = grade_option_item(
+        "A, B, C",
+        "",
+        [],
+        options,
+        selection_policy="all",
+        correct_options=correct,
+        order_sensitive=False,
+        explicit_correct_options=True,
+    )
+    assert res_extra.verdict == "correct"
 
 
 def test_legacy_multiselect_needs_review():
